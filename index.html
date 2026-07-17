@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Dip-and-Recover Trading Bot</title>
+<style>
+  :root {
+    --bg: #0f1115;
+    --card: #161a22;
+    --border: #262b36;
+    --text: #e6e9ef;
+    --muted: #8b93a3;
+    --green: #3ddc84;
+    --red: #ff5d5d;
+    --accent: #5b8cff;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    padding: 24px 16px 64px;
+  }
+  .wrap { max-width: 960px; margin: 0 auto; }
+  header {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    margin-bottom: 24px;
+  }
+  h1 { font-size: 22px; margin: 0; }
+  .sub { color: var(--muted); font-size: 13px; margin-top: 4px; }
+  .badge {
+    display: inline-block;
+    padding: 4px 10px;
+    border-radius: 999px;
+    font-size: 12px;
+    font-weight: 600;
+    background: rgba(61, 220, 132, 0.15);
+    color: var(--green);
+    border: 1px solid rgba(61, 220, 132, 0.35);
+  }
+  .badge.live {
+    background: rgba(255, 93, 93, 0.15);
+    color: var(--red);
+    border-color: rgba(255, 93, 93, 0.35);
+  }
+  button {
+    background: var(--card);
+    color: var(--text);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 8px 14px;
+    font-size: 13px;
+    cursor: pointer;
+  }
+  button:hover { border-color: var(--accent); }
+  .cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+    gap: 12px;
+    margin-bottom: 28px;
+  }
+  .card {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 16px;
+  }
+  .card .label { font-size: 12px; color: var(--muted); margin-bottom: 6px; }
+  .card .value { font-size: 22px; font-weight: 700; }
+  section { margin-bottom: 32px; }
+  section h2 {
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    color: var(--muted);
+    margin-bottom: 12px;
+  }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    overflow: hidden;
+    font-size: 14px;
+  }
+  th, td {
+    text-align: left;
+    padding: 10px 14px;
+    border-bottom: 1px solid var(--border);
+  }
+  th {
+    color: var(--muted);
+    font-weight: 600;
+    font-size: 12px;
+    text-transform: uppercase;
+  }
+  tr:last-child td { border-bottom: none; }
+  .pos { color: var(--green); }
+  .neg { color: var(--red); }
+  .empty {
+    padding: 24px;
+    text-align: center;
+    color: var(--muted);
+    background: var(--card);
+    border: 1px dashed var(--border);
+    border-radius: 12px;
+    font-size: 14px;
+  }
+  .buy { color: var(--accent); font-weight: 600; }
+  .sell { color: var(--green); font-weight: 600; }
+  footer {
+    color: var(--muted);
+    font-size: 12px;
+    text-align: center;
+    margin-top: 40px;
+    line-height: 1.6;
+  }
+  footer a { color: var(--accent); }
+  code {
+    background: rgba(255,255,255,0.06);
+    padding: 1px 5px;
+    border-radius: 4px;
+    font-size: 12px;
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div>
+      <h1>Dip-and-Recover Trading Bot</h1>
+      <div class="sub" id="updated">Loading&hellip;</div>
+    </div>
+    <div style="display:flex; gap:10px; align-items:center;">
+      <span class="badge" id="mode-badge">Paper Trading</span>
+      <button id="refresh-btn" onclick="loadAll()">Refresh</button>
+    </div>
+  </header>
+
+  <div class="cards" id="summary-cards">
+    <div class="card"><div class="label">Equity</div><div class="value" id="equity">&ndash;</div></div>
+    <div class="card"><div class="label">Cash</div><div class="value" id="cash">&ndash;</div></div>
+    <div class="card"><div class="label">Buying Power</div><div class="value" id="buying-power">&ndash;</div></div>
+    <div class="card"><div class="label">Open Positions</div><div class="value" id="pos-count">&ndash;</div></div>
+  </div>
+
+  <section>
+    <h2>Open Positions</h2>
+    <div id="positions-wrap"><div class="empty">Loading positions&hellip;</div></div>
+  </section>
+
+  <section>
+    <h2>Trade History</h2>
+    <div id="trades-wrap"><div class="empty">Loading trade history&hellip;</div></div>
+  </section>
+
+  <footer>
+    Strategy: buy any S&amp;P 500 stock down 5%+ vs. previous close, sell once a
+    position recovers 7%+ from its average entry price. Runs automatically every
+    15 minutes during market hours via GitHub Actions.<br />
+    This is a paper-trading demo, not financial advice, and not a proven
+    profitable strategy.<br />
+    <a href="https://github.com/titomotta3/dip-recover-trading-bot" target="_blank" rel="noopener">
+      View source on GitHub
+    </a>
+  </footer>
+</div>
+
+<script>
+  const money = (n) => {
+    if (n === null || n === undefined || isNaN(n)) return "&ndash;";
+    const sign = n < 0 ? "-" : "";
+    return sign + "$" + Math.abs(n).toLocaleString(undefined, { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+  };
+  const pct = (n) => {
+    if (n === null || n === undefined || isNaN(n)) return "&ndash;";
+    return (n >= 0 ? "+" : "") + n.toFixed(2) + "%";
+  };
+  const cls = (n) => (n >= 0 ? "pos" : "neg");
+
+  async function fetchNoCache(path) {
+    const res = await fetch(path + "?t=" + Date.now(), { cache: "no-store" });
+    if (!res.ok) throw new Error(path + " returned " + res.status);
+    return res;
+  }
+
+  function parseCsv(text) {
+    const lines = text.trim().split("\n").filter(Boolean);
+    if (lines.length <= 1) return [];
+    const rows = lines.slice(1).map((line) => {
+      const [timestamp_utc, action, symbol, ...rest] = line.split(",");
+      return { timestamp_utc, action, symbol, detail: rest.join(",") };
+    });
+    return rows.reverse(); // most recent first
+  }
+
+  async function loadSnapshot() {
+    try {
+      const res = await fetchNoCache("account_snapshot.json");
+      const data = await res.json();
+
+      document.getElementById("updated").textContent =
+        "Last updated: " + new Date(data.updated_utc).toLocaleString();
+      const badge = document.getElementById("mode-badge");
+      badge.textContent = data.paper ? "Paper Trading" : "LIVE TRADING";
+      badge.className = "badge" + (data.paper ? "" : " live");
+
+      document.getElementById("equity").textContent = money(data.equity);
+      document.getElementById("cash").textContent = money(data.cash);
+      document.getElementById("buying-power").textContent = money(data.buying_power);
+      document.getElementById("pos-count").textContent = data.positions.length;
+
+      const wrap = document.getElementById("positions-wrap");
+      if (!data.positions.length) {
+        wrap.innerHTML = '<div class="empty">No open positions right now &mdash; waiting for the next 5%+ dip.</div>';
+      } else {
+        wrap.innerHTML = `
+          <table>
+            <thead><tr>
+              <th>Symbol</th><th>Qty</th><th>Avg Entry</th><th>Current Price</th>
+              <th>Unrealized P/L</th><th>Unrealized %</th>
+            </tr></thead>
+            <tbody>
+              ${data.positions.map((p) => `
+                <tr>
+                  <td><strong>${p.symbol}</strong></td>
+                  <td>${p.qty}</td>
+                  <td>${money(p.avg_entry_price)}</td>
+                  <td>${money(p.current_price)}</td>
+                  <td class="${cls(p.unrealized_pl)}">${money(p.unrealized_pl)}</td>
+                  <td class="${cls(p.unrealized_plpc)}">${pct(p.unrealized_plpc)}</td>
+                </tr>`).join("")}
+            </tbody>
+          </table>`;
+      }
+    } catch (err) {
+      document.getElementById("updated").textContent =
+        "Could not load account_snapshot.json yet — it's created after the bot's first run.";
+      document.getElementById("positions-wrap").innerHTML =
+        '<div class="empty">No data yet.</div>';
+    }
+  }
+
+  async function loadTrades() {
+    const wrap = document.getElementById("trades-wrap");
+    try {
+      const res = await fetchNoCache("trade_log.csv");
+      const text = await res.text();
+      const rows = parseCsv(text);
+      if (!rows.length) {
+        wrap.innerHTML = '<div class="empty">No trades yet.</div>';
+        return;
+      }
+      wrap.innerHTML = `
+        <table>
+          <thead><tr><th>Time (UTC)</th><th>Action</th><th>Symbol</th><th>Detail</th></tr></thead>
+          <tbody>
+            ${rows.map((r) => `
+              <tr>
+                <td>${new Date(r.timestamp_utc).toLocaleString()}</td>
+                <td class="${r.action === "BUY" ? "buy" : "sell"}">${r.action}</td>
+                <td><strong>${r.symbol}</strong></td>
+                <td>${r.detail}</td>
+              </tr>`).join("")}
+          </tbody>
+        </table>`;
+    } catch (err) {
+      wrap.innerHTML = '<div class="empty">No trade history yet.</div>';
+    }
+  }
+
+  function loadAll() {
+    loadSnapshot();
+    loadTrades();
+  }
+
+  loadAll();
+  setInterval(loadAll, 60000); // refresh every 60s
+</script>
+</body>
+</html>

@@ -17,6 +17,7 @@ each run doing one buy-scan + one sell-scan and then exiting.
 
 import csv
 import datetime as dt
+import json
 import os
 import sys
 import traceback
@@ -49,6 +50,11 @@ SELL_THRESHOLD_PCT = float(os.environ.get("SELL_THRESHOLD_PCT", "7.0"))
 TRADE_DOLLARS = float(os.environ.get("TRADE_DOLLARS", "500"))
 
 TRADE_LOG_PATH = os.environ.get("TRADE_LOG_PATH", "trade_log.csv")
+
+# Public snapshot of account state, read by the static dashboard (index.html).
+# Contains no credentials -- just equity/cash/positions, which for a paper
+# account is simulated money anyway.
+SNAPSHOT_PATH = os.environ.get("SNAPSHOT_PATH", "account_snapshot.json")
 
 # Free, regularly-updated CSV of current S&P 500 constituents.
 UNIVERSE_URL = (
@@ -214,6 +220,48 @@ def check_sells(client: TradingClient) -> None:
                 log(f"SELL order failed for {pos.symbol}: {exc}")
 
 
+def write_snapshot(client: TradingClient) -> None:
+    """Dump equity/cash/positions to a public JSON file for the dashboard.
+
+    No API keys or secrets are ever written here -- only account totals and
+    position data, which for a paper account is simulated money anyway.
+    """
+    try:
+        account = client.get_account()
+        positions = client.get_all_positions()
+    except Exception as exc:  # noqa: BLE001
+        log(f"Could not write snapshot: {exc}")
+        return
+
+    snapshot = {
+        "updated_utc": dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds"),
+        "paper": PAPER,
+        "equity": float(account.equity),
+        "cash": float(account.cash),
+        "buying_power": float(account.buying_power),
+        "drop_threshold_pct": DROP_THRESHOLD_PCT,
+        "sell_threshold_pct": SELL_THRESHOLD_PCT,
+        "positions": [
+            {
+                "symbol": p.symbol,
+                "qty": float(p.qty),
+                "avg_entry_price": float(p.avg_entry_price),
+                "current_price": float(p.current_price) if p.current_price else None,
+                "unrealized_pl": float(p.unrealized_pl),
+                "unrealized_plpc": float(p.unrealized_plpc) * 100,
+            }
+            for p in positions
+        ],
+    }
+    try:
+        with open(SNAPSHOT_PATH, "w") as f:
+            json.dump(snapshot, f, indent=2)
+        log(f"Wrote snapshot: equity=${snapshot['equity']:.2f}, "
+            f"{len(snapshot['positions'])} open position(s).")
+    except Exception as exc:  # noqa: BLE001
+        log(f"Could not save snapshot file: {exc}")
+
+
 def main() -> None:
     client = get_client()
     log(f"Starting run (paper={PAPER}, drop_threshold={DROP_THRESHOLD_PCT}%, "
@@ -221,6 +269,7 @@ def main() -> None:
 
     if not market_is_open(client):
         log("Market is closed. Exiting without scanning.")
+        write_snapshot(client)
         return
 
     # Check exits first so a sale can free up buying power for new dips.
@@ -229,6 +278,7 @@ def main() -> None:
     tickers = get_universe()
     check_buys(client, tickers)
 
+    write_snapshot(client)
     log("Run complete.")
 
 
