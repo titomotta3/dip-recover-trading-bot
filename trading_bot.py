@@ -56,6 +56,10 @@ TRADE_LOG_PATH = os.environ.get("TRADE_LOG_PATH", "trade_log.csv")
 # account is simulated money anyway.
 SNAPSHOT_PATH = os.environ.get("SNAPSHOT_PATH", "account_snapshot.json")
 
+# Ticker -> company name lookup, read by the dashboard so it can show
+# "AAPL -- Apple Inc." instead of just the bare ticker.
+COMPANIES_PATH = os.environ.get("COMPANIES_PATH", "companies.json")
+
 # Free, regularly-updated CSV of current S&P 500 constituents.
 UNIVERSE_URL = (
     "https://raw.githubusercontent.com/datasets/s-and-p-500-companies/"
@@ -68,6 +72,40 @@ FALLBACK_TICKERS = [
     "V", "UNH", "HD", "PG", "MA", "XOM", "COST", "JNJ", "ABBV", "MRK", "BAC",
     "KO", "PEP", "AVGO", "WMT", "CVX", "ADBE", "CRM", "NFLX", "DIS", "PFE",
 ]
+
+# Matching company names for the fallback list above.
+FALLBACK_NAMES = {
+    "AAPL": "Apple Inc.",
+    "MSFT": "Microsoft Corporation",
+    "AMZN": "Amazon.com, Inc.",
+    "GOOGL": "Alphabet Inc.",
+    "META": "Meta Platforms, Inc.",
+    "NVDA": "NVIDIA Corporation",
+    "TSLA": "Tesla, Inc.",
+    "BRK.B": "Berkshire Hathaway Inc.",
+    "JPM": "JPMorgan Chase & Co.",
+    "V": "Visa Inc.",
+    "UNH": "UnitedHealth Group Incorporated",
+    "HD": "The Home Depot, Inc.",
+    "PG": "The Procter & Gamble Company",
+    "MA": "Mastercard Incorporated",
+    "XOM": "Exxon Mobil Corporation",
+    "COST": "Costco Wholesale Corporation",
+    "JNJ": "Johnson & Johnson",
+    "ABBV": "AbbVie Inc.",
+    "MRK": "Merck & Co., Inc.",
+    "BAC": "Bank of America Corporation",
+    "KO": "The Coca-Cola Company",
+    "PEP": "PepsiCo, Inc.",
+    "AVGO": "Broadcom Inc.",
+    "WMT": "Walmart Inc.",
+    "CVX": "Chevron Corporation",
+    "ADBE": "Adobe Inc.",
+    "CRM": "Salesforce, Inc.",
+    "NFLX": "Netflix, Inc.",
+    "DIS": "The Walt Disney Company",
+    "PFE": "Pfizer Inc.",
+}
 
 
 def log(message: str) -> None:
@@ -101,15 +139,27 @@ def market_is_open(client: TradingClient) -> bool:
     return bool(clock.is_open)
 
 
-def get_universe() -> list:
+def get_universe() -> tuple:
+    """Returns (tickers, names) where names maps ticker -> company name."""
     try:
         df = pd.read_csv(UNIVERSE_URL)
-        tickers = df["Symbol"].astype(str).str.replace(".", "-", regex=False).tolist()
+        df["Symbol"] = df["Symbol"].astype(str).str.replace(".", "-", regex=False)
+        tickers = df["Symbol"].tolist()
+        names = dict(zip(df["Symbol"], df["Security"].astype(str)))
         if tickers:
-            return tickers
+            return tickers, names
     except Exception as exc:  # noqa: BLE001
         log(f"Could not fetch S&P 500 list ({exc}); using fallback ticker list.")
-    return FALLBACK_TICKERS
+    return FALLBACK_TICKERS, FALLBACK_NAMES
+
+
+def write_companies(names: dict) -> None:
+    """Dump the ticker -> company name lookup for the dashboard to read."""
+    try:
+        with open(COMPANIES_PATH, "w") as f:
+            json.dump(names, f, indent=2, sort_keys=True)
+    except Exception as exc:  # noqa: BLE001
+        log(f"Could not save companies file: {exc}")
 
 
 def already_bought_today(client: TradingClient, symbol: str) -> bool:
@@ -174,7 +224,7 @@ def fetch_price_changes(tickers: list) -> dict:
     return changes
 
 
-def check_buys(client: TradingClient, tickers: list) -> None:
+def check_buys(client: TradingClient, tickers: list, names: dict) -> None:
     changes = fetch_price_changes(tickers)
     dropped = {s: c for s, c in changes.items() if c <= DROP_THRESHOLD_PCT}
     log(f"Scanned {len(changes)} tickers, {len(dropped)} down {DROP_THRESHOLD_PCT}% or more.")
@@ -191,14 +241,15 @@ def check_buys(client: TradingClient, tickers: list) -> None:
                 time_in_force=TimeInForce.DAY,
             )
             client.submit_order(order)
+            company = names.get(symbol, "")
             detail = f"drop={pct_change:.2f}% notional=${TRADE_DOLLARS:.2f}"
-            log(f"BUY {symbol}: {detail}")
+            log(f"BUY {symbol} ({company}): {detail}")
             append_trade_log("BUY", symbol, detail)
         except Exception as exc:  # noqa: BLE001
             log(f"BUY order failed for {symbol}: {exc}")
 
 
-def check_sells(client: TradingClient) -> None:
+def check_sells(client: TradingClient, names: dict) -> None:
     try:
         positions = client.get_all_positions()
     except Exception as exc:  # noqa: BLE001
@@ -213,14 +264,15 @@ def check_sells(client: TradingClient) -> None:
         if gain_pct >= SELL_THRESHOLD_PCT:
             try:
                 client.close_position(pos.symbol)
+                company = names.get(pos.symbol, "")
                 detail = f"gain={gain_pct:.2f}% qty={pos.qty}"
-                log(f"SELL {pos.symbol}: {detail}")
+                log(f"SELL {pos.symbol} ({company}): {detail}")
                 append_trade_log("SELL", pos.symbol, detail)
             except Exception as exc:  # noqa: BLE001
                 log(f"SELL order failed for {pos.symbol}: {exc}")
 
 
-def write_snapshot(client: TradingClient) -> None:
+def write_snapshot(client: TradingClient, names: dict) -> None:
     """Dump equity/cash/positions to a public JSON file for the dashboard.
 
     No API keys or secrets are ever written here -- only account totals and
@@ -244,6 +296,7 @@ def write_snapshot(client: TradingClient) -> None:
         "positions": [
             {
                 "symbol": p.symbol,
+                "name": names.get(p.symbol, ""),
                 "qty": float(p.qty),
                 "avg_entry_price": float(p.avg_entry_price),
                 "current_price": float(p.current_price) if p.current_price else None,
@@ -269,16 +322,17 @@ def main() -> None:
 
     if not market_is_open(client):
         log("Market is closed. Exiting without scanning.")
-        write_snapshot(client)
+        write_snapshot(client, {})
         return
 
+    tickers, names = get_universe()
+    write_companies(names)
+
     # Check exits first so a sale can free up buying power for new dips.
-    check_sells(client)
+    check_sells(client, names)
+    check_buys(client, tickers, names)
 
-    tickers = get_universe()
-    check_buys(client, tickers)
-
-    write_snapshot(client)
+    write_snapshot(client, names)
     log("Run complete.")
 
 

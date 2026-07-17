@@ -114,6 +114,12 @@
     font-size: 14px;
   }
   .buy { color: var(--accent); font-weight: 600; }
+  .company {
+    font-size: 11px;
+    color: var(--muted);
+    font-weight: 400;
+    margin-top: 2px;
+  }
   .sell { color: var(--green); font-weight: 600; }
   footer {
     color: var(--muted);
@@ -185,10 +191,26 @@
   };
   const cls = (n) => (n >= 0 ? "pos" : "neg");
 
+  let companies = {};
+
+  const tickerCell = (symbol, name) => {
+    const label = name || companies[symbol] || "";
+    return `<strong>${symbol}</strong>` + (label ? `<div class="company">${label}</div>` : "");
+  };
+
   async function fetchNoCache(path) {
     const res = await fetch(path + "?t=" + Date.now(), { cache: "no-store" });
     if (!res.ok) throw new Error(path + " returned " + res.status);
     return res;
+  }
+
+  async function loadCompanies() {
+    try {
+      const res = await fetchNoCache("companies.json");
+      companies = await res.json();
+    } catch (err) {
+      companies = {};
+    }
   }
 
   function parseCsv(text) {
@@ -230,7 +252,7 @@
             <tbody>
               ${data.positions.map((p) => `
                 <tr>
-                  <td><strong>${p.symbol}</strong></td>
+                  <td>${tickerCell(p.symbol, p.name)}</td>
                   <td>${p.qty}</td>
                   <td>${money(p.avg_entry_price)}</td>
                   <td>${money(p.current_price)}</td>
@@ -266,7 +288,7 @@
               <tr>
                 <td>${new Date(r.timestamp_utc).toLocaleString()}</td>
                 <td class="${r.action === "BUY" ? "buy" : "sell"}">${r.action}</td>
-                <td><strong>${r.symbol}</strong></td>
+                <td>${tickerCell(r.symbol)}</td>
                 <td>${r.detail}</td>
               </tr>`).join("")}
           </tbody>
@@ -276,7 +298,8 @@
     }
   }
 
-  function loadAll() {
+  async function loadAll() {
+    await loadCompanies();
     loadSnapshot();
     loadTrades();
   }
