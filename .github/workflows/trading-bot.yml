@@ -34,7 +34,7 @@ jobs:
           ALPACA_PAPER: "true"
           DROP_THRESHOLD_PCT: "-5.0"
           SELL_THRESHOLD_PCT: "7.0"
-          TRADE_DOLLARS: "500"
+          TRADE_DOLLARS: "10000"
         run: python trading_bot.py
 
       - name: Commit updated trade log and snapshot
