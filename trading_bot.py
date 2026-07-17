@@ -3,17 +3,17 @@ Dip-and-recover trading bot.
 
 Strategy:
   - Watches the S&P 500 for stocks that have dropped 5%+ vs. the previous close.
-    - Buys a fixed dollar amount of each stock that trips the drop threshold
-        (skips it if we already bought it earlier today).
-          - Watches all open positions and sells (closes) any position once it has
-              recovered 7%+ from its average entry price.
-                - Runs against Alpaca's paper trading API by default. Nothing here places
-                    real trades unless ALPACA_PAPER is explicitly set to "false" AND you
-                        supply live API keys.
+  - Buys a fixed dollar amount of each stock that trips the drop threshold
+    (skips it if we already bought it earlier today).
+  - Watches all open positions and sells (closes) any position once it has
+    recovered 7%+ from its average entry price.
+  - Runs against Alpaca's paper trading API by default. Nothing here places
+    real trades unless ALPACA_PAPER is explicitly set to "false" AND you
+    supply live API keys.
 
-                        This is meant to run on a schedule (see .github/workflows/trading-bot.yml),
-                        each run doing one buy-scan + one sell-scan and then exiting.
-                        """
+This is meant to run on a schedule (see .github/workflows/trading-bot.yml),
+each run doing one buy-scan + one sell-scan and then exiting.
+"""
 
 import csv
 import datetime as dt
@@ -52,175 +52,175 @@ TRADE_LOG_PATH = os.environ.get("TRADE_LOG_PATH", "trade_log.csv")
 
 # Free, regularly-updated CSV of current S&P 500 constituents.
 UNIVERSE_URL = (
-      "https://raw.githubusercontent.com/datasets/s-and-p-500-companies/"
-      "master/data/constituents.csv"
+    "https://raw.githubusercontent.com/datasets/s-and-p-500-companies/"
+    "master/data/constituents.csv"
 )
 
 # Small hard-coded fallback in case the CSV fetch fails (rate limit, outage).
 FALLBACK_TICKERS = [
-      "AAPL", "MSFT", "AMZN", "GOOGL", "META", "NVDA", "TSLA", "BRK.B", "JPM",
-      "V", "UNH", "HD", "PG", "MA", "XOM", "COST", "JNJ", "ABBV", "MRK", "BAC",
-      "KO", "PEP", "AVGO", "WMT", "CVX", "ADBE", "CRM", "NFLX", "DIS", "PFE",
+    "AAPL", "MSFT", "AMZN", "GOOGL", "META", "NVDA", "TSLA", "BRK.B", "JPM",
+    "V", "UNH", "HD", "PG", "MA", "XOM", "COST", "JNJ", "ABBV", "MRK", "BAC",
+    "KO", "PEP", "AVGO", "WMT", "CVX", "ADBE", "CRM", "NFLX", "DIS", "PFE",
 ]
 
 
 def log(message: str) -> None:
-      timestamp = dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds")
-      print(f"[{timestamp}] {message}", flush=True)
+    timestamp = dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds")
+    print(f"[{timestamp}] {message}", flush=True)
 
 
 def append_trade_log(action: str, symbol: str, detail: str) -> None:
-      is_new = not os.path.exists(TRADE_LOG_PATH)
-      with open(TRADE_LOG_PATH, "a", newline="") as f:
-                writer = csv.writer(f)
-                if is_new:
-                              writer.writerow(["timestamp_utc", "action", "symbol", "detail"])
-                          writer.writerow([
-                    dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds"),
-                    action,
-                    symbol,
-                    detail,
-                ])
+    is_new = not os.path.exists(TRADE_LOG_PATH)
+    with open(TRADE_LOG_PATH, "a", newline="") as f:
+        writer = csv.writer(f)
+        if is_new:
+            writer.writerow(["timestamp_utc", "action", "symbol", "detail"])
+        writer.writerow([
+            dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds"),
+            action,
+            symbol,
+            detail,
+        ])
 
 
 def get_client() -> TradingClient:
-      if not API_KEY or not API_SECRET:
-                log("ERROR: ALPACA_API_KEY / ALPACA_SECRET_KEY are not set.")
-                sys.exit(1)
-            return TradingClient(API_KEY, API_SECRET, paper=PAPER)
+    if not API_KEY or not API_SECRET:
+        log("ERROR: ALPACA_API_KEY / ALPACA_SECRET_KEY are not set.")
+        sys.exit(1)
+    return TradingClient(API_KEY, API_SECRET, paper=PAPER)
 
 
 def market_is_open(client: TradingClient) -> bool:
-      clock = client.get_clock()
+    clock = client.get_clock()
     return bool(clock.is_open)
 
 
 def get_universe() -> list:
-      try:
-                df = pd.read_csv(UNIVERSE_URL)
-                tickers = df["Symbol"].astype(str).str.replace(".", "-", regex=False).tolist()
-                if tickers:
-                              return tickers
-except Exception as exc:  # noqa: BLE001
+    try:
+        df = pd.read_csv(UNIVERSE_URL)
+        tickers = df["Symbol"].astype(str).str.replace(".", "-", regex=False).tolist()
+        if tickers:
+            return tickers
+    except Exception as exc:  # noqa: BLE001
         log(f"Could not fetch S&P 500 list ({exc}); using fallback ticker list.")
     return FALLBACK_TICKERS
 
 
 def already_bought_today(client: TradingClient, symbol: str) -> bool:
-      today_start = dt.datetime.combine(
-          dt.datetime.now(dt.timezone.utc).date(), dt.time.min, tzinfo=dt.timezone.utc
-)
+    today_start = dt.datetime.combine(
+        dt.datetime.now(dt.timezone.utc).date(), dt.time.min, tzinfo=dt.timezone.utc
+    )
     request = GetOrdersRequest(
-              status=QueryOrderStatus.ALL,
-              symbols=[symbol],
-              after=today_start,
+        status=QueryOrderStatus.ALL,
+        symbols=[symbol],
+        after=today_start,
     )
     try:
-              orders = client.get_orders(request)
-except Exception as exc:  # noqa: BLE001
+        orders = client.get_orders(request)
+    except Exception as exc:  # noqa: BLE001
         log(f"Could not check order history for {symbol}: {exc}")
         return False
     live_states = {
-              "filled", "partially_filled", "new", "accepted",
-              "pending_new", "accepted_for_bidding",
+        "filled", "partially_filled", "new", "accepted",
+        "pending_new", "accepted_for_bidding",
     }
     return any(
-              o.side == OrderSide.BUY and str(o.status.value) in live_states
-              for o in orders
+        o.side == OrderSide.BUY and str(o.status.value) in live_states
+        for o in orders
     )
 
 
 def fetch_price_changes(tickers: list) -> dict:
-      """Returns {symbol: pct_change_vs_prev_close} using one batched download."""
-      changes = {}
-      if not tickers:
-                return changes
-            try:
-                      data = yf.download(
-                                    tickers,
-                                    period="5d",
-                                    interval="1d",
-                                    group_by="ticker",
-                                    threads=True,
-                                    progress=False,
-                                    auto_adjust=False,
-                      )
-except Exception as exc:  # noqa: BLE001
+    """Returns {symbol: pct_change_vs_prev_close} using one batched download."""
+    changes = {}
+    if not tickers:
+        return changes
+    try:
+        data = yf.download(
+            tickers,
+            period="5d",
+            interval="1d",
+            group_by="ticker",
+            threads=True,
+            progress=False,
+            auto_adjust=False,
+        )
+    except Exception as exc:  # noqa: BLE001
         log(f"Batch price download failed: {exc}")
         return changes
 
     for symbol in tickers:
-              try:
-                            if len(tickers) == 1:
-                                              closes = data["Close"].dropna()
-              else:
-                                closes = data[symbol]["Close"].dropna()
-                            if len(closes) < 2:
-                                              continue
-                                          prev_close = float(closes.iloc[-2])
+        try:
+            if len(tickers) == 1:
+                closes = data["Close"].dropna()
+            else:
+                closes = data[symbol]["Close"].dropna()
+            if len(closes) < 2:
+                continue
+            prev_close = float(closes.iloc[-2])
             last_close = float(closes.iloc[-1])
             if prev_close <= 0:
-                              continue
-                          pct_change = (last_close - prev_close) / prev_close * 100
+                continue
+            pct_change = (last_close - prev_close) / prev_close * 100
             changes[symbol] = pct_change
-except Exception:  # noqa: BLE001
+        except Exception:  # noqa: BLE001
             continue
     return changes
 
 
 def check_buys(client: TradingClient, tickers: list) -> None:
-      changes = fetch_price_changes(tickers)
+    changes = fetch_price_changes(tickers)
     dropped = {s: c for s, c in changes.items() if c <= DROP_THRESHOLD_PCT}
     log(f"Scanned {len(changes)} tickers, {len(dropped)} down {DROP_THRESHOLD_PCT}% or more.")
 
     for symbol, pct_change in dropped.items():
-              if already_bought_today(client, symbol):
-                            log(f"Skip {symbol}: already have an open buy order today.")
-                            continue
-                        try:
-                                      order = MarketOrderRequest(
-                                                        symbol=symbol,
-                                                        notional=round(TRADE_DOLLARS, 2),
-                                                        side=OrderSide.BUY,
-                                                        time_in_force=TimeInForce.DAY,
-                                      )
-                                      client.submit_order(order)
-                                      detail = f"drop={pct_change:.2f}% notional=${TRADE_DOLLARS:.2f}"
-                                      log(f"BUY {symbol}: {detail}")
-                                      append_trade_log("BUY", symbol, detail)
-except Exception as exc:  # noqa: BLE001
+        if already_bought_today(client, symbol):
+            log(f"Skip {symbol}: already have an open buy order today.")
+            continue
+        try:
+            order = MarketOrderRequest(
+                symbol=symbol,
+                notional=round(TRADE_DOLLARS, 2),
+                side=OrderSide.BUY,
+                time_in_force=TimeInForce.DAY,
+            )
+            client.submit_order(order)
+            detail = f"drop={pct_change:.2f}% notional=${TRADE_DOLLARS:.2f}"
+            log(f"BUY {symbol}: {detail}")
+            append_trade_log("BUY", symbol, detail)
+        except Exception as exc:  # noqa: BLE001
             log(f"BUY order failed for {symbol}: {exc}")
 
 
 def check_sells(client: TradingClient) -> None:
-      try:
-                positions = client.get_all_positions()
-except Exception as exc:  # noqa: BLE001
+    try:
+        positions = client.get_all_positions()
+    except Exception as exc:  # noqa: BLE001
         log(f"Could not fetch positions: {exc}")
         return
 
     for pos in positions:
-              try:
-                            gain_pct = float(pos.unrealized_plpc) * 100
-except (TypeError, ValueError):
+        try:
+            gain_pct = float(pos.unrealized_plpc) * 100
+        except (TypeError, ValueError):
             continue
         if gain_pct >= SELL_THRESHOLD_PCT:
-                      try:
-                                        client.close_position(pos.symbol)
-                                        detail = f"gain={gain_pct:.2f}% qty={pos.qty}"
-                                        log(f"SELL {pos.symbol}: {detail}")
-                                        append_trade_log("SELL", pos.symbol, detail)
-except Exception as exc:  # noqa: BLE001
+            try:
+                client.close_position(pos.symbol)
+                detail = f"gain={gain_pct:.2f}% qty={pos.qty}"
+                log(f"SELL {pos.symbol}: {detail}")
+                append_trade_log("SELL", pos.symbol, detail)
+            except Exception as exc:  # noqa: BLE001
                 log(f"SELL order failed for {pos.symbol}: {exc}")
 
 
 def main() -> None:
-      client = get_client()
+    client = get_client()
     log(f"Starting run (paper={PAPER}, drop_threshold={DROP_THRESHOLD_PCT}%, "
-                f"sell_threshold={SELL_THRESHOLD_PCT}%, trade_dollars=${TRADE_DOLLARS}).")
+        f"sell_threshold={SELL_THRESHOLD_PCT}%, trade_dollars=${TRADE_DOLLARS}).")
 
     if not market_is_open(client):
-              log("Market is closed. Exiting without scanning.")
+        log("Market is closed. Exiting without scanning.")
         return
 
     # Check exits first so a sale can free up buying power for new dips.
@@ -233,9 +233,9 @@ def main() -> None:
 
 
 if __name__ == "__main__":
-      try:
-                main()
-except Exception:
+    try:
+        main()
+    except Exception:
         log("Unhandled error:")
         traceback.print_exc()
         sys.exit(1)
