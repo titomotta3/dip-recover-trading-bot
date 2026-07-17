@@ -1,0 +1,51 @@
+{
+  "updated_utc": "2026-07-17T18:01:10+00:00",
+  "paper": true,
+  "equity": 99990.14,
+  "cash": 97500.05,
+  "buying_power": 396472.44,
+  "drop_threshold_pct": -5.0,
+  "sell_threshold_pct": 7.0,
+  "positions": [
+    {
+      "symbol": "AXON",
+      "qty": 0.978009983,
+      "avg_entry_price": 511.232,
+      "current_price": 515.66,
+      "unrealized_pl": 4.330628,
+      "unrealized_plpc": 0.8659999999999999
+    },
+    {
+      "symbol": "CDNS",
+      "qty": 1.515865364,
+      "avg_entry_price": 329.838,
+      "current_price": 328.255,
+      "unrealized_pl": -2.399615,
+      "unrealized_plpc": -0.48
+    },
+    {
+      "symbol": "ISRG",
+      "qty": 1.419329381,
+      "avg_entry_price": 352.272,
+      "current_price": 349.3,
+      "unrealized_pl": -4.218247,
+      "unrealized_plpc": -0.844
+    },
+    {
+      "symbol": "NFLX",
+      "qty": 7.267626108,
+      "avg_entry_price": 68.79688,
+      "current_price": 69.08,
+      "unrealized_pl": 2.057611,
+      "unrealized_plpc": 0.41200000000000003
+    },
+    {
+      "symbol": "SNPS",
+      "qty": 1.302525386,
+      "avg_entry_price": 383.862,
+      "current_price": 376.465,
+      "unrealized_pl": -9.634781,
+      "unrealized_plpc": -1.9269999999999998
+    }
+  ]
+}
