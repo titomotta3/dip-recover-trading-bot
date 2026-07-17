@@ -59,7 +59,7 @@ Edit the `env:` block in `.github/workflows/trading-bot.yml`:
 |---|---|---|
 | `DROP_THRESHOLD_PCT` | `-5.0` | Buy trigger: stock down this % or more vs. previous close |
 | `SELL_THRESHOLD_PCT` | `7.0` | Sell trigger: position up this % or more vs. average entry price |
-| `TRADE_DOLLARS` | `500` | Dollars spent on each new buy signal |
+| `TRADE_DOLLARS` | `10000` | Dollars spent on each new buy signal |
 | `ALPACA_PAPER` | `true` | `true` = simulated money, `false` = real money (see below) |
 
 The task brief said "sell when it recovers 7-10%" — the bot sells as soon as

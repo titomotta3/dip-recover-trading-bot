@@ -47,7 +47,7 @@ DROP_THRESHOLD_PCT = float(os.environ.get("DROP_THRESHOLD_PCT", "-5.0"))
 SELL_THRESHOLD_PCT = float(os.environ.get("SELL_THRESHOLD_PCT", "7.0"))
 
 # Dollar amount to spend on each new buy signal (notional order).
-TRADE_DOLLARS = float(os.environ.get("TRADE_DOLLARS", "500"))
+TRADE_DOLLARS = float(os.environ.get("TRADE_DOLLARS", "10000"))
 
 TRADE_LOG_PATH = os.environ.get("TRADE_LOG_PATH", "trade_log.csv")
 
