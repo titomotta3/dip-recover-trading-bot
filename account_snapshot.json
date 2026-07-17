@@ -1,74 +1,74 @@
 {
-  "updated_utc": "2026-07-17T18:41:04+00:00",
+  "updated_utc": "2026-07-17T21:36:24+00:00",
   "paper": true,
-  "equity": 99979.77,
+  "equity": 99990.64,
   "cash": 96500.07,
-  "buying_power": 395743.43,
+  "buying_power": 395773.87,
   "drop_threshold_pct": -5.0,
   "sell_threshold_pct": 7.0,
   "positions": [
     {
       "symbol": "AMAT",
-      "name": "Applied Materials",
+      "name": "",
       "qty": 0.93921998,
       "avg_entry_price": 532.346,
-      "current_price": 533.145,
-      "unrealized_pl": 0.750437,
-      "unrealized_plpc": 0.15
+      "current_price": 526.7044,
+      "unrealized_pl": -5.298703,
+      "unrealized_plpc": -1.06
     },
     {
       "symbol": "AXON",
-      "name": "Axon Enterprise",
+      "name": "",
       "qty": 0.978009983,
       "avg_entry_price": 511.232,
-      "current_price": 509.45,
-      "unrealized_pl": -1.742814,
-      "unrealized_plpc": -0.349
+      "current_price": 510.5,
+      "unrealized_pl": -0.715904,
+      "unrealized_plpc": -0.14300000000000002
     },
     {
       "symbol": "BLDR",
-      "name": "Builders FirstSource",
+      "name": "",
       "qty": 6.736593909,
       "avg_entry_price": 74.22,
-      "current_price": 74.13,
-      "unrealized_pl": -0.606294,
-      "unrealized_plpc": -0.121
+      "current_price": 74.26,
+      "unrealized_pl": 0.269464,
+      "unrealized_plpc": 0.054
     },
     {
       "symbol": "CDNS",
-      "name": "Cadence Design Systems",
+      "name": "",
       "qty": 1.515865364,
       "avg_entry_price": 329.838,
-      "current_price": 325.92,
-      "unrealized_pl": -5.939161,
-      "unrealized_plpc": -1.188
+      "current_price": 330.7,
+      "unrealized_pl": 1.306676,
+      "unrealized_plpc": 0.261
     },
     {
       "symbol": "ISRG",
-      "name": "Intuitive Surgical",
+      "name": "",
       "qty": 1.419329381,
       "avg_entry_price": 352.272,
-      "current_price": 349.8648,
-      "unrealized_pl": -3.41661,
-      "unrealized_plpc": -0.683
+      "current_price": 345.8,
+      "unrealized_pl": -9.1859,
+      "unrealized_plpc": -1.8370000000000002
     },
     {
       "symbol": "NFLX",
-      "name": "Netflix",
+      "name": "",
       "qty": 7.267626108,
       "avg_entry_price": 68.79688,
-      "current_price": 69.235,
-      "unrealized_pl": 3.184093,
-      "unrealized_plpc": 0.637
+      "current_price": 69.0527,
+      "unrealized_pl": 1.859204,
+      "unrealized_plpc": 0.372
     },
     {
       "symbol": "SNPS",
-      "name": "Synopsys",
+      "name": "",
       "qty": 1.302525386,
       "avg_entry_price": 383.862,
-      "current_price": 374.29,
-      "unrealized_pl": -12.467773,
-      "unrealized_plpc": -2.494
+      "current_price": 385.7066,
+      "unrealized_pl": 2.402638,
+      "unrealized_plpc": 0.481
     }
   ]
 }
