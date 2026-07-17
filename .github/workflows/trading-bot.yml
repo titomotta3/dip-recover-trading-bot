@@ -1,0 +1,51 @@
+name: Trading Bot
+
+on:
+  schedule:
+    # Every 15 minutes, 13:00-21:59 UTC, Mon-Fri.
+    # That window covers 9:30am-4:00pm ET in both EDT and EST with margin;
+    # trading_bot.py double-checks Alpaca's market clock and exits early
+    # if the market is actually closed (holidays, exact open/close time).
+    - cron: "*/15 13-21 * * 1-5"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  run-bot:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run trading bot
+        env:
+          ALPACA_API_KEY: ${{ secrets.ALPACA_API_KEY }}
+          ALPACA_SECRET_KEY: ${{ secrets.ALPACA_SECRET_KEY }}
+          ALPACA_PAPER: "true"
+          DROP_THRESHOLD_PCT: "-5.0"
+          SELL_THRESHOLD_PCT: "7.0"
+          TRADE_DOLLARS: "500"
+        run: python trading_bot.py
+
+      - name: Commit updated trade log
+        if: always()
+        run: |
+          git config user.name "trading-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add trade_log.csv 2>/dev/null || true
+          if ! git diff --cached --quiet; then
+            git commit -m "Update trade log [skip ci]"
+            git push
+          else
+            echo "No trade log changes to commit."
+          fi
