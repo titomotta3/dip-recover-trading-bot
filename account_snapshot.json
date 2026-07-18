@@ -1,9 +1,9 @@
 {
-  "updated_utc": "2026-07-17T21:36:24+00:00",
+  "updated_utc": "2026-07-18T05:52:30+00:00",
   "paper": true,
-  "equity": 99990.64,
+  "equity": 99989.15,
   "cash": 96500.07,
-  "buying_power": 395773.87,
+  "buying_power": 395769.71,
   "drop_threshold_pct": -5.0,
   "sell_threshold_pct": 7.0,
   "positions": [
@@ -12,18 +12,18 @@
       "name": "",
       "qty": 0.93921998,
       "avg_entry_price": 532.346,
-      "current_price": 526.7044,
-      "unrealized_pl": -5.298703,
-      "unrealized_plpc": -1.06
+      "current_price": 529.66,
+      "unrealized_pl": -2.522744,
+      "unrealized_plpc": -0.505
     },
     {
       "symbol": "AXON",
       "name": "",
       "qty": 0.978009983,
       "avg_entry_price": 511.232,
-      "current_price": 510.5,
-      "unrealized_pl": -0.715904,
-      "unrealized_plpc": -0.14300000000000002
+      "current_price": 510.28,
+      "unrealized_pl": -0.931066,
+      "unrealized_plpc": -0.186
     },
     {
       "symbol": "BLDR",
@@ -39,36 +39,36 @@
       "name": "",
       "qty": 1.515865364,
       "avg_entry_price": 329.838,
-      "current_price": 330.7,
-      "unrealized_pl": 1.306676,
-      "unrealized_plpc": 0.261
+      "current_price": 330.11,
+      "unrealized_pl": 0.412315,
+      "unrealized_plpc": 0.082
     },
     {
       "symbol": "ISRG",
       "name": "",
       "qty": 1.419329381,
       "avg_entry_price": 352.272,
-      "current_price": 345.8,
-      "unrealized_pl": -9.1859,
-      "unrealized_plpc": -1.8370000000000002
+      "current_price": 345.42,
+      "unrealized_pl": -9.725245,
+      "unrealized_plpc": -1.9449999999999998
     },
     {
       "symbol": "NFLX",
       "name": "",
       "qty": 7.267626108,
       "avg_entry_price": 68.79688,
-      "current_price": 69.0527,
-      "unrealized_pl": 1.859204,
-      "unrealized_plpc": 0.372
+      "current_price": 68.95,
+      "unrealized_pl": 1.112819,
+      "unrealized_plpc": 0.22300000000000003
     },
     {
       "symbol": "SNPS",
       "name": "",
       "qty": 1.302525386,
       "avg_entry_price": 383.862,
-      "current_price": 385.7066,
-      "unrealized_pl": 2.402638,
-      "unrealized_plpc": 0.481
+      "current_price": 384.275,
+      "unrealized_pl": 0.537943,
+      "unrealized_plpc": 0.108
     }
   ]
 }
