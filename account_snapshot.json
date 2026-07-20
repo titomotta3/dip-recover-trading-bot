@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-07-20T20:16:54+00:00",
+  "updated_utc": "2026-07-20T22:34:52+00:00",
   "paper": true,
   "equity": 500000.0,
   "cash": 500000.0,
@@ -7,5 +7,7 @@
   "starting_equity": 500000.0,
   "drop_threshold_pct": -5.0,
   "sell_threshold_pct": 7.0,
+  "trade_dollars": 10000.0,
+  "adaptive": false,
   "positions": []
 }
