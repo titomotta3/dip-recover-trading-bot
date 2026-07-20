@@ -379,7 +379,7 @@
       returnEl.innerHTML = pct(returnPct) + " (" + money(returnDollars) + ")";
       returnEl.className = "return-line " + cls(returnDollars);
     } else {
-      equityEl.textContent = "&ndash;";
+      equityEl.innerHTML = "&ndash;";
       returnEl.textContent = "No data yet";
     }
   }
