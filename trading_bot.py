@@ -132,6 +132,21 @@ SELL_STEP = 0.5
 DROP_STEP = 0.5
 TRADE_DOLLARS_STEP = 500.0
 
+# High-conviction sizing (Portfolio 2 / adaptive only). A dip counts as
+# "high conviction" when it drops at least CONVICTION_EXTRA_DROP_PCT
+# percentage points beyond the current buy threshold -- i.e. a noticeably
+# deeper, more unusual dip than what the bot normally requires -- and it
+# still has to pass the same clean-news check as every other buy. When
+# that happens, this one trade's notional can go up to CONVICTION_MULTIPLIER
+# times the normal ceiling (TRADE_DOLLARS_MAX), instead of being capped at
+# the ceiling like a normal trade. This only affects that single order's
+# size; it does not change the auto-tuned TRADE_DOLLARS used on future
+# trades. CONVICTION_TRADE_DOLLARS_MAX is a hard ceiling this can never
+# cross, same as every other bound in this section.
+CONVICTION_EXTRA_DROP_PCT = float(os.environ.get("CONVICTION_EXTRA_DROP_PCT", "3.0"))
+CONVICTION_MULTIPLIER = float(os.environ.get("CONVICTION_MULTIPLIER", "2.0"))
+CONVICTION_TRADE_DOLLARS_MAX = TRADE_DOLLARS_MAX * CONVICTION_MULTIPLIER
+
 TRADE_LOG_PATH = os.environ.get("TRADE_LOG_PATH", "trade_log.csv")
 
 # Public snapshot of account state, read by the static dashboard (index.html).
@@ -500,20 +515,34 @@ def check_buys(client: TradingClient, news_client: NewsClient, tickers: list, na
                 f"across {news['headline_count']} recent headline(s).")
             continue
 
+        # High-conviction sizing: only for the adaptive strategy, and only
+        # when the dip is meaningfully deeper than what we normally require
+        # (a routine dip at the threshold isn't "conviction" -- a dip well
+        # past it is). The clean-news check above already applies to every
+        # buy, conviction or not.
+        is_high_conviction = (
+            ADAPTIVE_STRATEGY
+            and pct_change <= (DROP_THRESHOLD_PCT - CONVICTION_EXTRA_DROP_PCT)
+        )
+        notional = TRADE_DOLLARS
+        if is_high_conviction:
+            notional = min(TRADE_DOLLARS * CONVICTION_MULTIPLIER, CONVICTION_TRADE_DOLLARS_MAX)
+
         try:
             order = MarketOrderRequest(
                 symbol=symbol,
-                notional=round(TRADE_DOLLARS, 2),
+                notional=round(notional, 2),
                 side=OrderSide.BUY,
                 time_in_force=TimeInForce.DAY,
             )
             client.submit_order(order)
             company = names.get(symbol, "")
             news_note = f"news=clear({news['headline_count']})" if news["headline_count"] else "news=none"
-            detail = f"drop={pct_change:.2f}% notional=${TRADE_DOLLARS:.2f} {news_note}"
+            conviction_note = " conviction=HIGH" if is_high_conviction else ""
+            detail = f"drop={pct_change:.2f}% notional=${notional:.2f} {news_note}{conviction_note}"
             log(f"BUY {symbol} ({company}): {detail}")
             append_trade_log("BUY", symbol, detail)
-            events.append({"symbol": symbol, "drop_pct": pct_change})
+            events.append({"symbol": symbol, "drop_pct": pct_change, "high_conviction": is_high_conviction})
         except Exception as exc:  # noqa: BLE001
             log(f"BUY order failed for {symbol}: {exc}")
     return events
@@ -610,6 +639,7 @@ def write_snapshot(client: TradingClient, names: dict, state: dict = None) -> No
         snapshot["adaptive_target_band_pct"] = [SELL_MIN, SELL_MAX]
         snapshot["completed_trades"] = state.get("completed_trades", 0)
         snapshot["last_adjustment"] = state.get("last_adjustment", "")
+        snapshot["conviction_trade_dollars_max"] = CONVICTION_TRADE_DOLLARS_MAX
     try:
         with open(SNAPSHOT_PATH, "w") as f:
             json.dump(snapshot, f, indent=2)

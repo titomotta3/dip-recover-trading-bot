@@ -235,8 +235,9 @@
     position size run over run based on how its own trades go, aiming to land
     each completed trade's gain in a 10-15% band &mdash; a bounded, rule-based
     auto-tuner, not machine learning; every parameter has a hard floor/ceiling
-    it can never cross. Runs automatically every 15 minutes during market
-    hours via GitHub Actions.<br />
+    it can never cross. Portfolio 2 can also size a single trade up to 2x its
+    normal ceiling on unusually deep, high-conviction dips. Runs automatically
+    every 5 minutes during market hours via GitHub Actions.<br />
     This is a paper-trading demo, not financial advice, and not a proven
     profitable strategy.<br />
     <a href="https://github.com/titomotta3/dip-recover-trading-bot" target="_blank" rel="noopener">
@@ -462,11 +463,14 @@
         const dropLabel = data.drop_threshold_pct !== undefined ? data.drop_threshold_pct.toFixed(1) + "%" : "&ndash;";
         const sellLabel = data.sell_threshold_pct !== undefined ? data.sell_threshold_pct.toFixed(1) + "%" : "&ndash;";
         const sizeLabel = data.trade_dollars !== undefined ? money(data.trade_dollars) : "&ndash;";
+        const convictionLabel = data.adaptive && data.conviction_trade_dollars_max
+          ? ` <span class="sub" style="font-weight:400;">(up to ${money(data.conviction_trade_dollars_max)} on high-conviction dips)</span>`
+          : "";
         const params = `
           <div class="strategy-params">
             <span>Buy trigger: <b>${dropLabel} or worse</b></span>
             <span>Sell target: <b>${sellLabel}+</b></span>
-            <span>Trade size: <b>${sizeLabel}</b></span>
+            <span>Trade size: <b>${sizeLabel}</b>${convictionLabel}</span>
           </div>`;
         if (data.adaptive) {
           const band = data.adaptive_target_band_pct || [10, 15];
