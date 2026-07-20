@@ -1,7 +1,7 @@
 {
-  "updated_utc": "2026-07-20T22:41:35+00:00",
+  "updated_utc": "2026-07-20T22:49:38+00:00",
   "paper": true,
-  "equity": 500136.97,
+  "equity": 500132.73,
   "cash": 475000.02,
   "buying_power": 475000.02,
   "starting_equity": 500000.0,
@@ -24,9 +24,9 @@
       "name": "",
       "qty": 62.340980499,
       "avg_entry_price": 200.51,
-      "current_price": 201.986,
-      "unrealized_pl": 92.015287,
-      "unrealized_plpc": 0.736
+      "current_price": 201.918,
+      "unrealized_pl": 87.7761,
+      "unrealized_plpc": 0.7020000000000001
     }
   ],
   "adaptive_target_band_pct": [
