@@ -521,6 +521,12 @@ def main() -> None:
 
     if not market_is_open(client):
         log("Market is closed. Exiting without scanning.")
+        if ADAPTIVE_STRATEGY and state is not None:
+            # Persist immediately (even with no trades this run) so the
+            # state file always exists on disk/in the repo from the very
+            # first run, rather than only appearing once the market is
+            # next open and a scan actually happens.
+            save_strategy_state(state)
         write_snapshot(client, {}, state)
         return
 
