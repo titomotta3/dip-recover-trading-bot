@@ -14,6 +14,7 @@
     --green: #3ddc84;
     --red: #ff5d5d;
     --accent: #5b8cff;
+    --accent2: #ffb454;
   }
   * { box-sizing: border-box; }
   body {
@@ -23,32 +24,17 @@
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
     padding: 24px 16px 64px;
   }
-  .wrap { max-width: 960px; margin: 0 auto; }
+  .wrap { max-width: 1000px; margin: 0 auto; }
   header {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
     gap: 12px;
-    margin-bottom: 24px;
+    margin-bottom: 28px;
   }
   h1 { font-size: 22px; margin: 0; }
   .sub { color: var(--muted); font-size: 13px; margin-top: 4px; }
-  .badge {
-    display: inline-block;
-    padding: 4px 10px;
-    border-radius: 999px;
-    font-size: 12px;
-    font-weight: 600;
-    background: rgba(61, 220, 132, 0.15);
-    color: var(--green);
-    border: 1px solid rgba(61, 220, 132, 0.35);
-  }
-  .badge.live {
-    background: rgba(255, 93, 93, 0.15);
-    color: var(--red);
-    border-color: rgba(255, 93, 93, 0.35);
-  }
   button {
     background: var(--card);
     color: var(--text);
@@ -59,11 +45,41 @@
     cursor: pointer;
   }
   button:hover { border-color: var(--accent); }
+
+  .portfolio {
+    margin-bottom: 44px;
+    padding-top: 20px;
+    border-top: 1px solid var(--border);
+  }
+  .portfolio:first-child { border-top: none; padding-top: 0; }
+  .portfolio-header {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 8px;
+    margin-bottom: 14px;
+  }
+  .portfolio-title { font-size: 18px; font-weight: 700; }
+  .portfolio-title .tag {
+    display: inline-block;
+    margin-left: 8px;
+    padding: 2px 8px;
+    border-radius: 999px;
+    font-size: 11px;
+    font-weight: 600;
+    vertical-align: middle;
+  }
+  .tag.standard { background: rgba(91, 140, 255, 0.15); color: var(--accent); border: 1px solid rgba(91, 140, 255, 0.35); }
+  .tag.aggressive { background: rgba(255, 180, 84, 0.15); color: var(--accent2); border: 1px solid rgba(255, 180, 84, 0.35); }
+  .tag.paper { background: rgba(61, 220, 132, 0.15); color: var(--green); border: 1px solid rgba(61, 220, 132, 0.35); }
+  .tag.live { background: rgba(255, 93, 93, 0.15); color: var(--red); border: 1px solid rgba(255, 93, 93, 0.35); }
+
   .cards {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
     gap: 12px;
-    margin-bottom: 28px;
+    margin-bottom: 20px;
   }
   .card {
     background: var(--card);
@@ -73,13 +89,13 @@
   }
   .card .label { font-size: 12px; color: var(--muted); margin-bottom: 6px; }
   .card .value { font-size: 22px; font-weight: 700; }
-  section { margin-bottom: 32px; }
-  section h2 {
-    font-size: 15px;
+  section.block { margin-bottom: 22px; }
+  section.block h3 {
+    font-size: 13px;
     text-transform: uppercase;
     letter-spacing: 0.04em;
     color: var(--muted);
-    margin-bottom: 12px;
+    margin-bottom: 10px;
   }
   table {
     width: 100%;
@@ -114,13 +130,13 @@
     font-size: 14px;
   }
   .buy { color: var(--accent); font-weight: 600; }
+  .sell { color: var(--green); font-weight: 600; }
   .company {
     font-size: 11px;
     color: var(--muted);
     font-weight: 400;
     margin-top: 2px;
   }
-  .sell { color: var(--green); font-weight: 600; }
   footer {
     color: var(--muted);
     font-size: 12px;
@@ -129,12 +145,6 @@
     line-height: 1.6;
   }
   footer a { color: var(--accent); }
-  code {
-    background: rgba(255,255,255,0.06);
-    padding: 1px 5px;
-    border-radius: 4px;
-    font-size: 12px;
-  }
 </style>
 </head>
 <body>
@@ -142,35 +152,19 @@
   <header>
     <div>
       <h1>Dip-and-Recover Trading Bot</h1>
-      <div class="sub" id="updated">Loading&hellip;</div>
+      <div class="sub">Two paper portfolios, same signals, different position sizing.</div>
     </div>
-    <div style="display:flex; gap:10px; align-items:center;">
-      <span class="badge" id="mode-badge">Paper Trading</span>
-      <button id="refresh-btn" onclick="loadAll()">Refresh</button>
-    </div>
+    <button onclick="loadAll()">Refresh</button>
   </header>
 
-  <div class="cards" id="summary-cards">
-    <div class="card"><div class="label">Equity</div><div class="value" id="equity">&ndash;</div></div>
-    <div class="card"><div class="label">Cash</div><div class="value" id="cash">&ndash;</div></div>
-    <div class="card"><div class="label">Buying Power</div><div class="value" id="buying-power">&ndash;</div></div>
-    <div class="card"><div class="label">Open Positions</div><div class="value" id="pos-count">&ndash;</div></div>
-  </div>
-
-  <section>
-    <h2>Open Positions</h2>
-    <div id="positions-wrap"><div class="empty">Loading positions&hellip;</div></div>
-  </section>
-
-  <section>
-    <h2>Trade History</h2>
-    <div id="trades-wrap"><div class="empty">Loading trade history&hellip;</div></div>
-  </section>
+  <div id="portfolios"></div>
 
   <footer>
     Strategy: buy any S&amp;P 500 stock down 5%+ vs. previous close, sell once a
-    position recovers 7%+ from its average entry price. Runs automatically every
-    15 minutes during market hours via GitHub Actions.<br />
+    position recovers 7%+ from its average entry price. Both portfolios use the
+    same buy/sell signals and started with $500,000 &mdash; Portfolio 2 simply
+    bets 25% more per trade ($12,500 vs. $10,000). Runs automatically every 15
+    minutes during market hours via GitHub Actions.<br />
     This is a paper-trading demo, not financial advice, and not a proven
     profitable strategy.<br />
     <a href="https://github.com/titomotta3/dip-recover-trading-bot" target="_blank" rel="noopener">
@@ -180,6 +174,25 @@
 </div>
 
 <script>
+  const PORTFOLIOS = [
+    {
+      id: "p1",
+      title: "Portfolio 1",
+      tagClass: "standard",
+      tagLabel: "Standard &middot; $10,000/trade",
+      snapshot: "account_snapshot.json",
+      tradeLog: "trade_log.csv",
+    },
+    {
+      id: "p2",
+      title: "Portfolio 2",
+      tagClass: "aggressive",
+      tagLabel: "Aggressive &middot; $12,500/trade",
+      snapshot: "account_snapshot_aggressive.json",
+      tradeLog: "trade_log_aggressive.csv",
+    },
+  ];
+
   const money = (n) => {
     if (n === null || n === undefined || isNaN(n)) return "&ndash;";
     const sign = n < 0 ? "-" : "";
@@ -223,23 +236,56 @@
     return rows.reverse(); // most recent first
   }
 
-  async function loadSnapshot() {
+  function renderShell() {
+    const container = document.getElementById("portfolios");
+    container.innerHTML = PORTFOLIOS.map((cfg) => `
+      <div class="portfolio">
+        <div class="portfolio-header">
+          <div class="portfolio-title">
+            ${cfg.title}
+            <span class="tag ${cfg.tagClass}">${cfg.tagLabel}</span>
+            <span class="tag paper" id="mode-badge-${cfg.id}">Paper Trading</span>
+          </div>
+          <div class="sub" id="updated-${cfg.id}">Loading&hellip;</div>
+        </div>
+
+        <div class="cards">
+          <div class="card"><div class="label">Equity</div><div class="value" id="equity-${cfg.id}">&ndash;</div></div>
+          <div class="card"><div class="label">Cash</div><div class="value" id="cash-${cfg.id}">&ndash;</div></div>
+          <div class="card"><div class="label">Buying Power</div><div class="value" id="buying-power-${cfg.id}">&ndash;</div></div>
+          <div class="card"><div class="label">Open Positions</div><div class="value" id="pos-count-${cfg.id}">&ndash;</div></div>
+        </div>
+
+        <section class="block">
+          <h3>Open Positions</h3>
+          <div id="positions-wrap-${cfg.id}"><div class="empty">Loading positions&hellip;</div></div>
+        </section>
+
+        <section class="block">
+          <h3>Trade History</h3>
+          <div id="trades-wrap-${cfg.id}"><div class="empty">Loading trade history&hellip;</div></div>
+        </section>
+      </div>
+    `).join("");
+  }
+
+  async function loadSnapshot(cfg) {
     try {
-      const res = await fetchNoCache("account_snapshot.json");
+      const res = await fetchNoCache(cfg.snapshot);
       const data = await res.json();
 
-      document.getElementById("updated").textContent =
+      document.getElementById(`updated-${cfg.id}`).textContent =
         "Last updated: " + new Date(data.updated_utc).toLocaleString();
-      const badge = document.getElementById("mode-badge");
+      const badge = document.getElementById(`mode-badge-${cfg.id}`);
       badge.textContent = data.paper ? "Paper Trading" : "LIVE TRADING";
-      badge.className = "badge" + (data.paper ? "" : " live");
+      badge.className = "tag " + (data.paper ? "paper" : "live");
 
-      document.getElementById("equity").textContent = money(data.equity);
-      document.getElementById("cash").textContent = money(data.cash);
-      document.getElementById("buying-power").textContent = money(data.buying_power);
-      document.getElementById("pos-count").textContent = data.positions.length;
+      document.getElementById(`equity-${cfg.id}`).textContent = money(data.equity);
+      document.getElementById(`cash-${cfg.id}`).textContent = money(data.cash);
+      document.getElementById(`buying-power-${cfg.id}`).textContent = money(data.buying_power);
+      document.getElementById(`pos-count-${cfg.id}`).textContent = data.positions.length;
 
-      const wrap = document.getElementById("positions-wrap");
+      const wrap = document.getElementById(`positions-wrap-${cfg.id}`);
       if (!data.positions.length) {
         wrap.innerHTML = '<div class="empty">No open positions right now &mdash; waiting for the next 5%+ dip.</div>';
       } else {
@@ -263,17 +309,17 @@
           </table>`;
       }
     } catch (err) {
-      document.getElementById("updated").textContent =
-        "Could not load account_snapshot.json yet — it's created after the bot's first run.";
-      document.getElementById("positions-wrap").innerHTML =
+      document.getElementById(`updated-${cfg.id}`).textContent =
+        `Could not load ${cfg.snapshot} yet — it's created after the bot's first run.`;
+      document.getElementById(`positions-wrap-${cfg.id}`).innerHTML =
         '<div class="empty">No data yet.</div>';
     }
   }
 
-  async function loadTrades() {
-    const wrap = document.getElementById("trades-wrap");
+  async function loadTrades(cfg) {
+    const wrap = document.getElementById(`trades-wrap-${cfg.id}`);
     try {
-      const res = await fetchNoCache("trade_log.csv");
+      const res = await fetchNoCache(cfg.tradeLog);
       const text = await res.text();
       const rows = parseCsv(text);
       if (!rows.length) {
@@ -299,9 +345,12 @@
   }
 
   async function loadAll() {
+    renderShell();
     await loadCompanies();
-    loadSnapshot();
-    loadTrades();
+    for (const cfg of PORTFOLIOS) {
+      loadSnapshot(cfg);
+      loadTrades(cfg);
+    }
   }
 
   loadAll();
