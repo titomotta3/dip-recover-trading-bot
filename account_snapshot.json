@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-07-20T23:20:10+00:00",
+  "updated_utc": "2026-07-20T23:46:02+00:00",
   "paper": true,
   "equity": 500000.0,
   "cash": 500000.0,
@@ -9,5 +9,12 @@
   "sell_threshold_pct": 7.0,
   "trade_dollars": 10000.0,
   "adaptive": false,
+  "stop_loss_pct": -12.0,
+  "max_hold_days": 20.0,
+  "max_open_positions": 20,
+  "max_sector_exposure_pct": 30.0,
+  "regime_symbol": "SPY",
+  "regime_pct": null,
+  "regime_blocked_buys": false,
   "positions": []
 }
