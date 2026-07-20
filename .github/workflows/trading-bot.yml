@@ -60,9 +60,12 @@ jobs:
             echo "No trade log or snapshot changes to commit."
           fi
 
-  # Portfolio 2: aggressive. Separate $500k paper account, $12.5k per
-  # position (+25% vs. portfolio 1). Same buy/sell signals. Runs after
-  # portfolio 1 so the two commits don't race each other.
+  # Portfolio 2: aggressive. Separate $500k paper account, starts at $12.5k
+  # per position (+25% vs. portfolio 1) but runs in adaptive mode: it tunes
+  # its own buy-dip threshold, sell target, and position size run over run
+  # based on how its own trades go, aiming for 10-15% realized gain per
+  # completed trade (see adapt_strategy() in trading_bot.py for the exact
+  # bounded rules). Runs after portfolio 1 so the two commits don't race.
   run-bot-aggressive:
     needs: run-bot
     runs-on: ubuntu-latest
@@ -84,12 +87,14 @@ jobs:
           ALPACA_SECRET_KEY: ${{ secrets.ALPACA_SECRET_KEY_2 }}
           ALPACA_PAPER: "true"
           DROP_THRESHOLD_PCT: "-5.0"
-          SELL_THRESHOLD_PCT: "7.0"
+          SELL_THRESHOLD_PCT: "10.0"
           TRADE_DOLLARS: "12500"
           STARTING_EQUITY: "500000"
           TRADE_LOG_PATH: "trade_log_aggressive.csv"
           SNAPSHOT_PATH: "account_snapshot_aggressive.json"
           HISTORY_PATH: "equity_history_aggressive.csv"
+          ADAPTIVE_STRATEGY: "true"
+          STRATEGY_STATE_PATH: "strategy_state_aggressive.json"
         run: python trading_bot.py
 
       - name: Commit updated trade log and snapshot (aggressive)
@@ -99,11 +104,12 @@ jobs:
           git config user.email "actions@users.noreply.github.com"
           git pull --rebase --autostash
           echo "--- Files present after run ---"
-          ls -la trade_log_aggressive.csv account_snapshot_aggressive.json companies.json equity_history_aggressive.csv 2>&1 || true
+          ls -la trade_log_aggressive.csv account_snapshot_aggressive.json companies.json equity_history_aggressive.csv strategy_state_aggressive.json 2>&1 || true
           [ -f trade_log_aggressive.csv ] && git add trade_log_aggressive.csv
           [ -f account_snapshot_aggressive.json ] && git add account_snapshot_aggressive.json
           [ -f companies.json ] && git add companies.json
           [ -f equity_history_aggressive.csv ] && git add equity_history_aggressive.csv
+          [ -f strategy_state_aggressive.json ] && git add strategy_state_aggressive.json
           echo "--- git status ---"
           git status
           if ! git diff --cached --quiet; then
