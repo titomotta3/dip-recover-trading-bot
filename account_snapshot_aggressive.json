@@ -1,7 +1,7 @@
 {
-  "updated_utc": "2026-07-20T23:20:35+00:00",
+  "updated_utc": "2026-07-20T23:46:27+00:00",
   "paper": true,
-  "equity": 500126.87,
+  "equity": 500156.39,
   "cash": 475000.02,
   "buying_power": 475000.02,
   "starting_equity": 500000.0,
@@ -9,28 +9,35 @@
   "sell_threshold_pct": 10.0,
   "trade_dollars": 12500.0,
   "adaptive": true,
+  "stop_loss_pct": -12.0,
+  "max_hold_days": 20.0,
+  "max_open_positions": 20,
+  "max_sector_exposure_pct": 30.0,
+  "regime_symbol": "SPY",
+  "regime_pct": null,
+  "regime_blocked_buys": false,
   "positions": [
     {
       "symbol": "CVNA",
       "name": "",
       "qty": 195.46505082,
       "avg_entry_price": 63.95,
-      "current_price": 64.15,
+      "current_price": 64.24,
       "cost_basis": 12499.99,
-      "market_value": 12539.08301,
-      "unrealized_pl": 39.09301,
-      "unrealized_plpc": 0.313
+      "market_value": 12556.674865,
+      "unrealized_pl": 56.684865,
+      "unrealized_plpc": 0.453
     },
     {
       "symbol": "HONA",
       "name": "",
       "qty": 62.340980499,
       "avg_entry_price": 200.51,
-      "current_price": 201.918,
+      "current_price": 202.1093,
       "cost_basis": 12499.99,
-      "market_value": 12587.7661,
-      "unrealized_pl": 87.7761,
-      "unrealized_plpc": 0.7020000000000001
+      "market_value": 12599.69193,
+      "unrealized_pl": 99.70193,
+      "unrealized_plpc": 0.7979999999999999
     }
   ],
   "adaptive_target_band_pct": [
