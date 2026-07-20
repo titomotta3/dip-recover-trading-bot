@@ -4,12 +4,24 @@ Dip-and-recover trading bot.
 Strategy:
   - Watches the S&P 500 for stocks that have dropped 5%+ vs. the previous close.
   - Buys a fixed dollar amount of each stock that trips the drop threshold
-    (skips it if we already bought it earlier today).
+    (skips it if we already hold an open position in it).
   - Watches all open positions and sells (closes) any position once it has
-    recovered 7%+ from its average entry price.
+    recovered enough from its average entry price.
   - Runs against Alpaca's paper trading API by default. Nothing here places
     real trades unless ALPACA_PAPER is explicitly set to "false" AND you
     supply live API keys.
+
+Adaptive mode (ADAPTIVE_STRATEGY=true, used by Portfolio 2 / "aggressive"):
+  Instead of fixed buy/sell thresholds and a fixed trade size, the bot tunes
+  its own parameters run over run based on how its own trades have gone --
+  aiming to land each completed trade's realized gain somewhere in a
+  10-15% band. This is a small, transparent, rule-based auto-tuner (not
+  machine learning): every adjustment is a bounded step, and every
+  parameter has a hard floor/ceiling it can never cross. See
+  adapt_strategy() below for the exact rules and bounds. Current parameters
+  and the reasoning behind the last change are written to
+  STRATEGY_STATE_PATH and into the public snapshot each run, so the
+  dashboard can show what it's currently doing and why.
 
 This is meant to run on a schedule (see .github/workflows/trading-bot.yml),
 each run doing one buy-scan + one sell-scan and then exiting.
@@ -58,6 +70,36 @@ TRADE_DOLLARS = max(float(os.environ.get("TRADE_DOLLARS", "10000")), MIN_TRADE_D
 # Starting account balance, written into the snapshot so the dashboard can
 # compute total return ($ and %) without hard-coding it client-side.
 STARTING_EQUITY = float(os.environ.get("STARTING_EQUITY", "500000"))
+
+# ---------------------------------------------------------------------------
+# Adaptive strategy (Portfolio 2 / "aggressive" only -- see adapt_strategy()).
+# Every bound below is a hard safety limit: the auto-tuner can move its own
+# parameters anywhere inside these ranges, but never outside them.
+# ---------------------------------------------------------------------------
+
+ADAPTIVE_STRATEGY = os.environ.get("ADAPTIVE_STRATEGY", "false").strip().lower() == "true"
+STRATEGY_STATE_PATH = os.environ.get("STRATEGY_STATE_PATH", "strategy_state.json")
+
+# Target band for realized gain per completed trade. The bot tunes its own
+# sell threshold to stay inside this band -- it can never sell for less than
+# SELL_MIN, and never holds out past SELL_MAX looking for more.
+SELL_MIN = 10.0
+SELL_MAX = 15.0
+
+# Buy-the-dip selectivity range. More negative = requires a bigger drop =
+# more selective / fewer trades. Less negative = smaller drop needed = more
+# trades.
+DROP_MIN = -8.0
+DROP_MAX = -3.0
+
+# Position-size range the auto-tuner can move TRADE_DOLLARS within.
+TRADE_DOLLARS_MAX = 20000.0
+
+# Step sizes for each nudge -- kept small on purpose so parameters drift
+# gradually based on evidence, instead of swinging wildly run to run.
+SELL_STEP = 0.5
+DROP_STEP = 0.5
+TRADE_DOLLARS_STEP = 500.0
 
 TRADE_LOG_PATH = os.environ.get("TRADE_LOG_PATH", "trade_log.csv")
 
@@ -156,6 +198,107 @@ def append_equity_history(equity: float, cash: float, buying_power: float) -> No
         ])
 
 
+def load_strategy_state() -> dict:
+    """Load the adaptive strategy's current parameters, or seed defaults."""
+    if os.path.exists(STRATEGY_STATE_PATH):
+        try:
+            with open(STRATEGY_STATE_PATH) as f:
+                state = json.load(f)
+            # Re-clamp on load in case bounds changed since this file was
+            # last written, or the file is malformed/from an older version.
+            state["drop_threshold_pct"] = min(DROP_MAX, max(DROP_MIN, float(state.get("drop_threshold_pct", DROP_THRESHOLD_PCT))))
+            state["sell_threshold_pct"] = min(SELL_MAX, max(SELL_MIN, float(state.get("sell_threshold_pct", SELL_THRESHOLD_PCT))))
+            state["trade_dollars"] = min(TRADE_DOLLARS_MAX, max(MIN_TRADE_DOLLARS, float(state.get("trade_dollars", TRADE_DOLLARS))))
+            state["completed_trades"] = int(state.get("completed_trades", 0))
+            return state
+        except Exception as exc:  # noqa: BLE001
+            log(f"Could not load strategy state ({exc}); starting from defaults.")
+    return {
+        "drop_threshold_pct": DROP_THRESHOLD_PCT,
+        "sell_threshold_pct": min(SELL_MAX, max(SELL_MIN, SELL_THRESHOLD_PCT)),
+        "trade_dollars": min(TRADE_DOLLARS_MAX, max(MIN_TRADE_DOLLARS, TRADE_DOLLARS)),
+        "completed_trades": 0,
+        "last_adjustment": "initial defaults",
+    }
+
+
+def save_strategy_state(state: dict) -> None:
+    try:
+        state["updated_utc"] = dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds")
+        with open(STRATEGY_STATE_PATH, "w") as f:
+            json.dump(state, f, indent=2)
+    except Exception as exc:  # noqa: BLE001
+        log(f"Could not save strategy state: {exc}")
+
+
+def adapt_strategy(state: dict, sell_events: list, buy_events: list, cash: float, equity: float) -> dict:
+    """Nudge this portfolio's own thresholds based on how its own recent
+    trades went. Bounded, rule-based auto-tuning -- not machine learning --
+    but genuinely adaptive: every change below is a small step driven by
+    this run's evidence, and every parameter has a hard floor/ceiling
+    (SELL_MIN/MAX, DROP_MIN/MAX, MIN_TRADE_DOLLARS/TRADE_DOLLARS_MAX) it can
+    never cross, so the strategy can't drift into reckless territory.
+    """
+    global DROP_THRESHOLD_PCT, SELL_THRESHOLD_PCT, TRADE_DOLLARS
+    notes = []
+
+    # Learn from each completed trade: did the price blow well past our
+    # target before we sold (room to aim higher), or did it just barely
+    # scrape over the line (aim lower so trades complete more reliably)?
+    for ev in sell_events:
+        overshoot = ev["gain_pct"] - state["sell_threshold_pct"]
+        if overshoot > 3.0:
+            new_val = min(SELL_MAX, round(state["sell_threshold_pct"] + SELL_STEP, 2))
+            if new_val != state["sell_threshold_pct"]:
+                notes.append(f"{ev['symbol']} cleared target by {overshoot:.1f}pp -> raised sell target to {new_val:.1f}%")
+            state["sell_threshold_pct"] = new_val
+        elif overshoot < 0.5:
+            new_val = max(SELL_MIN, round(state["sell_threshold_pct"] - SELL_STEP, 2))
+            if new_val != state["sell_threshold_pct"]:
+                notes.append(f"{ev['symbol']} barely cleared target -> lowered sell target to {new_val:.1f}%")
+            state["sell_threshold_pct"] = new_val
+        state["completed_trades"] = state.get("completed_trades", 0) + 1
+
+    # How much of the account is currently tied up in open positions?
+    utilization = (1.0 - (cash / equity)) if equity else 0.0
+
+    # Every 3rd completed trade, reconsider position size: press size up
+    # when capital is mostly free (there's room to do more), trim it down
+    # when too much capital is already tied up in open positions.
+    if sell_events and state["completed_trades"] % 3 == 0:
+        if utilization < 0.5:
+            new_size = min(TRADE_DOLLARS_MAX, state["trade_dollars"] + TRADE_DOLLARS_STEP)
+            if new_size != state["trade_dollars"]:
+                notes.append(f"capital utilization low ({utilization * 100:.0f}%) -> raised trade size to ${new_size:,.0f}")
+            state["trade_dollars"] = new_size
+        elif utilization > 0.8:
+            new_size = max(MIN_TRADE_DOLLARS, state["trade_dollars"] - TRADE_DOLLARS_STEP)
+            if new_size != state["trade_dollars"]:
+                notes.append(f"capital utilization high ({utilization * 100:.0f}%) -> trimmed trade size to ${new_size:,.0f}")
+            state["trade_dollars"] = new_size
+
+    # Learn entry selectivity from capital pressure: tighten the dip
+    # requirement when nearly all capital is already deployed (don't
+    # overextend), loosen it when there's plenty of idle cash and this
+    # scan didn't find anything to buy.
+    if utilization > 0.85:
+        new_drop = max(DROP_MIN, round(state["drop_threshold_pct"] - DROP_STEP, 2))
+        if new_drop != state["drop_threshold_pct"]:
+            notes.append(f"capital nearly fully deployed -> tightened dip threshold to {new_drop:.1f}%")
+        state["drop_threshold_pct"] = new_drop
+    elif utilization < 0.3 and not buy_events:
+        new_drop = min(DROP_MAX, round(state["drop_threshold_pct"] + DROP_STEP, 2))
+        if new_drop != state["drop_threshold_pct"]:
+            notes.append(f"plenty of idle cash, no dips found -> loosened dip threshold to {new_drop:.1f}%")
+        state["drop_threshold_pct"] = new_drop
+
+    DROP_THRESHOLD_PCT = state["drop_threshold_pct"]
+    SELL_THRESHOLD_PCT = state["sell_threshold_pct"]
+    TRADE_DOLLARS = state["trade_dollars"]
+    state["last_adjustment"] = "; ".join(notes) if notes else "no change this run"
+    return state
+
+
 def get_client() -> TradingClient:
     if not API_KEY or not API_SECRET:
         log("ERROR: ALPACA_API_KEY / ALPACA_SECRET_KEY are not set.")
@@ -247,7 +390,9 @@ def fetch_price_changes(tickers: list) -> dict:
     return changes
 
 
-def check_buys(client: TradingClient, tickers: list, names: dict) -> None:
+def check_buys(client: TradingClient, tickers: list, names: dict) -> list:
+    """Returns the list of buy events executed this run (symbol + drop %)."""
+    events = []
     changes = fetch_price_changes(tickers)
     dropped = {s: c for s, c in changes.items() if c <= DROP_THRESHOLD_PCT}
     log(f"Scanned {len(changes)} tickers, {len(dropped)} down {DROP_THRESHOLD_PCT}% or more.")
@@ -268,16 +413,20 @@ def check_buys(client: TradingClient, tickers: list, names: dict) -> None:
             detail = f"drop={pct_change:.2f}% notional=${TRADE_DOLLARS:.2f}"
             log(f"BUY {symbol} ({company}): {detail}")
             append_trade_log("BUY", symbol, detail)
+            events.append({"symbol": symbol, "drop_pct": pct_change})
         except Exception as exc:  # noqa: BLE001
             log(f"BUY order failed for {symbol}: {exc}")
+    return events
 
 
-def check_sells(client: TradingClient, names: dict) -> None:
+def check_sells(client: TradingClient, names: dict) -> list:
+    """Returns the list of sell events executed this run (symbol + realized gain %)."""
+    events = []
     try:
         positions = client.get_all_positions()
     except Exception as exc:  # noqa: BLE001
         log(f"Could not fetch positions: {exc}")
-        return
+        return events
 
     for pos in positions:
         try:
@@ -291,11 +440,13 @@ def check_sells(client: TradingClient, names: dict) -> None:
                 detail = f"gain={gain_pct:.2f}% qty={pos.qty}"
                 log(f"SELL {pos.symbol} ({company}): {detail}")
                 append_trade_log("SELL", pos.symbol, detail)
+                events.append({"symbol": pos.symbol, "gain_pct": gain_pct})
             except Exception as exc:  # noqa: BLE001
                 log(f"SELL order failed for {pos.symbol}: {exc}")
+    return events
 
 
-def write_snapshot(client: TradingClient, names: dict) -> None:
+def write_snapshot(client: TradingClient, names: dict, state: dict = None) -> None:
     """Dump equity/cash/positions to a public JSON file for the dashboard.
 
     No API keys or secrets are ever written here -- only account totals and
@@ -317,6 +468,8 @@ def write_snapshot(client: TradingClient, names: dict) -> None:
         "starting_equity": STARTING_EQUITY,
         "drop_threshold_pct": DROP_THRESHOLD_PCT,
         "sell_threshold_pct": SELL_THRESHOLD_PCT,
+        "trade_dollars": TRADE_DOLLARS,
+        "adaptive": ADAPTIVE_STRATEGY,
         "positions": [
             {
                 "symbol": p.symbol,
@@ -330,6 +483,10 @@ def write_snapshot(client: TradingClient, names: dict) -> None:
             for p in positions
         ],
     }
+    if ADAPTIVE_STRATEGY and state:
+        snapshot["adaptive_target_band_pct"] = [SELL_MIN, SELL_MAX]
+        snapshot["completed_trades"] = state.get("completed_trades", 0)
+        snapshot["last_adjustment"] = state.get("last_adjustment", "")
     try:
         with open(SNAPSHOT_PATH, "w") as f:
             json.dump(snapshot, f, indent=2)
@@ -345,23 +502,45 @@ def write_snapshot(client: TradingClient, names: dict) -> None:
 
 
 def main() -> None:
+    global DROP_THRESHOLD_PCT, SELL_THRESHOLD_PCT, TRADE_DOLLARS
     client = get_client()
+
+    state = None
+    if ADAPTIVE_STRATEGY:
+        state = load_strategy_state()
+        DROP_THRESHOLD_PCT = state["drop_threshold_pct"]
+        SELL_THRESHOLD_PCT = state["sell_threshold_pct"]
+        TRADE_DOLLARS = state["trade_dollars"]
+        log(f"Adaptive strategy loaded: drop={DROP_THRESHOLD_PCT}%, sell={SELL_THRESHOLD_PCT}%, "
+            f"trade_dollars=${TRADE_DOLLARS}, completed_trades={state['completed_trades']} "
+            f"(last: {state.get('last_adjustment', '-')}).")
+
     log(f"Starting run (paper={PAPER}, drop_threshold={DROP_THRESHOLD_PCT}%, "
-        f"sell_threshold={SELL_THRESHOLD_PCT}%, trade_dollars=${TRADE_DOLLARS}).")
+        f"sell_threshold={SELL_THRESHOLD_PCT}%, trade_dollars=${TRADE_DOLLARS}, "
+        f"adaptive={ADAPTIVE_STRATEGY}).")
 
     if not market_is_open(client):
         log("Market is closed. Exiting without scanning.")
-        write_snapshot(client, {})
+        write_snapshot(client, {}, state)
         return
 
     tickers, names = get_universe()
     write_companies(names)
 
     # Check exits first so a sale can free up buying power for new dips.
-    check_sells(client, names)
-    check_buys(client, tickers, names)
+    sell_events = check_sells(client, names)
+    buy_events = check_buys(client, tickers, names)
 
-    write_snapshot(client, names)
+    if ADAPTIVE_STRATEGY:
+        try:
+            account = client.get_account()
+            state = adapt_strategy(state, sell_events, buy_events, float(account.cash), float(account.equity))
+            save_strategy_state(state)
+            log(f"Adaptive strategy updated: {state.get('last_adjustment')}")
+        except Exception as exc:  # noqa: BLE001
+            log(f"Could not update adaptive strategy: {exc}")
+
+    write_snapshot(client, names, state)
     log("Run complete.")
 
 

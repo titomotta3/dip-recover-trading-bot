@@ -168,6 +168,41 @@
     padding: 16px;
   }
   .chart-wrap svg { width: 100%; height: 140px; display: block; }
+  .strategy-box {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 16px;
+    font-size: 13px;
+  }
+  .strategy-params {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px 20px;
+    margin-bottom: 8px;
+  }
+  .strategy-params span { color: var(--muted); }
+  .strategy-params b { color: var(--text); }
+  .strategy-note {
+    color: var(--muted);
+    font-size: 12px;
+    border-top: 1px solid var(--border);
+    padding-top: 8px;
+    margin-top: 4px;
+  }
+  .learn-badge {
+    display: inline-block;
+    padding: 1px 7px;
+    border-radius: 999px;
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 0.03em;
+    background: rgba(61, 220, 132, 0.15);
+    color: var(--green);
+    border: 1px solid rgba(61, 220, 132, 0.35);
+    margin-left: 6px;
+    vertical-align: middle;
+  }
   footer {
     color: var(--muted);
     font-size: 12px;
@@ -183,7 +218,7 @@
   <header>
     <div>
       <h1>Dip-and-Recover Trading Bot</h1>
-      <div class="sub">Two paper portfolios, same signals, different position sizing.</div>
+      <div class="sub">Two paper portfolios: Portfolio 1 runs fixed rules, Portfolio 2 tunes its own strategy as it trades.</div>
     </div>
     <button onclick="loadAll()">Refresh</button>
   </header>
@@ -193,11 +228,15 @@
   <div id="portfolios"></div>
 
   <footer>
-    Strategy: buy any S&amp;P 500 stock down 5%+ vs. previous close, sell once a
-    position recovers 7%+ from its average entry price. Both portfolios use the
-    same buy/sell signals and started with $500,000 &mdash; Portfolio 2 simply
-    bets 25% more per trade ($12,500 vs. $10,000). Runs automatically every 15
-    minutes during market hours via GitHub Actions.<br />
+    Both portfolios started with $500,000 and buy S&amp;P 500 stocks that drop
+    vs. the previous close. Portfolio 1 runs fixed rules: buy on a 5%+ drop,
+    sell once a position recovers 7%+. Portfolio 2 runs the same dip-and-recover
+    idea but adaptively: it tunes its own buy-dip threshold, sell target, and
+    position size run over run based on how its own trades go, aiming to land
+    each completed trade's gain in a 10-15% band &mdash; a bounded, rule-based
+    auto-tuner, not machine learning; every parameter has a hard floor/ceiling
+    it can never cross. Runs automatically every 15 minutes during market
+    hours via GitHub Actions.<br />
     This is a paper-trading demo, not financial advice, and not a proven
     profitable strategy.<br />
     <a href="https://github.com/titomotta3/dip-recover-trading-bot" target="_blank" rel="noopener">
@@ -221,7 +260,7 @@
       id: "p2",
       title: "Portfolio 2",
       tagClass: "aggressive",
-      tagLabel: "Aggressive &middot; $12,500/trade",
+      tagLabel: "Aggressive &middot; Adaptive",
       snapshot: "account_snapshot_aggressive.json",
       tradeLog: "trade_log_aggressive.csv",
       history: "equity_history_aggressive.csv",
@@ -308,6 +347,11 @@
           <div class="card"><div class="label">Buying Power</div><div class="value" id="buying-power-${cfg.id}">&ndash;</div></div>
           <div class="card"><div class="label">Open Positions</div><div class="value" id="pos-count-${cfg.id}">&ndash;</div></div>
         </div>
+
+        <section class="block">
+          <h3>Live Strategy</h3>
+          <div class="strategy-box" id="strategy-${cfg.id}">Loading&hellip;</div>
+        </section>
 
         <section class="block">
           <h3>Equity Over Time</h3>
@@ -413,6 +457,33 @@
         cmpReturn.className = "return-line " + cls(returnDollars);
       }
 
+      const strategyEl = document.getElementById(`strategy-${cfg.id}`);
+      if (strategyEl) {
+        const dropLabel = data.drop_threshold_pct !== undefined ? data.drop_threshold_pct.toFixed(1) + "%" : "&ndash;";
+        const sellLabel = data.sell_threshold_pct !== undefined ? data.sell_threshold_pct.toFixed(1) + "%" : "&ndash;";
+        const sizeLabel = data.trade_dollars !== undefined ? money(data.trade_dollars) : "&ndash;";
+        const params = `
+          <div class="strategy-params">
+            <span>Buy trigger: <b>${dropLabel} or worse</b></span>
+            <span>Sell target: <b>${sellLabel}+</b></span>
+            <span>Trade size: <b>${sizeLabel}</b></span>
+          </div>`;
+        if (data.adaptive) {
+          const band = data.adaptive_target_band_pct || [10, 15];
+          const completed = data.completed_trades || 0;
+          const note = data.last_adjustment || "no adjustments yet";
+          strategyEl.innerHTML = params + `
+            <div class="strategy-note">
+              <span class="learn-badge">ADAPTIVE</span>
+              Targets ${band[0]}-${band[1]}% realized gain per trade &middot; ${completed} completed trade${completed === 1 ? "" : "s"} so far.<br />
+              Last adjustment: ${note}.
+            </div>`;
+        } else {
+          strategyEl.innerHTML = params + `
+            <div class="strategy-note">Fixed rules &mdash; these numbers only change if edited in the workflow config.</div>`;
+        }
+      }
+
       const wrap = document.getElementById(`positions-wrap-${cfg.id}`);
       if (!data.positions.length) {
         wrap.innerHTML = '<div class="empty">No open positions right now &mdash; waiting for the next 5%+ dip.</div>';
@@ -443,6 +514,8 @@
         `Could not load ${cfg.snapshot} yet — it's created after the bot's first run.`;
       document.getElementById(`positions-wrap-${cfg.id}`).innerHTML =
         '<div class="empty">No data yet.</div>';
+      const strategyEl = document.getElementById(`strategy-${cfg.id}`);
+      if (strategyEl) strategyEl.innerHTML = '<div class="empty">No data yet.</div>';
     }
   }
 
