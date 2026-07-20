@@ -36,6 +36,8 @@ import traceback
 
 import pandas as pd
 import yfinance as yf
+from alpaca.data.historical.news import NewsClient
+from alpaca.data.requests import NewsRequest
 from alpaca.trading.client import TradingClient
 from alpaca.trading.enums import OrderSide, TimeInForce
 from alpaca.trading.requests import MarketOrderRequest
@@ -70,6 +72,35 @@ TRADE_DOLLARS = max(float(os.environ.get("TRADE_DOLLARS", "10000")), MIN_TRADE_D
 # Starting account balance, written into the snapshot so the dashboard can
 # compute total return ($ and %) without hard-coding it client-side.
 STARTING_EQUITY = float(os.environ.get("STARTING_EQUITY", "500000"))
+
+# ---------------------------------------------------------------------------
+# News-based trade filtering (both portfolios). Uses Alpaca's News API with
+# the same credentials already configured -- no extra signup or secrets.
+# This is a transparent keyword scan, not an ML/sentiment model: every
+# decision is traceable to the exact matched word(s), logged on every trade.
+#   - Buy side: skip a dip if recent headlines look like a real problem
+#     rather than a routine, recoverable drop.
+#   - Sell side: exit a position early (even before it hits its normal
+#     recovery target) if fresh bad news breaks while we're holding it.
+#     This is the one place the strategy can realize a loss -- everywhere
+#     else it only ever sells at a profit.
+# A failed/empty news fetch is treated as "no signal" (not bad news) so a
+# news-API hiccup degrades gracefully instead of freezing all trading.
+# ---------------------------------------------------------------------------
+
+NEWS_LOOKBACK_HOURS = float(os.environ.get("NEWS_LOOKBACK_HOURS", "72"))
+NEWS_HEADLINE_LIMIT = int(os.environ.get("NEWS_HEADLINE_LIMIT", "10"))
+
+BAD_NEWS_KEYWORDS = [
+    "bankrupt", "bankruptcy", "chapter 11", "fraud", "lawsuit", "sued", "sues",
+    "class action", "investigation", "investigated", "subpoena", "sec probe",
+    "recall", "recalls", "recalled", "downgrade", "downgraded", "guidance cut",
+    "cuts guidance", "lowers guidance", "profit warning", "warns", "layoffs",
+    "restatement", "restates", "going concern", "default", "delisting",
+    "delisted", "trading halt", "halted", "data breach", "hacked",
+    "cyberattack", "resigns", "resignation", "steps down", "misses estimates",
+    "misses expectations", "plunges", "plummets", "collapse", "scandal",
+]
 
 # ---------------------------------------------------------------------------
 # Adaptive strategy (Portfolio 2 / "aggressive" only -- see adapt_strategy()).
@@ -242,10 +273,22 @@ def adapt_strategy(state: dict, sell_events: list, buy_events: list, cash: float
     global DROP_THRESHOLD_PCT, SELL_THRESHOLD_PCT, TRADE_DOLLARS
     notes = []
 
+    # Separate genuine profit-take sells from forced bad-news exits -- only
+    # the former are evidence about whether the sell target is well-tuned.
+    # A news-driven exit is a risk-management event, not a signal that the
+    # target itself needs adjusting.
+    target_sells = [ev for ev in sell_events if ev.get("reason") != "bad_news"]
+    news_exits = [ev for ev in sell_events if ev.get("reason") == "bad_news"]
+
+    if news_exits:
+        state["news_exits"] = state.get("news_exits", 0) + len(news_exits)
+        notes.append(f"{len(news_exits)} early exit(s) on bad news this run "
+                     f"({', '.join(ev['symbol'] for ev in news_exits)})")
+
     # Learn from each completed trade: did the price blow well past our
     # target before we sold (room to aim higher), or did it just barely
     # scrape over the line (aim lower so trades complete more reliably)?
-    for ev in sell_events:
+    for ev in target_sells:
         overshoot = ev["gain_pct"] - state["sell_threshold_pct"]
         if overshoot > 3.0:
             new_val = min(SELL_MAX, round(state["sell_threshold_pct"] + SELL_STEP, 2))
@@ -262,10 +305,11 @@ def adapt_strategy(state: dict, sell_events: list, buy_events: list, cash: float
     # How much of the account is currently tied up in open positions?
     utilization = (1.0 - (cash / equity)) if equity else 0.0
 
-    # Every 3rd completed trade, reconsider position size: press size up
-    # when capital is mostly free (there's room to do more), trim it down
-    # when too much capital is already tied up in open positions.
-    if sell_events and state["completed_trades"] % 3 == 0:
+    # Every 3rd completed (profit-take) trade, reconsider position size:
+    # press size up when capital is mostly free (there's room to do more),
+    # trim it down when too much capital is already tied up in open
+    # positions.
+    if target_sells and state["completed_trades"] % 3 == 0:
         if utilization < 0.5:
             new_size = min(TRADE_DOLLARS_MAX, state["trade_dollars"] + TRADE_DOLLARS_STEP)
             if new_size != state["trade_dollars"]:
@@ -304,6 +348,53 @@ def get_client() -> TradingClient:
         log("ERROR: ALPACA_API_KEY / ALPACA_SECRET_KEY are not set.")
         sys.exit(1)
     return TradingClient(API_KEY, API_SECRET, paper=PAPER)
+
+
+def get_news_client() -> NewsClient:
+    """News data is a separate, free Alpaca endpoint available to every
+    account (paper or live) -- same API_KEY/API_SECRET, no extra setup."""
+    return NewsClient(API_KEY, API_SECRET)
+
+
+def fetch_recent_headlines(news_client: NewsClient, symbol: str) -> list:
+    """Returns recent headline+summary text for symbol from the last
+    NEWS_LOOKBACK_HOURS. Returns [] on any failure or if nothing is found --
+    callers must treat that as "no signal", not as bad news, so a news-API
+    hiccup or a quiet stock never blocks trading on its own.
+    """
+    try:
+        start = dt.datetime.now(dt.timezone.utc) - dt.timedelta(hours=NEWS_LOOKBACK_HOURS)
+        request = NewsRequest(
+            symbols=symbol,
+            start=start,
+            limit=NEWS_HEADLINE_LIMIT,
+            include_content=False,
+        )
+        news_set = news_client.get_news(request)
+        articles = news_set.data.get("news", []) if news_set and news_set.data else []
+        return [f"{a.headline or ''} {a.summary or ''}".strip() for a in articles]
+    except Exception as exc:  # noqa: BLE001
+        log(f"Could not fetch news for {symbol}: {exc}")
+        return []
+
+
+def classify_news(texts: list) -> dict:
+    """Transparent keyword scan of recent headlines/summaries -- not an
+    ML/sentiment model. Flags 'bad' if any bad-news keyword shows up
+    anywhere in the recent coverage; every match is reported so the trade
+    log always shows exactly why a trade was skipped or an exit was forced.
+    """
+    matched = []
+    for text in texts:
+        lower = text.lower()
+        for kw in BAD_NEWS_KEYWORDS:
+            if kw in lower:
+                matched.append(kw)
+    return {
+        "bad": bool(matched),
+        "matched": sorted(set(matched)),
+        "headline_count": len(texts),
+    }
 
 
 def market_is_open(client: TradingClient) -> bool:
@@ -390,7 +481,7 @@ def fetch_price_changes(tickers: list) -> dict:
     return changes
 
 
-def check_buys(client: TradingClient, tickers: list, names: dict) -> list:
+def check_buys(client: TradingClient, news_client: NewsClient, tickers: list, names: dict) -> list:
     """Returns the list of buy events executed this run (symbol + drop %)."""
     events = []
     changes = fetch_price_changes(tickers)
@@ -401,6 +492,14 @@ def check_buys(client: TradingClient, tickers: list, names: dict) -> list:
         if has_open_position(client, symbol):
             log(f"Skip {symbol}: already holding an open position.")
             continue
+
+        headlines = fetch_recent_headlines(news_client, symbol)
+        news = classify_news(headlines)
+        if news["bad"]:
+            log(f"Skip {symbol}: bad news detected ({', '.join(news['matched'])}) "
+                f"across {news['headline_count']} recent headline(s).")
+            continue
+
         try:
             order = MarketOrderRequest(
                 symbol=symbol,
@@ -410,7 +509,8 @@ def check_buys(client: TradingClient, tickers: list, names: dict) -> list:
             )
             client.submit_order(order)
             company = names.get(symbol, "")
-            detail = f"drop={pct_change:.2f}% notional=${TRADE_DOLLARS:.2f}"
+            news_note = f"news=clear({news['headline_count']})" if news["headline_count"] else "news=none"
+            detail = f"drop={pct_change:.2f}% notional=${TRADE_DOLLARS:.2f} {news_note}"
             log(f"BUY {symbol} ({company}): {detail}")
             append_trade_log("BUY", symbol, detail)
             events.append({"symbol": symbol, "drop_pct": pct_change})
@@ -419,8 +519,12 @@ def check_buys(client: TradingClient, tickers: list, names: dict) -> list:
     return events
 
 
-def check_sells(client: TradingClient, names: dict) -> list:
-    """Returns the list of sell events executed this run (symbol + realized gain %)."""
+def check_sells(client: TradingClient, news_client: NewsClient, names: dict) -> list:
+    """Returns the list of sell events executed this run (symbol + realized
+    gain % + reason: "target_reached" or "bad_news"). A bad_news exit is the
+    one path where this strategy can realize a loss -- everywhere else it
+    only ever sells once a position is already profitable.
+    """
     events = []
     try:
         positions = client.get_all_positions()
@@ -433,16 +537,33 @@ def check_sells(client: TradingClient, names: dict) -> list:
             gain_pct = float(pos.unrealized_plpc) * 100
         except (TypeError, ValueError):
             continue
+
+        reason = None
+        matched_keywords = []
         if gain_pct >= SELL_THRESHOLD_PCT:
-            try:
-                client.close_position(pos.symbol)
-                company = names.get(pos.symbol, "")
-                detail = f"gain={gain_pct:.2f}% qty={pos.qty}"
-                log(f"SELL {pos.symbol} ({company}): {detail}")
-                append_trade_log("SELL", pos.symbol, detail)
-                events.append({"symbol": pos.symbol, "gain_pct": gain_pct})
-            except Exception as exc:  # noqa: BLE001
-                log(f"SELL order failed for {pos.symbol}: {exc}")
+            reason = "target_reached"
+        else:
+            headlines = fetch_recent_headlines(news_client, pos.symbol)
+            news = classify_news(headlines)
+            if news["bad"]:
+                reason = "bad_news"
+                matched_keywords = news["matched"]
+
+        if reason is None:
+            continue
+
+        try:
+            client.close_position(pos.symbol)
+            company = names.get(pos.symbol, "")
+            if reason == "target_reached":
+                detail = f"gain={gain_pct:.2f}% qty={pos.qty} reason=target_reached"
+            else:
+                detail = f"gain={gain_pct:.2f}% qty={pos.qty} reason=bad_news:{','.join(matched_keywords)}"
+            log(f"SELL {pos.symbol} ({company}): {detail}")
+            append_trade_log("SELL", pos.symbol, detail)
+            events.append({"symbol": pos.symbol, "gain_pct": gain_pct, "reason": reason})
+        except Exception as exc:  # noqa: BLE001
+            log(f"SELL order failed for {pos.symbol}: {exc}")
     return events
 
 
@@ -504,6 +625,7 @@ def write_snapshot(client: TradingClient, names: dict, state: dict = None) -> No
 def main() -> None:
     global DROP_THRESHOLD_PCT, SELL_THRESHOLD_PCT, TRADE_DOLLARS
     client = get_client()
+    news_client = get_news_client()
 
     state = None
     if ADAPTIVE_STRATEGY:
@@ -534,8 +656,8 @@ def main() -> None:
     write_companies(names)
 
     # Check exits first so a sale can free up buying power for new dips.
-    sell_events = check_sells(client, names)
-    buy_events = check_buys(client, tickers, names)
+    sell_events = check_sells(client, news_client, names)
+    buy_events = check_buys(client, news_client, tickers, names)
 
     if ADAPTIVE_STRATEGY:
         try:
