@@ -493,18 +493,24 @@
           <table>
             <thead><tr>
               <th>Symbol</th><th>Qty</th><th>Avg Entry</th><th>Current Price</th>
-              <th>Unrealized P/L</th><th>Unrealized %</th>
+              <th>Value</th><th>Unrealized P/L</th><th>Unrealized %</th>
             </tr></thead>
             <tbody>
-              ${data.positions.map((p) => `
+              ${data.positions.map((p) => {
+                const value = p.market_value !== null && p.market_value !== undefined
+                  ? p.market_value
+                  : p.qty * p.current_price;
+                return `
                 <tr>
                   <td>${tickerCell(p.symbol, p.name)}</td>
                   <td>${p.qty}</td>
                   <td>${money(p.avg_entry_price)}</td>
                   <td>${money(p.current_price)}</td>
+                  <td>${money(value)}</td>
                   <td class="${cls(p.unrealized_pl)}">${money(p.unrealized_pl)}</td>
                   <td class="${cls(p.unrealized_plpc)}">${pct(p.unrealized_plpc)}</td>
-                </tr>`).join("")}
+                </tr>`;
+              }).join("")}
             </tbody>
           </table>
           </div>`;

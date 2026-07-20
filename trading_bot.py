@@ -598,6 +598,8 @@ def write_snapshot(client: TradingClient, names: dict, state: dict = None) -> No
                 "qty": float(p.qty),
                 "avg_entry_price": float(p.avg_entry_price),
                 "current_price": float(p.current_price) if p.current_price else None,
+                "cost_basis": float(p.cost_basis) if p.cost_basis is not None else float(p.qty) * float(p.avg_entry_price),
+                "market_value": float(p.market_value) if p.market_value is not None else None,
                 "unrealized_pl": float(p.unrealized_pl),
                 "unrealized_plpc": float(p.unrealized_plpc) * 100,
             }
