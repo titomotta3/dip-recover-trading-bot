@@ -61,13 +61,36 @@
   .compare .card .name { font-size: 12px; color: var(--muted); margin-bottom: 8px; text-transform: uppercase; letter-spacing: 0.04em; }
   .compare .card .equity-big { font-size: 24px; font-weight: 700; }
   .compare .card .return-line { font-size: 13px; margin-top: 4px; }
+  .compare .card { cursor: pointer; }
+  .compare .card:hover { border-color: var(--accent); }
+
+  /* Portfolio tabs */
+  .tabs {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px 24px;
+    border-bottom: 1px solid var(--border);
+    margin-bottom: 24px;
+  }
+  .tab-btn {
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid transparent;
+    border-radius: 0;
+    color: var(--muted);
+    padding: 10px 2px 12px;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+  }
+  .tab-btn:hover { border-color: var(--border); color: var(--text); }
+  .tab-btn.active { color: var(--text); border-bottom-color: var(--accent); }
 
   .portfolio {
-    margin-bottom: 44px;
-    padding-top: 20px;
-    border-top: 1px solid var(--border);
+    display: none;
+    margin-bottom: 24px;
   }
-  .portfolio:first-child { border-top: none; padding-top: 0; }
+  .portfolio.active { display: block; }
   .portfolio-header {
     display: flex;
     flex-wrap: wrap;
@@ -225,6 +248,8 @@
 
   <div id="compare" class="compare"></div>
 
+  <div id="portfolio-tabs" class="tabs"></div>
+
   <div id="portfolios"></div>
 
   <footer>
@@ -285,6 +310,17 @@
 
   let companies = {};
   const shellBuilt = { p1: false, p2: false };
+  let activeTab = "p1";
+
+  function setActiveTab(id) {
+    activeTab = id;
+    document.querySelectorAll(".tab-btn").forEach((btn) => {
+      btn.classList.toggle("active", btn.dataset.id === id);
+    });
+    document.querySelectorAll(".portfolio").forEach((el) => {
+      el.classList.toggle("active", el.id === `portfolio-${id}`);
+    });
+  }
 
   const tickerCell = (symbol, name) => {
     const label = name || companies[symbol] || "";
@@ -329,9 +365,19 @@
   // container) exactly once. Refresh cycles only patch data into these
   // existing nodes, so the page no longer flashes "Loading..." every 60s.
   function renderShell() {
+    // Tab bar -- lets you switch which portfolio's detail view is shown
+    // instead of scrolling through both stacked on one long page.
+    const tabs = document.getElementById("portfolio-tabs");
+    tabs.innerHTML = PORTFOLIOS.map((cfg) => `
+      <button class="tab-btn ${cfg.id === activeTab ? "active" : ""}" data-id="${cfg.id}">${cfg.title}</button>
+    `).join("");
+    tabs.querySelectorAll(".tab-btn").forEach((btn) => {
+      btn.addEventListener("click", () => setActiveTab(btn.dataset.id));
+    });
+
     const container = document.getElementById("portfolios");
     container.innerHTML = PORTFOLIOS.map((cfg) => `
-      <div class="portfolio">
+      <div class="portfolio ${cfg.id === activeTab ? "active" : ""}" id="portfolio-${cfg.id}">
         <div class="portfolio-header">
           <div class="portfolio-title">
             ${cfg.title}
@@ -372,15 +418,19 @@
       </div>
     `).join("");
 
-    // Compare bar (Portfolio 1 vs Portfolio 2 at a glance).
+    // Compare bar (Portfolio 1 vs Portfolio 2 at a glance) -- click a card
+    // to jump to that portfolio's tab.
     const compare = document.getElementById("compare");
     compare.innerHTML = PORTFOLIOS.map((cfg) => `
-      <div class="card ${cfg.tagClass}">
+      <div class="card ${cfg.tagClass}" data-id="${cfg.id}">
         <div class="name">${cfg.title} &mdash; ${cfg.tagLabel.replace("&middot;", "·")}</div>
         <div class="equity-big" id="cmp-equity-${cfg.id}">&ndash;</div>
         <div class="return-line" id="cmp-return-${cfg.id}">&ndash;</div>
       </div>
     `).join("");
+    compare.querySelectorAll(".card").forEach((card) => {
+      card.addEventListener("click", () => setActiveTab(card.dataset.id));
+    });
 
     PORTFOLIOS.forEach((cfg) => { shellBuilt[cfg.id] = true; tradesShown[cfg.id] = TRADES_PAGE_SIZE; });
   }
