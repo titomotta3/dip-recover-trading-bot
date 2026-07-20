@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-07-20T23:10:18+00:00",
+  "updated_utc": "2026-07-20T23:20:35+00:00",
   "paper": true,
   "equity": 500126.87,
   "cash": 475000.02,
@@ -38,5 +38,6 @@
     15.0
   ],
   "completed_trades": 0,
-  "last_adjustment": "initial defaults"
+  "last_adjustment": "initial defaults",
+  "conviction_trade_dollars_max": 40000.0
 }
