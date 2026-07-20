@@ -43,6 +43,7 @@ jobs:
         run: |
           git config user.name "trading-bot"
           git config user.email "actions@users.noreply.github.com"
+          git pull --rebase --autostash
           echo "--- Files present after run ---"
           ls -la trade_log.csv account_snapshot.json companies.json 2>&1 || true
           [ -f trade_log.csv ] && git add trade_log.csv
