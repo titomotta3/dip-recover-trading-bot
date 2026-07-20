@@ -2,11 +2,12 @@ name: Trading Bot
 
 on:
   schedule:
-    # Every 15 minutes, 13:00-21:59 UTC, Mon-Fri.
+    # Every 5 minutes, 13:00-21:59 UTC, Mon-Fri (5 minutes is GitHub Actions'
+    # own minimum cron granularity -- can't go tighter than this).
     # That window covers 9:30am-4:00pm ET in both EDT and EST with margin;
     # trading_bot.py double-checks Alpaca's market clock and exits early
     # if the market is actually closed (holidays, exact open/close time).
-    - cron: "*/15 13-21 * * 1-5"
+    - cron: "*/5 13-21 * * 1-5"
   workflow_dispatch: {}
 
 permissions:
