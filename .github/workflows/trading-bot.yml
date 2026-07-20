@@ -37,6 +37,7 @@ jobs:
           SELL_THRESHOLD_PCT: "7.0"
           TRADE_DOLLARS: "10000"
           STARTING_EQUITY: "500000"
+          DEBUG_NEWS_SYMBOL: "AAPL"
         run: python trading_bot.py
 
       - name: Commit updated trade log and snapshot
