@@ -31,7 +31,7 @@
     align-items: center;
     justify-content: space-between;
     gap: 12px;
-    margin-bottom: 28px;
+    margin-bottom: 20px;
   }
   h1 { font-size: 22px; margin: 0; }
   .sub { color: var(--muted); font-size: 13px; margin-top: 4px; }
@@ -45,6 +45,22 @@
     cursor: pointer;
   }
   button:hover { border-color: var(--accent); }
+
+  /* Side-by-side comparison bar */
+  .compare {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 12px;
+    margin-bottom: 32px;
+  }
+  .compare .card {
+    border-left: 3px solid var(--border);
+  }
+  .compare .card.standard { border-left-color: var(--accent); }
+  .compare .card.aggressive { border-left-color: var(--accent2); }
+  .compare .card .name { font-size: 12px; color: var(--muted); margin-bottom: 8px; text-transform: uppercase; letter-spacing: 0.04em; }
+  .compare .card .equity-big { font-size: 24px; font-weight: 700; }
+  .compare .card .return-line { font-size: 13px; margin-top: 4px; }
 
   .portfolio {
     margin-bottom: 44px;
@@ -97,8 +113,14 @@
     color: var(--muted);
     margin-bottom: 10px;
   }
+  .table-scroll {
+    overflow-x: auto;
+    border-radius: 12px;
+    -webkit-overflow-scrolling: touch;
+  }
   table {
     width: 100%;
+    min-width: 480px;
     border-collapse: collapse;
     background: var(--card);
     border: 1px solid var(--border);
@@ -110,6 +132,7 @@
     text-align: left;
     padding: 10px 14px;
     border-bottom: 1px solid var(--border);
+    white-space: nowrap;
   }
   th {
     color: var(--muted);
@@ -137,6 +160,14 @@
     font-weight: 400;
     margin-top: 2px;
   }
+  .show-more-wrap { text-align: center; margin-top: 10px; }
+  .chart-wrap {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 16px;
+  }
+  .chart-wrap svg { width: 100%; height: 140px; display: block; }
   footer {
     color: var(--muted);
     font-size: 12px;
@@ -156,6 +187,8 @@
     </div>
     <button onclick="loadAll()">Refresh</button>
   </header>
+
+  <div id="compare" class="compare"></div>
 
   <div id="portfolios"></div>
 
@@ -182,6 +215,7 @@
       tagLabel: "Standard &middot; $10,000/trade",
       snapshot: "account_snapshot.json",
       tradeLog: "trade_log.csv",
+      history: "equity_history.csv",
     },
     {
       id: "p2",
@@ -190,8 +224,13 @@
       tagLabel: "Aggressive &middot; $12,500/trade",
       snapshot: "account_snapshot_aggressive.json",
       tradeLog: "trade_log_aggressive.csv",
+      history: "equity_history_aggressive.csv",
     },
   ];
+
+  const TRADES_PAGE_SIZE = 25;
+  const tradesShown = {}; // id -> number of rows currently rendered
+  const allTrades = {}; // id -> full parsed trade rows
 
   const money = (n) => {
     if (n === null || n === undefined || isNaN(n)) return "&ndash;";
@@ -205,6 +244,7 @@
   const cls = (n) => (n >= 0 ? "pos" : "neg");
 
   let companies = {};
+  const shellBuilt = { p1: false, p2: false };
 
   const tickerCell = (symbol, name) => {
     const label = name || companies[symbol] || "";
@@ -226,7 +266,7 @@
     }
   }
 
-  function parseCsv(text) {
+  function parseTradeCsv(text) {
     const lines = text.trim().split("\n").filter(Boolean);
     if (lines.length <= 1) return [];
     const rows = lines.slice(1).map((line) => {
@@ -236,6 +276,18 @@
     return rows.reverse(); // most recent first
   }
 
+  function parseHistoryCsv(text) {
+    const lines = text.trim().split("\n").filter(Boolean);
+    if (lines.length <= 1) return [];
+    return lines.slice(1).map((line) => {
+      const [timestamp_utc, equity, cash, buying_power] = line.split(",");
+      return { timestamp_utc, equity: parseFloat(equity), cash: parseFloat(cash), buying_power: parseFloat(buying_power) };
+    });
+  }
+
+  // Renders each portfolio's static shell (cards, section headers, chart
+  // container) exactly once. Refresh cycles only patch data into these
+  // existing nodes, so the page no longer flashes "Loading..." every 60s.
   function renderShell() {
     const container = document.getElementById("portfolios");
     container.innerHTML = PORTFOLIOS.map((cfg) => `
@@ -251,10 +303,16 @@
 
         <div class="cards">
           <div class="card"><div class="label">Equity</div><div class="value" id="equity-${cfg.id}">&ndash;</div></div>
+          <div class="card"><div class="label">Total Return</div><div class="value" id="return-${cfg.id}">&ndash;</div></div>
           <div class="card"><div class="label">Cash</div><div class="value" id="cash-${cfg.id}">&ndash;</div></div>
           <div class="card"><div class="label">Buying Power</div><div class="value" id="buying-power-${cfg.id}">&ndash;</div></div>
           <div class="card"><div class="label">Open Positions</div><div class="value" id="pos-count-${cfg.id}">&ndash;</div></div>
         </div>
+
+        <section class="block">
+          <h3>Equity Over Time</h3>
+          <div class="chart-wrap" id="chart-${cfg.id}"><div class="empty">Building chart&hellip;</div></div>
+        </section>
 
         <section class="block">
           <h3>Open Positions</h3>
@@ -264,9 +322,64 @@
         <section class="block">
           <h3>Trade History</h3>
           <div id="trades-wrap-${cfg.id}"><div class="empty">Loading trade history&hellip;</div></div>
+          <div class="show-more-wrap" id="trades-more-wrap-${cfg.id}"></div>
         </section>
       </div>
     `).join("");
+
+    // Compare bar (Portfolio 1 vs Portfolio 2 at a glance).
+    const compare = document.getElementById("compare");
+    compare.innerHTML = PORTFOLIOS.map((cfg) => `
+      <div class="card ${cfg.tagClass}">
+        <div class="name">${cfg.title} &mdash; ${cfg.tagLabel.replace("&middot;", "·")}</div>
+        <div class="equity-big" id="cmp-equity-${cfg.id}">&ndash;</div>
+        <div class="return-line" id="cmp-return-${cfg.id}">&ndash;</div>
+      </div>
+    `).join("");
+
+    PORTFOLIOS.forEach((cfg) => { shellBuilt[cfg.id] = true; tradesShown[cfg.id] = TRADES_PAGE_SIZE; });
+  }
+
+  function renderSparkline(elId, points) {
+    const el = document.getElementById(elId);
+    if (!el) return;
+    if (!points.length) {
+      el.innerHTML = '<div class="empty">Not enough history yet &mdash; check back after a few runs.</div>';
+      return;
+    }
+    const w = 600, h = 140, pad = 8;
+    const values = points.map((p) => p.equity);
+    const min = Math.min(...values);
+    const max = Math.max(...values);
+    const range = max - min || 1;
+    const stepX = points.length > 1 ? (w - pad * 2) / (points.length - 1) : 0;
+    const coords = points.map((p, i) => {
+      const x = pad + i * stepX;
+      const y = h - pad - ((p.equity - min) / range) * (h - pad * 2);
+      return [x, y];
+    });
+    const path = coords.map(([x, y], i) => (i === 0 ? `M${x.toFixed(1)},${y.toFixed(1)}` : `L${x.toFixed(1)},${y.toFixed(1)}`)).join(" ");
+    const last = points[points.length - 1];
+    const first = points[0];
+    const lineColor = last.equity >= first.equity ? "var(--green)" : "var(--red)";
+    const areaPath = `${path} L${coords[coords.length - 1][0].toFixed(1)},${h - pad} L${coords[0][0].toFixed(1)},${h - pad} Z`;
+    el.innerHTML = `
+      <svg viewBox="0 0 ${w} ${h}" preserveAspectRatio="none">
+        <path d="${areaPath}" fill="${lineColor}" opacity="0.08" stroke="none"></path>
+        <path d="${path}" fill="none" stroke="${lineColor}" stroke-width="2"></path>
+      </svg>`;
+  }
+
+  async function loadHistory(cfg) {
+    try {
+      const res = await fetchNoCache(cfg.history);
+      const text = await res.text();
+      const points = parseHistoryCsv(text);
+      renderSparkline(`chart-${cfg.id}`, points);
+    } catch (err) {
+      const el = document.getElementById(`chart-${cfg.id}`);
+      if (el) el.innerHTML = '<div class="empty">No history yet &mdash; the chart fills in as the bot runs.</div>';
+    }
   }
 
   async function loadSnapshot(cfg) {
@@ -285,11 +398,27 @@
       document.getElementById(`buying-power-${cfg.id}`).textContent = money(data.buying_power);
       document.getElementById(`pos-count-${cfg.id}`).textContent = data.positions.length;
 
+      const startingEquity = data.starting_equity || 500000;
+      const returnDollars = data.equity - startingEquity;
+      const returnPct = (returnDollars / startingEquity) * 100;
+      const returnEl = document.getElementById(`return-${cfg.id}`);
+      returnEl.textContent = money(returnDollars) + " (" + pct(returnPct) + ")";
+      returnEl.className = "value " + cls(returnDollars);
+
+      const cmpEquity = document.getElementById(`cmp-equity-${cfg.id}`);
+      const cmpReturn = document.getElementById(`cmp-return-${cfg.id}`);
+      if (cmpEquity) cmpEquity.textContent = money(data.equity);
+      if (cmpReturn) {
+        cmpReturn.innerHTML = pct(returnPct) + " (" + money(returnDollars) + ")";
+        cmpReturn.className = "return-line " + cls(returnDollars);
+      }
+
       const wrap = document.getElementById(`positions-wrap-${cfg.id}`);
       if (!data.positions.length) {
         wrap.innerHTML = '<div class="empty">No open positions right now &mdash; waiting for the next 5%+ dip.</div>';
       } else {
         wrap.innerHTML = `
+          <div class="table-scroll">
           <table>
             <thead><tr>
               <th>Symbol</th><th>Qty</th><th>Avg Entry</th><th>Current Price</th>
@@ -306,7 +435,8 @@
                   <td class="${cls(p.unrealized_plpc)}">${pct(p.unrealized_plpc)}</td>
                 </tr>`).join("")}
             </tbody>
-          </table>`;
+          </table>
+          </div>`;
       }
     } catch (err) {
       document.getElementById(`updated-${cfg.id}`).textContent =
@@ -316,45 +446,72 @@
     }
   }
 
-  async function loadTrades(cfg) {
+  function renderTradesTable(cfg) {
     const wrap = document.getElementById(`trades-wrap-${cfg.id}`);
+    const moreWrap = document.getElementById(`trades-more-wrap-${cfg.id}`);
+    const rows = allTrades[cfg.id] || [];
+    if (!rows.length) {
+      wrap.innerHTML = '<div class="empty">No trades yet.</div>';
+      moreWrap.innerHTML = "";
+      return;
+    }
+    const shown = Math.min(tradesShown[cfg.id] || TRADES_PAGE_SIZE, rows.length);
+    const visible = rows.slice(0, shown);
+    wrap.innerHTML = `
+      <div class="table-scroll">
+      <table>
+        <thead><tr><th>Time (UTC)</th><th>Action</th><th>Symbol</th><th>Detail</th></tr></thead>
+        <tbody>
+          ${visible.map((r) => `
+            <tr>
+              <td>${new Date(r.timestamp_utc).toLocaleString()}</td>
+              <td class="${r.action === "BUY" ? "buy" : "sell"}">${r.action}</td>
+              <td>${tickerCell(r.symbol)}</td>
+              <td>${r.detail}</td>
+            </tr>`).join("")}
+        </tbody>
+      </table>
+      </div>`;
+    if (rows.length > shown) {
+      moreWrap.innerHTML = `<button data-id="${cfg.id}" class="show-more-btn">Show more (${rows.length - shown} older trades)</button>`;
+      moreWrap.querySelector(".show-more-btn").addEventListener("click", () => {
+        tradesShown[cfg.id] = shown + TRADES_PAGE_SIZE;
+        renderTradesTable(cfg);
+      });
+    } else {
+      moreWrap.innerHTML = rows.length > TRADES_PAGE_SIZE
+        ? `<span class="sub">Showing all ${rows.length} trades.</span>`
+        : "";
+    }
+  }
+
+  async function loadTrades(cfg) {
     try {
       const res = await fetchNoCache(cfg.tradeLog);
       const text = await res.text();
-      const rows = parseCsv(text);
-      if (!rows.length) {
-        wrap.innerHTML = '<div class="empty">No trades yet.</div>';
-        return;
-      }
-      wrap.innerHTML = `
-        <table>
-          <thead><tr><th>Time (UTC)</th><th>Action</th><th>Symbol</th><th>Detail</th></tr></thead>
-          <tbody>
-            ${rows.map((r) => `
-              <tr>
-                <td>${new Date(r.timestamp_utc).toLocaleString()}</td>
-                <td class="${r.action === "BUY" ? "buy" : "sell"}">${r.action}</td>
-                <td>${tickerCell(r.symbol)}</td>
-                <td>${r.detail}</td>
-              </tr>`).join("")}
-          </tbody>
-        </table>`;
+      allTrades[cfg.id] = parseTradeCsv(text);
+      if (!(cfg.id in tradesShown)) tradesShown[cfg.id] = TRADES_PAGE_SIZE;
+      renderTradesTable(cfg);
     } catch (err) {
-      wrap.innerHTML = '<div class="empty">No trade history yet.</div>';
+      allTrades[cfg.id] = [];
+      document.getElementById(`trades-wrap-${cfg.id}`).innerHTML = '<div class="empty">No trade history yet.</div>';
     }
   }
 
   async function loadAll() {
-    renderShell();
+    if (!shellBuilt.p1 || !shellBuilt.p2) {
+      renderShell();
+    }
     await loadCompanies();
     for (const cfg of PORTFOLIOS) {
       loadSnapshot(cfg);
       loadTrades(cfg);
+      loadHistory(cfg);
     }
   }
 
   loadAll();
-  setInterval(loadAll, 60000); // refresh every 60s
+  setInterval(loadAll, 60000); // refresh data every 60s (shell is built once)
 </script>
 </body>
 </html>

@@ -49,12 +49,21 @@ SELL_THRESHOLD_PCT = float(os.environ.get("SELL_THRESHOLD_PCT", "7.0"))
 # Dollar amount to spend on each new buy signal (notional order).
 TRADE_DOLLARS = float(os.environ.get("TRADE_DOLLARS", "10000"))
 
+# Starting account balance, written into the snapshot so the dashboard can
+# compute total return ($ and %) without hard-coding it client-side.
+STARTING_EQUITY = float(os.environ.get("STARTING_EQUITY", "500000"))
+
 TRADE_LOG_PATH = os.environ.get("TRADE_LOG_PATH", "trade_log.csv")
 
 # Public snapshot of account state, read by the static dashboard (index.html).
 # Contains no credentials -- just equity/cash/positions, which for a paper
 # account is simulated money anyway.
 SNAPSHOT_PATH = os.environ.get("SNAPSHOT_PATH", "account_snapshot.json")
+
+# Append-only log of equity/cash/buying_power over time, one row per run, so
+# the dashboard can plot an equity-over-time chart instead of just a single
+# current snapshot.
+HISTORY_PATH = os.environ.get("HISTORY_PATH", "equity_history.csv")
 
 # Ticker -> company name lookup, read by the dashboard so it can show
 # "AAPL -- Apple Inc." instead of just the bare ticker.
@@ -124,6 +133,20 @@ def append_trade_log(action: str, symbol: str, detail: str) -> None:
             action,
             symbol,
             detail,
+        ])
+
+
+def append_equity_history(equity: float, cash: float, buying_power: float) -> None:
+    is_new = not os.path.exists(HISTORY_PATH)
+    with open(HISTORY_PATH, "a", newline="") as f:
+        writer = csv.writer(f)
+        if is_new:
+            writer.writerow(["timestamp_utc", "equity", "cash", "buying_power"])
+        writer.writerow([
+            dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds"),
+            f"{equity:.2f}",
+            f"{cash:.2f}",
+            f"{buying_power:.2f}",
         ])
 
 
@@ -285,6 +308,7 @@ def write_snapshot(client: TradingClient, names: dict) -> None:
         "equity": float(account.equity),
         "cash": float(account.cash),
         "buying_power": float(account.buying_power),
+        "starting_equity": STARTING_EQUITY,
         "drop_threshold_pct": DROP_THRESHOLD_PCT,
         "sell_threshold_pct": SELL_THRESHOLD_PCT,
         "positions": [
@@ -307,6 +331,11 @@ def write_snapshot(client: TradingClient, names: dict) -> None:
             f"{len(snapshot['positions'])} open position(s).")
     except Exception as exc:  # noqa: BLE001
         log(f"Could not save snapshot file: {exc}")
+
+    try:
+        append_equity_history(snapshot["equity"], snapshot["cash"], snapshot["buying_power"])
+    except Exception as exc:  # noqa: BLE001
+        log(f"Could not append equity history: {exc}")
 
 
 def main() -> None:
