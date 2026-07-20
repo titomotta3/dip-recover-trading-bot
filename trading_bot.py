@@ -147,6 +147,55 @@ CONVICTION_EXTRA_DROP_PCT = float(os.environ.get("CONVICTION_EXTRA_DROP_PCT", "3
 CONVICTION_MULTIPLIER = float(os.environ.get("CONVICTION_MULTIPLIER", "2.0"))
 CONVICTION_TRADE_DOLLARS_MAX = TRADE_DOLLARS_MAX * CONVICTION_MULTIPLIER
 
+# ---------------------------------------------------------------------------
+# Risk controls (both portfolios). Unlike the adaptive parameters above,
+# these never move on their own -- they're fixed safety bounds that apply
+# the same way whether the strategy is fixed (Portfolio 1) or adaptive
+# (Portfolio 2).
+# ---------------------------------------------------------------------------
+
+# Hard stop-loss: force-close a position once it's down this % or worse, no
+# matter what the news check says. Before this existed, the only way this
+# bot could ever realize a loss was a bad-news keyword match -- a position
+# with no matching headline could otherwise sit and bleed indefinitely.
+STOP_LOSS_PCT = float(os.environ.get("STOP_LOSS_PCT", "-12.0"))
+
+# Time-based exit: if a position has been held this many days without
+# hitting its profit target or the stop-loss above, force a decision at
+# whatever the current price is rather than letting it sit forever.
+MAX_HOLD_DAYS = float(os.environ.get("MAX_HOLD_DAYS", "20"))
+
+# Market-regime filter: skip all new buys this run if the broader market
+# (via this ETF, SPY by default) is down this % or worse vs. its previous
+# close. A big broad-market down day means individual-stock "dips" are more
+# likely a correlated, systemic move than an isolated, recoverable one --
+# buying every dip on a day like that risks loading up on the same falling
+# knife across many names at once.
+REGIME_SYMBOL = os.environ.get("REGIME_SYMBOL", "SPY")
+REGIME_DROP_PCT = float(os.environ.get("REGIME_DROP_PCT", "-2.0"))
+
+# Concentration limits: cap how many positions can be open at once, and how
+# much of the account can sit in any single GICS sector, so a cluster of
+# dips in the same industry can't turn into one big correlated bet.
+MAX_OPEN_POSITIONS = int(os.environ.get("MAX_OPEN_POSITIONS", "20"))
+MAX_SECTOR_EXPOSURE_PCT = float(os.environ.get("MAX_SECTOR_EXPOSURE_PCT", "30.0"))
+
+# Per-symbol entry timestamps, so the time-based exit above has something to
+# measure against. Written on every buy, cleared on every sell.
+POSITION_META_PATH = os.environ.get("POSITION_META_PATH", "position_meta.json")
+
+# Ticker -> GICS sector lookup, read alongside company names from the same
+# S&P 500 constituents CSV.
+SECTORS_PATH = os.environ.get("SECTORS_PATH", "sectors.json")
+
+# Shared S&P 500 (SPY) buy-and-hold benchmark, so the dashboard can show
+# whether either portfolio is actually beating a naive "just buy the index"
+# baseline. Only the non-adaptive (Portfolio 1) job writes this, since both
+# portfolios started on the same day with the same starting equity, so one
+# shared series covers both.
+SPY_BASELINE_PATH = os.environ.get("SPY_BASELINE_PATH", "spy_baseline.json")
+SPY_BENCHMARK_PATH = os.environ.get("SPY_BENCHMARK_PATH", "spy_benchmark.csv")
+
 TRADE_LOG_PATH = os.environ.get("TRADE_LOG_PATH", "trade_log.csv")
 
 # Public snapshot of account state, read by the static dashboard (index.html).
@@ -244,6 +293,99 @@ def append_equity_history(equity: float, cash: float, buying_power: float) -> No
         ])
 
 
+def load_position_meta() -> dict:
+    """Per-symbol entry timestamps, used to compute how long a position has
+    been held. Written on every buy, cleared on every sell.
+    """
+    if os.path.exists(POSITION_META_PATH):
+        try:
+            with open(POSITION_META_PATH) as f:
+                return json.load(f)
+        except Exception as exc:  # noqa: BLE001
+            log(f"Could not load position metadata ({exc}); starting fresh.")
+    return {}
+
+
+def save_position_meta(meta: dict) -> None:
+    try:
+        with open(POSITION_META_PATH, "w") as f:
+            json.dump(meta, f, indent=2)
+    except Exception as exc:  # noqa: BLE001
+        log(f"Could not save position metadata: {exc}")
+
+
+def write_sectors(sectors: dict) -> None:
+    """Dump the ticker -> GICS sector lookup alongside companies.json."""
+    try:
+        with open(SECTORS_PATH, "w") as f:
+            json.dump(sectors, f, indent=2, sort_keys=True)
+    except Exception as exc:  # noqa: BLE001
+        log(f"Could not save sectors file: {exc}")
+
+
+def sector_exposure(positions: list, sectors: dict) -> dict:
+    """Returns {sector: total_market_value} for the given open positions."""
+    totals = {}
+    for p in positions:
+        sector = sectors.get(p.symbol, "Unknown")
+        try:
+            value = float(p.market_value) if p.market_value is not None else float(p.qty) * float(p.avg_entry_price)
+        except (TypeError, ValueError):
+            value = 0.0
+        totals[sector] = totals.get(sector, 0.0) + value
+    return totals
+
+
+def load_spy_baseline() -> dict:
+    if os.path.exists(SPY_BASELINE_PATH):
+        try:
+            with open(SPY_BASELINE_PATH) as f:
+                return json.load(f)
+        except Exception as exc:  # noqa: BLE001
+            log(f"Could not load SPY baseline ({exc}); will re-seed.")
+    return {}
+
+
+def save_spy_baseline(baseline: dict) -> None:
+    try:
+        with open(SPY_BASELINE_PATH, "w") as f:
+            json.dump(baseline, f, indent=2)
+    except Exception as exc:  # noqa: BLE001
+        log(f"Could not save SPY baseline: {exc}")
+
+
+def append_spy_benchmark(equivalent_equity: float, price: float) -> None:
+    is_new = not os.path.exists(SPY_BENCHMARK_PATH)
+    with open(SPY_BENCHMARK_PATH, "a", newline="") as f:
+        writer = csv.writer(f)
+        if is_new:
+            writer.writerow(["timestamp_utc", "equity", "price"])
+        writer.writerow([
+            dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds"),
+            f"{equivalent_equity:.2f}",
+            f"{price:.4f}",
+        ])
+
+
+def update_spy_benchmark(price: float) -> float:
+    """Tracks what STARTING_EQUITY invested in the regime symbol (SPY) on
+    day 1 would be worth now, so the dashboard can show each portfolio's
+    return next to a naive buy-and-hold-the-index baseline. Seeds its own
+    starting price the first time it runs and never changes it after that.
+    """
+    baseline = load_spy_baseline()
+    if "start_price" not in baseline:
+        baseline = {
+            "start_price": price,
+            "start_utc": dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds"),
+        }
+        save_spy_baseline(baseline)
+        log(f"Seeded SPY benchmark baseline at ${price:.2f}.")
+    equivalent_equity = STARTING_EQUITY * (price / baseline["start_price"])
+    append_spy_benchmark(equivalent_equity, price)
+    return equivalent_equity
+
+
 def load_strategy_state() -> dict:
     """Load the adaptive strategy's current parameters, or seed defaults."""
     if os.path.exists(STRATEGY_STATE_PATH):
@@ -288,17 +430,22 @@ def adapt_strategy(state: dict, sell_events: list, buy_events: list, cash: float
     global DROP_THRESHOLD_PCT, SELL_THRESHOLD_PCT, TRADE_DOLLARS
     notes = []
 
-    # Separate genuine profit-take sells from forced bad-news exits -- only
-    # the former are evidence about whether the sell target is well-tuned.
-    # A news-driven exit is a risk-management event, not a signal that the
-    # target itself needs adjusting.
-    target_sells = [ev for ev in sell_events if ev.get("reason") != "bad_news"]
-    news_exits = [ev for ev in sell_events if ev.get("reason") == "bad_news"]
+    # Separate genuine profit-take sells from forced risk exits (bad news,
+    # stop-loss, max hold time) -- only the former are evidence about
+    # whether the sell target is well-tuned. A risk exit is a safety-net
+    # event, not a signal that the target itself needs adjusting.
+    target_sells = [ev for ev in sell_events if ev.get("reason") == "target_reached"]
+    risk_exits = [ev for ev in sell_events if ev.get("reason") != "target_reached"]
 
-    if news_exits:
-        state["news_exits"] = state.get("news_exits", 0) + len(news_exits)
-        notes.append(f"{len(news_exits)} early exit(s) on bad news this run "
-                     f"({', '.join(ev['symbol'] for ev in news_exits)})")
+    if risk_exits:
+        state["risk_exits"] = state.get("risk_exits", 0) + len(risk_exits)
+        by_reason = {}
+        for ev in risk_exits:
+            by_reason.setdefault(ev.get("reason", "unknown"), []).append(ev["symbol"])
+        notes.append("; ".join(
+            f"{len(syms)} {reason} exit(s) ({', '.join(syms)})"
+            for reason, syms in by_reason.items()
+        ))
 
     # Learn from each completed trade: did the price blow well past our
     # target before we sold (room to aim higher), or did it just barely
@@ -418,17 +565,25 @@ def market_is_open(client: TradingClient) -> bool:
 
 
 def get_universe() -> tuple:
-    """Returns (tickers, names) where names maps ticker -> company name."""
+    """Returns (tickers, names, sectors) where names/sectors map ticker ->
+    company name / GICS sector. sectors is {} for the fallback list (no
+    sector data available) -- callers must treat a missing sector as
+    "unknown" and skip sector-concentration checks for it, rather than
+    blocking trades because of a fallback-list limitation.
+    """
     try:
         df = pd.read_csv(UNIVERSE_URL)
         df["Symbol"] = df["Symbol"].astype(str).str.replace(".", "-", regex=False)
         tickers = df["Symbol"].tolist()
         names = dict(zip(df["Symbol"], df["Security"].astype(str)))
+        sectors = {}
+        if "GICS Sector" in df.columns:
+            sectors = dict(zip(df["Symbol"], df["GICS Sector"].astype(str)))
         if tickers:
-            return tickers, names
+            return tickers, names, sectors
     except Exception as exc:  # noqa: BLE001
         log(f"Could not fetch S&P 500 list ({exc}); using fallback ticker list.")
-    return FALLBACK_TICKERS, FALLBACK_NAMES
+    return FALLBACK_TICKERS, FALLBACK_NAMES, {}
 
 
 def write_companies(names: dict) -> None:
@@ -496,16 +651,55 @@ def fetch_price_changes(tickers: list) -> dict:
     return changes
 
 
-def check_buys(client: TradingClient, news_client: NewsClient, tickers: list, names: dict) -> list:
-    """Returns the list of buy events executed this run (symbol + drop %)."""
+def fetch_last_price(symbol: str) -> float:
+    """Returns the latest close price for a single symbol, or None on
+    failure. Used for the SPY benchmark, which needs an absolute price
+    rather than the % change fetch_price_changes() returns.
+    """
+    try:
+        data = yf.download(symbol, period="5d", interval="1d", progress=False, auto_adjust=False)
+        closes = data["Close"].dropna()
+        if len(closes) == 0:
+            return None
+        return float(closes.iloc[-1])
+    except Exception as exc:  # noqa: BLE001
+        log(f"Could not fetch price for {symbol}: {exc}")
+        return None
+
+
+def check_buys(client: TradingClient, news_client: NewsClient, tickers: list, names: dict, sectors: dict, position_meta: dict) -> list:
+    """Returns the list of buy events executed this run (symbol + drop %).
+
+    position_meta is mutated in place: a fresh entry timestamp is recorded
+    for every symbol bought, so check_sells() can later compute how long
+    it's been held.
+    """
     events = []
     changes = fetch_price_changes(tickers)
     dropped = {s: c for s, c in changes.items() if c <= DROP_THRESHOLD_PCT}
     log(f"Scanned {len(changes)} tickers, {len(dropped)} down {DROP_THRESHOLD_PCT}% or more.")
 
+    # Snapshot current concentration once up front, then track it running
+    # as we buy within this same loop so multiple buys in one run still
+    # respect the caps relative to each other, not just to the start-of-run
+    # state.
+    try:
+        current_positions = client.get_all_positions()
+        equity = float(client.get_account().equity)
+    except Exception as exc:  # noqa: BLE001
+        log(f"Could not fetch account state for concentration checks: {exc}")
+        current_positions = []
+        equity = 0.0
+    open_count = len(current_positions)
+    sector_totals = sector_exposure(current_positions, sectors)
+
     for symbol, pct_change in dropped.items():
         if has_open_position(client, symbol):
             log(f"Skip {symbol}: already holding an open position.")
+            continue
+
+        if open_count >= MAX_OPEN_POSITIONS:
+            log(f"Skip {symbol}: at max open positions ({MAX_OPEN_POSITIONS}).")
             continue
 
         headlines = fetch_recent_headlines(news_client, symbol)
@@ -528,6 +722,18 @@ def check_buys(client: TradingClient, news_client: NewsClient, tickers: list, na
         if is_high_conviction:
             notional = min(TRADE_DOLLARS * CONVICTION_MULTIPLIER, CONVICTION_TRADE_DOLLARS_MAX)
 
+        # Sector concentration cap: skip if this buy would push the
+        # symbol's GICS sector over MAX_SECTOR_EXPOSURE_PCT of equity.
+        # Unknown-sector symbols (fallback ticker list) skip this check
+        # rather than being blocked by a data-availability gap.
+        sector = sectors.get(symbol, "Unknown")
+        if sector != "Unknown" and equity > 0:
+            projected_pct = (sector_totals.get(sector, 0.0) + notional) / equity * 100
+            if projected_pct > MAX_SECTOR_EXPOSURE_PCT:
+                log(f"Skip {symbol}: would push {sector} exposure to {projected_pct:.1f}% "
+                    f"(cap {MAX_SECTOR_EXPOSURE_PCT}%).")
+                continue
+
         try:
             order = MarketOrderRequest(
                 symbol=symbol,
@@ -543,16 +749,26 @@ def check_buys(client: TradingClient, news_client: NewsClient, tickers: list, na
             log(f"BUY {symbol} ({company}): {detail}")
             append_trade_log("BUY", symbol, detail)
             events.append({"symbol": symbol, "drop_pct": pct_change, "high_conviction": is_high_conviction})
+            position_meta[symbol] = {"opened_utc": dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds")}
+            open_count += 1
+            sector_totals[sector] = sector_totals.get(sector, 0.0) + notional
         except Exception as exc:  # noqa: BLE001
             log(f"BUY order failed for {symbol}: {exc}")
     return events
 
 
-def check_sells(client: TradingClient, news_client: NewsClient, names: dict) -> list:
+def check_sells(client: TradingClient, news_client: NewsClient, names: dict, position_meta: dict) -> list:
     """Returns the list of sell events executed this run (symbol + realized
-    gain % + reason: "target_reached" or "bad_news"). A bad_news exit is the
-    one path where this strategy can realize a loss -- everywhere else it
-    only ever sells once a position is already profitable.
+    gain % + reason). Reason is one of:
+      - target_reached: normal profit-take, hit SELL_THRESHOLD_PCT.
+      - stop_loss: hit the hard downside limit (STOP_LOSS_PCT).
+      - max_hold_time: held past MAX_HOLD_DAYS without resolving either way.
+      - bad_news: forced early exit on a bad-news keyword hit.
+    Only target_reached is guaranteed to be a profit; the other three are
+    risk-management exits and can realize a loss.
+
+    position_meta is mutated in place: closed symbols are removed so a
+    future re-buy starts its hold-time clock fresh.
     """
     events = []
     try:
@@ -561,16 +777,30 @@ def check_sells(client: TradingClient, news_client: NewsClient, names: dict) -> 
         log(f"Could not fetch positions: {exc}")
         return events
 
+    now = dt.datetime.now(dt.timezone.utc)
     for pos in positions:
         try:
             gain_pct = float(pos.unrealized_plpc) * 100
         except (TypeError, ValueError):
             continue
 
+        held_days = None
+        meta = position_meta.get(pos.symbol)
+        if meta and meta.get("opened_utc"):
+            try:
+                opened_dt = dt.datetime.fromisoformat(meta["opened_utc"])
+                held_days = (now - opened_dt).total_seconds() / 86400.0
+            except Exception:  # noqa: BLE001
+                held_days = None
+
         reason = None
         matched_keywords = []
         if gain_pct >= SELL_THRESHOLD_PCT:
             reason = "target_reached"
+        elif gain_pct <= STOP_LOSS_PCT:
+            reason = "stop_loss"
+        elif held_days is not None and held_days >= MAX_HOLD_DAYS:
+            reason = "max_hold_time"
         else:
             headlines = fetch_recent_headlines(news_client, pos.symbol)
             news = classify_news(headlines)
@@ -584,19 +814,28 @@ def check_sells(client: TradingClient, news_client: NewsClient, names: dict) -> 
         try:
             client.close_position(pos.symbol)
             company = names.get(pos.symbol, "")
-            if reason == "target_reached":
-                detail = f"gain={gain_pct:.2f}% qty={pos.qty} reason=target_reached"
-            else:
+            if reason == "bad_news":
                 detail = f"gain={gain_pct:.2f}% qty={pos.qty} reason=bad_news:{','.join(matched_keywords)}"
+            elif reason == "max_hold_time":
+                detail = f"gain={gain_pct:.2f}% qty={pos.qty} reason=max_hold_time(held {held_days:.1f}d)"
+            else:
+                detail = f"gain={gain_pct:.2f}% qty={pos.qty} reason={reason}"
             log(f"SELL {pos.symbol} ({company}): {detail}")
             append_trade_log("SELL", pos.symbol, detail)
             events.append({"symbol": pos.symbol, "gain_pct": gain_pct, "reason": reason})
+            position_meta.pop(pos.symbol, None)
         except Exception as exc:  # noqa: BLE001
             log(f"SELL order failed for {pos.symbol}: {exc}")
     return events
 
 
-def write_snapshot(client: TradingClient, names: dict, state: dict = None) -> None:
+def write_snapshot(
+    client: TradingClient,
+    names: dict,
+    state: dict = None,
+    regime_pct: float = None,
+    regime_blocked: bool = False,
+) -> None:
     """Dump equity/cash/positions to a public JSON file for the dashboard.
 
     No API keys or secrets are ever written here -- only account totals and
@@ -620,6 +859,13 @@ def write_snapshot(client: TradingClient, names: dict, state: dict = None) -> No
         "sell_threshold_pct": SELL_THRESHOLD_PCT,
         "trade_dollars": TRADE_DOLLARS,
         "adaptive": ADAPTIVE_STRATEGY,
+        "stop_loss_pct": STOP_LOSS_PCT,
+        "max_hold_days": MAX_HOLD_DAYS,
+        "max_open_positions": MAX_OPEN_POSITIONS,
+        "max_sector_exposure_pct": MAX_SECTOR_EXPOSURE_PCT,
+        "regime_symbol": REGIME_SYMBOL,
+        "regime_pct": regime_pct,
+        "regime_blocked_buys": regime_blocked,
         "positions": [
             {
                 "symbol": p.symbol,
@@ -687,6 +933,8 @@ def main() -> None:
         f"sell_threshold={SELL_THRESHOLD_PCT}%, trade_dollars=${TRADE_DOLLARS}, "
         f"adaptive={ADAPTIVE_STRATEGY}).")
 
+    position_meta = load_position_meta()
+
     if not market_is_open(client):
         log("Market is closed. Exiting without scanning.")
         if ADAPTIVE_STRATEGY and state is not None:
@@ -698,12 +946,34 @@ def main() -> None:
         write_snapshot(client, {}, state)
         return
 
-    tickers, names = get_universe()
+    tickers, names, sectors = get_universe()
     write_companies(names)
+    write_sectors(sectors)
+
+    # Market-regime check: skip all new buys this run if the broader market
+    # is down sharply, so we don't load up on correlated dips across many
+    # names during a broad selloff. Sells still run as normal either way --
+    # risk management on existing positions shouldn't pause just because
+    # the market is having a bad day.
+    regime_pct = None
+    try:
+        regime_changes = fetch_price_changes([REGIME_SYMBOL])
+        regime_pct = regime_changes.get(REGIME_SYMBOL)
+    except Exception as exc:  # noqa: BLE001
+        log(f"Could not check market regime: {exc}")
+    regime_blocked = regime_pct is not None and regime_pct <= REGIME_DROP_PCT
+    if regime_pct is not None:
+        log(f"Market regime: {REGIME_SYMBOL} {regime_pct:.2f}% today"
+            f"{' -- blocking new buys this run' if regime_blocked else ''}.")
 
     # Check exits first so a sale can free up buying power for new dips.
-    sell_events = check_sells(client, news_client, names)
-    buy_events = check_buys(client, news_client, tickers, names)
+    sell_events = check_sells(client, news_client, names, position_meta)
+    if regime_blocked:
+        buy_events = []
+    else:
+        buy_events = check_buys(client, news_client, tickers, names, sectors, position_meta)
+
+    save_position_meta(position_meta)
 
     if ADAPTIVE_STRATEGY:
         try:
@@ -714,7 +984,19 @@ def main() -> None:
         except Exception as exc:  # noqa: BLE001
             log(f"Could not update adaptive strategy: {exc}")
 
-    write_snapshot(client, names, state)
+    # Only the non-adaptive job (Portfolio 1) updates the shared SPY
+    # benchmark, since both portfolios started on the same day with the
+    # same starting equity -- one shared series covers both, and this
+    # avoids two jobs racing to write the same file.
+    if not ADAPTIVE_STRATEGY:
+        spy_price = fetch_last_price(REGIME_SYMBOL)
+        if spy_price:
+            try:
+                update_spy_benchmark(spy_price)
+            except Exception as exc:  # noqa: BLE001
+                log(f"Could not update SPY benchmark: {exc}")
+
+    write_snapshot(client, names, state, regime_pct, regime_blocked)
     log("Run complete.")
 
 

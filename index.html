@@ -58,6 +58,8 @@
   }
   .compare .card.standard { border-left-color: var(--accent); }
   .compare .card.aggressive { border-left-color: var(--accent2); }
+  .compare .card.benchmark { border-left-color: var(--muted); cursor: default; }
+  .compare .card.benchmark:hover { border-color: var(--border); }
   .compare .card .name { font-size: 12px; color: var(--muted); margin-bottom: 8px; text-transform: uppercase; letter-spacing: 0.04em; }
   .compare .card .equity-big { font-size: 24px; font-weight: 700; }
   .compare .card .return-line { font-size: 13px; margin-top: 4px; }
@@ -261,8 +263,11 @@
     each completed trade's gain in a 10-15% band &mdash; a bounded, rule-based
     auto-tuner, not machine learning; every parameter has a hard floor/ceiling
     it can never cross. Portfolio 2 can also size a single trade up to 2x its
-    normal ceiling on unusually deep, high-conviction dips. Runs automatically
-    every 5 minutes during market hours via GitHub Actions.<br />
+    normal ceiling on unusually deep, high-conviction dips. Both portfolios
+    share the same risk controls: a hard stop-loss, a max hold time, a cap
+    on concurrent positions and per-sector exposure, and a market-regime
+    filter that pauses new buys on a broad S&amp;P 500 selloff day. Runs
+    automatically every 5 minutes during market hours via GitHub Actions.<br />
     This is a paper-trading demo, not financial advice, and not a proven
     profitable strategy.<br />
     <a href="https://github.com/titomotta3/dip-recover-trading-bot" target="_blank" rel="noopener">
@@ -311,6 +316,7 @@
   let companies = {};
   const shellBuilt = { p1: false, p2: false };
   let activeTab = "p1";
+  let benchmarkPoints = [];
 
   function setActiveTab(id) {
     activeTab = id;
@@ -339,6 +345,42 @@
       companies = await res.json();
     } catch (err) {
       companies = {};
+    }
+  }
+
+  // Shared S&P 500 (SPY) buy-and-hold benchmark -- one series covers both
+  // portfolios since they started on the same day with the same starting
+  // equity. Feeds the compare-bar benchmark card and the dashed overlay
+  // line on each portfolio's own equity chart.
+  async function loadBenchmark() {
+    try {
+      const res = await fetchNoCache("spy_benchmark.csv");
+      const text = await res.text();
+      const lines = text.trim().split("\n").filter(Boolean);
+      benchmarkPoints = lines.length > 1
+        ? lines.slice(1).map((line) => {
+            const [timestamp_utc, equity, price] = line.split(",");
+            return { timestamp_utc, equity: parseFloat(equity), price: parseFloat(price) };
+          })
+        : [];
+    } catch (err) {
+      benchmarkPoints = [];
+    }
+
+    const equityEl = document.getElementById("cmp-benchmark-equity");
+    const returnEl = document.getElementById("cmp-benchmark-return");
+    if (!equityEl || !returnEl) return;
+    if (benchmarkPoints.length >= 1) {
+      const baseline = benchmarkPoints[0].equity;
+      const latest = benchmarkPoints[benchmarkPoints.length - 1];
+      const returnDollars = latest.equity - baseline;
+      const returnPct = baseline ? (returnDollars / baseline) * 100 : 0;
+      equityEl.textContent = money(latest.equity);
+      returnEl.innerHTML = pct(returnPct) + " (" + money(returnDollars) + ")";
+      returnEl.className = "return-line " + cls(returnDollars);
+    } else {
+      equityEl.textContent = "&ndash;";
+      returnEl.textContent = "No data yet";
     }
   }
 
@@ -418,8 +460,9 @@
       </div>
     `).join("");
 
-    // Compare bar (Portfolio 1 vs Portfolio 2 at a glance) -- click a card
-    // to jump to that portfolio's tab.
+    // Compare bar (Portfolio 1 vs Portfolio 2 vs a naive S&P 500 buy-and-
+    // hold baseline, at a glance) -- click a portfolio card to jump to its
+    // tab. The benchmark card isn't clickable (no tab to jump to).
     const compare = document.getElementById("compare");
     compare.innerHTML = PORTFOLIOS.map((cfg) => `
       <div class="card ${cfg.tagClass}" data-id="${cfg.id}">
@@ -427,15 +470,20 @@
         <div class="equity-big" id="cmp-equity-${cfg.id}">&ndash;</div>
         <div class="return-line" id="cmp-return-${cfg.id}">&ndash;</div>
       </div>
-    `).join("");
-    compare.querySelectorAll(".card").forEach((card) => {
+    `).join("") + `
+      <div class="card benchmark">
+        <div class="name">S&amp;P 500 &mdash; Buy &amp; Hold</div>
+        <div class="equity-big" id="cmp-benchmark-equity">&ndash;</div>
+        <div class="return-line" id="cmp-benchmark-return">&ndash;</div>
+      </div>`;
+    compare.querySelectorAll(".card[data-id]").forEach((card) => {
       card.addEventListener("click", () => setActiveTab(card.dataset.id));
     });
 
     PORTFOLIOS.forEach((cfg) => { shellBuilt[cfg.id] = true; tradesShown[cfg.id] = TRADES_PAGE_SIZE; });
   }
 
-  function renderSparkline(elId, points) {
+  function renderSparkline(elId, points, benchmarkPts) {
     const el = document.getElementById(elId);
     if (!el) return;
     if (points.length < 2) {
@@ -443,26 +491,42 @@
       return;
     }
     const w = 600, h = 140, pad = 8;
-    const values = points.map((p) => p.equity);
-    const min = Math.min(...values);
-    const max = Math.max(...values);
+    const hasBenchmark = benchmarkPts && benchmarkPts.length >= 2;
+    const allValues = points.map((p) => p.equity).concat(hasBenchmark ? benchmarkPts.map((p) => p.equity) : []);
+    const min = Math.min(...allValues);
+    const max = Math.max(...allValues);
     const range = max - min || 1;
-    const stepX = points.length > 1 ? (w - pad * 2) / (points.length - 1) : 0;
-    const coords = points.map((p, i) => {
-      const x = pad + i * stepX;
-      const y = h - pad - ((p.equity - min) / range) * (h - pad * 2);
-      return [x, y];
-    });
-    const path = coords.map(([x, y], i) => (i === 0 ? `M${x.toFixed(1)},${y.toFixed(1)}` : `L${x.toFixed(1)},${y.toFixed(1)}`)).join(" ");
+
+    const toCoords = (series) => {
+      const stepX = series.length > 1 ? (w - pad * 2) / (series.length - 1) : 0;
+      return series.map((p, i) => {
+        const x = pad + i * stepX;
+        const y = h - pad - ((p.equity - min) / range) * (h - pad * 2);
+        return [x, y];
+      });
+    };
+    const toPath = (coords) => coords.map(([x, y], i) => (i === 0 ? `M${x.toFixed(1)},${y.toFixed(1)}` : `L${x.toFixed(1)},${y.toFixed(1)}`)).join(" ");
+
+    const coords = toCoords(points);
+    const path = toPath(coords);
     const last = points[points.length - 1];
     const first = points[0];
     const lineColor = last.equity >= first.equity ? "var(--green)" : "var(--red)";
     const areaPath = `${path} L${coords[coords.length - 1][0].toFixed(1)},${h - pad} L${coords[0][0].toFixed(1)},${h - pad} Z`;
+
+    let benchmarkSvg = "";
+    if (hasBenchmark) {
+      const bPath = toPath(toCoords(benchmarkPts));
+      benchmarkSvg = `<path d="${bPath}" fill="none" stroke="var(--muted)" stroke-width="1.5" stroke-dasharray="4 3"></path>`;
+    }
+
     el.innerHTML = `
       <svg viewBox="0 0 ${w} ${h}" preserveAspectRatio="none">
         <path d="${areaPath}" fill="${lineColor}" opacity="0.08" stroke="none"></path>
+        ${benchmarkSvg}
         <path d="${path}" fill="none" stroke="${lineColor}" stroke-width="2"></path>
-      </svg>`;
+      </svg>
+      ${hasBenchmark ? '<div class="sub" style="margin-top:6px;">Solid = portfolio &middot; dashed = S&amp;P 500 (buy &amp; hold)</div>' : ""}`;
   }
 
   async function loadHistory(cfg) {
@@ -470,7 +534,7 @@
       const res = await fetchNoCache(cfg.history);
       const text = await res.text();
       const points = parseHistoryCsv(text);
-      renderSparkline(`chart-${cfg.id}`, points);
+      renderSparkline(`chart-${cfg.id}`, points, benchmarkPoints);
     } catch (err) {
       const el = document.getElementById(`chart-${cfg.id}`);
       if (el) el.innerHTML = '<div class="empty">No history yet &mdash; the chart fills in as the bot runs.</div>';
@@ -522,20 +586,46 @@
             <span>Sell target: <b>${sellLabel}+</b></span>
             <span>Trade size: <b>${sizeLabel}</b>${convictionLabel}</span>
           </div>`;
+
+        // Risk controls -- apply the same way to both portfolios, fixed or
+        // adaptive. Shown so it's clear the strategy has real downside
+        // limits, not just a profit target.
+        const stopLossLabel = data.stop_loss_pct !== undefined ? data.stop_loss_pct.toFixed(1) + "%" : "&ndash;";
+        const maxHoldLabel = data.max_hold_days !== undefined ? data.max_hold_days + "d" : "&ndash;";
+        const maxPosLabel = data.max_open_positions !== undefined ? data.max_open_positions : "&ndash;";
+        const sectorCapLabel = data.max_sector_exposure_pct !== undefined ? data.max_sector_exposure_pct.toFixed(0) + "%" : "&ndash;";
+        const riskParams = `
+          <div class="strategy-params" style="margin-top:2px;">
+            <span>Stop-loss: <b>${stopLossLabel}</b></span>
+            <span>Max hold: <b>${maxHoldLabel}</b></span>
+            <span>Position cap: <b>${maxPosLabel}</b></span>
+            <span>Sector cap: <b>${sectorCapLabel}</b></span>
+          </div>`;
+
+        const regimeNote = data.regime_blocked_buys
+          ? `<div class="strategy-note" style="color: var(--red);">
+              Buys paused this run &mdash; ${data.regime_symbol || "SPY"}
+              (${data.regime_pct !== undefined && data.regime_pct !== null ? data.regime_pct.toFixed(1) + "%" : "?"})
+              triggered the market-regime filter.
+            </div>`
+          : "";
+
+        let tail;
         if (data.adaptive) {
           const band = data.adaptive_target_band_pct || [10, 15];
           const completed = data.completed_trades || 0;
           const note = data.last_adjustment || "no adjustments yet";
-          strategyEl.innerHTML = params + `
+          tail = `
             <div class="strategy-note">
               <span class="learn-badge">ADAPTIVE</span>
               Targets ${band[0]}-${band[1]}% realized gain per trade &middot; ${completed} completed trade${completed === 1 ? "" : "s"} so far.<br />
               Last adjustment: ${note}.
             </div>`;
         } else {
-          strategyEl.innerHTML = params + `
+          tail = `
             <div class="strategy-note">Fixed rules &mdash; these numbers only change if edited in the workflow config.</div>`;
         }
+        strategyEl.innerHTML = params + riskParams + regimeNote + tail;
       }
 
       const wrap = document.getElementById(`positions-wrap-${cfg.id}`);
@@ -636,6 +726,7 @@
       renderShell();
     }
     await loadCompanies();
+    await loadBenchmark();
     for (const cfg of PORTFOLIOS) {
       loadSnapshot(cfg);
       loadTrades(cfg);
