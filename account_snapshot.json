@@ -1,92 +1,10 @@
 {
-  "updated_utc": "2026-07-20T19:41:34+00:00",
+  "updated_utc": "2026-07-20T20:04:21+00:00",
   "paper": true,
-  "equity": 100203.45,
-  "cash": 76500.08,
-  "buying_power": 372369.75,
+  "equity": 500000.0,
+  "cash": 500000.0,
+  "buying_power": 500000.0,
   "drop_threshold_pct": -5.0,
   "sell_threshold_pct": 7.0,
-  "positions": [
-    {
-      "symbol": "AMAT",
-      "name": "Applied Materials",
-      "qty": 0.93921998,
-      "avg_entry_price": 532.346,
-      "current_price": 528.09,
-      "unrealized_pl": -3.99732,
-      "unrealized_plpc": -0.799
-    },
-    {
-      "symbol": "AXON",
-      "name": "Axon Enterprise",
-      "qty": 0.978009983,
-      "avg_entry_price": 511.232,
-      "current_price": 527.22,
-      "unrealized_pl": 15.636423,
-      "unrealized_plpc": 3.127
-    },
-    {
-      "symbol": "BLDR",
-      "name": "Builders FirstSource",
-      "qty": 6.736593909,
-      "avg_entry_price": 74.22,
-      "current_price": 72.61,
-      "unrealized_pl": -10.845916,
-      "unrealized_plpc": -2.169
-    },
-    {
-      "symbol": "CDNS",
-      "name": "Cadence Design Systems",
-      "qty": 1.515865364,
-      "avg_entry_price": 329.838,
-      "current_price": 331.76,
-      "unrealized_pl": 2.913493,
-      "unrealized_plpc": 0.583
-    },
-    {
-      "symbol": "CVNA",
-      "name": "Carvana",
-      "qty": 156.282231598,
-      "avg_entry_price": 63.986737,
-      "current_price": 64.575,
-      "unrealized_pl": 91.935054,
-      "unrealized_plpc": 0.919
-    },
-    {
-      "symbol": "HONA",
-      "name": "Honeywell Aerospace",
-      "qty": 49.875261845,
-      "avg_entry_price": 200.5,
-      "current_price": 202.89,
-      "unrealized_pl": 119.201876,
-      "unrealized_plpc": 1.192
-    },
-    {
-      "symbol": "ISRG",
-      "name": "Intuitive Surgical",
-      "qty": 1.419329381,
-      "avg_entry_price": 352.272,
-      "current_price": 353.6,
-      "unrealized_pl": 1.884869,
-      "unrealized_plpc": 0.377
-    },
-    {
-      "symbol": "NFLX",
-      "name": "Netflix",
-      "qty": 7.267626108,
-      "avg_entry_price": 68.79688,
-      "current_price": 67.61,
-      "unrealized_pl": -8.6258,
-      "unrealized_plpc": -1.725
-    },
-    {
-      "symbol": "SNPS",
-      "name": "Synopsys",
-      "qty": 1.302525386,
-      "avg_entry_price": 383.862,
-      "current_price": 380.295,
-      "unrealized_pl": -4.646108,
-      "unrealized_plpc": -0.9289999999999999
-    }
-  ]
+  "positions": []
 }
