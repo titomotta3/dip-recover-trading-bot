@@ -13,6 +13,7 @@ permissions:
   contents: write
 
 jobs:
+  # Portfolio 1: standard. $500k paper account, $10k per position.
   run-bot:
     runs-on: ubuntu-latest
     steps:
@@ -51,6 +52,56 @@ jobs:
           git status
           if ! git diff --cached --quiet; then
             git commit -m "Update trade log and snapshot [skip ci]"
+            git push
+          else
+            echo "No trade log or snapshot changes to commit."
+          fi
+
+  # Portfolio 2: aggressive. Separate $500k paper account, $12.5k per
+  # position (+25% vs. portfolio 1). Same buy/sell signals. Runs after
+  # portfolio 1 so the two commits don't race each other.
+  run-bot-aggressive:
+    needs: run-bot
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run trading bot (aggressive)
+        env:
+          ALPACA_API_KEY: ${{ secrets.ALPACA_API_KEY_2 }}
+          ALPACA_SECRET_KEY: ${{ secrets.ALPACA_SECRET_KEY_2 }}
+          ALPACA_PAPER: "true"
+          DROP_THRESHOLD_PCT: "-5.0"
+          SELL_THRESHOLD_PCT: "7.0"
+          TRADE_DOLLARS: "12500"
+          TRADE_LOG_PATH: "trade_log_aggressive.csv"
+          SNAPSHOT_PATH: "account_snapshot_aggressive.json"
+        run: python trading_bot.py
+
+      - name: Commit updated trade log and snapshot (aggressive)
+        if: always()
+        run: |
+          git config user.name "trading-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git pull --rebase
+          echo "--- Files present after run ---"
+          ls -la trade_log_aggressive.csv account_snapshot_aggressive.json companies.json 2>&1 || true
+          [ -f trade_log_aggressive.csv ] && git add trade_log_aggressive.csv
+          [ -f account_snapshot_aggressive.json ] && git add account_snapshot_aggressive.json
+          [ -f companies.json ] && git add companies.json
+          echo "--- git status ---"
+          git status
+          if ! git diff --cached --quiet; then
+            git commit -m "Update aggressive trade log and snapshot [skip ci]"
             git push
           else
             echo "No trade log or snapshot changes to commit."
