@@ -6,3 +6,5 @@ timestamp_utc,action,symbol,detail
 2026-07-17T15:58:05+00:00,BUY,SNPS,drop=-8.00% notional=$500.00
 2026-07-17T18:01:10+00:00,BUY,BLDR,drop=-5.19% notional=$500.00
 2026-07-17T18:25:19+00:00,BUY,AMAT,drop=-5.02% notional=$500.00
+2026-07-20T19:15:47+00:00,BUY,CVNA,drop=-5.03% notional=$10000.00
+2026-07-20T19:15:47+00:00,BUY,HONA,drop=-5.36% notional=$10000.00
