@@ -36,6 +36,7 @@ jobs:
           DROP_THRESHOLD_PCT: "-5.0"
           SELL_THRESHOLD_PCT: "7.0"
           TRADE_DOLLARS: "10000"
+          STARTING_EQUITY: "500000"
         run: python trading_bot.py
 
       - name: Commit updated trade log and snapshot
@@ -45,10 +46,11 @@ jobs:
           git config user.email "actions@users.noreply.github.com"
           git pull --rebase --autostash
           echo "--- Files present after run ---"
-          ls -la trade_log.csv account_snapshot.json companies.json 2>&1 || true
+          ls -la trade_log.csv account_snapshot.json companies.json equity_history.csv 2>&1 || true
           [ -f trade_log.csv ] && git add trade_log.csv
           [ -f account_snapshot.json ] && git add account_snapshot.json
           [ -f companies.json ] && git add companies.json
+          [ -f equity_history.csv ] && git add equity_history.csv
           echo "--- git status ---"
           git status
           if ! git diff --cached --quiet; then
@@ -84,8 +86,10 @@ jobs:
           DROP_THRESHOLD_PCT: "-5.0"
           SELL_THRESHOLD_PCT: "7.0"
           TRADE_DOLLARS: "12500"
+          STARTING_EQUITY: "500000"
           TRADE_LOG_PATH: "trade_log_aggressive.csv"
           SNAPSHOT_PATH: "account_snapshot_aggressive.json"
+          HISTORY_PATH: "equity_history_aggressive.csv"
         run: python trading_bot.py
 
       - name: Commit updated trade log and snapshot (aggressive)
@@ -95,10 +99,11 @@ jobs:
           git config user.email "actions@users.noreply.github.com"
           git pull --rebase --autostash
           echo "--- Files present after run ---"
-          ls -la trade_log_aggressive.csv account_snapshot_aggressive.json companies.json 2>&1 || true
+          ls -la trade_log_aggressive.csv account_snapshot_aggressive.json companies.json equity_history_aggressive.csv 2>&1 || true
           [ -f trade_log_aggressive.csv ] && git add trade_log_aggressive.csv
           [ -f account_snapshot_aggressive.json ] && git add account_snapshot_aggressive.json
           [ -f companies.json ] && git add companies.json
+          [ -f equity_history_aggressive.csv ] && git add equity_history_aggressive.csv
           echo "--- git status ---"
           git status
           if ! git diff --cached --quiet; then
