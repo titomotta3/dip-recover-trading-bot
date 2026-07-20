@@ -46,8 +46,14 @@ DROP_THRESHOLD_PCT = float(os.environ.get("DROP_THRESHOLD_PCT", "-5.0"))
 # for a bigger bounce.
 SELL_THRESHOLD_PCT = float(os.environ.get("SELL_THRESHOLD_PCT", "7.0"))
 
-# Dollar amount to spend on each new buy signal (notional order).
-TRADE_DOLLARS = float(os.environ.get("TRADE_DOLLARS", "10000"))
+# Hard floor on position size: no buy order is ever placed for less than
+# this, no matter what TRADE_DOLLARS is set to. Protects against a
+# misconfigured/too-small env var silently placing tiny trades.
+MIN_TRADE_DOLLARS = 10000.0
+
+# Dollar amount to spend on each new buy signal (notional order). Clamped up
+# to MIN_TRADE_DOLLARS if a smaller value is configured.
+TRADE_DOLLARS = max(float(os.environ.get("TRADE_DOLLARS", "10000")), MIN_TRADE_DOLLARS)
 
 # Starting account balance, written into the snapshot so the dashboard can
 # compute total return ($ and %) without hard-coding it client-side.
