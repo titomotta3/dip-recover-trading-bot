@@ -25,8 +25,8 @@ import traceback
 import pandas as pd
 import yfinance as yf
 from alpaca.trading.client import TradingClient
-from alpaca.trading.enums import OrderSide, QueryOrderStatus, TimeInForce
-from alpaca.trading.requests import GetOrdersRequest, MarketOrderRequest
+from alpaca.trading.enums import OrderSide, TimeInForce
+from alpaca.trading.requests import MarketOrderRequest
 
 # ---------------------------------------------------------------------------
 # Configuration (all overridable via environment variables / repo secrets)
@@ -162,28 +162,22 @@ def write_companies(names: dict) -> None:
         log(f"Could not save companies file: {exc}")
 
 
-def already_bought_today(client: TradingClient, symbol: str) -> bool:
-    today_start = dt.datetime.combine(
-        dt.datetime.now(dt.timezone.utc).date(), dt.time.min, tzinfo=dt.timezone.utc
-    )
-    request = GetOrdersRequest(
-        status=QueryOrderStatus.ALL,
-        symbols=[symbol],
-        after=today_start,
-    )
+def has_open_position(client: TradingClient, symbol: str) -> bool:
+    """True if we currently hold shares of symbol.
+
+    This checks live position state rather than order history on purpose:
+    the bot is meant to be able to buy the same stock as many times as it
+    wants in a day, including re-entering right after a prior round trip
+    (buy -> recover 7% -> sell) closes out earlier the same day. Checking
+    order history instead would keep blocking re-buys for the rest of the
+    day after the very first fill, even once that position is flat again.
+    """
     try:
-        orders = client.get_orders(request)
-    except Exception as exc:  # noqa: BLE001
-        log(f"Could not check order history for {symbol}: {exc}")
+        client.get_open_position(symbol)
+        return True
+    except Exception:
+        # Alpaca raises when there is no open position for the symbol.
         return False
-    live_states = {
-        "filled", "partially_filled", "new", "accepted",
-        "pending_new", "accepted_for_bidding",
-    }
-    return any(
-        o.side == OrderSide.BUY and str(o.status.value) in live_states
-        for o in orders
-    )
 
 
 def fetch_price_changes(tickers: list) -> dict:
@@ -230,8 +224,8 @@ def check_buys(client: TradingClient, tickers: list, names: dict) -> None:
     log(f"Scanned {len(changes)} tickers, {len(dropped)} down {DROP_THRESHOLD_PCT}% or more.")
 
     for symbol, pct_change in dropped.items():
-        if already_bought_today(client, symbol):
-            log(f"Skip {symbol}: already have an open buy order today.")
+        if has_open_position(client, symbol):
+            log(f"Skip {symbol}: already holding an open position.")
             continue
         try:
             order = MarketOrderRequest(
