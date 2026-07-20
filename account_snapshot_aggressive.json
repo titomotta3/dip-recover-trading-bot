@@ -1,0 +1,10 @@
+{
+  "updated_utc": "2026-07-20T19:16:53+00:00",
+  "paper": true,
+  "equity": 500000.0,
+  "cash": 500000.0,
+  "buying_power": 1975000.0,
+  "drop_threshold_pct": -5.0,
+  "sell_threshold_pct": 7.0,
+  "positions": []
+}
