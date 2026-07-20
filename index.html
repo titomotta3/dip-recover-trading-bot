@@ -343,8 +343,8 @@
   function renderSparkline(elId, points) {
     const el = document.getElementById(elId);
     if (!el) return;
-    if (!points.length) {
-      el.innerHTML = '<div class="empty">Not enough history yet &mdash; check back after a few runs.</div>';
+    if (points.length < 2) {
+      el.innerHTML = '<div class="empty">Not enough history yet &mdash; the chart appears once the bot has run a few times.</div>';
       return;
     }
     const w = 600, h = 140, pad = 8;
