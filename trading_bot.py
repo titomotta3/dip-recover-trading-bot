@@ -627,6 +627,20 @@ def main() -> None:
     client = get_client()
     news_client = get_news_client()
 
+    # One-off diagnostic path: set DEBUG_NEWS_SYMBOL to sanity-check the
+    # News API connection/parsing without touching any trading logic, even
+    # outside market hours. No side effects -- does not place orders, does
+    # not write any files.
+    debug_symbol = os.environ.get("DEBUG_NEWS_SYMBOL", "").strip()
+    if debug_symbol:
+        headlines = fetch_recent_headlines(news_client, debug_symbol)
+        news = classify_news(headlines)
+        log(f"[news self-test] {debug_symbol}: headline_count={news['headline_count']} "
+            f"bad={news['bad']} matched={news['matched']}")
+        for h in headlines[:5]:
+            log(f"[news self-test] headline: {h[:200]}")
+        return
+
     state = None
     if ADAPTIVE_STRATEGY:
         state = load_strategy_state()
