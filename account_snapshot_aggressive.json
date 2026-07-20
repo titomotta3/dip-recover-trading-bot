@@ -1,10 +1,29 @@
 {
-  "updated_utc": "2026-07-20T19:16:53+00:00",
+  "updated_utc": "2026-07-20T19:42:26+00:00",
   "paper": true,
-  "equity": 500000.0,
-  "cash": 500000.0,
-  "buying_power": 1975000.0,
+  "equity": 500294.46,
+  "cash": 475000.02,
+  "buying_power": 475000.02,
   "drop_threshold_pct": -5.0,
   "sell_threshold_pct": 7.0,
-  "positions": []
+  "positions": [
+    {
+      "symbol": "CVNA",
+      "name": "Carvana",
+      "qty": 195.46505082,
+      "avg_entry_price": 63.95,
+      "current_price": 64.64,
+      "unrealized_pl": 134.870885,
+      "unrealized_plpc": 1.079
+    },
+    {
+      "symbol": "HONA",
+      "name": "Honeywell Aerospace",
+      "qty": 62.340980499,
+      "avg_entry_price": 200.51,
+      "current_price": 203.07,
+      "unrealized_pl": 159.59291,
+      "unrealized_plpc": 1.277
+    }
+  ]
 }
