@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-07-21T17:56:28+00:00",
+  "updated_utc": "2026-07-21T18:21:07+00:00",
   "drop_threshold_pct": -5.0,
   "high_conviction_pct": -8.0,
   "stocks": [
@@ -7,7 +7,7 @@
       "symbol": "DHR",
       "name": "Danaher Corporation",
       "sector": "Health Care",
-      "pct_change": -11.153104204911326,
+      "pct_change": -11.123263412707717,
       "conviction": "high",
       "status": "blocked_news",
       "news_bad": true
@@ -16,7 +16,7 @@
       "symbol": "TYL",
       "name": "Tyler Technologies",
       "sector": "Information Technology",
-      "pct_change": -4.642086943234865,
+      "pct_change": -4.695557012521364,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
@@ -25,7 +25,7 @@
       "symbol": "IT",
       "name": "Gartner",
       "sector": "Information Technology",
-      "pct_change": -4.6150536080449065,
+      "pct_change": -4.402375983665112,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
@@ -34,34 +34,7 @@
       "symbol": "WDAY",
       "name": "Workday, Inc.",
       "sector": "Information Technology",
-      "pct_change": -4.1706285414600215,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "CRWD",
-      "name": "CrowdStrike",
-      "sector": "Information Technology",
-      "pct_change": -3.990124414207886,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "BLDR",
-      "name": "Builders FirstSource",
-      "sector": "Industrials",
-      "pct_change": -3.7413943679324464,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "VEEV",
-      "name": "Veeva Systems",
-      "sector": "Health Care",
-      "pct_change": -3.695353849155267,
+      "pct_change": -4.031379913994409,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
@@ -70,25 +43,25 @@
       "symbol": "VRSN",
       "name": "Verisign",
       "sector": "Information Technology",
-      "pct_change": -3.686821761328584,
+      "pct_change": -3.9876003712985026,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
     },
     {
-      "symbol": "ADBE",
-      "name": "Adobe Inc.",
+      "symbol": "CRWD",
+      "name": "CrowdStrike",
       "sector": "Information Technology",
-      "pct_change": -3.4910995707791272,
+      "pct_change": -3.9850891446429997,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
     },
     {
-      "symbol": "CSGP",
-      "name": "CoStar Group",
-      "sector": "Real Estate",
-      "pct_change": -3.45350272234171,
+      "symbol": "VEEV",
+      "name": "Veeva Systems",
+      "sector": "Health Care",
+      "pct_change": -3.7586738419019126,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
@@ -97,7 +70,25 @@
       "symbol": "DDOG",
       "name": "Datadog",
       "sector": "Information Technology",
-      "pct_change": -3.4080608143879707,
+      "pct_change": -3.5980304104405363,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "BLDR",
+      "name": "Builders FirstSource",
+      "sector": "Industrials",
+      "pct_change": -3.4525372932586165,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "ADBE",
+      "name": "Adobe Inc.",
+      "sector": "Information Technology",
+      "pct_change": -3.448496647896203,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
@@ -106,25 +97,25 @@
       "symbol": "SPGI",
       "name": "S&P Global",
       "sector": "Financials",
-      "pct_change": -3.3969021476519847,
+      "pct_change": -3.4281242127693545,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
     },
     {
-      "symbol": "PANW",
-      "name": "Palo Alto Networks",
-      "sector": "Information Technology",
-      "pct_change": -3.177737100511506,
+      "symbol": "CSGP",
+      "name": "CoStar Group",
+      "sector": "Real Estate",
+      "pct_change": -3.268198149357735,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
     },
     {
-      "symbol": "VLTO",
-      "name": "Veralto",
-      "sector": "Industrials",
-      "pct_change": -3.1723046512605046,
+      "symbol": "MCO",
+      "name": "Moody's Corporation",
+      "sector": "Financials",
+      "pct_change": -3.264934633915871,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
@@ -133,7 +124,16 @@
       "symbol": "BR",
       "name": "Broadridge Financial Solutions",
       "sector": "Industrials",
-      "pct_change": -3.12625137170936,
+      "pct_change": -3.2462406594335413,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "GPN",
+      "name": "Global Payments",
+      "sector": "Financials",
+      "pct_change": -3.168629990679302,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
