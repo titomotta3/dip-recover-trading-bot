@@ -1,9 +1,9 @@
 {
-  "updated_utc": "2026-07-21T13:38:41+00:00",
+  "updated_utc": "2026-07-21T13:45:13+00:00",
   "paper": true,
-  "equity": 499948.92,
-  "cash": 468331.2,
-  "buying_power": 440000.01,
+  "equity": 500410.29,
+  "cash": 440000.06,
+  "buying_power": 440000.06,
   "starting_equity": 500000.0,
   "drop_threshold_pct": -5.0,
   "sell_threshold_pct": 7.0,
@@ -20,57 +20,68 @@
     {
       "symbol": "DHR",
       "name": "Danaher Corporation",
-      "qty": 55.0,
-      "avg_entry_price": 172.88,
-      "current_price": 172.87,
-      "cost_basis": 9508.4,
-      "market_value": 9507.85,
-      "unrealized_pl": -0.55,
-      "unrealized_plpc": -0.006
+      "qty": 57.844355725,
+      "avg_entry_price": 172.877542,
+      "current_price": 172.24,
+      "cost_basis": 9999.990036,
+      "market_value": 9963.11183,
+      "unrealized_pl": -36.878206,
+      "unrealized_plpc": -0.369
     },
     {
       "symbol": "EFX",
       "name": "Equifax",
-      "qty": 7.0,
+      "qty": 59.955572876,
       "avg_entry_price": 166.79,
-      "current_price": 166.31,
-      "cost_basis": 1167.53,
-      "market_value": 1164.17,
-      "unrealized_pl": -3.36,
-      "unrealized_plpc": -0.28800000000000003
+      "current_price": 166.07,
+      "cost_basis": 9999.99,
+      "market_value": 9956.821988,
+      "unrealized_pl": -43.168012,
+      "unrealized_plpc": -0.432
     },
     {
       "symbol": "GPC",
       "name": "Genuine Parts Company",
-      "qty": 58.0,
-      "avg_entry_price": 112.34,
-      "current_price": 112.245,
-      "cost_basis": 6515.72,
-      "market_value": 6510.21,
-      "unrealized_pl": -5.51,
-      "unrealized_plpc": -0.08499999999999999
+      "qty": 89.018160776,
+      "avg_entry_price": 112.336515,
+      "current_price": 113.72,
+      "cost_basis": 9999.989953,
+      "market_value": 10123.145243,
+      "unrealized_pl": 123.15529,
+      "unrealized_plpc": 1.232
     },
     {
       "symbol": "HAL",
       "name": "Halliburton",
-      "qty": 137.0,
+      "qty": 305.997246022,
       "avg_entry_price": 32.68,
-      "current_price": 32.67,
-      "cost_basis": 4477.16,
-      "market_value": 4475.79,
-      "unrealized_pl": -1.37,
-      "unrealized_plpc": -0.031
+      "current_price": 33.021,
+      "cost_basis": 9999.99,
+      "market_value": 10104.335061,
+      "unrealized_pl": 104.345061,
+      "unrealized_plpc": 1.043
     },
     {
       "symbol": "MSCI",
       "name": "MSCI Inc.",
       "qty": 18.023520718,
       "avg_entry_price": 554.83,
-      "current_price": 553.415,
+      "current_price": 559.665,
       "cost_basis": 9999.99,
-      "market_value": 9974.486718,
-      "unrealized_pl": -25.503282,
-      "unrealized_plpc": -0.255
+      "market_value": 10087.133723,
+      "unrealized_pl": 87.143723,
+      "unrealized_plpc": 0.8710000000000001
+    },
+    {
+      "symbol": "NOC",
+      "name": "Northrop Grumman",
+      "qty": 20.465362339,
+      "avg_entry_price": 488.63,
+      "current_price": 497.215,
+      "cost_basis": 9999.99,
+      "market_value": 10175.685135,
+      "unrealized_pl": 175.695135,
+      "unrealized_plpc": 1.757
     }
   ]
 }

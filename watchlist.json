@@ -1,76 +1,22 @@
 {
-  "updated_utc": "2026-07-21T13:38:40+00:00",
+  "updated_utc": "2026-07-21T13:45:13+00:00",
   "drop_threshold_pct": -5.0,
   "high_conviction_pct": -8.0,
   "stocks": [
     {
-      "symbol": "DHR",
-      "name": "Danaher Corporation",
-      "sector": "Health Care",
-      "pct_change": -13.906666530095535,
-      "conviction": "high",
-      "status": "bought",
-      "news_bad": false
-    },
-    {
-      "symbol": "MSCI",
-      "name": "MSCI Inc.",
+      "symbol": "FDS",
+      "name": "FactSet",
       "sector": "Financials",
-      "pct_change": -11.58675982995961,
-      "conviction": "high",
-      "status": "bought",
-      "news_bad": false
-    },
-    {
-      "symbol": "GPC",
-      "name": "Genuine Parts Company",
-      "sector": "Consumer Discretionary",
-      "pct_change": -8.790770277749226,
-      "conviction": "high",
-      "status": "bought",
-      "news_bad": false
-    },
-    {
-      "symbol": "EFX",
-      "name": "Equifax",
-      "sector": "Industrials",
-      "pct_change": -7.529985240290761,
-      "conviction": "buy_signal",
-      "status": "bought",
-      "news_bad": false
-    },
-    {
-      "symbol": "NOC",
-      "name": "Northrop Grumman",
-      "sector": "Industrials",
-      "pct_change": -6.95378016418079,
-      "conviction": "buy_signal",
-      "status": "bought",
-      "news_bad": false
-    },
-    {
-      "symbol": "HAL",
-      "name": "Halliburton",
-      "sector": "Energy",
-      "pct_change": -6.735977320859169,
-      "conviction": "buy_signal",
-      "status": "bought",
-      "news_bad": false
-    },
-    {
-      "symbol": "LMT",
-      "name": "Lockheed Martin",
-      "sector": "Industrials",
-      "pct_change": -3.615027891594981,
+      "pct_change": -3.5224186806858944,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
     },
     {
-      "symbol": "ZBRA",
-      "name": "Zebra Technologies",
-      "sector": "Information Technology",
-      "pct_change": -3.5437699936887217,
+      "symbol": "SPGI",
+      "name": "S&P Global",
+      "sector": "Financials",
+      "pct_change": -3.4816584491216815,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
@@ -79,7 +25,25 @@
       "symbol": "FICO",
       "name": "Fair Isaac",
       "sector": "Information Technology",
-      "pct_change": -3.3097772255112985,
+      "pct_change": -3.479896979657201,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "ZBRA",
+      "name": "Zebra Technologies",
+      "sector": "Information Technology",
+      "pct_change": -3.199970207631135,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "MCO",
+      "name": "Moody's Corporation",
+      "sector": "Financials",
+      "pct_change": -3.0353991107710137,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
