@@ -13,6 +13,16 @@ on:
 permissions:
   contents: write
 
+# Only one run of this workflow at a time. Without this, a slow run (a
+# yfinance hiccup, a busy GitHub-hosted runner) could still be executing when
+# the next 5-minute cron trigger fires, and two overlapping runs hitting the
+# same Alpaca account could double up on the same buy signal, or race each
+# other's git push. Queue instead of running in parallel; don't cancel a run
+# that's mid-trade or mid-commit (cancel-in-progress: false).
+concurrency:
+  group: trading-bot
+  cancel-in-progress: false
+
 jobs:
   # Portfolio 1: standard. $500k paper account, $10k per position.
   run-bot:
@@ -71,8 +81,13 @@ jobs:
   # based on how its own trades go, aiming for 10-15% realized gain per
   # completed trade (see adapt_strategy() in trading_bot.py for the exact
   # bounded rules). Runs after portfolio 1 so the two commits don't race.
+  # if: always() here is deliberate: this job should still run even if
+  # run-bot failed (e.g. its commit step hit a push conflict) -- portfolio 2
+  # trading for this cycle shouldn't be silently skipped just because
+  # portfolio 1 had a bad run.
   run-bot-aggressive:
     needs: run-bot
+    if: always()
     runs-on: ubuntu-latest
     steps:
       - name: Check out repo
