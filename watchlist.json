@@ -1,22 +1,13 @@
 {
-  "updated_utc": "2026-07-21T13:45:13+00:00",
+  "updated_utc": "2026-07-21T13:52:22+00:00",
   "drop_threshold_pct": -5.0,
   "high_conviction_pct": -8.0,
   "stocks": [
     {
-      "symbol": "FDS",
-      "name": "FactSet",
-      "sector": "Financials",
-      "pct_change": -3.5224186806858944,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "SPGI",
-      "name": "S&P Global",
-      "sector": "Financials",
-      "pct_change": -3.4816584491216815,
+      "symbol": "TYL",
+      "name": "Tyler Technologies",
+      "sector": "Information Technology",
+      "pct_change": -3.5601890523512383,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
@@ -25,25 +16,16 @@
       "symbol": "FICO",
       "name": "Fair Isaac",
       "sector": "Information Technology",
-      "pct_change": -3.479896979657201,
+      "pct_change": -3.2255141962051694,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
     },
     {
-      "symbol": "ZBRA",
-      "name": "Zebra Technologies",
-      "sector": "Information Technology",
-      "pct_change": -3.199970207631135,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "MCO",
-      "name": "Moody's Corporation",
+      "symbol": "SPGI",
+      "name": "S&P Global",
       "sector": "Financials",
-      "pct_change": -3.0353991107710137,
+      "pct_change": -3.19170232269158,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
