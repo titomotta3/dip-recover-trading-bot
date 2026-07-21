@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-07-21T15:37:23+00:00",
+  "updated_utc": "2026-07-21T15:52:35+00:00",
   "drop_threshold_pct": -3.0,
   "high_conviction_pct": -6.0,
   "stocks": [
@@ -7,115 +7,61 @@
       "symbol": "DHR",
       "name": "Danaher Corporation",
       "sector": "Health Care",
-      "pct_change": -13.723835721620995,
+      "pct_change": -14.27577277446909,
       "conviction": "high",
       "status": "blocked_news",
       "news_bad": true
     },
     {
-      "symbol": "IT",
-      "name": "Gartner",
-      "sector": "Information Technology",
-      "pct_change": -3.3957134333163,
-      "conviction": "buy_signal",
-      "status": "bought",
-      "news_bad": false
-    },
-    {
-      "symbol": "VRSK",
-      "name": "Verisk Analytics",
-      "sector": "Industrials",
-      "pct_change": -3.374794481972828,
-      "conviction": "buy_signal",
-      "status": "bought",
-      "news_bad": false
-    },
-    {
-      "symbol": "VLTO",
-      "name": "Veralto",
-      "sector": "Industrials",
-      "pct_change": -3.295759146038567,
-      "conviction": "buy_signal",
-      "status": "bought",
-      "news_bad": false
-    },
-    {
-      "symbol": "BLDR",
-      "name": "Builders FirstSource",
-      "sector": "Industrials",
-      "pct_change": -3.2599659101427294,
-      "conviction": "buy_signal",
-      "status": "bought",
-      "news_bad": false
-    },
-    {
       "symbol": "WDAY",
       "name": "Workday, Inc.",
       "sector": "Information Technology",
-      "pct_change": -3.165333258708092,
+      "pct_change": -3.3962776515021957,
       "conviction": "buy_signal",
       "status": "blocked_news",
       "news_bad": true
     },
     {
-      "symbol": "PFG",
-      "name": "Principal Financial Group",
-      "sector": "Financials",
-      "pct_change": -2.993928074810824,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
+      "symbol": "CSGP",
+      "name": "CoStar Group",
+      "sector": "Real Estate",
+      "pct_change": -3.3692722025532253,
+      "conviction": "buy_signal",
+      "status": "bought",
+      "news_bad": false
     },
     {
       "symbol": "SPGI",
       "name": "S&P Global",
       "sector": "Financials",
-      "pct_change": -2.9909676546348156,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
+      "pct_change": -3.287614709778755,
+      "conviction": "buy_signal",
+      "status": "blocked_news",
+      "news_bad": true
     },
     {
-      "symbol": "CSGP",
-      "name": "CoStar Group",
-      "sector": "Real Estate",
-      "pct_change": -2.8807261908525925,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "BR",
-      "name": "Broadridge Financial Solutions",
-      "sector": "Industrials",
-      "pct_change": -2.846289928579064,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "VEEV",
-      "name": "Veeva Systems",
-      "sector": "Health Care",
-      "pct_change": -2.8240701306021228,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
+      "symbol": "VRSN",
+      "name": "Verisign",
+      "sector": "Information Technology",
+      "pct_change": -3.072655606567815,
+      "conviction": "buy_signal",
+      "status": "bought",
+      "news_bad": false
     },
     {
       "symbol": "ADBE",
       "name": "Adobe Inc.",
       "sector": "Information Technology",
-      "pct_change": -2.80736621047391,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
+      "pct_change": -3.0544423622560206,
+      "conviction": "buy_signal",
+      "status": "blocked_news",
+      "news_bad": true
     },
     {
-      "symbol": "GDDY",
-      "name": "GoDaddy",
-      "sector": "Information Technology",
-      "pct_change": -2.667649596150486,
+      "symbol": "BR",
+      "name": "Broadridge Financial Solutions",
+      "sector": "Industrials",
+      "pct_change": -2.8829468238031,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
@@ -124,16 +70,70 @@
       "symbol": "MCO",
       "name": "Moody's Corporation",
       "sector": "Financials",
-      "pct_change": -2.6673487937534164,
+      "pct_change": -2.775193231096396,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
     },
     {
-      "symbol": "RSG",
-      "name": "Republic Services",
-      "sector": "Industrials",
-      "pct_change": -2.6504336158604502,
+      "symbol": "VEEV",
+      "name": "Veeva Systems",
+      "sector": "Health Care",
+      "pct_change": -2.7607501378554775,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "DDOG",
+      "name": "Datadog",
+      "sector": "Information Technology",
+      "pct_change": -2.7108698460137806,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "PFG",
+      "name": "Principal Financial Group",
+      "sector": "Financials",
+      "pct_change": -2.6949818926127636,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "GDDY",
+      "name": "GoDaddy",
+      "sector": "Information Technology",
+      "pct_change": -2.694003347151623,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "CHD",
+      "name": "Church & Dwight",
+      "sector": "Consumer Staples",
+      "pct_change": -2.6587569790156933,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "OMC",
+      "name": "Omnicom Group",
+      "sector": "Communication Services",
+      "pct_change": -2.646594916213283,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "PGR",
+      "name": "Progressive Corporation",
+      "sector": "Financials",
+      "pct_change": -2.6339332094540793,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
