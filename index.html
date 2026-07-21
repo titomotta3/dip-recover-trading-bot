@@ -6,22 +6,28 @@
 <title>Dip-and-Recover Trading Bot</title>
 <style>
   :root {
-    --bg: #0f1115;
-    --card: #161a22;
-    --border: #262b36;
-    --text: #e6e9ef;
+    --bg: #0a0c11;
+    --card: #14171f;
+    --border: #242833;
+    --text: #eef0f4;
     --muted: #8b93a3;
-    --green: #3ddc84;
-    --red: #ff5d5d;
+    --green: #34d399;
+    --red: #f2666a;
     --accent: #5b8cff;
-    --accent2: #ffb454;
+    --accent2: #f5a95a;
+    --radius: 12px;
+    --radius-sm: 8px;
+    --shadow: 0 1px 2px rgba(0, 0, 0, 0.35), 0 6px 20px rgba(0, 0, 0, 0.22);
   }
   * { box-sizing: border-box; }
   body {
     margin: 0;
     background: var(--bg);
     color: var(--text);
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Inter", Roboto, Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-variant-numeric: tabular-nums;
     padding: 24px 16px 64px;
   }
   .wrap { max-width: 1000px; margin: 0 auto; }
@@ -31,20 +37,45 @@
     align-items: center;
     justify-content: space-between;
     gap: 12px;
-    margin-bottom: 20px;
+    margin-bottom: 24px;
   }
-  h1 { font-size: 22px; margin: 0; }
-  .sub { color: var(--muted); font-size: 13px; margin-top: 4px; }
+  h1 {
+    font-size: 21px;
+    font-weight: 700;
+    letter-spacing: -0.01em;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    gap: 9px;
+  }
+  .live-dot {
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: var(--green);
+    flex-shrink: 0;
+    animation: pulse 2.4s ease-out infinite;
+  }
+  @keyframes pulse {
+    0% { box-shadow: 0 0 0 0 rgba(52, 211, 153, 0.55); }
+    70% { box-shadow: 0 0 0 7px rgba(52, 211, 153, 0); }
+    100% { box-shadow: 0 0 0 0 rgba(52, 211, 153, 0); }
+  }
+  .sub { color: var(--muted); font-size: 13px; margin-top: 5px; }
   button {
     background: var(--card);
     color: var(--text);
     border: 1px solid var(--border);
-    border-radius: 8px;
-    padding: 8px 14px;
+    border-radius: var(--radius-sm);
+    padding: 8px 16px;
     font-size: 13px;
+    font-weight: 600;
     cursor: pointer;
+    transition: border-color 0.15s ease, box-shadow 0.15s ease, transform 0.05s ease;
   }
-  button:hover { border-color: var(--accent); }
+  button:hover { border-color: var(--accent); box-shadow: var(--shadow); }
+  button:active { transform: translateY(1px); }
 
   /* Side-by-side comparison bar */
   .compare {
@@ -55,16 +86,17 @@
   }
   .compare .card {
     border-left: 3px solid var(--border);
+    transition: border-color 0.15s ease, transform 0.12s ease;
   }
   .compare .card.standard { border-left-color: var(--accent); }
   .compare .card.aggressive { border-left-color: var(--accent2); }
   .compare .card.benchmark { border-left-color: var(--muted); cursor: default; }
-  .compare .card.benchmark:hover { border-color: var(--border); }
-  .compare .card .name { font-size: 12px; color: var(--muted); margin-bottom: 8px; text-transform: uppercase; letter-spacing: 0.04em; }
-  .compare .card .equity-big { font-size: 24px; font-weight: 700; }
+  .compare .card.benchmark:hover { border-color: var(--border); transform: none; }
+  .compare .card .name { font-size: 12px; color: var(--muted); margin-bottom: 8px; text-transform: uppercase; letter-spacing: 0.05em; font-weight: 600; }
+  .compare .card .equity-big { font-size: 24px; font-weight: 700; letter-spacing: -0.01em; }
   .compare .card .return-line { font-size: 13px; margin-top: 4px; }
   .compare .card { cursor: pointer; }
-  .compare .card:hover { border-color: var(--accent); }
+  .compare .card:hover { border-color: var(--accent); transform: translateY(-1px); }
 
   /* Portfolio tabs */
   .tabs {
@@ -84,6 +116,7 @@
     font-size: 14px;
     font-weight: 600;
     cursor: pointer;
+    transition: color 0.15s ease, border-color 0.15s ease;
   }
   .tab-btn:hover { border-color: var(--border); color: var(--text); }
   .tab-btn.active { color: var(--text); border-bottom-color: var(--accent); }
@@ -125,22 +158,24 @@
   .card {
     background: var(--card);
     border: 1px solid var(--border);
-    border-radius: 12px;
+    border-radius: var(--radius);
     padding: 16px;
+    box-shadow: var(--shadow);
   }
-  .card .label { font-size: 12px; color: var(--muted); margin-bottom: 6px; }
-  .card .value { font-size: 22px; font-weight: 700; }
+  .card .label { font-size: 12px; color: var(--muted); margin-bottom: 6px; font-weight: 500; }
+  .card .value { font-size: 22px; font-weight: 700; letter-spacing: -0.01em; }
   section.block { margin-bottom: 22px; }
   section.block h3 {
     font-size: 13px;
     text-transform: uppercase;
-    letter-spacing: 0.04em;
+    letter-spacing: 0.05em;
     color: var(--muted);
+    font-weight: 700;
     margin-bottom: 10px;
   }
   .table-scroll {
     overflow-x: auto;
-    border-radius: 12px;
+    border-radius: var(--radius);
     -webkit-overflow-scrolling: touch;
   }
   table {
@@ -149,23 +184,27 @@
     border-collapse: collapse;
     background: var(--card);
     border: 1px solid var(--border);
-    border-radius: 12px;
+    border-radius: var(--radius);
     overflow: hidden;
     font-size: 14px;
+    box-shadow: var(--shadow);
   }
   th, td {
     text-align: left;
-    padding: 10px 14px;
+    padding: 11px 14px;
     border-bottom: 1px solid var(--border);
     white-space: nowrap;
   }
   th {
     color: var(--muted);
-    font-weight: 600;
-    font-size: 12px;
+    font-weight: 700;
+    font-size: 11px;
     text-transform: uppercase;
+    letter-spacing: 0.04em;
   }
   tr:last-child td { border-bottom: none; }
+  tbody tr { transition: background 0.1s ease; }
+  tbody tr:hover { background: rgba(255, 255, 255, 0.025); }
   .pos { color: var(--green); }
   .neg { color: var(--red); }
   .empty {
@@ -174,7 +213,7 @@
     color: var(--muted);
     background: var(--card);
     border: 1px dashed var(--border);
-    border-radius: 12px;
+    border-radius: var(--radius);
     font-size: 14px;
   }
   .buy { color: var(--accent); font-weight: 600; }
@@ -189,16 +228,18 @@
   .chart-wrap {
     background: var(--card);
     border: 1px solid var(--border);
-    border-radius: 12px;
+    border-radius: var(--radius);
     padding: 16px;
+    box-shadow: var(--shadow);
   }
   .chart-wrap svg { width: 100%; height: 140px; display: block; }
   .strategy-box {
     background: var(--card);
     border: 1px solid var(--border);
-    border-radius: 12px;
+    border-radius: var(--radius);
     padding: 16px;
     font-size: 13px;
+    box-shadow: var(--shadow);
   }
   .strategy-params {
     display: flex;
@@ -245,17 +286,19 @@
     color: var(--muted);
     font-size: 12px;
     text-align: center;
-    margin-top: 40px;
-    line-height: 1.6;
+    margin-top: 44px;
+    padding-top: 24px;
+    border-top: 1px solid var(--border);
+    line-height: 1.7;
   }
-  footer a { color: var(--accent); }
+  footer a { color: var(--accent); font-weight: 600; }
 </style>
 </head>
 <body>
 <div class="wrap">
   <header>
     <div>
-      <h1>Dip-and-Recover Trading Bot</h1>
+      <h1><span class="live-dot"></span>Dip-and-Recover Trading Bot</h1>
       <div class="sub">Two paper portfolios: Portfolio 1 runs fixed rules, Portfolio 2 tunes its own strategy as it trades.</div>
     </div>
     <button onclick="loadAll()">Refresh</button>
