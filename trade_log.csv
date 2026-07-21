@@ -14,3 +14,4 @@ timestamp_utc,action,symbol,detail
 2026-07-21T13:38:40+00:00,BUY,HAL,drop=-6.74% notional=$10000.00 news=clear(4)
 2026-07-21T13:38:40+00:00,BUY,MSCI,drop=-11.59% notional=$10000.00 news=clear(3)
 2026-07-21T13:38:40+00:00,BUY,NOC,drop=-6.95% notional=$10000.00 news=clear(9)
+2026-07-21T14:35:10+00:00,SELL,DHR,gain=0.41% qty=57.844355725 reason=bad_news:plunges
