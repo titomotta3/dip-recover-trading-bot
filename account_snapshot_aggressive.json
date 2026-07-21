@@ -1,7 +1,7 @@
 {
-  "updated_utc": "2026-07-21T21:36:09+00:00",
+  "updated_utc": "2026-07-21T21:45:59+00:00",
   "paper": true,
-  "equity": 502051.02,
+  "equity": 502084.63,
   "cash": 162359.84,
   "buying_power": 162359.84,
   "starting_equity": 500000.0,
@@ -66,11 +66,11 @@
       "name": "",
       "qty": 65.131252605,
       "avg_entry_price": 191.92,
-      "current_price": 191.45,
+      "current_price": 191.99,
       "cost_basis": 12499.99,
-      "market_value": 12469.378311,
-      "unrealized_pl": -30.611689,
-      "unrealized_plpc": -0.245
+      "market_value": 12504.549188,
+      "unrealized_pl": 4.559188,
+      "unrealized_plpc": 0.036000000000000004
     },
     {
       "symbol": "CSGP",
@@ -88,11 +88,11 @@
       "name": "",
       "qty": 195.46505082,
       "avg_entry_price": 63.95,
-      "current_price": 65.5,
+      "current_price": 65.42,
       "cost_basis": 12499.99,
-      "market_value": 12802.960829,
-      "unrealized_pl": 302.970829,
-      "unrealized_plpc": 2.424
+      "market_value": 12787.323625,
+      "unrealized_pl": 287.333625,
+      "unrealized_plpc": 2.299
     },
     {
       "symbol": "EFX",
@@ -154,11 +154,11 @@
       "name": "",
       "qty": 383.207298374,
       "avg_entry_price": 32.619394,
-      "current_price": 33.29,
+      "current_price": 33.25,
       "cost_basis": 12499.989849,
-      "market_value": 12756.970963,
-      "unrealized_pl": 256.981114,
-      "unrealized_plpc": 2.056
+      "market_value": 12741.642671,
+      "unrealized_pl": 241.652822,
+      "unrealized_plpc": 1.933
     },
     {
       "symbol": "HONA",
@@ -231,11 +231,11 @@
       "name": "",
       "qty": 37.179476502,
       "avg_entry_price": 336.206724,
-      "current_price": 341.0278,
+      "current_price": 341.75,
       "cost_basis": 12499.989995,
-      "market_value": 12679.235077,
-      "unrealized_pl": 179.245082,
-      "unrealized_plpc": 1.434
+      "market_value": 12706.086095,
+      "unrealized_pl": 206.0961,
+      "unrealized_plpc": 1.649
     },
     {
       "symbol": "TYL",
@@ -275,11 +275,11 @@
       "name": "",
       "qty": 64.004045058,
       "avg_entry_price": 195.3,
-      "current_price": 195.55,
+      "current_price": 195.59,
       "cost_basis": 12499.99,
-      "market_value": 12515.991011,
-      "unrealized_pl": 16.001011,
-      "unrealized_plpc": 0.128
+      "market_value": 12518.551173,
+      "unrealized_pl": 18.561173,
+      "unrealized_plpc": 0.148
     },
     {
       "symbol": "VRSN",
