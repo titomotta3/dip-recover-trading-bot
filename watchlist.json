@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-07-21T17:36:23+00:00",
+  "updated_utc": "2026-07-21T17:44:37+00:00",
   "drop_threshold_pct": -5.0,
   "high_conviction_pct": -8.0,
   "stocks": [
@@ -7,25 +7,25 @@
       "symbol": "DHR",
       "name": "Danaher Corporation",
       "sector": "Health Care",
-      "pct_change": -11.511163362214335,
+      "pct_change": -10.977822745087327,
       "conviction": "high",
       "status": "blocked_news",
       "news_bad": true
     },
     {
-      "symbol": "TYL",
-      "name": "Tyler Technologies",
+      "symbol": "IT",
+      "name": "Gartner",
       "sector": "Information Technology",
-      "pct_change": -4.835475639349326,
+      "pct_change": -4.707216435963925,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
     },
     {
-      "symbol": "IT",
-      "name": "Gartner",
+      "symbol": "TYL",
+      "name": "Tyler Technologies",
       "sector": "Information Technology",
-      "pct_change": -4.765986464612286,
+      "pct_change": -4.585478350764614,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
@@ -34,7 +34,7 @@
       "symbol": "WDAY",
       "name": "Workday, Inc.",
       "sector": "Information Technology",
-      "pct_change": -4.557809168747363,
+      "pct_change": -4.472902227459809,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
@@ -43,7 +43,7 @@
       "symbol": "CRWD",
       "name": "CrowdStrike",
       "sector": "Information Technology",
-      "pct_change": -4.043029338094213,
+      "pct_change": -4.18157228175585,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
@@ -52,7 +52,7 @@
       "symbol": "VEEV",
       "name": "Veeva Systems",
       "sector": "Health Care",
-      "pct_change": -4.009426269232713,
+      "pct_change": -4.017024359182659,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
@@ -61,7 +61,7 @@
       "symbol": "DDOG",
       "name": "Datadog",
       "sector": "Information Technology",
-      "pct_change": -3.995066170500959,
+      "pct_change": -4.008365433603516,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
@@ -70,16 +70,7 @@
       "symbol": "VRSN",
       "name": "Verisign",
       "sector": "Information Technology",
-      "pct_change": -3.793090787408742,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "ADBE",
-      "name": "Adobe Inc.",
-      "sector": "Information Technology",
-      "pct_change": -3.697711396203868,
+      "pct_change": -3.7750733121066444,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
@@ -88,34 +79,16 @@
       "symbol": "CSGP",
       "name": "CoStar Group",
       "sector": "Real Estate",
-      "pct_change": -3.605120228511674,
+      "pct_change": -3.655663681486149,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
     },
     {
-      "symbol": "BLDR",
-      "name": "Builders FirstSource",
-      "sector": "Industrials",
-      "pct_change": -3.4938010904472625,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "SPGI",
-      "name": "S&P Global",
-      "sector": "Financials",
-      "pct_change": -3.4381640091609227,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "VLTO",
-      "name": "Veralto",
-      "sector": "Industrials",
-      "pct_change": -3.4192218312561424,
+      "symbol": "ADBE",
+      "name": "Adobe Inc.",
+      "sector": "Information Technology",
+      "pct_change": -3.6082478582670827,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
@@ -124,7 +97,34 @@
       "symbol": "PANW",
       "name": "Palo Alto Networks",
       "sector": "Information Technology",
-      "pct_change": -3.4073322887719457,
+      "pct_change": -3.458956413676069,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "BLDR",
+      "name": "Builders FirstSource",
+      "sector": "Industrials",
+      "pct_change": -3.418157791836946,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "SPGI",
+      "name": "S&P Global",
+      "sector": "Financials",
+      "pct_change": -3.387978640486326,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "VLTO",
+      "name": "Veralto",
+      "sector": "Industrials",
+      "pct_change": -3.338701620404744,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
@@ -133,7 +133,7 @@
       "symbol": "BR",
       "name": "Broadridge Financial Solutions",
       "sector": "Industrials",
-      "pct_change": -3.2262441400077764,
+      "pct_change": -3.1062548522835955,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
