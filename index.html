@@ -301,7 +301,7 @@
       <h1><span class="live-dot"></span>Dip-and-Recover Trading Bot</h1>
       <div class="sub">Two paper portfolios: Portfolio 1 runs fixed rules, Portfolio 2 tunes its own strategy as it trades.</div>
     </div>
-    <button onclick="loadAll()">Refresh</button>
+    <div style="display:flex;align-items:center;gap:10px;"><span class="sub" id="refresh-countdown" style="margin-top:0;">Refreshing in 60s</span><button onclick="manualRefresh()">Refresh</button></div>
   </header>
 
   <div id="compare" class="compare"></div>
@@ -868,7 +868,7 @@
   }
 
   loadAll();
-  setInterval(loadAll, 60000); // refresh data every 60s (shell is built once)
+  const REFRESH_SECS = 60; let secsToRefresh = REFRESH_SECS; function tickCountdown() { const el = document.getElementById("refresh-countdown"); if (el) el.textContent = `Refreshing in ${secsToRefresh}s`; secsToRefresh -= 1; if (secsToRefresh < 0) { secsToRefresh = REFRESH_SECS; loadAll(); } } function manualRefresh() { secsToRefresh = REFRESH_SECS; loadAll(); } tickCountdown(); setInterval(tickCountdown, 1000);
 </script>
 </body>
 </html>
