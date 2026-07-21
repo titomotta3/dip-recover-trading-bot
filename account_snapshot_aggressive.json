@@ -1,7 +1,7 @@
 {
-  "updated_utc": "2026-07-21T20:50:53+00:00",
+  "updated_utc": "2026-07-21T21:21:27+00:00",
   "paper": true,
-  "equity": 502185.36,
+  "equity": 502318.0,
   "cash": 162359.84,
   "buying_power": 162359.84,
   "starting_equity": 500000.0,
@@ -66,11 +66,11 @@
       "name": "",
       "qty": 65.131252605,
       "avg_entry_price": 191.92,
-      "current_price": 191.07,
+      "current_price": 191.41,
       "cost_basis": 12499.99,
-      "market_value": 12444.628435,
-      "unrealized_pl": -55.361565,
-      "unrealized_plpc": -0.443
+      "market_value": 12466.773061,
+      "unrealized_pl": -33.216939,
+      "unrealized_plpc": -0.266
     },
     {
       "symbol": "CSGP",
@@ -88,11 +88,11 @@
       "name": "",
       "qty": 195.46505082,
       "avg_entry_price": 63.95,
-      "current_price": 65.42,
+      "current_price": 65.455,
       "cost_basis": 12499.99,
-      "market_value": 12787.323625,
-      "unrealized_pl": 287.333625,
-      "unrealized_plpc": 2.299
+      "market_value": 12794.164901,
+      "unrealized_pl": 294.174901,
+      "unrealized_plpc": 2.3529999999999998
     },
     {
       "symbol": "EFX",
@@ -154,22 +154,22 @@
       "name": "",
       "qty": 383.207298374,
       "avg_entry_price": 32.619394,
-      "current_price": 33.2,
+      "current_price": 33.29,
       "cost_basis": 12499.989849,
-      "market_value": 12722.482306,
-      "unrealized_pl": 222.492457,
-      "unrealized_plpc": 1.78
+      "market_value": 12756.970963,
+      "unrealized_pl": 256.981114,
+      "unrealized_plpc": 2.056
     },
     {
       "symbol": "HONA",
       "name": "",
       "qty": 62.340980499,
       "avg_entry_price": 200.51,
-      "current_price": 200.14,
+      "current_price": 200.98,
       "cost_basis": 12499.99,
-      "market_value": 12476.923837,
-      "unrealized_pl": -23.066163,
-      "unrealized_plpc": -0.185
+      "market_value": 12529.290261,
+      "unrealized_pl": 29.300261,
+      "unrealized_plpc": 0.234
     },
     {
       "symbol": "IT",
@@ -198,22 +198,22 @@
       "name": "",
       "qty": 44.633275012,
       "avg_entry_price": 560.12,
-      "current_price": 562.0,
+      "current_price": 562.475,
       "cost_basis": 24999.99,
-      "market_value": 25083.900557,
-      "unrealized_pl": 83.910557,
-      "unrealized_plpc": 0.336
+      "market_value": 25105.101362,
+      "unrealized_pl": 105.111362,
+      "unrealized_plpc": 0.42
     },
     {
       "symbol": "NOC",
       "name": "",
       "qty": 25.342747658,
       "avg_entry_price": 493.237362,
-      "current_price": 512.54,
+      "current_price": 511.09,
       "cost_basis": 12499.990001,
-      "market_value": 12989.171885,
-      "unrealized_pl": 489.181884,
-      "unrealized_plpc": 3.913
+      "market_value": 12952.424901,
+      "unrealized_pl": 452.4349,
+      "unrealized_plpc": 3.6189999999999998
     },
     {
       "symbol": "OMC",
@@ -231,11 +231,11 @@
       "name": "",
       "qty": 37.179476502,
       "avg_entry_price": 336.206724,
-      "current_price": 341.68,
+      "current_price": 342.55,
       "cost_basis": 12499.989995,
-      "market_value": 12703.483531,
-      "unrealized_pl": 203.493536,
-      "unrealized_plpc": 1.628
+      "market_value": 12735.829676,
+      "unrealized_pl": 235.839681,
+      "unrealized_plpc": 1.8870000000000002
     },
     {
       "symbol": "TYL",
