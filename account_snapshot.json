@@ -1,7 +1,7 @@
 {
-  "updated_utc": "2026-07-21T16:06:10+00:00",
+  "updated_utc": "2026-07-21T16:21:25+00:00",
   "paper": true,
-  "equity": 501209.29,
+  "equity": 501396.96,
   "cash": 450039.53,
   "buying_power": 450039.53,
   "starting_equity": 500000.0,
@@ -22,55 +22,55 @@
       "name": "Equifax",
       "qty": 59.955572876,
       "avg_entry_price": 166.79,
-      "current_price": 166.9,
+      "current_price": 167.745,
       "cost_basis": 9999.99,
-      "market_value": 10006.585113,
-      "unrealized_pl": 6.595113,
-      "unrealized_plpc": 0.066
+      "market_value": 10057.247572,
+      "unrealized_pl": 57.257572,
+      "unrealized_plpc": 0.573
     },
     {
       "symbol": "GPC",
       "name": "Genuine Parts Company",
       "qty": 89.018160776,
       "avg_entry_price": 112.336515,
-      "current_price": 113.975,
+      "current_price": 115.23,
       "cost_basis": 9999.989953,
-      "market_value": 10145.844874,
-      "unrealized_pl": 145.854921,
-      "unrealized_plpc": 1.459
+      "market_value": 10257.562666,
+      "unrealized_pl": 257.572713,
+      "unrealized_plpc": 2.576
     },
     {
       "symbol": "HAL",
       "name": "Halliburton",
       "qty": 305.997246022,
       "avg_entry_price": 32.68,
-      "current_price": 33.23,
+      "current_price": 33.315,
       "cost_basis": 9999.99,
-      "market_value": 10168.288485,
-      "unrealized_pl": 168.298485,
-      "unrealized_plpc": 1.683
+      "market_value": 10194.298251,
+      "unrealized_pl": 194.308251,
+      "unrealized_plpc": 1.9429999999999998
     },
     {
       "symbol": "MSCI",
       "name": "MSCI Inc.",
       "qty": 18.023520718,
       "avg_entry_price": 554.83,
-      "current_price": 575.425,
+      "current_price": 577.06,
       "cost_basis": 9999.99,
-      "market_value": 10371.184409,
-      "unrealized_pl": 371.194409,
-      "unrealized_plpc": 3.712
+      "market_value": 10400.652866,
+      "unrealized_pl": 400.662866,
+      "unrealized_plpc": 4.007000000000001
     },
     {
       "symbol": "NOC",
       "name": "Northrop Grumman",
       "qty": 20.465362339,
       "avg_entry_price": 488.63,
-      "current_price": 511.98,
+      "current_price": 510.505,
       "cost_basis": 9999.99,
-      "market_value": 10477.85621,
-      "unrealized_pl": 477.86621,
-      "unrealized_plpc": 4.779
+      "market_value": 10447.669801,
+      "unrealized_pl": 447.679801,
+      "unrealized_plpc": 4.476999999999999
     }
   ]
 }
