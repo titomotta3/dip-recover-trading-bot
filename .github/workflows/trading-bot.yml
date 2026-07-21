@@ -39,6 +39,20 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
+      - name: Pull latest committed files before running
+        # actions/checkout pins to the commit that triggered this workflow
+        # run, not necessarily the latest main -- if the other portfolio's
+        # job has pushed since then, this job's working tree wouldn't have
+        # it yet. Pulling now (before the bot writes anything) means a file
+        # that's shared between both jobs (like sectors.json) is already
+        # tracked locally by the time it's regenerated below, instead of
+        # showing up as a brand-new untracked file that could collide with
+        # an incoming pull later in the commit step.
+        run: |
+          git config user.name "trading-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git pull
+
       - name: Run trading bot
         env:
           ALPACA_API_KEY: ${{ secrets.ALPACA_API_KEY }}
@@ -101,6 +115,12 @@ jobs:
 
       - name: Install dependencies
         run: pip install -r requirements.txt
+
+      - name: Pull latest committed files before running
+        run: |
+          git config user.name "trading-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git pull
 
       - name: Run trading bot (aggressive)
         env:
