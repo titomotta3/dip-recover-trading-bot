@@ -196,6 +196,20 @@ SECTORS_PATH = os.environ.get("SECTORS_PATH", "sectors.json")
 SPY_BASELINE_PATH = os.environ.get("SPY_BASELINE_PATH", "spy_baseline.json")
 SPY_BENCHMARK_PATH = os.environ.get("SPY_BENCHMARK_PATH", "spy_benchmark.csv")
 
+# ---------------------------------------------------------------------------
+# Watchlist: a transparent, informational snapshot of which stocks are on
+# the bot's radar this run and how close each one is to a buy signal. Purely
+# for the dashboard -- it never feeds back into any trading decision itself
+# (that's check_buys/check_sells above). Ranked by today's price move vs.
+# the buy threshold, using the same bar CONVICTION_EXTRA_DROP_PCT already
+# uses to size up a buy, so "conviction" here means the same thing it means
+# everywhere else in this bot: a bigger, more unusual dip, nothing more.
+# ---------------------------------------------------------------------------
+
+WATCHLIST_SIZE = int(os.environ.get("WATCHLIST_SIZE", "15"))
+WATCH_MARGIN_PCT = float(os.environ.get("WATCH_MARGIN_PCT", "2.0"))
+WATCHLIST_PATH = os.environ.get("WATCHLIST_PATH", "watchlist.json")
+
 TRADE_LOG_PATH = os.environ.get("TRADE_LOG_PATH", "trade_log.csv")
 
 # Public snapshot of account state, read by the static dashboard (index.html).
@@ -667,8 +681,85 @@ def fetch_last_price(symbol: str) -> float:
         return None
 
 
-def check_buys(client: TradingClient, news_client: NewsClient, tickers: list, names: dict, sectors: dict, position_meta: dict) -> list:
-    """Returns the list of buy events executed this run (symbol + drop %).
+def build_watchlist(
+    changes: dict,
+    dropped: dict,
+    held_symbols: set,
+    sectors: dict,
+    names: dict,
+    news_by_symbol: dict,
+    status_by_symbol: dict,
+) -> list:
+    """Ranks the stocks closest to a buy signal this run, for the dashboard.
+
+    Purely informational -- this never influences check_buys/check_sells;
+    it's built from data those functions (or main(), on a regime-blocked
+    run) already gathered while making the real trading decisions.
+
+    Conviction tiers, based only on today's price move vs. the buy
+    threshold:
+      - high: dropped at least CONVICTION_EXTRA_DROP_PCT beyond the
+        threshold -- the same bar that triggers 2x sizing on the adaptive
+        portfolio (informational only on the fixed-rule portfolio, which
+        doesn't size up on it).
+      - buy_signal: met the drop threshold this run.
+      - watching: within WATCH_MARGIN_PCT of the threshold but hasn't
+        crossed it yet -- close, but no action taken or evaluated.
+
+    Symbols already held are left out entirely (they're already visible in
+    the Open Positions table). Watching-tier symbols are never news- or
+    cap-checked -- there'd be nothing to do with that information since
+    they're not eligible to buy this run anyway, so status is always
+    "watching" for them. buy_signal/high symbols get whatever outcome
+    check_buys (or main(), if regime-blocked) actually recorded for them.
+    """
+    rows = []
+    for symbol, pct_change in changes.items():
+        if symbol in held_symbols:
+            continue
+        if symbol in dropped:
+            is_high = pct_change <= (DROP_THRESHOLD_PCT - CONVICTION_EXTRA_DROP_PCT)
+            conviction = "high" if is_high else "buy_signal"
+            status = status_by_symbol.get(symbol, "buy_signal")
+            news = news_by_symbol.get(symbol)
+        elif pct_change <= DROP_THRESHOLD_PCT + WATCH_MARGIN_PCT:
+            conviction = "watching"
+            status = "watching"
+            news = None
+        else:
+            continue
+        rows.append({
+            "symbol": symbol,
+            "name": names.get(symbol, ""),
+            "sector": sectors.get(symbol, "Unknown"),
+            "pct_change": pct_change,
+            "conviction": conviction,
+            "status": status,
+            "news_bad": news["bad"] if news else None,
+        })
+    rows.sort(key=lambda r: r["pct_change"])
+    return rows[:WATCHLIST_SIZE]
+
+
+def write_watchlist(rows: list) -> None:
+    try:
+        with open(WATCHLIST_PATH, "w") as f:
+            json.dump({
+                "updated_utc": dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds"),
+                "drop_threshold_pct": DROP_THRESHOLD_PCT,
+                "high_conviction_pct": DROP_THRESHOLD_PCT - CONVICTION_EXTRA_DROP_PCT,
+                "stocks": rows,
+            }, f, indent=2)
+    except Exception as exc:  # noqa: BLE001
+        log(f"Could not save watchlist file: {exc}")
+
+
+def check_buys(client: TradingClient, news_client: NewsClient, tickers: list, names: dict, sectors: dict, position_meta: dict) -> tuple:
+    """Returns (events, watchlist).
+
+    events is the list of buy events executed this run (symbol + drop %).
+    watchlist is the ranked, informational snapshot described in
+    build_watchlist() above.
 
     position_meta is mutated in place: a fresh entry timestamp is recorded
     for every symbol bought, so check_sells() can later compute how long
@@ -691,22 +782,30 @@ def check_buys(client: TradingClient, news_client: NewsClient, tickers: list, na
         current_positions = []
         equity = 0.0
     open_count = len(current_positions)
+    held_symbols = {p.symbol for p in current_positions}
     sector_totals = sector_exposure(current_positions, sectors)
+
+    news_by_symbol = {}
+    status_by_symbol = {}
 
     for symbol, pct_change in dropped.items():
         if has_open_position(client, symbol):
             log(f"Skip {symbol}: already holding an open position.")
+            status_by_symbol[symbol] = "holding"
             continue
 
         if open_count >= MAX_OPEN_POSITIONS:
             log(f"Skip {symbol}: at max open positions ({MAX_OPEN_POSITIONS}).")
+            status_by_symbol[symbol] = "blocked_position_cap"
             continue
 
         headlines = fetch_recent_headlines(news_client, symbol)
         news = classify_news(headlines)
+        news_by_symbol[symbol] = news
         if news["bad"]:
             log(f"Skip {symbol}: bad news detected ({', '.join(news['matched'])}) "
                 f"across {news['headline_count']} recent headline(s).")
+            status_by_symbol[symbol] = "blocked_news"
             continue
 
         # High-conviction sizing: only for the adaptive strategy, and only
@@ -732,6 +831,7 @@ def check_buys(client: TradingClient, news_client: NewsClient, tickers: list, na
             if projected_pct > MAX_SECTOR_EXPOSURE_PCT:
                 log(f"Skip {symbol}: would push {sector} exposure to {projected_pct:.1f}% "
                     f"(cap {MAX_SECTOR_EXPOSURE_PCT}%).")
+                status_by_symbol[symbol] = "blocked_sector_cap"
                 continue
 
         try:
@@ -752,9 +852,13 @@ def check_buys(client: TradingClient, news_client: NewsClient, tickers: list, na
             position_meta[symbol] = {"opened_utc": dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds")}
             open_count += 1
             sector_totals[sector] = sector_totals.get(sector, 0.0) + notional
+            status_by_symbol[symbol] = "bought"
         except Exception as exc:  # noqa: BLE001
             log(f"BUY order failed for {symbol}: {exc}")
-    return events
+            status_by_symbol[symbol] = "order_failed"
+
+    watchlist = build_watchlist(changes, dropped, held_symbols, sectors, names, news_by_symbol, status_by_symbol)
+    return events, watchlist
 
 
 def check_sells(client: TradingClient, news_client: NewsClient, names: dict, position_meta: dict) -> list:
@@ -969,9 +1073,28 @@ def main() -> None:
     # Check exits first so a sale can free up buying power for new dips.
     sell_events = check_sells(client, news_client, names, position_meta)
     if regime_blocked:
+        # Buys are paused this run, but the watchlist is still worth
+        # building -- a broad selloff day is exactly when interesting dip
+        # candidates pile up, so skipping the scan here would hide the
+        # most relevant data on the day it matters most. No news/cap
+        # checks run for these, though: nothing is being bought, so
+        # spending News API calls on them would serve no purpose.
         buy_events = []
+        changes = fetch_price_changes(tickers)
+        dropped = {s: c for s, c in changes.items() if c <= DROP_THRESHOLD_PCT}
+        try:
+            held_symbols = {p.symbol for p in client.get_all_positions()}
+        except Exception as exc:  # noqa: BLE001
+            log(f"Could not fetch positions for watchlist: {exc}")
+            held_symbols = set()
+        watchlist = build_watchlist(
+            changes, dropped, held_symbols, sectors, names,
+            news_by_symbol={},
+            status_by_symbol={s: "blocked_regime" for s in dropped},
+        )
     else:
-        buy_events = check_buys(client, news_client, tickers, names, sectors, position_meta)
+        buy_events, watchlist = check_buys(client, news_client, tickers, names, sectors, position_meta)
+    write_watchlist(watchlist)
 
     save_position_meta(position_meta)
 

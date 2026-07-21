@@ -228,6 +228,19 @@
     margin-left: 6px;
     vertical-align: middle;
   }
+  .conv-badge {
+    display: inline-block;
+    padding: 2px 9px;
+    border-radius: 999px;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.02em;
+    white-space: nowrap;
+  }
+  .conv-high { background: rgba(255, 180, 84, 0.15); color: var(--accent2); border: 1px solid rgba(255, 180, 84, 0.35); }
+  .conv-buy_signal { background: rgba(61, 220, 132, 0.15); color: var(--green); border: 1px solid rgba(61, 220, 132, 0.35); }
+  .conv-watching { background: rgba(139, 147, 163, 0.15); color: var(--muted); border: 1px solid rgba(139, 147, 163, 0.35); }
+  .status-note { font-size: 13px; color: var(--muted); }
   footer {
     color: var(--muted);
     font-size: 12px;
@@ -286,6 +299,8 @@
       snapshot: "account_snapshot.json",
       tradeLog: "trade_log.csv",
       history: "equity_history.csv",
+      watchlist: "watchlist.json",
+      adaptive: false,
     },
     {
       id: "p2",
@@ -295,6 +310,8 @@
       snapshot: "account_snapshot_aggressive.json",
       tradeLog: "trade_log_aggressive.csv",
       history: "equity_history_aggressive.csv",
+      watchlist: "watchlist_aggressive.json",
+      adaptive: true,
     },
   ];
 
@@ -461,6 +478,12 @@
         <section class="block">
           <h3>Open Positions</h3>
           <div id="positions-wrap-${cfg.id}"><div class="empty">Loading positions&hellip;</div></div>
+        </section>
+
+        <section class="block">
+          <h3>Watch List</h3>
+          <div class="sub" style="margin-bottom:8px;">Stocks closest to a buy signal this run, ranked by today's move &mdash; informational only, doesn't change any trading decision.</div>
+          <div id="watchlist-wrap-${cfg.id}"><div class="empty">Loading watch list&hellip;</div></div>
         </section>
 
         <section class="block">
@@ -680,6 +703,61 @@
     }
   }
 
+  // Conviction/status labels are deliberately plain English, matching the
+  // same transparent, rule-based framing used everywhere else on this
+  // dashboard -- "high" just means "dropped further beyond the threshold
+  // than usual," nothing more exotic.
+  const CONVICTION_LABEL = { high: "High Conviction", buy_signal: "Buy Signal", watching: "Watching" };
+  const STATUS_LABEL = {
+    bought: "Bought this run",
+    blocked_news: "Blocked — bad news",
+    blocked_sector_cap: "Blocked — sector cap",
+    blocked_position_cap: "Blocked — position cap",
+    blocked_regime: "Blocked — market-regime filter",
+    order_failed: "Order failed",
+    watching: "Below trigger — watching",
+    holding: "Already holding",
+  };
+
+  async function loadWatchlist(cfg) {
+    const wrap = document.getElementById(`watchlist-wrap-${cfg.id}`);
+    if (!wrap) return;
+    try {
+      const res = await fetchNoCache(cfg.watchlist);
+      const data = await res.json();
+      const rows = data.stocks || [];
+      if (!rows.length) {
+        wrap.innerHTML = '<div class="empty">Nothing close to a buy signal right now.</div>';
+        return;
+      }
+      wrap.innerHTML = `
+        <div class="table-scroll">
+        <table>
+          <thead><tr>
+            <th>Symbol</th><th>Sector</th><th>Today</th><th>Conviction</th><th>Status</th>
+          </tr></thead>
+          <tbody>
+            ${rows.map((r) => {
+              const convLabel = CONVICTION_LABEL[r.conviction] || r.conviction;
+              const convSuffix = r.conviction === "high" && cfg.adaptive ? " (2x size)" : "";
+              const statusLabel = STATUS_LABEL[r.status] || r.status;
+              return `
+              <tr>
+                <td>${tickerCell(r.symbol, r.name)}</td>
+                <td>${escapeHtml(r.sector || "Unknown")}</td>
+                <td class="${cls(r.pct_change)}">${pct(r.pct_change)}</td>
+                <td><span class="conv-badge conv-${r.conviction}">${escapeHtml(convLabel)}${convSuffix}</span></td>
+                <td class="status-note">${escapeHtml(statusLabel)}</td>
+              </tr>`;
+            }).join("")}
+          </tbody>
+        </table>
+        </div>`;
+    } catch (err) {
+      wrap.innerHTML = '<div class="empty">No watch list yet &mdash; appears after the bot\'s next run.</div>';
+    }
+  }
+
   function renderTradesTable(cfg) {
     const wrap = document.getElementById(`trades-wrap-${cfg.id}`);
     const moreWrap = document.getElementById(`trades-more-wrap-${cfg.id}`);
@@ -742,6 +820,7 @@
       loadSnapshot(cfg);
       loadTrades(cfg);
       loadHistory(cfg);
+      loadWatchlist(cfg);
     }
   }
 
