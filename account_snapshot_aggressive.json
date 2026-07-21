@@ -1,7 +1,7 @@
 {
-  "updated_utc": "2026-07-21T20:35:37+00:00",
+  "updated_utc": "2026-07-21T20:50:53+00:00",
   "paper": true,
-  "equity": 501755.0,
+  "equity": 502185.36,
   "cash": 162359.84,
   "buying_power": 162359.84,
   "starting_equity": 500000.0,
@@ -33,11 +33,11 @@
       "name": "",
       "qty": 177.581900838,
       "avg_entry_price": 70.39,
-      "current_price": 69.74,
+      "current_price": 70.25,
       "cost_basis": 12499.99,
-      "market_value": 12384.561764,
-      "unrealized_pl": -115.428236,
-      "unrealized_plpc": -0.923
+      "market_value": 12475.128534,
+      "unrealized_pl": -24.861466,
+      "unrealized_plpc": -0.199
     },
     {
       "symbol": "BR",
@@ -66,33 +66,33 @@
       "name": "",
       "qty": 65.131252605,
       "avg_entry_price": 191.92,
-      "current_price": 191.3499,
+      "current_price": 191.07,
       "cost_basis": 12499.99,
-      "market_value": 12462.858673,
-      "unrealized_pl": -37.131327,
-      "unrealized_plpc": -0.297
+      "market_value": 12444.628435,
+      "unrealized_pl": -55.361565,
+      "unrealized_plpc": -0.443
     },
     {
       "symbol": "CSGP",
       "name": "",
       "qty": 435.995465643,
       "avg_entry_price": 28.67,
-      "current_price": 28.5,
+      "current_price": 29.25,
       "cost_basis": 12499.99,
-      "market_value": 12425.870771,
-      "unrealized_pl": -74.119229,
-      "unrealized_plpc": -0.5930000000000001
+      "market_value": 12752.86737,
+      "unrealized_pl": 252.87737,
+      "unrealized_plpc": 2.023
     },
     {
       "symbol": "CVNA",
       "name": "",
       "qty": 195.46505082,
       "avg_entry_price": 63.95,
-      "current_price": 65.51,
+      "current_price": 65.42,
       "cost_basis": 12499.99,
-      "market_value": 12804.915479,
-      "unrealized_pl": 304.925479,
-      "unrealized_plpc": 2.439
+      "market_value": 12787.323625,
+      "unrealized_pl": 287.333625,
+      "unrealized_plpc": 2.299
     },
     {
       "symbol": "EFX",
@@ -154,11 +154,11 @@
       "name": "",
       "qty": 383.207298374,
       "avg_entry_price": 32.619394,
-      "current_price": 33.22,
+      "current_price": 33.2,
       "cost_basis": 12499.989849,
-      "market_value": 12730.146452,
-      "unrealized_pl": 230.156603,
-      "unrealized_plpc": 1.841
+      "market_value": 12722.482306,
+      "unrealized_pl": 222.492457,
+      "unrealized_plpc": 1.78
     },
     {
       "symbol": "HONA",
@@ -187,11 +187,11 @@
       "name": "",
       "qty": 25.527896908,
       "avg_entry_price": 489.66,
-      "current_price": 493.0,
+      "current_price": 494.0,
       "cost_basis": 12499.99,
-      "market_value": 12585.253176,
-      "unrealized_pl": 85.263176,
-      "unrealized_plpc": 0.6819999999999999
+      "market_value": 12610.781073,
+      "unrealized_pl": 110.791073,
+      "unrealized_plpc": 0.886
     },
     {
       "symbol": "MSCI",
@@ -209,11 +209,11 @@
       "name": "",
       "qty": 25.342747658,
       "avg_entry_price": 493.237362,
-      "current_price": 512.29,
+      "current_price": 512.54,
       "cost_basis": 12499.990001,
-      "market_value": 12982.836198,
-      "unrealized_pl": 482.846197,
-      "unrealized_plpc": 3.8629999999999995
+      "market_value": 12989.171885,
+      "unrealized_pl": 489.181884,
+      "unrealized_plpc": 3.913
     },
     {
       "symbol": "OMC",
@@ -231,11 +231,11 @@
       "name": "",
       "qty": 37.179476502,
       "avg_entry_price": 336.206724,
-      "current_price": 341.0232,
+      "current_price": 341.68,
       "cost_basis": 12499.989995,
-      "market_value": 12679.064051,
-      "unrealized_pl": 179.074056,
-      "unrealized_plpc": 1.433
+      "market_value": 12703.483531,
+      "unrealized_pl": 203.493536,
+      "unrealized_plpc": 1.628
     },
     {
       "symbol": "TYL",
