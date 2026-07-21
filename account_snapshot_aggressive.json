@@ -1,7 +1,7 @@
 {
-  "updated_utc": "2026-07-20T23:46:27+00:00",
+  "updated_utc": "2026-07-21T02:30:37+00:00",
   "paper": true,
-  "equity": 500156.39,
+  "equity": 500205.78,
   "cash": 475000.02,
   "buying_power": 475000.02,
   "starting_equity": 500000.0,
@@ -22,22 +22,22 @@
       "name": "",
       "qty": 195.46505082,
       "avg_entry_price": 63.95,
-      "current_price": 64.24,
+      "current_price": 64.4,
       "cost_basis": 12499.99,
-      "market_value": 12556.674865,
-      "unrealized_pl": 56.684865,
-      "unrealized_plpc": 0.453
+      "market_value": 12587.949273,
+      "unrealized_pl": 87.959273,
+      "unrealized_plpc": 0.7040000000000001
     },
     {
       "symbol": "HONA",
       "name": "",
       "qty": 62.340980499,
       "avg_entry_price": 200.51,
-      "current_price": 202.1093,
+      "current_price": 202.4,
       "cost_basis": 12499.99,
-      "market_value": 12599.69193,
-      "unrealized_pl": 99.70193,
-      "unrealized_plpc": 0.7979999999999999
+      "market_value": 12617.814453,
+      "unrealized_pl": 117.824453,
+      "unrealized_plpc": 0.943
     }
   ],
   "adaptive_target_band_pct": [
