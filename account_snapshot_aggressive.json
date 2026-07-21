@@ -1,7 +1,7 @@
 {
-  "updated_utc": "2026-07-21T20:05:56+00:00",
+  "updated_utc": "2026-07-21T20:20:59+00:00",
   "paper": true,
-  "equity": 502194.66,
+  "equity": 501989.36,
   "cash": 162359.84,
   "buying_power": 162359.84,
   "starting_equity": 500000.0,
@@ -22,22 +22,22 @@
       "name": "",
       "qty": 24.436474889,
       "avg_entry_price": 511.53,
-      "current_price": 511.17,
+      "current_price": 511.0,
       "cost_basis": 12499.99,
-      "market_value": 12491.192869,
-      "unrealized_pl": -8.797131,
-      "unrealized_plpc": -0.06999999999999999
+      "market_value": 12487.038668,
+      "unrealized_pl": -12.951332,
+      "unrealized_plpc": -0.104
     },
     {
       "symbol": "BLDR",
       "name": "",
       "qty": 177.581900838,
       "avg_entry_price": 70.39,
-      "current_price": 69.74,
+      "current_price": 69.81,
       "cost_basis": 12499.99,
-      "market_value": 12384.561764,
-      "unrealized_pl": -115.428236,
-      "unrealized_plpc": -0.923
+      "market_value": 12396.992498,
+      "unrealized_pl": -102.997502,
+      "unrealized_plpc": -0.8240000000000001
     },
     {
       "symbol": "BR",
@@ -55,55 +55,55 @@
       "name": "",
       "qty": 187.885014279,
       "avg_entry_price": 66.53,
-      "current_price": 67.8425,
+      "current_price": 66.64,
       "cost_basis": 12499.99,
-      "market_value": 12746.589081,
-      "unrealized_pl": 246.599081,
-      "unrealized_plpc": 1.973
+      "market_value": 12520.657352,
+      "unrealized_pl": 20.667352,
+      "unrealized_plpc": 0.165
     },
     {
       "symbol": "CRWD",
       "name": "",
       "qty": 65.131252605,
       "avg_entry_price": 191.92,
-      "current_price": 191.3,
+      "current_price": 191.01,
       "cost_basis": 12499.99,
-      "market_value": 12459.608623,
-      "unrealized_pl": -40.381377,
-      "unrealized_plpc": -0.32299999999999995
+      "market_value": 12440.72056,
+      "unrealized_pl": -59.26944,
+      "unrealized_plpc": -0.47400000000000003
     },
     {
       "symbol": "CSGP",
       "name": "",
       "qty": 435.995465643,
       "avg_entry_price": 28.67,
-      "current_price": 28.48,
+      "current_price": 28.94,
       "cost_basis": 12499.99,
-      "market_value": 12417.150862,
-      "unrealized_pl": -82.839138,
-      "unrealized_plpc": -0.6629999999999999
+      "market_value": 12617.708776,
+      "unrealized_pl": 117.718776,
+      "unrealized_plpc": 0.942
     },
     {
       "symbol": "CVNA",
       "name": "",
       "qty": 195.46505082,
       "avg_entry_price": 63.95,
-      "current_price": 65.58,
+      "current_price": 65.5215,
       "cost_basis": 12499.99,
-      "market_value": 12818.598033,
-      "unrealized_pl": 318.608033,
-      "unrealized_plpc": 2.549
+      "market_value": 12807.163327,
+      "unrealized_pl": 307.173327,
+      "unrealized_plpc": 2.4570000000000003
     },
     {
       "symbol": "EFX",
       "name": "",
       "qty": 74.524473856,
       "avg_entry_price": 167.73,
-      "current_price": 173.0,
+      "current_price": 172.99,
       "cost_basis": 12499.99,
-      "market_value": 12892.733977,
-      "unrealized_pl": 392.743977,
-      "unrealized_plpc": 3.1419999999999995
+      "market_value": 12891.988732,
+      "unrealized_pl": 391.998732,
+      "unrealized_plpc": 3.136
     },
     {
       "symbol": "ERIE",
@@ -154,22 +154,22 @@
       "name": "",
       "qty": 383.207298374,
       "avg_entry_price": 32.619394,
-      "current_price": 33.26,
+      "current_price": 33.2,
       "cost_basis": 12499.989849,
-      "market_value": 12745.474744,
-      "unrealized_pl": 245.484895,
-      "unrealized_plpc": 1.9640000000000002
+      "market_value": 12722.482306,
+      "unrealized_pl": 222.492457,
+      "unrealized_plpc": 1.78
     },
     {
       "symbol": "HONA",
       "name": "",
       "qty": 62.340980499,
       "avg_entry_price": 200.51,
-      "current_price": 201.0,
+      "current_price": 200.91,
       "cost_basis": 12499.99,
-      "market_value": 12530.53708,
-      "unrealized_pl": 30.54708,
-      "unrealized_plpc": 0.244
+      "market_value": 12524.926392,
+      "unrealized_pl": 24.936392,
+      "unrealized_plpc": 0.199
     },
     {
       "symbol": "IT",
@@ -198,11 +198,11 @@
       "name": "",
       "qty": 44.633275012,
       "avg_entry_price": 560.12,
-      "current_price": 561.74,
+      "current_price": 562.5,
       "cost_basis": 24999.99,
-      "market_value": 25072.295905,
-      "unrealized_pl": 72.305905,
-      "unrealized_plpc": 0.28900000000000003
+      "market_value": 25106.217194,
+      "unrealized_pl": 106.227194,
+      "unrealized_plpc": 0.42500000000000004
     },
     {
       "symbol": "NOC",
@@ -231,11 +231,11 @@
       "name": "",
       "qty": 37.179476502,
       "avg_entry_price": 336.206724,
-      "current_price": 341.5,
+      "current_price": 342.3454,
       "cost_basis": 12499.989995,
-      "market_value": 12696.791225,
-      "unrealized_pl": 196.80123,
-      "unrealized_plpc": 1.574
+      "market_value": 12728.222755,
+      "unrealized_pl": 228.23276,
+      "unrealized_plpc": 1.8259999999999998
     },
     {
       "symbol": "TYL",
@@ -264,11 +264,11 @@
       "name": "",
       "qty": 138.488699313,
       "avg_entry_price": 90.26,
-      "current_price": 91.58,
+      "current_price": 90.18,
       "cost_basis": 12499.99,
-      "market_value": 12682.795083,
-      "unrealized_pl": 182.805083,
-      "unrealized_plpc": 1.462
+      "market_value": 12488.910904,
+      "unrealized_pl": -11.079096,
+      "unrealized_plpc": -0.089
     },
     {
       "symbol": "VRSK",
