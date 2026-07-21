@@ -18,3 +18,4 @@ timestamp_utc,action,symbol,detail
 2026-07-21T19:06:56+00:00,BUY,BR,drop=-3.19% notional=$12500.00 news=none
 2026-07-21T19:06:56+00:00,BUY,GRMN,drop=-3.14% notional=$12500.00 news=none
 2026-07-21T19:06:56+00:00,BUY,MCO,drop=-3.14% notional=$12500.00 news=clear(1)
+2026-07-21T19:22:09+00:00,BUY,OMC,drop=-3.14% notional=$12500.00 news=none
