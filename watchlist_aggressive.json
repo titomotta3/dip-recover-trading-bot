@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-07-21T15:52:35+00:00",
+  "updated_utc": "2026-07-21T16:07:23+00:00",
   "drop_threshold_pct": -3.0,
   "high_conviction_pct": -6.0,
   "stocks": [
@@ -7,7 +7,7 @@
       "symbol": "DHR",
       "name": "Danaher Corporation",
       "sector": "Health Care",
-      "pct_change": -14.27577277446909,
+      "pct_change": -13.972455878988873,
       "conviction": "high",
       "status": "blocked_news",
       "news_bad": true
@@ -16,34 +16,25 @@
       "symbol": "WDAY",
       "name": "Workday, Inc.",
       "sector": "Information Technology",
-      "pct_change": -3.3962776515021957,
+      "pct_change": -3.2264637689270863,
       "conviction": "buy_signal",
-      "status": "blocked_news",
-      "news_bad": true
-    },
-    {
-      "symbol": "CSGP",
-      "name": "CoStar Group",
-      "sector": "Real Estate",
-      "pct_change": -3.3692722025532253,
-      "conviction": "buy_signal",
-      "status": "bought",
-      "news_bad": false
+      "status": "blocked_position_cap",
+      "news_bad": null
     },
     {
       "symbol": "SPGI",
       "name": "S&P Global",
       "sector": "Financials",
-      "pct_change": -3.287614709778755,
+      "pct_change": -3.1961674795952204,
       "conviction": "buy_signal",
       "status": "blocked_news",
       "news_bad": true
     },
     {
-      "symbol": "VRSN",
-      "name": "Verisign",
-      "sector": "Information Technology",
-      "pct_change": -3.072655606567815,
+      "symbol": "VEEV",
+      "name": "Veeva Systems",
+      "sector": "Health Care",
+      "pct_change": -3.0393596518389776,
       "conviction": "buy_signal",
       "status": "bought",
       "news_bad": false
@@ -52,16 +43,25 @@
       "symbol": "ADBE",
       "name": "Adobe Inc.",
       "sector": "Information Technology",
-      "pct_change": -3.0544423622560206,
-      "conviction": "buy_signal",
-      "status": "blocked_news",
-      "news_bad": true
+      "pct_change": -2.91386701738783,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
     },
     {
       "symbol": "BR",
       "name": "Broadridge Financial Solutions",
       "sector": "Industrials",
-      "pct_change": -2.8829468238031,
+      "pct_change": -2.8662864480048285,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "ROP",
+      "name": "Roper Technologies",
+      "sector": "Information Technology",
+      "pct_change": -2.7615447896600887,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
@@ -70,25 +70,25 @@
       "symbol": "MCO",
       "name": "Moody's Corporation",
       "sector": "Financials",
-      "pct_change": -2.775193231096396,
+      "pct_change": -2.7029708518690017,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
     },
     {
-      "symbol": "VEEV",
-      "name": "Veeva Systems",
+      "symbol": "GILD",
+      "name": "Gilead Sciences",
       "sector": "Health Care",
-      "pct_change": -2.7607501378554775,
+      "pct_change": -2.6799843437340742,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
     },
     {
-      "symbol": "DDOG",
-      "name": "Datadog",
-      "sector": "Information Technology",
-      "pct_change": -2.7108698460137806,
+      "symbol": "NWS",
+      "name": "News Corp (Class B)",
+      "sector": "Communication Services",
+      "pct_change": -2.669974316818611,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
@@ -97,16 +97,16 @@
       "symbol": "PFG",
       "name": "Principal Financial Group",
       "sector": "Financials",
-      "pct_change": -2.6949818926127636,
+      "pct_change": -2.659285911532246,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
     },
     {
-      "symbol": "GDDY",
-      "name": "GoDaddy",
-      "sector": "Information Technology",
-      "pct_change": -2.694003347151623,
+      "symbol": "RSG",
+      "name": "Republic Services",
+      "sector": "Industrials",
+      "pct_change": -2.6050855434579696,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
@@ -115,25 +115,25 @@
       "symbol": "CHD",
       "name": "Church & Dwight",
       "sector": "Consumer Staples",
-      "pct_change": -2.6587569790156933,
+      "pct_change": -2.5411602281281787,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
     },
     {
-      "symbol": "OMC",
-      "name": "Omnicom Group",
-      "sector": "Communication Services",
-      "pct_change": -2.646594916213283,
+      "symbol": "GDDY",
+      "name": "GoDaddy",
+      "sector": "Information Technology",
+      "pct_change": -2.541117804484771,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
     },
     {
-      "symbol": "PGR",
-      "name": "Progressive Corporation",
-      "sector": "Financials",
-      "pct_change": -2.6339332094540793,
+      "symbol": "DDOG",
+      "name": "Datadog",
+      "sector": "Information Technology",
+      "pct_change": -2.5189986988288533,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
