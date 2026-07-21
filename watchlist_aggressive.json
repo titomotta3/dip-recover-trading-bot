@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-07-21T16:07:23+00:00",
+  "updated_utc": "2026-07-21T16:22:50+00:00",
   "drop_threshold_pct": -3.0,
   "high_conviction_pct": -6.0,
   "stocks": [
@@ -7,16 +7,25 @@
       "symbol": "DHR",
       "name": "Danaher Corporation",
       "sector": "Health Care",
-      "pct_change": -13.972455878988873,
+      "pct_change": -13.30366704868647,
       "conviction": "high",
-      "status": "blocked_news",
-      "news_bad": true
+      "status": "blocked_position_cap",
+      "news_bad": null
     },
     {
       "symbol": "WDAY",
       "name": "Workday, Inc.",
       "sector": "Information Technology",
-      "pct_change": -3.2264637689270863,
+      "pct_change": -3.773269860419705,
+      "conviction": "buy_signal",
+      "status": "blocked_position_cap",
+      "news_bad": null
+    },
+    {
+      "symbol": "ADBE",
+      "name": "Adobe Inc.",
+      "sector": "Information Technology",
+      "pct_change": -3.2504067071067255,
       "conviction": "buy_signal",
       "status": "blocked_position_cap",
       "news_bad": null
@@ -25,34 +34,25 @@
       "symbol": "SPGI",
       "name": "S&P Global",
       "sector": "Financials",
-      "pct_change": -3.1961674795952204,
+      "pct_change": -3.2119588881568726,
       "conviction": "buy_signal",
-      "status": "blocked_news",
-      "news_bad": true
-    },
-    {
-      "symbol": "VEEV",
-      "name": "Veeva Systems",
-      "sector": "Health Care",
-      "pct_change": -3.0393596518389776,
-      "conviction": "buy_signal",
-      "status": "bought",
-      "news_bad": false
-    },
-    {
-      "symbol": "ADBE",
-      "name": "Adobe Inc.",
-      "sector": "Information Technology",
-      "pct_change": -2.91386701738783,
-      "conviction": "watching",
-      "status": "watching",
+      "status": "blocked_position_cap",
       "news_bad": null
     },
     {
       "symbol": "BR",
       "name": "Broadridge Financial Solutions",
       "sector": "Industrials",
-      "pct_change": -2.8662864480048285,
+      "pct_change": -3.0562635537191847,
+      "conviction": "buy_signal",
+      "status": "blocked_position_cap",
+      "news_bad": null
+    },
+    {
+      "symbol": "DDOG",
+      "name": "Datadog",
+      "sector": "Information Technology",
+      "pct_change": -2.9103414003161676,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
@@ -61,61 +61,7 @@
       "symbol": "ROP",
       "name": "Roper Technologies",
       "sector": "Information Technology",
-      "pct_change": -2.7615447896600887,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "MCO",
-      "name": "Moody's Corporation",
-      "sector": "Financials",
-      "pct_change": -2.7029708518690017,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "GILD",
-      "name": "Gilead Sciences",
-      "sector": "Health Care",
-      "pct_change": -2.6799843437340742,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "NWS",
-      "name": "News Corp (Class B)",
-      "sector": "Communication Services",
-      "pct_change": -2.669974316818611,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "PFG",
-      "name": "Principal Financial Group",
-      "sector": "Financials",
-      "pct_change": -2.659285911532246,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "RSG",
-      "name": "Republic Services",
-      "sector": "Industrials",
-      "pct_change": -2.6050855434579696,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "CHD",
-      "name": "Church & Dwight",
-      "sector": "Consumer Staples",
-      "pct_change": -2.5411602281281787,
+      "pct_change": -2.860766450109386,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
@@ -124,16 +70,70 @@
       "symbol": "GDDY",
       "name": "GoDaddy",
       "sector": "Information Technology",
-      "pct_change": -2.541117804484771,
+      "pct_change": -2.852166075611132,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
     },
     {
-      "symbol": "DDOG",
-      "name": "Datadog",
+      "symbol": "NWS",
+      "name": "News Corp (Class B)",
+      "sector": "Communication Services",
+      "pct_change": -2.825209168822328,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "GPN",
+      "name": "Global Payments",
+      "sector": "Financials",
+      "pct_change": -2.7680057456183778,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "TTD",
+      "name": "Trade Desk (The)",
+      "sector": "Communication Services",
+      "pct_change": -2.736052819642581,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "MCO",
+      "name": "Moody's Corporation",
+      "sector": "Financials",
+      "pct_change": -2.721769201913724,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "GILD",
+      "name": "Gilead Sciences",
+      "sector": "Health Care",
+      "pct_change": -2.67248152387655,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "RSG",
+      "name": "Republic Services",
+      "sector": "Industrials",
+      "pct_change": -2.6436320969145184,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "ACN",
+      "name": "Accenture",
       "sector": "Information Technology",
-      "pct_change": -2.5189986988288533,
+      "pct_change": -2.5012058481659247,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
