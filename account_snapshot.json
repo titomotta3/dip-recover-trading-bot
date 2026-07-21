@@ -1,7 +1,7 @@
 {
-  "updated_utc": "2026-07-21T20:05:31+00:00",
+  "updated_utc": "2026-07-21T20:20:31+00:00",
   "paper": true,
-  "equity": 501801.89,
+  "equity": 501796.63,
   "cash": 450039.53,
   "buying_power": 450039.53,
   "starting_equity": 500000.0,
@@ -22,11 +22,11 @@
       "name": "",
       "qty": 59.955572876,
       "avg_entry_price": 166.79,
-      "current_price": 173.0,
+      "current_price": 172.99,
       "cost_basis": 9999.99,
-      "market_value": 10372.314108,
-      "unrealized_pl": 372.324108,
-      "unrealized_plpc": 3.723
+      "market_value": 10371.714552,
+      "unrealized_pl": 371.724552,
+      "unrealized_plpc": 3.717
     },
     {
       "symbol": "GPC",
@@ -44,22 +44,22 @@
       "name": "",
       "qty": 305.997246022,
       "avg_entry_price": 32.68,
-      "current_price": 33.26,
+      "current_price": 33.2,
       "cost_basis": 9999.99,
-      "market_value": 10177.468403,
-      "unrealized_pl": 177.478403,
-      "unrealized_plpc": 1.775
+      "market_value": 10159.108568,
+      "unrealized_pl": 159.118568,
+      "unrealized_plpc": 1.591
     },
     {
       "symbol": "MSCI",
       "name": "",
       "qty": 18.023520718,
       "avg_entry_price": 554.83,
-      "current_price": 561.74,
+      "current_price": 562.5,
       "cost_basis": 9999.99,
-      "market_value": 10124.532528,
-      "unrealized_pl": 124.542528,
-      "unrealized_plpc": 1.2449999999999999
+      "market_value": 10138.230404,
+      "unrealized_pl": 138.240404,
+      "unrealized_plpc": 1.3820000000000001
     },
     {
       "symbol": "NOC",
