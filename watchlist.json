@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-07-21T14:35:58+00:00",
+  "updated_utc": "2026-07-21T14:51:01+00:00",
   "drop_threshold_pct": -5.0,
   "high_conviction_pct": -8.0,
   "stocks": [
@@ -7,25 +7,25 @@
       "symbol": "DHR",
       "name": "Danaher Corporation",
       "sector": "Health Care",
-      "pct_change": -13.713888790886456,
+      "pct_change": -13.693994929417382,
       "conviction": "high",
       "status": "blocked_news",
       "news_bad": true
     },
     {
-      "symbol": "FICO",
-      "name": "Fair Isaac",
+      "symbol": "TYL",
+      "name": "Tyler Technologies",
       "sector": "Information Technology",
-      "pct_change": -3.4178973940180395,
+      "pct_change": -3.2834327342977145,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
     },
     {
-      "symbol": "TYL",
-      "name": "Tyler Technologies",
+      "symbol": "PANW",
+      "name": "Palo Alto Networks",
       "sector": "Information Technology",
-      "pct_change": -3.367712159608205,
+      "pct_change": -3.183618994702006,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
