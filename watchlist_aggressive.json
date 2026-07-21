@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-07-21T17:46:16+00:00",
+  "updated_utc": "2026-07-21T17:57:29+00:00",
   "drop_threshold_pct": -3.0,
   "high_conviction_pct": -6.0,
   "stocks": [
@@ -7,7 +7,7 @@
       "symbol": "DHR",
       "name": "Danaher Corporation",
       "sector": "Health Care",
-      "pct_change": -11.222717545482928,
+      "pct_change": -11.110835439753352,
       "conviction": "high",
       "status": "blocked_position_cap",
       "news_bad": null
@@ -16,16 +16,7 @@
       "symbol": "WDAY",
       "name": "Workday, Inc.",
       "sector": "Information Technology",
-      "pct_change": -4.367618449432589,
-      "conviction": "buy_signal",
-      "status": "blocked_position_cap",
-      "news_bad": null
-    },
-    {
-      "symbol": "DDOG",
-      "name": "Datadog",
-      "sector": "Information Technology",
-      "pct_change": -3.905780228459774,
+      "pct_change": -4.153651299049254,
       "conviction": "buy_signal",
       "status": "blocked_position_cap",
       "news_bad": null
@@ -34,7 +25,7 @@
       "symbol": "ADBE",
       "name": "Adobe Inc.",
       "sector": "Information Technology",
-      "pct_change": -3.599732473925211,
+      "pct_change": -3.5110814726622683,
       "conviction": "buy_signal",
       "status": "blocked_position_cap",
       "news_bad": null
@@ -43,7 +34,16 @@
       "symbol": "SPGI",
       "name": "S&P Global",
       "sector": "Financials",
-      "pct_change": -3.422549573281427,
+      "pct_change": -3.450429577362689,
+      "conviction": "buy_signal",
+      "status": "blocked_position_cap",
+      "news_bad": null
+    },
+    {
+      "symbol": "DDOG",
+      "name": "Datadog",
+      "sector": "Information Technology",
+      "pct_change": -3.4023619584028735,
       "conviction": "buy_signal",
       "status": "blocked_position_cap",
       "news_bad": null
@@ -52,25 +52,7 @@
       "symbol": "BR",
       "name": "Broadridge Financial Solutions",
       "sector": "Industrials",
-      "pct_change": -3.1062548522835955,
-      "conviction": "buy_signal",
-      "status": "blocked_position_cap",
-      "news_bad": null
-    },
-    {
-      "symbol": "NOW",
-      "name": "ServiceNow",
-      "sector": "Information Technology",
-      "pct_change": -3.080227858760447,
-      "conviction": "buy_signal",
-      "status": "blocked_position_cap",
-      "news_bad": null
-    },
-    {
-      "symbol": "OMC",
-      "name": "Omnicom Group",
-      "sector": "Communication Services",
-      "pct_change": -3.0229518151465475,
+      "pct_change": -3.12625137170936,
       "conviction": "buy_signal",
       "status": "blocked_position_cap",
       "news_bad": null
@@ -79,16 +61,16 @@
       "symbol": "GPN",
       "name": "Global Payments",
       "sector": "Financials",
-      "pct_change": -2.9622464004439997,
-      "conviction": "watching",
-      "status": "watching",
+      "pct_change": -3.0715142944394156,
+      "conviction": "buy_signal",
+      "status": "blocked_position_cap",
       "news_bad": null
     },
     {
-      "symbol": "GDDY",
-      "name": "GoDaddy",
-      "sector": "Information Technology",
-      "pct_change": -2.9576052130872923,
+      "symbol": "OMC",
+      "name": "Omnicom Group",
+      "sector": "Communication Services",
+      "pct_change": -2.9865230089175085,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
@@ -97,34 +79,7 @@
       "symbol": "NWS",
       "name": "News Corp (Class B)",
       "sector": "Communication Services",
-      "pct_change": -2.9493911288211816,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "ACN",
-      "name": "Accenture",
-      "sector": "Information Technology",
-      "pct_change": -2.870862227563976,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "CRM",
-      "name": "Salesforce",
-      "sector": "Information Technology",
-      "pct_change": -2.8482635016231175,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "FDS",
-      "name": "FactSet",
-      "sector": "Financials",
-      "pct_change": -2.834356382303813,
+      "pct_change": -2.980438099221925,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
@@ -133,7 +88,52 @@
       "symbol": "MCO",
       "name": "Moody's Corporation",
       "sector": "Financials",
-      "pct_change": -2.7187981809622292,
+      "pct_change": -2.8771016651968564,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "ACN",
+      "name": "Accenture",
+      "sector": "Information Technology",
+      "pct_change": -2.7775783405947796,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "GDDY",
+      "name": "GoDaddy",
+      "sector": "Information Technology",
+      "pct_change": -2.762542406531869,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "NOW",
+      "name": "ServiceNow",
+      "sector": "Information Technology",
+      "pct_change": -2.7507137892675186,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "FDS",
+      "name": "FactSet",
+      "sector": "Financials",
+      "pct_change": -2.7405272648779464,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "ADP",
+      "name": "Automatic Data Processing",
+      "sector": "Industrials",
+      "pct_change": -2.7013448406743685,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
