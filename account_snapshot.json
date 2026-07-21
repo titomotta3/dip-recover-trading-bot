@@ -1,7 +1,7 @@
 {
-  "updated_utc": "2026-07-21T21:20:57+00:00",
+  "updated_utc": "2026-07-21T21:35:30+00:00",
   "paper": true,
-  "equity": 501799.76,
+  "equity": 501808.38,
   "cash": 450039.53,
   "buying_power": 450039.53,
   "starting_equity": 500000.0,
@@ -22,11 +22,11 @@
       "name": "",
       "qty": 59.955572876,
       "avg_entry_price": 166.79,
-      "current_price": 173.0,
+      "current_price": 173.01,
       "cost_basis": 9999.99,
-      "market_value": 10372.314108,
-      "unrealized_pl": 372.324108,
-      "unrealized_plpc": 3.723
+      "market_value": 10372.913663,
+      "unrealized_pl": 372.923663,
+      "unrealized_plpc": 3.7289999999999996
     },
     {
       "symbol": "GPC",
@@ -55,11 +55,11 @@
       "name": "",
       "qty": 18.023520718,
       "avg_entry_price": 554.83,
-      "current_price": 562.475,
+      "current_price": 562.92,
       "cost_basis": 9999.99,
-      "market_value": 10137.779816,
-      "unrealized_pl": 137.789816,
-      "unrealized_plpc": 1.3780000000000001
+      "market_value": 10145.800283,
+      "unrealized_pl": 145.810283,
+      "unrealized_plpc": 1.458
     },
     {
       "symbol": "NOC",
