@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-07-21T19:22:09+00:00",
+  "updated_utc": "2026-07-21T19:37:57+00:00",
   "drop_threshold_pct": -3.0,
   "high_conviction_pct": -6.0,
   "stocks": [
@@ -7,7 +7,7 @@
       "symbol": "DHR",
       "name": "Danaher Corporation",
       "sector": "Health Care",
-      "pct_change": -11.257520422126193,
+      "pct_change": -11.60061745325948,
       "conviction": "high",
       "status": "blocked_news",
       "news_bad": true
@@ -16,7 +16,7 @@
       "symbol": "WDAY",
       "name": "Workday, Inc.",
       "sector": "Information Technology",
-      "pct_change": -4.191005378199686,
+      "pct_change": -4.1502517047203575,
       "conviction": "buy_signal",
       "status": "blocked_news",
       "news_bad": true
@@ -25,70 +25,70 @@
       "symbol": "SPGI",
       "name": "S&P Global",
       "sector": "Financials",
-      "pct_change": -3.298743568829747,
+      "pct_change": -3.4950403065493574,
       "conviction": "buy_signal",
       "status": "blocked_news",
       "news_bad": true
-    },
-    {
-      "symbol": "OMC",
-      "name": "Omnicom Group",
-      "sector": "Communication Services",
-      "pct_change": -3.1443533822057925,
-      "conviction": "buy_signal",
-      "status": "bought",
-      "news_bad": false
     },
     {
       "symbol": "ADBE",
       "name": "Adobe Inc.",
       "sector": "Information Technology",
-      "pct_change": -3.1183467465804067,
+      "pct_change": -3.0885234005036817,
       "conviction": "buy_signal",
       "status": "blocked_news",
       "news_bad": true
-    },
-    {
-      "symbol": "DDOG",
-      "name": "Datadog",
-      "sector": "Information Technology",
-      "pct_change": -3.0072219520628236,
-      "conviction": "buy_signal",
-      "status": "blocked_news",
-      "news_bad": true
-    },
-    {
-      "symbol": "NWS",
-      "name": "News Corp (Class B)",
-      "sector": "Communication Services",
-      "pct_change": -2.9493911288211816,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "LDOS",
-      "name": "Leidos",
-      "sector": "Industrials",
-      "pct_change": -2.9013229535923633,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
     },
     {
       "symbol": "AXON",
       "name": "Axon Enterprise",
       "sector": "Industrials",
-      "pct_change": -2.8740376328707677,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
+      "pct_change": -3.08824734165896,
+      "conviction": "buy_signal",
+      "status": "bought",
+      "news_bad": false
     },
     {
       "symbol": "ADP",
       "name": "Automatic Data Processing",
       "sector": "Industrials",
-      "pct_change": -2.7811121256137157,
+      "pct_change": -2.9971826479522323,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "DDOG",
+      "name": "Datadog",
+      "sector": "Information Technology",
+      "pct_change": -2.9065382980514434,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "NWS",
+      "name": "News Corp (Class B)",
+      "sector": "Communication Services",
+      "pct_change": -2.871776663621383,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "FDS",
+      "name": "FactSet",
+      "sector": "Financials",
+      "pct_change": -2.8167585759330134,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "XYL",
+      "name": "Xylem Inc.",
+      "sector": "Industrials",
+      "pct_change": -2.8063356484431754,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
@@ -97,16 +97,7 @@
       "symbol": "PGR",
       "name": "Progressive Corporation",
       "sector": "Financials",
-      "pct_change": -2.77764177182563,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "NOW",
-      "name": "ServiceNow",
-      "sector": "Information Technology",
-      "pct_change": -2.731418051628923,
+      "pct_change": -2.7093248436860224,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
@@ -115,16 +106,16 @@
       "symbol": "ROP",
       "name": "Roper Technologies",
       "sector": "Information Technology",
-      "pct_change": -2.6761083543931594,
+      "pct_change": -2.69953230322348,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
     },
     {
-      "symbol": "STZ",
-      "name": "Constellation Brands",
-      "sector": "Consumer Staples",
-      "pct_change": -2.5975033323237273,
+      "symbol": "PTC",
+      "name": "PTC Inc.",
+      "sector": "Information Technology",
+      "pct_change": -2.6756420077647105,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
@@ -133,7 +124,16 @@
       "symbol": "RSG",
       "name": "Republic Services",
       "sector": "Industrials",
-      "pct_change": -2.59375198492955,
+      "pct_change": -2.6436320969145184,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "STZ",
+      "name": "Constellation Brands",
+      "sector": "Consumer Staples",
+      "pct_change": -2.6272691003730997,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
