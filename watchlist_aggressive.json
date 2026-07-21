@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-07-21T16:22:50+00:00",
+  "updated_utc": "2026-07-21T16:37:16+00:00",
   "drop_threshold_pct": -3.0,
   "high_conviction_pct": -6.0,
   "stocks": [
@@ -7,7 +7,7 @@
       "symbol": "DHR",
       "name": "Danaher Corporation",
       "sector": "Health Care",
-      "pct_change": -13.30366704868647,
+      "pct_change": -13.229030925394605,
       "conviction": "high",
       "status": "blocked_position_cap",
       "news_bad": null
@@ -16,16 +16,7 @@
       "symbol": "WDAY",
       "name": "Workday, Inc.",
       "sector": "Information Technology",
-      "pct_change": -3.773269860419705,
-      "conviction": "buy_signal",
-      "status": "blocked_position_cap",
-      "news_bad": null
-    },
-    {
-      "symbol": "ADBE",
-      "name": "Adobe Inc.",
-      "sector": "Information Technology",
-      "pct_change": -3.2504067071067255,
+      "pct_change": -3.8140235338990345,
       "conviction": "buy_signal",
       "status": "blocked_position_cap",
       "news_bad": null
@@ -34,16 +25,16 @@
       "symbol": "SPGI",
       "name": "S&P Global",
       "sector": "Financials",
-      "pct_change": -3.2119588881568726,
+      "pct_change": -3.534069589606476,
       "conviction": "buy_signal",
       "status": "blocked_position_cap",
       "news_bad": null
     },
     {
-      "symbol": "BR",
-      "name": "Broadridge Financial Solutions",
-      "sector": "Industrials",
-      "pct_change": -3.0562635537191847,
+      "symbol": "ADBE",
+      "name": "Adobe Inc.",
+      "sector": "Information Technology",
+      "pct_change": -3.4208053980516415,
       "conviction": "buy_signal",
       "status": "blocked_position_cap",
       "news_bad": null
@@ -52,25 +43,34 @@
       "symbol": "DDOG",
       "name": "Datadog",
       "sector": "Information Technology",
-      "pct_change": -2.9103414003161676,
-      "conviction": "watching",
-      "status": "watching",
+      "pct_change": -3.1212048691767604,
+      "conviction": "buy_signal",
+      "status": "blocked_position_cap",
       "news_bad": null
     },
     {
-      "symbol": "ROP",
-      "name": "Roper Technologies",
-      "sector": "Information Technology",
-      "pct_change": -2.860766450109386,
-      "conviction": "watching",
-      "status": "watching",
+      "symbol": "MCO",
+      "name": "Moody's Corporation",
+      "sector": "Financials",
+      "pct_change": -3.0621141446925852,
+      "conviction": "buy_signal",
+      "status": "blocked_position_cap",
+      "news_bad": null
+    },
+    {
+      "symbol": "BR",
+      "name": "Broadridge Financial Solutions",
+      "sector": "Industrials",
+      "pct_change": -3.0395930067513173,
+      "conviction": "buy_signal",
+      "status": "blocked_position_cap",
       "news_bad": null
     },
     {
       "symbol": "GDDY",
       "name": "GoDaddy",
       "sector": "Information Technology",
-      "pct_change": -2.852166075611132,
+      "pct_change": -2.96868247655755,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
@@ -79,7 +79,7 @@
       "symbol": "NWS",
       "name": "News Corp (Class B)",
       "sector": "Communication Services",
-      "pct_change": -2.825209168822328,
+      "pct_change": -2.93387060442287,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
@@ -88,25 +88,7 @@
       "symbol": "GPN",
       "name": "Global Payments",
       "sector": "Financials",
-      "pct_change": -2.7680057456183778,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "TTD",
-      "name": "Trade Desk (The)",
-      "sector": "Communication Services",
-      "pct_change": -2.736052819642581,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "MCO",
-      "name": "Moody's Corporation",
-      "sector": "Financials",
-      "pct_change": -2.721769201913724,
+      "pct_change": -2.810492126033481,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
@@ -115,16 +97,34 @@
       "symbol": "GILD",
       "name": "Gilead Sciences",
       "sector": "Health Care",
-      "pct_change": -2.67248152387655,
+      "pct_change": -2.7775782753159173,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
     },
     {
-      "symbol": "RSG",
-      "name": "Republic Services",
-      "sector": "Industrials",
-      "pct_change": -2.6436320969145184,
+      "symbol": "TTD",
+      "name": "Trade Desk (The)",
+      "sector": "Communication Services",
+      "pct_change": -2.709223054197354,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "OMC",
+      "name": "Omnicom Group",
+      "sector": "Communication Services",
+      "pct_change": -2.7073003309158303,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "ROP",
+      "name": "Roper Technologies",
+      "sector": "Information Technology",
+      "pct_change": -2.5782744682910805,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
@@ -133,7 +133,7 @@
       "symbol": "ACN",
       "name": "Accenture",
       "sector": "Information Technology",
-      "pct_change": -2.5012058481659247,
+      "pct_change": -2.5703042427405305,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
