@@ -1,7 +1,7 @@
 {
-  "updated_utc": "2026-07-21T17:44:38+00:00",
+  "updated_utc": "2026-07-21T17:56:28+00:00",
   "paper": true,
-  "equity": 501541.82,
+  "equity": 501562.23,
   "cash": 450039.53,
   "buying_power": 450039.53,
   "starting_equity": 500000.0,
@@ -22,22 +22,22 @@
       "name": "Equifax",
       "qty": 59.955572876,
       "avg_entry_price": 166.79,
-      "current_price": 170.475,
+      "current_price": 170.61,
       "cost_basis": 9999.99,
-      "market_value": 10220.926286,
-      "unrealized_pl": 220.936286,
-      "unrealized_plpc": 2.2089999999999996
+      "market_value": 10229.020288,
+      "unrealized_pl": 229.030288,
+      "unrealized_plpc": 2.29
     },
     {
       "symbol": "GPC",
       "name": "Genuine Parts Company",
       "qty": 89.018160776,
       "avg_entry_price": 112.336515,
-      "current_price": 117.75,
+      "current_price": 118.015,
       "cost_basis": 9999.989953,
-      "market_value": 10481.888431,
-      "unrealized_pl": 481.898478,
-      "unrealized_plpc": 4.819
+      "market_value": 10505.478244,
+      "unrealized_pl": 505.488291,
+      "unrealized_plpc": 5.055
     },
     {
       "symbol": "HAL",
@@ -55,22 +55,22 @@
       "name": "MSCI Inc.",
       "qty": 18.023520718,
       "avg_entry_price": 554.83,
-      "current_price": 565.03,
+      "current_price": 566.0225,
       "cost_basis": 9999.99,
-      "market_value": 10183.829911,
-      "unrealized_pl": 183.839911,
-      "unrealized_plpc": 1.838
+      "market_value": 10201.718256,
+      "unrealized_pl": 201.728256,
+      "unrealized_plpc": 2.017
     },
     {
       "symbol": "NOC",
       "name": "Northrop Grumman",
       "qty": 20.465362339,
       "avg_entry_price": 488.63,
-      "current_price": 513.48,
+      "current_price": 511.76,
       "cost_basis": 9999.99,
-      "market_value": 10508.554254,
-      "unrealized_pl": 508.564254,
-      "unrealized_plpc": 5.086
+      "market_value": 10473.353831,
+      "unrealized_pl": 473.363831,
+      "unrealized_plpc": 4.734
     }
   ]
 }
