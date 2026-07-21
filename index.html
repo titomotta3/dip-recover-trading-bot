@@ -328,9 +328,20 @@
     });
   }
 
+  // Ticker/company data comes from a public, unauthenticated third-party CSV
+  // (the S&P 500 constituents list on GitHub) that this dashboard has no
+  // control over. Escaping it before it goes into innerHTML means a bad or
+  // compromised upstream entry can't inject a script into every visitor's
+  // browser -- it can only ever render as inert text.
+  const escapeHtml = (s) => String(s).replace(/[&<>"']/g, (c) => ({
+    "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;",
+  }[c]));
+
   const tickerCell = (symbol, name) => {
     const label = name || companies[symbol] || "";
-    return `<strong>${symbol}</strong>` + (label ? `<div class="company">${label}</div>` : "");
+    const safeSymbol = escapeHtml(symbol);
+    const safeLabel = escapeHtml(label);
+    return `<strong>${safeSymbol}</strong>` + (safeLabel ? `<div class="company">${safeLabel}</div>` : "");
   };
 
   async function fetchNoCache(path) {
@@ -690,7 +701,7 @@
               <td>${new Date(r.timestamp_utc).toLocaleString()}</td>
               <td class="${r.action === "BUY" ? "buy" : "sell"}">${r.action}</td>
               <td>${tickerCell(r.symbol)}</td>
-              <td>${r.detail}</td>
+              <td>${escapeHtml(r.detail)}</td>
             </tr>`).join("")}
         </tbody>
       </table>
