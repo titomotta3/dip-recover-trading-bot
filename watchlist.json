@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-07-21T15:51:29+00:00",
+  "updated_utc": "2026-07-21T16:06:10+00:00",
   "drop_threshold_pct": -5.0,
   "high_conviction_pct": -8.0,
   "stocks": [
@@ -7,7 +7,7 @@
       "symbol": "DHR",
       "name": "Danaher Corporation",
       "sector": "Health Care",
-      "pct_change": -14.238473681035845,
+      "pct_change": -13.947592345795071,
       "conviction": "high",
       "status": "blocked_news",
       "news_bad": true
@@ -16,16 +16,7 @@
       "symbol": "TYL",
       "name": "Tyler Technologies",
       "sector": "Information Technology",
-      "pct_change": -4.440808748475009,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "BRO",
-      "name": "Brown & Brown",
-      "sector": "Financials",
-      "pct_change": -3.6988728770718002,
+      "pct_change": -4.3747653905930495,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
@@ -34,25 +25,16 @@
       "symbol": "IT",
       "name": "Gartner",
       "sector": "Information Technology",
-      "pct_change": -3.6225724505836334,
+      "pct_change": -3.7891686610039175,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
     },
     {
-      "symbol": "WDAY",
-      "name": "Workday, Inc.",
-      "sector": "Information Technology",
-      "pct_change": -3.6136443962144273,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "VRSK",
-      "name": "Verisk Analytics",
-      "sector": "Industrials",
-      "pct_change": -3.4045271548455975,
+      "symbol": "BRO",
+      "name": "Brown & Brown",
+      "sector": "Financials",
+      "pct_change": -3.5393129605414013,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
@@ -61,34 +43,16 @@
       "symbol": "ERIE",
       "name": "Erie Indemnity",
       "sector": "Financials",
-      "pct_change": -3.3776236746211157,
+      "pct_change": -3.533175033254206,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
     },
     {
-      "symbol": "FICO",
-      "name": "Fair Isaac",
-      "sector": "Information Technology",
-      "pct_change": -3.253205863447337,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "SPGI",
-      "name": "S&P Global",
-      "sector": "Financials",
-      "pct_change": -3.19170232269158,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "CSGP",
-      "name": "CoStar Group",
-      "sector": "Real Estate",
-      "pct_change": -3.183961203192521,
+      "symbol": "VRSK",
+      "name": "Verisk Analytics",
+      "sector": "Industrials",
+      "pct_change": -3.5259380896485455,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
@@ -97,7 +61,43 @@
       "symbol": "VLTO",
       "name": "Veralto",
       "sector": "Industrials",
-      "pct_change": -3.1562022471781277,
+      "pct_change": -3.4353242353385194,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "CSGP",
+      "name": "CoStar Group",
+      "sector": "Real Estate",
+      "pct_change": -3.3187351759554797,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "VRSN",
+      "name": "Verisign",
+      "sector": "Information Technology",
+      "pct_change": -3.2059343561484335,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "SPGI",
+      "name": "S&P Global",
+      "sector": "Financials",
+      "pct_change": -3.1827856221675437,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "WDAY",
+      "name": "Workday, Inc.",
+      "sector": "Information Technology",
+      "pct_change": -3.1245795852287626,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
@@ -106,7 +106,16 @@
       "symbol": "BLDR",
       "name": "Builders FirstSource",
       "sector": "Industrials",
-      "pct_change": -3.012372632657546,
+      "pct_change": -3.0192569284245225,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "FICO",
+      "name": "Fair Isaac",
+      "sector": "Information Technology",
+      "pct_change": -3.001189476393747,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
