@@ -1,76 +1,49 @@
 {
-  "updated_utc": "2026-07-21T13:53:40+00:00",
-  "drop_threshold_pct": -4.5,
-  "high_conviction_pct": -7.5,
+  "updated_utc": "2026-07-21T14:37:11+00:00",
+  "drop_threshold_pct": -4.0,
+  "high_conviction_pct": -7.0,
   "stocks": [
     {
-      "symbol": "TYL",
-      "name": "Tyler Technologies",
-      "sector": "Information Technology",
-      "pct_change": -3.7457554353318816,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "PFG",
-      "name": "Principal Financial Group",
-      "sector": "Financials",
-      "pct_change": -3.3107256517052646,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
+      "symbol": "DHR",
+      "name": "Danaher Corporation",
+      "sector": "Health Care",
+      "pct_change": -13.559745507283981,
+      "conviction": "high",
+      "status": "blocked_news",
+      "news_bad": true
     },
     {
       "symbol": "FICO",
       "name": "Fair Isaac",
       "sector": "Information Technology",
-      "pct_change": -3.170121202960024,
+      "pct_change": -3.484243422021685,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
     },
     {
-      "symbol": "WDAY",
-      "name": "Workday, Inc.",
+      "symbol": "TYL",
+      "name": "Tyler Technologies",
       "sector": "Information Technology",
-      "pct_change": -3.1381572333106353,
+      "pct_change": -3.440685223113006,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
     },
     {
-      "symbol": "SPGI",
-      "name": "S&P Global",
+      "symbol": "SYF",
+      "name": "Synchrony Financial",
       "sector": "Financials",
-      "pct_change": -3.0299969376919345,
+      "pct_change": -2.7516743927143597,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
     },
     {
-      "symbol": "ADBE",
-      "name": "Adobe Inc.",
-      "sector": "Information Technology",
-      "pct_change": -2.7860647490324473,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "XYL",
-      "name": "Xylem Inc.",
-      "sector": "Industrials",
-      "pct_change": -2.7773221913730666,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "ZBRA",
-      "name": "Zebra Technologies",
-      "sector": "Information Technology",
-      "pct_change": -2.7163861026439347,
+      "symbol": "ERIE",
+      "name": "Erie Indemnity",
+      "sector": "Financials",
+      "pct_change": -2.742099604272407,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
@@ -79,7 +52,52 @@
       "symbol": "CRWD",
       "name": "CrowdStrike",
       "sector": "Information Technology",
-      "pct_change": -2.586983128618235,
+      "pct_change": -2.7406933804501312,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "BRO",
+      "name": "Brown & Brown",
+      "sector": "Financials",
+      "pct_change": -2.675954150151437,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "VLTO",
+      "name": "Veralto",
+      "sector": "Industrials",
+      "pct_change": -2.6462736735439876,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "SPGI",
+      "name": "S&P Global",
+      "sector": "Financials",
+      "pct_change": -2.4969347991118425,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "PFG",
+      "name": "Principal Financial Group",
+      "sector": "Financials",
+      "pct_change": -2.485272258959875,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "PANW",
+      "name": "Palo Alto Networks",
+      "sector": "Information Technology",
+      "pct_change": -2.4206970552279232,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
@@ -88,25 +106,34 @@
       "symbol": "TSCO",
       "name": "Tractor Supply",
       "sector": "Consumer Discretionary",
-      "pct_change": -2.5577545810045947,
+      "pct_change": -2.392734298271313,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
     },
     {
-      "symbol": "MCO",
-      "name": "Moody's Corporation",
+      "symbol": "CSGP",
+      "name": "CoStar Group",
+      "sector": "Real Estate",
+      "pct_change": -2.392186605528689,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "RSG",
+      "name": "Republic Services",
+      "sector": "Industrials",
+      "pct_change": -2.3738269801518808,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "PGR",
+      "name": "Progressive Corporation",
       "sector": "Financials",
-      "pct_change": -2.5209233546642973,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "IT",
-      "name": "Gartner",
-      "sector": "Information Technology",
-      "pct_change": -2.5095656794282615,
+      "pct_change": -2.334732097632382,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null

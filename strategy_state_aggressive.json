@@ -1,8 +1,9 @@
 {
-  "drop_threshold_pct": -4.0,
+  "drop_threshold_pct": -3.5,
   "sell_threshold_pct": 10.0,
   "trade_dollars": 12500.0,
   "completed_trades": 0,
-  "last_adjustment": "plenty of idle cash, no dips found -> loosened dip threshold to -4.0%",
-  "updated_utc": "2026-07-21T13:53:40+00:00"
+  "last_adjustment": "1 bad_news exit(s) (DHR); plenty of idle cash, no dips found -> loosened dip threshold to -3.5%",
+  "updated_utc": "2026-07-21T14:37:11+00:00",
+  "risk_exits": 1
 }
