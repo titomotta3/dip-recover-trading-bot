@@ -1,9 +1,9 @@
 {
-  "updated_utc": "2026-07-21T02:50:07+00:00",
+  "updated_utc": "2026-07-21T13:38:41+00:00",
   "paper": true,
-  "equity": 500000.0,
-  "cash": 500000.0,
-  "buying_power": 500000.0,
+  "equity": 499948.92,
+  "cash": 468331.2,
+  "buying_power": 440000.01,
   "starting_equity": 500000.0,
   "drop_threshold_pct": -5.0,
   "sell_threshold_pct": 7.0,
@@ -16,5 +16,61 @@
   "regime_symbol": "SPY",
   "regime_pct": null,
   "regime_blocked_buys": false,
-  "positions": []
+  "positions": [
+    {
+      "symbol": "DHR",
+      "name": "Danaher Corporation",
+      "qty": 55.0,
+      "avg_entry_price": 172.88,
+      "current_price": 172.87,
+      "cost_basis": 9508.4,
+      "market_value": 9507.85,
+      "unrealized_pl": -0.55,
+      "unrealized_plpc": -0.006
+    },
+    {
+      "symbol": "EFX",
+      "name": "Equifax",
+      "qty": 7.0,
+      "avg_entry_price": 166.79,
+      "current_price": 166.31,
+      "cost_basis": 1167.53,
+      "market_value": 1164.17,
+      "unrealized_pl": -3.36,
+      "unrealized_plpc": -0.28800000000000003
+    },
+    {
+      "symbol": "GPC",
+      "name": "Genuine Parts Company",
+      "qty": 58.0,
+      "avg_entry_price": 112.34,
+      "current_price": 112.245,
+      "cost_basis": 6515.72,
+      "market_value": 6510.21,
+      "unrealized_pl": -5.51,
+      "unrealized_plpc": -0.08499999999999999
+    },
+    {
+      "symbol": "HAL",
+      "name": "Halliburton",
+      "qty": 137.0,
+      "avg_entry_price": 32.68,
+      "current_price": 32.67,
+      "cost_basis": 4477.16,
+      "market_value": 4475.79,
+      "unrealized_pl": -1.37,
+      "unrealized_plpc": -0.031
+    },
+    {
+      "symbol": "MSCI",
+      "name": "MSCI Inc.",
+      "qty": 18.023520718,
+      "avg_entry_price": 554.83,
+      "current_price": 553.415,
+      "cost_basis": 9999.99,
+      "market_value": 9974.486718,
+      "unrealized_pl": -25.503282,
+      "unrealized_plpc": -0.255
+    }
+  ]
 }
