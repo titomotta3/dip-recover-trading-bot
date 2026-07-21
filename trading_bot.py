@@ -177,7 +177,7 @@ REGIME_DROP_PCT = float(os.environ.get("REGIME_DROP_PCT", "-2.0"))
 # Concentration limits: cap how many positions can be open at once, and how
 # much of the account can sit in any single GICS sector, so a cluster of
 # dips in the same industry can't turn into one big correlated bet.
-MAX_OPEN_POSITIONS = int(os.environ.get("MAX_OPEN_POSITIONS", "20"))
+MAX_OPEN_POSITIONS = int(os.environ.get("MAX_OPEN_POSITIONS", "50"))
 MAX_SECTOR_EXPOSURE_PCT = float(os.environ.get("MAX_SECTOR_EXPOSURE_PCT", "50.0"))
 
 # Per-symbol entry timestamps, so the time-based exit above has something to
