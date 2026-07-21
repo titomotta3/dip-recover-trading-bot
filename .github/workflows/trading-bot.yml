@@ -57,7 +57,7 @@ jobs:
           git config user.email "actions@users.noreply.github.com"
           git pull --rebase --autostash
           echo "--- Files present after run ---"
-          ls -la trade_log.csv account_snapshot.json companies.json equity_history.csv sectors.json position_meta.json spy_baseline.json spy_benchmark.csv 2>&1 || true
+          ls -la trade_log.csv account_snapshot.json companies.json equity_history.csv sectors.json position_meta.json spy_baseline.json spy_benchmark.csv watchlist.json 2>&1 || true
           [ -f trade_log.csv ] && git add trade_log.csv
           [ -f account_snapshot.json ] && git add account_snapshot.json
           [ -f companies.json ] && git add companies.json
@@ -66,6 +66,7 @@ jobs:
           [ -f position_meta.json ] && git add position_meta.json
           [ -f spy_baseline.json ] && git add spy_baseline.json
           [ -f spy_benchmark.csv ] && git add spy_benchmark.csv
+          [ -f watchlist.json ] && git add watchlist.json
           echo "--- git status ---"
           git status
           if ! git diff --cached --quiet; then
@@ -116,6 +117,7 @@ jobs:
           ADAPTIVE_STRATEGY: "true"
           STRATEGY_STATE_PATH: "strategy_state_aggressive.json"
           POSITION_META_PATH: "position_meta_aggressive.json"
+          WATCHLIST_PATH: "watchlist_aggressive.json"
         run: python trading_bot.py
 
       - name: Commit updated trade log and snapshot (aggressive)
@@ -125,7 +127,7 @@ jobs:
           git config user.email "actions@users.noreply.github.com"
           git pull --rebase --autostash
           echo "--- Files present after run ---"
-          ls -la trade_log_aggressive.csv account_snapshot_aggressive.json companies.json equity_history_aggressive.csv strategy_state_aggressive.json sectors.json position_meta_aggressive.json 2>&1 || true
+          ls -la trade_log_aggressive.csv account_snapshot_aggressive.json companies.json equity_history_aggressive.csv strategy_state_aggressive.json sectors.json position_meta_aggressive.json watchlist_aggressive.json 2>&1 || true
           [ -f trade_log_aggressive.csv ] && git add trade_log_aggressive.csv
           [ -f account_snapshot_aggressive.json ] && git add account_snapshot_aggressive.json
           [ -f companies.json ] && git add companies.json
@@ -133,6 +135,7 @@ jobs:
           [ -f strategy_state_aggressive.json ] && git add strategy_state_aggressive.json
           [ -f sectors.json ] && git add sectors.json
           [ -f position_meta_aggressive.json ] && git add position_meta_aggressive.json
+          [ -f watchlist_aggressive.json ] && git add watchlist_aggressive.json
           echo "--- git status ---"
           git status
           if ! git diff --cached --quiet; then
