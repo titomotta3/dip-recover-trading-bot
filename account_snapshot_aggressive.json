@@ -1,9 +1,9 @@
 {
-  "updated_utc": "2026-07-21T14:52:24+00:00",
+  "updated_utc": "2026-07-21T15:14:05+00:00",
   "paper": true,
-  "equity": 500686.43,
+  "equity": 500098.11,
   "cash": 387359.66,
-  "buying_power": 387359.66,
+  "buying_power": 312359.66,
   "starting_equity": 500000.0,
   "drop_threshold_pct": -3.0,
   "sell_threshold_pct": 10.0,
@@ -22,77 +22,77 @@
       "name": "Carvana",
       "qty": 195.46505082,
       "avg_entry_price": 63.95,
-      "current_price": 64.01,
+      "current_price": 63.86,
       "cost_basis": 12499.99,
-      "market_value": 12511.717903,
-      "unrealized_pl": 11.727903,
-      "unrealized_plpc": 0.094
+      "market_value": 12482.398145,
+      "unrealized_pl": -17.591855,
+      "unrealized_plpc": -0.14100000000000001
     },
     {
       "symbol": "EFX",
       "name": "Equifax",
       "qty": 74.524473856,
       "avg_entry_price": 167.73,
-      "current_price": 169.9,
+      "current_price": 168.55,
       "cost_basis": 12499.99,
-      "market_value": 12661.708108,
-      "unrealized_pl": 161.718108,
-      "unrealized_plpc": 1.294
+      "market_value": 12561.100068,
+      "unrealized_pl": 61.110068,
+      "unrealized_plpc": 0.48900000000000005
     },
     {
       "symbol": "GPC",
       "name": "Genuine Parts Company",
       "qty": 221.238849557,
       "avg_entry_price": 113.0,
-      "current_price": 113.735,
+      "current_price": 113.925,
       "cost_basis": 24999.99,
-      "market_value": 25162.600554,
-      "unrealized_pl": 162.610554,
-      "unrealized_plpc": 0.65
+      "market_value": 25204.635936,
+      "unrealized_pl": 204.645936,
+      "unrealized_plpc": 0.819
     },
     {
       "symbol": "HAL",
       "name": "Halliburton",
       "qty": 383.207298374,
       "avg_entry_price": 32.619394,
-      "current_price": 32.935,
+      "current_price": 33.02,
       "cost_basis": 12499.989849,
-      "market_value": 12620.932372,
-      "unrealized_pl": 120.942523,
-      "unrealized_plpc": 0.968
+      "market_value": 12653.504992,
+      "unrealized_pl": 153.515143,
+      "unrealized_plpc": 1.228
     },
     {
       "symbol": "HONA",
       "name": "Honeywell Aerospace",
       "qty": 62.340980499,
       "avg_entry_price": 200.51,
-      "current_price": 199.705,
+      "current_price": 196.85,
       "cost_basis": 12499.99,
-      "market_value": 12449.805511,
-      "unrealized_pl": -50.184489,
-      "unrealized_plpc": -0.40099999999999997
+      "market_value": 12271.822011,
+      "unrealized_pl": -228.167989,
+      "unrealized_plpc": -1.825
     },
     {
       "symbol": "MSCI",
       "name": "MSCI Inc.",
       "qty": 44.633275012,
       "avg_entry_price": 560.12,
-      "current_price": 559.0399,
+      "current_price": 552.74,
       "cost_basis": 24999.99,
-      "market_value": 24951.781599,
-      "unrealized_pl": -48.208401,
-      "unrealized_plpc": -0.193
+      "market_value": 24670.59643,
+      "unrealized_pl": -329.39357,
+      "unrealized_plpc": -1.318
     },
     {
       "symbol": "NOC",
       "name": "Northrop Grumman",
       "qty": 25.342747658,
       "avg_entry_price": 493.237362,
-      "current_price": 511.89,
+      "current_price": 508.8,
       "cost_basis": 12499.990001,
-      "market_value": 12972.699099,
-      "unrealized_pl": 472.709098,
-      "unrealized_plpc": 3.782
+      "market_value": 12894.390008,
+      "unrealized_pl": 394.400007,
+      "unrealized_plpc": 3.1550000000000002
     }
   ],
   "adaptive_target_band_pct": [
@@ -100,6 +100,6 @@
     15.0
   ],
   "completed_trades": 0,
-  "last_adjustment": "plenty of idle cash, no dips found -> loosened dip threshold to -3.0%",
+  "last_adjustment": "no change this run",
   "conviction_trade_dollars_max": 40000.0
 }

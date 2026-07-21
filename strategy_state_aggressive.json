@@ -3,7 +3,7 @@
   "sell_threshold_pct": 10.0,
   "trade_dollars": 12500.0,
   "completed_trades": 0,
-  "last_adjustment": "plenty of idle cash, no dips found -> loosened dip threshold to -3.0%",
-  "updated_utc": "2026-07-21T14:52:24+00:00",
+  "last_adjustment": "no change this run",
+  "updated_utc": "2026-07-21T15:14:05+00:00",
   "risk_exits": 1
 }

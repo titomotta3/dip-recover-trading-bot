@@ -1,103 +1,94 @@
 {
-  "updated_utc": "2026-07-21T14:52:24+00:00",
-  "drop_threshold_pct": -3.5,
-  "high_conviction_pct": -6.5,
+  "updated_utc": "2026-07-21T15:14:05+00:00",
+  "drop_threshold_pct": -3.0,
+  "high_conviction_pct": -6.0,
   "stocks": [
     {
       "symbol": "DHR",
       "name": "Danaher Corporation",
       "sector": "Health Care",
-      "pct_change": -13.708919119161727,
+      "pct_change": -13.296208747456836,
       "conviction": "high",
       "status": "blocked_news",
       "news_bad": true
     },
     {
-      "symbol": "PANW",
-      "name": "Palo Alto Networks",
-      "sector": "Information Technology",
-      "pct_change": -3.200827036336714,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
       "symbol": "TYL",
       "name": "Tyler Technologies",
       "sector": "Information Technology",
-      "pct_change": -3.1214580638114553,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
+      "pct_change": -4.362182504067363,
+      "conviction": "buy_signal",
+      "status": "bought",
+      "news_bad": false
     },
     {
-      "symbol": "CRWD",
-      "name": "CrowdStrike",
+      "symbol": "PANW",
+      "name": "Palo Alto Networks",
       "sector": "Information Technology",
-      "pct_change": -2.8817578026114368,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "VLTO",
-      "name": "Veralto",
-      "sector": "Industrials",
-      "pct_change": -2.7804658345234725,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "ERIE",
-      "name": "Erie Indemnity",
-      "sector": "Financials",
-      "pct_change": -2.742099604272407,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "PGR",
-      "name": "Progressive Corporation",
-      "sector": "Financials",
-      "pct_change": -2.662203274855567,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
+      "pct_change": -3.7386002194681773,
+      "conviction": "buy_signal",
+      "status": "bought",
+      "news_bad": false
     },
     {
       "symbol": "BRO",
       "name": "Brown & Brown",
       "sector": "Financials",
-      "pct_change": -2.596461926511691,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
+      "pct_change": -3.532064261323243,
+      "conviction": "buy_signal",
+      "status": "bought",
+      "news_bad": false
+    },
+    {
+      "symbol": "CRWD",
+      "name": "CrowdStrike",
+      "sector": "Information Technology",
+      "pct_change": -3.4208314559977784,
+      "conviction": "buy_signal",
+      "status": "bought",
+      "news_bad": false
+    },
+    {
+      "symbol": "ERIE",
+      "name": "Erie Indemnity",
+      "sector": "Financials",
+      "pct_change": -3.2420773952437414,
+      "conviction": "buy_signal",
+      "status": "bought",
+      "news_bad": false
+    },
+    {
+      "symbol": "WDAY",
+      "name": "Workday, Inc.",
+      "sector": "Information Technology",
+      "pct_change": -3.1381572333106353,
+      "conviction": "buy_signal",
+      "status": "blocked_news",
+      "news_bad": true
     },
     {
       "symbol": "FICO",
       "name": "Fair Isaac",
       "sector": "Information Technology",
-      "pct_change": -2.527234083448796,
+      "pct_change": -3.087432551665919,
+      "conviction": "buy_signal",
+      "status": "bought",
+      "news_bad": false
+    },
+    {
+      "symbol": "VLTO",
+      "name": "Veralto",
+      "sector": "Industrials",
+      "pct_change": -2.877080259017735,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
     },
     {
-      "symbol": "SYF",
-      "name": "Synchrony Financial",
-      "sector": "Financials",
-      "pct_change": -2.458793373017407,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "PFG",
-      "name": "Principal Financial Group",
-      "sector": "Financials",
-      "pct_change": -2.4317316914952194,
+      "symbol": "VRSK",
+      "name": "Verisk Analytics",
+      "sector": "Industrials",
+      "pct_change": -2.854450021547114,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
@@ -106,7 +97,34 @@
       "symbol": "SPGI",
       "name": "S&P Global",
       "sector": "Financials",
-      "pct_change": -2.408924922947115,
+      "pct_change": -2.8103057727195657,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "PFG",
+      "name": "Principal Financial Group",
+      "sector": "Financials",
+      "pct_change": -2.7931441385061255,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "IT",
+      "name": "Gartner",
+      "sector": "Information Technology",
+      "pct_change": -2.7009766230934087,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "BR",
+      "name": "Broadridge Financial Solutions",
+      "sector": "Industrials",
+      "pct_change": -2.6563128228647077,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
@@ -115,25 +133,7 @@
       "symbol": "RSG",
       "name": "Republic Services",
       "sector": "Industrials",
-      "pct_change": -2.369294940569393,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "BLDR",
-      "name": "Builders FirstSource",
-      "sector": "Industrials",
-      "pct_change": -2.3383727917519423,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "EL",
-      "name": "Est\u00e9e Lauder Companies (The)",
-      "sector": "Consumer Staples",
-      "pct_change": -2.331416741358233,
+      "pct_change": -2.5892130262026614,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
