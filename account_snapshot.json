@@ -1,7 +1,7 @@
 {
-  "updated_utc": "2026-07-21T21:35:30+00:00",
+  "updated_utc": "2026-07-21T21:45:38+00:00",
   "paper": true,
-  "equity": 501808.38,
+  "equity": 501802.26,
   "cash": 450039.53,
   "buying_power": 450039.53,
   "starting_equity": 500000.0,
@@ -44,11 +44,11 @@
       "name": "",
       "qty": 305.997246022,
       "avg_entry_price": 32.68,
-      "current_price": 33.29,
+      "current_price": 33.27,
       "cost_basis": 9999.99,
-      "market_value": 10186.64832,
-      "unrealized_pl": 186.65832,
-      "unrealized_plpc": 1.867
+      "market_value": 10180.528375,
+      "unrealized_pl": 180.538375,
+      "unrealized_plpc": 1.805
     },
     {
       "symbol": "MSCI",
