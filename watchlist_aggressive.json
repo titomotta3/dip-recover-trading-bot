@@ -1,0 +1,43 @@
+{
+  "updated_utc": "2026-07-21T13:46:12+00:00",
+  "drop_threshold_pct": -5.0,
+  "high_conviction_pct": -8.0,
+  "stocks": [
+    {
+      "symbol": "FDS",
+      "name": "FactSet",
+      "sector": "Financials",
+      "pct_change": -4.339493778519259,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "ZBRA",
+      "name": "Zebra Technologies",
+      "sector": "Information Technology",
+      "pct_change": -3.793119669166351,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "SPGI",
+      "name": "S&P Global",
+      "sector": "Financials",
+      "pct_change": -3.3554837333857535,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "FICO",
+      "name": "Fair Isaac",
+      "sector": "Information Technology",
+      "pct_change": -3.252017835867712,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    }
+  ]
+}
