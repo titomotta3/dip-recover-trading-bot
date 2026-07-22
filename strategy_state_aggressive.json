@@ -1,9 +1,9 @@
 {
-  "drop_threshold_pct": -4.0,
+  "drop_threshold_pct": -4.5,
   "sell_threshold_pct": 10.0,
   "trade_dollars": 12500.0,
   "completed_trades": 0,
-  "last_adjustment": "capital nearly fully deployed -> tightened dip threshold to -4.0%",
-  "updated_utc": "2026-07-22T14:38:00+00:00",
+  "last_adjustment": "capital nearly fully deployed -> tightened dip threshold to -4.5%",
+  "updated_utc": "2026-07-22T14:52:48+00:00",
   "risk_exits": 1
 }

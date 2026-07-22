@@ -1,49 +1,22 @@
 {
-  "updated_utc": "2026-07-22T14:38:00+00:00",
-  "drop_threshold_pct": -3.5,
-  "high_conviction_pct": -6.5,
+  "updated_utc": "2026-07-22T14:52:48+00:00",
+  "drop_threshold_pct": -4.0,
+  "high_conviction_pct": -7.0,
   "stocks": [
     {
       "symbol": "WDAY",
       "name": "Workday, Inc.",
       "sector": "Information Technology",
-      "pct_change": -5.135652117331302,
+      "pct_change": -4.947935610222405,
       "conviction": "buy_signal",
       "status": "blocked_news",
       "news_bad": true
     },
     {
-      "symbol": "COF",
-      "name": "Capital One",
+      "symbol": "COIN",
+      "name": "Coinbase",
       "sector": "Financials",
-      "pct_change": -3.307151238409588,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "LULU",
-      "name": "Lululemon Athletica",
-      "sector": "Consumer Discretionary",
-      "pct_change": -3.293919045992697,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "NKE",
-      "name": "Nike, Inc.",
-      "sector": "Consumer Discretionary",
-      "pct_change": -3.084266273688906,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "TRMB",
-      "name": "Trimble Inc.",
-      "sector": "Information Technology",
-      "pct_change": -3.06653847517754,
+      "pct_change": -3.6593759420143472,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
@@ -52,43 +25,16 @@
       "symbol": "XYZ",
       "name": "Block, Inc.",
       "sector": "Financials",
-      "pct_change": -3.0383177288892,
+      "pct_change": -3.439909783687959,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
     },
     {
-      "symbol": "CRM",
-      "name": "Salesforce",
+      "symbol": "TRMB",
+      "name": "Trimble Inc.",
       "sector": "Information Technology",
-      "pct_change": -3.028339392225357,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "DHR",
-      "name": "Danaher Corporation",
-      "sector": "Health Care",
-      "pct_change": -3.0165879348586664,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "ROP",
-      "name": "Roper Technologies",
-      "sector": "Information Technology",
-      "pct_change": -2.961307620213707,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "NTRS",
-      "name": "Northern Trust",
-      "sector": "Financials",
-      "pct_change": -2.953094353176081,
+      "pct_change": -3.357375123287929,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
@@ -97,7 +43,43 @@
       "symbol": "DDOG",
       "name": "Datadog",
       "sector": "Information Technology",
-      "pct_change": -2.892576361470715,
+      "pct_change": -3.3439260717369717,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "NTRS",
+      "name": "Northern Trust",
+      "sector": "Financials",
+      "pct_change": -3.2962233465907085,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "COF",
+      "name": "Capital One",
+      "sector": "Financials",
+      "pct_change": -3.1519736017475317,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "LULU",
+      "name": "Lululemon Athletica",
+      "sector": "Consumer Discretionary",
+      "pct_change": -3.112404474751531,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "CRM",
+      "name": "Salesforce",
+      "sector": "Information Technology",
+      "pct_change": -2.9224987016659947,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
@@ -106,25 +88,34 @@
       "symbol": "ADSK",
       "name": "Autodesk",
       "sector": "Information Technology",
-      "pct_change": -2.6118870703601105,
+      "pct_change": -2.7894859388610693,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
     },
     {
-      "symbol": "AJG",
-      "name": "Arthur J. Gallagher & Co.",
-      "sector": "Financials",
-      "pct_change": -2.487228094859481,
+      "symbol": "NKE",
+      "name": "Nike, Inc.",
+      "sector": "Consumer Discretionary",
+      "pct_change": -2.781656704588097,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
     },
     {
-      "symbol": "COIN",
-      "name": "Coinbase",
-      "sector": "Financials",
-      "pct_change": -2.474613662399065,
+      "symbol": "ROP",
+      "name": "Roper Technologies",
+      "sector": "Information Technology",
+      "pct_change": -2.738889309492917,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "DHR",
+      "name": "Danaher Corporation",
+      "sector": "Health Care",
+      "pct_change": -2.597616914795673,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
@@ -133,7 +124,16 @@
       "symbol": "DXCM",
       "name": "Dexcom",
       "sector": "Health Care",
-      "pct_change": -2.341137123745819,
+      "pct_change": -2.367888485707567,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "ADBE",
+      "name": "Adobe Inc.",
+      "sector": "Information Technology",
+      "pct_change": -2.339761558250406,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
