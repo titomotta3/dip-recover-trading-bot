@@ -28,3 +28,5 @@ timestamp_utc,action,symbol,detail
 2026-07-22T14:08:57+00:00,BUY,PLTR,drop=-3.61% notional=$12500.00 news=clear(1)
 2026-07-22T14:08:57+00:00,BUY,NOW,drop=-3.44% notional=$12500.00 news=clear(7)
 2026-07-22T14:08:57+00:00,BUY,TEL,drop=-7.30% notional=$25000.00 news=clear(4) conviction=HIGH
+2026-07-22T14:22:31+00:00,BUY,GDDY,drop=-3.37% notional=$12500.00 news=none
+2026-07-22T14:22:31+00:00,BUY,PTC,drop=-3.92% notional=$12500.00 news=none
