@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-07-22T15:07:27+00:00",
+  "updated_utc": "2026-07-22T15:22:04+00:00",
   "drop_threshold_pct": -5.0,
   "high_conviction_pct": -8.0,
   "stocks": [
@@ -7,7 +7,7 @@
       "symbol": "NOW",
       "name": "ServiceNow",
       "sector": "Information Technology",
-      "pct_change": -4.791298752325597,
+      "pct_change": -4.761905473847756,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
@@ -16,7 +16,7 @@
       "symbol": "DASH",
       "name": "DoorDash",
       "sector": "Consumer Discretionary",
-      "pct_change": -4.698464034528165,
+      "pct_change": -4.413948143647823,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
@@ -25,7 +25,7 @@
       "symbol": "PLTR",
       "name": "Palantir Technologies",
       "sector": "Information Technology",
-      "pct_change": -4.228856064741617,
+      "pct_change": -4.372081178687937,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
@@ -34,7 +34,7 @@
       "symbol": "WDAY",
       "name": "Workday, Inc.",
       "sector": "Information Technology",
-      "pct_change": -4.1085238556259345,
+      "pct_change": -4.065947974846183,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
@@ -43,7 +43,7 @@
       "symbol": "TYL",
       "name": "Tyler Technologies",
       "sector": "Information Technology",
-      "pct_change": -3.8566750968246404,
+      "pct_change": -4.0367933633886794,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
@@ -52,16 +52,7 @@
       "symbol": "PTC",
       "name": "PTC Inc.",
       "sector": "Information Technology",
-      "pct_change": -3.8378692023438425,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "CVNA",
-      "name": "Carvana",
-      "sector": "Consumer Discretionary",
-      "pct_change": -3.690152357538686,
+      "pct_change": -4.024090365085837,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
@@ -70,25 +61,7 @@
       "symbol": "CB",
       "name": "Chubb Limited",
       "sector": "Financials",
-      "pct_change": -3.540021981602407,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "XYZ",
-      "name": "Block, Inc.",
-      "sector": "Financials",
-      "pct_change": -3.5021086193082915,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "COIN",
-      "name": "Coinbase",
-      "sector": "Financials",
-      "pct_change": -3.4677321526840283,
+      "pct_change": -3.9881607619279604,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
@@ -97,25 +70,43 @@
       "symbol": "TRMB",
       "name": "Trimble Inc.",
       "sector": "Information Technology",
-      "pct_change": -3.2979732590081667,
+      "pct_change": -3.5101248763442117,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
     },
     {
-      "symbol": "DDOG",
-      "name": "Datadog",
-      "sector": "Information Technology",
-      "pct_change": -3.296788455709775,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "LULU",
-      "name": "Lululemon Athletica",
+      "symbol": "CVNA",
+      "name": "Carvana",
       "sector": "Consumer Discretionary",
-      "pct_change": -3.1724230775747144,
+      "pct_change": -3.438549870621387,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "ROP",
+      "name": "Roper Technologies",
+      "sector": "Information Technology",
+      "pct_change": -3.2763951508126508,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "XYZ",
+      "name": "Block, Inc.",
+      "sector": "Financials",
+      "pct_change": -3.166208330315777,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "GDDY",
+      "name": "GoDaddy",
+      "sector": "Information Technology",
+      "pct_change": -3.1412494968210996,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
@@ -124,16 +115,16 @@
       "symbol": "NTRS",
       "name": "Northern Trust",
       "sector": "Financials",
-      "pct_change": -3.109804905833498,
+      "pct_change": -3.0854812117190407,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
     },
     {
-      "symbol": "COF",
-      "name": "Capital One",
-      "sector": "Financials",
-      "pct_change": -3.0986322140545712,
+      "symbol": "LULU",
+      "name": "Lululemon Athletica",
+      "sector": "Consumer Discretionary",
+      "pct_change": -3.026664548080854,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
