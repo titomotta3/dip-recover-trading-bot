@@ -1,139 +1,85 @@
 {
-  "updated_utc": "2026-07-21T19:36:57+00:00",
+  "updated_utc": "2026-07-22T14:07:26+00:00",
   "drop_threshold_pct": -5.0,
   "high_conviction_pct": -8.0,
   "stocks": [
     {
-      "symbol": "DHR",
-      "name": "Danaher Corporation",
-      "sector": "Health Care",
-      "pct_change": -11.177960150820052,
-      "conviction": "high",
-      "status": "blocked_news",
-      "news_bad": true
-    },
-    {
-      "symbol": "TYL",
-      "name": "Tyler Technologies",
+      "symbol": "TEL",
+      "name": "TE Connectivity",
       "sector": "Information Technology",
-      "pct_change": -4.918852859218615,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
+      "pct_change": -7.315436432697832,
+      "conviction": "buy_signal",
+      "status": "bought",
+      "news_bad": false
     },
     {
-      "symbol": "WDAY",
-      "name": "Workday, Inc.",
-      "sector": "Information Technology",
-      "pct_change": -4.163839717419086,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "VEEV",
-      "name": "Veeva Systems",
-      "sector": "Health Care",
-      "pct_change": -4.082871895585084,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "IT",
-      "name": "Gartner",
-      "sector": "Information Technology",
-      "pct_change": -4.065646327527652,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "VRSN",
-      "name": "Verisign",
-      "sector": "Information Technology",
-      "pct_change": -3.7714676184525326,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "CSGP",
-      "name": "CoStar Group",
-      "sector": "Real Estate",
-      "pct_change": -3.739894201274633,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "BLDR",
-      "name": "Builders FirstSource",
+      "symbol": "GEV",
+      "name": "GE Vernova",
       "sector": "Industrials",
-      "pct_change": -3.566023229880698,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
+      "pct_change": -6.2962936141573085,
+      "conviction": "buy_signal",
+      "status": "bought",
+      "news_bad": false
     },
     {
-      "symbol": "ERIE",
-      "name": "Erie Indemnity",
-      "sector": "Financials",
-      "pct_change": -3.482063751101551,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "GRMN",
-      "name": "Garmin",
+      "symbol": "DASH",
+      "name": "DoorDash",
       "sector": "Consumer Discretionary",
-      "pct_change": -3.435593216218587,
+      "pct_change": -3.9406448988991585,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
     },
     {
-      "symbol": "SPGI",
-      "name": "S&P Global",
+      "symbol": "APP",
+      "name": "AppLovin",
+      "sector": "Information Technology",
+      "pct_change": -3.4757036113807946,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "DDOG",
+      "name": "Datadog",
+      "sector": "Information Technology",
+      "pct_change": -3.39102775513856,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "CB",
+      "name": "Chubb Limited",
       "sector": "Financials",
-      "pct_change": -3.4147423553416787,
+      "pct_change": -3.373732139948044,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
     },
     {
-      "symbol": "CRWD",
-      "name": "CrowdStrike",
+      "symbol": "NOW",
+      "name": "ServiceNow",
       "sector": "Information Technology",
-      "pct_change": -3.3071727376514626,
+      "pct_change": -3.2284913264412123,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
     },
     {
-      "symbol": "VLTO",
-      "name": "Veralto",
-      "sector": "Industrials",
-      "pct_change": -3.220611863507636,
+      "symbol": "CVNA",
+      "name": "Carvana",
+      "sector": "Consumer Discretionary",
+      "pct_change": -3.1793272963627635,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
     },
     {
-      "symbol": "AXON",
-      "name": "Axon Enterprise",
-      "sector": "Industrials",
-      "pct_change": -3.158408614811544,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "ADBE",
-      "name": "Adobe Inc.",
+      "symbol": "PLTR",
+      "name": "Palantir Technologies",
       "sector": "Information Technology",
-      "pct_change": -3.1566854769990043,
+      "pct_change": -3.1584519265342124,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
