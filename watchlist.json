@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-07-22T18:46:10+00:00",
+  "updated_utc": "2026-07-22T19:05:38+00:00",
   "drop_threshold_pct": -5.0,
   "high_conviction_pct": -8.0,
   "stocks": [
@@ -7,7 +7,7 @@
       "symbol": "WDAY",
       "name": "Workday, Inc.",
       "sector": "Information Technology",
-      "pct_change": -5.911313543205007,
+      "pct_change": -5.659846707373345,
       "conviction": "buy_signal",
       "status": "blocked_news",
       "news_bad": true
@@ -16,61 +16,7 @@
       "symbol": "COIN",
       "name": "Coinbase",
       "sector": "Financials",
-      "pct_change": -4.827981346879424,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "ROP",
-      "name": "Roper Technologies",
-      "sector": "Information Technology",
-      "pct_change": -4.06769926405898,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "CRM",
-      "name": "Salesforce",
-      "sector": "Information Technology",
-      "pct_change": -4.036804852951785,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "TRMB",
-      "name": "Trimble Inc.",
-      "sector": "Information Technology",
-      "pct_change": -4.011568134173758,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "ADSK",
-      "name": "Autodesk",
-      "sector": "Information Technology",
-      "pct_change": -4.011367021329641,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "CB",
-      "name": "Chubb Limited",
-      "sector": "Financials",
-      "pct_change": -3.8077475084908197,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "AXON",
-      "name": "Axon Enterprise",
-      "sector": "Industrials",
-      "pct_change": -3.801088225631266,
+      "pct_change": -4.779640880051605,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
@@ -79,16 +25,61 @@
       "symbol": "DXCM",
       "name": "Dexcom",
       "sector": "Health Care",
-      "pct_change": -3.678929765886288,
+      "pct_change": -4.394653728574414,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
     },
     {
-      "symbol": "XYZ",
-      "name": "Block, Inc.",
-      "sector": "Financials",
-      "pct_change": -3.676280545698205,
+      "symbol": "TTD",
+      "name": "Trade Desk (The)",
+      "sector": "Communication Services",
+      "pct_change": -4.383557463345462,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "CRM",
+      "name": "Salesforce",
+      "sector": "Information Technology",
+      "pct_change": -4.06327399818323,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "TRMB",
+      "name": "Trimble Inc.",
+      "sector": "Information Technology",
+      "pct_change": -4.030858657847469,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "CMG",
+      "name": "Chipotle Mexican Grill",
+      "sector": "Consumer Discretionary",
+      "pct_change": -4.025810800630776,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "ROP",
+      "name": "Roper Technologies",
+      "sector": "Information Technology",
+      "pct_change": -4.006383898929722,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "ADSK",
+      "name": "Autodesk",
+      "sector": "Information Technology",
+      "pct_change": -3.987685726892888,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
@@ -97,25 +88,7 @@
       "symbol": "DDOG",
       "name": "Datadog",
       "sector": "Information Technology",
-      "pct_change": -3.661833988035753,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "SNPS",
-      "name": "Synopsys",
-      "sector": "Information Technology",
-      "pct_change": -3.631738406152115,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "NTRS",
-      "name": "Northern Trust",
-      "sector": "Financials",
-      "pct_change": -3.5799200731656717,
+      "pct_change": -3.8776992363778064,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
@@ -124,16 +97,43 @@
       "symbol": "GLW",
       "name": "Corning Inc.",
       "sector": "Information Technology",
-      "pct_change": -3.571210467936814,
+      "pct_change": -3.854448386473052,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
     },
     {
-      "symbol": "GDDY",
-      "name": "GoDaddy",
-      "sector": "Information Technology",
-      "pct_change": -3.542024105151436,
+      "symbol": "CB",
+      "name": "Chubb Limited",
+      "sector": "Financials",
+      "pct_change": -3.8077733125318356,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "XYZ",
+      "name": "Block, Inc.",
+      "sector": "Financials",
+      "pct_change": -3.688724109485517,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "NTRS",
+      "name": "Northern Trust",
+      "sector": "Financials",
+      "pct_change": -3.6636760341197943,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "AXON",
+      "name": "Axon Enterprise",
+      "sector": "Industrials",
+      "pct_change": -3.642628703883858,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null

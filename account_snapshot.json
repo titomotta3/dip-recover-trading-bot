@@ -1,7 +1,7 @@
 {
-  "updated_utc": "2026-07-22T18:46:11+00:00",
+  "updated_utc": "2026-07-22T19:05:39+00:00",
   "paper": true,
-  "equity": 501574.59,
+  "equity": 501496.35,
   "cash": 411972.22,
   "buying_power": 411972.22,
   "starting_equity": 500000.0,
@@ -22,99 +22,99 @@
       "name": "DoorDash",
       "qty": 56.031770045,
       "avg_entry_price": 178.47,
-      "current_price": 178.1025,
+      "current_price": 177.525,
       "cost_basis": 9999.99,
-      "market_value": 9979.398324,
-      "unrealized_pl": -20.591676,
-      "unrealized_plpc": -0.20600000000000002
+      "market_value": 9947.039977,
+      "unrealized_pl": -52.950023,
+      "unrealized_plpc": -0.53
     },
     {
       "symbol": "GEV",
       "name": "GE Vernova",
       "qty": 9.910007135,
       "avg_entry_price": 1009.08,
-      "current_price": 1001.475,
+      "current_price": 993.19,
       "cost_basis": 9999.99,
-      "market_value": 9924.624396,
-      "unrealized_pl": -75.365604,
-      "unrealized_plpc": -0.754
+      "market_value": 9842.519986,
+      "unrealized_pl": -157.470014,
+      "unrealized_plpc": -1.575
     },
     {
       "symbol": "HAL",
       "name": "Halliburton",
       "qty": 305.997246022,
       "avg_entry_price": 32.68,
-      "current_price": 32.885,
+      "current_price": 32.895,
       "cost_basis": 9999.99,
-      "market_value": 10062.719435,
-      "unrealized_pl": 62.729435,
-      "unrealized_plpc": 0.627
+      "market_value": 10065.779408,
+      "unrealized_pl": 65.789408,
+      "unrealized_plpc": 0.658
     },
     {
       "symbol": "MSCI",
       "name": "MSCI Inc.",
       "qty": 18.023520718,
       "avg_entry_price": 554.83,
-      "current_price": 568.28,
+      "current_price": 566.89,
       "cost_basis": 9999.99,
-      "market_value": 10242.406354,
-      "unrealized_pl": 242.416354,
-      "unrealized_plpc": 2.424
+      "market_value": 10217.35366,
+      "unrealized_pl": 217.36366,
+      "unrealized_plpc": 2.174
     },
     {
       "symbol": "NOW",
       "name": "ServiceNow",
       "qty": 103.268202003,
       "avg_entry_price": 96.835133,
-      "current_price": 95.6001,
+      "current_price": 95.84,
       "cost_basis": 9999.990076,
-      "market_value": 9872.450438,
-      "unrealized_pl": -127.539638,
-      "unrealized_plpc": -1.275
+      "market_value": 9897.22448,
+      "unrealized_pl": -102.765596,
+      "unrealized_plpc": -1.028
     },
     {
       "symbol": "PLTR",
       "name": "Palantir Technologies",
       "qty": 79.402810862,
       "avg_entry_price": 125.94,
-      "current_price": 123.995,
+      "current_price": 124.4,
       "cost_basis": 9999.99,
-      "market_value": 9845.551533,
-      "unrealized_pl": -154.438467,
-      "unrealized_plpc": -1.544
+      "market_value": 9877.709671,
+      "unrealized_pl": -122.280329,
+      "unrealized_plpc": -1.2229999999999999
     },
     {
       "symbol": "PTC",
       "name": "PTC Inc.",
       "qty": 87.138288602,
       "avg_entry_price": 114.76,
-      "current_price": 112.7,
+      "current_price": 112.54,
       "cost_basis": 9999.99,
-      "market_value": 9820.485125,
-      "unrealized_pl": -179.504875,
-      "unrealized_plpc": -1.7950000000000002
+      "market_value": 9806.542999,
+      "unrealized_pl": -193.447001,
+      "unrealized_plpc": -1.934
     },
     {
       "symbol": "TEL",
       "name": "TE Connectivity",
       "qty": 51.511821974,
       "avg_entry_price": 194.13,
-      "current_price": 191.37,
+      "current_price": 191.345,
       "cost_basis": 9999.99,
-      "market_value": 9857.817371,
-      "unrealized_pl": -142.172629,
-      "unrealized_plpc": -1.422
+      "market_value": 9856.529576,
+      "unrealized_pl": -143.460424,
+      "unrealized_plpc": -1.435
     },
     {
       "symbol": "TYL",
       "name": "Tyler Technologies",
       "qty": 35.136999297,
       "avg_entry_price": 284.6,
-      "current_price": 284.5125,
+      "current_price": 284.9825,
       "cost_basis": 9999.99,
-      "market_value": 9996.915512,
-      "unrealized_pl": -3.074488,
-      "unrealized_plpc": -0.031
+      "market_value": 10013.429902,
+      "unrealized_pl": 13.439902,
+      "unrealized_plpc": 0.134
     }
   ]
 }
