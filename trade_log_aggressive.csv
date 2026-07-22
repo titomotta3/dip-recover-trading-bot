@@ -30,3 +30,4 @@ timestamp_utc,action,symbol,detail
 2026-07-22T14:08:57+00:00,BUY,TEL,drop=-7.30% notional=$25000.00 news=clear(4) conviction=HIGH
 2026-07-22T14:22:31+00:00,BUY,GDDY,drop=-3.37% notional=$12500.00 news=none
 2026-07-22T14:22:31+00:00,BUY,PTC,drop=-3.92% notional=$12500.00 news=none
+2026-07-22T15:22:29+00:00,SELL,MRSH,gain=0.59% qty=70.969229022 reason=bad_news:downgrade
