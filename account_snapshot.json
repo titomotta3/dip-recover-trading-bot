@@ -1,7 +1,7 @@
 {
-  "updated_utc": "2026-07-22T14:21:28+00:00",
+  "updated_utc": "2026-07-22T14:36:41+00:00",
   "paper": true,
-  "equity": 502321.12,
+  "equity": 502434.11,
   "cash": 451819.29,
   "buying_power": 451819.29,
   "starting_equity": 500000.0,
@@ -22,55 +22,55 @@
       "name": "Equifax",
       "qty": 59.955572876,
       "avg_entry_price": 166.79,
-      "current_price": 168.795,
+      "current_price": 168.17,
       "cost_basis": 9999.99,
-      "market_value": 10120.200924,
-      "unrealized_pl": 120.210924,
-      "unrealized_plpc": 1.202
+      "market_value": 10082.728691,
+      "unrealized_pl": 82.738691,
+      "unrealized_plpc": 0.827
     },
     {
       "symbol": "GEV",
       "name": "GE Vernova",
       "qty": 9.910007135,
       "avg_entry_price": 1009.08,
-      "current_price": 1003.5,
+      "current_price": 1006.1,
       "cost_basis": 9999.99,
-      "market_value": 9944.69216,
-      "unrealized_pl": -55.29784,
-      "unrealized_plpc": -0.553
+      "market_value": 9970.458179,
+      "unrealized_pl": -29.531821,
+      "unrealized_plpc": -0.295
     },
     {
       "symbol": "HAL",
       "name": "Halliburton",
       "qty": 305.997246022,
       "avg_entry_price": 32.68,
-      "current_price": 33.47,
+      "current_price": 33.43,
       "cost_basis": 9999.99,
-      "market_value": 10241.727824,
-      "unrealized_pl": 241.737824,
-      "unrealized_plpc": 2.4170000000000003
+      "market_value": 10229.487935,
+      "unrealized_pl": 229.497935,
+      "unrealized_plpc": 2.2950000000000004
     },
     {
       "symbol": "MSCI",
       "name": "MSCI Inc.",
       "qty": 18.023520718,
       "avg_entry_price": 554.83,
-      "current_price": 570.32,
+      "current_price": 568.83,
       "cost_basis": 9999.99,
-      "market_value": 10279.174336,
-      "unrealized_pl": 279.184336,
-      "unrealized_plpc": 2.792
+      "market_value": 10252.31929,
+      "unrealized_pl": 252.32929,
+      "unrealized_plpc": 2.5229999999999997
     },
     {
       "symbol": "TEL",
       "name": "TE Connectivity",
       "qty": 51.511821974,
       "avg_entry_price": 194.13,
-      "current_price": 192.5001,
+      "current_price": 195.6799,
       "cost_basis": 9999.99,
-      "market_value": 9916.030881,
-      "unrealized_pl": -83.959119,
-      "unrealized_plpc": -0.84
+      "market_value": 10079.828173,
+      "unrealized_pl": 79.838173,
+      "unrealized_plpc": 0.7979999999999999
     }
   ]
 }
