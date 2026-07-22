@@ -20,3 +20,11 @@ timestamp_utc,action,symbol,detail
 2026-07-21T19:06:56+00:00,BUY,MCO,drop=-3.14% notional=$12500.00 news=clear(1)
 2026-07-21T19:22:09+00:00,BUY,OMC,drop=-3.14% notional=$12500.00 news=none
 2026-07-21T19:37:56+00:00,BUY,AXON,drop=-3.09% notional=$12500.00 news=none
+2026-07-22T14:08:56+00:00,BUY,APP,drop=-3.89% notional=$12500.00 news=none
+2026-07-22T14:08:56+00:00,BUY,CB,drop=-3.41% notional=$12500.00 news=clear(7)
+2026-07-22T14:08:57+00:00,BUY,DASH,drop=-4.01% notional=$12500.00 news=clear(1)
+2026-07-22T14:08:57+00:00,BUY,GEV,drop=-6.24% notional=$25000.00 news=clear(10) conviction=HIGH
+2026-07-22T14:08:57+00:00,BUY,MRSH,drop=-3.02% notional=$12500.00 news=clear(3)
+2026-07-22T14:08:57+00:00,BUY,PLTR,drop=-3.61% notional=$12500.00 news=clear(1)
+2026-07-22T14:08:57+00:00,BUY,NOW,drop=-3.44% notional=$12500.00 news=clear(7)
+2026-07-22T14:08:57+00:00,BUY,TEL,drop=-7.30% notional=$25000.00 news=clear(4) conviction=HIGH

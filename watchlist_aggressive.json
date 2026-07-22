@@ -1,112 +1,121 @@
 {
-  "updated_utc": "2026-07-21T19:37:57+00:00",
+  "updated_utc": "2026-07-22T14:08:57+00:00",
   "drop_threshold_pct": -3.0,
   "high_conviction_pct": -6.0,
   "stocks": [
     {
-      "symbol": "DHR",
-      "name": "Danaher Corporation",
-      "sector": "Health Care",
-      "pct_change": -11.60061745325948,
+      "symbol": "TEL",
+      "name": "TE Connectivity",
+      "sector": "Information Technology",
+      "pct_change": -7.303478202402028,
       "conviction": "high",
-      "status": "blocked_news",
-      "news_bad": true
+      "status": "bought",
+      "news_bad": false
     },
     {
-      "symbol": "WDAY",
-      "name": "Workday, Inc.",
-      "sector": "Information Technology",
-      "pct_change": -4.1502517047203575,
-      "conviction": "buy_signal",
-      "status": "blocked_news",
-      "news_bad": true
-    },
-    {
-      "symbol": "SPGI",
-      "name": "S&P Global",
-      "sector": "Financials",
-      "pct_change": -3.4950403065493574,
-      "conviction": "buy_signal",
-      "status": "blocked_news",
-      "news_bad": true
-    },
-    {
-      "symbol": "ADBE",
-      "name": "Adobe Inc.",
-      "sector": "Information Technology",
-      "pct_change": -3.0885234005036817,
-      "conviction": "buy_signal",
-      "status": "blocked_news",
-      "news_bad": true
-    },
-    {
-      "symbol": "AXON",
-      "name": "Axon Enterprise",
+      "symbol": "GEV",
+      "name": "GE Vernova",
       "sector": "Industrials",
-      "pct_change": -3.08824734165896,
+      "pct_change": -6.244848721577729,
+      "conviction": "high",
+      "status": "bought",
+      "news_bad": false
+    },
+    {
+      "symbol": "DASH",
+      "name": "DoorDash",
+      "sector": "Consumer Discretionary",
+      "pct_change": -4.00978172481612,
       "conviction": "buy_signal",
       "status": "bought",
       "news_bad": false
     },
     {
-      "symbol": "ADP",
-      "name": "Automatic Data Processing",
-      "sector": "Industrials",
-      "pct_change": -2.9971826479522323,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
+      "symbol": "APP",
+      "name": "AppLovin",
+      "sector": "Information Technology",
+      "pct_change": -3.885091484393387,
+      "conviction": "buy_signal",
+      "status": "bought",
+      "news_bad": false
+    },
+    {
+      "symbol": "PLTR",
+      "name": "Palantir Technologies",
+      "sector": "Information Technology",
+      "pct_change": -3.6107347982046485,
+      "conviction": "buy_signal",
+      "status": "bought",
+      "news_bad": false
     },
     {
       "symbol": "DDOG",
       "name": "Datadog",
       "sector": "Information Technology",
-      "pct_change": -2.9065382980514434,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
+      "pct_change": -3.5911904460897723,
+      "conviction": "buy_signal",
+      "status": "blocked_news",
+      "news_bad": true
     },
     {
-      "symbol": "NWS",
-      "name": "News Corp (Class B)",
-      "sector": "Communication Services",
-      "pct_change": -2.871776663621383,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "FDS",
-      "name": "FactSet",
-      "sector": "Financials",
-      "pct_change": -2.8167585759330134,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "XYL",
-      "name": "Xylem Inc.",
-      "sector": "Industrials",
-      "pct_change": -2.8063356484431754,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "PGR",
-      "name": "Progressive Corporation",
-      "sector": "Financials",
-      "pct_change": -2.7093248436860224,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "ROP",
-      "name": "Roper Technologies",
+      "symbol": "NOW",
+      "name": "ServiceNow",
       "sector": "Information Technology",
-      "pct_change": -2.69953230322348,
+      "pct_change": -3.4391481391333674,
+      "conviction": "buy_signal",
+      "status": "bought",
+      "news_bad": false
+    },
+    {
+      "symbol": "CB",
+      "name": "Chubb Limited",
+      "sector": "Financials",
+      "pct_change": -3.410365276843815,
+      "conviction": "buy_signal",
+      "status": "bought",
+      "news_bad": false
+    },
+    {
+      "symbol": "MRSH",
+      "name": "Marsh McLennan",
+      "sector": "Financials",
+      "pct_change": -3.0205411757074088,
+      "conviction": "buy_signal",
+      "status": "bought",
+      "news_bad": false
+    },
+    {
+      "symbol": "NTRS",
+      "name": "Northern Trust",
+      "sector": "Financials",
+      "pct_change": -2.834213328856674,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "COF",
+      "name": "Capital One",
+      "sector": "Financials",
+      "pct_change": -2.783437813590607,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "WDAY",
+      "name": "Workday, Inc.",
+      "sector": "Information Technology",
+      "pct_change": -2.6917922370517817,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "LULU",
+      "name": "Lululemon Athletica",
+      "sector": "Consumer Discretionary",
+      "pct_change": -2.5722370493428794,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
@@ -115,25 +124,16 @@
       "symbol": "PTC",
       "name": "PTC Inc.",
       "sector": "Information Technology",
-      "pct_change": -2.6756420077647105,
+      "pct_change": -2.4633589109997653,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
     },
     {
-      "symbol": "RSG",
-      "name": "Republic Services",
-      "sector": "Industrials",
-      "pct_change": -2.6436320969145184,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "STZ",
-      "name": "Constellation Brands",
-      "sector": "Consumer Staples",
-      "pct_change": -2.6272691003730997,
+      "symbol": "XYZ",
+      "name": "Block, Inc.",
+      "sector": "Financials",
+      "pct_change": -2.3015657344308096,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
