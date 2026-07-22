@@ -1,7 +1,7 @@
 {
-  "updated_utc": "2026-07-22T17:36:02+00:00",
+  "updated_utc": "2026-07-22T17:39:54+00:00",
   "paper": true,
-  "equity": 501417.63,
+  "equity": 501479.45,
   "cash": 421972.21,
   "buying_power": 421972.21,
   "starting_equity": 500000.0,
@@ -22,88 +22,88 @@
       "name": "DoorDash",
       "qty": 56.031770045,
       "avg_entry_price": 178.47,
-      "current_price": 178.45,
+      "current_price": 178.845,
       "cost_basis": 9999.99,
-      "market_value": 9998.869365,
-      "unrealized_pl": -1.120635,
-      "unrealized_plpc": -0.011000000000000001
+      "market_value": 10021.001914,
+      "unrealized_pl": 21.011914,
+      "unrealized_plpc": 0.21
     },
     {
       "symbol": "GEV",
       "name": "GE Vernova",
       "qty": 9.910007135,
       "avg_entry_price": 1009.08,
-      "current_price": 990.25,
+      "current_price": 990.23,
       "cost_basis": 9999.99,
-      "market_value": 9813.384565,
-      "unrealized_pl": -186.605435,
-      "unrealized_plpc": -1.8659999999999999
+      "market_value": 9813.186365,
+      "unrealized_pl": -186.803635,
+      "unrealized_plpc": -1.8679999999999999
     },
     {
       "symbol": "HAL",
       "name": "Halliburton",
       "qty": 305.997246022,
       "avg_entry_price": 32.68,
-      "current_price": 32.89,
+      "current_price": 32.935,
       "cost_basis": 9999.99,
-      "market_value": 10064.249422,
-      "unrealized_pl": 64.259422,
-      "unrealized_plpc": 0.643
+      "market_value": 10078.019298,
+      "unrealized_pl": 78.029298,
+      "unrealized_plpc": 0.7799999999999999
     },
     {
       "symbol": "MSCI",
       "name": "MSCI Inc.",
       "qty": 18.023520718,
       "avg_entry_price": 554.83,
-      "current_price": 567.345,
+      "current_price": 566.95,
       "cost_basis": 9999.99,
-      "market_value": 10225.554362,
-      "unrealized_pl": 225.564362,
-      "unrealized_plpc": 2.2560000000000002
+      "market_value": 10218.435071,
+      "unrealized_pl": 218.445071,
+      "unrealized_plpc": 2.1839999999999997
     },
     {
       "symbol": "NOW",
       "name": "ServiceNow",
       "qty": 103.268202003,
       "avg_entry_price": 96.835133,
-      "current_price": 95.48,
+      "current_price": 95.555,
       "cost_basis": 9999.990076,
-      "market_value": 9860.047927,
-      "unrealized_pl": -139.942149,
-      "unrealized_plpc": -1.399
+      "market_value": 9867.793042,
+      "unrealized_pl": -132.197034,
+      "unrealized_plpc": -1.322
     },
     {
       "symbol": "PLTR",
       "name": "Palantir Technologies",
       "qty": 79.402810862,
       "avg_entry_price": 125.94,
-      "current_price": 124.4205,
+      "current_price": 124.515,
       "cost_basis": 9999.99,
-      "market_value": 9879.337429,
-      "unrealized_pl": -120.652571,
-      "unrealized_plpc": -1.207
+      "market_value": 9886.840994,
+      "unrealized_pl": -113.149006,
+      "unrealized_plpc": -1.131
     },
     {
       "symbol": "PTC",
       "name": "PTC Inc.",
       "qty": 87.138288602,
       "avg_entry_price": 114.76,
-      "current_price": 112.45,
+      "current_price": 112.55,
       "cost_basis": 9999.99,
-      "market_value": 9798.700553,
-      "unrealized_pl": -201.289447,
-      "unrealized_plpc": -2.013
+      "market_value": 9807.414382,
+      "unrealized_pl": -192.575618,
+      "unrealized_plpc": -1.926
     },
     {
       "symbol": "TEL",
       "name": "TE Connectivity",
       "qty": 51.511821974,
       "avg_entry_price": 194.13,
-      "current_price": 190.35,
+      "current_price": 190.53,
       "cost_basis": 9999.99,
-      "market_value": 9805.275313,
-      "unrealized_pl": -194.714687,
-      "unrealized_plpc": -1.947
+      "market_value": 9814.547441,
+      "unrealized_pl": -185.442559,
+      "unrealized_plpc": -1.854
     }
   ]
 }

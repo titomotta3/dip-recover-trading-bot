@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-07-22T17:36:01+00:00",
+  "updated_utc": "2026-07-22T17:39:54+00:00",
   "drop_threshold_pct": -5.0,
   "high_conviction_pct": -8.0,
   "stocks": [
@@ -7,7 +7,7 @@
       "symbol": "WDAY",
       "name": "Workday, Inc.",
       "sector": "Information Technology",
-      "pct_change": -5.468584912400585,
+      "pct_change": -5.256073007853569,
       "conviction": "buy_signal",
       "status": "blocked_news",
       "news_bad": true
@@ -16,7 +16,7 @@
       "symbol": "TYL",
       "name": "Tyler Technologies",
       "sector": "Information Technology",
-      "pct_change": -4.857542547862527,
+      "pct_change": -4.782475452764643,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
@@ -25,7 +25,7 @@
       "symbol": "CB",
       "name": "Chubb Limited",
       "sector": "Financials",
-      "pct_change": -4.385568797615981,
+      "pct_change": -4.69278310860594,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
@@ -34,16 +34,7 @@
       "symbol": "CRM",
       "name": "Salesforce",
       "sector": "Information Technology",
-      "pct_change": -4.274964351893558,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "COIN",
-      "name": "Coinbase",
-      "sector": "Financials",
-      "pct_change": -4.179701932560059,
+      "pct_change": -4.042690873043931,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
@@ -52,16 +43,7 @@
       "symbol": "ROP",
       "name": "Roper Technologies",
       "sector": "Information Technology",
-      "pct_change": -4.074826326795407,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "TRMB",
-      "name": "Trimble Inc.",
-      "sector": "Information Technology",
-      "pct_change": -4.059787086178907,
+      "pct_change": -3.946504388930514,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
@@ -70,7 +52,7 @@
       "symbol": "ADSK",
       "name": "Autodesk",
       "sector": "Information Technology",
-      "pct_change": -4.049248420608696,
+      "pct_change": -3.878753217787116,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
@@ -79,7 +61,25 @@
       "symbol": "NTRS",
       "name": "Northern Trust",
       "sector": "Financials",
-      "pct_change": -3.860912334767909,
+      "pct_change": -3.871713704018736,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "TRMB",
+      "name": "Trimble Inc.",
+      "sector": "Information Technology",
+      "pct_change": -3.8572807306797166,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "COIN",
+      "name": "Coinbase",
+      "sector": "Financials",
+      "pct_change": -3.7190834904333427,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
@@ -88,7 +88,7 @@
       "symbol": "GLW",
       "name": "Corning Inc.",
       "sector": "Information Technology",
-      "pct_change": -3.8298141003947683,
+      "pct_change": -3.70051698177946,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
@@ -97,25 +97,7 @@
       "symbol": "APP",
       "name": "AppLovin",
       "sector": "Information Technology",
-      "pct_change": -3.790617907451916,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "REGN",
-      "name": "Regeneron Pharmaceuticals",
-      "sector": "Health Care",
-      "pct_change": -3.46198846479936,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "XYZ",
-      "name": "Block, Inc.",
-      "sector": "Financials",
-      "pct_change": -3.4585703835398705,
+      "pct_change": -3.5596840791057995,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
@@ -124,16 +106,34 @@
       "symbol": "DXCM",
       "name": "Dexcom",
       "sector": "Health Care",
-      "pct_change": -3.4448119708925584,
+      "pct_change": -3.4379939969168065,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
     },
     {
-      "symbol": "TTD",
-      "name": "Trade Desk (The)",
-      "sector": "Communication Services",
-      "pct_change": -3.3150659848565924,
+      "symbol": "REGN",
+      "name": "Regeneron Pharmaceuticals",
+      "sector": "Health Care",
+      "pct_change": -3.367939417371394,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "PLD",
+      "name": "Prologis",
+      "sector": "Real Estate",
+      "pct_change": -3.309663248280054,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "XYZ",
+      "name": "Block, Inc.",
+      "sector": "Financials",
+      "pct_change": -3.3030590570018683,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
