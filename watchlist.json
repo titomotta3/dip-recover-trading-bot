@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-07-22T15:51:30+00:00",
+  "updated_utc": "2026-07-22T16:06:09+00:00",
   "drop_threshold_pct": -5.0,
   "high_conviction_pct": -8.0,
   "stocks": [
@@ -7,43 +7,25 @@
       "symbol": "NOW",
       "name": "ServiceNow",
       "sector": "Information Technology",
-      "pct_change": -4.938272620116246,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "DASH",
-      "name": "DoorDash",
-      "sector": "Consumer Discretionary",
-      "pct_change": -4.698464034528165,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
+      "pct_change": -5.217516241057178,
+      "conviction": "buy_signal",
+      "status": "bought",
+      "news_bad": false
     },
     {
       "symbol": "PTC",
       "name": "PTC Inc.",
       "sector": "Information Technology",
-      "pct_change": -4.641049833018153,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
+      "pct_change": -5.071623888590747,
+      "conviction": "buy_signal",
+      "status": "bought",
+      "news_bad": false
     },
     {
-      "symbol": "PLTR",
-      "name": "Palantir Technologies",
-      "sector": "Information Technology",
-      "pct_change": -4.436154058324782,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "WDAY",
-      "name": "Workday, Inc.",
-      "sector": "Information Technology",
-      "pct_change": -4.2926950748709665,
+      "symbol": "DASH",
+      "name": "DoorDash",
+      "sector": "Consumer Discretionary",
+      "pct_change": -4.9696800125355125,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
@@ -52,43 +34,25 @@
       "symbol": "TYL",
       "name": "Tyler Technologies",
       "sector": "Information Technology",
-      "pct_change": -3.876691631337381,
+      "pct_change": -4.503903529670491,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
     },
     {
-      "symbol": "TRMB",
-      "name": "Trimble Inc.",
+      "symbol": "PLTR",
+      "name": "Palantir Technologies",
       "sector": "Information Technology",
-      "pct_change": -3.818707040511424,
+      "pct_change": -4.462465289303918,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
     },
     {
-      "symbol": "CB",
-      "name": "Chubb Limited",
-      "sector": "Financials",
-      "pct_change": -3.48223813242049,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "COIN",
-      "name": "Coinbase",
-      "sector": "Financials",
-      "pct_change": -3.4287803746208296,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "NTRS",
-      "name": "Northern Trust",
-      "sector": "Financials",
-      "pct_change": -3.388092702463009,
+      "symbol": "WDAY",
+      "name": "Workday, Inc.",
+      "sector": "Information Technology",
+      "pct_change": -4.452081705482345,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
@@ -97,25 +61,7 @@
       "symbol": "APP",
       "name": "AppLovin",
       "sector": "Information Technology",
-      "pct_change": -3.296089202533666,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "ROP",
-      "name": "Roper Technologies",
-      "sector": "Information Technology",
-      "pct_change": -3.2882648865543915,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "GDDY",
-      "name": "GoDaddy",
-      "sector": "Information Technology",
-      "pct_change": -3.2387325321201894,
+      "pct_change": -3.8466001400694823,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
@@ -124,16 +70,70 @@
       "symbol": "CRM",
       "name": "Salesforce",
       "sector": "Information Technology",
-      "pct_change": -3.15182917046955,
+      "pct_change": -3.4458430521454724,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
     },
     {
-      "symbol": "XYZ",
-      "name": "Block, Inc.",
+      "symbol": "TRMB",
+      "name": "Trimble Inc.",
+      "sector": "Information Technology",
+      "pct_change": -3.4136869723339167,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "CB",
+      "name": "Chubb Limited",
       "sector": "Financials",
-      "pct_change": -3.041801167416998,
+      "pct_change": -3.4033207736464366,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "GDDY",
+      "name": "GoDaddy",
+      "sector": "Information Technology",
+      "pct_change": -3.3957995522028015,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "ROP",
+      "name": "Roper Technologies",
+      "sector": "Information Technology",
+      "pct_change": -3.3676459198653608,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "NTRS",
+      "name": "Northern Trust",
+      "sector": "Financials",
+      "pct_change": -3.261106528545463,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "DXCM",
+      "name": "Dexcom",
+      "sector": "Health Care",
+      "pct_change": -3.2240851667015047,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "PLD",
+      "name": "Prologis",
+      "sector": "Real Estate",
+      "pct_change": -3.1979445717423594,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
