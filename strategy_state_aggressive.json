@@ -1,9 +1,9 @@
 {
-  "drop_threshold_pct": -6.0,
+  "drop_threshold_pct": -6.5,
   "sell_threshold_pct": 10.0,
   "trade_dollars": 12500.0,
   "completed_trades": 0,
-  "last_adjustment": "1 bad_news exit(s) (MRSH); capital nearly fully deployed -> tightened dip threshold to -6.0%",
-  "updated_utc": "2026-07-22T15:23:14+00:00",
+  "last_adjustment": "capital nearly fully deployed -> tightened dip threshold to -6.5%",
+  "updated_utc": "2026-07-22T15:37:42+00:00",
   "risk_exits": 2
 }
