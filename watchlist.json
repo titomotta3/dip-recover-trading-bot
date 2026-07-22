@@ -1,31 +1,22 @@
 {
-  "updated_utc": "2026-07-22T14:51:48+00:00",
+  "updated_utc": "2026-07-22T14:54:07+00:00",
   "drop_threshold_pct": -5.0,
   "high_conviction_pct": -8.0,
   "stocks": [
     {
-      "symbol": "WDAY",
-      "name": "Workday, Inc.",
-      "sector": "Information Technology",
-      "pct_change": -4.951480898086269,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
       "symbol": "NOW",
       "name": "ServiceNow",
       "sector": "Information Technology",
-      "pct_change": -4.851064586870444,
+      "pct_change": -4.781498501032503,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
     },
     {
-      "symbol": "DASH",
-      "name": "DoorDash",
-      "sector": "Consumer Discretionary",
-      "pct_change": -4.7543009475721325,
+      "symbol": "WDAY",
+      "name": "Workday, Inc.",
+      "sector": "Information Technology",
+      "pct_change": -4.781469212687764,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
@@ -34,25 +25,16 @@
       "symbol": "PLTR",
       "name": "Palantir Technologies",
       "sector": "Information Technology",
-      "pct_change": -4.56429981759847,
+      "pct_change": -4.571839494934786,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
     },
     {
-      "symbol": "TYL",
-      "name": "Tyler Technologies",
-      "sector": "Information Technology",
-      "pct_change": -4.010138588539058,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "PTC",
-      "name": "PTC Inc.",
-      "sector": "Information Technology",
-      "pct_change": -3.9786374420269923,
+      "symbol": "DASH",
+      "name": "DoorDash",
+      "sector": "Consumer Discretionary",
+      "pct_change": -4.464469960333152,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
@@ -61,7 +43,25 @@
       "symbol": "COIN",
       "name": "Coinbase",
       "sector": "Financials",
-      "pct_change": -3.741826330777215,
+      "pct_change": -4.065970376517657,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "PTC",
+      "name": "PTC Inc.",
+      "sector": "Information Technology",
+      "pct_change": -3.858570971470157,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "TYL",
+      "name": "Tyler Technologies",
+      "sector": "Information Technology",
+      "pct_change": -3.796625493286418,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
@@ -70,7 +70,7 @@
       "symbol": "CB",
       "name": "Chubb Limited",
       "sector": "Financials",
-      "pct_change": -3.69503545733276,
+      "pct_change": -3.6217519808472085,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
@@ -79,16 +79,7 @@
       "symbol": "CVNA",
       "name": "Carvana",
       "sector": "Consumer Discretionary",
-      "pct_change": -3.629156757644693,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "VEEV",
-      "name": "Veeva Systems",
-      "sector": "Health Care",
-      "pct_change": -3.514060960811828,
+      "pct_change": -3.537669174664268,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
@@ -97,7 +88,7 @@
       "symbol": "DDOG",
       "name": "Datadog",
       "sector": "Information Technology",
-      "pct_change": -3.3714025527854763,
+      "pct_change": -3.4793321825710355,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
@@ -106,7 +97,16 @@
       "symbol": "TRMB",
       "name": "Trimble Inc.",
       "sector": "Information Technology",
-      "pct_change": -3.357375123287929,
+      "pct_change": -3.4329774960076267,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "NTRS",
+      "name": "Northern Trust",
+      "sector": "Financials",
+      "pct_change": -3.3448624894995853,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
@@ -115,25 +115,25 @@
       "symbol": "XYZ",
       "name": "Block, Inc.",
       "sector": "Financials",
-      "pct_change": -3.3528238204930028,
+      "pct_change": -3.3341632206410914,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
     },
     {
-      "symbol": "APP",
-      "name": "AppLovin",
-      "sector": "Information Technology",
-      "pct_change": -3.293754236575049,
+      "symbol": "VEEV",
+      "name": "Veeva Systems",
+      "sector": "Health Care",
+      "pct_change": -3.2287045196541566,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
     },
     {
-      "symbol": "COF",
-      "name": "Capital One",
-      "sector": "Financials",
-      "pct_change": -3.278049882077723,
+      "symbol": "CSGP",
+      "name": "CoStar Group",
+      "sector": "Real Estate",
+      "pct_change": -3.12280487595943,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
