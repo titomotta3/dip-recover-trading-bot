@@ -21,3 +21,4 @@ timestamp_utc,action,symbol,detail
 2026-07-22T14:07:26+00:00,BUY,TEL,drop=-7.32% notional=$10000.00 news=clear(4)
 2026-07-22T16:06:09+00:00,BUY,PTC,drop=-5.07% notional=$10000.00 news=none
 2026-07-22T16:06:09+00:00,BUY,NOW,drop=-5.22% notional=$10000.00 news=clear(7)
+2026-07-22T16:35:37+00:00,SELL,EFX,gain=1.54% qty=59.955572876 reason=bad_news:sues

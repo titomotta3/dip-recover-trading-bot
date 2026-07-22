@@ -1,9 +1,9 @@
 {
-  "updated_utc": "2026-07-22T16:11:10+00:00",
+  "updated_utc": "2026-07-22T16:36:15+00:00",
   "paper": true,
-  "equity": 501957.39,
-  "cash": 431819.31,
-  "buying_power": 431819.31,
+  "equity": 501932.23,
+  "cash": 441972.19,
+  "buying_power": 441972.19,
   "starting_equity": 500000.0,
   "drop_threshold_pct": -5.0,
   "sell_threshold_pct": 7.0,
@@ -18,81 +18,70 @@
   "regime_blocked_buys": false,
   "positions": [
     {
-      "symbol": "EFX",
-      "name": "Equifax",
-      "qty": 59.955572876,
-      "avg_entry_price": 166.79,
-      "current_price": 168.68,
-      "cost_basis": 9999.99,
-      "market_value": 10113.306033,
-      "unrealized_pl": 113.316033,
-      "unrealized_plpc": 1.133
-    },
-    {
       "symbol": "GEV",
       "name": "GE Vernova",
       "qty": 9.910007135,
       "avg_entry_price": 1009.08,
-      "current_price": 1002.09,
+      "current_price": 1002.21,
       "cost_basis": 9999.99,
-      "market_value": 9930.71905,
-      "unrealized_pl": -69.27095,
-      "unrealized_plpc": -0.6930000000000001
+      "market_value": 9931.908251,
+      "unrealized_pl": -68.081749,
+      "unrealized_plpc": -0.681
     },
     {
       "symbol": "HAL",
       "name": "Halliburton",
       "qty": 305.997246022,
       "avg_entry_price": 32.68,
-      "current_price": 32.75,
+      "current_price": 32.8,
       "cost_basis": 9999.99,
-      "market_value": 10021.409807,
-      "unrealized_pl": 21.419807,
-      "unrealized_plpc": 0.214
+      "market_value": 10036.70967,
+      "unrealized_pl": 36.71967,
+      "unrealized_plpc": 0.367
     },
     {
       "symbol": "MSCI",
       "name": "MSCI Inc.",
       "qty": 18.023520718,
       "avg_entry_price": 554.83,
-      "current_price": 564.375,
+      "current_price": 566.49,
       "cost_basis": 9999.99,
-      "market_value": 10172.024505,
-      "unrealized_pl": 172.034505,
-      "unrealized_plpc": 1.72
+      "market_value": 10210.144252,
+      "unrealized_pl": 210.154252,
+      "unrealized_plpc": 2.102
     },
     {
       "symbol": "NOW",
       "name": "ServiceNow",
       "qty": 103.268202003,
       "avg_entry_price": 96.835133,
-      "current_price": 96.685,
+      "current_price": 96.4,
       "cost_basis": 9999.990076,
-      "market_value": 9984.486111,
-      "unrealized_pl": -15.503965,
-      "unrealized_plpc": -0.155
+      "market_value": 9955.054673,
+      "unrealized_pl": -44.935403,
+      "unrealized_plpc": -0.449
     },
     {
       "symbol": "PTC",
       "name": "PTC Inc.",
       "qty": 87.138288602,
       "avg_entry_price": 114.76,
-      "current_price": 114.12,
+      "current_price": 113.7,
       "cost_basis": 9999.99,
-      "market_value": 9944.221495,
-      "unrealized_pl": -55.768505,
-      "unrealized_plpc": -0.5579999999999999
+      "market_value": 9907.623414,
+      "unrealized_pl": -92.366586,
+      "unrealized_plpc": -0.924
     },
     {
       "symbol": "TEL",
       "name": "TE Connectivity",
       "qty": 51.511821974,
       "avg_entry_price": 194.13,
-      "current_price": 193.585,
+      "current_price": 192.55,
       "cost_basis": 9999.99,
-      "market_value": 9971.916057,
-      "unrealized_pl": -28.073943,
-      "unrealized_plpc": -0.281
+      "market_value": 9918.601321,
+      "unrealized_pl": -81.388679,
+      "unrealized_plpc": -0.814
     }
   ]
 }
