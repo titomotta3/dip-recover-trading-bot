@@ -1,7 +1,7 @@
 {
-  "updated_utc": "2026-07-22T21:04:46+00:00",
+  "updated_utc": "2026-07-22T21:11:09+00:00",
   "paper": true,
-  "equity": 502713.57,
+  "equity": 502862.78,
   "cash": 401972.23,
   "buying_power": 401972.23,
   "starting_equity": 500000.0,
@@ -44,11 +44,11 @@
       "name": "",
       "qty": 9.910007135,
       "avg_entry_price": 1009.08,
-      "current_price": 994.0,
+      "current_price": 1001.0,
       "cost_basis": 9999.99,
-      "market_value": 9850.547092,
-      "unrealized_pl": -149.442908,
-      "unrealized_plpc": -1.494
+      "market_value": 9919.917142,
+      "unrealized_pl": -80.072858,
+      "unrealized_plpc": -0.8009999999999999
     },
     {
       "symbol": "HAL",
@@ -77,22 +77,22 @@
       "name": "",
       "qty": 103.268202003,
       "avg_entry_price": 96.835133,
-      "current_price": 97.8,
+      "current_price": 98.75,
       "cost_basis": 9999.990076,
-      "market_value": 10099.630156,
-      "unrealized_pl": 99.64008,
-      "unrealized_plpc": 0.996
+      "market_value": 10197.734948,
+      "unrealized_pl": 197.744872,
+      "unrealized_plpc": 1.9769999999999999
     },
     {
       "symbol": "PLTR",
       "name": "",
       "qty": 79.402810862,
       "avg_entry_price": 125.94,
-      "current_price": 124.98,
+      "current_price": 124.75,
       "cost_basis": 9999.99,
-      "market_value": 9923.763302,
-      "unrealized_pl": -76.226698,
-      "unrealized_plpc": -0.762
+      "market_value": 9905.500655,
+      "unrealized_pl": -94.489345,
+      "unrealized_plpc": -0.9450000000000001
     },
     {
       "symbol": "PTC",
