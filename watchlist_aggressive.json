@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-07-22T19:22:21+00:00",
+  "updated_utc": "2026-07-22T19:37:01+00:00",
   "drop_threshold_pct": -8.0,
   "high_conviction_pct": -11.0,
   "stocks": [
@@ -7,7 +7,7 @@
       "symbol": "WDAY",
       "name": "Workday, Inc.",
       "sector": "Information Technology",
-      "pct_change": -6.006939036289156,
+      "pct_change": -6.198200831261916,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
