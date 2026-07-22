@@ -1,7 +1,7 @@
 {
-  "updated_utc": "2026-07-22T20:05:22+00:00",
+  "updated_utc": "2026-07-22T20:20:05+00:00",
   "paper": true,
-  "equity": 502061.73,
+  "equity": 503118.11,
   "cash": 401972.23,
   "buying_power": 401972.23,
   "starting_equity": 500000.0,
@@ -22,11 +22,11 @@
       "name": "",
       "qty": 56.031770045,
       "avg_entry_price": 178.47,
-      "current_price": 177.75,
+      "current_price": 177.73,
       "cost_basis": 9999.99,
-      "market_value": 9959.647125,
-      "unrealized_pl": -40.342875,
-      "unrealized_plpc": -0.40299999999999997
+      "market_value": 9958.52649,
+      "unrealized_pl": -41.46351,
+      "unrealized_plpc": -0.415
     },
     {
       "symbol": "DXCM",
@@ -44,22 +44,22 @@
       "name": "",
       "qty": 9.910007135,
       "avg_entry_price": 1009.08,
-      "current_price": 990.5238,
+      "current_price": 992.58,
       "cost_basis": 9999.99,
-      "market_value": 9816.097925,
-      "unrealized_pl": -183.892075,
-      "unrealized_plpc": -1.839
+      "market_value": 9836.474882,
+      "unrealized_pl": -163.515118,
+      "unrealized_plpc": -1.635
     },
     {
       "symbol": "HAL",
       "name": "",
       "qty": 305.997246022,
       "avg_entry_price": 32.68,
-      "current_price": 33.0,
+      "current_price": 33.01,
       "cost_basis": 9999.99,
-      "market_value": 10097.909119,
-      "unrealized_pl": 97.919119,
-      "unrealized_plpc": 0.979
+      "market_value": 10100.969091,
+      "unrealized_pl": 100.979091,
+      "unrealized_plpc": 1.01
     },
     {
       "symbol": "MSCI",
@@ -77,22 +77,22 @@
       "name": "",
       "qty": 103.268202003,
       "avg_entry_price": 96.835133,
-      "current_price": 95.66,
+      "current_price": 102.2959,
       "cost_basis": 9999.990076,
-      "market_value": 9878.636204,
-      "unrealized_pl": -121.353872,
-      "unrealized_plpc": -1.214
+      "market_value": 10563.913665,
+      "unrealized_pl": 563.923589,
+      "unrealized_plpc": 5.639
     },
     {
       "symbol": "PLTR",
       "name": "",
       "qty": 79.402810862,
       "avg_entry_price": 125.94,
-      "current_price": 124.56,
+      "current_price": 125.2013,
       "cost_basis": 9999.99,
-      "market_value": 9890.414121,
-      "unrealized_pl": -109.575879,
-      "unrealized_plpc": -1.0959999999999999
+      "market_value": 9941.335144,
+      "unrealized_pl": -58.654856,
+      "unrealized_plpc": -0.587
     },
     {
       "symbol": "PTC",
@@ -110,22 +110,22 @@
       "name": "",
       "qty": 51.511821974,
       "avg_entry_price": 194.13,
-      "current_price": 198.01,
+      "current_price": 200.0,
       "cost_basis": 9999.99,
-      "market_value": 10199.855869,
-      "unrealized_pl": 199.865869,
-      "unrealized_plpc": 1.999
+      "market_value": 10302.364395,
+      "unrealized_pl": 302.374395,
+      "unrealized_plpc": 3.024
     },
     {
       "symbol": "TYL",
       "name": "",
       "qty": 35.136999297,
       "avg_entry_price": 284.6,
-      "current_price": 284.32,
+      "current_price": 289.88,
       "cost_basis": 9999.99,
-      "market_value": 9990.15164,
-      "unrealized_pl": -9.83836,
-      "unrealized_plpc": -0.098
+      "market_value": 10185.513356,
+      "unrealized_pl": 185.523356,
+      "unrealized_plpc": 1.855
     }
   ]
 }
