@@ -1,7 +1,7 @@
 {
-  "updated_utc": "2026-07-21T21:45:38+00:00",
+  "updated_utc": "2026-07-22T07:41:11+00:00",
   "paper": true,
-  "equity": 501802.26,
+  "equity": 501823.27,
   "cash": 450039.53,
   "buying_power": 450039.53,
   "starting_equity": 500000.0,
@@ -22,21 +22,21 @@
       "name": "",
       "qty": 59.955572876,
       "avg_entry_price": 166.79,
-      "current_price": 173.01,
+      "current_price": 173.5697,
       "cost_basis": 9999.99,
-      "market_value": 10372.913663,
-      "unrealized_pl": 372.923663,
-      "unrealized_plpc": 3.7289999999999996
+      "market_value": 10406.470797,
+      "unrealized_pl": 406.480797,
+      "unrealized_plpc": 4.0649999999999995
     },
     {
       "symbol": "GPC",
       "name": "",
       "qty": 89.018160776,
-      "avg_entry_price": 112.336515,
+      "avg_entry_price": 112.336516,
       "current_price": 119.12,
-      "cost_basis": 9999.989953,
+      "cost_basis": 9999.990042,
       "market_value": 10603.843312,
-      "unrealized_pl": 603.853359,
+      "unrealized_pl": 603.85327,
       "unrealized_plpc": 6.039
     },
     {
@@ -44,33 +44,33 @@
       "name": "",
       "qty": 305.997246022,
       "avg_entry_price": 32.68,
-      "current_price": 33.27,
+      "current_price": 33.2,
       "cost_basis": 9999.99,
-      "market_value": 10180.528375,
-      "unrealized_pl": 180.538375,
-      "unrealized_plpc": 1.805
+      "market_value": 10159.108568,
+      "unrealized_pl": 159.118568,
+      "unrealized_plpc": 1.591
     },
     {
       "symbol": "MSCI",
       "name": "",
       "qty": 18.023520718,
       "avg_entry_price": 554.83,
-      "current_price": 562.92,
+      "current_price": 562.05,
       "cost_basis": 9999.99,
-      "market_value": 10145.800283,
-      "unrealized_pl": 145.810283,
-      "unrealized_plpc": 1.458
+      "market_value": 10130.11982,
+      "unrealized_pl": 130.12982,
+      "unrealized_plpc": 1.3010000000000002
     },
     {
       "symbol": "NOC",
       "name": "",
       "qty": 20.465362339,
       "avg_entry_price": 488.63,
-      "current_price": 511.09,
+      "current_price": 512.29,
       "cost_basis": 9999.99,
-      "market_value": 10459.642038,
-      "unrealized_pl": 459.652038,
-      "unrealized_plpc": 4.5969999999999995
+      "market_value": 10484.200473,
+      "unrealized_pl": 484.210473,
+      "unrealized_plpc": 4.842
     }
   ]
 }
