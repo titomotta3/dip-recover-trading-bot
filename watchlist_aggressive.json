@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-07-23T16:11:17+00:00",
+  "updated_utc": "2026-07-23T16:50:23+00:00",
   "drop_threshold_pct": -8.0,
   "high_conviction_pct": -11.0,
   "stocks": [
@@ -7,7 +7,7 @@
       "symbol": "ROL",
       "name": "Rollins, Inc.",
       "sector": "Industrials",
-      "pct_change": -9.454797549888552,
+      "pct_change": -9.546817136739385,
       "conviction": "buy_signal",
       "status": "blocked_news",
       "news_bad": true
@@ -16,7 +16,7 @@
       "symbol": "GL",
       "name": "Globe Life",
       "sector": "Financials",
-      "pct_change": -7.728261532990829,
+      "pct_change": -7.5108735457710605,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
@@ -25,16 +25,7 @@
       "symbol": "TMUS",
       "name": "T-Mobile US",
       "sector": "Communication Services",
-      "pct_change": -6.515136840025816,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "GOOG",
-      "name": "Alphabet Inc. (Class C)",
-      "sector": "Communication Services",
-      "pct_change": -6.346702926094015,
+      "pct_change": -6.78354416258226,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
@@ -43,7 +34,16 @@
       "symbol": "GOOGL",
       "name": "Alphabet Inc. (Class A)",
       "sector": "Communication Services",
-      "pct_change": -6.2834328239041435,
+      "pct_change": -6.708755571672686,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "GOOG",
+      "name": "Alphabet Inc. (Class C)",
+      "sector": "Communication Services",
+      "pct_change": -6.625806976208856,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
@@ -52,7 +52,7 @@
       "symbol": "IFF",
       "name": "International Flavors & Fragrances",
       "sector": "Materials",
-      "pct_change": -6.1981816345444765,
+      "pct_change": -6.496113455821356,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
