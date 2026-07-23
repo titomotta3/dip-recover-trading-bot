@@ -1,13 +1,58 @@
 {
-  "updated_utc": "2026-07-22T19:37:01+00:00",
+  "updated_utc": "2026-07-23T13:56:49+00:00",
   "drop_threshold_pct": -8.0,
   "high_conviction_pct": -11.0,
   "stocks": [
     {
-      "symbol": "WDAY",
-      "name": "Workday, Inc.",
-      "sector": "Information Technology",
-      "pct_change": -6.198200831261916,
+      "symbol": "TSLA",
+      "name": "Tesla, Inc.",
+      "sector": "Consumer Discretionary",
+      "pct_change": -12.272405340922814,
+      "conviction": "high",
+      "status": "bought",
+      "news_bad": false
+    },
+    {
+      "symbol": "ROL",
+      "name": "Rollins, Inc.",
+      "sector": "Industrials",
+      "pct_change": -11.36416448742475,
+      "conviction": "high",
+      "status": "blocked_news",
+      "news_bad": true
+    },
+    {
+      "symbol": "GL",
+      "name": "Globe Life",
+      "sector": "Financials",
+      "pct_change": -7.679350479789402,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "DOV",
+      "name": "Dover Corporation",
+      "sector": "Industrials",
+      "pct_change": -7.336971790764325,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "GOOG",
+      "name": "Alphabet Inc. (Class C)",
+      "sector": "Communication Services",
+      "pct_change": -6.378870850514031,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "GOOGL",
+      "name": "Alphabet Inc. (Class A)",
+      "sector": "Communication Services",
+      "pct_change": -6.246892731724267,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
