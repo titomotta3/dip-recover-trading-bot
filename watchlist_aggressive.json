@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-07-23T16:54:48+00:00",
+  "updated_utc": "2026-07-23T16:59:21+00:00",
   "drop_threshold_pct": -8.0,
   "high_conviction_pct": -11.0,
   "stocks": [
@@ -7,7 +7,7 @@
       "symbol": "ROL",
       "name": "Rollins, Inc.",
       "sector": "Industrials",
-      "pct_change": -9.60433157238886,
+      "pct_change": -9.408787756463134,
       "conviction": "buy_signal",
       "status": "blocked_news",
       "news_bad": true
@@ -16,7 +16,7 @@
       "symbol": "GL",
       "name": "Globe Life",
       "sector": "Financials",
-      "pct_change": -7.611415697180707,
+      "pct_change": -7.701085961383322,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
@@ -25,7 +25,7 @@
       "symbol": "TMUS",
       "name": "T-Mobile US",
       "sector": "Communication Services",
-      "pct_change": -6.706299241040277,
+      "pct_change": -6.918407114779912,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
@@ -34,7 +34,7 @@
       "symbol": "GOOGL",
       "name": "Alphabet Inc. (Class A)",
       "sector": "Communication Services",
-      "pct_change": -6.702912368455445,
+      "pct_change": -6.664909245241023,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
@@ -43,7 +43,7 @@
       "symbol": "GOOG",
       "name": "Alphabet Inc. (Class C)",
       "sector": "Communication Services",
-      "pct_change": -6.541049315195408,
+      "pct_change": -6.587989136095758,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
@@ -52,7 +52,7 @@
       "symbol": "IFF",
       "name": "International Flavors & Fragrances",
       "sector": "Materials",
-      "pct_change": -6.334196350975089,
+      "pct_change": -6.2694255559822665,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
