@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-07-23T14:22:05+00:00",
+  "updated_utc": "2026-07-23T14:37:29+00:00",
   "drop_threshold_pct": -8.0,
   "high_conviction_pct": -11.0,
   "stocks": [
@@ -7,34 +7,16 @@
       "symbol": "ROL",
       "name": "Rollins, Inc.",
       "sector": "Industrials",
-      "pct_change": -10.547510398932902,
+      "pct_change": -9.408787756463134,
       "conviction": "buy_signal",
       "status": "blocked_news",
       "news_bad": true
     },
     {
-      "symbol": "DOV",
-      "name": "Dover Corporation",
-      "sector": "Industrials",
-      "pct_change": -8.41840193043278,
-      "conviction": "buy_signal",
-      "status": "bought",
-      "news_bad": false
-    },
-    {
       "symbol": "GL",
       "name": "Globe Life",
       "sector": "Financials",
-      "pct_change": -7.5923919677734375,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "GOOG",
-      "name": "Alphabet Inc. (Class C)",
-      "sector": "Communication Services",
-      "pct_change": -7.031092476802544,
+      "pct_change": -7.749997014584749,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
@@ -43,16 +25,16 @@
       "symbol": "GOOGL",
       "name": "Alphabet Inc. (Class A)",
       "sector": "Communication Services",
-      "pct_change": -6.7935310833878635,
+      "pct_change": -6.957229982680032,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
     },
     {
-      "symbol": "NVR",
-      "name": "NVR, Inc.",
-      "sector": "Consumer Discretionary",
-      "pct_change": -6.0291809979370665,
+      "symbol": "GOOG",
+      "name": "Alphabet Inc. (Class C)",
+      "sector": "Communication Services",
+      "pct_change": -6.877545083961942,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
