@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-07-23T16:59:21+00:00",
+  "updated_utc": "2026-07-23T18:05:18+00:00",
   "drop_threshold_pct": -8.0,
   "high_conviction_pct": -11.0,
   "stocks": [
@@ -7,25 +7,25 @@
       "symbol": "ROL",
       "name": "Rollins, Inc.",
       "sector": "Industrials",
-      "pct_change": -9.408787756463134,
+      "pct_change": -9.891886199694614,
       "conviction": "buy_signal",
       "status": "blocked_news",
       "news_bad": true
     },
     {
-      "symbol": "GL",
-      "name": "Globe Life",
-      "sector": "Financials",
-      "pct_change": -7.701085961383322,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
       "symbol": "TMUS",
       "name": "T-Mobile US",
       "sector": "Communication Services",
-      "pct_change": -6.918407114779912,
+      "pct_change": -8.154397782097398,
+      "conviction": "buy_signal",
+      "status": "bought",
+      "news_bad": false
+    },
+    {
+      "symbol": "GL",
+      "name": "Globe Life",
+      "sector": "Financials",
+      "pct_change": -7.298909062924593,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
@@ -34,7 +34,7 @@
       "symbol": "GOOGL",
       "name": "Alphabet Inc. (Class A)",
       "sector": "Communication Services",
-      "pct_change": -6.664909245241023,
+      "pct_change": -6.467596315838069,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
@@ -43,7 +43,16 @@
       "symbol": "GOOG",
       "name": "Alphabet Inc. (Class C)",
       "sector": "Communication Services",
-      "pct_change": -6.587989136095758,
+      "pct_change": -6.323299957772904,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "LUV",
+      "name": "Southwest Airlines",
+      "sector": "Industrials",
+      "pct_change": -6.084770321367035,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
@@ -52,7 +61,7 @@
       "symbol": "IFF",
       "name": "International Flavors & Fragrances",
       "sector": "Materials",
-      "pct_change": -6.2694255559822665,
+      "pct_change": -6.055693791668899,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
