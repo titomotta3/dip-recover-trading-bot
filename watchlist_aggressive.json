@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-07-23T14:37:29+00:00",
+  "updated_utc": "2026-07-23T14:52:36+00:00",
   "drop_threshold_pct": -8.0,
   "high_conviction_pct": -11.0,
   "stocks": [
@@ -7,7 +7,7 @@
       "symbol": "ROL",
       "name": "Rollins, Inc.",
       "sector": "Industrials",
-      "pct_change": -9.408787756463134,
+      "pct_change": -9.14424241360549,
       "conviction": "buy_signal",
       "status": "blocked_news",
       "news_bad": true
@@ -16,7 +16,7 @@
       "symbol": "GL",
       "name": "Globe Life",
       "sector": "Financials",
-      "pct_change": -7.749997014584749,
+      "pct_change": -7.956521407417629,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
@@ -25,7 +25,7 @@
       "symbol": "GOOGL",
       "name": "Alphabet Inc. (Class A)",
       "sector": "Communication Services",
-      "pct_change": -6.957229982680032,
+      "pct_change": -7.286090812298916,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
@@ -34,7 +34,7 @@
       "symbol": "GOOG",
       "name": "Alphabet Inc. (Class C)",
       "sector": "Communication Services",
-      "pct_change": -6.877545083961942,
+      "pct_change": -7.197805155025922,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
