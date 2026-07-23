@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-07-23T16:58:16+00:00",
+  "updated_utc": "2026-07-23T18:04:13+00:00",
   "drop_threshold_pct": -5.0,
   "high_conviction_pct": -8.0,
   "stocks": [
@@ -7,7 +7,7 @@
       "symbol": "ROL",
       "name": "Rollins, Inc.",
       "sector": "Industrials",
-      "pct_change": -9.443292907664496,
+      "pct_change": -9.983897011074644,
       "conviction": "high",
       "status": "blocked_news",
       "news_bad": true
@@ -16,52 +16,16 @@
       "symbol": "SWKS",
       "name": "Skyworks Solutions",
       "sector": "Information Technology",
-      "pct_change": -4.369851691261982,
+      "pct_change": -4.9240035115025265,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
     },
     {
-      "symbol": "DG",
-      "name": "Dollar General",
-      "sector": "Consumer Staples",
-      "pct_change": -4.2831018108581445,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "CMCSA",
-      "name": "Comcast",
-      "sector": "Communication Services",
-      "pct_change": -4.23044566270389,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "AMZN",
-      "name": "Amazon",
-      "sector": "Consumer Discretionary",
-      "pct_change": -4.2189101791108214,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "AMD",
-      "name": "Advanced Micro Devices",
+      "symbol": "AKAM",
+      "name": "Akamai Technologies",
       "sector": "Information Technology",
-      "pct_change": -4.144264106637198,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "EFX",
-      "name": "Equifax",
-      "sector": "Industrials",
-      "pct_change": -3.9953051807103477,
+      "pct_change": -4.678199757553438,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
@@ -70,7 +34,7 @@
       "symbol": "TXN",
       "name": "Texas Instruments",
       "sector": "Information Technology",
-      "pct_change": -3.931133738546961,
+      "pct_change": -4.646661448142524,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
@@ -79,7 +43,34 @@
       "symbol": "ORCL",
       "name": "Oracle Corporation",
       "sector": "Information Technology",
-      "pct_change": -3.754766856027307,
+      "pct_change": -4.53353017139462,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "DG",
+      "name": "Dollar General",
+      "sector": "Consumer Staples",
+      "pct_change": -4.511805986980918,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "DECK",
+      "name": "Deckers Brands",
+      "sector": "Consumer Discretionary",
+      "pct_change": -4.420804845644552,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "MKC",
+      "name": "McCormick & Company",
+      "sector": "Consumer Staples",
+      "pct_change": -4.354093367391349,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
@@ -88,43 +79,16 @@
       "symbol": "EL",
       "name": "Est\u00e9e Lauder Companies (The)",
       "sector": "Consumer Staples",
-      "pct_change": -3.624585763935279,
+      "pct_change": -4.344664718891934,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
     },
     {
-      "symbol": "META",
-      "name": "Meta Platforms",
-      "sector": "Communication Services",
-      "pct_change": -3.5971105399388232,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "CRM",
-      "name": "Salesforce",
-      "sector": "Information Technology",
-      "pct_change": -3.5460115210410272,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "NCLH",
-      "name": "Norwegian Cruise Line Holdings",
+      "symbol": "AMZN",
+      "name": "Amazon",
       "sector": "Consumer Discretionary",
-      "pct_change": -3.5437116846664263,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "ON",
-      "name": "ON Semiconductor",
-      "sector": "Information Technology",
-      "pct_change": -3.427922509217164,
+      "pct_change": -4.3251016265862505,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
@@ -133,7 +97,43 @@
       "symbol": "BBY",
       "name": "Best Buy",
       "sector": "Consumer Discretionary",
-      "pct_change": -3.3635636375229225,
+      "pct_change": -4.052346176745858,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "ON",
+      "name": "ON Semiconductor",
+      "sector": "Information Technology",
+      "pct_change": -3.9748706770965634,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "CMCSA",
+      "name": "Comcast",
+      "sector": "Communication Services",
+      "pct_change": -3.9328279183933765,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "QCOM",
+      "name": "Qualcomm",
+      "sector": "Information Technology",
+      "pct_change": -3.902011869935312,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "ALGN",
+      "name": "Align Technology",
+      "sector": "Health Care",
+      "pct_change": -3.7979837624760684,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
