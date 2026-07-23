@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-07-23T15:13:03+00:00",
+  "updated_utc": "2026-07-23T15:58:05+00:00",
   "drop_threshold_pct": -8.0,
   "high_conviction_pct": -11.0,
   "stocks": [
@@ -7,7 +7,7 @@
       "symbol": "ROL",
       "name": "Rollins, Inc.",
       "sector": "Industrials",
-      "pct_change": -10.07591659792548,
+      "pct_change": -10.006906295522755,
       "conviction": "buy_signal",
       "status": "blocked_news",
       "news_bad": true
@@ -16,16 +16,7 @@
       "symbol": "GL",
       "name": "Globe Life",
       "sector": "Financials",
-      "pct_change": -7.717389645783798,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "GOOGL",
-      "name": "Alphabet Inc. (Class A)",
-      "sector": "Communication Services",
-      "pct_change": -7.698264122598432,
+      "pct_change": -7.847827413807744,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
@@ -34,7 +25,25 @@
       "symbol": "GOOG",
       "name": "Alphabet Inc. (Class C)",
       "sector": "Communication Services",
-      "pct_change": -7.618969328633818,
+      "pct_change": -6.54544071886207,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "TMUS",
+      "name": "T-Mobile US",
+      "sector": "Communication Services",
+      "pct_change": -6.541324674486098,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "GOOGL",
+      "name": "Alphabet Inc. (Class A)",
+      "sector": "Communication Services",
+      "pct_change": -6.439825488944526,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
