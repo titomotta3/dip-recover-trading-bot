@@ -3,7 +3,7 @@
   "sell_threshold_pct": 10.0,
   "trade_dollars": 12500.0,
   "completed_trades": 1,
-  "last_adjustment": "no change this run",
-  "updated_utc": "2026-07-23T18:05:18+00:00",
-  "risk_exits": 3
+  "last_adjustment": "1 bad_news exit(s) (TSLA)",
+  "updated_utc": "2026-07-23T19:44:01+00:00",
+  "risk_exits": 4
 }

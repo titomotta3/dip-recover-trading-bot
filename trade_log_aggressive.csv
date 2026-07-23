@@ -36,3 +36,4 @@ timestamp_utc,action,symbol,detail
 2026-07-23T13:56:49+00:00,BUY,TSLA,drop=-12.27% notional=$25000.00 news=clear(10) conviction=HIGH
 2026-07-23T14:22:05+00:00,BUY,DOV,drop=-8.42% notional=$12500.00 news=clear(4)
 2026-07-23T18:05:18+00:00,BUY,TMUS,drop=-8.15% notional=$12500.00 news=clear(9)
+2026-07-23T19:43:04+00:00,SELL,TSLA,gain=-3.48% qty=76.288216803 reason=bad_news:plunges

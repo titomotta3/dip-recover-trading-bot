@@ -1,40 +1,31 @@
 {
-  "updated_utc": "2026-07-23T18:05:18+00:00",
+  "updated_utc": "2026-07-23T19:44:01+00:00",
   "drop_threshold_pct": -8.0,
   "high_conviction_pct": -11.0,
   "stocks": [
     {
+      "symbol": "TSLA",
+      "name": "Tesla, Inc.",
+      "sector": "Consumer Discretionary",
+      "pct_change": -15.466163928861675,
+      "conviction": "high",
+      "status": "blocked_news",
+      "news_bad": true
+    },
+    {
       "symbol": "ROL",
       "name": "Rollins, Inc.",
       "sector": "Industrials",
-      "pct_change": -9.891886199694614,
+      "pct_change": -9.477569896624955,
       "conviction": "buy_signal",
       "status": "blocked_news",
       "news_bad": true
     },
     {
-      "symbol": "TMUS",
-      "name": "T-Mobile US",
-      "sector": "Communication Services",
-      "pct_change": -8.154397782097398,
-      "conviction": "buy_signal",
-      "status": "bought",
-      "news_bad": false
-    },
-    {
-      "symbol": "GL",
-      "name": "Globe Life",
-      "sector": "Financials",
-      "pct_change": -7.298909062924593,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
       "symbol": "GOOGL",
       "name": "Alphabet Inc. (Class A)",
       "sector": "Communication Services",
-      "pct_change": -6.467596315838069,
+      "pct_change": -7.161884830018542,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
@@ -43,7 +34,16 @@
       "symbol": "GOOG",
       "name": "Alphabet Inc. (Class C)",
       "sector": "Communication Services",
-      "pct_change": -6.323299957772904,
+      "pct_change": -6.990141745049206,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "GL",
+      "name": "Globe Life",
+      "sector": "Financials",
+      "pct_change": -6.630433124044667,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
@@ -52,16 +52,25 @@
       "symbol": "LUV",
       "name": "Southwest Airlines",
       "sector": "Industrials",
-      "pct_change": -6.084770321367035,
+      "pct_change": -6.567354339354221,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
     },
     {
-      "symbol": "IFF",
-      "name": "International Flavors & Fragrances",
-      "sector": "Materials",
-      "pct_change": -6.055693791668899,
+      "symbol": "CMCSA",
+      "name": "Comcast",
+      "sector": "Communication Services",
+      "pct_change": -6.271260003240546,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "DECK",
+      "name": "Deckers Brands",
+      "sector": "Consumer Discretionary",
+      "pct_change": -6.157897417218799,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
