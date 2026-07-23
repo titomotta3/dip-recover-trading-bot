@@ -6,7 +6,7 @@ on:
     # own minimum cron granularity -- can't go tighter than this).
     # That window covers 9:30am-4:00pm ET in both EDT and EST with margin;
     # trading_bot.py double-checks Alpaca's market clock and exits early
-    # if the market is actually closed (holidays, exact open/close time).
+    # if the market is actually closed (holidays, exact open/close time). (touched 2026-07-23 to re-register the schedule after GitHub silently stopped firing it.)
     - cron: "*/5 13-21 * * 1-5"
   workflow_dispatch: {}
 
