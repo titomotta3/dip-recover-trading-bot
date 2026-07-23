@@ -34,3 +34,4 @@ timestamp_utc,action,symbol,detail
 2026-07-22T16:11:51+00:00,SELL,EFX,gain=0.58% qty=74.524473856 reason=bad_news:sues
 2026-07-23T13:55:39+00:00,SELL,NOC,gain=10.45% qty=25.342747658 reason=target_reached
 2026-07-23T13:56:49+00:00,BUY,TSLA,drop=-12.27% notional=$25000.00 news=clear(10) conviction=HIGH
+2026-07-23T14:22:05+00:00,BUY,DOV,drop=-8.42% notional=$12500.00 news=clear(4)
