@@ -36,3 +36,4 @@ timestamp_utc,action,symbol,detail
 2026-07-23T14:20:54+00:00,BUY,HBAN,drop=-5.47% notional=$10000.00 news=clear(2)
 2026-07-23T14:20:54+00:00,BUY,IFF,drop=-5.18% notional=$10000.00 news=none
 2026-07-23T14:36:19+00:00,BUY,LUV,drop=-5.06% notional=$10000.00 news=clear(7)
+2026-07-23T15:57:02+00:00,BUY,MCHP,drop=-5.16% notional=$10000.00 news=none
