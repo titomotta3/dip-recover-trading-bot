@@ -1,121 +1,40 @@
 {
-  "updated_utc": "2026-07-23T13:55:09+00:00",
+  "updated_utc": "2026-07-23T14:20:54+00:00",
   "drop_threshold_pct": -5.0,
   "high_conviction_pct": -8.0,
   "stocks": [
     {
-      "symbol": "TSLA",
-      "name": "Tesla, Inc.",
-      "sector": "Consumer Discretionary",
-      "pct_change": -12.124007389299225,
-      "conviction": "high",
-      "status": "bought",
-      "news_bad": false
-    },
-    {
       "symbol": "ROL",
       "name": "Rollins, Inc.",
       "sector": "Industrials",
-      "pct_change": -11.916264457588149,
+      "pct_change": -10.789055232813242,
       "conviction": "high",
       "status": "blocked_news",
       "news_bad": true
     },
     {
-      "symbol": "GL",
-      "name": "Globe Life",
-      "sector": "Financials",
-      "pct_change": -7.741845172384511,
-      "conviction": "buy_signal",
-      "status": "bought",
-      "news_bad": false
-    },
-    {
-      "symbol": "DOV",
-      "name": "Dover Corporation",
-      "sector": "Industrials",
-      "pct_change": -7.565373523465163,
-      "conviction": "buy_signal",
-      "status": "bought",
-      "news_bad": false
-    },
-    {
-      "symbol": "GOOG",
-      "name": "Alphabet Inc. (Class C)",
-      "sector": "Communication Services",
-      "pct_change": -6.27212046869844,
-      "conviction": "buy_signal",
-      "status": "bought",
-      "news_bad": false
-    },
-    {
-      "symbol": "GOOGL",
-      "name": "Alphabet Inc. (Class A)",
-      "sector": "Communication Services",
-      "pct_change": -6.113890721394732,
-      "conviction": "buy_signal",
-      "status": "bought",
-      "news_bad": false
-    },
-    {
-      "symbol": "NVR",
-      "name": "NVR, Inc.",
-      "sector": "Consumer Discretionary",
-      "pct_change": -5.6585911680281775,
-      "conviction": "buy_signal",
-      "status": "bought",
-      "news_bad": false
-    },
-    {
-      "symbol": "TMUS",
-      "name": "T-Mobile US",
-      "sector": "Communication Services",
-      "pct_change": -5.391745070341946,
-      "conviction": "buy_signal",
-      "status": "bought",
-      "news_bad": false
-    },
-    {
       "symbol": "HBAN",
       "name": "Huntington Bancshares",
       "sector": "Financials",
-      "pct_change": -4.515603405958736,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "LUV",
-      "name": "Southwest Airlines",
-      "sector": "Industrials",
-      "pct_change": -4.416700690255306,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
+      "pct_change": -5.4734536121757955,
+      "conviction": "buy_signal",
+      "status": "bought",
+      "news_bad": false
     },
     {
       "symbol": "IFF",
       "name": "International Flavors & Fragrances",
       "sector": "Materials",
-      "pct_change": -4.339376433352789,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
+      "pct_change": -5.1813473550805345,
+      "conviction": "buy_signal",
+      "status": "bought",
+      "news_bad": false
     },
     {
-      "symbol": "KR",
-      "name": "Kroger",
-      "sector": "Consumer Staples",
-      "pct_change": -4.1188785347107615,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "UAL",
-      "name": "United Airlines Holdings",
+      "symbol": "LUV",
+      "name": "Southwest Airlines",
       "sector": "Industrials",
-      "pct_change": -3.9271731818523996,
+      "pct_change": -4.637010263424616,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
@@ -124,16 +43,97 @@
       "symbol": "AMZN",
       "name": "Amazon",
       "sector": "Consumer Discretionary",
-      "pct_change": -3.626755757801239,
+      "pct_change": -4.29156781327256,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
     },
     {
-      "symbol": "ISRG",
-      "name": "Intuitive Surgical",
+      "symbol": "DG",
+      "name": "Dollar General",
+      "sector": "Consumer Staples",
+      "pct_change": -4.224878818956507,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "KR",
+      "name": "Kroger",
+      "sector": "Consumer Staples",
+      "pct_change": -4.014600862940992,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "TXN",
+      "name": "Texas Instruments",
+      "sector": "Information Technology",
+      "pct_change": -3.6235098316206464,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "CNC",
+      "name": "Centene Corporation",
       "sector": "Health Care",
-      "pct_change": -3.259564679547069,
+      "pct_change": -3.505839398985727,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "EL",
+      "name": "Est\u00e9e Lauder Companies (The)",
+      "sector": "Consumer Staples",
+      "pct_change": -3.4975184384734965,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "UAL",
+      "name": "United Airlines Holdings",
+      "sector": "Industrials",
+      "pct_change": -3.475187193756363,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "HONA",
+      "name": "Honeywell Aerospace",
+      "sector": "Industrials",
+      "pct_change": -3.4411367496825678,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "META",
+      "name": "Meta Platforms",
+      "sector": "Communication Services",
+      "pct_change": -3.3834480733056407,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "PPG",
+      "name": "PPG Industries",
+      "sector": "Materials",
+      "pct_change": -3.3818904858544565,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "GM",
+      "name": "General Motors",
+      "sector": "Consumer Discretionary",
+      "pct_change": -3.348350288524519,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null

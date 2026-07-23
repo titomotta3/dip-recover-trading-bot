@@ -33,3 +33,5 @@ timestamp_utc,action,symbol,detail
 2026-07-23T13:55:08+00:00,BUY,NVR,drop=-5.66% notional=$10000.00 news=clear(2)
 2026-07-23T13:55:09+00:00,BUY,TMUS,drop=-5.39% notional=$10000.00 news=clear(10)
 2026-07-23T13:55:09+00:00,BUY,TSLA,drop=-12.12% notional=$10000.00 news=clear(10)
+2026-07-23T14:20:54+00:00,BUY,HBAN,drop=-5.47% notional=$10000.00 news=clear(2)
+2026-07-23T14:20:54+00:00,BUY,IFF,drop=-5.18% notional=$10000.00 news=none
