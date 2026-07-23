@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-07-23T15:58:05+00:00",
+  "updated_utc": "2026-07-23T16:02:05+00:00",
   "drop_threshold_pct": -8.0,
   "high_conviction_pct": -11.0,
   "stocks": [
@@ -7,7 +7,7 @@
       "symbol": "ROL",
       "name": "Rollins, Inc.",
       "sector": "Industrials",
-      "pct_change": -10.006906295522755,
+      "pct_change": -9.650332590343472,
       "conviction": "buy_signal",
       "status": "blocked_news",
       "news_bad": true
@@ -16,16 +16,7 @@
       "symbol": "GL",
       "name": "Globe Life",
       "sector": "Financials",
-      "pct_change": -7.847827413807744,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "GOOG",
-      "name": "Alphabet Inc. (Class C)",
-      "sector": "Communication Services",
-      "pct_change": -6.54544071886207,
+      "pct_change": -7.86413109820822,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
@@ -34,7 +25,16 @@
       "symbol": "TMUS",
       "name": "T-Mobile US",
       "sector": "Communication Services",
-      "pct_change": -6.541324674486098,
+      "pct_change": -6.829318930903434,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "GOOG",
+      "name": "Alphabet Inc. (Class C)",
+      "sector": "Communication Services",
+      "pct_change": -6.675736878874108,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
@@ -43,7 +43,16 @@
       "symbol": "GOOGL",
       "name": "Alphabet Inc. (Class A)",
       "sector": "Communication Services",
-      "pct_change": -6.439825488944526,
+      "pct_change": -6.5392134691632755,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "IFF",
+      "name": "International Flavors & Fragrances",
+      "sector": "Materials",
+      "pct_change": -6.023308394172487,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
