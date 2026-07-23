@@ -163,7 +163,7 @@ STOP_LOSS_PCT = float(os.environ.get("STOP_LOSS_PCT", "-12.0"))
 # Time-based exit: if a position has been held this many days without
 # hitting its profit target or the stop-loss above, force a decision at
 # whatever the current price is rather than letting it sit forever.
-MAX_HOLD_DAYS = float(os.environ.get("MAX_HOLD_DAYS", "20"))
+MAX_HOLD_DAYS = float(os.environ.get("MAX_HOLD_DAYS", "90"))
 
 # Market-regime filter: skip all new buys this run if the broader market
 # (via this ETF, SPY by default) is down this % or worse vs. its previous
