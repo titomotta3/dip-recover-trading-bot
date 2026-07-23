@@ -38,3 +38,7 @@ timestamp_utc,action,symbol,detail
 2026-07-23T14:36:19+00:00,BUY,LUV,drop=-5.06% notional=$10000.00 news=clear(7)
 2026-07-23T15:57:02+00:00,BUY,MCHP,drop=-5.16% notional=$10000.00 news=none
 2026-07-23T16:53:27+00:00,BUY,HONA,drop=-5.04% notional=$10000.00 news=clear(2)
+2026-07-23T19:41:49+00:00,SELL,TSLA,gain=-3.69% qty=30.389278876 reason=bad_news:plunges
+2026-07-23T19:42:32+00:00,BUY,CMCSA,drop=-6.14% notional=$10000.00 news=clear(8)
+2026-07-23T19:42:32+00:00,BUY,DECK,drop=-6.07% notional=$10000.00 news=clear(2)
+2026-07-23T19:42:32+00:00,BUY,SWKS,drop=-5.03% notional=$10000.00 news=none
