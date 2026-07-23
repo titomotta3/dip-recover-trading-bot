@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-07-23T14:50:53+00:00",
+  "updated_utc": "2026-07-23T15:06:47+00:00",
   "drop_threshold_pct": -5.0,
   "high_conviction_pct": -8.0,
   "stocks": [
@@ -7,7 +7,7 @@
       "symbol": "ROL",
       "name": "Rollins, Inc.",
       "sector": "Industrials",
-      "pct_change": -9.14424241360549,
+      "pct_change": -9.742352177194306,
       "conviction": "high",
       "status": "blocked_news",
       "news_bad": true
@@ -16,25 +16,7 @@
       "symbol": "AMZN",
       "name": "Amazon",
       "sector": "Consumer Discretionary",
-      "pct_change": -4.982647295452152,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "HONA",
-      "name": "Honeywell Aerospace",
-      "sector": "Industrials",
-      "pct_change": -4.3363146403741775,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "CRM",
-      "name": "Salesforce",
-      "sector": "Information Technology",
-      "pct_change": -4.159508453556366,
+      "pct_change": -4.933633461274085,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
@@ -43,34 +25,16 @@
       "symbol": "MCHP",
       "name": "Microchip Technology",
       "sector": "Information Technology",
-      "pct_change": -3.9990520239118985,
+      "pct_change": -4.798864223423714,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
     },
     {
-      "symbol": "META",
-      "name": "Meta Platforms",
-      "sector": "Communication Services",
-      "pct_change": -3.88082276447798,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "EL",
-      "name": "Est\u00e9e Lauder Companies (The)",
-      "sector": "Consumer Staples",
-      "pct_change": -3.812167495084936,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "PANW",
-      "name": "Palo Alto Networks",
+      "symbol": "CRM",
+      "name": "Salesforce",
       "sector": "Information Technology",
-      "pct_change": -3.6372606086312644,
+      "pct_change": -4.561348195456288,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
@@ -79,34 +43,52 @@
       "symbol": "ON",
       "name": "ON Semiconductor",
       "sector": "Information Technology",
-      "pct_change": -3.547061042922429,
+      "pct_change": -4.353952336984392,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
     },
     {
-      "symbol": "ALGN",
-      "name": "Align Technology",
-      "sector": "Health Care",
-      "pct_change": -3.435580900555186,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "TXN",
-      "name": "Texas Instruments",
-      "sector": "Information Technology",
-      "pct_change": -3.329485484363204,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "DG",
-      "name": "Dollar General",
+      "symbol": "EL",
+      "name": "Est\u00e9e Lauder Companies (The)",
       "sector": "Consumer Staples",
-      "pct_change": -3.324598827024986,
+      "pct_change": -4.314407516047997,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "META",
+      "name": "Meta Platforms",
+      "sector": "Communication Services",
+      "pct_change": -4.188650479443782,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "ORCL",
+      "name": "Oracle Corporation",
+      "sector": "Information Technology",
+      "pct_change": -4.032896611515633,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "FCX",
+      "name": "Freeport-McMoRan",
+      "sector": "Materials",
+      "pct_change": -3.9384636512169475,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "HOOD",
+      "name": "Robinhood Markets",
+      "sector": "Financials",
+      "pct_change": -3.8738526973391973,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
@@ -115,25 +97,43 @@
       "symbol": "COIN",
       "name": "Coinbase",
       "sector": "Financials",
-      "pct_change": -3.298817655077139,
+      "pct_change": -3.7924319637286854,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
     },
     {
-      "symbol": "EXPE",
-      "name": "Expedia Group",
+      "symbol": "SWKS",
+      "name": "Skyworks Solutions",
+      "sector": "Information Technology",
+      "pct_change": -3.66038805907949,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "TXN",
+      "name": "Texas Instruments",
+      "sector": "Information Technology",
+      "pct_change": -3.5555224067009004,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "NCLH",
+      "name": "Norwegian Cruise Line Holdings",
       "sector": "Consumer Discretionary",
-      "pct_change": -3.217402454614919,
+      "pct_change": -3.5437116846664263,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
     },
     {
-      "symbol": "EFX",
-      "name": "Equifax",
+      "symbol": "HONA",
+      "name": "Honeywell Aerospace",
       "sector": "Industrials",
-      "pct_change": -3.1974168646638934,
+      "pct_change": -3.5349895388655566,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
