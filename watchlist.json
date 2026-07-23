@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-07-23T15:06:47+00:00",
+  "updated_utc": "2026-07-23T15:11:23+00:00",
   "drop_threshold_pct": -5.0,
   "high_conviction_pct": -8.0,
   "stocks": [
@@ -7,25 +7,25 @@
       "symbol": "ROL",
       "name": "Rollins, Inc.",
       "sector": "Industrials",
-      "pct_change": -9.742352177194306,
+      "pct_change": -9.867499166330273,
       "conviction": "high",
       "status": "blocked_news",
       "news_bad": true
     },
     {
-      "symbol": "AMZN",
-      "name": "Amazon",
-      "sector": "Consumer Discretionary",
-      "pct_change": -4.933633461274085,
+      "symbol": "MCHP",
+      "name": "Microchip Technology",
+      "sector": "Information Technology",
+      "pct_change": -4.8811974363007895,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
     },
     {
-      "symbol": "MCHP",
-      "name": "Microchip Technology",
-      "sector": "Information Technology",
-      "pct_change": -4.798864223423714,
+      "symbol": "AMZN",
+      "name": "Amazon",
+      "sector": "Consumer Discretionary",
+      "pct_change": -4.843782035822164,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
@@ -34,16 +34,7 @@
       "symbol": "CRM",
       "name": "Salesforce",
       "sector": "Information Technology",
-      "pct_change": -4.561348195456288,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "ON",
-      "name": "ON Semiconductor",
-      "sector": "Information Technology",
-      "pct_change": -4.353952336984392,
+      "pct_change": -4.748469627708014,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
@@ -52,7 +43,7 @@
       "symbol": "EL",
       "name": "Est\u00e9e Lauder Companies (The)",
       "sector": "Consumer Staples",
-      "pct_change": -4.314407516047997,
+      "pct_change": -4.4656842970657165,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
@@ -61,7 +52,7 @@
       "symbol": "META",
       "name": "Meta Platforms",
       "sector": "Communication Services",
-      "pct_change": -4.188650479443782,
+      "pct_change": -4.442174547686144,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
@@ -70,7 +61,25 @@
       "symbol": "ORCL",
       "name": "Oracle Corporation",
       "sector": "Information Technology",
-      "pct_change": -4.032896611515633,
+      "pct_change": -4.322945780612462,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "ON",
+      "name": "ON Semiconductor",
+      "sector": "Information Technology",
+      "pct_change": -4.261892245154017,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "COIN",
+      "name": "Coinbase",
+      "sector": "Financials",
+      "pct_change": -3.9489512108196685,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
@@ -85,46 +94,10 @@
       "news_bad": null
     },
     {
-      "symbol": "HOOD",
-      "name": "Robinhood Markets",
-      "sector": "Financials",
-      "pct_change": -3.8738526973391973,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "COIN",
-      "name": "Coinbase",
-      "sector": "Financials",
-      "pct_change": -3.7924319637286854,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
       "symbol": "SWKS",
       "name": "Skyworks Solutions",
       "sector": "Information Technology",
-      "pct_change": -3.66038805907949,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "TXN",
-      "name": "Texas Instruments",
-      "sector": "Information Technology",
-      "pct_change": -3.5555224067009004,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "NCLH",
-      "name": "Norwegian Cruise Line Holdings",
-      "sector": "Consumer Discretionary",
-      "pct_change": -3.5437116846664263,
+      "pct_change": -3.799875762629919,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
@@ -133,7 +106,34 @@
       "symbol": "HONA",
       "name": "Honeywell Aerospace",
       "sector": "Industrials",
-      "pct_change": -3.5349895388655566,
+      "pct_change": -3.7106514103254225,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "PANW",
+      "name": "Palo Alto Networks",
+      "sector": "Information Technology",
+      "pct_change": -3.70883965756015,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "HOOD",
+      "name": "Robinhood Markets",
+      "sector": "Financials",
+      "pct_change": -3.704060702755717,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "TXN",
+      "name": "Texas Instruments",
+      "sector": "Information Technology",
+      "pct_change": -3.626912314894018,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
