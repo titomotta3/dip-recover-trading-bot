@@ -1,85 +1,31 @@
 {
-  "updated_utc": "2026-07-24T14:59:19+00:00",
+  "updated_utc": "2026-07-24T16:51:29+00:00",
   "drop_threshold_pct": -8.0,
   "high_conviction_pct": -11.0,
   "stocks": [
     {
-      "symbol": "SNDK",
-      "name": "Sandisk",
-      "sector": "Information Technology",
-      "pct_change": -9.321660850058404,
+      "symbol": "CHRW",
+      "name": "C.H. Robinson",
+      "sector": "Industrials",
+      "pct_change": -8.109091397780404,
       "conviction": "buy_signal",
       "status": "bought",
       "news_bad": false
-    },
-    {
-      "symbol": "COHR",
-      "name": "Coherent Corp.",
-      "sector": "Information Technology",
-      "pct_change": -8.668026879086106,
-      "conviction": "buy_signal",
-      "status": "bought",
-      "news_bad": false
-    },
-    {
-      "symbol": "HOOD",
-      "name": "Robinhood Markets",
-      "sector": "Financials",
-      "pct_change": -7.235674681661679,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "MRVL",
-      "name": "Marvell Technology",
-      "sector": "Information Technology",
-      "pct_change": -7.204281150103848,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
     },
     {
       "symbol": "LITE",
       "name": "Lumentum",
       "sector": "Information Technology",
-      "pct_change": -7.082198314028671,
+      "pct_change": -7.452118329304298,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
     },
     {
-      "symbol": "CHRW",
-      "name": "C.H. Robinson",
-      "sector": "Industrials",
-      "pct_change": -7.033722065801459,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "MU",
-      "name": "Micron Technology",
-      "sector": "Information Technology",
-      "pct_change": -6.700590084778342,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "AXP",
-      "name": "American Express",
+      "symbol": "HOOD",
+      "name": "Robinhood Markets",
       "sector": "Financials",
-      "pct_change": -6.140735962151183,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "FLEX",
-      "name": "Flex Ltd.",
-      "sector": "Information Technology",
-      "pct_change": -6.0106317763500945,
+      "pct_change": -6.512113973147956,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null

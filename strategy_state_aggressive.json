@@ -3,7 +3,7 @@
   "sell_threshold_pct": 10.0,
   "trade_dollars": 12500.0,
   "completed_trades": 1,
-  "last_adjustment": "2 bad_news exit(s) (DOV, TMUS)",
-  "updated_utc": "2026-07-24T14:59:19+00:00",
+  "last_adjustment": "no change this run",
+  "updated_utc": "2026-07-24T16:51:29+00:00",
   "risk_exits": 6
 }

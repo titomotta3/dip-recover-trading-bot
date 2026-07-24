@@ -41,3 +41,4 @@ timestamp_utc,action,symbol,detail
 2026-07-24T14:58:51+00:00,SELL,TMUS,gain=1.92% qty=71.237191542 reason=bad_news:warns
 2026-07-24T14:59:19+00:00,BUY,COHR,drop=-8.67% notional=$12500.00 news=clear(2)
 2026-07-24T14:59:19+00:00,BUY,SNDK,drop=-9.32% notional=$12500.00 news=clear(10)
+2026-07-24T16:51:29+00:00,BUY,CHRW,drop=-8.11% notional=$12500.00 news=none
