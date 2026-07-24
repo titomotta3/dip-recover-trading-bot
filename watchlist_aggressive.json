@@ -1,76 +1,85 @@
 {
-  "updated_utc": "2026-07-23T19:44:01+00:00",
+  "updated_utc": "2026-07-24T14:59:19+00:00",
   "drop_threshold_pct": -8.0,
   "high_conviction_pct": -11.0,
   "stocks": [
     {
-      "symbol": "TSLA",
-      "name": "Tesla, Inc.",
-      "sector": "Consumer Discretionary",
-      "pct_change": -15.466163928861675,
-      "conviction": "high",
-      "status": "blocked_news",
-      "news_bad": true
-    },
-    {
-      "symbol": "ROL",
-      "name": "Rollins, Inc.",
-      "sector": "Industrials",
-      "pct_change": -9.477569896624955,
+      "symbol": "SNDK",
+      "name": "Sandisk",
+      "sector": "Information Technology",
+      "pct_change": -9.321660850058404,
       "conviction": "buy_signal",
-      "status": "blocked_news",
-      "news_bad": true
+      "status": "bought",
+      "news_bad": false
     },
     {
-      "symbol": "GOOGL",
-      "name": "Alphabet Inc. (Class A)",
-      "sector": "Communication Services",
-      "pct_change": -7.161884830018542,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
+      "symbol": "COHR",
+      "name": "Coherent Corp.",
+      "sector": "Information Technology",
+      "pct_change": -8.668026879086106,
+      "conviction": "buy_signal",
+      "status": "bought",
+      "news_bad": false
     },
     {
-      "symbol": "GOOG",
-      "name": "Alphabet Inc. (Class C)",
-      "sector": "Communication Services",
-      "pct_change": -6.990141745049206,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "GL",
-      "name": "Globe Life",
+      "symbol": "HOOD",
+      "name": "Robinhood Markets",
       "sector": "Financials",
-      "pct_change": -6.630433124044667,
+      "pct_change": -7.235674681661679,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
     },
     {
-      "symbol": "LUV",
-      "name": "Southwest Airlines",
+      "symbol": "MRVL",
+      "name": "Marvell Technology",
+      "sector": "Information Technology",
+      "pct_change": -7.204281150103848,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "LITE",
+      "name": "Lumentum",
+      "sector": "Information Technology",
+      "pct_change": -7.082198314028671,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "CHRW",
+      "name": "C.H. Robinson",
       "sector": "Industrials",
-      "pct_change": -6.567354339354221,
+      "pct_change": -7.033722065801459,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
     },
     {
-      "symbol": "CMCSA",
-      "name": "Comcast",
-      "sector": "Communication Services",
-      "pct_change": -6.271260003240546,
+      "symbol": "MU",
+      "name": "Micron Technology",
+      "sector": "Information Technology",
+      "pct_change": -6.700590084778342,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
     },
     {
-      "symbol": "DECK",
-      "name": "Deckers Brands",
-      "sector": "Consumer Discretionary",
-      "pct_change": -6.157897417218799,
+      "symbol": "AXP",
+      "name": "American Express",
+      "sector": "Financials",
+      "pct_change": -6.140735962151183,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "FLEX",
+      "name": "Flex Ltd.",
+      "sector": "Information Technology",
+      "pct_change": -6.0106317763500945,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null

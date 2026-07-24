@@ -37,3 +37,7 @@ timestamp_utc,action,symbol,detail
 2026-07-23T14:22:05+00:00,BUY,DOV,drop=-8.42% notional=$12500.00 news=clear(4)
 2026-07-23T18:05:18+00:00,BUY,TMUS,drop=-8.15% notional=$12500.00 news=clear(9)
 2026-07-23T19:43:04+00:00,SELL,TSLA,gain=-3.48% qty=76.288216803 reason=bad_news:plunges
+2026-07-24T14:58:50+00:00,SELL,DOV,gain=3.05% qty=63.477503554 reason=bad_news:downgrade
+2026-07-24T14:58:51+00:00,SELL,TMUS,gain=1.92% qty=71.237191542 reason=bad_news:warns
+2026-07-24T14:59:19+00:00,BUY,COHR,drop=-8.67% notional=$12500.00 news=clear(2)
+2026-07-24T14:59:19+00:00,BUY,SNDK,drop=-9.32% notional=$12500.00 news=clear(10)
