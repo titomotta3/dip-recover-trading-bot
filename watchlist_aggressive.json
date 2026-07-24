@@ -1,31 +1,31 @@
 {
-  "updated_utc": "2026-07-24T16:51:29+00:00",
+  "updated_utc": "2026-07-24T18:10:36+00:00",
   "drop_threshold_pct": -8.0,
   "high_conviction_pct": -11.0,
   "stocks": [
     {
-      "symbol": "CHRW",
-      "name": "C.H. Robinson",
-      "sector": "Industrials",
-      "pct_change": -8.109091397780404,
-      "conviction": "buy_signal",
-      "status": "bought",
-      "news_bad": false
-    },
-    {
       "symbol": "LITE",
       "name": "Lumentum",
       "sector": "Information Technology",
-      "pct_change": -7.452118329304298,
+      "pct_change": -7.809130497238394,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
     },
     {
-      "symbol": "HOOD",
-      "name": "Robinhood Markets",
-      "sector": "Financials",
-      "pct_change": -6.512113973147956,
+      "symbol": "MU",
+      "name": "Micron Technology",
+      "sector": "Information Technology",
+      "pct_change": -6.3446148607821415,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "MRVL",
+      "name": "Marvell Technology",
+      "sector": "Information Technology",
+      "pct_change": -6.1198224580325,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
