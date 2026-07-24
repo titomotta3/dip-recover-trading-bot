@@ -56,3 +56,11 @@ timestamp_utc,action,symbol,detail
 2026-07-24T14:58:26+00:00,BUY,SNDK,drop=-7.89% notional=$10000.00 news=clear(10)
 2026-07-24T18:09:12+00:00,BUY,FIX,drop=-5.40% notional=$10000.00 news=clear(3)
 2026-07-24T18:09:12+00:00,BUY,WST,drop=-5.58% notional=$10000.00 news=clear(7)
+2026-07-24T19:46:41+00:00,BUY,AMAT,drop=-5.12% notional=$10000.00 news=clear(2)
+2026-07-24T19:46:42+00:00,BUY,GLW,drop=-6.10% notional=$10000.00 news=clear(1)
+2026-07-24T19:46:42+00:00,BUY,GNRC,drop=-5.10% notional=$10000.00 news=clear(1)
+2026-07-24T19:46:42+00:00,BUY,INTC,drop=-7.81% notional=$10000.00 news=clear(10)
+2026-07-24T19:46:42+00:00,BUY,LRCX,drop=-5.15% notional=$10000.00 news=clear(3)
+2026-07-24T19:46:42+00:00,BUY,STX,drop=-7.37% notional=$10000.00 news=clear(1)
+2026-07-24T19:46:42+00:00,BUY,TER,drop=-6.75% notional=$10000.00 news=none
+2026-07-24T19:46:42+00:00,BUY,WDC,drop=-7.51% notional=$10000.00 news=clear(6)

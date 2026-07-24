@@ -1,22 +1,13 @@
 {
-  "updated_utc": "2026-07-24T18:09:12+00:00",
+  "updated_utc": "2026-07-24T19:46:42+00:00",
   "drop_threshold_pct": -5.0,
   "high_conviction_pct": -8.0,
   "stocks": [
     {
-      "symbol": "HOOD",
-      "name": "Robinhood Markets",
-      "sector": "Financials",
-      "pct_change": -5.995278457873921,
-      "conviction": "buy_signal",
-      "status": "blocked_news",
-      "news_bad": true
-    },
-    {
-      "symbol": "WST",
-      "name": "West Pharmaceutical Services",
-      "sector": "Health Care",
-      "pct_change": -5.5811847993483035,
+      "symbol": "INTC",
+      "name": "Intel",
+      "sector": "Information Technology",
+      "pct_change": -7.812536275398678,
       "conviction": "buy_signal",
       "status": "bought",
       "news_bad": false
@@ -25,61 +16,79 @@
       "symbol": "WDC",
       "name": "Western Digital",
       "sector": "Information Technology",
-      "pct_change": -5.471966408908006,
-      "conviction": "buy_signal",
-      "status": "blocked_news",
-      "news_bad": true
-    },
-    {
-      "symbol": "FIX",
-      "name": "Comfort Systems USA",
-      "sector": "Industrials",
-      "pct_change": -5.395245754204398,
+      "pct_change": -7.510297974666965,
       "conviction": "buy_signal",
       "status": "bought",
       "news_bad": false
     },
     {
-      "symbol": "AXP",
-      "name": "American Express",
+      "symbol": "STX",
+      "name": "Seagate Technology",
+      "sector": "Information Technology",
+      "pct_change": -7.369492712414523,
+      "conviction": "buy_signal",
+      "status": "bought",
+      "news_bad": false
+    },
+    {
+      "symbol": "HOOD",
+      "name": "Robinhood Markets",
       "sector": "Financials",
-      "pct_change": -4.975912476401569,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
+      "pct_change": -7.107699439414512,
+      "conviction": "buy_signal",
+      "status": "blocked_news",
+      "news_bad": true
     },
     {
       "symbol": "TER",
       "name": "Teradyne",
       "sector": "Information Technology",
-      "pct_change": -4.8133753135451505,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
+      "pct_change": -6.750504611726589,
+      "conviction": "buy_signal",
+      "status": "bought",
+      "news_bad": false
     },
     {
-      "symbol": "INTC",
-      "name": "Intel",
+      "symbol": "GLW",
+      "name": "Corning Inc.",
       "sector": "Information Technology",
-      "pct_change": -4.744093308945862,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
+      "pct_change": -6.097013673267532,
+      "conviction": "buy_signal",
+      "status": "bought",
+      "news_bad": false
     },
     {
-      "symbol": "MRNA",
-      "name": "Moderna",
-      "sector": "Health Care",
-      "pct_change": -4.54226610276227,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "STX",
-      "name": "Seagate Technology",
+      "symbol": "LRCX",
+      "name": "Lam Research",
       "sector": "Information Technology",
-      "pct_change": -4.475782335381961,
+      "pct_change": -5.150416312331734,
+      "conviction": "buy_signal",
+      "status": "bought",
+      "news_bad": false
+    },
+    {
+      "symbol": "AMAT",
+      "name": "Applied Materials",
+      "sector": "Information Technology",
+      "pct_change": -5.124372147449575,
+      "conviction": "buy_signal",
+      "status": "bought",
+      "news_bad": false
+    },
+    {
+      "symbol": "GNRC",
+      "name": "Generac",
+      "sector": "Industrials",
+      "pct_change": -5.104510744507126,
+      "conviction": "buy_signal",
+      "status": "bought",
+      "news_bad": false
+    },
+    {
+      "symbol": "MPWR",
+      "name": "Monolithic Power Systems",
+      "sector": "Information Technology",
+      "pct_change": -4.927528862335113,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
@@ -88,16 +97,16 @@
       "symbol": "ECHO",
       "name": "EchoStar",
       "sector": "Communication Services",
-      "pct_change": -4.086990936352876,
+      "pct_change": -4.87378317162869,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
     },
     {
-      "symbol": "GLW",
-      "name": "Corning Inc.",
-      "sector": "Information Technology",
-      "pct_change": -4.017688306131636,
+      "symbol": "MRNA",
+      "name": "Moderna",
+      "sector": "Health Care",
+      "pct_change": -4.858119287362106,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
@@ -106,34 +115,25 @@
       "symbol": "CIEN",
       "name": "Ciena",
       "sector": "Information Technology",
-      "pct_change": -3.8377503932733577,
+      "pct_change": -4.5370869113339785,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
     },
     {
-      "symbol": "MPWR",
-      "name": "Monolithic Power Systems",
-      "sector": "Information Technology",
-      "pct_change": -3.7497773133138548,
+      "symbol": "AXP",
+      "name": "American Express",
+      "sector": "Financials",
+      "pct_change": -4.532913348038191,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
     },
     {
-      "symbol": "TSLA",
-      "name": "Tesla, Inc.",
-      "sector": "Consumer Discretionary",
-      "pct_change": -3.5909821698075204,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "DOW",
-      "name": "Dow Inc.",
-      "sector": "Materials",
-      "pct_change": -3.268609195309354,
+      "symbol": "UBER",
+      "name": "Uber",
+      "sector": "Industrials",
+      "pct_change": -4.484115227212236,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
