@@ -3,7 +3,7 @@
   "sell_threshold_pct": 10.0,
   "trade_dollars": 12500.0,
   "completed_trades": 1,
-  "last_adjustment": "1 bad_news exit(s) (PANW)",
-  "updated_utc": "2026-07-24T18:10:36+00:00",
+  "last_adjustment": "no change this run",
+  "updated_utc": "2026-07-24T19:47:37+00:00",
   "risk_exits": 7
 }
