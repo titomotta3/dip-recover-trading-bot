@@ -1,88 +1,142 @@
 {
-  "updated_utc": "2026-07-27T15:45:22+00:00",
+  "updated_utc": "2026-07-27T17:26:02+00:00",
   "drop_threshold_pct": -8.0,
   "high_conviction_pct": -11.0,
   "stocks": [
     {
-      "symbol": "SNDK",
-      "name": "Sandisk",
+      "symbol": "FLEX",
+      "name": "Flex Ltd.",
       "sector": "Information Technology",
-      "pct_change": -11.32845865588063,
+      "pct_change": -13.951934457574747,
       "conviction": "high",
-      "status": "bought",
+      "status": "order_failed",
       "news_bad": false
     },
     {
-      "symbol": "LRCX",
-      "name": "Lam Research",
+      "symbol": "WDC",
+      "name": "Western Digital",
       "sector": "Information Technology",
-      "pct_change": -8.476129825846522,
-      "conviction": "buy_signal",
-      "status": "bought",
+      "pct_change": -12.589105262634295,
+      "conviction": "high",
+      "status": "order_failed",
+      "news_bad": false
+    },
+    {
+      "symbol": "TER",
+      "name": "Teradyne",
+      "sector": "Information Technology",
+      "pct_change": -12.4267578125,
+      "conviction": "high",
+      "status": "order_failed",
+      "news_bad": false
+    },
+    {
+      "symbol": "MU",
+      "name": "Micron Technology",
+      "sector": "Information Technology",
+      "pct_change": -12.389795582374099,
+      "conviction": "high",
+      "status": "blocked_news",
+      "news_bad": true
+    },
+    {
+      "symbol": "STX",
+      "name": "Seagate Technology",
+      "sector": "Information Technology",
+      "pct_change": -12.249278124413195,
+      "conviction": "high",
+      "status": "order_failed",
+      "news_bad": false
+    },
+    {
+      "symbol": "MRVL",
+      "name": "Marvell Technology",
+      "sector": "Information Technology",
+      "pct_change": -11.312825867568412,
+      "conviction": "high",
+      "status": "order_failed",
       "news_bad": false
     },
     {
       "symbol": "AMD",
       "name": "Advanced Micro Devices",
       "sector": "Information Technology",
-      "pct_change": -7.991190918127996,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
+      "pct_change": -11.158257693914047,
+      "conviction": "high",
+      "status": "bought",
+      "news_bad": false
+    },
+    {
+      "symbol": "GLW",
+      "name": "Corning Inc.",
+      "sector": "Information Technology",
+      "pct_change": -10.82276025495065,
+      "conviction": "buy_signal",
+      "status": "order_failed",
+      "news_bad": false
+    },
+    {
+      "symbol": "INTC",
+      "name": "Intel",
+      "sector": "Information Technology",
+      "pct_change": -10.585554297987256,
+      "conviction": "buy_signal",
+      "status": "blocked_news",
+      "news_bad": true
     },
     {
       "symbol": "AMAT",
       "name": "Applied Materials",
       "sector": "Information Technology",
-      "pct_change": -7.621444310897436,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
+      "pct_change": -10.582800080035442,
+      "conviction": "buy_signal",
+      "status": "bought",
+      "news_bad": false
     },
     {
-      "symbol": "TER",
-      "name": "Teradyne",
+      "symbol": "CIEN",
+      "name": "Ciena",
       "sector": "Information Technology",
-      "pct_change": -7.3809766967705634,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "FLEX",
-      "name": "Flex Ltd.",
-      "sector": "Information Technology",
-      "pct_change": -7.317948235611612,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "STX",
-      "name": "Seagate Technology",
-      "sector": "Information Technology",
-      "pct_change": -6.713121867002568,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
+      "pct_change": -9.777194645806112,
+      "conviction": "buy_signal",
+      "status": "order_failed",
+      "news_bad": false
     },
     {
       "symbol": "KLAC",
       "name": "KLA Corporation",
       "sector": "Information Technology",
-      "pct_change": -6.574202601082771,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
+      "pct_change": -9.408861259564125,
+      "conviction": "buy_signal",
+      "status": "order_failed",
+      "news_bad": false
     },
     {
-      "symbol": "WDC",
-      "name": "Western Digital",
-      "sector": "Information Technology",
-      "pct_change": -6.4351640005763,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
+      "symbol": "FIX",
+      "name": "Comfort Systems USA",
+      "sector": "Industrials",
+      "pct_change": -8.387623284414325,
+      "conviction": "buy_signal",
+      "status": "order_failed",
+      "news_bad": false
+    },
+    {
+      "symbol": "GNRC",
+      "name": "Generac",
+      "sector": "Industrials",
+      "pct_change": -8.154391109801812,
+      "conviction": "buy_signal",
+      "status": "order_failed",
+      "news_bad": false
+    },
+    {
+      "symbol": "VRT",
+      "name": "Vertiv",
+      "sector": "Industrials",
+      "pct_change": -8.071308990670579,
+      "conviction": "buy_signal",
+      "status": "order_failed",
+      "news_bad": false
     }
   ]
 }
