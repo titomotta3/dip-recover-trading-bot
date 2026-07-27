@@ -64,3 +64,17 @@ timestamp_utc,action,symbol,detail
 2026-07-24T19:46:42+00:00,BUY,STX,drop=-7.37% notional=$10000.00 news=clear(1)
 2026-07-24T19:46:42+00:00,BUY,TER,drop=-6.75% notional=$10000.00 news=none
 2026-07-24T19:46:42+00:00,BUY,WDC,drop=-7.51% notional=$10000.00 news=clear(6)
+2026-07-27T15:43:51+00:00,SELL,GOOGL,gain=1.88% qty=31.109807339 reason=bad_news:warns
+2026-07-27T15:43:51+00:00,SELL,INTC,gain=-3.62% qty=108.15476963 reason=bad_news:layoffs
+2026-07-27T15:43:51+00:00,SELL,MU,gain=-6.76% qty=10.707228283 reason=bad_news:layoffs
+2026-07-27T15:43:51+00:00,SELL,NOW,gain=7.71% qty=103.268202003 reason=target_reached
+2026-07-27T15:43:51+00:00,SELL,NVR,gain=7.10% qty=1.655351226 reason=target_reached
+2026-07-27T15:43:51+00:00,SELL,PLTR,gain=2.86% qty=79.402810862 reason=bad_news:warns
+2026-07-27T15:43:51+00:00,SELL,PTC,gain=8.03% qty=87.138288602 reason=target_reached
+2026-07-27T15:43:51+00:00,SELL,SNDK,gain=-14.11% qty=6.75313686 reason=stop_loss
+2026-07-27T15:43:51+00:00,SELL,TYL,gain=11.57% qty=35.136999297 reason=target_reached
+2026-07-27T15:44:26+00:00,BUY,AMD,drop=-7.80% notional=$10000.00 news=clear(10)
+2026-07-27T15:44:26+00:00,BUY,CAT,drop=-5.04% notional=$10000.00 news=clear(1)
+2026-07-27T15:44:26+00:00,BUY,CIEN,drop=-5.97% notional=$10000.00 news=none
+2026-07-27T15:44:26+00:00,BUY,KLAC,drop=-6.50% notional=$10000.00 news=clear(1)
+2026-07-27T15:44:26+00:00,BUY,SNDK,drop=-11.27% notional=$10000.00 news=clear(10)
