@@ -1,31 +1,13 @@
 {
-  "updated_utc": "2026-07-27T17:24:38+00:00",
+  "updated_utc": "2026-07-27T18:57:00+00:00",
   "drop_threshold_pct": -5.0,
   "high_conviction_pct": -8.0,
   "stocks": [
     {
-      "symbol": "MU",
-      "name": "Micron Technology",
-      "sector": "Information Technology",
-      "pct_change": -5.729954810987852,
-      "conviction": "buy_signal",
-      "status": "blocked_news",
-      "news_bad": true
-    },
-    {
-      "symbol": "NVDA",
-      "name": "Nvidia",
-      "sector": "Information Technology",
-      "pct_change": -5.472825500797981,
-      "conviction": "buy_signal",
-      "status": "blocked_news",
-      "news_bad": true
-    },
-    {
       "symbol": "FDXF",
       "name": "FedEx Freight",
       "sector": "Industrials",
-      "pct_change": -4.658228234399723,
+      "pct_change": -4.920882212964795,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
@@ -34,61 +16,16 @@
       "symbol": "VST",
       "name": "Vistra Corp.",
       "sector": "Utilities",
-      "pct_change": -4.5415582979492815,
+      "pct_change": -4.581344342424476,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
     },
     {
-      "symbol": "SMCI",
-      "name": "Supermicro",
+      "symbol": "NVDA",
+      "name": "Nvidia",
       "sector": "Information Technology",
-      "pct_change": -3.903658237601014,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "BG",
-      "name": "Bunge Global",
-      "sector": "Consumer Staples",
-      "pct_change": -3.813874913837373,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "Q",
-      "name": "Qnity Electronics",
-      "sector": "Information Technology",
-      "pct_change": -3.709458460979482,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "VRT",
-      "name": "Vertiv",
-      "sector": "Industrials",
-      "pct_change": -3.7023007791463067,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "EQIX",
-      "name": "Equinix",
-      "sector": "Real Estate",
-      "pct_change": -3.6624696833877235,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "TRGP",
-      "name": "Targa Resources",
-      "sector": "Energy",
-      "pct_change": -3.611407823360999,
+      "pct_change": -4.491346885455653,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
@@ -97,7 +34,16 @@
       "symbol": "DELL",
       "name": "Dell Technologies",
       "sector": "Information Technology",
-      "pct_change": -3.5428571428571427,
+      "pct_change": -4.3977120535714285,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "TRGP",
+      "name": "Targa Resources",
+      "sector": "Energy",
+      "pct_change": -4.329432786096749,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
@@ -106,25 +52,25 @@
       "symbol": "TPL",
       "name": "Texas Pacific Land Corporation",
       "sector": "Energy",
-      "pct_change": -3.5177867625712933,
+      "pct_change": -4.112626335016708,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
     },
     {
-      "symbol": "ADM",
-      "name": "Archer Daniels Midland",
+      "symbol": "DVN",
+      "name": "Devon Energy",
+      "sector": "Energy",
+      "pct_change": -3.730018363735442,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "BG",
+      "name": "Bunge Global",
       "sector": "Consumer Staples",
-      "pct_change": -3.514893747004228,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "DLR",
-      "name": "Digital Realty",
-      "sector": "Real Estate",
-      "pct_change": -3.4106934310177883,
+      "pct_change": -3.7192435517710267,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
@@ -133,7 +79,61 @@
       "symbol": "DOW",
       "name": "Dow Inc.",
       "sector": "Materials",
-      "pct_change": -3.3512064171798417,
+      "pct_change": -3.6695687257210943,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "PSKY",
+      "name": "Paramount Skydance Corporation",
+      "sector": "Communication Services",
+      "pct_change": -3.635810714350847,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "FANG",
+      "name": "Diamondback Energy",
+      "sector": "Energy",
+      "pct_change": -3.5909669277588603,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "ADM",
+      "name": "Archer Daniels Midland",
+      "sector": "Consumer Staples",
+      "pct_change": -3.491620186142313,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "EOG",
+      "name": "EOG Resources",
+      "sector": "Energy",
+      "pct_change": -3.4667647854372845,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "WMB",
+      "name": "Williams Companies",
+      "sector": "Energy",
+      "pct_change": -3.44595006994299,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "SMCI",
+      "name": "Supermicro",
+      "sector": "Information Technology",
+      "pct_change": -3.421593302709721,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
