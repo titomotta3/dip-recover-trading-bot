@@ -1,103 +1,40 @@
 {
-  "updated_utc": "2026-07-27T15:44:26+00:00",
+  "updated_utc": "2026-07-27T17:24:38+00:00",
   "drop_threshold_pct": -5.0,
   "high_conviction_pct": -8.0,
   "stocks": [
     {
-      "symbol": "SNDK",
-      "name": "Sandisk",
-      "sector": "Information Technology",
-      "pct_change": -11.27450863761121,
-      "conviction": "high",
-      "status": "bought",
-      "news_bad": false
-    },
-    {
-      "symbol": "AMD",
-      "name": "Advanced Micro Devices",
-      "sector": "Information Technology",
-      "pct_change": -7.8034313696256,
-      "conviction": "buy_signal",
-      "status": "bought",
-      "news_bad": false
-    },
-    {
-      "symbol": "KLAC",
-      "name": "KLA Corporation",
-      "sector": "Information Technology",
-      "pct_change": -6.495821192393307,
-      "conviction": "buy_signal",
-      "status": "bought",
-      "news_bad": false
-    },
-    {
-      "symbol": "CIEN",
-      "name": "Ciena",
-      "sector": "Information Technology",
-      "pct_change": -5.9711995423924344,
-      "conviction": "buy_signal",
-      "status": "bought",
-      "news_bad": false
-    },
-    {
       "symbol": "MU",
       "name": "Micron Technology",
       "sector": "Information Technology",
-      "pct_change": -5.497584473828182,
+      "pct_change": -5.729954810987852,
       "conviction": "buy_signal",
       "status": "blocked_news",
       "news_bad": true
     },
     {
-      "symbol": "CAT",
-      "name": "Caterpillar Inc.",
-      "sector": "Industrials",
-      "pct_change": -5.037520898358844,
-      "conviction": "buy_signal",
-      "status": "bought",
-      "news_bad": false
-    },
-    {
       "symbol": "NVDA",
       "name": "Nvidia",
       "sector": "Information Technology",
-      "pct_change": -4.897500388404205,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "VRT",
-      "name": "Vertiv",
-      "sector": "Industrials",
-      "pct_change": -4.835369450216911,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
+      "pct_change": -5.472825500797981,
+      "conviction": "buy_signal",
+      "status": "blocked_news",
+      "news_bad": true
     },
     {
       "symbol": "FDXF",
       "name": "FedEx Freight",
       "sector": "Industrials",
-      "pct_change": -4.664553871637659,
+      "pct_change": -4.658228234399723,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
     },
     {
-      "symbol": "Q",
-      "name": "Qnity Electronics",
-      "sector": "Information Technology",
-      "pct_change": -4.383235803315493,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "ANET",
-      "name": "Arista Networks",
-      "sector": "Information Technology",
-      "pct_change": -4.184147680587837,
+      "symbol": "VST",
+      "name": "Vistra Corp.",
+      "sector": "Utilities",
+      "pct_change": -4.5415582979492815,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
@@ -106,7 +43,52 @@
       "symbol": "SMCI",
       "name": "Supermicro",
       "sector": "Information Technology",
-      "pct_change": -4.119600516289486,
+      "pct_change": -3.903658237601014,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "BG",
+      "name": "Bunge Global",
+      "sector": "Consumer Staples",
+      "pct_change": -3.813874913837373,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "Q",
+      "name": "Qnity Electronics",
+      "sector": "Information Technology",
+      "pct_change": -3.709458460979482,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "VRT",
+      "name": "Vertiv",
+      "sector": "Industrials",
+      "pct_change": -3.7023007791463067,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "EQIX",
+      "name": "Equinix",
+      "sector": "Real Estate",
+      "pct_change": -3.6624696833877235,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "TRGP",
+      "name": "Targa Resources",
+      "sector": "Energy",
+      "pct_change": -3.611407823360999,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
@@ -115,25 +97,43 @@
       "symbol": "DELL",
       "name": "Dell Technologies",
       "sector": "Information Technology",
-      "pct_change": -4.109716796875,
+      "pct_change": -3.5428571428571427,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
     },
     {
-      "symbol": "KEYS",
-      "name": "Keysight Technologies",
-      "sector": "Information Technology",
-      "pct_change": -3.8456724405892677,
+      "symbol": "TPL",
+      "name": "Texas Pacific Land Corporation",
+      "sector": "Energy",
+      "pct_change": -3.5177867625712933,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
     },
     {
-      "symbol": "JBHT",
-      "name": "J.B. Hunt",
-      "sector": "Industrials",
-      "pct_change": -3.7391603315079243,
+      "symbol": "ADM",
+      "name": "Archer Daniels Midland",
+      "sector": "Consumer Staples",
+      "pct_change": -3.514893747004228,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "DLR",
+      "name": "Digital Realty",
+      "sector": "Real Estate",
+      "pct_change": -3.4106934310177883,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "DOW",
+      "name": "Dow Inc.",
+      "sector": "Materials",
+      "pct_change": -3.3512064171798417,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
