@@ -44,3 +44,8 @@ timestamp_utc,action,symbol,detail
 2026-07-24T16:51:29+00:00,BUY,CHRW,drop=-8.11% notional=$12500.00 news=none
 2026-07-24T18:09:36+00:00,SELL,PANW,"gain=-2.67% qty=37.179476502 reason=bad_news:bankrupt,bankruptcy,chapter 11"
 2026-07-24T19:47:37+00:00,BUY,LITE,drop=-8.71% notional=$12500.00 news=none
+2026-07-27T15:44:48+00:00,SELL,GPC,gain=12.86% qty=221.238849557 reason=target_reached
+2026-07-27T15:44:48+00:00,SELL,PLTR,gain=1.41% qty=97.916261945 reason=bad_news:warns
+2026-07-27T15:44:49+00:00,SELL,SNDK,gain=-14.62% qty=8.401999005 reason=stop_loss
+2026-07-27T15:45:22+00:00,BUY,LRCX,drop=-8.48% notional=$12500.00 news=clear(2)
+2026-07-27T15:45:22+00:00,BUY,SNDK,drop=-11.33% notional=$25000.00 news=clear(10) conviction=HIGH

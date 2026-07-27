@@ -2,8 +2,8 @@
   "drop_threshold_pct": -8.0,
   "sell_threshold_pct": 10.0,
   "trade_dollars": 12500.0,
-  "completed_trades": 1,
-  "last_adjustment": "no change this run",
-  "updated_utc": "2026-07-24T22:01:25+00:00",
-  "risk_exits": 7
+  "completed_trades": 2,
+  "last_adjustment": "1 bad_news exit(s) (PLTR); 1 stop_loss exit(s) (SNDK)",
+  "updated_utc": "2026-07-27T15:45:22+00:00",
+  "risk_exits": 9
 }
