@@ -2,8 +2,8 @@
   "drop_threshold_pct": -8.0,
   "sell_threshold_pct": 10.0,
   "trade_dollars": 12000.0,
-  "completed_trades": 3,
-  "last_adjustment": "no change this run",
-  "updated_utc": "2026-07-27T22:43:48+00:00",
-  "risk_exits": 9
+  "completed_trades": 11,
+  "last_adjustment": "3 stop_loss exit(s) (COHR, LITE, SNDK); GDDY cleared target by 5.3pp -> raised sell target to 10.5%; TYL barely cleared target -> lowered sell target to 10.0%",
+  "updated_utc": "2026-07-28T15:25:55+00:00",
+  "risk_exits": 12
 }

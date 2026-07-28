@@ -52,3 +52,22 @@ timestamp_utc,action,symbol,detail
 2026-07-27T17:25:07+00:00,SELL,IT,gain=10.36% qty=91.461110704 reason=target_reached
 2026-07-27T17:25:59+00:00,BUY,AMD,drop=-11.16% notional=$25000.00 news=clear(10) conviction=HIGH
 2026-07-27T17:25:59+00:00,BUY,AMAT,drop=-10.58% notional=$12500.00 news=none
+2026-07-28T15:25:05+00:00,SELL,BR,gain=10.59% qty=85.975582914 reason=target_reached
+2026-07-28T15:25:05+00:00,SELL,BRO,gain=10.37% qty=187.885014279 reason=target_reached
+2026-07-28T15:25:06+00:00,SELL,COHR,gain=-17.71% qty=43.392196341 reason=stop_loss
+2026-07-28T15:25:06+00:00,SELL,ERIE,gain=11.89% qty=57.13758742 reason=target_reached
+2026-07-28T15:25:06+00:00,SELL,FICO,gain=12.05% qty=10.195417767 reason=target_reached
+2026-07-28T15:25:06+00:00,SELL,GDDY,gain=15.27% qty=139.655083798 reason=target_reached
+2026-07-28T15:25:06+00:00,SELL,LITE,gain=-16.52% qty=16.410862686 reason=stop_loss
+2026-07-28T15:25:06+00:00,SELL,NOW,gain=12.90% qty=126.773372541 reason=target_reached
+2026-07-28T15:25:06+00:00,SELL,PTC,gain=11.62% qty=107.656446473 reason=target_reached
+2026-07-28T15:25:06+00:00,SELL,SNDK,gain=-13.32% qty=19.597844236 reason=stop_loss
+2026-07-28T15:25:06+00:00,SELL,TYL,gain=10.06% qty=41.114330822 reason=target_reached
+2026-07-28T15:25:54+00:00,BUY,CIEN,drop=-9.77% notional=$12000.00 news=clear(1)
+2026-07-28T15:25:54+00:00,BUY,COHR,drop=-12.48% notional=$24000.00 news=clear(1) conviction=HIGH
+2026-07-28T15:25:54+00:00,BUY,GLW,drop=-17.32% notional=$24000.00 news=clear(6) conviction=HIGH
+2026-07-28T15:25:55+00:00,BUY,DELL,drop=-11.24% notional=$24000.00 news=clear(1) conviction=HIGH
+2026-07-28T15:25:55+00:00,BUY,FLEX,drop=-9.00% notional=$12000.00 news=none
+2026-07-28T15:25:55+00:00,BUY,LITE,drop=-10.75% notional=$12000.00 news=clear(1)
+2026-07-28T15:25:55+00:00,BUY,STX,drop=-10.81% notional=$12000.00 news=clear(8)
+2026-07-28T15:25:55+00:00,BUY,WDC,drop=-11.08% notional=$24000.00 news=clear(6) conviction=HIGH
