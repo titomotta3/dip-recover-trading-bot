@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-07-28T17:00:10+00:00",
+  "updated_utc": "2026-07-28T18:22:30+00:00",
   "drop_threshold_pct": -8.0,
   "high_conviction_pct": -11.0,
   "stocks": [
@@ -7,7 +7,7 @@
       "symbol": "SNDK",
       "name": "Sandisk",
       "sector": "Information Technology",
-      "pct_change": -13.788206958856911,
+      "pct_change": -15.871557004601167,
       "conviction": "high",
       "status": "blocked_news",
       "news_bad": true
@@ -16,25 +16,34 @@
       "symbol": "MU",
       "name": "Micron Technology",
       "sector": "Information Technology",
-      "pct_change": -8.250390860266853,
+      "pct_change": -9.272387314640973,
       "conviction": "buy_signal",
-      "status": "blocked_news",
-      "news_bad": true
+      "status": "blocked_sector_cap",
+      "news_bad": false
     },
     {
-      "symbol": "HPE",
-      "name": "Hewlett Packard Enterprise",
+      "symbol": "CARR",
+      "name": "Carrier Global",
+      "sector": "Industrials",
+      "pct_change": -8.538874696799528,
+      "conviction": "buy_signal",
+      "status": "bought",
+      "news_bad": false
+    },
+    {
+      "symbol": "TER",
+      "name": "Teradyne",
       "sector": "Information Technology",
-      "pct_change": -6.889395703331959,
+      "pct_change": -7.981599933562709,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
     },
     {
-      "symbol": "TXT",
-      "name": "Textron",
-      "sector": "Industrials",
-      "pct_change": -6.652446505545933,
+      "symbol": "HPE",
+      "name": "Hewlett Packard Enterprise",
+      "sector": "Information Technology",
+      "pct_change": -7.854326530970885,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
@@ -43,7 +52,25 @@
       "symbol": "VRT",
       "name": "Vertiv",
       "sector": "Industrials",
-      "pct_change": -6.589016621999162,
+      "pct_change": -7.837276796443832,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "MRVL",
+      "name": "Marvell Technology",
+      "sector": "Information Technology",
+      "pct_change": -7.501239166618606,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "UPS",
+      "name": "United Parcel Service",
+      "sector": "Industrials",
+      "pct_change": -6.4630328637444805,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
@@ -52,16 +79,34 @@
       "symbol": "FIX",
       "name": "Comfort Systems USA",
       "sector": "Industrials",
-      "pct_change": -6.453348962065171,
+      "pct_change": -6.444389906290393,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
     },
     {
-      "symbol": "TER",
-      "name": "Teradyne",
+      "symbol": "NRG",
+      "name": "NRG Energy",
+      "sector": "Utilities",
+      "pct_change": -6.380951710236378,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "KLAC",
+      "name": "KLA Corporation",
       "sector": "Information Technology",
-      "pct_change": -6.428290981839775,
+      "pct_change": -6.230329529365853,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "PLTR",
+      "name": "Palantir Technologies",
+      "sector": "Information Technology",
+      "pct_change": -6.044246196323645,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null

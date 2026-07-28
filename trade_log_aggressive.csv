@@ -71,3 +71,4 @@ timestamp_utc,action,symbol,detail
 2026-07-28T15:25:55+00:00,BUY,LITE,drop=-10.75% notional=$12000.00 news=clear(1)
 2026-07-28T15:25:55+00:00,BUY,STX,drop=-10.81% notional=$12000.00 news=clear(8)
 2026-07-28T15:25:55+00:00,BUY,WDC,drop=-11.08% notional=$24000.00 news=clear(6) conviction=HIGH
+2026-07-28T18:22:29+00:00,BUY,CARR,drop=-8.54% notional=$12000.00 news=clear(3)
