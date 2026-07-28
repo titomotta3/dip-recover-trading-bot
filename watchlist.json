@@ -1,142 +1,142 @@
 {
-  "updated_utc": "2026-07-27T18:57:00+00:00",
+  "updated_utc": "2026-07-28T15:24:26+00:00",
   "drop_threshold_pct": -5.0,
   "high_conviction_pct": -8.0,
   "stocks": [
     {
-      "symbol": "FDXF",
-      "name": "FedEx Freight",
-      "sector": "Industrials",
-      "pct_change": -4.920882212964795,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "VST",
-      "name": "Vistra Corp.",
-      "sector": "Utilities",
-      "pct_change": -4.581344342424476,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "NVDA",
-      "name": "Nvidia",
+      "symbol": "GLW",
+      "name": "Corning Inc.",
       "sector": "Information Technology",
-      "pct_change": -4.491346885455653,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
+      "pct_change": -17.74553734172439,
+      "conviction": "high",
+      "status": "bought",
+      "news_bad": false
+    },
+    {
+      "symbol": "SNDK",
+      "name": "Sandisk",
+      "sector": "Information Technology",
+      "pct_change": -14.153559361528604,
+      "conviction": "high",
+      "status": "blocked_news",
+      "news_bad": true
+    },
+    {
+      "symbol": "COHR",
+      "name": "Coherent Corp.",
+      "sector": "Information Technology",
+      "pct_change": -12.972242962712336,
+      "conviction": "high",
+      "status": "bought",
+      "news_bad": false
+    },
+    {
+      "symbol": "WDC",
+      "name": "Western Digital",
+      "sector": "Information Technology",
+      "pct_change": -11.533985709472688,
+      "conviction": "high",
+      "status": "bought",
+      "news_bad": false
     },
     {
       "symbol": "DELL",
       "name": "Dell Technologies",
       "sector": "Information Technology",
-      "pct_change": -4.3977120535714285,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
+      "pct_change": -11.475484250575112,
+      "conviction": "high",
+      "status": "bought",
+      "news_bad": false
     },
     {
-      "symbol": "TRGP",
-      "name": "Targa Resources",
-      "sector": "Energy",
-      "pct_change": -4.329432786096749,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "TPL",
-      "name": "Texas Pacific Land Corporation",
-      "sector": "Energy",
-      "pct_change": -4.112626335016708,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "DVN",
-      "name": "Devon Energy",
-      "sector": "Energy",
-      "pct_change": -3.730018363735442,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "BG",
-      "name": "Bunge Global",
-      "sector": "Consumer Staples",
-      "pct_change": -3.7192435517710267,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "DOW",
-      "name": "Dow Inc.",
-      "sector": "Materials",
-      "pct_change": -3.6695687257210943,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "PSKY",
-      "name": "Paramount Skydance Corporation",
-      "sector": "Communication Services",
-      "pct_change": -3.635810714350847,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "FANG",
-      "name": "Diamondback Energy",
-      "sector": "Energy",
-      "pct_change": -3.5909669277588603,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "ADM",
-      "name": "Archer Daniels Midland",
-      "sector": "Consumer Staples",
-      "pct_change": -3.491620186142313,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "EOG",
-      "name": "EOG Resources",
-      "sector": "Energy",
-      "pct_change": -3.4667647854372845,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "WMB",
-      "name": "Williams Companies",
-      "sector": "Energy",
-      "pct_change": -3.44595006994299,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "SMCI",
-      "name": "Supermicro",
+      "symbol": "STX",
+      "name": "Seagate Technology",
       "sector": "Information Technology",
-      "pct_change": -3.421593302709721,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
+      "pct_change": -11.287772409141668,
+      "conviction": "high",
+      "status": "bought",
+      "news_bad": false
+    },
+    {
+      "symbol": "LITE",
+      "name": "Lumentum",
+      "sector": "Information Technology",
+      "pct_change": -11.268896992503828,
+      "conviction": "high",
+      "status": "bought",
+      "news_bad": false
+    },
+    {
+      "symbol": "FLEX",
+      "name": "Flex Ltd.",
+      "sector": "Information Technology",
+      "pct_change": -9.304732558071512,
+      "conviction": "high",
+      "status": "bought",
+      "news_bad": false
+    },
+    {
+      "symbol": "MU",
+      "name": "Micron Technology",
+      "sector": "Information Technology",
+      "pct_change": -9.119087507475992,
+      "conviction": "high",
+      "status": "blocked_news",
+      "news_bad": true
+    },
+    {
+      "symbol": "LRCX",
+      "name": "Lam Research",
+      "sector": "Information Technology",
+      "pct_change": -8.936593006983639,
+      "conviction": "high",
+      "status": "bought",
+      "news_bad": false
+    },
+    {
+      "symbol": "HPE",
+      "name": "Hewlett Packard Enterprise",
+      "sector": "Information Technology",
+      "pct_change": -7.262917824737493,
+      "conviction": "buy_signal",
+      "status": "bought",
+      "news_bad": false
+    },
+    {
+      "symbol": "VRT",
+      "name": "Vertiv",
+      "sector": "Industrials",
+      "pct_change": -7.034078775035475,
+      "conviction": "buy_signal",
+      "status": "bought",
+      "news_bad": false
+    },
+    {
+      "symbol": "TXT",
+      "name": "Textron",
+      "sector": "Industrials",
+      "pct_change": -6.3975804350350245,
+      "conviction": "buy_signal",
+      "status": "bought",
+      "news_bad": false
+    },
+    {
+      "symbol": "PLTR",
+      "name": "Palantir Technologies",
+      "sector": "Information Technology",
+      "pct_change": -6.279937818664841,
+      "conviction": "buy_signal",
+      "status": "blocked_news",
+      "news_bad": true
+    },
+    {
+      "symbol": "INTC",
+      "name": "Intel",
+      "sector": "Information Technology",
+      "pct_change": -5.939783793591042,
+      "conviction": "buy_signal",
+      "status": "bought",
+      "news_bad": false
     }
   ]
 }
