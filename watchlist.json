@@ -1,121 +1,31 @@
 {
-  "updated_utc": "2026-07-28T15:24:26+00:00",
+  "updated_utc": "2026-07-28T16:58:48+00:00",
   "drop_threshold_pct": -5.0,
   "high_conviction_pct": -8.0,
   "stocks": [
     {
-      "symbol": "GLW",
-      "name": "Corning Inc.",
-      "sector": "Information Technology",
-      "pct_change": -17.74553734172439,
-      "conviction": "high",
-      "status": "bought",
-      "news_bad": false
-    },
-    {
       "symbol": "SNDK",
       "name": "Sandisk",
       "sector": "Information Technology",
-      "pct_change": -14.153559361528604,
+      "pct_change": -13.733438000775456,
       "conviction": "high",
       "status": "blocked_news",
       "news_bad": true
-    },
-    {
-      "symbol": "COHR",
-      "name": "Coherent Corp.",
-      "sector": "Information Technology",
-      "pct_change": -12.972242962712336,
-      "conviction": "high",
-      "status": "bought",
-      "news_bad": false
-    },
-    {
-      "symbol": "WDC",
-      "name": "Western Digital",
-      "sector": "Information Technology",
-      "pct_change": -11.533985709472688,
-      "conviction": "high",
-      "status": "bought",
-      "news_bad": false
-    },
-    {
-      "symbol": "DELL",
-      "name": "Dell Technologies",
-      "sector": "Information Technology",
-      "pct_change": -11.475484250575112,
-      "conviction": "high",
-      "status": "bought",
-      "news_bad": false
-    },
-    {
-      "symbol": "STX",
-      "name": "Seagate Technology",
-      "sector": "Information Technology",
-      "pct_change": -11.287772409141668,
-      "conviction": "high",
-      "status": "bought",
-      "news_bad": false
-    },
-    {
-      "symbol": "LITE",
-      "name": "Lumentum",
-      "sector": "Information Technology",
-      "pct_change": -11.268896992503828,
-      "conviction": "high",
-      "status": "bought",
-      "news_bad": false
-    },
-    {
-      "symbol": "FLEX",
-      "name": "Flex Ltd.",
-      "sector": "Information Technology",
-      "pct_change": -9.304732558071512,
-      "conviction": "high",
-      "status": "bought",
-      "news_bad": false
     },
     {
       "symbol": "MU",
       "name": "Micron Technology",
       "sector": "Information Technology",
-      "pct_change": -9.119087507475992,
+      "pct_change": -8.298157208850546,
       "conviction": "high",
       "status": "blocked_news",
       "news_bad": true
     },
     {
-      "symbol": "LRCX",
-      "name": "Lam Research",
-      "sector": "Information Technology",
-      "pct_change": -8.936593006983639,
-      "conviction": "high",
-      "status": "bought",
-      "news_bad": false
-    },
-    {
-      "symbol": "HPE",
-      "name": "Hewlett Packard Enterprise",
-      "sector": "Information Technology",
-      "pct_change": -7.262917824737493,
-      "conviction": "buy_signal",
-      "status": "bought",
-      "news_bad": false
-    },
-    {
-      "symbol": "VRT",
-      "name": "Vertiv",
+      "symbol": "UPS",
+      "name": "United Parcel Service",
       "sector": "Industrials",
-      "pct_change": -7.034078775035475,
-      "conviction": "buy_signal",
-      "status": "bought",
-      "news_bad": false
-    },
-    {
-      "symbol": "TXT",
-      "name": "Textron",
-      "sector": "Industrials",
-      "pct_change": -6.3975804350350245,
+      "pct_change": -5.931825700989059,
       "conviction": "buy_signal",
       "status": "bought",
       "news_bad": false
@@ -124,19 +34,100 @@
       "symbol": "PLTR",
       "name": "Palantir Technologies",
       "sector": "Information Technology",
-      "pct_change": -6.279937818664841,
+      "pct_change": -5.268377426783219,
       "conviction": "buy_signal",
       "status": "blocked_news",
       "news_bad": true
     },
     {
-      "symbol": "INTC",
-      "name": "Intel",
+      "symbol": "CARR",
+      "name": "Carrier Global",
+      "sector": "Industrials",
+      "pct_change": -4.860814449124276,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "SMCI",
+      "name": "Supermicro",
       "sector": "Information Technology",
-      "pct_change": -5.939783793591042,
-      "conviction": "buy_signal",
-      "status": "bought",
-      "news_bad": false
+      "pct_change": -4.092584150322877,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "BKR",
+      "name": "Baker Hughes",
+      "sector": "Energy",
+      "pct_change": -3.762995170085823,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "ON",
+      "name": "ON Semiconductor",
+      "sector": "Information Technology",
+      "pct_change": -3.751127507797123,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "CMI",
+      "name": "Cummins",
+      "sector": "Industrials",
+      "pct_change": -3.553326035010371,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "JBL",
+      "name": "Jabil",
+      "sector": "Information Technology",
+      "pct_change": -3.531413639238696,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "ETN",
+      "name": "Eaton Corporation",
+      "sector": "Industrials",
+      "pct_change": -3.351398599792569,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "APH",
+      "name": "Amphenol",
+      "sector": "Information Technology",
+      "pct_change": -3.329314885680718,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "TT",
+      "name": "Trane Technologies",
+      "sector": "Industrials",
+      "pct_change": -3.2296076198606083,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "KEYS",
+      "name": "Keysight Technologies",
+      "sector": "Information Technology",
+      "pct_change": -3.0827541239300897,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
     }
   ]
 }
