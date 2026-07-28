@@ -113,3 +113,5 @@ timestamp_utc,action,symbol,detail
 2026-07-28T18:21:14+00:00,BUY,CARR,drop=-8.42% notional=$10000.00 news=clear(3)
 2026-07-28T18:21:14+00:00,BUY,MU,drop=-9.28% notional=$10000.00 news=clear(10)
 2026-07-28T18:21:14+00:00,BUY,SMCI,drop=-5.33% notional=$10000.00 news=clear(4)
+2026-07-28T19:58:23+00:00,SELL,FLEX,gain=7.33% qty=94.88556789 reason=target_reached
+2026-07-28T19:59:09+00:00,BUY,ON,drop=-5.01% notional=$10000.00 news=none

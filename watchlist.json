@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-07-28T18:21:14+00:00",
+  "updated_utc": "2026-07-28T19:59:10+00:00",
   "drop_threshold_pct": -5.0,
   "high_conviction_pct": -8.0,
   "stocks": [
@@ -7,52 +7,34 @@
       "symbol": "SNDK",
       "name": "Sandisk",
       "sector": "Information Technology",
-      "pct_change": -15.893464587833748,
+      "pct_change": -14.128127847078575,
       "conviction": "high",
       "status": "blocked_news",
       "news_bad": true
-    },
-    {
-      "symbol": "MU",
-      "name": "Micron Technology",
-      "sector": "Information Technology",
-      "pct_change": -9.275716381660787,
-      "conviction": "high",
-      "status": "bought",
-      "news_bad": false
-    },
-    {
-      "symbol": "CARR",
-      "name": "Carrier Global",
-      "sector": "Industrials",
-      "pct_change": -8.423481895787294,
-      "conviction": "high",
-      "status": "bought",
-      "news_bad": false
     },
     {
       "symbol": "PLTR",
       "name": "Palantir Technologies",
       "sector": "Information Technology",
-      "pct_change": -6.059455101247687,
+      "pct_change": -6.089867110598089,
       "conviction": "buy_signal",
       "status": "blocked_news",
       "news_bad": true
     },
     {
-      "symbol": "SMCI",
-      "name": "Supermicro",
+      "symbol": "ON",
+      "name": "ON Semiconductor",
       "sector": "Information Technology",
-      "pct_change": -5.333781217958254,
+      "pct_change": -5.014604583754583,
       "conviction": "buy_signal",
       "status": "bought",
       "news_bad": false
     },
     {
-      "symbol": "ON",
-      "name": "ON Semiconductor",
+      "symbol": "MPWR",
+      "name": "Monolithic Power Systems",
       "sector": "Information Technology",
-      "pct_change": -4.93047902811934,
+      "pct_change": -4.214082317151824,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
@@ -61,25 +43,7 @@
       "symbol": "QCOM",
       "name": "Qualcomm",
       "sector": "Information Technology",
-      "pct_change": -4.081385236788974,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "BKR",
-      "name": "Baker Hughes",
-      "sector": "Energy",
-      "pct_change": -3.9445442872248564,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "APH",
-      "name": "Amphenol",
-      "sector": "Information Technology",
-      "pct_change": -3.938910055529808,
+      "pct_change": -4.040223117174026,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
@@ -88,43 +52,7 @@
       "symbol": "SPGI",
       "name": "S&P Global",
       "sector": "Financials",
-      "pct_change": -3.8060138565892347,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "JBHT",
-      "name": "J.B. Hunt",
-      "sector": "Industrials",
-      "pct_change": -3.8015927572458343,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "CMI",
-      "name": "Cummins",
-      "sector": "Industrials",
-      "pct_change": -3.7614859363419137,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "MPWR",
-      "name": "Monolithic Power Systems",
-      "sector": "Information Technology",
-      "pct_change": -3.694325382098742,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "KEYS",
-      "name": "Keysight Technologies",
-      "sector": "Information Technology",
-      "pct_change": -3.4429954237252187,
+      "pct_change": -3.852619722156326,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
@@ -133,7 +61,52 @@
       "symbol": "CEG",
       "name": "Constellation Energy",
       "sector": "Utilities",
-      "pct_change": -3.4351829246238426,
+      "pct_change": -3.7777822989004632,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "APH",
+      "name": "Amphenol",
+      "sector": "Information Technology",
+      "pct_change": -3.771439528972789,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "URI",
+      "name": "United Rentals",
+      "sector": "Industrials",
+      "pct_change": -3.536630887183207,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "BKR",
+      "name": "Baker Hughes",
+      "sector": "Energy",
+      "pct_change": -3.4741698909641285,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "ETN",
+      "name": "Eaton Corporation",
+      "sector": "Industrials",
+      "pct_change": -3.0842396588253704,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "HOOD",
+      "name": "Robinhood Markets",
+      "sector": "Financials",
+      "pct_change": -3.0371131552056516,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
