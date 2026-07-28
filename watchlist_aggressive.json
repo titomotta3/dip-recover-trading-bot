@@ -1,121 +1,31 @@
 {
-  "updated_utc": "2026-07-28T15:25:55+00:00",
+  "updated_utc": "2026-07-28T17:00:10+00:00",
   "drop_threshold_pct": -8.0,
   "high_conviction_pct": -11.0,
   "stocks": [
     {
-      "symbol": "GLW",
-      "name": "Corning Inc.",
-      "sector": "Information Technology",
-      "pct_change": -17.316543556466513,
-      "conviction": "high",
-      "status": "bought",
-      "news_bad": false
-    },
-    {
       "symbol": "SNDK",
       "name": "Sandisk",
       "sector": "Information Technology",
-      "pct_change": -13.393364313368208,
+      "pct_change": -13.788206958856911,
       "conviction": "high",
       "status": "blocked_news",
       "news_bad": true
-    },
-    {
-      "symbol": "COHR",
-      "name": "Coherent Corp.",
-      "sector": "Information Technology",
-      "pct_change": -12.483872847285229,
-      "conviction": "high",
-      "status": "bought",
-      "news_bad": false
-    },
-    {
-      "symbol": "DELL",
-      "name": "Dell Technologies",
-      "sector": "Information Technology",
-      "pct_change": -11.236560588697381,
-      "conviction": "high",
-      "status": "bought",
-      "news_bad": false
-    },
-    {
-      "symbol": "WDC",
-      "name": "Western Digital",
-      "sector": "Information Technology",
-      "pct_change": -11.079353975151635,
-      "conviction": "high",
-      "status": "bought",
-      "news_bad": false
-    },
-    {
-      "symbol": "STX",
-      "name": "Seagate Technology",
-      "sector": "Information Technology",
-      "pct_change": -10.813731868152884,
-      "conviction": "buy_signal",
-      "status": "bought",
-      "news_bad": false
-    },
-    {
-      "symbol": "LITE",
-      "name": "Lumentum",
-      "sector": "Information Technology",
-      "pct_change": -10.746391286639332,
-      "conviction": "buy_signal",
-      "status": "bought",
-      "news_bad": false
-    },
-    {
-      "symbol": "CIEN",
-      "name": "Ciena",
-      "sector": "Information Technology",
-      "pct_change": -9.767534301436868,
-      "conviction": "buy_signal",
-      "status": "bought",
-      "news_bad": false
-    },
-    {
-      "symbol": "FLEX",
-      "name": "Flex Ltd.",
-      "sector": "Information Technology",
-      "pct_change": -9.003185125973747,
-      "conviction": "buy_signal",
-      "status": "bought",
-      "news_bad": false
     },
     {
       "symbol": "MU",
       "name": "Micron Technology",
       "sector": "Information Technology",
-      "pct_change": -8.695848504262392,
+      "pct_change": -8.250390860266853,
       "conviction": "buy_signal",
       "status": "blocked_news",
       "news_bad": true
     },
     {
-      "symbol": "FIX",
-      "name": "Comfort Systems USA",
-      "sector": "Industrials",
-      "pct_change": -7.382600568399181,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "TER",
-      "name": "Teradyne",
-      "sector": "Information Technology",
-      "pct_change": -7.189411821224982,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
       "symbol": "HPE",
       "name": "Hewlett Packard Enterprise",
       "sector": "Information Technology",
-      "pct_change": -7.013897799832325,
+      "pct_change": -6.889395703331959,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
@@ -124,7 +34,7 @@
       "symbol": "TXT",
       "name": "Textron",
       "sector": "Industrials",
-      "pct_change": -6.704462580846545,
+      "pct_change": -6.652446505545933,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
@@ -133,7 +43,25 @@
       "symbol": "VRT",
       "name": "Vertiv",
       "sector": "Industrials",
-      "pct_change": -6.532512414743639,
+      "pct_change": -6.589016621999162,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "FIX",
+      "name": "Comfort Systems USA",
+      "sector": "Industrials",
+      "pct_change": -6.453348962065171,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "TER",
+      "name": "Teradyne",
+      "sector": "Information Technology",
+      "pct_change": -6.428290981839775,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
