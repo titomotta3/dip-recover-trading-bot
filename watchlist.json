@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-07-28T16:58:48+00:00",
+  "updated_utc": "2026-07-28T18:21:14+00:00",
   "drop_threshold_pct": -5.0,
   "high_conviction_pct": -8.0,
   "stocks": [
@@ -7,7 +7,7 @@
       "symbol": "SNDK",
       "name": "Sandisk",
       "sector": "Information Technology",
-      "pct_change": -13.733438000775456,
+      "pct_change": -15.893464587833748,
       "conviction": "high",
       "status": "blocked_news",
       "news_bad": true
@@ -16,17 +16,17 @@
       "symbol": "MU",
       "name": "Micron Technology",
       "sector": "Information Technology",
-      "pct_change": -8.298157208850546,
+      "pct_change": -9.275716381660787,
       "conviction": "high",
-      "status": "blocked_news",
-      "news_bad": true
+      "status": "bought",
+      "news_bad": false
     },
     {
-      "symbol": "UPS",
-      "name": "United Parcel Service",
+      "symbol": "CARR",
+      "name": "Carrier Global",
       "sector": "Industrials",
-      "pct_change": -5.931825700989059,
-      "conviction": "buy_signal",
+      "pct_change": -8.423481895787294,
+      "conviction": "high",
       "status": "bought",
       "news_bad": false
     },
@@ -34,25 +34,34 @@
       "symbol": "PLTR",
       "name": "Palantir Technologies",
       "sector": "Information Technology",
-      "pct_change": -5.268377426783219,
+      "pct_change": -6.059455101247687,
       "conviction": "buy_signal",
       "status": "blocked_news",
       "news_bad": true
     },
     {
-      "symbol": "CARR",
-      "name": "Carrier Global",
-      "sector": "Industrials",
-      "pct_change": -4.860814449124276,
+      "symbol": "SMCI",
+      "name": "Supermicro",
+      "sector": "Information Technology",
+      "pct_change": -5.333781217958254,
+      "conviction": "buy_signal",
+      "status": "bought",
+      "news_bad": false
+    },
+    {
+      "symbol": "ON",
+      "name": "ON Semiconductor",
+      "sector": "Information Technology",
+      "pct_change": -4.93047902811934,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
     },
     {
-      "symbol": "SMCI",
-      "name": "Supermicro",
+      "symbol": "QCOM",
+      "name": "Qualcomm",
       "sector": "Information Technology",
-      "pct_change": -4.092584150322877,
+      "pct_change": -4.081385236788974,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
@@ -61,43 +70,7 @@
       "symbol": "BKR",
       "name": "Baker Hughes",
       "sector": "Energy",
-      "pct_change": -3.762995170085823,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "ON",
-      "name": "ON Semiconductor",
-      "sector": "Information Technology",
-      "pct_change": -3.751127507797123,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "CMI",
-      "name": "Cummins",
-      "sector": "Industrials",
-      "pct_change": -3.553326035010371,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "JBL",
-      "name": "Jabil",
-      "sector": "Information Technology",
-      "pct_change": -3.531413639238696,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "ETN",
-      "name": "Eaton Corporation",
-      "sector": "Industrials",
-      "pct_change": -3.351398599792569,
+      "pct_change": -3.9445442872248564,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
@@ -106,16 +79,43 @@
       "symbol": "APH",
       "name": "Amphenol",
       "sector": "Information Technology",
-      "pct_change": -3.329314885680718,
+      "pct_change": -3.938910055529808,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
     },
     {
-      "symbol": "TT",
-      "name": "Trane Technologies",
+      "symbol": "SPGI",
+      "name": "S&P Global",
+      "sector": "Financials",
+      "pct_change": -3.8060138565892347,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "JBHT",
+      "name": "J.B. Hunt",
       "sector": "Industrials",
-      "pct_change": -3.2296076198606083,
+      "pct_change": -3.8015927572458343,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "CMI",
+      "name": "Cummins",
+      "sector": "Industrials",
+      "pct_change": -3.7614859363419137,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "MPWR",
+      "name": "Monolithic Power Systems",
+      "sector": "Information Technology",
+      "pct_change": -3.694325382098742,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
@@ -124,7 +124,16 @@
       "symbol": "KEYS",
       "name": "Keysight Technologies",
       "sector": "Information Technology",
-      "pct_change": -3.0827541239300897,
+      "pct_change": -3.4429954237252187,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "CEG",
+      "name": "Constellation Energy",
+      "sector": "Utilities",
+      "pct_change": -3.4351829246238426,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null

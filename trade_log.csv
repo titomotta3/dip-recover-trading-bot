@@ -110,3 +110,6 @@ timestamp_utc,action,symbol,detail
 2026-07-28T15:24:26+00:00,BUY,VST,drop=-5.48% notional=$10000.00 news=clear(1)
 2026-07-28T15:24:26+00:00,BUY,WDC,drop=-11.53% notional=$10000.00 news=clear(6)
 2026-07-28T16:58:48+00:00,BUY,UPS,drop=-5.93% notional=$10000.00 news=clear(7)
+2026-07-28T18:21:14+00:00,BUY,CARR,drop=-8.42% notional=$10000.00 news=clear(3)
+2026-07-28T18:21:14+00:00,BUY,MU,drop=-9.28% notional=$10000.00 news=clear(10)
+2026-07-28T18:21:14+00:00,BUY,SMCI,drop=-5.33% notional=$10000.00 news=clear(4)
