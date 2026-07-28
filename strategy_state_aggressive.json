@@ -1,9 +1,9 @@
 {
   "drop_threshold_pct": -8.0,
   "sell_threshold_pct": 10.0,
-  "trade_dollars": 12000.0,
-  "completed_trades": 11,
-  "last_adjustment": "no change this run",
-  "updated_utc": "2026-07-28T18:22:30+00:00",
+  "trade_dollars": 11500.0,
+  "completed_trades": 12,
+  "last_adjustment": "capital utilization high (94%) -> trimmed trade size to $11,500",
+  "updated_utc": "2026-07-28T20:00:03+00:00",
   "risk_exits": 12
 }
