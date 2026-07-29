@@ -3,7 +3,7 @@
   "sell_threshold_pct": 10.5,
   "trade_dollars": 11500.0,
   "completed_trades": 14,
-  "last_adjustment": "1 stop_loss exit(s) (CHRW); 1 bad_news exit(s) (CSGP); GRMN cleared target by 14.6pp -> raised sell target to 10.5%",
-  "updated_utc": "2026-07-29T15:11:53+00:00",
-  "risk_exits": 14
+  "last_adjustment": "1 bad_news exit(s) (AMD)",
+  "updated_utc": "2026-07-29T16:40:49+00:00",
+  "risk_exits": 15
 }

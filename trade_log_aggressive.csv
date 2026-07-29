@@ -83,3 +83,6 @@ timestamp_utc,action,symbol,detail
 2026-07-29T15:11:49+00:00,BUY,EME,drop=-8.46% notional=$11500.00 news=none
 2026-07-29T15:11:50+00:00,BUY,INTC,drop=-9.01% notional=$11500.00 news=clear(10)
 2026-07-29T15:11:50+00:00,BUY,LII,drop=-19.92% notional=$23000.00 news=clear(2) conviction=HIGH
+2026-07-29T16:40:12+00:00,SELL,AMD,gain=-10.48% qty=52.169174265 reason=bad_news:layoffs
+2026-07-29T16:40:49+00:00,BUY,KLAC,drop=-9.69% notional=$11500.00 news=clear(10)
+2026-07-29T16:40:49+00:00,BUY,MAS,drop=-10.53% notional=$11500.00 news=clear(3)
