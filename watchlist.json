@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-07-29T16:39:49+00:00",
+  "updated_utc": "2026-07-29T17:56:21+00:00",
   "drop_threshold_pct": -5.0,
   "high_conviction_pct": -8.0,
   "stocks": [
@@ -7,17 +7,8 @@
       "symbol": "KLAC",
       "name": "KLA Corporation",
       "sector": "Information Technology",
-      "pct_change": -9.75891513530299,
+      "pct_change": -8.647798603820824,
       "conviction": "high",
-      "status": "order_failed",
-      "news_bad": false
-    },
-    {
-      "symbol": "FIX",
-      "name": "Comfort Systems USA",
-      "sector": "Industrials",
-      "pct_change": -7.2919210079733165,
-      "conviction": "buy_signal",
       "status": "bought",
       "news_bad": false
     },
@@ -25,106 +16,88 @@
       "symbol": "CAT",
       "name": "Caterpillar Inc.",
       "sector": "Industrials",
-      "pct_change": -7.252183176464594,
+      "pct_change": -6.475584557629572,
       "conviction": "buy_signal",
       "status": "blocked_news",
       "news_bad": true
-    },
-    {
-      "symbol": "AMAT",
-      "name": "Applied Materials",
-      "sector": "Information Technology",
-      "pct_change": -6.737188154137407,
-      "conviction": "buy_signal",
-      "status": "bought",
-      "news_bad": false
-    },
-    {
-      "symbol": "ANET",
-      "name": "Arista Networks",
-      "sector": "Information Technology",
-      "pct_change": -6.69083173479145,
-      "conviction": "buy_signal",
-      "status": "bought",
-      "news_bad": false
-    },
-    {
-      "symbol": "FTV",
-      "name": "Fortive",
-      "sector": "Industrials",
-      "pct_change": -6.194410411689724,
-      "conviction": "buy_signal",
-      "status": "bought",
-      "news_bad": false
-    },
-    {
-      "symbol": "CMI",
-      "name": "Cummins",
-      "sector": "Industrials",
-      "pct_change": -5.995163230046041,
-      "conviction": "buy_signal",
-      "status": "bought",
-      "news_bad": false
-    },
-    {
-      "symbol": "AMD",
-      "name": "Advanced Micro Devices",
-      "sector": "Information Technology",
-      "pct_change": -5.738858083258172,
-      "conviction": "buy_signal",
-      "status": "blocked_news",
-      "news_bad": true
-    },
-    {
-      "symbol": "MRVL",
-      "name": "Marvell Technology",
-      "sector": "Information Technology",
-      "pct_change": -5.379145091518625,
-      "conviction": "buy_signal",
-      "status": "order_failed",
-      "news_bad": false
-    },
-    {
-      "symbol": "HUBB",
-      "name": "Hubbell Incorporated",
-      "sector": "Industrials",
-      "pct_change": -5.307450116480533,
-      "conviction": "buy_signal",
-      "status": "order_failed",
-      "news_bad": false
-    },
-    {
-      "symbol": "HONA",
-      "name": "Honeywell Aerospace",
-      "sector": "Industrials",
-      "pct_change": -5.118062321730481,
-      "conviction": "buy_signal",
-      "status": "bought",
-      "news_bad": false
-    },
-    {
-      "symbol": "TT",
-      "name": "Trane Technologies",
-      "sector": "Industrials",
-      "pct_change": -5.043292265138236,
-      "conviction": "buy_signal",
-      "status": "order_failed",
-      "news_bad": false
     },
     {
       "symbol": "JBL",
       "name": "Jabil",
       "sector": "Information Technology",
-      "pct_change": -4.928213431843809,
+      "pct_change": -5.590030327188315,
+      "conviction": "buy_signal",
+      "status": "bought",
+      "news_bad": false
+    },
+    {
+      "symbol": "APP",
+      "name": "AppLovin",
+      "sector": "Information Technology",
+      "pct_change": -4.6979790842727205,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
     },
     {
-      "symbol": "FCX",
-      "name": "Freeport-McMoRan",
-      "sector": "Materials",
-      "pct_change": -4.696626356959125,
+      "symbol": "HUBB",
+      "name": "Hubbell Incorporated",
+      "sector": "Industrials",
+      "pct_change": -4.571396373843421,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "HII",
+      "name": "Huntington Ingalls Industries",
+      "sector": "Industrials",
+      "pct_change": -4.472326234239665,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "TT",
+      "name": "Trane Technologies",
+      "sector": "Industrials",
+      "pct_change": -4.173135817993873,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "IVZ",
+      "name": "Invesco",
+      "sector": "Financials",
+      "pct_change": -4.043494807060314,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "MRVL",
+      "name": "Marvell Technology",
+      "sector": "Information Technology",
+      "pct_change": -3.9834910870726126,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "IBKR",
+      "name": "Interactive Brokers",
+      "sector": "Financials",
+      "pct_change": -3.9379624759016547,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "AMD",
+      "name": "Advanced Micro Devices",
+      "sector": "Information Technology",
+      "pct_change": -3.8691646928895964,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
@@ -133,7 +106,34 @@
       "symbol": "PH",
       "name": "Parker Hannifin",
       "sector": "Industrials",
-      "pct_change": -4.6056363159418,
+      "pct_change": -3.8346652899634877,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "CNC",
+      "name": "Centene Corporation",
+      "sector": "Health Care",
+      "pct_change": -3.755283260223774,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "NUE",
+      "name": "Nucor",
+      "sector": "Materials",
+      "pct_change": -3.715832881042336,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "DE",
+      "name": "Deere & Company",
+      "sector": "Industrials",
+      "pct_change": -3.686863257274372,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null

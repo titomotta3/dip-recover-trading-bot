@@ -142,3 +142,7 @@ timestamp_utc,action,symbol,detail
 2026-07-29T16:39:49+00:00,BUY,CMI,drop=-6.00% notional=$10000.00 news=none
 2026-07-29T16:39:49+00:00,BUY,FTV,drop=-6.19% notional=$10000.00 news=clear(2)
 2026-07-29T16:39:49+00:00,BUY,HONA,drop=-5.12% notional=$10000.00 news=none
+2026-07-29T17:55:38+00:00,SELL,STX,gain=9.21% qty=13.772952648 reason=target_reached
+2026-07-29T17:55:38+00:00,SELL,WDC,gain=8.79% qty=22.72725 reason=target_reached
+2026-07-29T17:56:21+00:00,BUY,JBL,drop=-5.59% notional=$10000.00 news=none
+2026-07-29T17:56:21+00:00,BUY,KLAC,drop=-8.65% notional=$10000.00 news=clear(10)
