@@ -133,3 +133,12 @@ timestamp_utc,action,symbol,detail
 2026-07-29T15:10:28+00:00,BUY,SNDK,drop=-6.17% notional=$10000.00 news=clear(10)
 2026-07-29T15:10:28+00:00,BUY,SW,drop=-6.38% notional=$10000.00 news=clear(2)
 2026-07-29T15:10:28+00:00,BUY,VRT,drop=-12.76% notional=$10000.00 news=clear(6)
+2026-07-29T16:39:07+00:00,SELL,AMD,gain=-10.98% qty=20.773156899 reason=bad_news:layoffs
+2026-07-29T16:39:07+00:00,SELL,FIX,gain=-13.09% qty=5.764348868 reason=stop_loss
+2026-07-29T16:39:07+00:00,SELL,KLAC,gain=-12.47% qty=50.8000508 reason=stop_loss
+2026-07-29T16:39:49+00:00,BUY,AMAT,drop=-6.74% notional=$10000.00 news=clear(4)
+2026-07-29T16:39:49+00:00,BUY,ANET,drop=-6.69% notional=$10000.00 news=clear(1)
+2026-07-29T16:39:49+00:00,BUY,FIX,drop=-7.29% notional=$10000.00 news=clear(2)
+2026-07-29T16:39:49+00:00,BUY,CMI,drop=-6.00% notional=$10000.00 news=none
+2026-07-29T16:39:49+00:00,BUY,FTV,drop=-6.19% notional=$10000.00 news=clear(2)
+2026-07-29T16:39:49+00:00,BUY,HONA,drop=-5.12% notional=$10000.00 news=none

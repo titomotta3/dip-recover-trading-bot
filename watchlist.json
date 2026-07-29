@@ -1,76 +1,22 @@
 {
-  "updated_utc": "2026-07-29T15:10:28+00:00",
+  "updated_utc": "2026-07-29T16:39:49+00:00",
   "drop_threshold_pct": -5.0,
   "high_conviction_pct": -8.0,
   "stocks": [
     {
-      "symbol": "LII",
-      "name": "Lennox International",
-      "sector": "Industrials",
-      "pct_change": -19.625622763665127,
-      "conviction": "high",
-      "status": "bought",
-      "news_bad": false
-    },
-    {
-      "symbol": "VRT",
-      "name": "Vertiv",
-      "sector": "Industrials",
-      "pct_change": -12.761535171407216,
-      "conviction": "high",
-      "status": "bought",
-      "news_bad": false
-    },
-    {
-      "symbol": "MAS",
-      "name": "Masco",
-      "sector": "Industrials",
-      "pct_change": -11.260756268284698,
-      "conviction": "high",
-      "status": "bought",
-      "news_bad": false
-    },
-    {
-      "symbol": "BG",
-      "name": "Bunge Global",
-      "sector": "Consumer Staples",
-      "pct_change": -7.846978673382424,
-      "conviction": "buy_signal",
-      "status": "bought",
-      "news_bad": false
-    },
-    {
-      "symbol": "FLEX",
-      "name": "Flex Ltd.",
+      "symbol": "KLAC",
+      "name": "KLA Corporation",
       "sector": "Information Technology",
-      "pct_change": -6.850284445490912,
-      "conviction": "buy_signal",
-      "status": "bought",
+      "pct_change": -9.75891513530299,
+      "conviction": "high",
+      "status": "order_failed",
       "news_bad": false
     },
     {
-      "symbol": "HUM",
-      "name": "Humana",
-      "sector": "Health Care",
-      "pct_change": -6.434097347080206,
-      "conviction": "buy_signal",
-      "status": "bought",
-      "news_bad": false
-    },
-    {
-      "symbol": "SW",
-      "name": "Smurfit Westrock",
-      "sector": "Materials",
-      "pct_change": -6.377948646514602,
-      "conviction": "buy_signal",
-      "status": "bought",
-      "news_bad": false
-    },
-    {
-      "symbol": "SNDK",
-      "name": "Sandisk",
-      "sector": "Information Technology",
-      "pct_change": -6.173699788545838,
+      "symbol": "FIX",
+      "name": "Comfort Systems USA",
+      "sector": "Industrials",
+      "pct_change": -7.2919210079733165,
       "conviction": "buy_signal",
       "status": "bought",
       "news_bad": false
@@ -79,43 +25,34 @@
       "symbol": "CAT",
       "name": "Caterpillar Inc.",
       "sector": "Industrials",
-      "pct_change": -6.153891493084666,
+      "pct_change": -7.252183176464594,
       "conviction": "buy_signal",
       "status": "blocked_news",
       "news_bad": true
     },
     {
-      "symbol": "BLDR",
-      "name": "Builders FirstSource",
-      "sector": "Industrials",
-      "pct_change": -5.938108504527882,
-      "conviction": "buy_signal",
-      "status": "bought",
-      "news_bad": false
-    },
-    {
-      "symbol": "PPG",
-      "name": "PPG Industries",
-      "sector": "Materials",
-      "pct_change": -5.810436762795583,
-      "conviction": "buy_signal",
-      "status": "bought",
-      "news_bad": false
-    },
-    {
-      "symbol": "NXPI",
-      "name": "NXP Semiconductors",
+      "symbol": "AMAT",
+      "name": "Applied Materials",
       "sector": "Information Technology",
-      "pct_change": -5.399039247452904,
+      "pct_change": -6.737188154137407,
       "conviction": "buy_signal",
       "status": "bought",
       "news_bad": false
     },
     {
-      "symbol": "ETN",
-      "name": "Eaton Corporation",
+      "symbol": "ANET",
+      "name": "Arista Networks",
+      "sector": "Information Technology",
+      "pct_change": -6.69083173479145,
+      "conviction": "buy_signal",
+      "status": "bought",
+      "news_bad": false
+    },
+    {
+      "symbol": "FTV",
+      "name": "Fortive",
       "sector": "Industrials",
-      "pct_change": -5.343554633305544,
+      "pct_change": -6.194410411689724,
       "conviction": "buy_signal",
       "status": "bought",
       "news_bad": false
@@ -124,16 +61,79 @@
       "symbol": "CMI",
       "name": "Cummins",
       "sector": "Industrials",
-      "pct_change": -4.524621160592672,
+      "pct_change": -5.995163230046041,
+      "conviction": "buy_signal",
+      "status": "bought",
+      "news_bad": false
+    },
+    {
+      "symbol": "AMD",
+      "name": "Advanced Micro Devices",
+      "sector": "Information Technology",
+      "pct_change": -5.738858083258172,
+      "conviction": "buy_signal",
+      "status": "blocked_news",
+      "news_bad": true
+    },
+    {
+      "symbol": "MRVL",
+      "name": "Marvell Technology",
+      "sector": "Information Technology",
+      "pct_change": -5.379145091518625,
+      "conviction": "buy_signal",
+      "status": "order_failed",
+      "news_bad": false
+    },
+    {
+      "symbol": "HUBB",
+      "name": "Hubbell Incorporated",
+      "sector": "Industrials",
+      "pct_change": -5.307450116480533,
+      "conviction": "buy_signal",
+      "status": "order_failed",
+      "news_bad": false
+    },
+    {
+      "symbol": "HONA",
+      "name": "Honeywell Aerospace",
+      "sector": "Industrials",
+      "pct_change": -5.118062321730481,
+      "conviction": "buy_signal",
+      "status": "bought",
+      "news_bad": false
+    },
+    {
+      "symbol": "TT",
+      "name": "Trane Technologies",
+      "sector": "Industrials",
+      "pct_change": -5.043292265138236,
+      "conviction": "buy_signal",
+      "status": "order_failed",
+      "news_bad": false
+    },
+    {
+      "symbol": "JBL",
+      "name": "Jabil",
+      "sector": "Information Technology",
+      "pct_change": -4.928213431843809,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
     },
     {
-      "symbol": "IVZ",
-      "name": "Invesco",
-      "sector": "Financials",
-      "pct_change": -4.502211176349967,
+      "symbol": "FCX",
+      "name": "Freeport-McMoRan",
+      "sector": "Materials",
+      "pct_change": -4.696626356959125,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "PH",
+      "name": "Parker Hannifin",
+      "sector": "Industrials",
+      "pct_change": -4.6056363159418,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
