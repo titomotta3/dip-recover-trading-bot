@@ -1,112 +1,139 @@
 {
-  "updated_utc": "2026-07-28T19:59:10+00:00",
+  "updated_utc": "2026-07-29T15:10:28+00:00",
   "drop_threshold_pct": -5.0,
   "high_conviction_pct": -8.0,
   "stocks": [
     {
-      "symbol": "SNDK",
-      "name": "Sandisk",
-      "sector": "Information Technology",
-      "pct_change": -14.128127847078575,
+      "symbol": "LII",
+      "name": "Lennox International",
+      "sector": "Industrials",
+      "pct_change": -19.625622763665127,
       "conviction": "high",
-      "status": "blocked_news",
-      "news_bad": true
+      "status": "bought",
+      "news_bad": false
     },
     {
-      "symbol": "PLTR",
-      "name": "Palantir Technologies",
-      "sector": "Information Technology",
-      "pct_change": -6.089867110598089,
-      "conviction": "buy_signal",
-      "status": "blocked_news",
-      "news_bad": true
+      "symbol": "VRT",
+      "name": "Vertiv",
+      "sector": "Industrials",
+      "pct_change": -12.761535171407216,
+      "conviction": "high",
+      "status": "bought",
+      "news_bad": false
     },
     {
-      "symbol": "ON",
-      "name": "ON Semiconductor",
-      "sector": "Information Technology",
-      "pct_change": -5.014604583754583,
+      "symbol": "MAS",
+      "name": "Masco",
+      "sector": "Industrials",
+      "pct_change": -11.260756268284698,
+      "conviction": "high",
+      "status": "bought",
+      "news_bad": false
+    },
+    {
+      "symbol": "BG",
+      "name": "Bunge Global",
+      "sector": "Consumer Staples",
+      "pct_change": -7.846978673382424,
       "conviction": "buy_signal",
       "status": "bought",
       "news_bad": false
     },
     {
-      "symbol": "MPWR",
-      "name": "Monolithic Power Systems",
+      "symbol": "FLEX",
+      "name": "Flex Ltd.",
       "sector": "Information Technology",
-      "pct_change": -4.214082317151824,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
+      "pct_change": -6.850284445490912,
+      "conviction": "buy_signal",
+      "status": "bought",
+      "news_bad": false
     },
     {
-      "symbol": "QCOM",
-      "name": "Qualcomm",
+      "symbol": "HUM",
+      "name": "Humana",
+      "sector": "Health Care",
+      "pct_change": -6.434097347080206,
+      "conviction": "buy_signal",
+      "status": "bought",
+      "news_bad": false
+    },
+    {
+      "symbol": "SW",
+      "name": "Smurfit Westrock",
+      "sector": "Materials",
+      "pct_change": -6.377948646514602,
+      "conviction": "buy_signal",
+      "status": "bought",
+      "news_bad": false
+    },
+    {
+      "symbol": "SNDK",
+      "name": "Sandisk",
       "sector": "Information Technology",
-      "pct_change": -4.040223117174026,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
+      "pct_change": -6.173699788545838,
+      "conviction": "buy_signal",
+      "status": "bought",
+      "news_bad": false
     },
     {
-      "symbol": "SPGI",
-      "name": "S&P Global",
-      "sector": "Financials",
-      "pct_change": -3.852619722156326,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "CEG",
-      "name": "Constellation Energy",
-      "sector": "Utilities",
-      "pct_change": -3.7777822989004632,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "APH",
-      "name": "Amphenol",
-      "sector": "Information Technology",
-      "pct_change": -3.771439528972789,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "URI",
-      "name": "United Rentals",
+      "symbol": "CAT",
+      "name": "Caterpillar Inc.",
       "sector": "Industrials",
-      "pct_change": -3.536630887183207,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
+      "pct_change": -6.153891493084666,
+      "conviction": "buy_signal",
+      "status": "blocked_news",
+      "news_bad": true
     },
     {
-      "symbol": "BKR",
-      "name": "Baker Hughes",
-      "sector": "Energy",
-      "pct_change": -3.4741698909641285,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
+      "symbol": "BLDR",
+      "name": "Builders FirstSource",
+      "sector": "Industrials",
+      "pct_change": -5.938108504527882,
+      "conviction": "buy_signal",
+      "status": "bought",
+      "news_bad": false
+    },
+    {
+      "symbol": "PPG",
+      "name": "PPG Industries",
+      "sector": "Materials",
+      "pct_change": -5.810436762795583,
+      "conviction": "buy_signal",
+      "status": "bought",
+      "news_bad": false
+    },
+    {
+      "symbol": "NXPI",
+      "name": "NXP Semiconductors",
+      "sector": "Information Technology",
+      "pct_change": -5.399039247452904,
+      "conviction": "buy_signal",
+      "status": "bought",
+      "news_bad": false
     },
     {
       "symbol": "ETN",
       "name": "Eaton Corporation",
       "sector": "Industrials",
-      "pct_change": -3.0842396588253704,
+      "pct_change": -5.343554633305544,
+      "conviction": "buy_signal",
+      "status": "bought",
+      "news_bad": false
+    },
+    {
+      "symbol": "CMI",
+      "name": "Cummins",
+      "sector": "Industrials",
+      "pct_change": -4.524621160592672,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
     },
     {
-      "symbol": "HOOD",
-      "name": "Robinhood Markets",
+      "symbol": "IVZ",
+      "name": "Invesco",
       "sector": "Financials",
-      "pct_change": -3.0371131552056516,
+      "pct_change": -4.502211176349967,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
