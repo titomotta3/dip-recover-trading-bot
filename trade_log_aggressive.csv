@@ -74,3 +74,12 @@ timestamp_utc,action,symbol,detail
 2026-07-28T18:22:29+00:00,BUY,CARR,drop=-8.54% notional=$12000.00 news=clear(3)
 2026-07-28T19:59:35+00:00,SELL,TEL,gain=10.26% qty=128.633856444 reason=target_reached
 2026-07-28T20:00:03+00:00,BUY,MU,drop=-8.90% notional=$12000.00 news=clear(10)
+2026-07-29T15:11:05+00:00,SELL,CHRW,gain=-12.29% qty=66.0955478 reason=stop_loss
+2026-07-29T15:11:06+00:00,SELL,CSGP,gain=1.78% qty=435.995465643 reason=bad_news:downgrade
+2026-07-29T15:11:06+00:00,SELL,GRMN,gain=24.56% qty=52.689217669 reason=target_reached
+2026-07-29T15:11:07+00:00,SELL,VRSK,gain=12.82% qty=64.004045058 reason=target_reached
+2026-07-29T15:11:49+00:00,BUY,FIX,drop=-10.62% notional=$11500.00 news=clear(2)
+2026-07-29T15:11:49+00:00,BUY,ETN,drop=-8.54% notional=$11500.00 news=none
+2026-07-29T15:11:49+00:00,BUY,EME,drop=-8.46% notional=$11500.00 news=none
+2026-07-29T15:11:50+00:00,BUY,INTC,drop=-9.01% notional=$11500.00 news=clear(10)
+2026-07-29T15:11:50+00:00,BUY,LII,drop=-19.92% notional=$23000.00 news=clear(2) conviction=HIGH

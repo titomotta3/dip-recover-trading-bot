@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-07-28T20:00:03+00:00",
+  "updated_utc": "2026-07-29T15:11:52+00:00",
   "drop_threshold_pct": -8.0,
   "high_conviction_pct": -11.0,
   "stocks": [
@@ -7,82 +7,136 @@
       "symbol": "SNDK",
       "name": "Sandisk",
       "sector": "Information Technology",
-      "pct_change": -14.233740734161888,
+      "pct_change": -20.17611538630499,
       "conviction": "high",
-      "status": "blocked_news",
-      "news_bad": true
+      "status": "blocked_sector_cap",
+      "news_bad": false
     },
     {
-      "symbol": "MU",
-      "name": "Micron Technology",
-      "sector": "Information Technology",
-      "pct_change": -8.9019116506294,
-      "conviction": "buy_signal",
+      "symbol": "LII",
+      "name": "Lennox International",
+      "sector": "Industrials",
+      "pct_change": -19.923722499052722,
+      "conviction": "high",
       "status": "bought",
+      "news_bad": false
+    },
+    {
+      "symbol": "VRT",
+      "name": "Vertiv",
+      "sector": "Industrials",
+      "pct_change": -18.6178763182856,
+      "conviction": "high",
+      "status": "order_failed",
+      "news_bad": false
+    },
+    {
+      "symbol": "KLAC",
+      "name": "KLA Corporation",
+      "sector": "Information Technology",
+      "pct_change": -12.359851707020745,
+      "conviction": "high",
+      "status": "blocked_sector_cap",
       "news_bad": false
     },
     {
       "symbol": "MRVL",
       "name": "Marvell Technology",
       "sector": "Information Technology",
-      "pct_change": -7.728495669873913,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "NRG",
-      "name": "NRG Energy",
-      "sector": "Utilities",
-      "pct_change": -6.652015993446657,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "VRT",
-      "name": "Vertiv",
-      "sector": "Industrials",
-      "pct_change": -6.451666301113626,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "UPS",
-      "name": "United Parcel Service",
-      "sector": "Industrials",
-      "pct_change": -6.188577293165048,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "TXT",
-      "name": "Textron",
-      "sector": "Industrials",
-      "pct_change": -6.1271190657804935,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "PLTR",
-      "name": "Palantir Technologies",
-      "sector": "Information Technology",
-      "pct_change": -6.0860619841182375,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
+      "pct_change": -11.687900208470374,
+      "conviction": "high",
+      "status": "blocked_sector_cap",
+      "news_bad": false
     },
     {
       "symbol": "FIX",
       "name": "Comfort Systems USA",
       "sector": "Industrials",
-      "pct_change": -6.038996159668997,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
+      "pct_change": -10.620833642256155,
+      "conviction": "buy_signal",
+      "status": "bought",
+      "news_bad": false
+    },
+    {
+      "symbol": "MAS",
+      "name": "Masco",
+      "sector": "Industrials",
+      "pct_change": -10.596482131086454,
+      "conviction": "buy_signal",
+      "status": "order_failed",
+      "news_bad": false
+    },
+    {
+      "symbol": "TXT",
+      "name": "Textron",
+      "sector": "Industrials",
+      "pct_change": -10.01768181479436,
+      "conviction": "buy_signal",
+      "status": "order_failed",
+      "news_bad": false
+    },
+    {
+      "symbol": "CAT",
+      "name": "Caterpillar Inc.",
+      "sector": "Industrials",
+      "pct_change": -9.920071681080696,
+      "conviction": "buy_signal",
+      "status": "blocked_news",
+      "news_bad": true
+    },
+    {
+      "symbol": "SMCI",
+      "name": "Supermicro",
+      "sector": "Information Technology",
+      "pct_change": -9.81214119242883,
+      "conviction": "buy_signal",
+      "status": "blocked_sector_cap",
+      "news_bad": false
+    },
+    {
+      "symbol": "NXPI",
+      "name": "NXP Semiconductors",
+      "sector": "Information Technology",
+      "pct_change": -9.171747703884991,
+      "conviction": "buy_signal",
+      "status": "blocked_sector_cap",
+      "news_bad": false
+    },
+    {
+      "symbol": "INTC",
+      "name": "Intel",
+      "sector": "Information Technology",
+      "pct_change": -9.010575621058695,
+      "conviction": "buy_signal",
+      "status": "bought",
+      "news_bad": false
+    },
+    {
+      "symbol": "ON",
+      "name": "ON Semiconductor",
+      "sector": "Information Technology",
+      "pct_change": -8.951034522410103,
+      "conviction": "buy_signal",
+      "status": "blocked_sector_cap",
+      "news_bad": false
+    },
+    {
+      "symbol": "ETN",
+      "name": "Eaton Corporation",
+      "sector": "Industrials",
+      "pct_change": -8.541545519602629,
+      "conviction": "buy_signal",
+      "status": "bought",
+      "news_bad": false
+    },
+    {
+      "symbol": "EME",
+      "name": "Emcor",
+      "sector": "Industrials",
+      "pct_change": -8.458433148035173,
+      "conviction": "buy_signal",
+      "status": "bought",
+      "news_bad": false
     }
   ]
 }
