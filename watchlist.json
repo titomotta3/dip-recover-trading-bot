@@ -1,85 +1,31 @@
 {
-  "updated_utc": "2026-07-29T17:56:21+00:00",
+  "updated_utc": "2026-07-29T19:21:03+00:00",
   "drop_threshold_pct": -5.0,
   "high_conviction_pct": -8.0,
   "stocks": [
     {
-      "symbol": "KLAC",
-      "name": "KLA Corporation",
-      "sector": "Information Technology",
-      "pct_change": -8.647798603820824,
-      "conviction": "high",
-      "status": "bought",
-      "news_bad": false
-    },
-    {
       "symbol": "CAT",
       "name": "Caterpillar Inc.",
       "sector": "Industrials",
-      "pct_change": -6.475584557629572,
+      "pct_change": -5.832191169794678,
       "conviction": "buy_signal",
       "status": "blocked_news",
       "news_bad": true
     },
     {
-      "symbol": "JBL",
-      "name": "Jabil",
-      "sector": "Information Technology",
-      "pct_change": -5.590030327188315,
-      "conviction": "buy_signal",
-      "status": "bought",
-      "news_bad": false
-    },
-    {
-      "symbol": "APP",
-      "name": "AppLovin",
-      "sector": "Information Technology",
-      "pct_change": -4.6979790842727205,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "HUBB",
-      "name": "Hubbell Incorporated",
-      "sector": "Industrials",
-      "pct_change": -4.571396373843421,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
       "symbol": "HII",
       "name": "Huntington Ingalls Industries",
       "sector": "Industrials",
-      "pct_change": -4.472326234239665,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
+      "pct_change": -5.441816490950607,
+      "conviction": "buy_signal",
+      "status": "order_failed",
+      "news_bad": false
     },
     {
-      "symbol": "TT",
-      "name": "Trane Technologies",
-      "sector": "Industrials",
-      "pct_change": -4.173135817993873,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "IVZ",
-      "name": "Invesco",
-      "sector": "Financials",
-      "pct_change": -4.043494807060314,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "MRVL",
-      "name": "Marvell Technology",
+      "symbol": "SWKS",
+      "name": "Skyworks Solutions",
       "sector": "Information Technology",
-      "pct_change": -3.9834910870726126,
+      "pct_change": -4.576374567882914,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
@@ -88,43 +34,43 @@
       "symbol": "IBKR",
       "name": "Interactive Brokers",
       "sector": "Financials",
-      "pct_change": -3.9379624759016547,
+      "pct_change": -4.399955823197454,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
     },
     {
-      "symbol": "AMD",
-      "name": "Advanced Micro Devices",
-      "sector": "Information Technology",
-      "pct_change": -3.8691646928895964,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "PH",
-      "name": "Parker Hannifin",
+      "symbol": "FDXF",
+      "name": "FedEx Freight",
       "sector": "Industrials",
-      "pct_change": -3.8346652899634877,
+      "pct_change": -4.3679103200808544,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
     },
     {
-      "symbol": "CNC",
-      "name": "Centene Corporation",
-      "sector": "Health Care",
-      "pct_change": -3.755283260223774,
+      "symbol": "HUBB",
+      "name": "Hubbell Incorporated",
+      "sector": "Industrials",
+      "pct_change": -4.2860709650100315,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
     },
     {
-      "symbol": "NUE",
-      "name": "Nucor",
-      "sector": "Materials",
-      "pct_change": -3.715832881042336,
+      "symbol": "TT",
+      "name": "Trane Technologies",
+      "sector": "Industrials",
+      "pct_change": -3.943366106471112,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "GS",
+      "name": "Goldman Sachs",
+      "sector": "Financials",
+      "pct_change": -3.8438434607136744,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
@@ -133,7 +79,61 @@
       "symbol": "DE",
       "name": "Deere & Company",
       "sector": "Industrials",
-      "pct_change": -3.686863257274372,
+      "pct_change": -3.8423701145239035,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "OMC",
+      "name": "Omnicom Group",
+      "sector": "Communication Services",
+      "pct_change": -3.665047108988669,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "PH",
+      "name": "Parker Hannifin",
+      "sector": "Industrials",
+      "pct_change": -3.634355962891838,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "NUE",
+      "name": "Nucor",
+      "sector": "Materials",
+      "pct_change": -3.5388879110314115,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "IVZ",
+      "name": "Invesco",
+      "sector": "Financials",
+      "pct_change": -3.4998324021911893,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "WAB",
+      "name": "Wabtec",
+      "sector": "Industrials",
+      "pct_change": -3.338899796379826,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "C",
+      "name": "Citigroup",
+      "sector": "Financials",
+      "pct_change": -3.3328364944801354,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
