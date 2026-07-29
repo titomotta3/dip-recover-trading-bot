@@ -3,7 +3,7 @@
   "sell_threshold_pct": 10.5,
   "trade_dollars": 11500.0,
   "completed_trades": 14,
-  "last_adjustment": "1 bad_news exit(s) (AMD)",
-  "updated_utc": "2026-07-29T16:40:49+00:00",
+  "last_adjustment": "no change this run",
+  "updated_utc": "2026-07-29T17:57:39+00:00",
   "risk_exits": 15
 }

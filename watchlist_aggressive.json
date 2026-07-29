@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-07-29T16:40:49+00:00",
+  "updated_utc": "2026-07-29T17:57:39+00:00",
   "drop_threshold_pct": -8.0,
   "high_conviction_pct": -11.0,
   "stocks": [
@@ -7,34 +7,115 @@
       "symbol": "VRT",
       "name": "Vertiv",
       "sector": "Industrials",
-      "pct_change": -16.606692311576367,
+      "pct_change": -20.815370035707474,
       "conviction": "high",
       "status": "order_failed",
       "news_bad": false
     },
     {
-      "symbol": "MAS",
-      "name": "Masco",
-      "sector": "Industrials",
-      "pct_change": -10.525544775785924,
-      "conviction": "buy_signal",
-      "status": "bought",
+      "symbol": "SNDK",
+      "name": "Sandisk",
+      "sector": "Information Technology",
+      "pct_change": -18.02805011049291,
+      "conviction": "high",
+      "status": "blocked_sector_cap",
       "news_bad": false
     },
     {
-      "symbol": "KLAC",
-      "name": "KLA Corporation",
+      "symbol": "AMD",
+      "name": "Advanced Micro Devices",
       "sector": "Information Technology",
-      "pct_change": -9.690778405359001,
-      "conviction": "buy_signal",
-      "status": "bought",
+      "pct_change": -11.732135640966543,
+      "conviction": "high",
+      "status": "blocked_news",
+      "news_bad": true
+    },
+    {
+      "symbol": "MRVL",
+      "name": "Marvell Technology",
+      "sector": "Information Technology",
+      "pct_change": -11.502878214019098,
+      "conviction": "high",
+      "status": "blocked_sector_cap",
       "news_bad": false
     },
     {
       "symbol": "CAT",
       "name": "Caterpillar Inc.",
       "sector": "Industrials",
-      "pct_change": -7.216506444386471,
+      "pct_change": -9.946987032266271,
+      "conviction": "buy_signal",
+      "status": "blocked_news",
+      "news_bad": true
+    },
+    {
+      "symbol": "SMCI",
+      "name": "Supermicro",
+      "sector": "Information Technology",
+      "pct_change": -9.845687750835385,
+      "conviction": "buy_signal",
+      "status": "order_failed",
+      "news_bad": false
+    },
+    {
+      "symbol": "ON",
+      "name": "ON Semiconductor",
+      "sector": "Information Technology",
+      "pct_change": -9.445197187371981,
+      "conviction": "buy_signal",
+      "status": "order_failed",
+      "news_bad": false
+    },
+    {
+      "symbol": "TXT",
+      "name": "Textron",
+      "sector": "Industrials",
+      "pct_change": -8.956622132895596,
+      "conviction": "buy_signal",
+      "status": "order_failed",
+      "news_bad": false
+    },
+    {
+      "symbol": "NRG",
+      "name": "NRG Energy",
+      "sector": "Utilities",
+      "pct_change": -8.86446774660886,
+      "conviction": "buy_signal",
+      "status": "order_failed",
+      "news_bad": false
+    },
+    {
+      "symbol": "PWR",
+      "name": "Quanta Services",
+      "sector": "Industrials",
+      "pct_change": -8.663030220017028,
+      "conviction": "buy_signal",
+      "status": "order_failed",
+      "news_bad": false
+    },
+    {
+      "symbol": "VST",
+      "name": "Vistra Corp.",
+      "sector": "Utilities",
+      "pct_change": -8.568886272578426,
+      "conviction": "buy_signal",
+      "status": "order_failed",
+      "news_bad": false
+    },
+    {
+      "symbol": "JBL",
+      "name": "Jabil",
+      "sector": "Information Technology",
+      "pct_change": -8.155959926731946,
+      "conviction": "buy_signal",
+      "status": "order_failed",
+      "news_bad": false
+    },
+    {
+      "symbol": "CMI",
+      "name": "Cummins",
+      "sector": "Industrials",
+      "pct_change": -7.732238418892198,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
@@ -43,7 +124,7 @@
       "symbol": "NXPI",
       "name": "NXP Semiconductors",
       "sector": "Information Technology",
-      "pct_change": -6.836599518257549,
+      "pct_change": -7.632535177529705,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
@@ -52,52 +133,7 @@
       "symbol": "BG",
       "name": "Bunge Global",
       "sector": "Consumer Staples",
-      "pct_change": -6.773455219901351,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "ANET",
-      "name": "Arista Networks",
-      "sector": "Information Technology",
-      "pct_change": -6.740912137664464,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "SNDK",
-      "name": "Sandisk",
-      "sector": "Information Technology",
-      "pct_change": -6.531335408710593,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "SMCI",
-      "name": "Supermicro",
-      "sector": "Information Technology",
-      "pct_change": -6.449915439762178,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "FTV",
-      "name": "Fortive",
-      "sector": "Industrials",
-      "pct_change": -6.272424516725623,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "HUM",
-      "name": "Humana",
-      "sector": "Health Care",
-      "pct_change": -6.230866649462533,
+      "pct_change": -7.174468344830452,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
