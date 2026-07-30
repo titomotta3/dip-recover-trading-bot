@@ -1,58 +1,22 @@
 {
-  "updated_utc": "2026-07-30T16:52:59+00:00",
+  "updated_utc": "2026-07-30T18:11:52+00:00",
   "drop_threshold_pct": -8.0,
   "high_conviction_pct": -11.0,
   "stocks": [
     {
-      "symbol": "MO",
-      "name": "Altria",
-      "sector": "Consumer Staples",
-      "pct_change": -9.196475651416092,
-      "conviction": "buy_signal",
-      "status": "bought",
-      "news_bad": false
-    },
-    {
       "symbol": "NCLH",
       "name": "Norwegian Cruise Line Holdings",
       "sector": "Consumer Discretionary",
-      "pct_change": -7.975906923592809,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "INTU",
-      "name": "Intuit",
-      "sector": "Information Technology",
-      "pct_change": -6.443429298853316,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
+      "pct_change": -8.843369081795933,
+      "conviction": "buy_signal",
+      "status": "order_failed",
+      "news_bad": false
     },
     {
       "symbol": "VTR",
       "name": "Ventas",
       "sector": "Real Estate",
-      "pct_change": -6.216746317794415,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "EFX",
-      "name": "Equifax",
-      "sector": "Industrials",
-      "pct_change": -6.105318354785235,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "ACN",
-      "name": "Accenture",
-      "sector": "Information Technology",
-      "pct_change": -6.028759341569631,
+      "pct_change": -6.308842446290532,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
