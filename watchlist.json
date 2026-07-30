@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-07-30T16:52:03+00:00",
+  "updated_utc": "2026-07-30T18:10:55+00:00",
   "drop_threshold_pct": -5.0,
   "high_conviction_pct": -8.0,
   "stocks": [
@@ -7,7 +7,7 @@
       "symbol": "FICO",
       "name": "Fair Isaac",
       "sector": "Information Technology",
-      "pct_change": -16.360656673367846,
+      "pct_change": -15.323030535092904,
       "conviction": "high",
       "status": "order_failed",
       "news_bad": false
@@ -16,7 +16,7 @@
       "symbol": "LHX",
       "name": "L3Harris",
       "sector": "Industrials",
-      "pct_change": -10.88629189115339,
+      "pct_change": -11.09971903067892,
       "conviction": "high",
       "status": "order_failed",
       "news_bad": false
@@ -25,16 +25,7 @@
       "symbol": "META",
       "name": "Meta Platforms",
       "sector": "Communication Services",
-      "pct_change": -9.44570683988571,
-      "conviction": "high",
-      "status": "order_failed",
-      "news_bad": false
-    },
-    {
-      "symbol": "IT",
-      "name": "Gartner",
-      "sector": "Information Technology",
-      "pct_change": -8.988831837176694,
+      "pct_change": -9.124673228806852,
       "conviction": "high",
       "status": "order_failed",
       "news_bad": false
@@ -43,7 +34,16 @@
       "symbol": "NCLH",
       "name": "Norwegian Cruise Line Holdings",
       "sector": "Consumer Discretionary",
-      "pct_change": -8.216867102197854,
+      "pct_change": -8.746990525578878,
+      "conviction": "high",
+      "status": "order_failed",
+      "news_bad": false
+    },
+    {
+      "symbol": "IT",
+      "name": "Gartner",
+      "sector": "Information Technology",
+      "pct_change": -8.207064124130738,
       "conviction": "high",
       "status": "order_failed",
       "news_bad": false
@@ -52,25 +52,7 @@
       "symbol": "WDAY",
       "name": "Workday, Inc.",
       "sector": "Information Technology",
-      "pct_change": -7.7316770782029085,
-      "conviction": "buy_signal",
-      "status": "order_failed",
-      "news_bad": false
-    },
-    {
-      "symbol": "INTU",
-      "name": "Intuit",
-      "sector": "Information Technology",
-      "pct_change": -6.489957314050086,
-      "conviction": "buy_signal",
-      "status": "blocked_news",
-      "news_bad": true
-    },
-    {
-      "symbol": "EFX",
-      "name": "Equifax",
-      "sector": "Industrials",
-      "pct_change": -6.062548063553243,
+      "pct_change": -6.660310427045394,
       "conviction": "buy_signal",
       "status": "order_failed",
       "news_bad": false
@@ -79,16 +61,7 @@
       "symbol": "VTR",
       "name": "Ventas",
       "sector": "Real Estate",
-      "pct_change": -6.006961393015621,
-      "conviction": "buy_signal",
-      "status": "order_failed",
-      "news_bad": false
-    },
-    {
-      "symbol": "VRSK",
-      "name": "Verisk Analytics",
-      "sector": "Industrials",
-      "pct_change": -5.859718785842764,
+      "pct_change": -6.273029887676451,
       "conviction": "buy_signal",
       "status": "order_failed",
       "news_bad": false
@@ -97,25 +70,34 @@
       "symbol": "HPQ",
       "name": "HP Inc.",
       "sector": "Information Technology",
-      "pct_change": -5.8430125178734205,
+      "pct_change": -5.825416034967924,
       "conviction": "buy_signal",
       "status": "order_failed",
       "news_bad": false
     },
     {
-      "symbol": "FDS",
-      "name": "FactSet",
+      "symbol": "ERIE",
+      "name": "Erie Indemnity",
       "sector": "Financials",
-      "pct_change": -5.743870272380521,
+      "pct_change": -5.727218038853646,
       "conviction": "buy_signal",
-      "status": "order_failed",
+      "status": "bought",
       "news_bad": false
     },
     {
-      "symbol": "NOW",
-      "name": "ServiceNow",
+      "symbol": "INTU",
+      "name": "Intuit",
       "sector": "Information Technology",
-      "pct_change": -5.722184197544371,
+      "pct_change": -5.7214892922355105,
+      "conviction": "buy_signal",
+      "status": "blocked_news",
+      "news_bad": true
+    },
+    {
+      "symbol": "ODFL",
+      "name": "Old Dominion",
+      "sector": "Industrials",
+      "pct_change": -5.608418463005192,
       "conviction": "buy_signal",
       "status": "order_failed",
       "news_bad": false
@@ -124,16 +106,34 @@
       "symbol": "BRO",
       "name": "Brown & Brown",
       "sector": "Financials",
-      "pct_change": -5.609729429091623,
+      "pct_change": -5.5963700917555155,
       "conviction": "buy_signal",
       "status": "blocked_news",
       "news_bad": true
     },
     {
-      "symbol": "ROP",
-      "name": "Roper Technologies",
+      "symbol": "GDDY",
+      "name": "GoDaddy",
       "sector": "Information Technology",
-      "pct_change": -5.54316531751757,
+      "pct_change": -5.428165474673567,
+      "conviction": "buy_signal",
+      "status": "order_failed",
+      "news_bad": false
+    },
+    {
+      "symbol": "EFX",
+      "name": "Equifax",
+      "sector": "Industrials",
+      "pct_change": -5.410323555662439,
+      "conviction": "buy_signal",
+      "status": "bought",
+      "news_bad": false
+    },
+    {
+      "symbol": "NOW",
+      "name": "ServiceNow",
+      "sector": "Information Technology",
+      "pct_change": -5.170180113946613,
       "conviction": "buy_signal",
       "status": "order_failed",
       "news_bad": false

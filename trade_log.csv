@@ -167,3 +167,9 @@ timestamp_utc,action,symbol,detail
 2026-07-30T15:12:44+00:00,BUY,CVNA,drop=-11.71% notional=$10000.00 news=clear(10)
 2026-07-30T15:12:44+00:00,BUY,CHTR,drop=-5.10% notional=$10000.00 news=clear(6)
 2026-07-30T15:12:44+00:00,BUY,CTSH,drop=-6.00% notional=$10000.00 news=clear(7)
+2026-07-30T18:10:13+00:00,SELL,GL,gain=7.12% qty=58.764705882 reason=target_reached
+2026-07-30T18:10:13+00:00,SELL,JBL,gain=7.37% qty=34.941786924 reason=target_reached
+2026-07-30T18:10:14+00:00,SELL,MU,gain=7.30% qty=12.259096258 reason=target_reached
+2026-07-30T18:10:52+00:00,BUY,EFX,drop=-5.41% notional=$10000.00 news=none
+2026-07-30T18:10:52+00:00,BUY,ERIE,drop=-5.73% notional=$10000.00 news=none
+2026-07-30T18:10:52+00:00,BUY,EG,drop=-5.02% notional=$10000.00 news=clear(3)
