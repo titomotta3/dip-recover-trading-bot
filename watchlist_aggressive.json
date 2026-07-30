@@ -1,103 +1,40 @@
 {
-  "updated_utc": "2026-07-30T15:14:00+00:00",
+  "updated_utc": "2026-07-30T16:52:59+00:00",
   "drop_threshold_pct": -8.0,
   "high_conviction_pct": -11.0,
   "stocks": [
     {
-      "symbol": "FICO",
-      "name": "Fair Isaac",
-      "sector": "Information Technology",
-      "pct_change": -15.818084397148683,
-      "conviction": "high",
-      "status": "bought",
-      "news_bad": false
-    },
-    {
-      "symbol": "CHRW",
-      "name": "C.H. Robinson",
-      "sector": "Industrials",
-      "pct_change": -14.584170554181656,
-      "conviction": "high",
-      "status": "bought",
-      "news_bad": false
-    },
-    {
-      "symbol": "WDAY",
-      "name": "Workday, Inc.",
-      "sector": "Information Technology",
-      "pct_change": -9.541098329507209,
+      "symbol": "MO",
+      "name": "Altria",
+      "sector": "Consumer Staples",
+      "pct_change": -9.196475651416092,
       "conviction": "buy_signal",
       "status": "bought",
       "news_bad": false
-    },
-    {
-      "symbol": "LHX",
-      "name": "L3Harris",
-      "sector": "Industrials",
-      "pct_change": -9.28191634759781,
-      "conviction": "buy_signal",
-      "status": "bought",
-      "news_bad": false
-    },
-    {
-      "symbol": "IT",
-      "name": "Gartner",
-      "sector": "Information Technology",
-      "pct_change": -9.271052662122221,
-      "conviction": "buy_signal",
-      "status": "bought",
-      "news_bad": false
-    },
-    {
-      "symbol": "META",
-      "name": "Meta Platforms",
-      "sector": "Communication Services",
-      "pct_change": -8.037774030775953,
-      "conviction": "buy_signal",
-      "status": "bought",
-      "news_bad": false
-    },
-    {
-      "symbol": "INTU",
-      "name": "Intuit",
-      "sector": "Information Technology",
-      "pct_change": -7.980365342482469,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
     },
     {
       "symbol": "NCLH",
       "name": "Norwegian Cruise Line Holdings",
       "sector": "Consumer Discretionary",
-      "pct_change": -7.6621641595679595,
+      "pct_change": -7.975906923592809,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
     },
     {
-      "symbol": "MO",
-      "name": "Altria",
-      "sector": "Consumer Staples",
-      "pct_change": -7.481307881107717,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "HPQ",
-      "name": "HP Inc.",
+      "symbol": "INTU",
+      "name": "Intuit",
       "sector": "Information Technology",
-      "pct_change": -7.162970286314447,
+      "pct_change": -6.443429298853316,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
     },
     {
-      "symbol": "ADBE",
-      "name": "Adobe Inc.",
-      "sector": "Information Technology",
-      "pct_change": -7.153697940958338,
+      "symbol": "VTR",
+      "name": "Ventas",
+      "sector": "Real Estate",
+      "pct_change": -6.216746317794415,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
@@ -106,34 +43,16 @@
       "symbol": "EFX",
       "name": "Equifax",
       "sector": "Industrials",
-      "pct_change": -6.971402476434941,
+      "pct_change": -6.105318354785235,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
     },
     {
-      "symbol": "NOW",
-      "name": "ServiceNow",
+      "symbol": "ACN",
+      "name": "Accenture",
       "sector": "Information Technology",
-      "pct_change": -6.8719779580627165,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "ERIE",
-      "name": "Erie Indemnity",
-      "sector": "Financials",
-      "pct_change": -6.755183399223512,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "CTSH",
-      "name": "Cognizant",
-      "sector": "Information Technology",
-      "pct_change": -6.539217022668721,
+      "pct_change": -6.028759341569631,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null

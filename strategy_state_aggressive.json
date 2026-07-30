@@ -3,7 +3,7 @@
   "sell_threshold_pct": 11.5,
   "trade_dollars": 11500.0,
   "completed_trades": 19,
-  "last_adjustment": "1 bad_news exit(s) (MAS); EME cleared target by 5.6pp -> raised sell target to 11.0%; INTC barely cleared target -> lowered sell target to 10.5%; STX cleared target by 5.9pp -> raised sell target to 11.0%; WDC cleared target by 8.8pp -> raised sell target to 11.5%",
-  "updated_utc": "2026-07-30T15:14:01+00:00",
+  "last_adjustment": "no change this run",
+  "updated_utc": "2026-07-30T16:52:59+00:00",
   "risk_exits": 16
 }
