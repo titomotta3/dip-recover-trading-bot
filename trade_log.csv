@@ -173,3 +173,6 @@ timestamp_utc,action,symbol,detail
 2026-07-30T18:10:52+00:00,BUY,EFX,drop=-5.41% notional=$10000.00 news=none
 2026-07-30T18:10:52+00:00,BUY,ERIE,drop=-5.73% notional=$10000.00 news=none
 2026-07-30T18:10:52+00:00,BUY,EG,drop=-5.02% notional=$10000.00 news=clear(3)
+2026-07-30T19:52:43+00:00,SELL,ANET,gain=7.51% qty=63.091419558 reason=target_reached
+2026-07-30T19:53:16+00:00,BUY,ESS,drop=-5.31% notional=$10000.00 news=clear(4)
+2026-07-30T19:53:16+00:00,BUY,FDS,drop=-6.32% notional=$10000.00 news=clear(1)
