@@ -1,142 +1,142 @@
 {
-  "updated_utc": "2026-07-29T19:21:03+00:00",
+  "updated_utc": "2026-07-30T15:12:46+00:00",
   "drop_threshold_pct": -5.0,
   "high_conviction_pct": -8.0,
   "stocks": [
     {
-      "symbol": "CAT",
-      "name": "Caterpillar Inc.",
+      "symbol": "FICO",
+      "name": "Fair Isaac",
+      "sector": "Information Technology",
+      "pct_change": -15.764556170454997,
+      "conviction": "high",
+      "status": "order_failed",
+      "news_bad": false
+    },
+    {
+      "symbol": "CHRW",
+      "name": "C.H. Robinson",
       "sector": "Industrials",
-      "pct_change": -5.832191169794678,
+      "pct_change": -14.612949289006295,
+      "conviction": "high",
+      "status": "bought",
+      "news_bad": false
+    },
+    {
+      "symbol": "CVNA",
+      "name": "Carvana",
+      "sector": "Consumer Discretionary",
+      "pct_change": -11.70838272825631,
+      "conviction": "high",
+      "status": "bought",
+      "news_bad": false
+    },
+    {
+      "symbol": "LHX",
+      "name": "L3Harris",
+      "sector": "Industrials",
+      "pct_change": -9.471311394278842,
+      "conviction": "high",
+      "status": "order_failed",
+      "news_bad": false
+    },
+    {
+      "symbol": "IT",
+      "name": "Gartner",
+      "sector": "Information Technology",
+      "pct_change": -9.115600000663225,
+      "conviction": "high",
+      "status": "order_failed",
+      "news_bad": false
+    },
+    {
+      "symbol": "WDAY",
+      "name": "Workday, Inc.",
+      "sector": "Information Technology",
+      "pct_change": -9.109454682412196,
+      "conviction": "high",
+      "status": "order_failed",
+      "news_bad": false
+    },
+    {
+      "symbol": "META",
+      "name": "Meta Platforms",
+      "sector": "Communication Services",
+      "pct_change": -8.089000580949726,
+      "conviction": "high",
+      "status": "order_failed",
+      "news_bad": false
+    },
+    {
+      "symbol": "INTU",
+      "name": "Intuit",
+      "sector": "Information Technology",
+      "pct_change": -7.852791186225288,
       "conviction": "buy_signal",
       "status": "blocked_news",
       "news_bad": true
     },
     {
-      "symbol": "HII",
-      "name": "Huntington Ingalls Industries",
-      "sector": "Industrials",
-      "pct_change": -5.441816490950607,
+      "symbol": "NCLH",
+      "name": "Norwegian Cruise Line Holdings",
+      "sector": "Consumer Discretionary",
+      "pct_change": -7.686743678816829,
       "conviction": "buy_signal",
       "status": "order_failed",
       "news_bad": false
     },
     {
-      "symbol": "SWKS",
-      "name": "Skyworks Solutions",
+      "symbol": "MO",
+      "name": "Altria",
+      "sector": "Consumer Staples",
+      "pct_change": -7.4479471001477195,
+      "conviction": "buy_signal",
+      "status": "bought",
+      "news_bad": false
+    },
+    {
+      "symbol": "HPQ",
+      "name": "HP Inc.",
       "sector": "Information Technology",
-      "pct_change": -4.576374567882914,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
+      "pct_change": -7.11017412394557,
+      "conviction": "buy_signal",
+      "status": "order_failed",
+      "news_bad": false
     },
     {
-      "symbol": "IBKR",
-      "name": "Interactive Brokers",
+      "symbol": "ADBE",
+      "name": "Adobe Inc.",
+      "sector": "Information Technology",
+      "pct_change": -7.043614315632604,
+      "conviction": "buy_signal",
+      "status": "bought",
+      "news_bad": false
+    },
+    {
+      "symbol": "EFX",
+      "name": "Equifax",
+      "sector": "Industrials",
+      "pct_change": -6.896556506178688,
+      "conviction": "buy_signal",
+      "status": "order_failed",
+      "news_bad": false
+    },
+    {
+      "symbol": "NOW",
+      "name": "ServiceNow",
+      "sector": "Information Technology",
+      "pct_change": -6.703526255207065,
+      "conviction": "buy_signal",
+      "status": "order_failed",
+      "news_bad": false
+    },
+    {
+      "symbol": "ERIE",
+      "name": "Erie Indemnity",
       "sector": "Financials",
-      "pct_change": -4.399955823197454,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "FDXF",
-      "name": "FedEx Freight",
-      "sector": "Industrials",
-      "pct_change": -4.3679103200808544,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "HUBB",
-      "name": "Hubbell Incorporated",
-      "sector": "Industrials",
-      "pct_change": -4.2860709650100315,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "TT",
-      "name": "Trane Technologies",
-      "sector": "Industrials",
-      "pct_change": -3.943366106471112,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "GS",
-      "name": "Goldman Sachs",
-      "sector": "Financials",
-      "pct_change": -3.8438434607136744,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "DE",
-      "name": "Deere & Company",
-      "sector": "Industrials",
-      "pct_change": -3.8423701145239035,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "OMC",
-      "name": "Omnicom Group",
-      "sector": "Communication Services",
-      "pct_change": -3.665047108988669,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "PH",
-      "name": "Parker Hannifin",
-      "sector": "Industrials",
-      "pct_change": -3.634355962891838,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "NUE",
-      "name": "Nucor",
-      "sector": "Materials",
-      "pct_change": -3.5388879110314115,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "IVZ",
-      "name": "Invesco",
-      "sector": "Financials",
-      "pct_change": -3.4998324021911893,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "WAB",
-      "name": "Wabtec",
-      "sector": "Industrials",
-      "pct_change": -3.338899796379826,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "C",
-      "name": "Citigroup",
-      "sector": "Financials",
-      "pct_change": -3.3328364944801354,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
+      "pct_change": -6.610343083016959,
+      "conviction": "buy_signal",
+      "status": "order_failed",
+      "news_bad": false
     }
   ]
 }
