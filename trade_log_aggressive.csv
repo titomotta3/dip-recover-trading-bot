@@ -99,3 +99,5 @@ timestamp_utc,action,symbol,detail
 2026-07-30T15:14:00+00:00,BUY,META,drop=-8.04% notional=$11500.00 news=clear(10)
 2026-07-30T15:14:00+00:00,BUY,WDAY,drop=-9.54% notional=$11500.00 news=clear(3)
 2026-07-30T16:52:59+00:00,BUY,MO,drop=-9.20% notional=$11500.00 news=clear(4)
+2026-07-30T19:53:48+00:00,SELL,META,gain=-0.42% qty=21.38737214 reason=bad_news:collapse
+2026-07-30T19:54:28+00:00,BUY,NCLH,drop=-8.75% notional=$11500.00 news=clear(5)
