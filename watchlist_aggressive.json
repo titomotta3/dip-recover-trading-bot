@@ -1,58 +1,139 @@
 {
-  "updated_utc": "2026-07-29T19:22:06+00:00",
+  "updated_utc": "2026-07-30T15:14:00+00:00",
   "drop_threshold_pct": -8.0,
   "high_conviction_pct": -11.0,
   "stocks": [
     {
-      "symbol": "VRT",
-      "name": "Vertiv",
-      "sector": "Industrials",
-      "pct_change": -16.048339273596497,
-      "conviction": "high",
-      "status": "order_failed",
-      "news_bad": false
-    },
-    {
-      "symbol": "FTV",
-      "name": "Fortive",
-      "sector": "Industrials",
-      "pct_change": -8.69870068153865,
-      "conviction": "buy_signal",
-      "status": "order_failed",
-      "news_bad": false
-    },
-    {
-      "symbol": "BG",
-      "name": "Bunge Global",
-      "sector": "Consumer Staples",
-      "pct_change": -7.455056483974404,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "SMCI",
-      "name": "Supermicro",
+      "symbol": "FICO",
+      "name": "Fair Isaac",
       "sector": "Information Technology",
-      "pct_change": -6.326893132298123,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
+      "pct_change": -15.818084397148683,
+      "conviction": "high",
+      "status": "bought",
+      "news_bad": false
     },
     {
-      "symbol": "CAT",
-      "name": "Caterpillar Inc.",
+      "symbol": "CHRW",
+      "name": "C.H. Robinson",
       "sector": "Industrials",
-      "pct_change": -6.047463772692108,
+      "pct_change": -14.584170554181656,
+      "conviction": "high",
+      "status": "bought",
+      "news_bad": false
+    },
+    {
+      "symbol": "WDAY",
+      "name": "Workday, Inc.",
+      "sector": "Information Technology",
+      "pct_change": -9.541098329507209,
+      "conviction": "buy_signal",
+      "status": "bought",
+      "news_bad": false
+    },
+    {
+      "symbol": "LHX",
+      "name": "L3Harris",
+      "sector": "Industrials",
+      "pct_change": -9.28191634759781,
+      "conviction": "buy_signal",
+      "status": "bought",
+      "news_bad": false
+    },
+    {
+      "symbol": "IT",
+      "name": "Gartner",
+      "sector": "Information Technology",
+      "pct_change": -9.271052662122221,
+      "conviction": "buy_signal",
+      "status": "bought",
+      "news_bad": false
+    },
+    {
+      "symbol": "META",
+      "name": "Meta Platforms",
+      "sector": "Communication Services",
+      "pct_change": -8.037774030775953,
+      "conviction": "buy_signal",
+      "status": "bought",
+      "news_bad": false
+    },
+    {
+      "symbol": "INTU",
+      "name": "Intuit",
+      "sector": "Information Technology",
+      "pct_change": -7.980365342482469,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
     },
     {
-      "symbol": "PPG",
-      "name": "PPG Industries",
-      "sector": "Materials",
-      "pct_change": -6.0247085704043215,
+      "symbol": "NCLH",
+      "name": "Norwegian Cruise Line Holdings",
+      "sector": "Consumer Discretionary",
+      "pct_change": -7.6621641595679595,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "MO",
+      "name": "Altria",
+      "sector": "Consumer Staples",
+      "pct_change": -7.481307881107717,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "HPQ",
+      "name": "HP Inc.",
+      "sector": "Information Technology",
+      "pct_change": -7.162970286314447,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "ADBE",
+      "name": "Adobe Inc.",
+      "sector": "Information Technology",
+      "pct_change": -7.153697940958338,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "EFX",
+      "name": "Equifax",
+      "sector": "Industrials",
+      "pct_change": -6.971402476434941,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "NOW",
+      "name": "ServiceNow",
+      "sector": "Information Technology",
+      "pct_change": -6.8719779580627165,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "ERIE",
+      "name": "Erie Indemnity",
+      "sector": "Financials",
+      "pct_change": -6.755183399223512,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "CTSH",
+      "name": "Cognizant",
+      "sector": "Information Technology",
+      "pct_change": -6.539217022668721,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null

@@ -86,3 +86,15 @@ timestamp_utc,action,symbol,detail
 2026-07-29T16:40:12+00:00,SELL,AMD,gain=-10.48% qty=52.169174265 reason=bad_news:layoffs
 2026-07-29T16:40:49+00:00,BUY,KLAC,drop=-9.69% notional=$11500.00 news=clear(10)
 2026-07-29T16:40:49+00:00,BUY,MAS,drop=-10.53% notional=$11500.00 news=clear(3)
+2026-07-30T15:13:13+00:00,SELL,EME,gain=16.12% qty=16.92419426 reason=target_reached
+2026-07-30T15:13:13+00:00,SELL,GLW,gain=12.08% qty=202.702618243 reason=target_reached
+2026-07-30T15:13:13+00:00,SELL,INTC,gain=10.65% qty=137.939186757 reason=target_reached
+2026-07-30T15:13:14+00:00,SELL,MAS,gain=-2.40% qty=157.340128608 reason=bad_news:downgrade
+2026-07-30T15:13:14+00:00,SELL,STX,gain=16.42% qty=16.469702584 reason=target_reached
+2026-07-30T15:13:14+00:00,SELL,WDC,gain=19.78% qty=54.194399909 reason=target_reached
+2026-07-30T15:13:59+00:00,BUY,CHRW,drop=-14.58% notional=$23000.00 news=clear(5) conviction=HIGH
+2026-07-30T15:13:59+00:00,BUY,FICO,drop=-15.82% notional=$23000.00 news=clear(7) conviction=HIGH
+2026-07-30T15:14:00+00:00,BUY,IT,drop=-9.27% notional=$11500.00 news=none
+2026-07-30T15:14:00+00:00,BUY,LHX,drop=-9.28% notional=$11500.00 news=clear(4)
+2026-07-30T15:14:00+00:00,BUY,META,drop=-8.04% notional=$11500.00 news=clear(10)
+2026-07-30T15:14:00+00:00,BUY,WDAY,drop=-9.54% notional=$11500.00 news=clear(3)
