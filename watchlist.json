@@ -1,85 +1,31 @@
 {
-  "updated_utc": "2026-07-31T15:22:18+00:00",
+  "updated_utc": "2026-07-31T17:01:47+00:00",
   "drop_threshold_pct": -5.0,
   "high_conviction_pct": -8.0,
   "stocks": [
     {
-      "symbol": "GDDY",
-      "name": "GoDaddy",
-      "sector": "Information Technology",
-      "pct_change": -20.200344378865296,
-      "conviction": "high",
-      "status": "bought",
-      "news_bad": false
-    },
-    {
       "symbol": "COIN",
       "name": "Coinbase",
       "sector": "Financials",
-      "pct_change": -13.858661153677495,
+      "pct_change": -11.847416961657792,
       "conviction": "high",
       "status": "blocked_news",
       "news_bad": true
     },
     {
-      "symbol": "CTVA",
-      "name": "Corteva",
-      "sector": "Materials",
-      "pct_change": -9.637333035467549,
-      "conviction": "high",
-      "status": "bought",
-      "news_bad": false
-    },
-    {
-      "symbol": "AAPL",
-      "name": "Apple Inc.",
-      "sector": "Information Technology",
-      "pct_change": -8.79045023016092,
-      "conviction": "high",
-      "status": "bought",
-      "news_bad": false
-    },
-    {
       "symbol": "SYK",
       "name": "Stryker Corporation",
       "sector": "Health Care",
-      "pct_change": -7.4230034876354445,
+      "pct_change": -6.7406106759787185,
       "conviction": "buy_signal",
-      "status": "blocked_position_cap",
-      "news_bad": null
+      "status": "bought",
+      "news_bad": false
     },
     {
       "symbol": "TROW",
       "name": "T. Rowe Price",
       "sector": "Financials",
-      "pct_change": -6.019450350985412,
-      "conviction": "buy_signal",
-      "status": "blocked_position_cap",
-      "news_bad": null
-    },
-    {
-      "symbol": "LIN",
-      "name": "Linde plc",
-      "sector": "Materials",
-      "pct_change": -5.782086114958341,
-      "conviction": "buy_signal",
-      "status": "blocked_position_cap",
-      "news_bad": null
-    },
-    {
-      "symbol": "FICO",
-      "name": "Fair Isaac",
-      "sector": "Information Technology",
-      "pct_change": -5.579890203781165,
-      "conviction": "buy_signal",
-      "status": "bought",
-      "news_bad": false
-    },
-    {
-      "symbol": "LYV",
-      "name": "Live Nation Entertainment",
-      "sector": "Communication Services",
-      "pct_change": -5.51863424359598,
+      "pct_change": -5.948190219075175,
       "conviction": "buy_signal",
       "status": "blocked_position_cap",
       "news_bad": null
@@ -88,43 +34,25 @@
       "symbol": "EIX",
       "name": "Edison International",
       "sector": "Utilities",
-      "pct_change": -5.277538716534911,
+      "pct_change": -5.772901822110203,
       "conviction": "buy_signal",
       "status": "blocked_news",
       "news_bad": true
     },
     {
-      "symbol": "MU",
-      "name": "Micron Technology",
-      "sector": "Information Technology",
-      "pct_change": -5.10598112589651,
-      "conviction": "buy_signal",
-      "status": "blocked_position_cap",
-      "news_bad": null
-    },
-    {
-      "symbol": "APP",
-      "name": "AppLovin",
-      "sector": "Information Technology",
-      "pct_change": -5.003169106994916,
+      "symbol": "LIN",
+      "name": "Linde plc",
+      "sector": "Materials",
+      "pct_change": -5.756532803875607,
       "conviction": "buy_signal",
       "status": "bought",
       "news_bad": false
     },
     {
-      "symbol": "TYL",
-      "name": "Tyler Technologies",
-      "sector": "Information Technology",
-      "pct_change": -4.698277985868146,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "BA",
-      "name": "Boeing",
-      "sector": "Industrials",
-      "pct_change": -4.105926806715967,
+      "symbol": "LYV",
+      "name": "Live Nation Entertainment",
+      "sector": "Communication Services",
+      "pct_change": -4.638809927489993,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
@@ -133,7 +61,70 @@
       "symbol": "IP",
       "name": "International Paper",
       "sector": "Materials",
-      "pct_change": -3.986097705400002,
+      "pct_change": -4.634994042353659,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "MU",
+      "name": "Micron Technology",
+      "sector": "Information Technology",
+      "pct_change": -4.135612409091173,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "TYL",
+      "name": "Tyler Technologies",
+      "sector": "Information Technology",
+      "pct_change": -4.030187398376209,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "APTV",
+      "name": "Aptiv",
+      "sector": "Consumer Discretionary",
+      "pct_change": -3.2363592067084563,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "VRSK",
+      "name": "Verisk Analytics",
+      "sector": "Industrials",
+      "pct_change": -3.184429592438404,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "SNDK",
+      "name": "Sandisk",
+      "sector": "Information Technology",
+      "pct_change": -3.0797777335259053,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "AVY",
+      "name": "Avery Dennison",
+      "sector": "Materials",
+      "pct_change": -3.077514854668812,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "MGM",
+      "name": "MGM Resorts",
+      "sector": "Consumer Discretionary",
+      "pct_change": -3.0442387084835243,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
