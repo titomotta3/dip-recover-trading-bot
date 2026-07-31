@@ -107,3 +107,5 @@ timestamp_utc,action,symbol,detail
 2026-07-31T17:02:25+00:00,SELL,ETN,gain=13.80% qty=31.525823784 reason=target_reached
 2026-07-31T17:02:25+00:00,SELL,LITE,gain=13.79% qty=18.874140832 reason=target_reached
 2026-07-31T17:02:57+00:00,BUY,CTVA,drop=-11.03% notional=$23000.00 news=clear(3) conviction=HIGH
+2026-07-31T18:41:40+00:00,SELL,COHR,gain=12.12% qty=101.116452496 reason=target_reached
+2026-07-31T18:42:11+00:00,BUY,GDDY,drop=-16.88% notional=$23000.00 news=clear(10) conviction=HIGH
