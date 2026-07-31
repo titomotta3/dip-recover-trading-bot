@@ -176,3 +176,13 @@ timestamp_utc,action,symbol,detail
 2026-07-30T19:52:43+00:00,SELL,ANET,gain=7.51% qty=63.091419558 reason=target_reached
 2026-07-30T19:53:16+00:00,BUY,ESS,drop=-5.31% notional=$10000.00 news=clear(4)
 2026-07-30T19:53:16+00:00,BUY,FDS,drop=-6.32% notional=$10000.00 news=clear(1)
+2026-07-31T15:21:16+00:00,SELL,COHR,gain=10.78% qty=42.376430205 reason=target_reached
+2026-07-31T15:21:16+00:00,SELL,DXCM,gain=15.96% qty=141.098645215 reason=target_reached
+2026-07-31T15:21:17+00:00,SELL,ETN,gain=9.86% qty=27.350774027 reason=target_reached
+2026-07-31T15:21:17+00:00,SELL,FLEX,gain=8.71% qty=94.526798374 reason=target_reached
+2026-07-31T15:21:17+00:00,SELL,INTC,gain=7.21% qty=115.784944991 reason=target_reached
+2026-07-31T15:22:17+00:00,BUY,AAPL,drop=-8.79% notional=$10000.00 news=clear(10)
+2026-07-31T15:22:17+00:00,BUY,APP,drop=-5.00% notional=$10000.00 news=none
+2026-07-31T15:22:17+00:00,BUY,CTVA,drop=-9.64% notional=$10000.00 news=clear(3)
+2026-07-31T15:22:17+00:00,BUY,FICO,drop=-5.58% notional=$10000.00 news=clear(10)
+2026-07-31T15:22:18+00:00,BUY,GDDY,drop=-20.20% notional=$10000.00 news=clear(10)
