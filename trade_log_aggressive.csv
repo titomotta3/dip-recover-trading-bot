@@ -103,3 +103,7 @@ timestamp_utc,action,symbol,detail
 2026-07-30T19:54:28+00:00,BUY,NCLH,drop=-8.75% notional=$11500.00 news=clear(5)
 2026-07-31T15:22:43+00:00,SELL,FIX,gain=12.46% qty=7.435803099 reason=target_reached
 2026-07-31T15:23:17+00:00,BUY,AAPL,drop=-8.96% notional=$11500.00 news=clear(10)
+2026-07-31T17:02:24+00:00,SELL,CIEN,gain=12.17% qty=35.213304771 reason=target_reached
+2026-07-31T17:02:25+00:00,SELL,ETN,gain=13.80% qty=31.525823784 reason=target_reached
+2026-07-31T17:02:25+00:00,SELL,LITE,gain=13.79% qty=18.874140832 reason=target_reached
+2026-07-31T17:02:57+00:00,BUY,CTVA,drop=-11.03% notional=$23000.00 news=clear(3) conviction=HIGH

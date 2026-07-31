@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-07-31T15:23:17+00:00",
+  "updated_utc": "2026-07-31T17:02:57+00:00",
   "drop_threshold_pct": -8.0,
   "high_conviction_pct": -11.0,
   "stocks": [
@@ -7,7 +7,7 @@
       "symbol": "GDDY",
       "name": "GoDaddy",
       "sector": "Information Technology",
-      "pct_change": -20.305948469750714,
+      "pct_change": -20.658415276546922,
       "conviction": "high",
       "status": "order_failed",
       "news_bad": false
@@ -16,7 +16,7 @@
       "symbol": "COIN",
       "name": "Coinbase",
       "sector": "Financials",
-      "pct_change": -13.877000057553934,
+      "pct_change": -11.90243367328711,
       "conviction": "high",
       "status": "blocked_news",
       "news_bad": true
@@ -25,17 +25,8 @@
       "symbol": "CTVA",
       "name": "Corteva",
       "sector": "Materials",
-      "pct_change": -9.503020160936337,
-      "conviction": "buy_signal",
-      "status": "order_failed",
-      "news_bad": false
-    },
-    {
-      "symbol": "AAPL",
-      "name": "Apple Inc.",
-      "sector": "Information Technology",
-      "pct_change": -8.96370931500515,
-      "conviction": "buy_signal",
+      "pct_change": -11.025406380134811,
+      "conviction": "high",
       "status": "bought",
       "news_bad": false
     },
@@ -43,7 +34,7 @@
       "symbol": "SYK",
       "name": "Stryker Corporation",
       "sector": "Health Care",
-      "pct_change": -7.45029955083815,
+      "pct_change": -6.717619902539113,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
