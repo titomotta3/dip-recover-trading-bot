@@ -1,76 +1,49 @@
 {
-  "updated_utc": "2026-07-30T19:54:28+00:00",
+  "updated_utc": "2026-07-31T15:23:17+00:00",
   "drop_threshold_pct": -8.0,
   "high_conviction_pct": -11.0,
   "stocks": [
     {
-      "symbol": "NCLH",
-      "name": "Norwegian Cruise Line Holdings",
-      "sector": "Consumer Discretionary",
-      "pct_change": -8.746990525578878,
+      "symbol": "GDDY",
+      "name": "GoDaddy",
+      "sector": "Information Technology",
+      "pct_change": -20.305948469750714,
+      "conviction": "high",
+      "status": "order_failed",
+      "news_bad": false
+    },
+    {
+      "symbol": "COIN",
+      "name": "Coinbase",
+      "sector": "Financials",
+      "pct_change": -13.877000057553934,
+      "conviction": "high",
+      "status": "blocked_news",
+      "news_bad": true
+    },
+    {
+      "symbol": "CTVA",
+      "name": "Corteva",
+      "sector": "Materials",
+      "pct_change": -9.503020160936337,
+      "conviction": "buy_signal",
+      "status": "order_failed",
+      "news_bad": false
+    },
+    {
+      "symbol": "AAPL",
+      "name": "Apple Inc.",
+      "sector": "Information Technology",
+      "pct_change": -8.96370931500515,
       "conviction": "buy_signal",
       "status": "bought",
       "news_bad": false
     },
     {
-      "symbol": "META",
-      "name": "Meta Platforms",
-      "sector": "Communication Services",
-      "pct_change": -8.472360696614379,
-      "conviction": "buy_signal",
-      "status": "blocked_news",
-      "news_bad": true
-    },
-    {
-      "symbol": "VRSK",
-      "name": "Verisk Analytics",
-      "sector": "Industrials",
-      "pct_change": -6.387516126783038,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "ERIE",
-      "name": "Erie Indemnity",
-      "sector": "Financials",
-      "pct_change": -6.344801480117869,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "FDS",
-      "name": "FactSet",
-      "sector": "Financials",
-      "pct_change": -6.309393308963851,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "ADBE",
-      "name": "Adobe Inc.",
-      "sector": "Information Technology",
-      "pct_change": -6.164787280553897,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "EFX",
-      "name": "Equifax",
-      "sector": "Industrials",
-      "pct_change": -6.145421111164498,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "ACN",
-      "name": "Accenture",
-      "sector": "Information Technology",
-      "pct_change": -6.031640685957341,
+      "symbol": "SYK",
+      "name": "Stryker Corporation",
+      "sector": "Health Care",
+      "pct_change": -7.45029955083815,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
