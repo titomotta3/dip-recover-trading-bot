@@ -190,3 +190,14 @@ timestamp_utc,action,symbol,detail
 2026-07-31T17:00:52+00:00,SELL,TER,gain=8.16% qty=28.680610109 reason=target_reached
 2026-07-31T17:01:47+00:00,BUY,LIN,drop=-5.76% notional=$10000.00 news=clear(4)
 2026-07-31T17:01:47+00:00,BUY,SYK,drop=-6.74% notional=$10000.00 news=clear(7)
+2026-08-03T15:44:55+00:00,SELL,CHTR,gain=7.39% qty=72.479452054 reason=target_reached
+2026-08-03T15:44:55+00:00,SELL,CVNA,gain=11.00% qty=172.100516351 reason=target_reached
+2026-08-03T15:44:55+00:00,SELL,FICO,gain=-3.28% qty=9.289958473 reason=bad_news:downgrade
+2026-08-03T15:44:55+00:00,SELL,GDDY,gain=12.01% qty=126.119182746 reason=target_reached
+2026-08-03T15:44:55+00:00,SELL,HPE,gain=9.64% qty=223.613372093 reason=target_reached
+2026-08-03T15:44:55+00:00,SELL,NRG,gain=8.50% qty=77.657761901 reason=target_reached
+2026-08-03T15:44:55+00:00,SELL,NXPI,gain=-9.04% qty=40.817951753 reason=bad_news:downgrade
+2026-08-03T15:44:55+00:00,SELL,VRT,gain=9.09% qty=42.558581946 reason=target_reached
+2026-08-03T15:45:27+00:00,BUY,MAR,drop=-7.15% notional=$10000.00 news=clear(5)
+2026-08-03T15:45:27+00:00,BUY,MPWR,drop=-6.95% notional=$10000.00 news=clear(4)
+2026-08-03T15:45:27+00:00,BUY,STX,drop=-5.12% notional=$10000.00 news=clear(3)
