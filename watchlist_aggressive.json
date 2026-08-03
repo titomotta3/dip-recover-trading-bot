@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-08-03T15:46:12+00:00",
+  "updated_utc": "2026-08-03T17:32:12+00:00",
   "drop_threshold_pct": -8.0,
   "high_conviction_pct": -11.0,
   "stocks": [
@@ -7,7 +7,7 @@
       "symbol": "FICO",
       "name": "Fair Isaac",
       "sector": "Information Technology",
-      "pct_change": -7.207667481577543,
+      "pct_change": -7.3016195674269,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
@@ -16,16 +16,7 @@
       "symbol": "MAR",
       "name": "Marriott International",
       "sector": "Consumer Discretionary",
-      "pct_change": -7.184232521312907,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "MPWR",
-      "name": "Monolithic Power Systems",
-      "sector": "Information Technology",
-      "pct_change": -6.777909813339076,
+      "pct_change": -6.679988111543582,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
