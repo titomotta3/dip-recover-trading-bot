@@ -2,8 +2,8 @@
   "drop_threshold_pct": -8.0,
   "sell_threshold_pct": 11.0,
   "trade_dollars": 11000.0,
-  "completed_trades": 26,
-  "last_adjustment": "DELL barely cleared target -> lowered sell target to 11.0%",
-  "updated_utc": "2026-08-03T17:32:12+00:00",
+  "completed_trades": 27,
+  "last_adjustment": "no change this run",
+  "updated_utc": "2026-08-03T19:10:35+00:00",
   "risk_exits": 20
 }

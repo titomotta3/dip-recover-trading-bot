@@ -114,3 +114,4 @@ timestamp_utc,action,symbol,detail
 2026-08-03T15:45:51+00:00,SELL,GDDY,gain=7.58% qty=278.618897637 reason=bad_news:downgrade
 2026-08-03T15:45:52+00:00,SELL,MU,gain=-1.89% qty=14.462551862 reason=bad_news:collapse
 2026-08-03T17:31:39+00:00,SELL,DELL,gain=11.64% qty=63.281100036 reason=target_reached
+2026-08-03T19:10:03+00:00,SELL,AXON,gain=11.54% qty=24.436474889 reason=target_reached

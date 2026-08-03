@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-08-03T17:32:12+00:00",
+  "updated_utc": "2026-08-03T19:10:35+00:00",
   "drop_threshold_pct": -8.0,
   "high_conviction_pct": -11.0,
   "stocks": [
@@ -7,7 +7,7 @@
       "symbol": "FICO",
       "name": "Fair Isaac",
       "sector": "Information Technology",
-      "pct_change": -7.3016195674269,
+      "pct_change": -7.17650230396212,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
@@ -16,7 +16,7 @@
       "symbol": "MAR",
       "name": "Marriott International",
       "sector": "Consumer Discretionary",
-      "pct_change": -6.679988111543582,
+      "pct_change": -6.395676871361647,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
