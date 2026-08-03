@@ -201,3 +201,5 @@ timestamp_utc,action,symbol,detail
 2026-08-03T15:45:27+00:00,BUY,MAR,drop=-7.15% notional=$10000.00 news=clear(5)
 2026-08-03T15:45:27+00:00,BUY,MPWR,drop=-6.95% notional=$10000.00 news=clear(4)
 2026-08-03T15:45:27+00:00,BUY,STX,drop=-5.12% notional=$10000.00 news=clear(3)
+2026-08-03T17:30:24+00:00,SELL,APP,gain=7.56% qty=26.041640625 reason=target_reached
+2026-08-03T17:30:25+00:00,SELL,CMI,gain=7.05% qty=16.564776623 reason=target_reached

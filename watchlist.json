@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-08-03T15:45:27+00:00",
+  "updated_utc": "2026-08-03T17:31:00+00:00",
   "drop_threshold_pct": -5.0,
   "high_conviction_pct": -8.0,
   "stocks": [
@@ -7,70 +7,25 @@
       "symbol": "FICO",
       "name": "Fair Isaac",
       "sector": "Information Technology",
-      "pct_change": -7.297162740492012,
+      "pct_change": -7.240615389966922,
       "conviction": "buy_signal",
       "status": "blocked_news",
       "news_bad": true
     },
     {
-      "symbol": "MAR",
-      "name": "Marriott International",
-      "sector": "Consumer Discretionary",
-      "pct_change": -7.145343746564695,
-      "conviction": "buy_signal",
-      "status": "bought",
-      "news_bad": false
-    },
-    {
-      "symbol": "MPWR",
-      "name": "Monolithic Power Systems",
-      "sector": "Information Technology",
-      "pct_change": -6.947965757344737,
-      "conviction": "buy_signal",
-      "status": "bought",
-      "news_bad": false
-    },
-    {
-      "symbol": "STX",
-      "name": "Seagate Technology",
-      "sector": "Information Technology",
-      "pct_change": -5.120720755660186,
-      "conviction": "buy_signal",
-      "status": "bought",
-      "news_bad": false
-    },
-    {
       "symbol": "EBAY",
       "name": "eBay Inc.",
       "sector": "Consumer Discretionary",
-      "pct_change": -4.609248999516112,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "WDC",
-      "name": "Western Digital",
-      "sector": "Information Technology",
-      "pct_change": -4.381112799312711,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
+      "pct_change": -5.4819751626106275,
+      "conviction": "buy_signal",
+      "status": "blocked_news",
+      "news_bad": true
     },
     {
       "symbol": "CBOE",
       "name": "Cboe Global Markets",
       "sector": "Financials",
-      "pct_change": -4.196892328325964,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "LVS",
-      "name": "Las Vegas Sands",
-      "sector": "Consumer Discretionary",
-      "pct_change": -4.131725266888365,
+      "pct_change": -4.707800815238268,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
@@ -79,7 +34,52 @@
       "symbol": "CF",
       "name": "CF Industries",
       "sector": "Materials",
-      "pct_change": -3.734326192657352,
+      "pct_change": -4.409301194034653,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "LVS",
+      "name": "Las Vegas Sands",
+      "sector": "Consumer Discretionary",
+      "pct_change": -4.029456423188741,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "MNST",
+      "name": "Monster Beverage",
+      "sector": "Consumer Staples",
+      "pct_change": -3.851934013572217,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "SYY",
+      "name": "Sysco",
+      "sector": "Consumer Staples",
+      "pct_change": -3.308305684534553,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "NXPI",
+      "name": "NXP Semiconductors",
+      "sector": "Information Technology",
+      "pct_change": -3.307733334753829,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "OKE",
+      "name": "Oneok",
+      "sector": "Energy",
+      "pct_change": -3.303601013824823,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
