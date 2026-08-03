@@ -1,49 +1,31 @@
 {
-  "updated_utc": "2026-07-31T18:42:11+00:00",
+  "updated_utc": "2026-08-03T15:46:12+00:00",
   "drop_threshold_pct": -8.0,
   "high_conviction_pct": -11.0,
   "stocks": [
     {
-      "symbol": "GDDY",
-      "name": "GoDaddy",
+      "symbol": "FICO",
+      "name": "Fair Isaac",
       "sector": "Information Technology",
-      "pct_change": -16.883120873172015,
-      "conviction": "high",
-      "status": "bought",
-      "news_bad": false
-    },
-    {
-      "symbol": "COIN",
-      "name": "Coinbase",
-      "sector": "Financials",
-      "pct_change": -8.610404538869382,
-      "conviction": "buy_signal",
-      "status": "blocked_news",
-      "news_bad": true
-    },
-    {
-      "symbol": "SYK",
-      "name": "Stryker Corporation",
-      "sector": "Health Care",
-      "pct_change": -6.539480866231314,
+      "pct_change": -7.207667481577543,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
     },
     {
-      "symbol": "TROW",
-      "name": "T. Rowe Price",
-      "sector": "Financials",
-      "pct_change": -6.1955059232706,
+      "symbol": "MAR",
+      "name": "Marriott International",
+      "sector": "Consumer Discretionary",
+      "pct_change": -7.184232521312907,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
     },
     {
-      "symbol": "LIN",
-      "name": "Linde plc",
-      "sector": "Materials",
-      "pct_change": -6.017027780931026,
+      "symbol": "MPWR",
+      "name": "Monolithic Power Systems",
+      "sector": "Information Technology",
+      "pct_change": -6.777909813339076,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
