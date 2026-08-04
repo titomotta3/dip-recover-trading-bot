@@ -220,3 +220,5 @@ timestamp_utc,action,symbol,detail
 2026-08-04T17:13:47+00:00,SELL,LUV,gain=8.04% qty=220.506945975 reason=target_reached
 2026-08-04T17:14:32+00:00,BUY,ARE,drop=-5.35% notional=$10000.00 news=clear(2)
 2026-08-04T17:14:32+00:00,BUY,CMG,drop=-7.37% notional=$10000.00 news=clear(2)
+2026-08-04T18:56:58+00:00,SELL,CMG,gain=-1.62% qty=288.675808314 reason=bad_news:investigation
+2026-08-04T18:56:59+00:00,SELL,STX,gain=7.63% qty=12.297539259 reason=target_reached

@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-08-04T17:14:33+00:00",
+  "updated_utc": "2026-08-04T18:57:30+00:00",
   "drop_threshold_pct": -5.0,
   "high_conviction_pct": -8.0,
   "stocks": [
@@ -7,25 +7,25 @@
       "symbol": "CMG",
       "name": "Chipotle Mexican Grill",
       "sector": "Consumer Discretionary",
-      "pct_change": -7.367854749033444,
-      "conviction": "buy_signal",
-      "status": "bought",
-      "news_bad": false
+      "pct_change": -8.964223108267547,
+      "conviction": "high",
+      "status": "blocked_news",
+      "news_bad": true
     },
     {
-      "symbol": "ARE",
-      "name": "Alexandria Real Estate Equities",
-      "sector": "Real Estate",
-      "pct_change": -5.346028945373937,
-      "conviction": "buy_signal",
-      "status": "bought",
-      "news_bad": false
+      "symbol": "RVTY",
+      "name": "Revvity",
+      "sector": "Health Care",
+      "pct_change": -3.9229337133948645,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
     },
     {
-      "symbol": "FANG",
-      "name": "Diamondback Energy",
-      "sector": "Energy",
-      "pct_change": -3.5421349867334904,
+      "symbol": "CI",
+      "name": "Cigna",
+      "sector": "Health Care",
+      "pct_change": -3.261721721145546,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
