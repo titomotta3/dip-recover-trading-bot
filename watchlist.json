@@ -1,94 +1,85 @@
 {
-  "updated_utc": "2026-08-03T19:09:40+00:00",
+  "updated_utc": "2026-08-04T15:26:14+00:00",
   "drop_threshold_pct": -5.0,
   "high_conviction_pct": -8.0,
   "stocks": [
     {
-      "symbol": "FICO",
-      "name": "Fair Isaac",
-      "sector": "Information Technology",
-      "pct_change": -7.245517899595298,
-      "conviction": "buy_signal",
-      "status": "blocked_news",
-      "news_bad": true
+      "symbol": "APTV",
+      "name": "Aptiv",
+      "sector": "Consumer Discretionary",
+      "pct_change": -16.197799286932227,
+      "conviction": "high",
+      "status": "bought",
+      "news_bad": false
     },
     {
-      "symbol": "CF",
-      "name": "CF Industries",
-      "sector": "Materials",
-      "pct_change": -5.5469335429106055,
+      "symbol": "NRG",
+      "name": "NRG Energy",
+      "sector": "Utilities",
+      "pct_change": -12.313138514805335,
+      "conviction": "high",
+      "status": "bought",
+      "news_bad": false
+    },
+    {
+      "symbol": "ROK",
+      "name": "Rockwell Automation",
+      "sector": "Industrials",
+      "pct_change": -6.775748595260646,
       "conviction": "buy_signal",
       "status": "bought",
       "news_bad": false
     },
     {
-      "symbol": "EBAY",
-      "name": "eBay Inc.",
-      "sector": "Consumer Discretionary",
-      "pct_change": -4.9732529533371626,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
+      "symbol": "GWW",
+      "name": "W. W. Grainger",
+      "sector": "Industrials",
+      "pct_change": -6.292801390154969,
+      "conviction": "buy_signal",
+      "status": "bought",
+      "news_bad": false
     },
     {
-      "symbol": "CBOE",
-      "name": "Cboe Global Markets",
+      "symbol": "CMI",
+      "name": "Cummins",
+      "sector": "Industrials",
+      "pct_change": -5.054324442339859,
+      "conviction": "buy_signal",
+      "status": "bought",
+      "news_bad": false
+    },
+    {
+      "symbol": "FIS",
+      "name": "Fidelity National Information Services",
       "sector": "Financials",
-      "pct_change": -4.499894103820752,
+      "pct_change": -5.024334668392226,
+      "conviction": "buy_signal",
+      "status": "bought",
+      "news_bad": false
+    },
+    {
+      "symbol": "ARE",
+      "name": "Alexandria Real Estate Equities",
+      "sector": "Real Estate",
+      "pct_change": -4.789736298884667,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
     },
     {
-      "symbol": "LVS",
-      "name": "Las Vegas Sands",
-      "sector": "Consumer Discretionary",
-      "pct_change": -4.09081616888599,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "WDC",
-      "name": "Western Digital",
-      "sector": "Information Technology",
-      "pct_change": -3.3857347973077054,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "MNST",
-      "name": "Monster Beverage",
-      "sector": "Consumer Staples",
-      "pct_change": -3.3201878392133946,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "OKE",
-      "name": "Oneok",
+      "symbol": "FANG",
+      "name": "Diamondback Energy",
       "sector": "Energy",
-      "pct_change": -3.2870836808750457,
+      "pct_change": -3.169812856230346,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
     },
     {
-      "symbol": "OXY",
-      "name": "Occidental Petroleum",
-      "sector": "Energy",
-      "pct_change": -3.0926921308683806,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "MPC",
-      "name": "Marathon Petroleum",
-      "sector": "Energy",
-      "pct_change": -3.0461069331227533,
+      "symbol": "UHS",
+      "name": "Universal Health Services",
+      "sector": "Health Care",
+      "pct_change": -3.0702717633407217,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null

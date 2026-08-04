@@ -204,3 +204,14 @@ timestamp_utc,action,symbol,detail
 2026-08-03T17:30:24+00:00,SELL,APP,gain=7.56% qty=26.041640625 reason=target_reached
 2026-08-03T17:30:25+00:00,SELL,CMI,gain=7.05% qty=16.564776623 reason=target_reached
 2026-08-03T19:09:40+00:00,BUY,CF,drop=-5.55% notional=$10000.00 news=none
+2026-08-04T15:25:40+00:00,SELL,AAPL,gain=0.87% qty=32.9108471 reason=bad_news:lawsuit
+2026-08-04T15:25:40+00:00,SELL,CIEN,gain=12.65% qty=27.121558948 reason=target_reached
+2026-08-04T15:25:41+00:00,SELL,ON,gain=-4.38% qty=118.245122383 reason=bad_news:downgrade
+2026-08-04T15:25:41+00:00,SELL,Q,gain=10.79% qty=79.497495826 reason=target_reached
+2026-08-04T15:25:41+00:00,SELL,SMCI,gain=7.07% qty=354.609574468 reason=target_reached
+2026-08-04T15:26:14+00:00,BUY,APTV,drop=-16.20% notional=$10000.00 news=clear(6)
+2026-08-04T15:26:14+00:00,BUY,CMI,drop=-5.05% notional=$10000.00 news=clear(3)
+2026-08-04T15:26:14+00:00,BUY,FIS,drop=-5.02% notional=$10000.00 news=clear(3)
+2026-08-04T15:26:14+00:00,BUY,NRG,drop=-12.31% notional=$10000.00 news=clear(2)
+2026-08-04T15:26:14+00:00,BUY,ROK,drop=-6.78% notional=$10000.00 news=clear(7)
+2026-08-04T15:26:14+00:00,BUY,GWW,drop=-6.29% notional=$10000.00 news=clear(2)
