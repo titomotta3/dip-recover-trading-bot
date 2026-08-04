@@ -1,31 +1,40 @@
 {
-  "updated_utc": "2026-08-04T17:15:24+00:00",
+  "updated_utc": "2026-08-04T18:58:18+00:00",
   "drop_threshold_pct": -8.0,
   "high_conviction_pct": -11.0,
   "stocks": [
     {
-      "symbol": "ROK",
-      "name": "Rockwell Automation",
-      "sector": "Industrials",
-      "pct_change": -7.740448695566767,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
       "symbol": "CMG",
       "name": "Chipotle Mexican Grill",
       "sector": "Consumer Discretionary",
-      "pct_change": -7.688193603324836,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
+      "pct_change": -8.862786374707559,
+      "conviction": "buy_signal",
+      "status": "blocked_news",
+      "news_bad": true
     },
     {
       "symbol": "VST",
       "name": "Vistra Corp.",
       "sector": "Utilities",
-      "pct_change": -6.919392028168386,
+      "pct_change": -7.233550469857971,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "ROK",
+      "name": "Rockwell Automation",
+      "sector": "Industrials",
+      "pct_change": -6.813177010007072,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "ARE",
+      "name": "Alexandria Real Estate Equities",
+      "sector": "Real Estate",
+      "pct_change": -6.430322319266933,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null

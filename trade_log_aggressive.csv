@@ -122,3 +122,4 @@ timestamp_utc,action,symbol,detail
 2026-08-04T15:26:56+00:00,SELL,LRCX,gain=11.95% qty=44.677925512 reason=target_reached
 2026-08-04T15:27:36+00:00,BUY,APTV,drop=-16.47% notional=$22000.00 news=clear(6) conviction=HIGH
 2026-08-04T15:27:36+00:00,BUY,NRG,drop=-12.53% notional=$22000.00 news=clear(2) conviction=HIGH
+2026-08-04T18:57:56+00:00,SELL,WDAY,gain=12.01% qty=75.735305745 reason=target_reached
