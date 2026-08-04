@@ -1,22 +1,40 @@
 {
-  "updated_utc": "2026-08-03T19:10:35+00:00",
+  "updated_utc": "2026-08-04T15:27:36+00:00",
   "drop_threshold_pct": -8.0,
   "high_conviction_pct": -11.0,
   "stocks": [
     {
-      "symbol": "FICO",
-      "name": "Fair Isaac",
-      "sector": "Information Technology",
-      "pct_change": -7.17650230396212,
+      "symbol": "APTV",
+      "name": "Aptiv",
+      "sector": "Consumer Discretionary",
+      "pct_change": -16.468634129736103,
+      "conviction": "high",
+      "status": "bought",
+      "news_bad": false
+    },
+    {
+      "symbol": "NRG",
+      "name": "NRG Energy",
+      "sector": "Utilities",
+      "pct_change": -12.529788633761516,
+      "conviction": "high",
+      "status": "bought",
+      "news_bad": false
+    },
+    {
+      "symbol": "ROK",
+      "name": "Rockwell Automation",
+      "sector": "Industrials",
+      "pct_change": -6.996137811435786,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
     },
     {
-      "symbol": "MAR",
-      "name": "Marriott International",
-      "sector": "Consumer Discretionary",
-      "pct_change": -6.395676871361647,
+      "symbol": "GWW",
+      "name": "W. W. Grainger",
+      "sector": "Industrials",
+      "pct_change": -6.443754629102097,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
