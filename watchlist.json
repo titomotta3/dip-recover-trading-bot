@@ -1,58 +1,13 @@
 {
-  "updated_utc": "2026-08-04T15:26:14+00:00",
+  "updated_utc": "2026-08-04T17:14:33+00:00",
   "drop_threshold_pct": -5.0,
   "high_conviction_pct": -8.0,
   "stocks": [
     {
-      "symbol": "APTV",
-      "name": "Aptiv",
+      "symbol": "CMG",
+      "name": "Chipotle Mexican Grill",
       "sector": "Consumer Discretionary",
-      "pct_change": -16.197799286932227,
-      "conviction": "high",
-      "status": "bought",
-      "news_bad": false
-    },
-    {
-      "symbol": "NRG",
-      "name": "NRG Energy",
-      "sector": "Utilities",
-      "pct_change": -12.313138514805335,
-      "conviction": "high",
-      "status": "bought",
-      "news_bad": false
-    },
-    {
-      "symbol": "ROK",
-      "name": "Rockwell Automation",
-      "sector": "Industrials",
-      "pct_change": -6.775748595260646,
-      "conviction": "buy_signal",
-      "status": "bought",
-      "news_bad": false
-    },
-    {
-      "symbol": "GWW",
-      "name": "W. W. Grainger",
-      "sector": "Industrials",
-      "pct_change": -6.292801390154969,
-      "conviction": "buy_signal",
-      "status": "bought",
-      "news_bad": false
-    },
-    {
-      "symbol": "CMI",
-      "name": "Cummins",
-      "sector": "Industrials",
-      "pct_change": -5.054324442339859,
-      "conviction": "buy_signal",
-      "status": "bought",
-      "news_bad": false
-    },
-    {
-      "symbol": "FIS",
-      "name": "Fidelity National Information Services",
-      "sector": "Financials",
-      "pct_change": -5.024334668392226,
+      "pct_change": -7.367854749033444,
       "conviction": "buy_signal",
       "status": "bought",
       "news_bad": false
@@ -61,25 +16,16 @@
       "symbol": "ARE",
       "name": "Alexandria Real Estate Equities",
       "sector": "Real Estate",
-      "pct_change": -4.789736298884667,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
+      "pct_change": -5.346028945373937,
+      "conviction": "buy_signal",
+      "status": "bought",
+      "news_bad": false
     },
     {
       "symbol": "FANG",
       "name": "Diamondback Energy",
       "sector": "Energy",
-      "pct_change": -3.169812856230346,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "UHS",
-      "name": "Universal Health Services",
-      "sector": "Health Care",
-      "pct_change": -3.0702717633407217,
+      "pct_change": -3.5421349867334904,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
