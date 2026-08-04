@@ -3,7 +3,7 @@
   "sell_threshold_pct": 11.5,
   "trade_dollars": 11000.0,
   "completed_trades": 31,
-  "last_adjustment": "1 bad_news exit(s) (AAPL); FLEX cleared target by 8.9pp -> raised sell target to 11.5%; IT cleared target by 5.3pp -> raised sell target to 12.0%; LRCX barely cleared target -> lowered sell target to 11.5%",
-  "updated_utc": "2026-08-04T15:27:36+00:00",
+  "last_adjustment": "no change this run",
+  "updated_utc": "2026-08-04T17:15:24+00:00",
   "risk_exits": 21
 }
