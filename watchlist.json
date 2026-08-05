@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-08-05T15:16:37+00:00",
+  "updated_utc": "2026-08-05T16:56:08+00:00",
   "drop_threshold_pct": -5.0,
   "high_conviction_pct": -8.0,
   "stocks": [
@@ -7,106 +7,43 @@
       "symbol": "DVA",
       "name": "DaVita",
       "sector": "Health Care",
-      "pct_change": -18.847317946133177,
+      "pct_change": -18.088735488205277,
       "conviction": "high",
       "status": "blocked_news",
       "news_bad": true
     },
     {
-      "symbol": "CCI",
-      "name": "Crown Castle",
-      "sector": "Real Estate",
-      "pct_change": -9.728302792833752,
-      "conviction": "high",
-      "status": "bought",
-      "news_bad": false
-    },
-    {
-      "symbol": "AMT",
-      "name": "American Tower",
-      "sector": "Real Estate",
-      "pct_change": -6.841657913360379,
+      "symbol": "EOG",
+      "name": "EOG Resources",
+      "sector": "Energy",
+      "pct_change": -6.040968444012887,
       "conviction": "buy_signal",
       "status": "bought",
       "news_bad": false
     },
     {
-      "symbol": "NI",
-      "name": "NiSource",
-      "sector": "Utilities",
-      "pct_change": -4.9292606220432456,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "EOG",
-      "name": "EOG Resources",
-      "sector": "Energy",
-      "pct_change": -4.403572419229263,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "ON",
-      "name": "ON Semiconductor",
-      "sector": "Information Technology",
-      "pct_change": -4.283237356719818,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
       "symbol": "DXCM",
       "name": "Dexcom",
       "sector": "Health Care",
-      "pct_change": -4.232804464959545,
+      "pct_change": -4.727398774944276,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
     },
     {
-      "symbol": "Q",
-      "name": "Qnity Electronics",
-      "sector": "Information Technology",
-      "pct_change": -4.157548857044844,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "ECHO",
-      "name": "EchoStar",
-      "sector": "Communication Services",
-      "pct_change": -4.153930533362152,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "EIX",
-      "name": "Edison International",
+      "symbol": "NI",
+      "name": "NiSource",
       "sector": "Utilities",
-      "pct_change": -3.692177847235113,
+      "pct_change": -4.659773198123028,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
     },
     {
-      "symbol": "DOW",
-      "name": "Dow Inc.",
-      "sector": "Materials",
-      "pct_change": -3.636665491736552,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "BMY",
-      "name": "Bristol Myers Squibb",
-      "sector": "Health Care",
-      "pct_change": -3.596902343054356,
+      "symbol": "PRU",
+      "name": "Prudential Financial",
+      "sector": "Financials",
+      "pct_change": -4.298201003110365,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
@@ -115,7 +52,70 @@
       "symbol": "KHC",
       "name": "Kraft Heinz",
       "sector": "Consumer Staples",
-      "pct_change": -3.584834630578637,
+      "pct_change": -4.142641042134077,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "Q",
+      "name": "Qnity Electronics",
+      "sector": "Information Technology",
+      "pct_change": -3.748145427560064,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "BR",
+      "name": "Broadridge Financial Solutions",
+      "sector": "Industrials",
+      "pct_change": -3.731965753482992,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "GOOG",
+      "name": "Alphabet Inc. (Class C)",
+      "sector": "Communication Services",
+      "pct_change": -3.6259532830238443,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "GOOGL",
+      "name": "Alphabet Inc. (Class A)",
+      "sector": "Communication Services",
+      "pct_change": -3.542964411242655,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "MPC",
+      "name": "Marathon Petroleum",
+      "sector": "Energy",
+      "pct_change": -3.493165100876606,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "APO",
+      "name": "Apollo Global Management",
+      "sector": "Financials",
+      "pct_change": -3.4324257293890352,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "BMY",
+      "name": "Bristol Myers Squibb",
+      "sector": "Health Care",
+      "pct_change": -3.3616636410773366,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
@@ -124,16 +124,16 @@
       "symbol": "GILD",
       "name": "Gilead Sciences",
       "sector": "Health Care",
-      "pct_change": -3.552674806492606,
+      "pct_change": -3.3123813142617835,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
     },
     {
-      "symbol": "TMUS",
-      "name": "T-Mobile US",
-      "sector": "Communication Services",
-      "pct_change": -3.3858133134027373,
+      "symbol": "BSX",
+      "name": "Boston Scientific",
+      "sector": "Health Care",
+      "pct_change": -3.289879147375921,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null

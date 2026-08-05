@@ -234,3 +234,4 @@ timestamp_utc,action,symbol,detail
 2026-08-05T14:01:33+00:00,BUY,UBER,drop=-5.70% notional=$10000.00 news=clear(10)
 2026-08-05T15:16:37+00:00,BUY,AMT,drop=-6.84% notional=$10000.00 news=none
 2026-08-05T15:16:37+00:00,BUY,CCI,drop=-9.73% notional=$10000.00 news=none
+2026-08-05T16:56:08+00:00,BUY,EOG,drop=-6.04% notional=$10000.00 news=clear(1)
