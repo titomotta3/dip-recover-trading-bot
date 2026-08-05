@@ -1,121 +1,40 @@
 {
-  "updated_utc": "2026-08-05T14:01:33+00:00",
+  "updated_utc": "2026-08-05T15:16:37+00:00",
   "drop_threshold_pct": -5.0,
   "high_conviction_pct": -8.0,
   "stocks": [
     {
-      "symbol": "PODD",
-      "name": "Insulet Corporation",
-      "sector": "Health Care",
-      "pct_change": -19.350205383547873,
-      "conviction": "high",
-      "status": "bought",
-      "news_bad": false
-    },
-    {
       "symbol": "DVA",
       "name": "DaVita",
       "sector": "Health Care",
-      "pct_change": -15.72218095401462,
+      "pct_change": -18.847317946133177,
       "conviction": "high",
       "status": "blocked_news",
       "news_bad": true
     },
     {
-      "symbol": "CDW",
-      "name": "CDW Corporation",
-      "sector": "Information Technology",
-      "pct_change": -14.05519757952009,
+      "symbol": "CCI",
+      "name": "Crown Castle",
+      "sector": "Real Estate",
+      "pct_change": -9.728302792833752,
       "conviction": "high",
       "status": "bought",
       "news_bad": false
     },
     {
-      "symbol": "UBER",
-      "name": "Uber",
-      "sector": "Industrials",
-      "pct_change": -5.695646815085366,
-      "conviction": "buy_signal",
-      "status": "bought",
-      "news_bad": false
-    },
-    {
-      "symbol": "SBAC",
-      "name": "SBA Communications",
-      "sector": "Real Estate",
-      "pct_change": -5.691853333066974,
-      "conviction": "buy_signal",
-      "status": "bought",
-      "news_bad": false
-    },
-    {
-      "symbol": "CVS",
-      "name": "CVS Health",
-      "sector": "Health Care",
-      "pct_change": -5.549701465776079,
-      "conviction": "buy_signal",
-      "status": "bought",
-      "news_bad": false
-    },
-    {
-      "symbol": "AMD",
-      "name": "Advanced Micro Devices",
-      "sector": "Information Technology",
-      "pct_change": -5.0917945980746,
-      "conviction": "buy_signal",
-      "status": "bought",
-      "news_bad": false
-    },
-    {
-      "symbol": "ECHO",
-      "name": "EchoStar",
-      "sector": "Communication Services",
-      "pct_change": -4.929038717095633,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "KHC",
-      "name": "Kraft Heinz",
-      "sector": "Consumer Staples",
-      "pct_change": -4.710957918618644,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "CCI",
-      "name": "Crown Castle",
-      "sector": "Real Estate",
-      "pct_change": -4.609839894717111,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "BAX",
-      "name": "Baxter International",
-      "sector": "Health Care",
-      "pct_change": -4.162258516042416,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
       "symbol": "AMT",
       "name": "American Tower",
       "sector": "Real Estate",
-      "pct_change": -4.065620542082739,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
+      "pct_change": -6.841657913360379,
+      "conviction": "buy_signal",
+      "status": "bought",
+      "news_bad": false
     },
     {
-      "symbol": "DXCM",
-      "name": "Dexcom",
-      "sector": "Health Care",
-      "pct_change": -4.048659985608228,
+      "symbol": "NI",
+      "name": "NiSource",
+      "sector": "Utilities",
+      "pct_change": -4.9292606220432456,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
@@ -124,7 +43,97 @@
       "symbol": "EOG",
       "name": "EOG Resources",
       "sector": "Energy",
-      "pct_change": -3.661513884041074,
+      "pct_change": -4.403572419229263,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "ON",
+      "name": "ON Semiconductor",
+      "sector": "Information Technology",
+      "pct_change": -4.283237356719818,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "DXCM",
+      "name": "Dexcom",
+      "sector": "Health Care",
+      "pct_change": -4.232804464959545,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "Q",
+      "name": "Qnity Electronics",
+      "sector": "Information Technology",
+      "pct_change": -4.157548857044844,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "ECHO",
+      "name": "EchoStar",
+      "sector": "Communication Services",
+      "pct_change": -4.153930533362152,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "EIX",
+      "name": "Edison International",
+      "sector": "Utilities",
+      "pct_change": -3.692177847235113,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "DOW",
+      "name": "Dow Inc.",
+      "sector": "Materials",
+      "pct_change": -3.636665491736552,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "BMY",
+      "name": "Bristol Myers Squibb",
+      "sector": "Health Care",
+      "pct_change": -3.596902343054356,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "KHC",
+      "name": "Kraft Heinz",
+      "sector": "Consumer Staples",
+      "pct_change": -3.584834630578637,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "GILD",
+      "name": "Gilead Sciences",
+      "sector": "Health Care",
+      "pct_change": -3.552674806492606,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "TMUS",
+      "name": "T-Mobile US",
+      "sector": "Communication Services",
+      "pct_change": -3.3858133134027373,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
