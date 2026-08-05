@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-08-05T16:56:56+00:00",
+  "updated_utc": "2026-08-05T18:24:54+00:00",
   "drop_threshold_pct": -8.0,
   "high_conviction_pct": -11.0,
   "stocks": [
@@ -7,7 +7,7 @@
       "symbol": "DVA",
       "name": "DaVita",
       "sector": "Health Care",
-      "pct_change": -18.237642365555974,
+      "pct_change": -17.518312855430757,
       "conviction": "high",
       "status": "blocked_news",
       "news_bad": true
@@ -16,16 +16,16 @@
       "symbol": "UBER",
       "name": "Uber",
       "sector": "Industrials",
-      "pct_change": -6.313374501755163,
+      "pct_change": -6.63980958624602,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
     },
     {
-      "symbol": "EOG",
-      "name": "EOG Resources",
-      "sector": "Energy",
-      "pct_change": -6.054906760530048,
+      "symbol": "AMD",
+      "name": "Advanced Micro Devices",
+      "sector": "Information Technology",
+      "pct_change": -6.036681353253107,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
