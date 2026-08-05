@@ -123,3 +123,7 @@ timestamp_utc,action,symbol,detail
 2026-08-04T15:27:36+00:00,BUY,APTV,drop=-16.47% notional=$22000.00 news=clear(6) conviction=HIGH
 2026-08-04T15:27:36+00:00,BUY,NRG,drop=-12.53% notional=$22000.00 news=clear(2) conviction=HIGH
 2026-08-04T18:57:56+00:00,SELL,WDAY,gain=12.01% qty=75.735305745 reason=target_reached
+2026-08-05T14:01:59+00:00,SELL,AMAT,gain=8.76% qty=24.844947527 reason=bad_news:warns
+2026-08-05T14:01:59+00:00,SELL,APTV,gain=-1.00% qty=460.732774869 reason=bad_news:downgrade
+2026-08-05T14:02:34+00:00,BUY,CDW,drop=-14.34% notional=$22000.00 news=clear(3) conviction=HIGH
+2026-08-05T14:02:34+00:00,BUY,PODD,drop=-18.96% notional=$22000.00 news=clear(4) conviction=HIGH
