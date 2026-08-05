@@ -127,3 +127,5 @@ timestamp_utc,action,symbol,detail
 2026-08-05T14:01:59+00:00,SELL,APTV,gain=-1.00% qty=460.732774869 reason=bad_news:downgrade
 2026-08-05T14:02:34+00:00,BUY,CDW,drop=-14.34% notional=$22000.00 news=clear(3) conviction=HIGH
 2026-08-05T14:02:34+00:00,BUY,PODD,drop=-18.96% notional=$22000.00 news=clear(4) conviction=HIGH
+2026-08-05T15:17:29+00:00,BUY,CCI,drop=-9.90% notional=$11000.00 news=none
+2026-08-05T15:17:29+00:00,BUY,SBAC,drop=-8.56% notional=$11000.00 news=clear(4)

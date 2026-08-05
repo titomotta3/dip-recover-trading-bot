@@ -1,32 +1,32 @@
 {
-  "updated_utc": "2026-08-05T14:02:34+00:00",
+  "updated_utc": "2026-08-05T15:17:29+00:00",
   "drop_threshold_pct": -8.0,
   "high_conviction_pct": -11.0,
   "stocks": [
     {
-      "symbol": "PODD",
-      "name": "Insulet Corporation",
-      "sector": "Health Care",
-      "pct_change": -18.957558213347898,
-      "conviction": "high",
-      "status": "bought",
-      "news_bad": false
-    },
-    {
       "symbol": "DVA",
       "name": "DaVita",
       "sector": "Health Care",
-      "pct_change": -16.680555227425153,
+      "pct_change": -18.812227885548445,
       "conviction": "high",
       "status": "blocked_news",
       "news_bad": true
     },
     {
-      "symbol": "CDW",
-      "name": "CDW Corporation",
-      "sector": "Information Technology",
-      "pct_change": -14.33766352665889,
-      "conviction": "high",
+      "symbol": "CCI",
+      "name": "Crown Castle",
+      "sector": "Real Estate",
+      "pct_change": -9.895705415396247,
+      "conviction": "buy_signal",
+      "status": "bought",
+      "news_bad": false
+    },
+    {
+      "symbol": "SBAC",
+      "name": "SBA Communications",
+      "sector": "Real Estate",
+      "pct_change": -8.557736612340829,
+      "conviction": "buy_signal",
       "status": "bought",
       "news_bad": false
     },
@@ -34,7 +34,16 @@
       "symbol": "AMD",
       "name": "Advanced Micro Devices",
       "sector": "Information Technology",
-      "pct_change": -6.180341944220003,
+      "pct_change": -7.247680345180879,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "AMT",
+      "name": "American Tower",
+      "sector": "Real Estate",
+      "pct_change": -7.007131971068118,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
@@ -43,7 +52,7 @@
       "symbol": "UBER",
       "name": "Uber",
       "sector": "Industrials",
-      "pct_change": -6.000833203244682,
+      "pct_change": -6.348103667779335,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
