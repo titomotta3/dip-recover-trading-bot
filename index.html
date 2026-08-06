@@ -301,7 +301,7 @@
       <h1><span class="live-dot"></span>Dip-and-Recover Trading Bot</h1>
       <div class="sub">Two paper portfolios: Portfolio 1 runs fixed rules, Portfolio 2 tunes its own strategy as it trades.</div>
     </div>
-    <div style="display:flex;align-items:center;gap:10px;"><span class="sub" id="refresh-countdown" style="margin-top:0;">Refreshing in 5:00</span><button id="run-bot-btn" onclick="runBotNow()" title="Manually trigger a new bot scan right now">Run Bot Now</button> <span class="sub" id="run-bot-status" style="margin-top:0;"></span> <button onclick="manualRefresh()">Refresh</button></div>
+    <div style="display:flex;align-items:center;gap:10px;"><span class="sub" id="refresh-countdown" style="margin-top:0;">Refreshing in 5:00</span><button id="run-bot-btn" onclick="runBotNow()" title="Manually trigger a new bot scan right now">Run Bot Now</button> <span class="sub" id="run-bot-status" style="margin-top:0;"></span> <a href="trades.html" style="text-decoration:none;"><button title="View the full trade report">Trade Report &rarr;</button></a> <button onclick="manualRefresh()">Refresh</button></div>
   </header>
 
   <div id="compare" class="compare"></div>
@@ -357,10 +357,6 @@
       adaptive: true,
     },
   ];
-
-  const TRADES_PAGE_SIZE = 25;
-  const tradesShown = {}; // id -> number of rows currently rendered
-  const allTrades = {}; // id -> full parsed trade rows
 
   const money = (n) => {
     if (n === null || n === undefined || isNaN(n)) return "&ndash;";
@@ -529,12 +525,7 @@
           <div id="watchlist-wrap-${cfg.id}"><div class="empty">Loading watch list&hellip;</div></div>
         </section>
 
-        <section class="block">
-          <h3>Trade History</h3>
-          <div id="trades-wrap-${cfg.id}"><div class="empty">Loading trade history&hellip;</div></div>
-          <div class="show-more-wrap" id="trades-more-wrap-${cfg.id}"></div>
-        </section>
-      </div>
+              </div>
     `).join("");
 
     // Compare bar (Portfolio 1 vs Portfolio 2 vs a naive S&P 500 buy-and-
@@ -557,7 +548,7 @@
       card.addEventListener("click", () => setActiveTab(card.dataset.id));
     });
 
-    PORTFOLIOS.forEach((cfg) => { shellBuilt[cfg.id] = true; tradesShown[cfg.id] = TRADES_PAGE_SIZE; });
+    PORTFOLIOS.forEach((cfg) => { shellBuilt[cfg.id] = true; });
   }
 
   function renderSparkline(elId, points, benchmarkPts) {
@@ -801,58 +792,6 @@
     }
   }
 
-  function renderTradesTable(cfg) {
-    const wrap = document.getElementById(`trades-wrap-${cfg.id}`);
-    const moreWrap = document.getElementById(`trades-more-wrap-${cfg.id}`);
-    const rows = allTrades[cfg.id] || [];
-    if (!rows.length) {
-      wrap.innerHTML = '<div class="empty">No trades yet.</div>';
-      moreWrap.innerHTML = "";
-      return;
-    }
-    const shown = Math.min(tradesShown[cfg.id] || TRADES_PAGE_SIZE, rows.length);
-    const visible = rows.slice(0, shown);
-    wrap.innerHTML = `
-      <div class="table-scroll">
-      <table>
-        <thead><tr><th>Time (UTC)</th><th>Action</th><th>Symbol</th><th>Detail</th></tr></thead>
-        <tbody>
-          ${visible.map((r) => `
-            <tr>
-              <td>${new Date(r.timestamp_utc).toLocaleString()}</td>
-              <td class="${r.action === "BUY" ? "buy" : "sell"}">${r.action}</td>
-              <td>${tickerCell(r.symbol)}</td>
-              <td>${escapeHtml(r.detail)}</td>
-            </tr>`).join("")}
-        </tbody>
-      </table>
-      </div>`;
-    if (rows.length > shown) {
-      moreWrap.innerHTML = `<button data-id="${cfg.id}" class="show-more-btn">Show more (${rows.length - shown} older trades)</button>`;
-      moreWrap.querySelector(".show-more-btn").addEventListener("click", () => {
-        tradesShown[cfg.id] = shown + TRADES_PAGE_SIZE;
-        renderTradesTable(cfg);
-      });
-    } else {
-      moreWrap.innerHTML = rows.length > TRADES_PAGE_SIZE
-        ? `<span class="sub">Showing all ${rows.length} trades.</span>`
-        : "";
-    }
-  }
-
-  async function loadTrades(cfg) {
-    try {
-      const res = await fetchNoCache(cfg.tradeLog);
-      const text = await res.text();
-      allTrades[cfg.id] = parseTradeCsv(text);
-      if (!(cfg.id in tradesShown)) tradesShown[cfg.id] = TRADES_PAGE_SIZE;
-      renderTradesTable(cfg);
-    } catch (err) {
-      allTrades[cfg.id] = [];
-      document.getElementById(`trades-wrap-${cfg.id}`).innerHTML = '<div class="empty">No trade history yet.</div>';
-    }
-  }
-
   async function loadAll() {
     if (!shellBuilt.p1 || !shellBuilt.p2) {
       renderShell();
@@ -861,7 +800,6 @@
     await loadBenchmark();
     for (const cfg of PORTFOLIOS) {
       loadSnapshot(cfg);
-      loadTrades(cfg);
       loadHistory(cfg);
       loadWatchlist(cfg);
     }
