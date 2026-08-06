@@ -237,3 +237,13 @@ timestamp_utc,action,symbol,detail
 2026-08-05T16:56:08+00:00,BUY,EOG,drop=-6.04% notional=$10000.00 news=clear(1)
 2026-08-05T18:23:28+00:00,SELL,AMD,gain=-0.51% qty=20.426223819 reason=bad_news:warns
 2026-08-05T18:23:58+00:00,BUY,DXCM,drop=-5.07% notional=$10000.00 news=clear(2)
+2026-08-06T15:15:26+00:00,SELL,ADBE,gain=4.36% qty=40.839622641 reason=bad_news:collapse
+2026-08-06T15:15:26+00:00,SELL,CCI,gain=7.88% qty=142.714285714 reason=target_reached
+2026-08-06T15:15:26+00:00,SELL,ERIE,gain=7.71% qty=42.549527699 reason=target_reached
+2026-08-06T15:15:26+00:00,SELL,PODD,"gain=0.55% qty=74.183902077 reason=bad_news:downgrade,downgraded"
+2026-08-06T15:15:57+00:00,BUY,AXON,drop=-8.50% notional=$10000.00 news=clear(5)
+2026-08-06T15:15:57+00:00,BUY,XYZ,drop=-5.40% notional=$10000.00 news=clear(10)
+2026-08-06T15:15:57+00:00,BUY,DDOG,drop=-15.21% notional=$10000.00 news=clear(10)
+2026-08-06T15:15:57+00:00,BUY,HST,drop=-6.07% notional=$10000.00 news=clear(2)
+2026-08-06T15:15:57+00:00,BUY,TPL,drop=-8.81% notional=$10000.00 news=clear(1)
+2026-08-06T15:15:57+00:00,BUY,TTD,drop=-5.67% notional=$10000.00 news=none
