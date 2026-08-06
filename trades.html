@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Trade Report — Dip-and-Recover Trading Bot</title>
+<style>
+:root {
+  --bg: #0a0c11;
+  --card: #14171f;
+  --border: #242833;
+  --text: #eef0f4;
+  --muted: #8b93a3;
+  --green: #34d399;
+  --red: #f2666a;
+  --accent: #5b8cff;
+  --accent2: #f5a95a;
+  --radius: 12px;
+  --radius-sm: 8px;
+  --shadow: 0 1px 2px rgba(0, 0, 0, 0.35), 0 6px 20px rgba(0, 0, 0, 0.22);
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Inter", Roboto, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  font-variant-numeric: tabular-nums;
+  padding: 24px 16px 64px;
+}
+.wrap { max-width: 1000px; margin: 0 auto; }
+header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 24px;
+}
+h1 {
+  font-size: 21px;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  gap: 9px;
+}
+.live-dot {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--green);
+  flex-shrink: 0;
+}
+.sub { color: var(--muted); font-size: 13px; margin-top: 5px; }
+a.back-link { text-decoration: none; }
+button, select, input {
+  background: var(--card);
+  color: var(--text);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  padding: 8px 14px;
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+  font-family: inherit;
+  transition: border-color 0.15s ease, box-shadow 0.15s ease, transform 0.05s ease;
+}
+input { cursor: text; font-weight: 500; }
+button:hover, select:hover { border-color: var(--accent); box-shadow: var(--shadow); }
+button:active { transform: translateY(1px); }
+.summary-bar {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 12px;
+  margin-bottom: 20px;
+}
+.summary-bar .card {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 14px 16px;
+  box-shadow: var(--shadow);
+}
+.summary-bar .label { font-size: 11px; color: var(--muted); margin-bottom: 6px; text-transform: uppercase; letter-spacing: 0.04em; font-weight: 600; }
+.summary-bar .value { font-size: 20px; font-weight: 700; }
+.filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  align-items: center;
+  margin-bottom: 18px;
+}
+.filters .tabs {
+  display: flex;
+  gap: 4px;
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  padding: 3px;
+}
+.filters .tab-btn {
+  background: transparent;
+  border: none;
+  border-radius: 6px;
+  color: var(--muted);
+  padding: 6px 12px;
+}
+.filters .tab-btn.active { background: var(--accent); color: #fff; }
+#symbol-filter { min-width: 160px; }
+.table-scroll { overflow-x: auto; border-radius: var(--radius); -webkit-overflow-scrolling: touch; }
+table {
+  width: 100%;
+  min-width: 560px;
+  border-collapse: collapse;
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  overflow: hidden;
+  font-size: 14px;
+  box-shadow: var(--shadow);
+}
+th, td { text-align: left; padding: 11px 14px; border-bottom: 1px solid var(--border); white-space: nowrap; }
+th {
+  color: var(--muted);
+  font-weight: 700;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+  user-select: none;
+}
+th:hover { color: var(--text); }
+th .arrow { color: var(--accent); margin-left: 4px; }
+tr:last-child td { border-bottom: none; }
+tbody tr { transition: background 0.1s ease; }
+tbody tr:hover { background: rgba(255, 255, 255, 0.025); }
+.pos { color: var(--green); }
+.neg { color: var(--red); }
+.buy { color: var(--accent); font-weight: 600; }
+.sell { color: var(--green); font-weight: 600; }
+.company { font-size: 11px; color: var(--muted); font-weight: 400; margin-top: 2px; }
+.tag {
+  display: inline-block;
+  padding: 2px 8px;
+  border-radius: 999px;
+  font-size: 11px;
+  font-weight: 600;
+}
+.tag.standard { background: rgba(91, 140, 255, 0.15); color: var(--accent); border: 1px solid rgba(91, 140, 255, 0.35); }
+.tag.aggressive { background: rgba(255, 180, 84, 0.15); color: var(--accent2); border: 1px solid rgba(255, 180, 84, 0.35); }
+.empty {
+  padding: 24px;
+  text-align: center;
+  color: var(--muted);
+  background: var(--card);
+  border: 1px dashed var(--border);
+  border-radius: var(--radius);
+  font-size: 14px;
+}
+.count-note { color: var(--muted); font-size: 13px; margin: 10px 0 0; }
+footer {
+  color: var(--muted);
+  font-size: 12px;
+  text-align: center;
+  margin-top: 44px;
+  padding-top: 24px;
+  border-top: 1px solid var(--border);
+  line-height: 1.7;
+}
+footer a { color: var(--accent); font-weight: 600; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div>
+      <h1><span class="live-dot"></span>Trade Report</h1>
+      <div class="sub">Full executed trade history for both portfolios — Standard and Aggressive/Adaptive.</div>
+    </div>
+    <a class="back-link" href="index.html"><button>← Back to Dashboard</button></a>
+  </header>
+  <div class="summary-bar" id="summary"></div>
+  <div class="filters">
+    <div class="tabs" id="portfolio-filter"></div>
+    <input id="symbol-filter" type="text" placeholder="Filter by symbol..." />
+    <select id="action-filter">
+      <option value="all">All actions</option>
+      <option value="BUY">Buy only</option>
+      <option value="SELL">Sell only</option>
+    </select>
+  </div>
+  <div id="trades-wrap"><div class="empty">Loading trade history…</div></div>
+  <div class="count-note" id="count-note"></div>
+  <footer>
+    Trade history is read directly from the trade log for each portfolio, refreshed every time the bot runs.
+    This is a paper-trading demo, not financial advice.<br />
+    <a href="https://github.com/titomotta3/dip-recover-trading-bot" target="_blank" rel="noopener">View source on GitHub</a>
+  </footer>
+</div>
+<script>
+const PORTFOLIOS = [
+  { id: "p1", title: "Portfolio 1", tagClass: "standard", tagLabel: "Standard", tradeLog: "trade_log.csv" },
+  { id: "p2", title: "Portfolio 2", tagClass: "aggressive", tagLabel: "Aggressive", tradeLog: "trade_log_aggressive.csv" },
+];
+let companies = {};
+let allRows = [];
+let portfolioFilter = "all";
+let symbolFilter = "";
+let actionFilter = "all";
+let sortKey = "timestamp_utc";
+let sortDir = "desc";
+const escapeHtml = (s) => String(s).replace(/[&<>"\']/g, (c) => ({
+  "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;",
+}[c]));
+const tickerCell = (symbol, name) => {
+  const label = name || companies[symbol] || "";
+  const safeSymbol = escapeHtml(symbol);
+  const safeLabel = escapeHtml(label);
+  return `<strong>${safeSymbol}</strong>` + (safeLabel ? `<div class="company">${safeLabel}</div>` : "");
+};
+async function fetchNoCache(path) {
+  const res = await fetch(path + "?t=" + Date.now(), { cache: "no-store" });
+  if (!res.ok) throw new Error(path + " returned " + res.status);
+  return res;
+}
+function parseTradeCsv(text, cfg) {
+  const lines = text.trim().split("\n").filter(Boolean);
+  if (lines.length <= 1) return [];
+  return lines.slice(1).map((line) => {
+    const [timestamp_utc, action, symbol, ...rest] = line.split(",");
+    return {
+      timestamp_utc,
+      action,
+      symbol,
+      detail: rest.join(","),
+      portfolioId: cfg.id,
+      portfolioTitle: cfg.title,
+      tagClass: cfg.tagClass,
+      tagLabel: cfg.tagLabel,
+    };
+  });
+}
+async function loadCompanies() {
+  try {
+    const res = await fetchNoCache("companies.json");
+    companies = await res.json();
+  } catch (err) {
+    companies = {};
+  }
+}
+async function loadAllTrades() {
+  const results = await Promise.all(PORTFOLIOS.map(async (cfg) => {
+    try {
+      const res = await fetchNoCache(cfg.tradeLog);
+      const text = await res.text();
+      return parseTradeCsv(text, cfg);
+    } catch (err) {
+      return [];
+    }
+  }));
+  allRows = results.flat();
+}
+function renderSummary() {
+  const total = allRows.length;
+  const buys = allRows.filter((r) => r.action === "BUY").length;
+  const sells = allRows.filter((r) => r.action === "SELL").length;
+  const sellGains = allRows
+    .filter((r) => r.action === "SELL")
+    .map((r) => {
+      const m = r.detail.match(/gain=(-?[\d.]+)%/);
+      return m ? parseFloat(m[1]) : null;
+    })
+    .filter((v) => v !== null);
+  const winners = sellGains.filter((v) => v > 0).length;
+  const winRate = sellGains.length ? ((winners / sellGains.length) * 100).toFixed(0) + "%" : "–";
+  const summary = document.getElementById("summary");
+  summary.innerHTML = `
+    <div class="card"><div class="label">Total Trades</div><div class="value">${total}</div></div>
+    <div class="card"><div class="label">Buys</div><div class="value">${buys}</div></div>
+    <div class="card"><div class="label">Sells</div><div class="value">${sells}</div></div>
+    <div class="card"><div class="label">Win Rate (Sells)</div><div class="value">${winRate}</div></div>
+  `;
+}
+function renderPortfolioFilter() {
+  const el = document.getElementById("portfolio-filter");
+  const options = [{ id: "all", title: "Both" }, ...PORTFOLIOS.map((p) => ({ id: p.id, title: p.title }))];
+  el.innerHTML = options.map((o) => `<button class="tab-btn ${portfolioFilter === o.id ? "active" : ""}" data-id="${o.id}">${o.title}</button>`).join("");
+  el.querySelectorAll(".tab-btn").forEach((btn) => {
+    btn.addEventListener("click", () => {
+      portfolioFilter = btn.dataset.id;
+      renderPortfolioFilter();
+      renderTable();
+    });
+  });
+}
+function sortRows(rows) {
+  const dir = sortDir === "asc" ? 1 : -1;
+  return [...rows].sort((a, b) => {
+    let av = a[sortKey], bv = b[sortKey];
+    if (sortKey === "timestamp_utc") { av = new Date(av).getTime(); bv = new Date(bv).getTime(); }
+    if (av < bv) return -1 * dir;
+    if (av > bv) return 1 * dir;
+    return 0;
+  });
+}
+function renderTable() {
+  let rows = allRows;
+  if (portfolioFilter !== "all") rows = rows.filter((r) => r.portfolioId === portfolioFilter);
+  if (actionFilter !== "all") rows = rows.filter((r) => r.action === actionFilter);
+  if (symbolFilter.trim()) {
+    const q = symbolFilter.trim().toUpperCase();
+    rows = rows.filter((r) => r.symbol.toUpperCase().includes(q));
+  }
+  rows = sortRows(rows);
+  const wrap = document.getElementById("trades-wrap");
+  const countNote = document.getElementById("count-note");
+  if (!rows.length) {
+    wrap.innerHTML = '<div class="empty">No trades match these filters.</div>';
+    countNote.textContent = "";
+    return;
+  }
+  const arrow = (key) => (sortKey === key ? `<span class="arrow">${sortDir === "asc" ? "↑" : "↓"}</span>` : "");
+  wrap.innerHTML = `
+    <div class="table-scroll">
+      <table>
+        <thead>
+          <tr>
+            <th data-key="timestamp_utc">Time (UTC)${arrow("timestamp_utc")}</th>
+            <th data-key="portfolioTitle">Portfolio${arrow("portfolioTitle")}</th>
+            <th data-key="action">Action${arrow("action")}</th>
+            <th data-key="symbol">Symbol${arrow("symbol")}</th>
+            <th>Detail</th>
+          </tr>
+        </thead>
+        <tbody>
+          ${rows.map((r) => `
+            <tr>
+              <td>${new Date(r.timestamp_utc).toLocaleString()}</td>
+              <td><span class="tag ${r.tagClass}">${escapeHtml(r.tagLabel)}</span></td>
+              <td class="${r.action === "BUY" ? "buy" : "sell"}">${r.action}</td>
+              <td>${tickerCell(r.symbol)}</td>
+              <td>${escapeHtml(r.detail)}</td>
+            </tr>`).join("")}
+        </tbody>
+      </table>
+    </div>`;
+  countNote.textContent = `Showing ${rows.length} of ${allRows.length} total trades.`;
+  wrap.querySelectorAll("th[data-key]").forEach((th) => {
+    th.addEventListener("click", () => {
+      const key = th.dataset.key;
+      if (sortKey === key) { sortDir = sortDir === "asc" ? "desc" : "asc"; }
+      else { sortKey = key; sortDir = "desc"; }
+      renderTable();
+    });
+  });
+}
+async function init() {
+  renderPortfolioFilter();
+  await loadCompanies();
+  await loadAllTrades();
+  renderSummary();
+  renderTable();
+  document.getElementById("symbol-filter").addEventListener("input", (e) => {
+    symbolFilter = e.target.value;
+    renderTable();
+  });
+  document.getElementById("action-filter").addEventListener("change", (e) => {
+    actionFilter = e.target.value;
+    renderTable();
+  });
+}
+init();
+</script>
+</body>
+</html>
