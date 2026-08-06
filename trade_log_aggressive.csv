@@ -129,3 +129,10 @@ timestamp_utc,action,symbol,detail
 2026-08-05T14:02:34+00:00,BUY,PODD,drop=-18.96% notional=$22000.00 news=clear(4) conviction=HIGH
 2026-08-05T15:17:29+00:00,BUY,CCI,drop=-9.90% notional=$11000.00 news=none
 2026-08-05T15:17:29+00:00,BUY,SBAC,drop=-8.56% notional=$11000.00 news=clear(4)
+2026-08-06T15:16:29+00:00,SELL,APP,gain=-18.79% qty=30.31697024 reason=stop_loss
+2026-08-06T15:16:30+00:00,SELL,HONA,gain=-19.93% qty=62.340980499 reason=stop_loss
+2026-08-06T15:16:31+00:00,SELL,PODD,"gain=0.27% qty=162.385518157 reason=bad_news:downgrade,downgraded"
+2026-08-06T15:16:31+00:00,SELL,VEEV,gain=11.71% qty=65.287736341 reason=target_reached
+2026-08-06T15:17:17+00:00,BUY,AXON,drop=-8.73% notional=$11000.00 news=clear(5)
+2026-08-06T15:17:17+00:00,BUY,DDOG,drop=-14.79% notional=$22000.00 news=clear(10) conviction=HIGH
+2026-08-06T15:17:17+00:00,BUY,TPL,drop=-8.78% notional=$11000.00 news=clear(1)

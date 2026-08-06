@@ -1,31 +1,67 @@
 {
-  "updated_utc": "2026-08-05T18:24:54+00:00",
+  "updated_utc": "2026-08-06T15:17:17+00:00",
   "drop_threshold_pct": -8.0,
   "high_conviction_pct": -11.0,
   "stocks": [
     {
-      "symbol": "DVA",
-      "name": "DaVita",
-      "sector": "Health Care",
-      "pct_change": -17.518312855430757,
+      "symbol": "HONA",
+      "name": "Honeywell Aerospace",
+      "sector": "Industrials",
+      "pct_change": -20.770086299377233,
       "conviction": "high",
       "status": "blocked_news",
       "news_bad": true
     },
     {
-      "symbol": "UBER",
-      "name": "Uber",
-      "sector": "Industrials",
-      "pct_change": -6.63980958624602,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
+      "symbol": "APP",
+      "name": "AppLovin",
+      "sector": "Information Technology",
+      "pct_change": -19.85160480246478,
+      "conviction": "high",
+      "status": "blocked_news",
+      "news_bad": true
     },
     {
-      "symbol": "AMD",
-      "name": "Advanced Micro Devices",
+      "symbol": "DDOG",
+      "name": "Datadog",
       "sector": "Information Technology",
-      "pct_change": -6.036681353253107,
+      "pct_change": -14.786173814503096,
+      "conviction": "high",
+      "status": "bought",
+      "news_bad": false
+    },
+    {
+      "symbol": "WDC",
+      "name": "Western Digital",
+      "sector": "Information Technology",
+      "pct_change": -8.785173806833017,
+      "conviction": "buy_signal",
+      "status": "blocked_news",
+      "news_bad": true
+    },
+    {
+      "symbol": "TPL",
+      "name": "Texas Pacific Land Corporation",
+      "sector": "Energy",
+      "pct_change": -8.781555261684952,
+      "conviction": "buy_signal",
+      "status": "bought",
+      "news_bad": false
+    },
+    {
+      "symbol": "AXON",
+      "name": "Axon Enterprise",
+      "sector": "Industrials",
+      "pct_change": -8.727389583135555,
+      "conviction": "buy_signal",
+      "status": "bought",
+      "news_bad": false
+    },
+    {
+      "symbol": "HST",
+      "name": "Host Hotels & Resorts",
+      "sector": "Real Estate",
+      "pct_change": -6.267405126100188,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
