@@ -4,6 +4,6 @@
   "trade_dollars": 11000.0,
   "completed_trades": 33,
   "last_adjustment": "2 stop_loss exit(s) (APP, HONA); 1 bad_news exit(s) (PODD); VEEV barely cleared target -> lowered sell target to 11.0%",
-  "updated_utc": "2026-08-06T15:17:18+00:00",
+  "updated_utc": "2026-08-07T00:31:34+00:00",
   "risk_exits": 26
 }
