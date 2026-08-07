@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-08-07T14:15:44+00:00",
+  "updated_utc": "2026-08-07T15:13:50+00:00",
   "drop_threshold_pct": -8.0,
   "high_conviction_pct": -11.0,
   "stocks": [
@@ -7,19 +7,10 @@
       "symbol": "TTD",
       "name": "Trade Desk (The)",
       "sector": "Communication Services",
-      "pct_change": -19.920772170714933,
+      "pct_change": -19.863611080497346,
       "conviction": "high",
       "status": "blocked_news",
       "news_bad": true
-    },
-    {
-      "symbol": "STX",
-      "name": "Seagate Technology",
-      "sector": "Information Technology",
-      "pct_change": -10.454303491880667,
-      "conviction": "buy_signal",
-      "status": "bought",
-      "news_bad": false
     }
   ]
 }
