@@ -136,3 +136,6 @@ timestamp_utc,action,symbol,detail
 2026-08-06T15:17:17+00:00,BUY,AXON,drop=-8.73% notional=$11000.00 news=clear(5)
 2026-08-06T15:17:17+00:00,BUY,DDOG,drop=-14.79% notional=$22000.00 news=clear(10) conviction=HIGH
 2026-08-06T15:17:17+00:00,BUY,TPL,drop=-8.78% notional=$11000.00 news=clear(1)
+2026-08-07T14:15:18+00:00,SELL,CRWD,gain=11.64% qty=65.131252605 reason=target_reached
+2026-08-07T14:15:18+00:00,SELL,CVNA,gain=12.43% qty=195.46505082 reason=target_reached
+2026-08-07T14:15:44+00:00,BUY,STX,drop=-10.45% notional=$11000.00 news=clear(3)

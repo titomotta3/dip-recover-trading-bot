@@ -1,70 +1,25 @@
 {
-  "updated_utc": "2026-08-06T15:17:17+00:00",
+  "updated_utc": "2026-08-07T14:15:44+00:00",
   "drop_threshold_pct": -8.0,
   "high_conviction_pct": -11.0,
   "stocks": [
     {
-      "symbol": "HONA",
-      "name": "Honeywell Aerospace",
-      "sector": "Industrials",
-      "pct_change": -20.770086299377233,
+      "symbol": "TTD",
+      "name": "Trade Desk (The)",
+      "sector": "Communication Services",
+      "pct_change": -19.920772170714933,
       "conviction": "high",
       "status": "blocked_news",
       "news_bad": true
     },
     {
-      "symbol": "APP",
-      "name": "AppLovin",
+      "symbol": "STX",
+      "name": "Seagate Technology",
       "sector": "Information Technology",
-      "pct_change": -19.85160480246478,
-      "conviction": "high",
-      "status": "blocked_news",
-      "news_bad": true
-    },
-    {
-      "symbol": "DDOG",
-      "name": "Datadog",
-      "sector": "Information Technology",
-      "pct_change": -14.786173814503096,
-      "conviction": "high",
-      "status": "bought",
-      "news_bad": false
-    },
-    {
-      "symbol": "WDC",
-      "name": "Western Digital",
-      "sector": "Information Technology",
-      "pct_change": -8.785173806833017,
-      "conviction": "buy_signal",
-      "status": "blocked_news",
-      "news_bad": true
-    },
-    {
-      "symbol": "TPL",
-      "name": "Texas Pacific Land Corporation",
-      "sector": "Energy",
-      "pct_change": -8.781555261684952,
+      "pct_change": -10.454303491880667,
       "conviction": "buy_signal",
       "status": "bought",
       "news_bad": false
-    },
-    {
-      "symbol": "AXON",
-      "name": "Axon Enterprise",
-      "sector": "Industrials",
-      "pct_change": -8.727389583135555,
-      "conviction": "buy_signal",
-      "status": "bought",
-      "news_bad": false
-    },
-    {
-      "symbol": "HST",
-      "name": "Host Hotels & Resorts",
-      "sector": "Real Estate",
-      "pct_change": -6.267405126100188,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
     }
   ]
 }
