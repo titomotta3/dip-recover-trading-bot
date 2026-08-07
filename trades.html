@@ -223,6 +223,11 @@ const tickerCell = (symbol, name) => {
   const safeLabel = escapeHtml(label);
   return `<strong>${safeSymbol}</strong>` + (safeLabel ? `<div class="company">${safeLabel}</div>` : "");
 };
+function money(n) {
+  if (n === null || n === undefined || isNaN(n)) return '–';
+  const sign = n < 0 ? '-' : '';
+  return sign + '$' + Math.abs(n).toLocaleString('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+}
 async function fetchNoCache(path) {
   const res = await fetch(path + "?t=" + Date.now(), { cache: "no-store" });
   if (!res.ok) throw new Error(path + " returned " + res.status);
@@ -265,20 +270,42 @@ async function loadAllTrades() {
   }));
   allRows = results.flat();
 }
-function renderSummary() {
-  const total = allRows.length;
-  const buys = allRows.filter((r) => r.action === "BUY").length;
-  const sells = allRows.filter((r) => r.action === "SELL").length;
-  const sellGains = allRows
-    .filter((r) => r.action === "SELL")
+function computePnl() {
+  const queues = {};
+  const sorted = [...allRows].sort((a, b) => new Date(a.timestamp_utc) - new Date(b.timestamp_utc));
+  sorted.forEach((r) => {
+    const key = r.portfolioId + '|' + r.symbol;
+    if (r.action === 'BUY') {
+      const m = r.detail.match(/notional=\$([\d.,]+)/);
+      const notional = m ? parseFloat(m[1].replace(/,/g, '')) : null;
+      if (!queues[key]) queues[key] = [];
+      queues[key].push(notional);
+      r.pnl = null;
+    } else if (r.action === 'SELL') {
+      const gm = r.detail.match(/gain=(-?[\d.]+)%/);
+      const gainPct = gm ? parseFloat(gm[1]) : null;
+      const q = queues[key];
+      const notional = q && q.length ? q.shift() : null;
+      r.pnl = (notional != null && gainPct != null) ? (notional * gainPct) / 100 : null;
+    } else {
+      r.pnl = null;
+    }
+  });
+}
+function renderSummary(rows = allRows) {
+  const total = rows.length;
+  const buys = rows.filter((r) => r.action === 'BUY').length;
+  const sells = rows.filter((r) => r.action === 'SELL').length;
+  const sellGains = rows
+    .filter((r) => r.action === 'SELL')
     .map((r) => {
       const m = r.detail.match(/gain=(-?[\d.]+)%/);
       return m ? parseFloat(m[1]) : null;
     })
     .filter((v) => v !== null);
   const winners = sellGains.filter((v) => v > 0).length;
-  const winRate = sellGains.length ? ((winners / sellGains.length) * 100).toFixed(0) + "%" : "–";
-  const summary = document.getElementById("summary");
+  const winRate = sellGains.length ? ((winners / sellGains.length) * 100).toFixed(0) + '%' : '–';
+  const summary = document.getElementById('summary');
   summary.innerHTML = `
     <div class="card"><div class="label">Total Trades</div><div class="value">${total}</div></div>
     <div class="card"><div class="label">Buys</div><div class="value">${buys}</div></div>
@@ -316,6 +343,7 @@ function renderTable() {
     const q = symbolFilter.trim().toUpperCase();
     rows = rows.filter((r) => r.symbol.toUpperCase().includes(q));
   }
+  renderSummary(rows);
   rows = sortRows(rows);
   const wrap = document.getElementById("trades-wrap");
   const countNote = document.getElementById("count-note");
@@ -334,7 +362,8 @@ function renderTable() {
             <th data-key="portfolioTitle">Portfolio${arrow("portfolioTitle")}</th>
             <th data-key="action">Action${arrow("action")}</th>
             <th data-key="symbol">Symbol${arrow("symbol")}</th>
-            <th>Detail</th>
+                        <th data-key="pnl">P&amp;L ($)${arrow('pnl')}</th>
+<th>Detail</th>
           </tr>
         </thead>
         <tbody>
@@ -344,7 +373,8 @@ function renderTable() {
               <td><span class="tag ${r.tagClass}">${escapeHtml(r.tagLabel)}</span></td>
               <td class="${r.action === "BUY" ? "buy" : "sell"}">${r.action}</td>
               <td>${tickerCell(r.symbol)}</td>
-              <td>${escapeHtml(r.detail)}</td>
+                            <td class="${r.pnl == null ? '' : (r.pnl >= 0 ? 'pos' : 'neg')}">${money(r.pnl)}</td>
+<td>${escapeHtml(r.detail)}</td>
             </tr>`).join("")}
         </tbody>
       </table>
@@ -363,6 +393,7 @@ async function init() {
   renderPortfolioFilter();
   await loadCompanies();
   await loadAllTrades();
+  computePnl();
   renderSummary();
   renderTable();
   document.getElementById("symbol-filter").addEventListener("input", (e) => {
