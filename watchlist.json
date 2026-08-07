@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-08-07T15:12:50+00:00",
+  "updated_utc": "2026-08-07T16:11:09+00:00",
   "drop_threshold_pct": -5.0,
   "high_conviction_pct": -8.0,
   "stocks": [
@@ -7,52 +7,25 @@
       "symbol": "TTD",
       "name": "Trade Desk (The)",
       "sector": "Communication Services",
-      "pct_change": -19.666102809652976,
+      "pct_change": -20.91114702246904,
       "conviction": "high",
       "status": "blocked_news",
       "news_bad": true
     },
     {
-      "symbol": "AKAM",
-      "name": "Akamai Technologies",
-      "sector": "Information Technology",
-      "pct_change": -5.17081798820047,
-      "conviction": "buy_signal",
-      "status": "bought",
-      "news_bad": false
-    },
-    {
-      "symbol": "WDC",
-      "name": "Western Digital",
-      "sector": "Information Technology",
-      "pct_change": -4.38296830901644,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
       "symbol": "FISV",
       "name": "Fiserv",
       "sector": "Financials",
-      "pct_change": -4.232121400289271,
+      "pct_change": -4.684900792492597,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
     },
     {
-      "symbol": "NWS",
-      "name": "News Corp (Class B)",
-      "sector": "Communication Services",
-      "pct_change": -3.6020001313238015,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "NWSA",
-      "name": "News Corp (Class A)",
-      "sector": "Communication Services",
-      "pct_change": -3.5389256297962954,
+      "symbol": "ZTS",
+      "name": "Zoetis",
+      "sector": "Health Care",
+      "pct_change": -4.482326255515316,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
@@ -61,7 +34,34 @@
       "symbol": "MNST",
       "name": "Monster Beverage",
       "sector": "Consumer Staples",
-      "pct_change": -3.058628686068577,
+      "pct_change": -4.375533757800764,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "WDC",
+      "name": "Western Digital",
+      "sector": "Information Technology",
+      "pct_change": -3.549121697023948,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "NWS",
+      "name": "News Corp (Class B)",
+      "sector": "Communication Services",
+      "pct_change": -3.542960734521277,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "NWSA",
+      "name": "News Corp (Class A)",
+      "sector": "Communication Services",
+      "pct_change": -3.43781750974326,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
