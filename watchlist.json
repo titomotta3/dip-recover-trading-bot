@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-08-07T17:09:20+00:00",
+  "updated_utc": "2026-08-07T18:02:15+00:00",
   "drop_threshold_pct": -5.0,
   "high_conviction_pct": -8.0,
   "stocks": [
@@ -7,7 +7,7 @@
       "symbol": "TTD",
       "name": "Trade Desk (The)",
       "sector": "Communication Services",
-      "pct_change": -22.297682609201104,
+      "pct_change": -21.873230076005736,
       "conviction": "high",
       "status": "blocked_news",
       "news_bad": true
@@ -16,16 +16,16 @@
       "symbol": "ZTS",
       "name": "Zoetis",
       "sector": "Health Care",
-      "pct_change": -5.617315991328142,
+      "pct_change": -5.771967488331528,
       "conviction": "buy_signal",
       "status": "blocked_news",
       "news_bad": true
     },
     {
-      "symbol": "FISV",
-      "name": "Fiserv",
-      "sector": "Financials",
-      "pct_change": -4.527815071712924,
+      "symbol": "MNST",
+      "name": "Monster Beverage",
+      "sector": "Consumer Staples",
+      "pct_change": -4.386156247012172,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
@@ -34,16 +34,16 @@
       "symbol": "WDC",
       "name": "Western Digital",
       "sector": "Information Technology",
-      "pct_change": -4.390720714881314,
+      "pct_change": -4.283309002584383,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
     },
     {
-      "symbol": "MNST",
-      "name": "Monster Beverage",
-      "sector": "Consumer Staples",
-      "pct_change": -4.078168880563032,
+      "symbol": "FISV",
+      "name": "Fiserv",
+      "sector": "Financials",
+      "pct_change": -3.973390319030228,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
@@ -52,7 +52,7 @@
       "symbol": "NWS",
       "name": "News Corp (Class B)",
       "sector": "Communication Services",
-      "pct_change": -3.631531092486758,
+      "pct_change": -3.4839100749570577,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
@@ -61,7 +61,7 @@
       "symbol": "NWSA",
       "name": "News Corp (Class A)",
       "sector": "Communication Services",
-      "pct_change": -3.4209618707059346,
+      "pct_change": -3.218739202057134,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
