@@ -1,9 +1,9 @@
 {
-  "updated_utc": "2026-08-07T18:02:15+00:00",
+  "updated_utc": "2026-08-07T19:10:51+00:00",
   "paper": true,
-  "equity": 529172.99,
-  "cash": 64451.14,
-  "buying_power": 64451.14,
+  "equity": 528531.75,
+  "cash": 75162.1,
+  "buying_power": 75162.1,
   "starting_equity": 500000.0,
   "drop_threshold_pct": -5.0,
   "sell_threshold_pct": 7.0,
@@ -22,506 +22,495 @@
       "name": "Automatic Data Processing",
       "qty": 38.66845892,
       "avg_entry_price": 258.608444,
-      "current_price": 272.17,
+      "current_price": 270.52,
       "cost_basis": 9999.989993,
-      "market_value": 10524.394464,
-      "unrealized_pl": 524.404471,
-      "unrealized_plpc": 5.244
+      "market_value": 10460.591507,
+      "unrealized_pl": 460.601514,
+      "unrealized_plpc": 4.606
     },
     {
       "symbol": "AJG",
       "name": "Arthur J. Gallagher & Co.",
       "qty": 39.122060952,
       "avg_entry_price": 255.61,
-      "current_price": 248.8,
+      "current_price": 247.925,
       "cost_basis": 9999.99,
-      "market_value": 9733.568765,
-      "unrealized_pl": -266.421235,
-      "unrealized_plpc": -2.664
+      "market_value": 9699.336962,
+      "unrealized_pl": -300.653038,
+      "unrealized_plpc": -3.007
     },
     {
       "symbol": "AKAM",
       "name": "Akamai Technologies",
       "qty": 88.884806973,
       "avg_entry_price": 112.505054,
-      "current_price": 111.345,
+      "current_price": 111.565,
       "cost_basis": 9999.990008,
-      "market_value": 9896.878832,
-      "unrealized_pl": -103.111176,
-      "unrealized_plpc": -1.031
+      "market_value": 9916.43349,
+      "unrealized_pl": -83.556518,
+      "unrealized_plpc": -0.836
     },
     {
       "symbol": "AMT",
       "name": "American Tower",
       "qty": 61.281958573,
       "avg_entry_price": 163.18,
-      "current_price": 173.36,
+      "current_price": 172.36,
       "cost_basis": 9999.99,
-      "market_value": 10623.840338,
-      "unrealized_pl": 623.850338,
-      "unrealized_plpc": 6.239
+      "market_value": 10562.55838,
+      "unrealized_pl": 562.56838,
+      "unrealized_plpc": 5.6259999999999994
     },
     {
       "symbol": "ARE",
       "name": "Alexandria Real Estate Equities",
       "qty": 199.084013537,
       "avg_entry_price": 50.23,
-      "current_price": 49.885,
+      "current_price": 49.89,
       "cost_basis": 9999.99,
-      "market_value": 9931.306015,
-      "unrealized_pl": -68.683985,
-      "unrealized_plpc": -0.687
+      "market_value": 9932.301435,
+      "unrealized_pl": -67.688565,
+      "unrealized_plpc": -0.677
     },
     {
       "symbol": "AXON",
       "name": "Axon Enterprise",
       "qty": 17.903802771,
       "avg_entry_price": 558.54,
-      "current_price": 563.01,
+      "current_price": 565.18,
       "cost_basis": 9999.99,
-      "market_value": 10080.019998,
-      "unrealized_pl": 80.029998,
-      "unrealized_plpc": 0.8
+      "market_value": 10118.87125,
+      "unrealized_pl": 118.88125,
+      "unrealized_plpc": 1.189
     },
     {
       "symbol": "BG",
       "name": "Bunge Global",
       "qty": 92.387195121,
       "avg_entry_price": 108.24,
-      "current_price": 109.7275,
+      "current_price": 108.735,
       "cost_basis": 9999.99,
-      "market_value": 10137.415953,
-      "unrealized_pl": 137.425953,
-      "unrealized_plpc": 1.374
+      "market_value": 10045.721661,
+      "unrealized_pl": 45.731661,
+      "unrealized_plpc": 0.457
     },
     {
       "symbol": "CARR",
       "name": "Carrier Global",
       "qty": 157.428144183,
       "avg_entry_price": 63.52098,
-      "current_price": 64.465,
+      "current_price": 63.93,
       "cost_basis": 9999.989998,
-      "market_value": 10148.605315,
-      "unrealized_pl": 148.615317,
-      "unrealized_plpc": 1.486
+      "market_value": 10064.381258,
+      "unrealized_pl": 64.39126,
+      "unrealized_plpc": 0.644
     },
     {
       "symbol": "CDW",
       "name": "CDW Corporation",
       "qty": 75.665783898,
       "avg_entry_price": 132.16,
-      "current_price": 137.4575,
+      "current_price": 136.705,
       "cost_basis": 9999.99,
-      "market_value": 10400.82949,
-      "unrealized_pl": 400.83949,
-      "unrealized_plpc": 4.008
+      "market_value": 10343.890988,
+      "unrealized_pl": 343.900988,
+      "unrealized_plpc": 3.4389999999999996
     },
     {
       "symbol": "CF",
       "name": "CF Industries",
       "qty": 84.487918215,
       "avg_entry_price": 118.36,
-      "current_price": 115.17,
+      "current_price": 114.97,
       "cost_basis": 9999.99,
-      "market_value": 9730.473541,
-      "unrealized_pl": -269.516459,
-      "unrealized_plpc": -2.6950000000000003
+      "market_value": 9713.575957,
+      "unrealized_pl": -286.414043,
+      "unrealized_plpc": -2.864
     },
     {
       "symbol": "CHRW",
       "name": "C.H. Robinson",
       "qty": 67.376296995,
       "avg_entry_price": 148.42,
-      "current_price": 149.58,
+      "current_price": 149.87,
       "cost_basis": 9999.99,
-      "market_value": 10078.146505,
-      "unrealized_pl": 78.156505,
-      "unrealized_plpc": 0.782
+      "market_value": 10097.685631,
+      "unrealized_pl": 97.695631,
+      "unrealized_plpc": 0.9769999999999999
     },
     {
       "symbol": "CMI",
       "name": "Cummins",
       "qty": 16.185142024,
       "avg_entry_price": 617.85,
-      "current_price": 643.545,
+      "current_price": 646.425,
       "cost_basis": 9999.99,
-      "market_value": 10415.867224,
-      "unrealized_pl": 415.877224,
-      "unrealized_plpc": 4.159
+      "market_value": 10462.480433,
+      "unrealized_pl": 462.490433,
+      "unrealized_plpc": 4.625
     },
     {
       "symbol": "CTVA",
       "name": "Corteva",
       "qty": 123.593993325,
       "avg_entry_price": 80.91,
-      "current_price": 77.29,
+      "current_price": 77.025,
       "cost_basis": 9999.99,
-      "market_value": 9552.579744,
-      "unrealized_pl": -447.410256,
-      "unrealized_plpc": -4.474
+      "market_value": 9519.827336,
+      "unrealized_pl": -480.162664,
+      "unrealized_plpc": -4.802
     },
     {
       "symbol": "CVS",
       "name": "CVS Health",
       "qty": 101.545842217,
       "avg_entry_price": 98.477592,
-      "current_price": 95.58,
+      "current_price": 95.61,
       "cost_basis": 9999.990019,
-      "market_value": 9705.751599,
-      "unrealized_pl": -294.23842,
-      "unrealized_plpc": -2.942
+      "market_value": 9708.797974,
+      "unrealized_pl": -291.192045,
+      "unrealized_plpc": -2.912
     },
     {
       "symbol": "DDOG",
       "name": "Datadog",
       "qty": 41.593835787,
       "avg_entry_price": 240.42,
-      "current_price": 236.74,
+      "current_price": 236.79,
       "cost_basis": 9999.99,
-      "market_value": 9846.924684,
-      "unrealized_pl": -153.065316,
-      "unrealized_plpc": -1.5310000000000001
+      "market_value": 9849.004376,
+      "unrealized_pl": -150.985624,
+      "unrealized_plpc": -1.51
     },
     {
       "symbol": "DXCM",
       "name": "Dexcom",
       "qty": 121.153259025,
       "avg_entry_price": 82.54,
-      "current_price": 84.275,
+      "current_price": 84.63,
       "cost_basis": 9999.99,
-      "market_value": 10210.190904,
-      "unrealized_pl": 210.200904,
-      "unrealized_plpc": 2.102
+      "market_value": 10253.200311,
+      "unrealized_pl": 253.210311,
+      "unrealized_plpc": 2.532
     },
     {
       "symbol": "EFX",
       "name": "Equifax",
       "qty": 56.452466975,
       "avg_entry_price": 177.14,
-      "current_price": 182.35,
+      "current_price": 181.31,
       "cost_basis": 9999.99,
-      "market_value": 10294.107353,
-      "unrealized_pl": 294.117353,
-      "unrealized_plpc": 2.941
+      "market_value": 10235.396787,
+      "unrealized_pl": 235.406787,
+      "unrealized_plpc": 2.3539999999999996
     },
     {
       "symbol": "EG",
       "name": "Everest Group",
       "qty": 26.710801859,
       "avg_entry_price": 374.38,
-      "current_price": 373.32,
+      "current_price": 373.5,
       "cost_basis": 9999.99,
-      "market_value": 9971.67655,
-      "unrealized_pl": -28.31345,
-      "unrealized_plpc": -0.28300000000000003
+      "market_value": 9976.484494,
+      "unrealized_pl": -23.505506,
+      "unrealized_plpc": -0.23500000000000001
     },
     {
       "symbol": "EOG",
       "name": "EOG Resources",
       "qty": 74.106936416,
       "avg_entry_price": 134.94,
-      "current_price": 135.625,
+      "current_price": 134.95,
       "cost_basis": 9999.99,
-      "market_value": 10050.753251,
-      "unrealized_pl": 50.763251,
-      "unrealized_plpc": 0.508
+      "market_value": 10000.731069,
+      "unrealized_pl": 0.741069,
+      "unrealized_plpc": 0.006999999999999999
     },
     {
       "symbol": "ESS",
       "name": "Essex Property Trust",
       "qty": 35.559312993,
       "avg_entry_price": 281.22,
-      "current_price": 287.51,
+      "current_price": 287.1,
       "cost_basis": 9999.99,
-      "market_value": 10223.658079,
-      "unrealized_pl": 223.668079,
-      "unrealized_plpc": 2.237
+      "market_value": 10209.07876,
+      "unrealized_pl": 209.08876,
+      "unrealized_plpc": 2.091
     },
     {
       "symbol": "FTV",
       "name": "Fortive",
       "qty": 166.167996011,
       "avg_entry_price": 60.18,
-      "current_price": 61.955,
+      "current_price": 61.79,
       "cost_basis": 9999.99,
-      "market_value": 10294.938193,
-      "unrealized_pl": 294.948193,
-      "unrealized_plpc": 2.949
+      "market_value": 10267.520474,
+      "unrealized_pl": 267.530474,
+      "unrealized_plpc": 2.675
     },
     {
       "symbol": "GEV",
       "name": "GE Vernova",
       "qty": 9.910007135,
       "avg_entry_price": 1009.08,
-      "current_price": 987.0,
+      "current_price": 992.4299,
       "cost_basis": 9999.99,
-      "market_value": 9781.177042,
-      "unrealized_pl": -218.812958,
-      "unrealized_plpc": -2.188
+      "market_value": 9834.98739,
+      "unrealized_pl": -165.00261,
+      "unrealized_plpc": -1.6500000000000001
     },
     {
       "symbol": "GWW",
       "name": "W. W. Grainger",
       "qty": 7.785183224,
       "avg_entry_price": 1284.49,
-      "current_price": 1280.0,
+      "current_price": 1281.42,
       "cost_basis": 9999.989999,
-      "market_value": 9965.034527,
-      "unrealized_pl": -34.955472,
-      "unrealized_plpc": -0.35000000000000003
+      "market_value": 9976.089487,
+      "unrealized_pl": -23.900512,
+      "unrealized_plpc": -0.23900000000000002
     },
     {
       "symbol": "HAL",
       "name": "Halliburton",
       "qty": 305.997246022,
       "avg_entry_price": 32.68,
-      "current_price": 32.135,
+      "current_price": 31.955,
       "cost_basis": 9999.99,
-      "market_value": 9833.221501,
-      "unrealized_pl": -166.768499,
-      "unrealized_plpc": -1.6680000000000001
+      "market_value": 9778.141997,
+      "unrealized_pl": -221.848003,
+      "unrealized_plpc": -2.218
     },
     {
       "symbol": "HST",
       "name": "Host Hotels & Resorts",
       "qty": 423.548919949,
       "avg_entry_price": 23.61,
-      "current_price": 23.465,
+      "current_price": 23.395,
       "cost_basis": 9999.99,
-      "market_value": 9938.575407,
-      "unrealized_pl": -61.414593,
-      "unrealized_plpc": -0.614
+      "market_value": 9908.926982,
+      "unrealized_pl": -91.063018,
+      "unrealized_plpc": -0.911
     },
     {
       "symbol": "LII",
       "name": "Lennox International",
       "qty": 22.83884892,
       "avg_entry_price": 437.85,
-      "current_price": 441.47,
+      "current_price": 440.86,
       "cost_basis": 9999.99,
-      "market_value": 10082.666633,
-      "unrealized_pl": 82.676633,
-      "unrealized_plpc": 0.827
+      "market_value": 10068.734935,
+      "unrealized_pl": 68.744935,
+      "unrealized_plpc": 0.687
     },
     {
       "symbol": "LIN",
       "name": "Linde plc",
       "qty": 20.848949211,
       "avg_entry_price": 479.64,
-      "current_price": 490.58,
+      "current_price": 488.935,
       "cost_basis": 9999.99,
-      "market_value": 10228.077504,
-      "unrealized_pl": 228.087504,
-      "unrealized_plpc": 2.281
+      "market_value": 10193.780982,
+      "unrealized_pl": 193.790982,
+      "unrealized_plpc": 1.9380000000000002
     },
     {
       "symbol": "MAR",
       "name": "Marriott International",
       "qty": 28.865831481,
       "avg_entry_price": 346.43,
-      "current_price": 356.245,
+      "current_price": 355.32,
       "cost_basis": 9999.99,
-      "market_value": 10283.308136,
-      "unrealized_pl": 283.318136,
-      "unrealized_plpc": 2.833
+      "market_value": 10256.607242,
+      "unrealized_pl": 256.617242,
+      "unrealized_plpc": 2.566
     },
     {
       "symbol": "MCHP",
       "name": "Microchip Technology",
       "qty": 123.946331184,
       "avg_entry_price": 80.68,
-      "current_price": 85.6,
+      "current_price": 85.41,
       "cost_basis": 9999.99,
-      "market_value": 10609.805949,
-      "unrealized_pl": 609.815949,
-      "unrealized_plpc": 6.098
+      "market_value": 10586.256146,
+      "unrealized_pl": 586.266146,
+      "unrealized_plpc": 5.863
     },
     {
       "symbol": "MO",
       "name": "Altria",
       "qty": 144.216758004,
       "avg_entry_price": 69.34,
-      "current_price": 68.45,
+      "current_price": 68.41,
       "cost_basis": 9999.99,
-      "market_value": 9871.637085,
-      "unrealized_pl": -128.352915,
-      "unrealized_plpc": -1.284
+      "market_value": 9865.868415,
+      "unrealized_pl": -134.121585,
+      "unrealized_plpc": -1.341
     },
     {
       "symbol": "MPWR",
       "name": "Monolithic Power Systems",
       "qty": 7.508683801,
       "avg_entry_price": 1331.79,
-      "current_price": 1403.28,
+      "current_price": 1401.33,
       "cost_basis": 9999.989999,
-      "market_value": 10536.785804,
-      "unrealized_pl": 536.795805,
-      "unrealized_plpc": 5.367999999999999
+      "market_value": 10522.143871,
+      "unrealized_pl": 522.153872,
+      "unrealized_plpc": 5.222
     },
     {
       "symbol": "MSCI",
       "name": "MSCI Inc.",
       "qty": 18.023520718,
       "avg_entry_price": 554.83,
-      "current_price": 564.01,
+      "current_price": 561.33,
       "cost_basis": 9999.99,
-      "market_value": 10165.44592,
-      "unrealized_pl": 165.45592,
-      "unrealized_plpc": 1.6549999999999998
+      "market_value": 10117.142885,
+      "unrealized_pl": 117.152885,
+      "unrealized_plpc": 1.172
     },
     {
       "symbol": "NRG",
       "name": "NRG Energy",
       "qty": 82.331549481,
       "avg_entry_price": 121.46,
-      "current_price": 121.49,
+      "current_price": 120.05,
       "cost_basis": 9999.99,
-      "market_value": 10002.459946,
-      "unrealized_pl": 2.469946,
-      "unrealized_plpc": 0.025
+      "market_value": 9883.902515,
+      "unrealized_pl": -116.087485,
+      "unrealized_plpc": -1.161
     },
     {
       "symbol": "PPG",
       "name": "PPG Industries",
       "qty": 88.983715963,
       "avg_entry_price": 112.38,
-      "current_price": 119.67,
+      "current_price": 119.605,
       "cost_basis": 9999.99,
-      "market_value": 10648.681289,
-      "unrealized_pl": 648.691289,
-      "unrealized_plpc": 6.487
+      "market_value": 10642.897348,
+      "unrealized_pl": 642.907348,
+      "unrealized_plpc": 6.429
     },
     {
       "symbol": "RMD",
       "name": "ResMed",
       "qty": 47.171989244,
       "avg_entry_price": 211.99,
-      "current_price": 208.17,
+      "current_price": 208.87,
       "cost_basis": 9999.99,
-      "market_value": 9819.793001,
-      "unrealized_pl": -180.196999,
-      "unrealized_plpc": -1.802
+      "market_value": 9852.813393,
+      "unrealized_pl": -147.176607,
+      "unrealized_plpc": -1.472
     },
     {
       "symbol": "ROK",
       "name": "Rockwell Automation",
       "qty": 22.282610633,
       "avg_entry_price": 448.78,
-      "current_price": 442.89,
+      "current_price": 442.81,
       "cost_basis": 9999.99,
-      "market_value": 9868.745423,
-      "unrealized_pl": -131.244577,
-      "unrealized_plpc": -1.312
+      "market_value": 9866.962814,
+      "unrealized_pl": -133.027186,
+      "unrealized_plpc": -1.3299999999999998
     },
     {
       "symbol": "SBAC",
       "name": "SBA Communications",
       "qty": 56.347495351,
       "avg_entry_price": 177.47,
-      "current_price": 183.525,
+      "current_price": 182.82,
       "cost_basis": 9999.99,
-      "market_value": 10341.174084,
-      "unrealized_pl": 341.184084,
-      "unrealized_plpc": 3.412
-    },
-    {
-      "symbol": "STX",
-      "name": "Seagate Technology",
-      "qty": 13.062944096,
-      "avg_entry_price": 765.523448,
-      "current_price": 807.44,
-      "cost_basis": 9999.990005,
-      "market_value": 10547.543581,
-      "unrealized_pl": 547.553576,
-      "unrealized_plpc": 5.476
+      "market_value": 10301.4491,
+      "unrealized_pl": 301.4591,
+      "unrealized_plpc": 3.015
     },
     {
       "symbol": "SW",
       "name": "Smurfit Westrock",
       "qty": 209.995590088,
       "avg_entry_price": 47.62,
-      "current_price": 48.11,
+      "current_price": 48.19,
       "cost_basis": 9999.99,
-      "market_value": 10102.887839,
-      "unrealized_pl": 102.897839,
-      "unrealized_plpc": 1.0290000000000001
+      "market_value": 10119.687486,
+      "unrealized_pl": 119.697486,
+      "unrealized_plpc": 1.197
     },
     {
       "symbol": "SYK",
       "name": "Stryker Corporation",
       "qty": 30.805218409,
       "avg_entry_price": 324.62,
-      "current_price": 338.055,
+      "current_price": 337.78,
       "cost_basis": 9999.99,
-      "market_value": 10413.858109,
-      "unrealized_pl": 413.868109,
-      "unrealized_plpc": 4.139
+      "market_value": 10405.386674,
+      "unrealized_pl": 405.396674,
+      "unrealized_plpc": 4.054
     },
     {
       "symbol": "TPL",
       "name": "Texas Pacific Land Corporation",
       "qty": 28.651624548,
       "avg_entry_price": 349.02,
-      "current_price": 352.02,
+      "current_price": 348.6351,
       "cost_basis": 9999.99,
-      "market_value": 10085.944873,
-      "unrealized_pl": 85.954873,
-      "unrealized_plpc": 0.86
+      "market_value": 9988.961989,
+      "unrealized_pl": -11.028011,
+      "unrealized_plpc": -0.11
     },
     {
       "symbol": "TXT",
       "name": "Textron",
       "qty": 111.346063912,
       "avg_entry_price": 89.81,
-      "current_price": 89.32,
+      "current_price": 89.19,
       "cost_basis": 9999.99,
-      "market_value": 9945.430429,
-      "unrealized_pl": -54.559571,
-      "unrealized_plpc": -0.5459999999999999
+      "market_value": 9930.95544,
+      "unrealized_pl": -69.03456,
+      "unrealized_plpc": -0.69
     },
     {
       "symbol": "UPS",
       "name": "United Parcel Service",
       "qty": 94.070897978,
       "avg_entry_price": 106.302695,
-      "current_price": 104.765,
+      "current_price": 104.945,
       "cost_basis": 9999.989976,
-      "market_value": 9855.337627,
-      "unrealized_pl": -144.652349,
-      "unrealized_plpc": -1.447
+      "market_value": 9872.270388,
+      "unrealized_pl": -127.719588,
+      "unrealized_plpc": -1.277
     },
     {
       "symbol": "VST",
       "name": "Vistra Corp.",
       "qty": 67.249428379,
       "avg_entry_price": 148.7,
-      "current_price": 141.55,
+      "current_price": 141.6958,
       "cost_basis": 9999.99,
-      "market_value": 9519.156587,
-      "unrealized_pl": -480.833413,
-      "unrealized_plpc": -4.808
+      "market_value": 9528.961554,
+      "unrealized_pl": -471.028446,
+      "unrealized_plpc": -4.71
     },
     {
       "symbol": "WST",
       "name": "West Pharmaceutical Services",
       "qty": 29.688537244,
       "avg_entry_price": 336.83,
-      "current_price": 354.49,
+      "current_price": 354.66,
       "cost_basis": 9999.99,
-      "market_value": 10524.289568,
-      "unrealized_pl": 524.299568,
-      "unrealized_plpc": 5.242999999999999
+      "market_value": 10529.336619,
+      "unrealized_pl": 529.346619,
+      "unrealized_plpc": 5.293
     },
     {
       "symbol": "XYZ",
       "name": "Block, Inc.",
       "qty": 125.596458176,
       "avg_entry_price": 79.62,
-      "current_price": 78.815,
+      "current_price": 78.82,
       "cost_basis": 9999.99,
-      "market_value": 9898.884851,
-      "unrealized_pl": -101.105149,
-      "unrealized_plpc": -1.011
+      "market_value": 9899.512833,
+      "unrealized_pl": -100.477167,
+      "unrealized_plpc": -1.005
     }
   ]
 }

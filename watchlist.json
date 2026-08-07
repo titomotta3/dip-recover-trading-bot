@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-08-07T18:02:15+00:00",
+  "updated_utc": "2026-08-07T19:10:51+00:00",
   "drop_threshold_pct": -5.0,
   "high_conviction_pct": -8.0,
   "stocks": [
@@ -7,7 +7,7 @@
       "symbol": "TTD",
       "name": "Trade Desk (The)",
       "sector": "Communication Services",
-      "pct_change": -21.873230076005736,
+      "pct_change": -21.76004669172162,
       "conviction": "high",
       "status": "blocked_news",
       "news_bad": true
@@ -16,43 +16,16 @@
       "symbol": "ZTS",
       "name": "Zoetis",
       "sector": "Health Care",
-      "pct_change": -5.771967488331528,
+      "pct_change": -6.0630239161337265,
       "conviction": "buy_signal",
       "status": "blocked_news",
       "news_bad": true
     },
     {
-      "symbol": "MNST",
-      "name": "Monster Beverage",
-      "sector": "Consumer Staples",
-      "pct_change": -4.386156247012172,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "WDC",
-      "name": "Western Digital",
-      "sector": "Information Technology",
-      "pct_change": -4.283309002584383,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "FISV",
-      "name": "Fiserv",
-      "sector": "Financials",
-      "pct_change": -3.973390319030228,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
       "symbol": "NWS",
       "name": "News Corp (Class B)",
       "sector": "Communication Services",
-      "pct_change": -3.4839100749570577,
+      "pct_change": -4.310596783332735,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
@@ -61,7 +34,52 @@
       "symbol": "NWSA",
       "name": "News Corp (Class A)",
       "sector": "Communication Services",
-      "pct_change": -3.218739202057134,
+      "pct_change": -4.229858973843867,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "TRGP",
+      "name": "Targa Resources",
+      "sector": "Energy",
+      "pct_change": -4.1121419406939825,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "MNST",
+      "name": "Monster Beverage",
+      "sector": "Consumer Staples",
+      "pct_change": -3.9878979787290936,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "FISV",
+      "name": "Fiserv",
+      "sector": "Financials",
+      "pct_change": -3.9641479090157703,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "STX",
+      "name": "Seagate Technology",
+      "sector": "Information Technology",
+      "pct_change": -3.8630648614181036,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "WDC",
+      "name": "Western Digital",
+      "sector": "Information Technology",
+      "pct_change": -3.335399965678538,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
