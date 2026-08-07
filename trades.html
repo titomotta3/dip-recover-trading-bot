@@ -228,6 +228,18 @@ function money(n) {
   const sign = n < 0 ? '-' : '';
   return sign + '$' + Math.abs(n).toLocaleString('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2 });
 }
+function formatDuration(ms) {
+  if (ms === null || ms === undefined || isNaN(ms) || ms < 0) return '–';
+  const totalMinutes = Math.round(ms / 60000);
+  const days = Math.floor(totalMinutes / 1440);
+  const hours = Math.floor((totalMinutes % 1440) / 60);
+  const minutes = totalMinutes % 60;
+  const parts = [];
+  if (days) parts.push(days + 'd');
+  if (hours) parts.push(hours + 'h');
+  if (!days && minutes) parts.push(minutes + 'm');
+  return parts.length ? parts.join(' ') : '0m';
+}
 async function fetchNoCache(path) {
   const res = await fetch(path + "?t=" + Date.now(), { cache: "no-store" });
   if (!res.ok) throw new Error(path + " returned " + res.status);
@@ -279,16 +291,20 @@ function computePnl() {
       const m = r.detail.match(/notional=\$([\d.,]+)/);
       const notional = m ? parseFloat(m[1].replace(/,/g, '')) : null;
       if (!queues[key]) queues[key] = [];
-      queues[key].push(notional);
+      queues[key].push({ notional, timestamp: r.timestamp_utc });
       r.pnl = null;
+      r.heldMs = null;
     } else if (r.action === 'SELL') {
       const gm = r.detail.match(/gain=(-?[\d.]+)%/);
       const gainPct = gm ? parseFloat(gm[1]) : null;
       const q = queues[key];
-      const notional = q && q.length ? q.shift() : null;
-      r.pnl = (notional != null && gainPct != null) ? (notional * gainPct) / 100 : null;
+      const match = q && q.length ? q.shift() : null;
+      const notional = match ? match.notional : null;
+      r.pnl = (notional !== null && gainPct !== null) ? (notional * gainPct) / 100 : null;
+      r.heldMs = (match && match.timestamp) ? (new Date(r.timestamp_utc) - new Date(match.timestamp)) : null;
     } else {
       r.pnl = null;
+      r.heldMs = null;
     }
   });
 }
@@ -363,6 +379,7 @@ function renderTable() {
             <th data-key="action">Action${arrow("action")}</th>
             <th data-key="symbol">Symbol${arrow("symbol")}</th>
                         <th data-key="pnl">P&amp;L ($)${arrow('pnl')}</th>
+<th data-key="heldMs">Held${arrow('heldMs')}</th>
 <th>Detail</th>
           </tr>
         </thead>
@@ -374,6 +391,7 @@ function renderTable() {
               <td class="${r.action === "BUY" ? "buy" : "sell"}">${r.action}</td>
               <td>${tickerCell(r.symbol)}</td>
                             <td class="${r.pnl == null ? '' : (r.pnl >= 0 ? 'pos' : 'neg')}">${money(r.pnl)}</td>
+<td>${formatDuration(r.heldMs)}</td>
 <td>${escapeHtml(r.detail)}</td>
             </tr>`).join("")}
         </tbody>
