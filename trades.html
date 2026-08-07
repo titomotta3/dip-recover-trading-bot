@@ -88,6 +88,8 @@ button:active { transform: translateY(1px); }
 }
 .summary-bar .label { font-size: 11px; color: var(--muted); margin-bottom: 6px; text-transform: uppercase; letter-spacing: 0.04em; font-weight: 600; }
 .summary-bar .value { font-size: 20px; font-weight: 700; }
+.section-title { font-size: 15px; font-weight: 700; margin: 24px 0 10px; color: var(--text); }
+#conviction-wrap table { margin-bottom: 20px; }
 .filters {
   display: flex;
   flex-wrap: wrap;
@@ -194,6 +196,8 @@ footer a { color: var(--accent); font-weight: 600; }
       <option value="SELL">Sell only</option>
     </select>
   </div>
+  <div class="section-title">By Conviction</div>
+  <div id="conviction-wrap"><div class="empty">Loading…</div></div>
   <div id="trades-wrap"><div class="empty">Loading trade history…</div></div>
   <div class="count-note" id="count-note"></div>
   <footer>
@@ -282,6 +286,12 @@ async function loadAllTrades() {
   }));
   allRows = results.flat();
 }
+function convictionGroup(detail) {
+  if (/conviction=HIGH/.test(detail)) return 'High Conviction';
+  if (/news=clear/.test(detail)) return 'Clear News';
+  if (/news=none/.test(detail)) return 'No News Signal';
+  return 'Untagged';
+}
 function computePnl() {
   const queues = {};
   const sorted = [...allRows].sort((a, b) => new Date(a.timestamp_utc) - new Date(b.timestamp_utc));
@@ -290,10 +300,12 @@ function computePnl() {
     if (r.action === 'BUY') {
       const m = r.detail.match(/notional=\$([\d.,]+)/);
       const notional = m ? parseFloat(m[1].replace(/,/g, '')) : null;
+      const conv = convictionGroup(r.detail);
       if (!queues[key]) queues[key] = [];
-      queues[key].push({ notional, timestamp: r.timestamp_utc });
+      queues[key].push({ notional, timestamp: r.timestamp_utc, conviction: conv });
       r.pnl = null;
       r.heldMs = null;
+      r.convictionGroup = conv;
     } else if (r.action === 'SELL') {
       const gm = r.detail.match(/gain=(-?[\d.]+)%/);
       const gainPct = gm ? parseFloat(gm[1]) : null;
@@ -302,9 +314,11 @@ function computePnl() {
       const notional = match ? match.notional : null;
       r.pnl = (notional !== null && gainPct !== null) ? (notional * gainPct) / 100 : null;
       r.heldMs = (match && match.timestamp) ? (new Date(r.timestamp_utc) - new Date(match.timestamp)) : null;
+      r.convictionGroup = match ? match.conviction : null;
     } else {
       r.pnl = null;
       r.heldMs = null;
+      r.convictionGroup = null;
     }
   });
 }
@@ -351,6 +365,47 @@ function sortRows(rows) {
     return 0;
   });
 }
+function renderConviction(rows = allRows) {
+  const wrap = document.getElementById('conviction-wrap');
+  if (!wrap) return;
+  const groups = {};
+  rows.filter((r) => r.action === 'SELL' && r.convictionGroup).forEach((r) => {
+    const g = r.convictionGroup;
+    if (!groups[g]) groups[g] = { count: 0, wins: 0, pnlSum: 0, pnlCount: 0 };
+    groups[g].count++;
+    if (r.pnl !== null) {
+      groups[g].pnlSum += r.pnl;
+      groups[g].pnlCount++;
+      if (r.pnl > 0) groups[g].wins++;
+    }
+  });
+  const order = ['High Conviction', 'Clear News', 'No News Signal', 'Untagged'];
+  const keys = order.filter((k) => groups[k]).concat(Object.keys(groups).filter((k) => !order.includes(k)));
+  if (!keys.length) {
+    wrap.innerHTML = '<div class="empty">No conviction data available for the current filter.</div>';
+    return;
+  }
+  wrap.innerHTML = `
+    <table>
+      <thead>
+        <tr><th>Conviction</th><th>Trades</th><th>Win Rate</th><th>Avg P&amp;L</th><th>Total P&amp;L</th></tr>
+      </thead>
+      <tbody>
+        ${keys.map((k) => {
+          const g = groups[k];
+          const winRate = g.count ? ((g.wins / g.count) * 100).toFixed(0) + '%' : '–';
+          const avg = g.pnlCount ? g.pnlSum / g.pnlCount : null;
+          return `<tr>
+            <td>${k}</td>
+            <td>${g.count}</td>
+            <td>${winRate}</td>
+            <td class="${avg == null ? '' : (avg >= 0 ? 'pos' : 'neg')}">${money(avg)}</td>
+            <td class="${g.pnlSum >= 0 ? 'pos' : 'neg'}">${money(g.pnlSum)}</td>
+          </tr>`;
+        }).join('')}
+      </tbody>
+    </table>`;
+}
 function renderTable() {
   let rows = allRows;
   if (portfolioFilter !== "all") rows = rows.filter((r) => r.portfolioId === portfolioFilter);
@@ -360,6 +415,7 @@ function renderTable() {
     rows = rows.filter((r) => r.symbol.toUpperCase().includes(q));
   }
   renderSummary(rows);
+  renderConviction(rows);
   rows = sortRows(rows);
   const wrap = document.getElementById("trades-wrap");
   const countNote = document.getElementById("count-note");
