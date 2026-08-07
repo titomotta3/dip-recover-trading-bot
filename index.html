@@ -310,6 +310,11 @@
 
   <div id="portfolios"></div>
 
+  <section class="block" style="margin: 0 0 22px;">
+    <h3>By Conviction</h3>
+    <div id="conviction-wrap"><div class="empty">Loading&hellip;</div></div>
+  </section>
+
   <footer>
     Both portfolios started with $500,000 and buy S&amp;P 500 stocks that drop
     vs. the previous close. Portfolio 1 runs fixed rules: buy on a 5%+ drop,
@@ -373,6 +378,7 @@
   const shellBuilt = { p1: false, p2: false };
   let activeTab = "p1";
   let benchmarkPoints = [];
+  let allRows = [];
 
   function setActiveTab(id) {
     activeTab = id;
@@ -792,12 +798,106 @@
     }
   }
 
+  async function loadAllTrades() {
+    const results = await Promise.all(PORTFOLIOS.map(async (cfg) => {
+      try {
+        const res = await fetchNoCache(cfg.tradeLog);
+        const text = await res.text();
+        const lines = text.trim().split('\n').filter(Boolean);
+        if (lines.length <= 1) return [];
+        return lines.slice(1).map((line) => {
+          const [timestamp_utc, action, symbol, ...rest] = line.split(',');
+          return { timestamp_utc, action, symbol, detail: rest.join(','), portfolioId: cfg.id };
+        });
+      } catch (err) {
+        return [];
+      }
+    }));
+    allRows = results.flat();
+  }
+  function convictionGroup(detail) {
+    if (/conviction=HIGH/.test(detail)) return 'High Conviction';
+    if (/news=clear/.test(detail)) return 'Clear News';
+    if (/news=none/.test(detail)) return 'No News Signal';
+    return 'Untagged';
+  }
+  function computePnl() {
+    const queues = {};
+    const sorted = [...allRows].sort((a, b) => new Date(a.timestamp_utc) - new Date(b.timestamp_utc));
+    sorted.forEach((r) => {
+      const key = r.portfolioId + '|' + r.symbol;
+      if (r.action === 'BUY') {
+        const m = r.detail.match(/notional=\$([\d.,]+)/);
+        const notional = m ? parseFloat(m[1].replace(/,/g, '')) : null;
+        const conv = convictionGroup(r.detail);
+        if (!queues[key]) queues[key] = [];
+        queues[key].push({ notional, conviction: conv });
+        r.pnl = null;
+        r.convictionGroup = conv;
+      } else if (r.action === 'SELL') {
+        const gm = r.detail.match(/gain=(-?[\d.]+)%/);
+        const gainPct = gm ? parseFloat(gm[1]) : null;
+        const q = queues[key];
+        const match = q && q.length ? q.shift() : null;
+        const notional = match ? match.notional : null;
+        r.pnl = (notional !== null && gainPct !== null) ? (notional * gainPct) / 100 : null;
+        r.convictionGroup = match ? match.conviction : null;
+      } else {
+        r.pnl = null;
+        r.convictionGroup = null;
+      }
+    });
+  }
+  function renderConviction() {
+    const wrap = document.getElementById('conviction-wrap');
+    if (!wrap) return;
+    const groups = {};
+    allRows.filter((r) => r.action === 'SELL' && r.convictionGroup).forEach((r) => {
+      const g = r.convictionGroup;
+      if (!groups[g]) groups[g] = { count: 0, wins: 0, pnlSum: 0, pnlCount: 0 };
+      groups[g].count++;
+      if (r.pnl !== null) {
+        groups[g].pnlSum += r.pnl;
+        groups[g].pnlCount++;
+        if (r.pnl > 0) groups[g].wins++;
+      }
+    });
+    const order = ['High Conviction', 'Clear News', 'No News Signal', 'Untagged'];
+    const keys = order.filter((k) => groups[k]).concat(Object.keys(groups).filter((k) => !order.includes(k)));
+    if (!keys.length) {
+      wrap.innerHTML = '<div class="empty">No conviction data available yet.</div>';
+      return;
+    }
+    wrap.innerHTML = `
+      <div class="table-scroll">
+      <table>
+        <thead><tr><th>Conviction</th><th>Trades</th><th>Win Rate</th><th>Avg P&amp;L</th><th>Total P&amp;L</th></tr></thead>
+        <tbody>
+          ${keys.map((k) => {
+            const g = groups[k];
+            const winRate = g.count ? ((g.wins / g.count) * 100).toFixed(0) + '%' : '–';
+            const avg = g.pnlCount ? g.pnlSum / g.pnlCount : null;
+            return `<tr>
+              <td>${k}</td>
+              <td>${g.count}</td>
+              <td>${winRate}</td>
+              <td class="${avg == null ? '' : (avg >= 0 ? 'pos' : 'neg')}">${money(avg)}</td>
+              <td class="${g.pnlSum >= 0 ? 'pos' : 'neg'}">${money(g.pnlSum)}</td>
+            </tr>`;
+          }).join('')}
+        </tbody>
+      </table>
+      </div>`;
+  }
   async function loadAll() {
     if (!shellBuilt.p1 || !shellBuilt.p2) {
       renderShell();
     }
     await loadCompanies();
     await loadBenchmark();
+    await loadAllTrades();
+    computePnl();
+    renderConviction();
     for (const cfg of PORTFOLIOS) {
       loadSnapshot(cfg);
       loadHistory(cfg);
