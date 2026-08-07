@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-08-07T15:13:50+00:00",
+  "updated_utc": "2026-08-07T16:12:36+00:00",
   "drop_threshold_pct": -8.0,
   "high_conviction_pct": -11.0,
   "stocks": [
@@ -7,10 +7,19 @@
       "symbol": "TTD",
       "name": "Trade Desk (The)",
       "sector": "Communication Services",
-      "pct_change": -19.863611080497346,
+      "pct_change": -21.19411357888657,
       "conviction": "high",
       "status": "blocked_news",
       "news_bad": true
+    },
+    {
+      "symbol": "RMD",
+      "name": "ResMed",
+      "sector": "Health Care",
+      "pct_change": -7.215601202357552,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
     }
   ]
 }
