@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-08-07T14:14:44+00:00",
+  "updated_utc": "2026-08-07T15:12:50+00:00",
   "drop_threshold_pct": -5.0,
   "high_conviction_pct": -8.0,
   "stocks": [
@@ -7,17 +7,17 @@
       "symbol": "TTD",
       "name": "Trade Desk (The)",
       "sector": "Communication Services",
-      "pct_change": -20.07017574916865,
+      "pct_change": -19.666102809652976,
       "conviction": "high",
       "status": "blocked_news",
       "news_bad": true
     },
     {
-      "symbol": "STX",
-      "name": "Seagate Technology",
+      "symbol": "AKAM",
+      "name": "Akamai Technologies",
       "sector": "Information Technology",
-      "pct_change": -10.154755729501236,
-      "conviction": "high",
+      "pct_change": -5.17081798820047,
+      "conviction": "buy_signal",
       "status": "bought",
       "news_bad": false
     },
@@ -25,34 +25,7 @@
       "symbol": "WDC",
       "name": "Western Digital",
       "sector": "Information Technology",
-      "pct_change": -5.501416757240946,
-      "conviction": "buy_signal",
-      "status": "blocked_news",
-      "news_bad": true
-    },
-    {
-      "symbol": "RMD",
-      "name": "ResMed",
-      "sector": "Health Care",
-      "pct_change": -5.2633935275368025,
-      "conviction": "buy_signal",
-      "status": "bought",
-      "news_bad": false
-    },
-    {
-      "symbol": "SNDK",
-      "name": "Sandisk",
-      "sector": "Information Technology",
-      "pct_change": -5.052516966792487,
-      "conviction": "buy_signal",
-      "status": "blocked_news",
-      "news_bad": true
-    },
-    {
-      "symbol": "DELL",
-      "name": "Dell Technologies",
-      "sector": "Information Technology",
-      "pct_change": -3.844392076795658,
+      "pct_change": -4.38296830901644,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
@@ -61,52 +34,34 @@
       "symbol": "FISV",
       "name": "Fiserv",
       "sector": "Financials",
-      "pct_change": -3.7885773682071813,
+      "pct_change": -4.232121400289271,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
     },
     {
-      "symbol": "MU",
-      "name": "Micron Technology",
-      "sector": "Information Technology",
-      "pct_change": -3.3693661904539014,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "AKAM",
-      "name": "Akamai Technologies",
-      "sector": "Information Technology",
-      "pct_change": -3.331931232352802,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "LYB",
-      "name": "LyondellBasell",
-      "sector": "Materials",
-      "pct_change": -3.3040345453627675,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "VLO",
-      "name": "Valero Energy",
-      "sector": "Energy",
-      "pct_change": -3.2402076633681074,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "CHTR",
-      "name": "Charter Communications",
+      "symbol": "NWS",
+      "name": "News Corp (Class B)",
       "sector": "Communication Services",
-      "pct_change": -3.213921163699745,
+      "pct_change": -3.6020001313238015,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "NWSA",
+      "name": "News Corp (Class A)",
+      "sector": "Communication Services",
+      "pct_change": -3.5389256297962954,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "MNST",
+      "name": "Monster Beverage",
+      "sector": "Consumer Staples",
+      "pct_change": -3.058628686068577,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
