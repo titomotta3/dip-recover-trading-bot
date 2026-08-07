@@ -247,3 +247,10 @@ timestamp_utc,action,symbol,detail
 2026-08-06T15:15:57+00:00,BUY,HST,drop=-6.07% notional=$10000.00 news=clear(2)
 2026-08-06T15:15:57+00:00,BUY,TPL,drop=-8.81% notional=$10000.00 news=clear(1)
 2026-08-06T15:15:57+00:00,BUY,TTD,drop=-5.67% notional=$10000.00 news=none
+2026-08-07T14:14:11+00:00,SELL,ADSK,gain=7.99% qty=42.903681139 reason=target_reached
+2026-08-07T14:14:12+00:00,SELL,CTSH,gain=8.97% qty=190.330985915 reason=target_reached
+2026-08-07T14:14:12+00:00,SELL,FDS,gain=7.87% qty=37.82144478 reason=target_reached
+2026-08-07T14:14:14+00:00,SELL,TTD,gain=-20.96% qty=558.970933482 reason=stop_loss
+2026-08-07T14:14:14+00:00,SELL,UBER,gain=9.59% qty=147.45057539 reason=target_reached
+2026-08-07T14:14:43+00:00,BUY,RMD,drop=-5.26% notional=$10000.00 news=clear(4)
+2026-08-07T14:14:44+00:00,BUY,STX,drop=-10.15% notional=$10000.00 news=clear(3)

@@ -1,31 +1,22 @@
 {
-  "updated_utc": "2026-08-06T15:15:57+00:00",
+  "updated_utc": "2026-08-07T14:14:44+00:00",
   "drop_threshold_pct": -5.0,
   "high_conviction_pct": -8.0,
   "stocks": [
     {
-      "symbol": "HONA",
-      "name": "Honeywell Aerospace",
-      "sector": "Industrials",
-      "pct_change": -21.280203714275803,
+      "symbol": "TTD",
+      "name": "Trade Desk (The)",
+      "sector": "Communication Services",
+      "pct_change": -20.07017574916865,
       "conviction": "high",
       "status": "blocked_news",
       "news_bad": true
     },
     {
-      "symbol": "APP",
-      "name": "AppLovin",
+      "symbol": "STX",
+      "name": "Seagate Technology",
       "sector": "Information Technology",
-      "pct_change": -19.907366218982986,
-      "conviction": "high",
-      "status": "blocked_news",
-      "news_bad": true
-    },
-    {
-      "symbol": "DDOG",
-      "name": "Datadog",
-      "sector": "Information Technology",
-      "pct_change": -15.213621420176821,
+      "pct_change": -10.154755729501236,
       "conviction": "high",
       "status": "bought",
       "news_bad": false
@@ -34,106 +25,88 @@
       "symbol": "WDC",
       "name": "Western Digital",
       "sector": "Information Technology",
-      "pct_change": -8.813371281087026,
-      "conviction": "high",
+      "pct_change": -5.501416757240946,
+      "conviction": "buy_signal",
       "status": "blocked_news",
       "news_bad": true
     },
     {
-      "symbol": "TPL",
-      "name": "Texas Pacific Land Corporation",
-      "sector": "Energy",
-      "pct_change": -8.807743096145233,
-      "conviction": "high",
-      "status": "bought",
-      "news_bad": false
-    },
-    {
-      "symbol": "AXON",
-      "name": "Axon Enterprise",
-      "sector": "Industrials",
-      "pct_change": -8.498085898053692,
-      "conviction": "high",
-      "status": "bought",
-      "news_bad": false
-    },
-    {
-      "symbol": "HST",
-      "name": "Host Hotels & Resorts",
-      "sector": "Real Estate",
-      "pct_change": -6.068442775402595,
+      "symbol": "RMD",
+      "name": "ResMed",
+      "sector": "Health Care",
+      "pct_change": -5.2633935275368025,
       "conviction": "buy_signal",
       "status": "bought",
       "news_bad": false
     },
     {
-      "symbol": "TTD",
-      "name": "Trade Desk (The)",
-      "sector": "Communication Services",
-      "pct_change": -5.6698254614959005,
+      "symbol": "SNDK",
+      "name": "Sandisk",
+      "sector": "Information Technology",
+      "pct_change": -5.052516966792487,
       "conviction": "buy_signal",
-      "status": "bought",
-      "news_bad": false
+      "status": "blocked_news",
+      "news_bad": true
     },
     {
-      "symbol": "XYZ",
-      "name": "Block, Inc.",
+      "symbol": "DELL",
+      "name": "Dell Technologies",
+      "sector": "Information Technology",
+      "pct_change": -3.844392076795658,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "FISV",
+      "name": "Fiserv",
       "sector": "Financials",
-      "pct_change": -5.403795234292191,
-      "conviction": "buy_signal",
-      "status": "bought",
-      "news_bad": false
+      "pct_change": -3.7885773682071813,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
     },
     {
-      "symbol": "FICO",
-      "name": "Fair Isaac",
+      "symbol": "MU",
+      "name": "Micron Technology",
       "sector": "Information Technology",
-      "pct_change": -4.445056787211957,
+      "pct_change": -3.3693661904539014,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
     },
     {
-      "symbol": "CNC",
-      "name": "Centene Corporation",
-      "sector": "Health Care",
-      "pct_change": -4.381247428253907,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "BBY",
-      "name": "Best Buy",
-      "sector": "Consumer Discretionary",
-      "pct_change": -4.177513348280326,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "CRM",
-      "name": "Salesforce",
+      "symbol": "AKAM",
+      "name": "Akamai Technologies",
       "sector": "Information Technology",
-      "pct_change": -4.104051375421963,
+      "pct_change": -3.331931232352802,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
     },
     {
-      "symbol": "SOLV",
-      "name": "Solventum",
-      "sector": "Health Care",
-      "pct_change": -4.0699639978410564,
+      "symbol": "LYB",
+      "name": "LyondellBasell",
+      "sector": "Materials",
+      "pct_change": -3.3040345453627675,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
     },
     {
-      "symbol": "MCK",
-      "name": "McKesson Corporation",
-      "sector": "Health Care",
-      "pct_change": -4.021746753669637,
+      "symbol": "VLO",
+      "name": "Valero Energy",
+      "sector": "Energy",
+      "pct_change": -3.2402076633681074,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "CHTR",
+      "name": "Charter Communications",
+      "sector": "Communication Services",
+      "pct_change": -3.213921163699745,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
