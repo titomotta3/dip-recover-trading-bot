@@ -257,3 +257,7 @@ timestamp_utc,action,symbol,detail
 2026-08-07T15:12:50+00:00,BUY,AKAM,drop=-5.17% notional=$10000.00 news=clear(3)
 2026-08-07T17:08:33+00:00,SELL,ACN,gain=7.12% qty=61.516065493 reason=target_reached
 2026-08-07T19:10:24+00:00,SELL,STX,gain=7.14% qty=13.062944096 reason=target_reached
+2026-08-10T14:20:55+00:00,SELL,AKAM,gain=5.89% qty=88.884806973 reason=bad_news:downgrade
+2026-08-10T14:20:55+00:00,SELL,DDOG,gain=3.28% qty=41.593835787 reason=bad_news:sued
+2026-08-10T14:21:52+00:00,BUY,COHR,drop=-8.83% notional=$10000.00 news=clear(3)
+2026-08-10T14:21:53+00:00,BUY,FSLR,drop=-5.78% notional=$10000.00 news=clear(2)
