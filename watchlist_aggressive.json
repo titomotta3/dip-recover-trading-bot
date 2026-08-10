@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-08-10T16:27:56+00:00",
+  "updated_utc": "2026-08-10T17:28:27+00:00",
   "drop_threshold_pct": -8.0,
   "high_conviction_pct": -11.0,
   "stocks": [
@@ -7,7 +7,7 @@
       "symbol": "LITE",
       "name": "Lumentum",
       "sector": "Information Technology",
-      "pct_change": -6.815550296563931,
+      "pct_change": -6.768370216554579,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
