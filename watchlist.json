@@ -1,31 +1,22 @@
 {
-  "updated_utc": "2026-08-10T14:21:53+00:00",
+  "updated_utc": "2026-08-10T15:29:35+00:00",
   "drop_threshold_pct": -5.0,
   "high_conviction_pct": -8.0,
   "stocks": [
     {
-      "symbol": "COHR",
-      "name": "Coherent Corp.",
-      "sector": "Information Technology",
-      "pct_change": -8.82942675926233,
-      "conviction": "high",
-      "status": "bought",
-      "news_bad": false
-    },
-    {
       "symbol": "TTD",
       "name": "Trade Desk (The)",
       "sector": "Communication Services",
-      "pct_change": -6.03912870380666,
+      "pct_change": -6.557968988861291,
       "conviction": "buy_signal",
       "status": "blocked_news",
       "news_bad": true
     },
     {
-      "symbol": "FSLR",
-      "name": "First Solar",
+      "symbol": "LITE",
+      "name": "Lumentum",
       "sector": "Information Technology",
-      "pct_change": -5.778842940166325,
+      "pct_change": -5.559611218587896,
       "conviction": "buy_signal",
       "status": "bought",
       "news_bad": false
@@ -34,34 +25,7 @@
       "symbol": "VRSK",
       "name": "Verisk Analytics",
       "sector": "Industrials",
-      "pct_change": -4.358252680191639,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "EBAY",
-      "name": "eBay Inc.",
-      "sector": "Consumer Discretionary",
-      "pct_change": -4.307024050442574,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "INTC",
-      "name": "Intel",
-      "sector": "Information Technology",
-      "pct_change": -4.023614270427619,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "LUV",
-      "name": "Southwest Airlines",
-      "sector": "Industrials",
-      "pct_change": -3.9638637492272295,
+      "pct_change": -4.9056424266548815,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
@@ -70,43 +34,7 @@
       "symbol": "HONA",
       "name": "Honeywell Aerospace",
       "sector": "Industrials",
-      "pct_change": -3.7505146706139763,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "LITE",
-      "name": "Lumentum",
-      "sector": "Information Technology",
-      "pct_change": -3.6812187147422155,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "DG",
-      "name": "Dollar General",
-      "sector": "Consumer Staples",
-      "pct_change": -3.6574748300487383,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "RCL",
-      "name": "Royal Caribbean Group",
-      "sector": "Consumer Discretionary",
-      "pct_change": -3.524999618530274,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "NCLH",
-      "name": "Norwegian Cruise Line Holdings",
-      "sector": "Consumer Discretionary",
-      "pct_change": -3.454550210531656,
+      "pct_change": -3.9226163585705978,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
@@ -115,7 +43,70 @@
       "symbol": "BLDR",
       "name": "Builders FirstSource",
       "sector": "Industrials",
-      "pct_change": -3.4275071687092074,
+      "pct_change": -3.8959758801230016,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "EBAY",
+      "name": "eBay Inc.",
+      "sector": "Consumer Discretionary",
+      "pct_change": -3.732809590880373,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "INTC",
+      "name": "Intel",
+      "sector": "Information Technology",
+      "pct_change": -3.571081975722689,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "LUV",
+      "name": "Southwest Airlines",
+      "sector": "Industrials",
+      "pct_change": -3.4750230564198197,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "RCL",
+      "name": "Royal Caribbean Group",
+      "sector": "Consumer Discretionary",
+      "pct_change": -3.4000015258789062,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "NCLH",
+      "name": "Norwegian Cruise Line Holdings",
+      "sector": "Consumer Discretionary",
+      "pct_change": -3.194804005808644,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "CIEN",
+      "name": "Ciena",
+      "sector": "Information Technology",
+      "pct_change": -3.1814605515971204,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "COIN",
+      "name": "Coinbase",
+      "sector": "Financials",
+      "pct_change": -3.066410499159078,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
@@ -124,16 +115,7 @@
       "symbol": "DHI",
       "name": "D. R. Horton",
       "sector": "Consumer Discretionary",
-      "pct_change": -3.3426019264978444,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "KDP",
-      "name": "Keurig Dr Pepper",
-      "sector": "Consumer Staples",
-      "pct_change": -3.2822412623762363,
+      "pct_change": -3.0215795512837413,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
