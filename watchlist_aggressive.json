@@ -1,34 +1,16 @@
 {
-  "updated_utc": "2026-08-07T19:11:39+00:00",
+  "updated_utc": "2026-08-10T14:22:54+00:00",
   "drop_threshold_pct": -8.0,
   "high_conviction_pct": -11.0,
   "stocks": [
     {
-      "symbol": "TTD",
-      "name": "Trade Desk (The)",
-      "sector": "Communication Services",
-      "pct_change": -21.84210478025606,
-      "conviction": "high",
-      "status": "blocked_news",
-      "news_bad": true
-    },
-    {
-      "symbol": "RMD",
-      "name": "ResMed",
-      "sector": "Health Care",
-      "pct_change": -6.560206016886784,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "ZTS",
-      "name": "Zoetis",
-      "sector": "Health Care",
-      "pct_change": -6.108442857984942,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
+      "symbol": "COHR",
+      "name": "Coherent Corp.",
+      "sector": "Information Technology",
+      "pct_change": -8.628675463233213,
+      "conviction": "buy_signal",
+      "status": "bought",
+      "news_bad": false
     }
   ]
 }

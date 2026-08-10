@@ -139,3 +139,5 @@ timestamp_utc,action,symbol,detail
 2026-08-07T14:15:18+00:00,SELL,CRWD,gain=11.64% qty=65.131252605 reason=target_reached
 2026-08-07T14:15:18+00:00,SELL,CVNA,gain=12.43% qty=195.46505082 reason=target_reached
 2026-08-07T14:15:44+00:00,BUY,STX,drop=-10.45% notional=$11000.00 news=clear(3)
+2026-08-10T14:22:26+00:00,SELL,DDOG,gain=3.25% qty=91.259758576 reason=bad_news:sued
+2026-08-10T14:22:54+00:00,BUY,COHR,drop=-8.63% notional=$11000.00 news=clear(3)
