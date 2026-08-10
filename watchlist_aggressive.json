@@ -1,16 +1,16 @@
 {
-  "updated_utc": "2026-08-10T14:22:54+00:00",
+  "updated_utc": "2026-08-10T15:30:56+00:00",
   "drop_threshold_pct": -8.0,
   "high_conviction_pct": -11.0,
   "stocks": [
     {
-      "symbol": "COHR",
-      "name": "Coherent Corp.",
-      "sector": "Information Technology",
-      "pct_change": -8.628675463233213,
-      "conviction": "buy_signal",
-      "status": "bought",
-      "news_bad": false
+      "symbol": "TTD",
+      "name": "Trade Desk (The)",
+      "sector": "Communication Services",
+      "pct_change": -6.459422644194691,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
     }
   ]
 }
