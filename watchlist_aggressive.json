@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-08-10T18:27:16+00:00",
+  "updated_utc": "2026-08-10T19:33:37+00:00",
   "drop_threshold_pct": -8.0,
   "high_conviction_pct": -11.0,
   "stocks": [
@@ -7,7 +7,16 @@
       "symbol": "LITE",
       "name": "Lumentum",
       "sector": "Information Technology",
-      "pct_change": -7.349156247246658,
+      "pct_change": -7.262653720085199,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "VRSK",
+      "name": "Verisk Analytics",
+      "sector": "Industrials",
+      "pct_change": -6.318428690022429,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
