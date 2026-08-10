@@ -1,31 +1,22 @@
 {
-  "updated_utc": "2026-08-10T15:29:35+00:00",
+  "updated_utc": "2026-08-10T16:26:42+00:00",
   "drop_threshold_pct": -5.0,
   "high_conviction_pct": -8.0,
   "stocks": [
     {
-      "symbol": "TTD",
-      "name": "Trade Desk (The)",
-      "sector": "Communication Services",
-      "pct_change": -6.557968988861291,
-      "conviction": "buy_signal",
-      "status": "blocked_news",
-      "news_bad": true
-    },
-    {
-      "symbol": "LITE",
-      "name": "Lumentum",
-      "sector": "Information Technology",
-      "pct_change": -5.559611218587896,
-      "conviction": "buy_signal",
-      "status": "bought",
-      "news_bad": false
-    },
-    {
       "symbol": "VRSK",
       "name": "Verisk Analytics",
       "sector": "Industrials",
-      "pct_change": -4.9056424266548815,
+      "pct_change": -4.9317101202470806,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "TTD",
+      "name": "Trade Desk (The)",
+      "sector": "Communication Services",
+      "pct_change": -4.891305662358247,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
@@ -34,7 +25,7 @@
       "symbol": "HONA",
       "name": "Honeywell Aerospace",
       "sector": "Industrials",
-      "pct_change": -3.9226163585705978,
+      "pct_change": -4.373624922816386,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
@@ -43,7 +34,7 @@
       "symbol": "BLDR",
       "name": "Builders FirstSource",
       "sector": "Industrials",
-      "pct_change": -3.8959758801230016,
+      "pct_change": -3.8693256060817784,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
@@ -52,16 +43,7 @@
       "symbol": "EBAY",
       "name": "eBay Inc.",
       "sector": "Consumer Discretionary",
-      "pct_change": -3.732809590880373,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "INTC",
-      "name": "Intel",
-      "sector": "Information Technology",
-      "pct_change": -3.571081975722689,
+      "pct_change": -3.8042525527096234,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
@@ -70,7 +52,7 @@
       "symbol": "LUV",
       "name": "Southwest Airlines",
       "sector": "Industrials",
-      "pct_change": -3.4750230564198197,
+      "pct_change": -3.793836081523447,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
@@ -79,7 +61,16 @@
       "symbol": "RCL",
       "name": "Royal Caribbean Group",
       "sector": "Consumer Discretionary",
-      "pct_change": -3.4000015258789062,
+      "pct_change": -3.5781288146972656,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "DASH",
+      "name": "DoorDash",
+      "sector": "Consumer Discretionary",
+      "pct_change": -3.4056184321886653,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
@@ -88,7 +79,7 @@
       "symbol": "NCLH",
       "name": "Norwegian Cruise Line Holdings",
       "sector": "Consumer Discretionary",
-      "pct_change": -3.194804005808644,
+      "pct_change": -3.3766213949624597,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
@@ -97,25 +88,34 @@
       "symbol": "CIEN",
       "name": "Ciena",
       "sector": "Information Technology",
-      "pct_change": -3.1814605515971204,
+      "pct_change": -3.300277743325857,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
     },
     {
-      "symbol": "COIN",
-      "name": "Coinbase",
-      "sector": "Financials",
-      "pct_change": -3.066410499159078,
+      "symbol": "INTC",
+      "name": "Intel",
+      "sector": "Information Technology",
+      "pct_change": -3.2169249615096493,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
     },
     {
-      "symbol": "DHI",
-      "name": "D. R. Horton",
-      "sector": "Consumer Discretionary",
-      "pct_change": -3.0215795512837413,
+      "symbol": "MAS",
+      "name": "Masco",
+      "sector": "Industrials",
+      "pct_change": -3.2124957096345637,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "BXP",
+      "name": "BXP, Inc.",
+      "sector": "Real Estate",
+      "pct_change": -3.0770286490280374,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null

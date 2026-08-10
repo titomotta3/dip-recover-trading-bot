@@ -262,3 +262,4 @@ timestamp_utc,action,symbol,detail
 2026-08-10T14:21:52+00:00,BUY,COHR,drop=-8.83% notional=$10000.00 news=clear(3)
 2026-08-10T14:21:53+00:00,BUY,FSLR,drop=-5.78% notional=$10000.00 news=clear(2)
 2026-08-10T15:29:35+00:00,BUY,LITE,drop=-5.56% notional=$10000.00 news=clear(2)
+2026-08-10T16:25:59+00:00,SELL,AXON,gain=7.05% qty=17.903802771 reason=target_reached
