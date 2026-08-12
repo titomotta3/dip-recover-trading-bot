@@ -270,3 +270,4 @@ timestamp_utc,action,symbol,detail
 2026-08-12T15:27:23+00:00,SELL,LITE,gain=10.66% qty=11.898942182 reason=target_reached
 2026-08-12T15:27:53+00:00,BUY,DDOG,drop=-6.20% notional=$10000.00 news=clear(1)
 2026-08-12T15:27:53+00:00,BUY,WDAY,drop=-5.87% notional=$10000.00 news=clear(1)
+2026-08-12T16:29:06+00:00,BUY,AXON,drop=-5.05% notional=$10000.00 news=clear(2)
