@@ -1,22 +1,22 @@
 {
-  "updated_utc": "2026-08-12T17:33:39+00:00",
+  "updated_utc": "2026-08-12T18:32:07+00:00",
   "drop_threshold_pct": -5.0,
   "high_conviction_pct": -8.0,
   "stocks": [
     {
-      "symbol": "COR",
-      "name": "Cencora",
-      "sector": "Health Care",
-      "pct_change": -4.927062009174925,
+      "symbol": "TPR",
+      "name": "Tapestry, Inc.",
+      "sector": "Consumer Discretionary",
+      "pct_change": -4.5720671763131575,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
     },
     {
-      "symbol": "CHTR",
-      "name": "Charter Communications",
-      "sector": "Communication Services",
-      "pct_change": -4.81323877251564,
+      "symbol": "COR",
+      "name": "Cencora",
+      "sector": "Health Care",
+      "pct_change": -4.326536536818348,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
@@ -25,61 +25,16 @@
       "symbol": "UBER",
       "name": "Uber",
       "sector": "Industrials",
-      "pct_change": -4.532719018456159,
+      "pct_change": -4.2016845089002315,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
     },
     {
-      "symbol": "TPR",
-      "name": "Tapestry, Inc.",
-      "sector": "Consumer Discretionary",
-      "pct_change": -4.245040156735732,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "FISV",
-      "name": "Fiserv",
-      "sector": "Financials",
-      "pct_change": -3.831563753777795,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "ZTS",
-      "name": "Zoetis",
-      "sector": "Health Care",
-      "pct_change": -3.715986037245824,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "BLDR",
-      "name": "Builders FirstSource",
-      "sector": "Industrials",
-      "pct_change": -3.635147513990695,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "IT",
-      "name": "Gartner",
-      "sector": "Information Technology",
-      "pct_change": -3.5189893983725318,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "LULU",
-      "name": "Lululemon Athletica",
-      "sector": "Consumer Discretionary",
-      "pct_change": -3.411355498199278,
+      "symbol": "CHTR",
+      "name": "Charter Communications",
+      "sector": "Communication Services",
+      "pct_change": -4.090301761926124,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
@@ -88,7 +43,43 @@
       "symbol": "EBAY",
       "name": "eBay Inc.",
       "sector": "Consumer Discretionary",
-      "pct_change": -3.0327364423157404,
+      "pct_change": -3.8015269296174874,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "BLDR",
+      "name": "Builders FirstSource",
+      "sector": "Industrials",
+      "pct_change": -3.7549930121449604,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "IT",
+      "name": "Gartner",
+      "sector": "Information Technology",
+      "pct_change": -3.7178987538995387,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "APTV",
+      "name": "Aptiv",
+      "sector": "Consumer Discretionary",
+      "pct_change": -3.345424996261796,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "APP",
+      "name": "AppLovin",
+      "sector": "Communication Services",
+      "pct_change": -3.144216531932086,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
@@ -97,7 +88,7 @@
       "symbol": "DHI",
       "name": "D. R. Horton",
       "sector": "Consumer Discretionary",
-      "pct_change": -3.02407172997275,
+      "pct_change": -3.077126862684958,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
