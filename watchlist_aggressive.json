@@ -1,6 +1,16 @@
 {
-  "updated_utc": "2026-08-12T16:30:00+00:00",
+  "updated_utc": "2026-08-12T17:34:33+00:00",
   "drop_threshold_pct": -8.0,
   "high_conviction_pct": -11.0,
-  "stocks": []
+  "stocks": [
+    {
+      "symbol": "FSLR",
+      "name": "First Solar",
+      "sector": "Information Technology",
+      "pct_change": -6.126773293452269,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    }
+  ]
 }
