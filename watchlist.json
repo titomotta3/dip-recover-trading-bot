@@ -1,112 +1,103 @@
 {
-  "updated_utc": "2026-08-11T19:40:12+00:00",
+  "updated_utc": "2026-08-12T14:21:47+00:00",
   "drop_threshold_pct": -5.0,
   "high_conviction_pct": -8.0,
   "stocks": [
     {
-      "symbol": "APP",
-      "name": "AppLovin",
+      "symbol": "MNST",
+      "name": "Monster Beverage",
+      "sector": "Consumer Staples",
+      "pct_change": -49.72332890846466,
+      "conviction": "high",
+      "status": "bought",
+      "news_bad": false
+    },
+    {
+      "symbol": "CHTR",
+      "name": "Charter Communications",
       "sector": "Communication Services",
-      "pct_change": -5.483774730941187,
-      "conviction": "buy_signal",
-      "status": "blocked_news",
-      "news_bad": true
-    },
-    {
-      "symbol": "VTR",
-      "name": "Ventas",
-      "sector": "Real Estate",
-      "pct_change": -4.975527025647876,
+      "pct_change": -4.458113178043136,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
     },
     {
-      "symbol": "DDOG",
-      "name": "Datadog",
-      "sector": "Information Technology",
-      "pct_change": -4.620754317111552,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "HON",
-      "name": "Honeywell Technologies",
+      "symbol": "BLDR",
+      "name": "Builders FirstSource",
       "sector": "Industrials",
-      "pct_change": -4.406613796161716,
+      "pct_change": -4.24633212532891,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
     },
     {
-      "symbol": "FERG",
-      "name": "Ferguson Enterprises",
-      "sector": "Industrials",
-      "pct_change": -4.318940739925746,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "DELL",
-      "name": "Dell Technologies",
+      "symbol": "WDAY",
+      "name": "Workday, Inc.",
       "sector": "Information Technology",
-      "pct_change": -3.8787476142729593,
+      "pct_change": -3.963699116922962,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
     },
     {
-      "symbol": "ORCL",
-      "name": "Oracle Corporation",
-      "sector": "Information Technology",
-      "pct_change": -3.849063556870632,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "GOOGL",
-      "name": "Alphabet Inc. (Class A)",
-      "sector": "Communication Services",
-      "pct_change": -3.7508402534652587,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "WELL",
-      "name": "Welltower",
-      "sector": "Real Estate",
-      "pct_change": -3.718511948617662,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "DECK",
-      "name": "Deckers Brands",
+      "symbol": "TPR",
+      "name": "Tapestry, Inc.",
       "sector": "Consumer Discretionary",
-      "pct_change": -3.6381421485201293,
+      "pct_change": -3.939826344061851,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
     },
     {
-      "symbol": "GOOG",
-      "name": "Alphabet Inc. (Class C)",
-      "sector": "Communication Services",
-      "pct_change": -3.462232309748618,
+      "symbol": "COR",
+      "name": "Cencora",
+      "sector": "Health Care",
+      "pct_change": -3.794885163522742,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
     },
     {
-      "symbol": "ADBE",
-      "name": "Adobe Inc.",
+      "symbol": "NOW",
+      "name": "ServiceNow",
       "sector": "Information Technology",
-      "pct_change": -3.4254126598089316,
+      "pct_change": -3.6694372522981653,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "ZTS",
+      "name": "Zoetis",
+      "sector": "Health Care",
+      "pct_change": -3.6562671655052137,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "FISV",
+      "name": "Fiserv",
+      "sector": "Financials",
+      "pct_change": -3.2482956870767437,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "IT",
+      "name": "Gartner",
+      "sector": "Information Technology",
+      "pct_change": -3.198593131043638,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "AXON",
+      "name": "Axon Enterprise",
+      "sector": "Industrials",
+      "pct_change": -3.157270345044168,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
