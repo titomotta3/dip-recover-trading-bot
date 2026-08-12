@@ -1,22 +1,22 @@
 {
-  "updated_utc": "2026-08-12T16:29:06+00:00",
+  "updated_utc": "2026-08-12T17:33:39+00:00",
   "drop_threshold_pct": -5.0,
   "high_conviction_pct": -8.0,
   "stocks": [
     {
-      "symbol": "AXON",
-      "name": "Axon Enterprise",
-      "sector": "Industrials",
-      "pct_change": -5.0549226243112555,
-      "conviction": "buy_signal",
-      "status": "bought",
-      "news_bad": false
+      "symbol": "COR",
+      "name": "Cencora",
+      "sector": "Health Care",
+      "pct_change": -4.927062009174925,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
     },
     {
       "symbol": "CHTR",
       "name": "Charter Communications",
       "sector": "Communication Services",
-      "pct_change": -4.908367920179378,
+      "pct_change": -4.81323877251564,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
@@ -25,7 +25,7 @@
       "symbol": "UBER",
       "name": "Uber",
       "sector": "Industrials",
-      "pct_change": -4.551826503645915,
+      "pct_change": -4.532719018456159,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
@@ -34,25 +34,7 @@
       "symbol": "TPR",
       "name": "Tapestry, Inc.",
       "sector": "Consumer Discretionary",
-      "pct_change": -4.481744341801452,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "ZTS",
-      "name": "Zoetis",
-      "sector": "Health Care",
-      "pct_change": -3.901784832844367,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "COR",
-      "name": "Cencora",
-      "sector": "Health Care",
-      "pct_change": -3.8428091053112854,
+      "pct_change": -4.245040156735732,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
@@ -61,7 +43,16 @@
       "symbol": "FISV",
       "name": "Fiserv",
       "sector": "Financials",
-      "pct_change": -3.7367245354491883,
+      "pct_change": -3.831563753777795,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "ZTS",
+      "name": "Zoetis",
+      "sector": "Health Care",
+      "pct_change": -3.715986037245824,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
@@ -70,16 +61,7 @@
       "symbol": "BLDR",
       "name": "Builders FirstSource",
       "sector": "Industrials",
-      "pct_change": -3.3954666766631036,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "LULU",
-      "name": "Lululemon Athletica",
-      "sector": "Consumer Discretionary",
-      "pct_change": -3.359606082475692,
+      "pct_change": -3.635147513990695,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
@@ -88,7 +70,25 @@
       "symbol": "IT",
       "name": "Gartner",
       "sector": "Information Technology",
-      "pct_change": -3.294707122432978,
+      "pct_change": -3.5189893983725318,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "LULU",
+      "name": "Lululemon Athletica",
+      "sector": "Consumer Discretionary",
+      "pct_change": -3.411355498199278,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "EBAY",
+      "name": "eBay Inc.",
+      "sector": "Consumer Discretionary",
+      "pct_change": -3.0327364423157404,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
@@ -97,7 +97,7 @@
       "symbol": "DHI",
       "name": "D. R. Horton",
       "sector": "Consumer Discretionary",
-      "pct_change": -3.0605414416444643,
+      "pct_change": -3.02407172997275,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
