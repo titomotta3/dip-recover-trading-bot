@@ -267,3 +267,6 @@ timestamp_utc,action,symbol,detail
 2026-08-11T14:20:30+00:00,SELL,MPWR,gain=7.05% qty=7.508683801 reason=target_reached
 2026-08-11T15:27:22+00:00,SELL,SYK,gain=7.01% qty=30.805218409 reason=target_reached
 2026-08-12T14:21:47+00:00,BUY,MNST,drop=-49.72% notional=$10000.00 news=clear(1)
+2026-08-12T15:27:23+00:00,SELL,LITE,gain=10.66% qty=11.898942182 reason=target_reached
+2026-08-12T15:27:53+00:00,BUY,DDOG,drop=-6.20% notional=$10000.00 news=clear(1)
+2026-08-12T15:27:53+00:00,BUY,WDAY,drop=-5.87% notional=$10000.00 news=clear(1)
