@@ -1,22 +1,49 @@
 {
-  "updated_utc": "2026-08-13T18:33:10+00:00",
+  "updated_utc": "2026-08-13T19:40:33+00:00",
   "drop_threshold_pct": -5.0,
   "high_conviction_pct": -8.0,
   "stocks": [
     {
-      "symbol": "MOS",
-      "name": "Mosaic Company (The)",
-      "sector": "Materials",
-      "pct_change": -4.513276285605705,
+      "symbol": "LITE",
+      "name": "Lumentum",
+      "sector": "Information Technology",
+      "pct_change": -5.261295173033859,
+      "conviction": "buy_signal",
+      "status": "bought",
+      "news_bad": false
+    },
+    {
+      "symbol": "GLW",
+      "name": "Corning Inc.",
+      "sector": "Information Technology",
+      "pct_change": -4.93311612827735,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
     },
     {
-      "symbol": "LITE",
-      "name": "Lumentum",
+      "symbol": "MOS",
+      "name": "Mosaic Company (The)",
+      "sector": "Materials",
+      "pct_change": -4.561947433303775,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "MPWR",
+      "name": "Monolithic Power Systems",
       "sector": "Information Technology",
-      "pct_change": -3.538987960664995,
+      "pct_change": -3.634363176930809,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "FCX",
+      "name": "Freeport-McMoRan",
+      "sector": "Materials",
+      "pct_change": -3.3082936653321284,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
@@ -25,16 +52,7 @@
       "symbol": "NEM",
       "name": "Newmont",
       "sector": "Materials",
-      "pct_change": -3.4029146566992483,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "ULTA",
-      "name": "Ulta Beauty",
-      "sector": "Consumer Discretionary",
-      "pct_change": -3.2412697662260284,
+      "pct_change": -3.1398481527722852,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null

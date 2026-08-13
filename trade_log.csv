@@ -274,3 +274,7 @@ timestamp_utc,action,symbol,detail
 2026-08-12T19:43:39+00:00,BUY,COR,drop=-5.63% notional=$10000.00 news=clear(2)
 2026-08-13T14:23:57+00:00,BUY,CSCO,drop=-6.97% notional=$20000.00 news=clear(10)
 2026-08-13T14:23:57+00:00,BUY,TPR,drop=-15.44% notional=$20000.00 news=clear(6)
+2026-08-13T19:39:57+00:00,SELL,AMT,gain=7.24% qty=61.281958573 reason=target_reached
+2026-08-13T19:39:57+00:00,SELL,RMD,gain=7.08% qty=47.171989244 reason=target_reached
+2026-08-13T19:39:57+00:00,SELL,WDAY,gain=19.22% qty=57.673395236 reason=target_reached
+2026-08-13T19:40:33+00:00,BUY,LITE,drop=-5.26% notional=$20000.00 news=clear(10)
