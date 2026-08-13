@@ -124,7 +124,7 @@ DROP_MIN = -8.0
 DROP_MAX = -3.0
 
 # Position-size range the auto-tuner can move TRADE_DOLLARS within.
-TRADE_DOLLARS_MAX = 20000.0
+TRADE_DOLLARS_MAX = 50000.0
 
 # Step sizes for each nudge -- kept small on purpose so parameters drift
 # gradually based on evidence, instead of swinging wildly run to run.
