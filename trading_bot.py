@@ -130,7 +130,7 @@ TRADE_DOLLARS_MAX = 50000.0
 # gradually based on evidence, instead of swinging wildly run to run.
 SELL_STEP = 0.5
 DROP_STEP = 0.5
-TRADE_DOLLARS_STEP = 500.0
+TRADE_DOLLARS_STEP = 2000.0
 
 # High-conviction sizing (Portfolio 2 / adaptive only). A dip counts as
 # "high conviction" when it drops at least CONVICTION_EXTRA_DROP_PCT
