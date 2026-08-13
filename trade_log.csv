@@ -272,3 +272,5 @@ timestamp_utc,action,symbol,detail
 2026-08-12T15:27:53+00:00,BUY,WDAY,drop=-5.87% notional=$10000.00 news=clear(1)
 2026-08-12T16:29:06+00:00,BUY,AXON,drop=-5.05% notional=$10000.00 news=clear(2)
 2026-08-12T19:43:39+00:00,BUY,COR,drop=-5.63% notional=$10000.00 news=clear(2)
+2026-08-13T14:23:57+00:00,BUY,CSCO,drop=-6.97% notional=$20000.00 news=clear(10)
+2026-08-13T14:23:57+00:00,BUY,TPR,drop=-15.44% notional=$20000.00 news=clear(6)

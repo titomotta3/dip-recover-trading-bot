@@ -1,88 +1,25 @@
 {
-  "updated_utc": "2026-08-12T19:43:39+00:00",
+  "updated_utc": "2026-08-13T14:23:57+00:00",
   "drop_threshold_pct": -5.0,
   "high_conviction_pct": -8.0,
   "stocks": [
     {
-      "symbol": "COR",
-      "name": "Cencora",
-      "sector": "Health Care",
-      "pct_change": -5.626442608451798,
-      "conviction": "buy_signal",
+      "symbol": "TPR",
+      "name": "Tapestry, Inc.",
+      "sector": "Consumer Discretionary",
+      "pct_change": -15.444913183011671,
+      "conviction": "high",
       "status": "bought",
       "news_bad": false
     },
     {
-      "symbol": "CHTR",
-      "name": "Charter Communications",
-      "sector": "Communication Services",
-      "pct_change": -4.730805122943126,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "APP",
-      "name": "AppLovin",
-      "sector": "Communication Services",
-      "pct_change": -4.145221463123891,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "TPR",
-      "name": "Tapestry, Inc.",
-      "sector": "Consumer Discretionary",
-      "pct_change": -3.6626322847438053,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "LULU",
-      "name": "Lululemon Athletica",
-      "sector": "Consumer Discretionary",
-      "pct_change": -3.54270912078593,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "UBER",
-      "name": "Uber",
-      "sector": "Industrials",
-      "pct_change": -3.4504698916254912,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "IT",
-      "name": "Gartner",
+      "symbol": "CSCO",
+      "name": "Cisco",
       "sector": "Information Technology",
-      "pct_change": -3.396166212020979,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "BLDR",
-      "name": "Builders FirstSource",
-      "sector": "Industrials",
-      "pct_change": -3.328894874560459,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "EBAY",
-      "name": "eBay Inc.",
-      "sector": "Consumer Discretionary",
-      "pct_change": -3.1883829966053114,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
+      "pct_change": -6.970450999584349,
+      "conviction": "buy_signal",
+      "status": "bought",
+      "news_bad": false
     }
   ]
 }
