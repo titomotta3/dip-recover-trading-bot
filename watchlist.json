@@ -1,13 +1,13 @@
 {
-  "updated_utc": "2026-08-13T15:31:32+00:00",
+  "updated_utc": "2026-08-13T16:30:11+00:00",
   "drop_threshold_pct": -5.0,
   "high_conviction_pct": -8.0,
   "stocks": [
     {
-      "symbol": "ULTA",
-      "name": "Ulta Beauty",
-      "sector": "Consumer Discretionary",
-      "pct_change": -3.2666527893899877,
+      "symbol": "NEM",
+      "name": "Newmont",
+      "sector": "Materials",
+      "pct_change": -3.5047499845262613,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
@@ -16,7 +16,16 @@
       "symbol": "IT",
       "name": "Gartner",
       "sector": "Information Technology",
-      "pct_change": -3.1956984262769503,
+      "pct_change": -3.1873403581351427,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "ULTA",
+      "name": "Ulta Beauty",
+      "sector": "Consumer Discretionary",
+      "pct_change": -3.1369262627767145,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
