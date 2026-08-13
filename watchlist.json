@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-08-13T17:34:13+00:00",
+  "updated_utc": "2026-08-13T18:33:10+00:00",
   "drop_threshold_pct": -5.0,
   "high_conviction_pct": -8.0,
   "stocks": [
@@ -7,7 +7,16 @@
       "symbol": "MOS",
       "name": "Mosaic Company (The)",
       "sector": "Materials",
-      "pct_change": -4.071244027614694,
+      "pct_change": -4.513276285605705,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "LITE",
+      "name": "Lumentum",
+      "sector": "Information Technology",
+      "pct_change": -3.538987960664995,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
@@ -16,7 +25,7 @@
       "symbol": "NEM",
       "name": "Newmont",
       "sector": "Materials",
-      "pct_change": -3.436859765974919,
+      "pct_change": -3.4029146566992483,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
@@ -25,7 +34,7 @@
       "symbol": "ULTA",
       "name": "Ulta Beauty",
       "sector": "Consumer Discretionary",
-      "pct_change": -3.3409199349221512,
+      "pct_change": -3.2412697662260284,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
