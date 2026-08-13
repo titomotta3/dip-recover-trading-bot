@@ -1,16 +1,6 @@
 {
-  "updated_utc": "2026-08-13T15:32:29+00:00",
+  "updated_utc": "2026-08-13T16:31:29+00:00",
   "drop_threshold_pct": -8.0,
   "high_conviction_pct": -11.0,
-  "stocks": [
-    {
-      "symbol": "CSCO",
-      "name": "Cisco",
-      "sector": "Information Technology",
-      "pct_change": -8.636095425079166,
-      "conviction": "buy_signal",
-      "status": "bought",
-      "news_bad": false
-    }
-  ]
+  "stocks": []
 }
