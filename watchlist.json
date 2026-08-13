@@ -1,25 +1,25 @@
 {
-  "updated_utc": "2026-08-13T14:23:57+00:00",
+  "updated_utc": "2026-08-13T15:31:32+00:00",
   "drop_threshold_pct": -5.0,
   "high_conviction_pct": -8.0,
   "stocks": [
     {
-      "symbol": "TPR",
-      "name": "Tapestry, Inc.",
+      "symbol": "ULTA",
+      "name": "Ulta Beauty",
       "sector": "Consumer Discretionary",
-      "pct_change": -15.444913183011671,
-      "conviction": "high",
-      "status": "bought",
-      "news_bad": false
+      "pct_change": -3.2666527893899877,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
     },
     {
-      "symbol": "CSCO",
-      "name": "Cisco",
+      "symbol": "IT",
+      "name": "Gartner",
       "sector": "Information Technology",
-      "pct_change": -6.970450999584349,
-      "conviction": "buy_signal",
-      "status": "bought",
-      "news_bad": false
+      "pct_change": -3.1956984262769503,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
     }
   ]
 }
