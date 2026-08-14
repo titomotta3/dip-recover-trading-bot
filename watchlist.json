@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-08-14T17:10:19+00:00",
+  "updated_utc": "2026-08-14T18:07:00+00:00",
   "drop_threshold_pct": -5.0,
   "high_conviction_pct": -8.0,
   "stocks": [
@@ -7,7 +7,7 @@
       "symbol": "AVGO",
       "name": "Broadcom",
       "sector": "Information Technology",
-      "pct_change": -5.851805030499317,
+      "pct_change": -6.884999816669571,
       "conviction": "buy_signal",
       "status": "blocked_news",
       "news_bad": true
@@ -16,34 +16,25 @@
       "symbol": "AMAT",
       "name": "Applied Materials",
       "sector": "Information Technology",
-      "pct_change": -5.2605914909082685,
+      "pct_change": -5.634744984044696,
       "conviction": "buy_signal",
       "status": "blocked_news",
       "news_bad": true
     },
     {
-      "symbol": "CIEN",
-      "name": "Ciena",
-      "sector": "Information Technology",
-      "pct_change": -4.363243738879148,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
       "symbol": "GDDY",
       "name": "GoDaddy",
       "sector": "Information Technology",
-      "pct_change": -3.920400439210199,
+      "pct_change": -3.945269987950871,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
     },
     {
-      "symbol": "KLAC",
-      "name": "KLA Corporation",
+      "symbol": "CIEN",
+      "name": "Ciena",
       "sector": "Information Technology",
-      "pct_change": -3.5081441429045355,
+      "pct_change": -3.7918670748909857,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
@@ -52,34 +43,16 @@
       "symbol": "HPQ",
       "name": "HP Inc.",
       "sector": "Information Technology",
-      "pct_change": -3.450479073581856,
+      "pct_change": -3.785940878040957,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
     },
     {
-      "symbol": "WDAY",
-      "name": "Workday, Inc.",
+      "symbol": "KLAC",
+      "name": "KLA Corporation",
       "sector": "Information Technology",
-      "pct_change": -3.422137343590019,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "INTU",
-      "name": "Intuit",
-      "sector": "Information Technology",
-      "pct_change": -3.354829675565164,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "ARES",
-      "name": "Ares Management",
-      "sector": "Financials",
-      "pct_change": -3.3389028680295945,
+      "pct_change": -3.634714041088902,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
@@ -88,34 +61,43 @@
       "symbol": "TTD",
       "name": "Trade Desk (The)",
       "sector": "Communication Services",
-      "pct_change": -3.074178240283608,
+      "pct_change": -3.571431612481789,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
     },
     {
-      "symbol": "CRWD",
-      "name": "CrowdStrike",
-      "sector": "Information Technology",
-      "pct_change": -3.055025684805228,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "BX",
-      "name": "Blackstone Inc.",
+      "symbol": "ARES",
+      "name": "Ares Management",
       "sector": "Financials",
-      "pct_change": -3.053852527264916,
+      "pct_change": -3.5162192916225723,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
     },
     {
-      "symbol": "PANW",
-      "name": "Palo Alto Networks",
+      "symbol": "HOOD",
+      "name": "Robinhood Markets",
+      "sector": "Financials",
+      "pct_change": -3.1800378129888576,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "WDAY",
+      "name": "Workday, Inc.",
       "sector": "Information Technology",
-      "pct_change": -3.010104400943024,
+      "pct_change": -3.167834043500816,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "INTU",
+      "name": "Intuit",
+      "sector": "Information Technology",
+      "pct_change": -3.0840989274088115,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
