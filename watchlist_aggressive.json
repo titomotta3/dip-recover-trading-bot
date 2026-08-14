@@ -1,6 +1,16 @@
 {
-  "updated_utc": "2026-08-14T17:11:08+00:00",
+  "updated_utc": "2026-08-14T18:07:51+00:00",
   "drop_threshold_pct": -8.0,
   "high_conviction_pct": -11.0,
-  "stocks": []
+  "stocks": [
+    {
+      "symbol": "AVGO",
+      "name": "Broadcom",
+      "sector": "Information Technology",
+      "pct_change": -6.857617116371582,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    }
+  ]
 }
