@@ -146,3 +146,4 @@ timestamp_utc,action,symbol,detail
 2026-08-12T14:22:39+00:00,BUY,MNST,drop=-49.70% notional=$22000.00 news=clear(1) conviction=HIGH
 2026-08-13T14:24:54+00:00,BUY,TPR,drop=-15.48% notional=$40000.00 news=clear(6) conviction=HIGH
 2026-08-13T15:32:29+00:00,BUY,CSCO,drop=-8.64% notional=$20000.00 news=clear(10)
+2026-08-14T14:17:39+00:00,SELL,CSCO,gain=-1.36% qty=176.6003532 reason=bad_news:downgrade
