@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-08-14T19:12:17+00:00",
+  "updated_utc": "2026-08-14T19:57:50+00:00",
   "drop_threshold_pct": -5.0,
   "high_conviction_pct": -8.0,
   "stocks": [
@@ -7,16 +7,7 @@
       "symbol": "AVGO",
       "name": "Broadcom",
       "sector": "Information Technology",
-      "pct_change": -6.397494260150699,
-      "conviction": "buy_signal",
-      "status": "blocked_news",
-      "news_bad": true
-    },
-    {
-      "symbol": "AMAT",
-      "name": "Applied Materials",
-      "sector": "Information Technology",
-      "pct_change": -5.342905716128621,
+      "pct_change": -6.124645993324435,
       "conviction": "buy_signal",
       "status": "blocked_news",
       "news_bad": true
@@ -25,25 +16,25 @@
       "symbol": "GDDY",
       "name": "GoDaddy",
       "sector": "Information Technology",
-      "pct_change": -4.975124378109453,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
+      "pct_change": -5.875620675917288,
+      "conviction": "buy_signal",
+      "status": "bought",
+      "news_bad": false
     },
     {
-      "symbol": "ORCL",
-      "name": "Oracle Corporation",
+      "symbol": "AMAT",
+      "name": "Applied Materials",
       "sector": "Information Technology",
-      "pct_change": -4.592883750923273,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
+      "pct_change": -5.335426756838937,
+      "conviction": "buy_signal",
+      "status": "blocked_news",
+      "news_bad": true
     },
     {
-      "symbol": "HPQ",
-      "name": "HP Inc.",
+      "symbol": "CRWD",
+      "name": "CrowdStrike",
       "sector": "Information Technology",
-      "pct_change": -4.10543092247304,
+      "pct_change": -3.9373941076027106,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
@@ -52,25 +43,25 @@
       "symbol": "WDAY",
       "name": "Workday, Inc.",
       "sector": "Information Technology",
-      "pct_change": -4.031239830399425,
+      "pct_change": -3.879871458096497,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
     },
     {
-      "symbol": "CIEN",
-      "name": "Ciena",
+      "symbol": "ORCL",
+      "name": "Oracle Corporation",
       "sector": "Information Technology",
-      "pct_change": -3.9601172844283856,
+      "pct_change": -3.8663477773174026,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
     },
     {
-      "symbol": "COIN",
-      "name": "Coinbase",
-      "sector": "Financials",
-      "pct_change": -3.8076678640371444,
+      "symbol": "GEN",
+      "name": "Gen Digital",
+      "sector": "Information Technology",
+      "pct_change": -3.85525668384764,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
@@ -79,25 +70,16 @@
       "symbol": "HOOD",
       "name": "Robinhood Markets",
       "sector": "Financials",
-      "pct_change": -3.793905774638425,
+      "pct_change": -3.7133967388696414,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
     },
     {
-      "symbol": "ARES",
-      "name": "Ares Management",
-      "sector": "Financials",
-      "pct_change": -3.619942303500333,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "TTD",
-      "name": "Trade Desk (The)",
-      "sector": "Communication Services",
-      "pct_change": -3.6057730568280495,
+      "symbol": "HPQ",
+      "name": "HP Inc.",
+      "sector": "Information Technology",
+      "pct_change": -3.690092036581607,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
@@ -106,25 +88,25 @@
       "symbol": "INTU",
       "name": "Intuit",
       "sector": "Information Technology",
-      "pct_change": -3.417621151903331,
+      "pct_change": -3.6339331884041552,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
     },
     {
-      "symbol": "CRWD",
-      "name": "CrowdStrike",
-      "sector": "Information Technology",
-      "pct_change": -3.165875683188215,
+      "symbol": "ARES",
+      "name": "Ares Management",
+      "sector": "Financials",
+      "pct_change": -3.5797865198882417,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
     },
     {
-      "symbol": "PANW",
-      "name": "Palo Alto Networks",
-      "sector": "Information Technology",
-      "pct_change": -3.1616133872908776,
+      "symbol": "VEEV",
+      "name": "Veeva Systems",
+      "sector": "Health Care",
+      "pct_change": -3.540608014186132,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
@@ -133,7 +115,25 @@
       "symbol": "BX",
       "name": "Blackstone Inc.",
       "sector": "Financials",
-      "pct_change": -3.01366178627968,
+      "pct_change": -3.465713097991832,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "FTNT",
+      "name": "Fortinet",
+      "sector": "Information Technology",
+      "pct_change": -3.393982960773181,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "COIN",
+      "name": "Coinbase",
+      "sector": "Financials",
+      "pct_change": -3.3593231799753918,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null

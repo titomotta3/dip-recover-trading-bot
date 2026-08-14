@@ -283,3 +283,4 @@ timestamp_utc,action,symbol,detail
 2026-08-14T16:07:42+00:00,BUY,AMAT,drop=-5.49% notional=$20000.00 news=clear(10)
 2026-08-14T17:09:38+00:00,SELL,AMAT,gain=0.09% qty=39.522547624 reason=bad_news:warns
 2026-08-14T17:09:38+00:00,SELL,AVGO,gain=-0.58% qty=50.5458704 reason=bad_news:plunges
+2026-08-14T19:57:50+00:00,BUY,GDDY,drop=-5.88% notional=$20000.00 news=none
