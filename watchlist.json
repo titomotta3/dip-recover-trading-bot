@@ -1,31 +1,22 @@
 {
-  "updated_utc": "2026-08-14T15:11:26+00:00",
+  "updated_utc": "2026-08-14T16:07:42+00:00",
   "drop_threshold_pct": -5.0,
   "high_conviction_pct": -8.0,
   "stocks": [
     {
-      "symbol": "AVGO",
-      "name": "Broadcom",
+      "symbol": "AMAT",
+      "name": "Applied Materials",
       "sector": "Information Technology",
-      "pct_change": -5.32287117947786,
+      "pct_change": -5.493506836054247,
       "conviction": "buy_signal",
       "status": "bought",
       "news_bad": false
     },
     {
-      "symbol": "WDAY",
-      "name": "Workday, Inc.",
+      "symbol": "CIEN",
+      "name": "Ciena",
       "sector": "Information Technology",
-      "pct_change": -4.877690585751994,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "AMAT",
-      "name": "Applied Materials",
-      "sector": "Information Technology",
-      "pct_change": -4.437454947833974,
+      "pct_change": -3.7602460704113203,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
@@ -34,25 +25,25 @@
       "symbol": "GDDY",
       "name": "GoDaddy",
       "sector": "Information Technology",
-      "pct_change": -4.373130988125777,
+      "pct_change": -3.577115642490672,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
     },
     {
-      "symbol": "COIN",
-      "name": "Coinbase",
-      "sector": "Financials",
-      "pct_change": -3.1254046454537434,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "INTU",
-      "name": "Intuit",
+      "symbol": "KLAC",
+      "name": "KLA Corporation",
       "sector": "Information Technology",
-      "pct_change": -3.032465458938659,
+      "pct_change": -3.4818710685131817,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "WDAY",
+      "name": "Workday, Inc.",
+      "sector": "Information Technology",
+      "pct_change": -3.3107249000307246,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
