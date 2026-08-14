@@ -1,7 +1,7 @@
 {
-  "updated_utc": "2026-08-14T20:37:40+00:00",
+  "updated_utc": "2026-08-14T21:02:13+00:00",
   "paper": true,
-  "equity": 558070.39,
+  "equity": 558190.22,
   "cash": 146578.96,
   "buying_power": 146578.96,
   "starting_equity": 500000.0,
@@ -22,11 +22,11 @@
       "name": "",
       "qty": 177.581900838,
       "avg_entry_price": 70.39,
-      "current_price": 72.51,
+      "current_price": 72.62,
       "cost_basis": 12499.99,
-      "market_value": 12876.46363,
-      "unrealized_pl": 376.47363,
-      "unrealized_plpc": 3.012
+      "market_value": 12895.997639,
+      "unrealized_pl": 396.007639,
+      "unrealized_plpc": 3.168
     },
     {
       "symbol": "CARR",
@@ -88,33 +88,33 @@
       "name": "",
       "qty": 31.7680067,
       "avg_entry_price": 346.26,
-      "current_price": 325.16,
+      "current_price": 325.83,
       "cost_basis": 10999.99,
-      "market_value": 10329.685059,
-      "unrealized_pl": -670.304941,
-      "unrealized_plpc": -6.094
+      "market_value": 10350.969623,
+      "unrealized_pl": -649.020377,
+      "unrealized_plpc": -5.8999999999999995
     },
     {
       "symbol": "CTVA",
       "name": "",
       "qty": 289.344445842,
       "avg_entry_price": 79.49,
-      "current_price": 76.68,
+      "current_price": 76.83,
       "cost_basis": 22999.99,
-      "market_value": 22186.932107,
-      "unrealized_pl": -813.057893,
-      "unrealized_plpc": -3.535
+      "market_value": 22230.333774,
+      "unrealized_pl": -769.656226,
+      "unrealized_plpc": -3.3459999999999996
     },
     {
       "symbol": "GEV",
       "name": "",
       "qty": 24.599267925,
       "avg_entry_price": 1016.29,
-      "current_price": 1061.0,
+      "current_price": 1063.25,
       "cost_basis": 24999.989999,
-      "market_value": 26099.823268,
-      "unrealized_pl": 1099.833269,
-      "unrealized_plpc": 4.399
+      "market_value": 26155.171621,
+      "unrealized_pl": 1155.181622,
+      "unrealized_plpc": 4.621
     },
     {
       "symbol": "HAL",
@@ -154,22 +154,22 @@
       "name": "",
       "qty": 25.527896908,
       "avg_entry_price": 489.66,
-      "current_price": 484.96,
+      "current_price": 480.883,
       "cost_basis": 12499.99,
-      "market_value": 12380.008885,
-      "unrealized_pl": -119.981115,
-      "unrealized_plpc": -0.96
+      "market_value": 12275.931649,
+      "unrealized_pl": -224.058351,
+      "unrealized_plpc": -1.7919999999999998
     },
     {
       "symbol": "MNST",
       "name": "",
       "qty": 483.941706995,
       "avg_entry_price": 45.46,
-      "current_price": 46.82,
+      "current_price": 46.9579,
       "cost_basis": 21999.99,
-      "market_value": 22658.150722,
-      "unrealized_pl": 658.160722,
-      "unrealized_plpc": 2.992
+      "market_value": 22724.886283,
+      "unrealized_pl": 724.896283,
+      "unrealized_plpc": 3.295
     },
     {
       "symbol": "MO",
@@ -198,11 +198,11 @@
       "name": "",
       "qty": 607.180042238,
       "avg_entry_price": 18.94,
-      "current_price": 19.0,
+      "current_price": 19.029,
       "cost_basis": 11499.99,
-      "market_value": 11536.420803,
-      "unrealized_pl": 36.430803,
-      "unrealized_plpc": 0.317
+      "market_value": 11554.029024,
+      "unrealized_pl": 54.039024,
+      "unrealized_plpc": 0.47000000000000003
     },
     {
       "symbol": "NRG",
