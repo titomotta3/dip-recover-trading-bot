@@ -279,3 +279,4 @@ timestamp_utc,action,symbol,detail
 2026-08-13T19:39:57+00:00,SELL,WDAY,gain=19.22% qty=57.673395236 reason=target_reached
 2026-08-13T19:40:33+00:00,BUY,LITE,drop=-5.26% notional=$20000.00 news=clear(10)
 2026-08-14T14:16:29+00:00,SELL,CSCO,gain=-3.23% qty=173.551418901 reason=bad_news:downgrade
+2026-08-14T15:11:26+00:00,BUY,AVGO,drop=-5.32% notional=$20000.00 news=clear(7)

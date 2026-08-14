@@ -1,22 +1,22 @@
 {
-  "updated_utc": "2026-08-14T14:17:08+00:00",
+  "updated_utc": "2026-08-14T15:11:26+00:00",
   "drop_threshold_pct": -5.0,
   "high_conviction_pct": -8.0,
   "stocks": [
     {
-      "symbol": "WDAY",
-      "name": "Workday, Inc.",
-      "sector": "Information Technology",
-      "pct_change": -4.843787913693716,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
       "symbol": "AVGO",
       "name": "Broadcom",
       "sector": "Information Technology",
-      "pct_change": -4.592887392899605,
+      "pct_change": -5.32287117947786,
+      "conviction": "buy_signal",
+      "status": "bought",
+      "news_bad": false
+    },
+    {
+      "symbol": "WDAY",
+      "name": "Workday, Inc.",
+      "sector": "Information Technology",
+      "pct_change": -4.877690585751994,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
@@ -25,7 +25,7 @@
       "symbol": "AMAT",
       "name": "Applied Materials",
       "sector": "Information Technology",
-      "pct_change": -4.3214682784223575,
+      "pct_change": -4.437454947833974,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
@@ -34,52 +34,7 @@
       "symbol": "GDDY",
       "name": "GoDaddy",
       "sector": "Information Technology",
-      "pct_change": -3.990051876846237,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "NOW",
-      "name": "ServiceNow",
-      "sector": "Information Technology",
-      "pct_change": -3.669939621960953,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "FTNT",
-      "name": "Fortinet",
-      "sector": "Information Technology",
-      "pct_change": -3.570781632933897,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "IT",
-      "name": "Gartner",
-      "sector": "Information Technology",
-      "pct_change": -3.352429989172337,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "PANW",
-      "name": "Palo Alto Networks",
-      "sector": "Information Technology",
-      "pct_change": -3.270205102785669,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "CRWD",
-      "name": "CrowdStrike",
-      "sector": "Information Technology",
-      "pct_change": -3.196910164547026,
+      "pct_change": -4.373130988125777,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
@@ -88,7 +43,7 @@
       "symbol": "COIN",
       "name": "Coinbase",
       "sector": "Financials",
-      "pct_change": -3.1383929589460227,
+      "pct_change": -3.1254046454537434,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
@@ -97,7 +52,7 @@
       "symbol": "INTU",
       "name": "Intuit",
       "sector": "Information Technology",
-      "pct_change": -3.045020347180989,
+      "pct_change": -3.032465458938659,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
