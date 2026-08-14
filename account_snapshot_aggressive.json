@@ -1,7 +1,7 @@
 {
-  "updated_utc": "2026-08-14T21:36:01+00:00",
+  "updated_utc": "2026-08-14T21:57:15+00:00",
   "paper": true,
-  "equity": 558340.64,
+  "equity": 558283.36,
   "cash": 146578.96,
   "buying_power": 146578.96,
   "starting_equity": 500000.0,
@@ -88,11 +88,11 @@
       "name": "",
       "qty": 31.7680067,
       "avg_entry_price": 346.26,
-      "current_price": 326.3,
+      "current_price": 326.0205,
       "cost_basis": 10999.99,
-      "market_value": 10365.900586,
-      "unrealized_pl": -634.089414,
-      "unrealized_plpc": -5.763999999999999
+      "market_value": 10357.021428,
+      "unrealized_pl": -642.968572,
+      "unrealized_plpc": -5.845000000000001
     },
     {
       "symbol": "CTVA",
@@ -121,11 +121,11 @@
       "name": "",
       "qty": 383.207298374,
       "avg_entry_price": 32.619394,
-      "current_price": 34.6207,
+      "current_price": 34.49,
       "cost_basis": 12499.989849,
-      "market_value": 13266.904915,
-      "unrealized_pl": 766.915066,
-      "unrealized_plpc": 6.135
+      "market_value": 13216.819721,
+      "unrealized_pl": 716.829872,
+      "unrealized_plpc": 5.734999999999999
     },
     {
       "symbol": "LHX",
@@ -176,11 +176,11 @@
       "name": "",
       "qty": 169.018077601,
       "avg_entry_price": 68.04,
-      "current_price": 65.76,
+      "current_price": 65.77,
       "cost_basis": 11499.99,
-      "market_value": 11114.628783,
-      "unrealized_pl": -385.361217,
-      "unrealized_plpc": -3.351
+      "market_value": 11116.318964,
+      "unrealized_pl": -383.671036,
+      "unrealized_plpc": -3.3360000000000003
     },
     {
       "symbol": "MSCI",
