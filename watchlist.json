@@ -1,58 +1,103 @@
 {
-  "updated_utc": "2026-08-13T19:40:33+00:00",
+  "updated_utc": "2026-08-14T14:17:08+00:00",
   "drop_threshold_pct": -5.0,
   "high_conviction_pct": -8.0,
   "stocks": [
     {
-      "symbol": "LITE",
-      "name": "Lumentum",
+      "symbol": "WDAY",
+      "name": "Workday, Inc.",
       "sector": "Information Technology",
-      "pct_change": -5.261295173033859,
-      "conviction": "buy_signal",
-      "status": "bought",
-      "news_bad": false
+      "pct_change": -4.843787913693716,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
     },
     {
-      "symbol": "GLW",
-      "name": "Corning Inc.",
+      "symbol": "AVGO",
+      "name": "Broadcom",
       "sector": "Information Technology",
-      "pct_change": -4.93311612827735,
+      "pct_change": -4.592887392899605,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
     },
     {
-      "symbol": "MOS",
-      "name": "Mosaic Company (The)",
-      "sector": "Materials",
-      "pct_change": -4.561947433303775,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "MPWR",
-      "name": "Monolithic Power Systems",
+      "symbol": "AMAT",
+      "name": "Applied Materials",
       "sector": "Information Technology",
-      "pct_change": -3.634363176930809,
+      "pct_change": -4.3214682784223575,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
     },
     {
-      "symbol": "FCX",
-      "name": "Freeport-McMoRan",
-      "sector": "Materials",
-      "pct_change": -3.3082936653321284,
+      "symbol": "GDDY",
+      "name": "GoDaddy",
+      "sector": "Information Technology",
+      "pct_change": -3.990051876846237,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
     },
     {
-      "symbol": "NEM",
-      "name": "Newmont",
-      "sector": "Materials",
-      "pct_change": -3.1398481527722852,
+      "symbol": "NOW",
+      "name": "ServiceNow",
+      "sector": "Information Technology",
+      "pct_change": -3.669939621960953,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "FTNT",
+      "name": "Fortinet",
+      "sector": "Information Technology",
+      "pct_change": -3.570781632933897,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "IT",
+      "name": "Gartner",
+      "sector": "Information Technology",
+      "pct_change": -3.352429989172337,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "PANW",
+      "name": "Palo Alto Networks",
+      "sector": "Information Technology",
+      "pct_change": -3.270205102785669,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "CRWD",
+      "name": "CrowdStrike",
+      "sector": "Information Technology",
+      "pct_change": -3.196910164547026,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "COIN",
+      "name": "Coinbase",
+      "sector": "Financials",
+      "pct_change": -3.1383929589460227,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "INTU",
+      "name": "Intuit",
+      "sector": "Information Technology",
+      "pct_change": -3.045020347180989,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
