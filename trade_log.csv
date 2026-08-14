@@ -281,3 +281,5 @@ timestamp_utc,action,symbol,detail
 2026-08-14T14:16:29+00:00,SELL,CSCO,gain=-3.23% qty=173.551418901 reason=bad_news:downgrade
 2026-08-14T15:11:26+00:00,BUY,AVGO,drop=-5.32% notional=$20000.00 news=clear(7)
 2026-08-14T16:07:42+00:00,BUY,AMAT,drop=-5.49% notional=$20000.00 news=clear(10)
+2026-08-14T17:09:38+00:00,SELL,AMAT,gain=0.09% qty=39.522547624 reason=bad_news:warns
+2026-08-14T17:09:38+00:00,SELL,AVGO,gain=-0.58% qty=50.5458704 reason=bad_news:plunges

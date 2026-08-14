@@ -1,22 +1,31 @@
 {
-  "updated_utc": "2026-08-14T16:07:42+00:00",
+  "updated_utc": "2026-08-14T17:10:19+00:00",
   "drop_threshold_pct": -5.0,
   "high_conviction_pct": -8.0,
   "stocks": [
     {
+      "symbol": "AVGO",
+      "name": "Broadcom",
+      "sector": "Information Technology",
+      "pct_change": -5.851805030499317,
+      "conviction": "buy_signal",
+      "status": "blocked_news",
+      "news_bad": true
+    },
+    {
       "symbol": "AMAT",
       "name": "Applied Materials",
       "sector": "Information Technology",
-      "pct_change": -5.493506836054247,
+      "pct_change": -5.2605914909082685,
       "conviction": "buy_signal",
-      "status": "bought",
-      "news_bad": false
+      "status": "blocked_news",
+      "news_bad": true
     },
     {
       "symbol": "CIEN",
       "name": "Ciena",
       "sector": "Information Technology",
-      "pct_change": -3.7602460704113203,
+      "pct_change": -4.363243738879148,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
@@ -25,7 +34,7 @@
       "symbol": "GDDY",
       "name": "GoDaddy",
       "sector": "Information Technology",
-      "pct_change": -3.577115642490672,
+      "pct_change": -3.920400439210199,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
@@ -34,7 +43,16 @@
       "symbol": "KLAC",
       "name": "KLA Corporation",
       "sector": "Information Technology",
-      "pct_change": -3.4818710685131817,
+      "pct_change": -3.5081441429045355,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "HPQ",
+      "name": "HP Inc.",
+      "sector": "Information Technology",
+      "pct_change": -3.450479073581856,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
@@ -43,7 +61,61 @@
       "symbol": "WDAY",
       "name": "Workday, Inc.",
       "sector": "Information Technology",
-      "pct_change": -3.3107249000307246,
+      "pct_change": -3.422137343590019,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "INTU",
+      "name": "Intuit",
+      "sector": "Information Technology",
+      "pct_change": -3.354829675565164,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "ARES",
+      "name": "Ares Management",
+      "sector": "Financials",
+      "pct_change": -3.3389028680295945,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "TTD",
+      "name": "Trade Desk (The)",
+      "sector": "Communication Services",
+      "pct_change": -3.074178240283608,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "CRWD",
+      "name": "CrowdStrike",
+      "sector": "Information Technology",
+      "pct_change": -3.055025684805228,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "BX",
+      "name": "Blackstone Inc.",
+      "sector": "Financials",
+      "pct_change": -3.053852527264916,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "PANW",
+      "name": "Palo Alto Networks",
+      "sector": "Information Technology",
+      "pct_change": -3.010104400943024,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
