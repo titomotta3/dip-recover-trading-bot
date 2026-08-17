@@ -290,3 +290,5 @@ timestamp_utc,action,symbol,detail
 2026-08-17T14:42:13+00:00,BUY,STZ,drop=-5.24% notional=$20000.00 news=none
 2026-08-17T15:58:00+00:00,BUY,CHTR,drop=-5.16% notional=$20000.00 news=none
 2026-08-17T17:02:18+00:00,BUY,TTD,drop=-5.02% notional=$20000.00 news=clear(2)
+2026-08-17T17:37:48+00:00,SELL,EOG,gain=7.25% qty=74.106936416 reason=target_reached
+2026-08-17T17:38:35+00:00,BUY,ALGN,drop=-5.76% notional=$20000.00 news=clear(1)
