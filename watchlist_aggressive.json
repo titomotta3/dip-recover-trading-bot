@@ -1,16 +1,6 @@
 {
-  "updated_utc": "2026-08-17T15:59:03+00:00",
+  "updated_utc": "2026-08-17T16:38:31+00:00",
   "drop_threshold_pct": -8.0,
   "high_conviction_pct": -11.0,
-  "stocks": [
-    {
-      "symbol": "STZ",
-      "name": "Constellation Brands",
-      "sector": "Consumer Staples",
-      "pct_change": -6.168265488472038,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    }
-  ]
+  "stocks": []
 }
