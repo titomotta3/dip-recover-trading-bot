@@ -286,3 +286,4 @@ timestamp_utc,action,symbol,detail
 2026-08-14T19:57:50+00:00,BUY,GDDY,drop=-5.88% notional=$20000.00 news=none
 2026-08-17T13:40:43+00:00,SELL,COHR,gain=-2.33% qty=28.904211347 reason=bad_news:lawsuit
 2026-08-17T13:40:43+00:00,SELL,LITE,gain=6.76% qty=22.650302371 reason=bad_news:lawsuit
+2026-08-17T14:05:31+00:00,SELL,GEV,gain=7.03% qty=9.910007135 reason=target_reached
