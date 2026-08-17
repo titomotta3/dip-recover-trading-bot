@@ -1,7 +1,7 @@
 {
-  "updated_utc": "2026-08-17T21:44:45+00:00",
+  "updated_utc": "2026-08-17T22:03:21+00:00",
   "paper": true,
-  "equity": 551575.09,
+  "equity": 551572.94,
   "cash": 157335.2,
   "buying_power": 157335.2,
   "starting_equity": 500000.0,
@@ -121,11 +121,11 @@
       "name": "",
       "qty": 42.669993692,
       "avg_entry_price": 269.51,
-      "current_price": 279.5,
+      "current_price": 279.93,
       "cost_basis": 11499.99,
-      "market_value": 11926.263237,
-      "unrealized_pl": 426.273237,
-      "unrealized_plpc": 3.707
+      "market_value": 11944.611334,
+      "unrealized_pl": 444.621334,
+      "unrealized_plpc": 3.866
     },
     {
       "symbol": "LII",
@@ -165,11 +165,11 @@
       "name": "",
       "qty": 169.018077601,
       "avg_entry_price": 68.04,
-      "current_price": 64.14,
+      "current_price": 64.1393,
       "cost_basis": 11499.99,
-      "market_value": 10840.819497,
-      "unrealized_pl": -659.170503,
-      "unrealized_plpc": -5.732
+      "market_value": 10840.701185,
+      "unrealized_pl": -659.288815,
+      "unrealized_plpc": -5.733
     },
     {
       "symbol": "MSCI",
@@ -187,11 +187,11 @@
       "name": "",
       "qty": 607.180042238,
       "avg_entry_price": 18.94,
-      "current_price": 18.2922,
+      "current_price": 18.25,
       "cost_basis": 11499.99,
-      "market_value": 11106.658769,
-      "unrealized_pl": -393.331231,
-      "unrealized_plpc": -3.42
+      "market_value": 11081.035771,
+      "unrealized_pl": -418.954229,
+      "unrealized_plpc": -3.643
     },
     {
       "symbol": "NRG",
@@ -209,11 +209,11 @@
       "name": "",
       "qty": 156.621851898,
       "avg_entry_price": 79.81,
-      "current_price": 85.89,
+      "current_price": 85.9235,
       "cost_basis": 12499.99,
-      "market_value": 13452.25086,
-      "unrealized_pl": 952.26086,
-      "unrealized_plpc": 7.617999999999999
+      "market_value": 13457.497692,
+      "unrealized_pl": 957.507692,
+      "unrealized_plpc": 7.66
     },
     {
       "symbol": "SBAC",
