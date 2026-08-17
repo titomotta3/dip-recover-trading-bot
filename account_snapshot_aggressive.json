@@ -1,7 +1,7 @@
 {
-  "updated_utc": "2026-08-17T20:51:06+00:00",
+  "updated_utc": "2026-08-17T21:15:31+00:00",
   "paper": true,
-  "equity": 551735.1,
+  "equity": 551844.08,
   "cash": 157335.2,
   "buying_power": 157335.2,
   "starting_equity": 500000.0,
@@ -44,11 +44,11 @@
       "name": "",
       "qty": 36.448432716,
       "avg_entry_price": 342.95,
-      "current_price": 341.31,
+      "current_price": 341.3,
       "cost_basis": 12499.99,
-      "market_value": 12440.21457,
-      "unrealized_pl": -59.77543,
-      "unrealized_plpc": -0.47800000000000004
+      "market_value": 12439.850086,
+      "unrealized_pl": -60.139914,
+      "unrealized_plpc": -0.481
     },
     {
       "symbol": "CCI",
@@ -99,11 +99,11 @@
       "name": "",
       "qty": 24.599267925,
       "avg_entry_price": 1016.29,
-      "current_price": 1081.16,
+      "current_price": 1084.2885,
       "cost_basis": 24999.989999,
-      "market_value": 26595.74451,
-      "unrealized_pl": 1595.754511,
-      "unrealized_plpc": 6.383
+      "market_value": 26672.703319,
+      "unrealized_pl": 1672.71332,
+      "unrealized_plpc": 6.691
     },
     {
       "symbol": "HAL",
@@ -121,11 +121,11 @@
       "name": "",
       "qty": 42.669993692,
       "avg_entry_price": 269.51,
-      "current_price": 279.1,
+      "current_price": 279.3528,
       "cost_basis": 11499.99,
-      "market_value": 11909.195239,
-      "unrealized_pl": 409.205239,
-      "unrealized_plpc": 3.558
+      "market_value": 11919.982214,
+      "unrealized_pl": 419.992214,
+      "unrealized_plpc": 3.6519999999999997
     },
     {
       "symbol": "LII",
@@ -165,11 +165,11 @@
       "name": "",
       "qty": 169.018077601,
       "avg_entry_price": 68.04,
-      "current_price": 64.08,
+      "current_price": 64.1,
       "cost_basis": 11499.99,
-      "market_value": 10830.678413,
-      "unrealized_pl": -669.311587,
-      "unrealized_plpc": -5.82
+      "market_value": 10834.058774,
+      "unrealized_pl": -665.931226,
+      "unrealized_plpc": -5.791
     },
     {
       "symbol": "MSCI",
@@ -187,11 +187,11 @@
       "name": "",
       "qty": 607.180042238,
       "avg_entry_price": 18.94,
-      "current_price": 18.21,
+      "current_price": 18.24,
       "cost_basis": 11499.99,
-      "market_value": 11056.748569,
-      "unrealized_pl": -443.241431,
-      "unrealized_plpc": -3.8539999999999996
+      "market_value": 11074.96397,
+      "unrealized_pl": -425.02603,
+      "unrealized_plpc": -3.696
     },
     {
       "symbol": "NRG",
