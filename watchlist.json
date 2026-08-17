@@ -1,13 +1,13 @@
 {
-  "updated_utc": "2026-08-17T15:04:40+00:00",
+  "updated_utc": "2026-08-17T15:36:34+00:00",
   "drop_threshold_pct": -5.0,
   "high_conviction_pct": -8.0,
   "stocks": [
     {
-      "symbol": "TAP",
-      "name": "Molson Coors Beverage Company",
-      "sector": "Consumer Staples",
-      "pct_change": -4.327803880502313,
+      "symbol": "CHTR",
+      "name": "Charter Communications",
+      "sector": "Communication Services",
+      "pct_change": -4.965322778225124,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
@@ -16,88 +16,16 @@
       "symbol": "TTD",
       "name": "Trade Desk (The)",
       "sector": "Communication Services",
-      "pct_change": -3.8543144488062717,
+      "pct_change": -4.207922578373783,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
     },
     {
-      "symbol": "CHTR",
-      "name": "Charter Communications",
-      "sector": "Communication Services",
-      "pct_change": -3.8388607826184917,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "SMCI",
-      "name": "Supermicro",
-      "sector": "Information Technology",
-      "pct_change": -3.811997088803835,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "KKR",
-      "name": "KKR & Co.",
-      "sector": "Financials",
-      "pct_change": -3.789140964721897,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "NOW",
-      "name": "ServiceNow",
-      "sector": "Information Technology",
-      "pct_change": -3.7620975125220517,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "IT",
-      "name": "Gartner",
-      "sector": "Information Technology",
-      "pct_change": -3.7246646714831266,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "BLDR",
-      "name": "Builders FirstSource",
-      "sector": "Industrials",
-      "pct_change": -3.516760414607233,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "ADBE",
-      "name": "Adobe Inc.",
-      "sector": "Information Technology",
-      "pct_change": -3.507308117627572,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "KDP",
-      "name": "Keurig Dr Pepper",
+      "symbol": "TAP",
+      "name": "Molson Coors Beverage Company",
       "sector": "Consumer Staples",
-      "pct_change": -3.4033068595693363,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "EQT",
-      "name": "EQT Corporation",
-      "sector": "Energy",
-      "pct_change": -3.362730756947558,
+      "pct_change": -4.115038852918672,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
@@ -106,7 +34,7 @@
       "symbol": "CNC",
       "name": "Centene Corporation",
       "sector": "Health Care",
-      "pct_change": -3.349786983056797,
+      "pct_change": -4.083303442963521,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
@@ -115,7 +43,52 @@
       "symbol": "LHX",
       "name": "L3Harris",
       "sector": "Industrials",
-      "pct_change": -3.3102609209987746,
+      "pct_change": -4.057294236421603,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "ADBE",
+      "name": "Adobe Inc.",
+      "sector": "Information Technology",
+      "pct_change": -4.009162902635375,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "NOW",
+      "name": "ServiceNow",
+      "sector": "Information Technology",
+      "pct_change": -3.8709702030304936,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "WDAY",
+      "name": "Workday, Inc.",
+      "sector": "Information Technology",
+      "pct_change": -3.8101431168174473,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "KDP",
+      "name": "Keurig Dr Pepper",
+      "sector": "Consumer Staples",
+      "pct_change": -3.6736662437214163,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "BLDR",
+      "name": "Builders FirstSource",
+      "sector": "Industrials",
+      "pct_change": -3.6270925463100867,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
@@ -124,16 +97,43 @@
       "symbol": "CVNA",
       "name": "Carvana",
       "sector": "Consumer Discretionary",
-      "pct_change": -3.2477765849944267,
+      "pct_change": -3.532211004496286,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
     },
     {
-      "symbol": "GEN",
-      "name": "Gen Digital",
+      "symbol": "FIS",
+      "name": "Fidelity National Information Services",
+      "sector": "Financials",
+      "pct_change": -3.5298216548960912,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "IT",
+      "name": "Gartner",
       "sector": "Information Technology",
-      "pct_change": -3.2127774679973284,
+      "pct_change": -3.5286319061631217,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "ALGN",
+      "name": "Align Technology",
+      "sector": "Health Care",
+      "pct_change": -3.478845734995454,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "FISV",
+      "name": "Fiserv",
+      "sector": "Financials",
+      "pct_change": -3.474902391721932,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
