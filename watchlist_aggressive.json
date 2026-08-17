@@ -1,13 +1,31 @@
 {
-  "updated_utc": "2026-08-17T19:28:13+00:00",
+  "updated_utc": "2026-08-17T19:54:40+00:00",
   "drop_threshold_pct": -8.0,
   "high_conviction_pct": -11.0,
   "stocks": [
     {
+      "symbol": "CVNA",
+      "name": "Carvana",
+      "sector": "Consumer Discretionary",
+      "pct_change": -7.011503742733454,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
       "symbol": "STZ",
       "name": "Constellation Brands",
       "sector": "Consumer Staples",
-      "pct_change": -6.387411882078213,
+      "pct_change": -6.509554559108899,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "CHTR",
+      "name": "Charter Communications",
+      "sector": "Communication Services",
+      "pct_change": -6.174245732469826,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
