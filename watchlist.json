@@ -1,40 +1,13 @@
 {
-  "updated_utc": "2026-08-17T15:58:00+00:00",
+  "updated_utc": "2026-08-17T16:37:19+00:00",
   "drop_threshold_pct": -5.0,
   "high_conviction_pct": -8.0,
   "stocks": [
     {
-      "symbol": "CHTR",
-      "name": "Charter Communications",
-      "sector": "Communication Services",
-      "pct_change": -5.156544766152413,
-      "conviction": "buy_signal",
-      "status": "bought",
-      "news_bad": false
-    },
-    {
-      "symbol": "ADBE",
-      "name": "Adobe Inc.",
-      "sector": "Information Technology",
-      "pct_change": -4.423904689722724,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "TTD",
-      "name": "Trade Desk (The)",
-      "sector": "Communication Services",
-      "pct_change": -4.420084758308651,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "CNC",
-      "name": "Centene Corporation",
+      "symbol": "ALGN",
+      "name": "Align Technology",
       "sector": "Health Care",
-      "pct_change": -4.3278466223731344,
+      "pct_change": -4.5336723464720565,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
@@ -43,25 +16,16 @@
       "symbol": "TAP",
       "name": "Molson Coors Beverage Company",
       "sector": "Consumer Staples",
-      "pct_change": -4.325467077432645,
+      "pct_change": -4.524202367502597,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
     },
     {
-      "symbol": "LHX",
-      "name": "L3Harris",
-      "sector": "Industrials",
-      "pct_change": -4.232062844750217,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "ALGN",
-      "name": "Align Technology",
-      "sector": "Health Care",
-      "pct_change": -4.14759493338513,
+      "symbol": "ADBE",
+      "name": "Adobe Inc.",
+      "sector": "Information Technology",
+      "pct_change": -4.49397421714179,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
@@ -70,16 +34,7 @@
       "symbol": "NOW",
       "name": "ServiceNow",
       "sector": "Information Technology",
-      "pct_change": -4.0201617825415825,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "KDP",
-      "name": "Keurig Dr Pepper",
-      "sector": "Consumer Staples",
-      "pct_change": -3.928118922942571,
+      "pct_change": -4.369354248046875,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
@@ -88,7 +43,16 @@
       "symbol": "WDAY",
       "name": "Workday, Inc.",
       "sector": "Information Technology",
-      "pct_change": -3.855440248490633,
+      "pct_change": -4.2530688845109,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "TTD",
+      "name": "Trade Desk (The)",
+      "sector": "Communication Services",
+      "pct_change": -4.207922578373783,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
@@ -97,25 +61,25 @@
       "symbol": "NKE",
       "name": "Nike, Inc.",
       "sector": "Consumer Discretionary",
-      "pct_change": -3.8423732980554224,
+      "pct_change": -3.8853436669515435,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
     },
     {
-      "symbol": "FISV",
-      "name": "Fiserv",
-      "sector": "Financials",
-      "pct_change": -3.6403742681658566,
+      "symbol": "SMCI",
+      "name": "Supermicro",
+      "sector": "Information Technology",
+      "pct_change": -3.7901564150348483,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
     },
     {
-      "symbol": "BLDR",
-      "name": "Builders FirstSource",
-      "sector": "Industrials",
-      "pct_change": -3.5788182929958876,
+      "symbol": "CNC",
+      "name": "Centene Corporation",
+      "sector": "Health Care",
+      "pct_change": -3.7794619914359,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
@@ -124,16 +88,52 @@
       "symbol": "VRSN",
       "name": "Verisign",
       "sector": "Information Technology",
-      "pct_change": -3.5744455429131445,
+      "pct_change": -3.7468316431135316,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
     },
     {
-      "symbol": "FIS",
-      "name": "Fidelity National Information Services",
+      "symbol": "LHX",
+      "name": "L3Harris",
+      "sector": "Industrials",
+      "pct_change": -3.6803579200862377,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "KDP",
+      "name": "Keurig Dr Pepper",
+      "sector": "Consumer Staples",
+      "pct_change": -3.594150918958008,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "FISV",
+      "name": "Fiserv",
       "sector": "Financials",
-      "pct_change": -3.5647689761643626,
+      "pct_change": -3.576024483637691,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "CVNA",
+      "name": "Carvana",
+      "sector": "Consumer Discretionary",
+      "pct_change": -3.5586650910622133,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "META",
+      "name": "Meta Platforms",
+      "sector": "Communication Services",
+      "pct_change": -3.496951915449568,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
