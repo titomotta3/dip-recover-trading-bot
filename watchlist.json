@@ -1,139 +1,49 @@
 {
-  "updated_utc": "2026-08-14T19:57:50+00:00",
+  "updated_utc": "2026-08-17T13:41:52+00:00",
   "drop_threshold_pct": -5.0,
   "high_conviction_pct": -8.0,
   "stocks": [
     {
-      "symbol": "AVGO",
-      "name": "Broadcom",
-      "sector": "Information Technology",
-      "pct_change": -6.124645993324435,
-      "conviction": "buy_signal",
-      "status": "blocked_news",
-      "news_bad": true
-    },
-    {
-      "symbol": "GDDY",
-      "name": "GoDaddy",
-      "sector": "Information Technology",
-      "pct_change": -5.875620675917288,
-      "conviction": "buy_signal",
-      "status": "bought",
-      "news_bad": false
-    },
-    {
-      "symbol": "AMAT",
-      "name": "Applied Materials",
-      "sector": "Information Technology",
-      "pct_change": -5.335426756838937,
-      "conviction": "buy_signal",
-      "status": "blocked_news",
-      "news_bad": true
-    },
-    {
-      "symbol": "CRWD",
-      "name": "CrowdStrike",
-      "sector": "Information Technology",
-      "pct_change": -3.9373941076027106,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "WDAY",
-      "name": "Workday, Inc.",
-      "sector": "Information Technology",
-      "pct_change": -3.879871458096497,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "ORCL",
-      "name": "Oracle Corporation",
-      "sector": "Information Technology",
-      "pct_change": -3.8663477773174026,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "GEN",
-      "name": "Gen Digital",
-      "sector": "Information Technology",
-      "pct_change": -3.85525668384764,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "HOOD",
-      "name": "Robinhood Markets",
-      "sector": "Financials",
-      "pct_change": -3.7133967388696414,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "HPQ",
-      "name": "HP Inc.",
-      "sector": "Information Technology",
-      "pct_change": -3.690092036581607,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "INTU",
-      "name": "Intuit",
-      "sector": "Information Technology",
-      "pct_change": -3.6339331884041552,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "ARES",
-      "name": "Ares Management",
-      "sector": "Financials",
-      "pct_change": -3.5797865198882417,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "VEEV",
-      "name": "Veeva Systems",
+      "symbol": "CNC",
+      "name": "Centene Corporation",
       "sector": "Health Care",
-      "pct_change": -3.540608014186132,
+      "pct_change": -4.32043999227449,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
     },
     {
-      "symbol": "BX",
-      "name": "Blackstone Inc.",
-      "sector": "Financials",
-      "pct_change": -3.465713097991832,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "FTNT",
-      "name": "Fortinet",
+      "symbol": "SMCI",
+      "name": "Supermicro",
       "sector": "Information Technology",
-      "pct_change": -3.393982960773181,
+      "pct_change": -4.141570079215291,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
     },
     {
-      "symbol": "COIN",
-      "name": "Coinbase",
-      "sector": "Financials",
-      "pct_change": -3.3593231799753918,
+      "symbol": "STZ",
+      "name": "Constellation Brands",
+      "sector": "Consumer Staples",
+      "pct_change": -3.2799162400096478,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "TAP",
+      "name": "Molson Coors Beverage Company",
+      "sector": "Consumer Staples",
+      "pct_change": -3.226563136182372,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "CVNA",
+      "name": "Carvana",
+      "sector": "Consumer Discretionary",
+      "pct_change": -3.0361136130852144,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
