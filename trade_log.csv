@@ -289,3 +289,4 @@ timestamp_utc,action,symbol,detail
 2026-08-17T14:05:31+00:00,SELL,GEV,gain=7.03% qty=9.910007135 reason=target_reached
 2026-08-17T14:42:13+00:00,BUY,STZ,drop=-5.24% notional=$20000.00 news=none
 2026-08-17T15:58:00+00:00,BUY,CHTR,drop=-5.16% notional=$20000.00 news=none
+2026-08-17T17:02:18+00:00,BUY,TTD,drop=-5.02% notional=$20000.00 news=clear(2)
