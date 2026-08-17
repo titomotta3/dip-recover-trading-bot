@@ -1,7 +1,7 @@
 {
-  "updated_utc": "2026-08-17T21:44:20+00:00",
+  "updated_utc": "2026-08-17T22:02:53+00:00",
   "paper": true,
-  "equity": 531843.93,
+  "equity": 531903.05,
   "cash": 15135.98,
   "buying_power": 15135.98,
   "starting_equity": 500000.0,
@@ -231,11 +231,11 @@
       "name": "",
       "qty": 42.394395455,
       "avg_entry_price": 235.88,
-      "current_price": 218.0,
+      "current_price": 218.3803,
       "cost_basis": 9999.99,
-      "market_value": 9241.978209,
-      "unrealized_pl": -758.011791,
-      "unrealized_plpc": -7.580000000000001
+      "market_value": 9258.100798,
+      "unrealized_pl": -741.889202,
+      "unrealized_plpc": -7.4190000000000005
     },
     {
       "symbol": "FTV",
@@ -330,11 +330,11 @@
       "name": "",
       "qty": 123.946331184,
       "avg_entry_price": 80.68,
-      "current_price": 80.0,
+      "current_price": 80.26,
       "cost_basis": 9999.99,
-      "market_value": 9915.706495,
-      "unrealized_pl": -84.283505,
-      "unrealized_plpc": -0.843
+      "market_value": 9947.932541,
+      "unrealized_pl": -52.057459,
+      "unrealized_plpc": -0.521
     },
     {
       "symbol": "MNST",
@@ -352,11 +352,11 @@
       "name": "",
       "qty": 144.216758004,
       "avg_entry_price": 69.34,
-      "current_price": 64.14,
+      "current_price": 64.1393,
       "cost_basis": 9999.99,
-      "market_value": 9250.062858,
-      "unrealized_pl": -749.927142,
-      "unrealized_plpc": -7.4990000000000006
+      "market_value": 9249.961907,
+      "unrealized_pl": -750.028093,
+      "unrealized_plpc": -7.5
     },
     {
       "symbol": "MSCI",
@@ -462,22 +462,22 @@
       "name": "",
       "qty": 1488.094494047,
       "avg_entry_price": 13.44,
-      "current_price": 13.4287,
+      "current_price": 13.43,
       "cost_basis": 19999.99,
-      "market_value": 19983.174532,
-      "unrealized_pl": -16.815468,
-      "unrealized_plpc": -0.084
+      "market_value": 19985.109055,
+      "unrealized_pl": -14.880945,
+      "unrealized_plpc": -0.074
     },
     {
       "symbol": "TXT",
       "name": "",
       "qty": 111.346063912,
       "avg_entry_price": 89.81,
-      "current_price": 87.65,
+      "current_price": 87.96,
       "cost_basis": 9999.99,
-      "market_value": 9759.482502,
-      "unrealized_pl": -240.507498,
-      "unrealized_plpc": -2.405
+      "market_value": 9793.999782,
+      "unrealized_pl": -205.990218,
+      "unrealized_plpc": -2.06
     },
     {
       "symbol": "UPS",
@@ -495,11 +495,11 @@
       "name": "",
       "qty": 67.249428379,
       "avg_entry_price": 148.7,
-      "current_price": 146.3803,
+      "current_price": 146.0,
       "cost_basis": 9999.99,
-      "market_value": 9843.991501,
-      "unrealized_pl": -155.998499,
-      "unrealized_plpc": -1.5599999999999998
+      "market_value": 9818.416543,
+      "unrealized_pl": -181.573457,
+      "unrealized_plpc": -1.8159999999999998
     },
     {
       "symbol": "WST",
