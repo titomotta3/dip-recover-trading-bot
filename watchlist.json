@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-08-18T14:18:28+00:00",
+  "updated_utc": "2026-08-18T14:57:41+00:00",
   "drop_threshold_pct": -5.0,
   "high_conviction_pct": -8.0,
   "stocks": [
@@ -7,7 +7,16 @@
       "symbol": "CVNA",
       "name": "Carvana",
       "sector": "Consumer Discretionary",
-      "pct_change": -13.030822795772028,
+      "pct_change": -13.77165833714517,
+      "conviction": "high",
+      "status": "order_failed",
+      "news_bad": false
+    },
+    {
+      "symbol": "SMCI",
+      "name": "Supermicro",
+      "sector": "Information Technology",
+      "pct_change": -8.258034394896043,
       "conviction": "high",
       "status": "order_failed",
       "news_bad": false
@@ -16,43 +25,7 @@
       "symbol": "META",
       "name": "Meta Platforms",
       "sector": "Communication Services",
-      "pct_change": -7.189959294717709,
-      "conviction": "buy_signal",
-      "status": "order_failed",
-      "news_bad": false
-    },
-    {
-      "symbol": "AMD",
-      "name": "Advanced Micro Devices",
-      "sector": "Information Technology",
-      "pct_change": -6.773076044114182,
-      "conviction": "buy_signal",
-      "status": "bought",
-      "news_bad": false
-    },
-    {
-      "symbol": "SMCI",
-      "name": "Supermicro",
-      "sector": "Information Technology",
-      "pct_change": -6.72690837076138,
-      "conviction": "buy_signal",
-      "status": "order_failed",
-      "news_bad": false
-    },
-    {
-      "symbol": "NCLH",
-      "name": "Norwegian Cruise Line Holdings",
-      "sector": "Consumer Discretionary",
-      "pct_change": -6.601794071567212,
-      "conviction": "buy_signal",
-      "status": "blocked_news",
-      "news_bad": true
-    },
-    {
-      "symbol": "SWKS",
-      "name": "Skyworks Solutions",
-      "sector": "Information Technology",
-      "pct_change": -6.427759159683923,
+      "pct_change": -6.872930356074471,
       "conviction": "buy_signal",
       "status": "order_failed",
       "news_bad": false
@@ -61,7 +34,25 @@
       "symbol": "VRT",
       "name": "Vertiv",
       "sector": "Industrials",
-      "pct_change": -6.135992037844955,
+      "pct_change": -6.598823976489085,
+      "conviction": "buy_signal",
+      "status": "order_failed",
+      "news_bad": false
+    },
+    {
+      "symbol": "MPWR",
+      "name": "Monolithic Power Systems",
+      "sector": "Information Technology",
+      "pct_change": -6.558089294579681,
+      "conviction": "buy_signal",
+      "status": "order_failed",
+      "news_bad": false
+    },
+    {
+      "symbol": "CIEN",
+      "name": "Ciena",
+      "sector": "Information Technology",
+      "pct_change": -6.4953183057430515,
       "conviction": "buy_signal",
       "status": "order_failed",
       "news_bad": false
@@ -70,34 +61,25 @@
       "symbol": "INTC",
       "name": "Intel",
       "sector": "Information Technology",
-      "pct_change": -5.931709103467988,
+      "pct_change": -6.2829292111280495,
       "conviction": "buy_signal",
       "status": "blocked_news",
       "news_bad": true
     },
     {
-      "symbol": "MPWR",
-      "name": "Monolithic Power Systems",
+      "symbol": "AKAM",
+      "name": "Akamai Technologies",
       "sector": "Information Technology",
-      "pct_change": -5.462154729372397,
+      "pct_change": -6.184491447039005,
       "conviction": "buy_signal",
       "status": "order_failed",
       "news_bad": false
     },
     {
-      "symbol": "FDXF",
-      "name": "FedEx Freight",
-      "sector": "Industrials",
-      "pct_change": -5.316382055565793,
-      "conviction": "buy_signal",
-      "status": "order_failed",
-      "news_bad": false
-    },
-    {
-      "symbol": "APO",
-      "name": "Apollo Global Management",
-      "sector": "Financials",
-      "pct_change": -5.115087545625418,
+      "symbol": "STX",
+      "name": "Seagate Technology",
+      "sector": "Information Technology",
+      "pct_change": -6.17397841009262,
       "conviction": "buy_signal",
       "status": "order_failed",
       "news_bad": false
@@ -106,37 +88,55 @@
       "symbol": "Q",
       "name": "Qnity Electronics",
       "sector": "Information Technology",
-      "pct_change": -5.070271386618567,
+      "pct_change": -6.103301034670263,
       "conviction": "buy_signal",
       "status": "order_failed",
       "news_bad": false
     },
     {
-      "symbol": "KKR",
-      "name": "KKR & Co.",
-      "sector": "Financials",
-      "pct_change": -4.9995653634194195,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
       "symbol": "ON",
       "name": "ON Semiconductor",
       "sector": "Information Technology",
-      "pct_change": -4.972175693521716,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
+      "pct_change": -5.95209966170753,
+      "conviction": "buy_signal",
+      "status": "order_failed",
+      "news_bad": false
     },
     {
-      "symbol": "QCOM",
-      "name": "Qualcomm",
+      "symbol": "NCLH",
+      "name": "Norwegian Cruise Line Holdings",
+      "sector": "Consumer Discretionary",
+      "pct_change": -5.7864301326966805,
+      "conviction": "buy_signal",
+      "status": "blocked_news",
+      "news_bad": true
+    },
+    {
+      "symbol": "KEYS",
+      "name": "Keysight Technologies",
       "sector": "Information Technology",
-      "pct_change": -4.596173126104384,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
+      "pct_change": -5.60756861849412,
+      "conviction": "buy_signal",
+      "status": "order_failed",
+      "news_bad": false
+    },
+    {
+      "symbol": "DELL",
+      "name": "Dell Technologies",
+      "sector": "Information Technology",
+      "pct_change": -5.4219578579981595,
+      "conviction": "buy_signal",
+      "status": "order_failed",
+      "news_bad": false
+    },
+    {
+      "symbol": "HPE",
+      "name": "Hewlett Packard Enterprise",
+      "sector": "Information Technology",
+      "pct_change": -5.4164543600151625,
+      "conviction": "buy_signal",
+      "status": "order_failed",
+      "news_bad": false
     }
   ]
 }
