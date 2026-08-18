@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-08-18T16:46:36+00:00",
+  "updated_utc": "2026-08-18T17:15:18+00:00",
   "drop_threshold_pct": -8.0,
   "high_conviction_pct": -11.0,
   "stocks": [
@@ -7,7 +7,7 @@
       "symbol": "TER",
       "name": "Teradyne",
       "sector": "Information Technology",
-      "pct_change": -9.712507812923961,
+      "pct_change": -10.066799294695091,
       "conviction": "buy_signal",
       "status": "order_failed",
       "news_bad": false
@@ -16,7 +16,7 @@
       "symbol": "SNDK",
       "name": "Sandisk",
       "sector": "Information Technology",
-      "pct_change": -8.980606816221618,
+      "pct_change": -9.205584827032611,
       "conviction": "buy_signal",
       "status": "order_failed",
       "news_bad": false
@@ -25,7 +25,7 @@
       "symbol": "STX",
       "name": "Seagate Technology",
       "sector": "Information Technology",
-      "pct_change": -7.980574328936299,
+      "pct_change": -7.903175228312008,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
@@ -34,43 +34,7 @@
       "symbol": "JBL",
       "name": "Jabil",
       "sector": "Information Technology",
-      "pct_change": -7.537376998216913,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "KEYS",
-      "name": "Keysight Technologies",
-      "sector": "Information Technology",
-      "pct_change": -7.483038724411688,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "VRT",
-      "name": "Vertiv",
-      "sector": "Industrials",
-      "pct_change": -7.30773027815944,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "APH",
-      "name": "Amphenol",
-      "sector": "Information Technology",
-      "pct_change": -7.271603059652071,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "FIX",
-      "name": "Comfort Systems USA",
-      "sector": "Industrials",
-      "pct_change": -7.148177682841847,
+      "pct_change": -7.408967047386275,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
@@ -79,7 +43,7 @@
       "symbol": "MU",
       "name": "Micron Technology",
       "sector": "Information Technology",
-      "pct_change": -7.129232012138622,
+      "pct_change": -7.276005953484062,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
@@ -88,7 +52,16 @@
       "symbol": "INTC",
       "name": "Intel",
       "sector": "Information Technology",
-      "pct_change": -7.097305413390593,
+      "pct_change": -7.126292542500757,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "FIX",
+      "name": "Comfort Systems USA",
+      "sector": "Industrials",
+      "pct_change": -7.121066521173993,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
@@ -97,7 +70,25 @@
       "symbol": "FLEX",
       "name": "Flex Ltd.",
       "sector": "Information Technology",
-      "pct_change": -7.0846146803635826,
+      "pct_change": -7.088458721454327,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "APH",
+      "name": "Amphenol",
+      "sector": "Information Technology",
+      "pct_change": -6.946799002976924,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "VRT",
+      "name": "Vertiv",
+      "sector": "Industrials",
+      "pct_change": -6.909341407626066,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
@@ -106,7 +97,7 @@
       "symbol": "MPWR",
       "name": "Monolithic Power Systems",
       "sector": "Information Technology",
-      "pct_change": -6.858098293158756,
+      "pct_change": -6.841149710468897,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
@@ -115,7 +106,16 @@
       "symbol": "WDC",
       "name": "Western Digital",
       "sector": "Information Technology",
-      "pct_change": -6.817038465550169,
+      "pct_change": -6.481226118733025,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "KEYS",
+      "name": "Keysight Technologies",
+      "sector": "Information Technology",
+      "pct_change": -6.158103450155283,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
@@ -124,7 +124,16 @@
       "symbol": "ON",
       "name": "ON Semiconductor",
       "sector": "Information Technology",
-      "pct_change": -6.584310439689396,
+      "pct_change": -6.092581397215042,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "LRCX",
+      "name": "Lam Research",
+      "sector": "Information Technology",
+      "pct_change": -6.031872514910647,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
