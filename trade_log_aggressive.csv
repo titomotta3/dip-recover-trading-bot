@@ -148,3 +148,5 @@ timestamp_utc,action,symbol,detail
 2026-08-13T15:32:29+00:00,BUY,CSCO,drop=-8.64% notional=$20000.00 news=clear(10)
 2026-08-14T14:17:39+00:00,SELL,CSCO,gain=-1.36% qty=176.6003532 reason=bad_news:downgrade
 2026-08-17T13:42:16+00:00,SELL,COHR,gain=-2.08% qty=31.7680067 reason=bad_news:lawsuit
+2026-08-18T13:44:52+00:00,SELL,NCLH,gain=-5.73% qty=607.180042238 reason=bad_news:downgrade
+2026-08-18T13:45:38+00:00,BUY,CVNA,drop=-8.85% notional=$20000.00 news=none
