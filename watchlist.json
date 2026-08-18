@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-08-18T14:57:41+00:00",
+  "updated_utc": "2026-08-18T15:39:21+00:00",
   "drop_threshold_pct": -5.0,
   "high_conviction_pct": -8.0,
   "stocks": [
@@ -7,7 +7,7 @@
       "symbol": "CVNA",
       "name": "Carvana",
       "sector": "Consumer Discretionary",
-      "pct_change": -13.77165833714517,
+      "pct_change": -12.766231464476432,
       "conviction": "high",
       "status": "order_failed",
       "news_bad": false
@@ -16,17 +16,8 @@
       "symbol": "SMCI",
       "name": "Supermicro",
       "sector": "Information Technology",
-      "pct_change": -8.258034394896043,
+      "pct_change": -8.069779468560203,
       "conviction": "high",
-      "status": "order_failed",
-      "news_bad": false
-    },
-    {
-      "symbol": "META",
-      "name": "Meta Platforms",
-      "sector": "Communication Services",
-      "pct_change": -6.872930356074471,
-      "conviction": "buy_signal",
       "status": "order_failed",
       "news_bad": false
     },
@@ -34,16 +25,7 @@
       "symbol": "VRT",
       "name": "Vertiv",
       "sector": "Industrials",
-      "pct_change": -6.598823976489085,
-      "conviction": "buy_signal",
-      "status": "order_failed",
-      "news_bad": false
-    },
-    {
-      "symbol": "MPWR",
-      "name": "Monolithic Power Systems",
-      "sector": "Information Technology",
-      "pct_change": -6.558089294579681,
+      "pct_change": -7.453033681398931,
       "conviction": "buy_signal",
       "status": "order_failed",
       "news_bad": false
@@ -52,25 +34,16 @@
       "symbol": "CIEN",
       "name": "Ciena",
       "sector": "Information Technology",
-      "pct_change": -6.4953183057430515,
+      "pct_change": -7.3419272046454305,
       "conviction": "buy_signal",
       "status": "order_failed",
       "news_bad": false
     },
     {
-      "symbol": "INTC",
-      "name": "Intel",
+      "symbol": "KEYS",
+      "name": "Keysight Technologies",
       "sector": "Information Technology",
-      "pct_change": -6.2829292111280495,
-      "conviction": "buy_signal",
-      "status": "blocked_news",
-      "news_bad": true
-    },
-    {
-      "symbol": "AKAM",
-      "name": "Akamai Technologies",
-      "sector": "Information Technology",
-      "pct_change": -6.184491447039005,
+      "pct_change": -6.566149079500414,
       "conviction": "buy_signal",
       "status": "order_failed",
       "news_bad": false
@@ -79,7 +52,7 @@
       "symbol": "STX",
       "name": "Seagate Technology",
       "sector": "Information Technology",
-      "pct_change": -6.17397841009262,
+      "pct_change": -6.535584623359152,
       "conviction": "buy_signal",
       "status": "order_failed",
       "news_bad": false
@@ -88,43 +61,52 @@
       "symbol": "Q",
       "name": "Qnity Electronics",
       "sector": "Information Technology",
-      "pct_change": -6.103301034670263,
+      "pct_change": -6.472246322101127,
       "conviction": "buy_signal",
       "status": "order_failed",
       "news_bad": false
     },
     {
-      "symbol": "ON",
-      "name": "ON Semiconductor",
+      "symbol": "INTC",
+      "name": "Intel",
       "sector": "Information Technology",
-      "pct_change": -5.95209966170753,
-      "conviction": "buy_signal",
-      "status": "order_failed",
-      "news_bad": false
-    },
-    {
-      "symbol": "NCLH",
-      "name": "Norwegian Cruise Line Holdings",
-      "sector": "Consumer Discretionary",
-      "pct_change": -5.7864301326966805,
+      "pct_change": -6.399997618140244,
       "conviction": "buy_signal",
       "status": "blocked_news",
       "news_bad": true
     },
     {
-      "symbol": "KEYS",
-      "name": "Keysight Technologies",
+      "symbol": "ON",
+      "name": "ON Semiconductor",
       "sector": "Information Technology",
-      "pct_change": -5.60756861849412,
+      "pct_change": -6.212196840954544,
       "conviction": "buy_signal",
       "status": "order_failed",
       "news_bad": false
     },
     {
-      "symbol": "DELL",
-      "name": "Dell Technologies",
+      "symbol": "MPWR",
+      "name": "Monolithic Power Systems",
       "sector": "Information Technology",
-      "pct_change": -5.4219578579981595,
+      "pct_change": -6.166143648740918,
+      "conviction": "buy_signal",
+      "status": "order_failed",
+      "news_bad": false
+    },
+    {
+      "symbol": "META",
+      "name": "Meta Platforms",
+      "sector": "Communication Services",
+      "pct_change": -6.160882821807965,
+      "conviction": "buy_signal",
+      "status": "order_failed",
+      "news_bad": false
+    },
+    {
+      "symbol": "AKAM",
+      "name": "Akamai Technologies",
+      "sector": "Information Technology",
+      "pct_change": -6.096483916651289,
       "conviction": "buy_signal",
       "status": "order_failed",
       "news_bad": false
@@ -133,7 +115,25 @@
       "symbol": "HPE",
       "name": "Hewlett Packard Enterprise",
       "sector": "Information Technology",
-      "pct_change": -5.4164543600151625,
+      "pct_change": -5.978535813776756,
+      "conviction": "buy_signal",
+      "status": "order_failed",
+      "news_bad": false
+    },
+    {
+      "symbol": "NCLH",
+      "name": "Norwegian Cruise Line Holdings",
+      "sector": "Consumer Discretionary",
+      "pct_change": -5.865332760091966,
+      "conviction": "buy_signal",
+      "status": "blocked_news",
+      "news_bad": true
+    },
+    {
+      "symbol": "KKR",
+      "name": "KKR & Co.",
+      "sector": "Financials",
+      "pct_change": -5.727566579197309,
       "conviction": "buy_signal",
       "status": "order_failed",
       "news_bad": false
