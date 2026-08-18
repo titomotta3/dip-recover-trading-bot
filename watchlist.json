@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-08-17T19:53:31+00:00",
+  "updated_utc": "2026-08-18T13:44:24+00:00",
   "drop_threshold_pct": -5.0,
   "high_conviction_pct": -8.0,
   "stocks": [
@@ -7,16 +7,115 @@
       "symbol": "CVNA",
       "name": "Carvana",
       "sector": "Consumer Discretionary",
-      "pct_change": -6.852748943956094,
+      "pct_change": -9.194334283567622,
+      "conviction": "high",
+      "status": "order_failed",
+      "news_bad": false
+    },
+    {
+      "symbol": "META",
+      "name": "Meta Platforms",
+      "sector": "Communication Services",
+      "pct_change": -7.132312966067618,
       "conviction": "buy_signal",
       "status": "order_failed",
       "news_bad": false
     },
     {
-      "symbol": "NOW",
-      "name": "ServiceNow",
+      "symbol": "KKR",
+      "name": "KKR & Co.",
+      "sector": "Financials",
+      "pct_change": -6.258224719358271,
+      "conviction": "buy_signal",
+      "status": "order_failed",
+      "news_bad": false
+    },
+    {
+      "symbol": "APO",
+      "name": "Apollo Global Management",
+      "sector": "Financials",
+      "pct_change": -6.010224343016204,
+      "conviction": "buy_signal",
+      "status": "order_failed",
+      "news_bad": false
+    },
+    {
+      "symbol": "NCLH",
+      "name": "Norwegian Cruise Line Holdings",
+      "sector": "Consumer Discretionary",
+      "pct_change": -5.891640324821167,
+      "conviction": "buy_signal",
+      "status": "blocked_news",
+      "news_bad": true
+    },
+    {
+      "symbol": "SMCI",
+      "name": "Supermicro",
       "sector": "Information Technology",
-      "pct_change": -4.854836002472909,
+      "pct_change": -5.446792106755605,
+      "conviction": "buy_signal",
+      "status": "blocked_news",
+      "news_bad": true
+    },
+    {
+      "symbol": "XYL",
+      "name": "Xylem Inc.",
+      "sector": "Industrials",
+      "pct_change": -5.030077396152931,
+      "conviction": "buy_signal",
+      "status": "order_failed",
+      "news_bad": false
+    },
+    {
+      "symbol": "AMD",
+      "name": "Advanced Micro Devices",
+      "sector": "Information Technology",
+      "pct_change": -5.005929210659148,
+      "conviction": "buy_signal",
+      "status": "blocked_news",
+      "news_bad": true
+    },
+    {
+      "symbol": "VRT",
+      "name": "Vertiv",
+      "sector": "Industrials",
+      "pct_change": -4.910833397638627,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "FDXF",
+      "name": "FedEx Freight",
+      "sector": "Industrials",
+      "pct_change": -4.65433191142003,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "SWKS",
+      "name": "Skyworks Solutions",
+      "sector": "Information Technology",
+      "pct_change": -4.639476055022375,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "KEYS",
+      "name": "Keysight Technologies",
+      "sector": "Information Technology",
+      "pct_change": -4.513440714859455,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "BLDR",
+      "name": "Builders FirstSource",
+      "sector": "Industrials",
+      "pct_change": -4.17873216112195,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
@@ -25,115 +124,16 @@
       "symbol": "TAP",
       "name": "Molson Coors Beverage Company",
       "sector": "Consumer Staples",
-      "pct_change": -4.687867773336167,
+      "pct_change": -4.091652984030627,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
     },
     {
-      "symbol": "LHX",
-      "name": "L3Harris",
-      "sector": "Industrials",
-      "pct_change": -4.5541800463860485,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "KKR",
-      "name": "KKR & Co.",
+      "symbol": "ARES",
+      "name": "Ares Management",
       "sector": "Financials",
-      "pct_change": -4.3504946860240885,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "NCLH",
-      "name": "Norwegian Cruise Line Holdings",
-      "sector": "Consumer Discretionary",
-      "pct_change": -4.287220011809308,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "EXPE",
-      "name": "Expedia Group",
-      "sector": "Consumer Discretionary",
-      "pct_change": -4.263728231837092,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "CNC",
-      "name": "Centene Corporation",
-      "sector": "Health Care",
-      "pct_change": -4.238921829860547,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "ROST",
-      "name": "Ross Stores",
-      "sector": "Consumer Discretionary",
-      "pct_change": -4.153082171526674,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "VRSN",
-      "name": "Verisign",
-      "sector": "Information Technology",
-      "pct_change": -4.117994291589327,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "NKE",
-      "name": "Nike, Inc.",
-      "sector": "Consumer Discretionary",
-      "pct_change": -4.014236042005689,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "APO",
-      "name": "Apollo Global Management",
-      "sector": "Financials",
-      "pct_change": -3.9073601979523342,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "KDP",
-      "name": "Keurig Dr Pepper",
-      "sector": "Consumer Staples",
-      "pct_change": -3.896311579711125,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "FISV",
-      "name": "Fiserv",
-      "sector": "Financials",
-      "pct_change": -3.824228791503331,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "FIS",
-      "name": "Fidelity National Information Services",
-      "sector": "Financials",
-      "pct_change": -3.7278624006996575,
+      "pct_change": -4.04111036770163,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
