@@ -1,22 +1,13 @@
 {
-  "updated_utc": "2026-08-18T13:45:38+00:00",
+  "updated_utc": "2026-08-18T14:19:34+00:00",
   "drop_threshold_pct": -8.0,
   "high_conviction_pct": -11.0,
   "stocks": [
     {
-      "symbol": "CVNA",
-      "name": "Carvana",
-      "sector": "Consumer Discretionary",
-      "pct_change": -8.850370599446977,
-      "conviction": "buy_signal",
-      "status": "bought",
-      "news_bad": false
-    },
-    {
       "symbol": "META",
       "name": "Meta Platforms",
       "sector": "Communication Services",
-      "pct_change": -7.139949474871023,
+      "pct_change": -7.121303148497398,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
@@ -25,34 +16,34 @@
       "symbol": "NCLH",
       "name": "Norwegian Cruise Line Holdings",
       "sector": "Consumer Discretionary",
-      "pct_change": -6.286163495193753,
+      "pct_change": -6.654389134233297,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
     },
     {
-      "symbol": "STZ",
-      "name": "Constellation Brands",
-      "sector": "Consumer Staples",
-      "pct_change": -6.265258241698003,
+      "symbol": "AMD",
+      "name": "Advanced Micro Devices",
+      "sector": "Information Technology",
+      "pct_change": -6.5611693537765525,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
     },
     {
-      "symbol": "KKR",
-      "name": "KKR & Co.",
-      "sector": "Financials",
-      "pct_change": -6.258224719358271,
+      "symbol": "SWKS",
+      "name": "Skyworks Solutions",
+      "sector": "Information Technology",
+      "pct_change": -6.406203545706724,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
     },
     {
-      "symbol": "ALGN",
-      "name": "Align Technology",
-      "sector": "Health Care",
-      "pct_change": -6.160718283246084,
+      "symbol": "SMCI",
+      "name": "Supermicro",
+      "sector": "Information Technology",
+      "pct_change": -6.400600470115476,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
