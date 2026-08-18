@@ -1,32 +1,14 @@
 {
-  "updated_utc": "2026-08-18T15:39:21+00:00",
+  "updated_utc": "2026-08-18T16:02:57+00:00",
   "drop_threshold_pct": -5.0,
   "high_conviction_pct": -8.0,
   "stocks": [
     {
-      "symbol": "CVNA",
-      "name": "Carvana",
-      "sector": "Consumer Discretionary",
-      "pct_change": -12.766231464476432,
-      "conviction": "high",
-      "status": "order_failed",
-      "news_bad": false
-    },
-    {
-      "symbol": "SMCI",
-      "name": "Supermicro",
+      "symbol": "COHR",
+      "name": "Coherent Corp.",
       "sector": "Information Technology",
-      "pct_change": -8.069779468560203,
+      "pct_change": -11.423038260277352,
       "conviction": "high",
-      "status": "order_failed",
-      "news_bad": false
-    },
-    {
-      "symbol": "VRT",
-      "name": "Vertiv",
-      "sector": "Industrials",
-      "pct_change": -7.453033681398931,
-      "conviction": "buy_signal",
       "status": "order_failed",
       "news_bad": false
     },
@@ -34,7 +16,61 @@
       "symbol": "CIEN",
       "name": "Ciena",
       "sector": "Information Technology",
-      "pct_change": -7.3419272046454305,
+      "pct_change": -9.650027441005266,
+      "conviction": "high",
+      "status": "order_failed",
+      "news_bad": false
+    },
+    {
+      "symbol": "LITE",
+      "name": "Lumentum",
+      "sector": "Information Technology",
+      "pct_change": -8.757873812132672,
+      "conviction": "high",
+      "status": "order_failed",
+      "news_bad": false
+    },
+    {
+      "symbol": "TER",
+      "name": "Teradyne",
+      "sector": "Information Technology",
+      "pct_change": -8.74780280882364,
+      "conviction": "high",
+      "status": "order_failed",
+      "news_bad": false
+    },
+    {
+      "symbol": "STX",
+      "name": "Seagate Technology",
+      "sector": "Information Technology",
+      "pct_change": -8.020786275467541,
+      "conviction": "high",
+      "status": "order_failed",
+      "news_bad": false
+    },
+    {
+      "symbol": "SNDK",
+      "name": "Sandisk",
+      "sector": "Information Technology",
+      "pct_change": -7.803373098895844,
+      "conviction": "buy_signal",
+      "status": "order_failed",
+      "news_bad": false
+    },
+    {
+      "symbol": "MRVL",
+      "name": "Marvell Technology",
+      "sector": "Information Technology",
+      "pct_change": -7.685739924937411,
+      "conviction": "buy_signal",
+      "status": "order_failed",
+      "news_bad": false
+    },
+    {
+      "symbol": "GLW",
+      "name": "Corning Inc.",
+      "sector": "Information Technology",
+      "pct_change": -7.5573067890376695,
       "conviction": "buy_signal",
       "status": "order_failed",
       "news_bad": false
@@ -43,43 +79,25 @@
       "symbol": "KEYS",
       "name": "Keysight Technologies",
       "sector": "Information Technology",
-      "pct_change": -6.566149079500414,
+      "pct_change": -7.157692521220133,
       "conviction": "buy_signal",
       "status": "order_failed",
       "news_bad": false
     },
     {
-      "symbol": "STX",
-      "name": "Seagate Technology",
-      "sector": "Information Technology",
-      "pct_change": -6.535584623359152,
+      "symbol": "VRT",
+      "name": "Vertiv",
+      "sector": "Industrials",
+      "pct_change": -6.825562341414096,
       "conviction": "buy_signal",
       "status": "order_failed",
       "news_bad": false
     },
     {
-      "symbol": "Q",
-      "name": "Qnity Electronics",
+      "symbol": "JBL",
+      "name": "Jabil",
       "sector": "Information Technology",
-      "pct_change": -6.472246322101127,
-      "conviction": "buy_signal",
-      "status": "order_failed",
-      "news_bad": false
-    },
-    {
-      "symbol": "INTC",
-      "name": "Intel",
-      "sector": "Information Technology",
-      "pct_change": -6.399997618140244,
-      "conviction": "buy_signal",
-      "status": "blocked_news",
-      "news_bad": true
-    },
-    {
-      "symbol": "ON",
-      "name": "ON Semiconductor",
-      "sector": "Information Technology",
-      "pct_change": -6.212196840954544,
+      "pct_change": -6.756067955958455,
       "conviction": "buy_signal",
       "status": "order_failed",
       "news_bad": false
@@ -88,52 +106,34 @@
       "symbol": "MPWR",
       "name": "Monolithic Power Systems",
       "sector": "Information Technology",
-      "pct_change": -6.166143648740918,
+      "pct_change": -6.725328648191045,
       "conviction": "buy_signal",
       "status": "order_failed",
       "news_bad": false
     },
     {
-      "symbol": "META",
-      "name": "Meta Platforms",
-      "sector": "Communication Services",
-      "pct_change": -6.160882821807965,
-      "conviction": "buy_signal",
-      "status": "order_failed",
-      "news_bad": false
-    },
-    {
-      "symbol": "AKAM",
-      "name": "Akamai Technologies",
+      "symbol": "FLEX",
+      "name": "Flex Ltd.",
       "sector": "Information Technology",
-      "pct_change": -6.096483916651289,
+      "pct_change": -6.707693246694711,
       "conviction": "buy_signal",
       "status": "order_failed",
       "news_bad": false
     },
     {
-      "symbol": "HPE",
-      "name": "Hewlett Packard Enterprise",
+      "symbol": "INTC",
+      "name": "Intel",
       "sector": "Information Technology",
-      "pct_change": -5.978535813776756,
-      "conviction": "buy_signal",
-      "status": "order_failed",
-      "news_bad": false
-    },
-    {
-      "symbol": "NCLH",
-      "name": "Norwegian Cruise Line Holdings",
-      "sector": "Consumer Discretionary",
-      "pct_change": -5.865332760091966,
+      "pct_change": -6.667312463337585,
       "conviction": "buy_signal",
       "status": "blocked_news",
       "news_bad": true
     },
     {
-      "symbol": "KKR",
-      "name": "KKR & Co.",
-      "sector": "Financials",
-      "pct_change": -5.727566579197309,
+      "symbol": "ON",
+      "name": "ON Semiconductor",
+      "sector": "Information Technology",
+      "pct_change": -6.644280520530053,
       "conviction": "buy_signal",
       "status": "order_failed",
       "news_bad": false
