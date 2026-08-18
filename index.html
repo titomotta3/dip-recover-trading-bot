@@ -233,6 +233,21 @@
     box-shadow: var(--shadow);
   }
   .chart-wrap svg { width: 100%; height: 140px; display: block; }
+  .chart-axis {
+    position: relative;
+    height: 15px;
+    margin-top: 6px;
+  }
+  .chart-axis span {
+    position: absolute;
+    top: 0;
+    font-size: 11px;
+    color: var(--muted);
+    white-space: nowrap;
+    transform: translateX(-50%);
+  }
+  .chart-axis span.first { transform: none; }
+  .chart-axis span.last { transform: translateX(-100%); }
   .strategy-box {
     background: var(--card);
     border: 1px solid var(--border);
@@ -557,6 +572,34 @@
     PORTFOLIOS.forEach((cfg) => { shellBuilt[cfg.id] = true; });
   }
 
+  // Evenly spaced date ticks for the equity chart. Falls back to showing the
+  // time of day when the whole history fits inside a single day, so an early
+  // run with a handful of points still says something useful.
+  function buildDateAxis(points, coords, w) {
+    const first = new Date(points[0].timestamp_utc);
+    const last = new Date(points[points.length - 1].timestamp_utc);
+    if (isNaN(first) || isNaN(last)) return "";
+    const spansDays = (last - first) > 20 * 60 * 60 * 1000;
+    const fmt = (d) => spansDays
+      ? d.toLocaleDateString(undefined, { month: "short", day: "numeric" })
+      : d.toLocaleTimeString(undefined, { hour: "numeric", minute: "2-digit" });
+
+    const ticks = Math.min(5, points.length);
+    const seen = new Set();
+    let labels = "";
+    for (let t = 0; t < ticks; t++) {
+      const i = ticks === 1 ? 0 : Math.round((t * (points.length - 1)) / (ticks - 1));
+      if (seen.has(i)) continue;
+      seen.add(i);
+      const d = new Date(points[i].timestamp_utc);
+      if (isNaN(d)) continue;
+      const leftPct = (coords[i][0] / w) * 100;
+      const edge = t === 0 ? " first" : (t === ticks - 1 ? " last" : "");
+      labels += `<span class="${edge.trim()}" style="left:${leftPct.toFixed(2)}%">${fmt(d)}</span>`;
+    }
+    return `<div class="chart-axis">${labels}</div>`;
+  }
+
   function renderSparkline(elId, points, benchmarkPts) {
     const el = document.getElementById(elId);
     if (!el) return;
@@ -594,12 +637,19 @@
       benchmarkSvg = `<path d="${bPath}" fill="none" stroke="var(--muted)" stroke-width="1.5" stroke-dasharray="4 3"></path>`;
     }
 
+    // Date axis. The SVG is stretched with preserveAspectRatio="none", so
+    // labels live in HTML underneath instead of inside the SVG (text in a
+    // non-uniformly scaled SVG comes out distorted). Positions are the same
+    // percentages the polyline uses, so ticks line up with their points.
+    const axisHtml = buildDateAxis(points, coords, w);
+
     el.innerHTML = `
       <svg viewBox="0 0 ${w} ${h}" preserveAspectRatio="none">
         <path d="${areaPath}" fill="${lineColor}" opacity="0.08" stroke="none"></path>
         ${benchmarkSvg}
         <path d="${path}" fill="none" stroke="${lineColor}" stroke-width="2"></path>
       </svg>
+      ${axisHtml}
       ${hasBenchmark ? '<div class="sub" style="margin-top:6px;">Solid = portfolio &middot; dashed = S&amp;P 500 (buy &amp; hold)</div>' : ""}`;
   }
 
