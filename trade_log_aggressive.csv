@@ -151,3 +151,8 @@ timestamp_utc,action,symbol,detail
 2026-08-18T13:44:52+00:00,SELL,NCLH,gain=-5.73% qty=607.180042238 reason=bad_news:downgrade
 2026-08-18T13:45:38+00:00,BUY,CVNA,drop=-8.85% notional=$20000.00 news=none
 2026-08-18T14:58:50+00:00,BUY,SMCI,drop=-8.23% notional=$20000.00 news=clear(4)
+2026-08-18T15:40:24+00:00,BUY,CIEN,drop=-10.93% notional=$20000.00 news=clear(4)
+2026-08-18T15:40:24+00:00,BUY,COHR,drop=-12.30% notional=$40000.00 news=clear(3) conviction=HIGH
+2026-08-18T15:40:24+00:00,BUY,GLW,drop=-8.21% notional=$20000.00 news=clear(3)
+2026-08-18T15:40:25+00:00,BUY,LITE,drop=-10.02% notional=$20000.00 news=clear(2)
+2026-08-18T15:40:25+00:00,BUY,MRVL,drop=-8.57% notional=$20000.00 news=clear(5)
