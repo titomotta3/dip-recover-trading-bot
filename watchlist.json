@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-08-18T16:45:43+00:00",
+  "updated_utc": "2026-08-18T17:14:00+00:00",
   "drop_threshold_pct": -5.0,
   "high_conviction_pct": -8.0,
   "stocks": [
@@ -7,7 +7,7 @@
       "symbol": "COHR",
       "name": "Coherent Corp.",
       "sector": "Information Technology",
-      "pct_change": -11.91133514881729,
+      "pct_change": -11.895677533764013,
       "conviction": "high",
       "status": "order_failed",
       "news_bad": false
@@ -16,7 +16,7 @@
       "symbol": "CIEN",
       "name": "Ciena",
       "sector": "Information Technology",
-      "pct_change": -9.854439965620253,
+      "pct_change": -10.348624844371866,
       "conviction": "high",
       "status": "order_failed",
       "news_bad": false
@@ -25,7 +25,7 @@
       "symbol": "TER",
       "name": "Teradyne",
       "sector": "Information Technology",
-      "pct_change": -9.748614609155466,
+      "pct_change": -10.132243293281395,
       "conviction": "high",
       "status": "order_failed",
       "news_bad": false
@@ -34,7 +34,7 @@
       "symbol": "LITE",
       "name": "Lumentum",
       "sector": "Information Technology",
-      "pct_change": -9.534007397291926,
+      "pct_change": -9.494276906965894,
       "conviction": "high",
       "status": "order_failed",
       "news_bad": false
@@ -43,7 +43,7 @@
       "symbol": "SNDK",
       "name": "Sandisk",
       "sector": "Information Technology",
-      "pct_change": -8.953744993723474,
+      "pct_change": -9.271338906774378,
       "conviction": "high",
       "status": "order_failed",
       "news_bad": false
@@ -52,7 +52,7 @@
       "symbol": "MRVL",
       "name": "Marvell Technology",
       "sector": "Information Technology",
-      "pct_change": -8.300258949455856,
+      "pct_change": -8.633122335792203,
       "conviction": "high",
       "status": "order_failed",
       "news_bad": false
@@ -61,7 +61,7 @@
       "symbol": "STX",
       "name": "Seagate Technology",
       "sector": "Information Technology",
-      "pct_change": -7.906187749786961,
+      "pct_change": -7.892112954952865,
       "conviction": "buy_signal",
       "status": "order_failed",
       "news_bad": false
@@ -70,16 +70,7 @@
       "symbol": "GLW",
       "name": "Corning Inc.",
       "sector": "Information Technology",
-      "pct_change": -7.811335092456137,
-      "conviction": "buy_signal",
-      "status": "order_failed",
-      "news_bad": false
-    },
-    {
-      "symbol": "KEYS",
-      "name": "Keysight Technologies",
-      "sector": "Information Technology",
-      "pct_change": -7.525956842068171,
+      "pct_change": -7.389875039323028,
       "conviction": "buy_signal",
       "status": "order_failed",
       "news_bad": false
@@ -88,34 +79,7 @@
       "symbol": "JBL",
       "name": "Jabil",
       "sector": "Information Technology",
-      "pct_change": -7.499532199677969,
-      "conviction": "buy_signal",
-      "status": "order_failed",
-      "news_bad": false
-    },
-    {
-      "symbol": "VRT",
-      "name": "Vertiv",
-      "sector": "Industrials",
-      "pct_change": -7.302595836134492,
-      "conviction": "buy_signal",
-      "status": "order_failed",
-      "news_bad": false
-    },
-    {
-      "symbol": "FIX",
-      "name": "Comfort Systems USA",
-      "sector": "Industrials",
-      "pct_change": -7.202925617497588,
-      "conviction": "buy_signal",
-      "status": "order_failed",
-      "news_bad": false
-    },
-    {
-      "symbol": "APH",
-      "name": "Amphenol",
-      "sector": "Information Technology",
-      "pct_change": -7.19259883966403,
+      "pct_change": -7.356271444973316,
       "conviction": "buy_signal",
       "status": "order_failed",
       "news_bad": false
@@ -124,7 +88,7 @@
       "symbol": "MU",
       "name": "Micron Technology",
       "sector": "Information Technology",
-      "pct_change": -7.189522138312331,
+      "pct_change": -7.3011439318476645,
       "conviction": "buy_signal",
       "status": "order_failed",
       "news_bad": false
@@ -133,10 +97,46 @@
       "symbol": "INTC",
       "name": "Intel",
       "sector": "Information Technology",
-      "pct_change": -7.1407861070558365,
+      "pct_change": -7.169773236166,
       "conviction": "buy_signal",
       "status": "blocked_news",
       "news_bad": true
+    },
+    {
+      "symbol": "FLEX",
+      "name": "Flex Ltd.",
+      "sector": "Information Technology",
+      "pct_change": -7.115384615384615,
+      "conviction": "buy_signal",
+      "status": "order_failed",
+      "news_bad": false
+    },
+    {
+      "symbol": "FIX",
+      "name": "Comfort Systems USA",
+      "sector": "Industrials",
+      "pct_change": -7.110431003229135,
+      "conviction": "buy_signal",
+      "status": "order_failed",
+      "news_bad": false
+    },
+    {
+      "symbol": "VRT",
+      "name": "Vertiv",
+      "sector": "Industrials",
+      "pct_change": -7.005090402705141,
+      "conviction": "buy_signal",
+      "status": "order_failed",
+      "news_bad": false
+    },
+    {
+      "symbol": "APH",
+      "name": "Amphenol",
+      "sector": "Information Technology",
+      "pct_change": -6.955577249642261,
+      "conviction": "buy_signal",
+      "status": "order_failed",
+      "news_bad": false
     }
   ]
 }
