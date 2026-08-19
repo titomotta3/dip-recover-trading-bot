@@ -1,14 +1,32 @@
 {
-  "updated_utc": "2026-08-19T14:20:05+00:00",
+  "updated_utc": "2026-08-19T14:58:36+00:00",
   "drop_threshold_pct": -5.0,
   "high_conviction_pct": -8.0,
   "stocks": [
     {
+      "symbol": "CRWD",
+      "name": "CrowdStrike",
+      "sector": "Information Technology",
+      "pct_change": -6.8499866525009985,
+      "conviction": "buy_signal",
+      "status": "blocked_news",
+      "news_bad": true
+    },
+    {
       "symbol": "DELL",
       "name": "Dell Technologies",
       "sector": "Information Technology",
-      "pct_change": -8.474340521737613,
-      "conviction": "high",
+      "pct_change": -6.612628228040579,
+      "conviction": "buy_signal",
+      "status": "bought",
+      "news_bad": false
+    },
+    {
+      "symbol": "KEYS",
+      "name": "Keysight Technologies",
+      "sector": "Information Technology",
+      "pct_change": -6.469941348973607,
+      "conviction": "buy_signal",
       "status": "order_failed",
       "news_bad": false
     },
@@ -16,34 +34,16 @@
       "symbol": "STX",
       "name": "Seagate Technology",
       "sector": "Information Technology",
-      "pct_change": -7.709585635935637,
+      "pct_change": -6.352909615110685,
       "conviction": "buy_signal",
       "status": "order_failed",
       "news_bad": false
     },
     {
-      "symbol": "TER",
-      "name": "Teradyne",
+      "symbol": "PANW",
+      "name": "Palo Alto Networks",
       "sector": "Information Technology",
-      "pct_change": -6.873780691474606,
-      "conviction": "buy_signal",
-      "status": "order_failed",
-      "news_bad": false
-    },
-    {
-      "symbol": "HPE",
-      "name": "Hewlett Packard Enterprise",
-      "sector": "Information Technology",
-      "pct_change": -6.805525577823217,
-      "conviction": "buy_signal",
-      "status": "order_failed",
-      "news_bad": false
-    },
-    {
-      "symbol": "CRWD",
-      "name": "CrowdStrike",
-      "sector": "Information Technology",
-      "pct_change": -6.711437821258176,
+      "pct_change": -5.236014884394714,
       "conviction": "buy_signal",
       "status": "blocked_news",
       "news_bad": true
@@ -52,88 +52,88 @@
       "symbol": "WDC",
       "name": "Western Digital",
       "sector": "Information Technology",
-      "pct_change": -6.582554704339129,
+      "pct_change": -5.179783137967979,
       "conviction": "buy_signal",
       "status": "order_failed",
       "news_bad": false
     },
     {
-      "symbol": "KEYS",
-      "name": "Keysight Technologies",
+      "symbol": "HPE",
+      "name": "Hewlett Packard Enterprise",
       "sector": "Information Technology",
-      "pct_change": -6.539585863040689,
+      "pct_change": -5.171665148619417,
       "conviction": "buy_signal",
       "status": "order_failed",
       "news_bad": false
     },
     {
-      "symbol": "VRT",
-      "name": "Vertiv",
-      "sector": "Industrials",
-      "pct_change": -5.8578542002427385,
+      "symbol": "TER",
+      "name": "Teradyne",
+      "sector": "Information Technology",
+      "pct_change": -5.0792755764647275,
       "conviction": "buy_signal",
       "status": "order_failed",
       "news_bad": false
     },
     {
-      "symbol": "FIX",
-      "name": "Comfort Systems USA",
-      "sector": "Industrials",
-      "pct_change": -5.686340889856578,
-      "conviction": "buy_signal",
-      "status": "bought",
-      "news_bad": false
-    },
-    {
-      "symbol": "PANW",
-      "name": "Palo Alto Networks",
+      "symbol": "GLW",
+      "name": "Corning Inc.",
       "sector": "Information Technology",
-      "pct_change": -5.620898186107137,
-      "conviction": "buy_signal",
-      "status": "blocked_news",
-      "news_bad": true
-    },
-    {
-      "symbol": "AVGO",
-      "name": "Broadcom",
-      "sector": "Information Technology",
-      "pct_change": -5.536844353926809,
-      "conviction": "buy_signal",
-      "status": "bought",
-      "news_bad": false
-    },
-    {
-      "symbol": "LRCX",
-      "name": "Lam Research",
-      "sector": "Information Technology",
-      "pct_change": -5.37478631321297,
-      "conviction": "buy_signal",
-      "status": "order_failed",
-      "news_bad": false
-    },
-    {
-      "symbol": "FLEX",
-      "name": "Flex Ltd.",
-      "sector": "Information Technology",
-      "pct_change": -5.347638406032653,
-      "conviction": "buy_signal",
-      "status": "order_failed",
-      "news_bad": false
-    },
-    {
-      "symbol": "INTC",
-      "name": "Intel",
-      "sector": "Information Technology",
-      "pct_change": -4.891925987694495,
+      "pct_change": -4.8968022958991355,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
     },
     {
-      "symbol": "COHR",
-      "name": "Coherent Corp.",
+      "symbol": "LRCX",
+      "name": "Lam Research",
       "sector": "Information Technology",
-      "pct_change": -4.8591797430918415,
+      "pct_change": -4.604783326786274,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "IRM",
+      "name": "Iron Mountain",
+      "sector": "Real Estate",
+      "pct_change": -4.373569902589248,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "FLEX",
+      "name": "Flex Ltd.",
+      "sector": "Information Technology",
+      "pct_change": -4.2747833341381085,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "PWR",
+      "name": "Quanta Services",
+      "sector": "Industrials",
+      "pct_change": -3.9661057844474907,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "AMAT",
+      "name": "Applied Materials",
+      "sector": "Information Technology",
+      "pct_change": -3.8613371199899182,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "INTC",
+      "name": "Intel",
+      "sector": "Information Technology",
+      "pct_change": -3.7077246808894757,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
