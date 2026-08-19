@@ -302,3 +302,5 @@ timestamp_utc,action,symbol,detail
 2026-08-19T14:20:02+00:00,BUY,FIX,drop=-5.69% notional=$20000.00 news=clear(2)
 2026-08-19T14:58:13+00:00,SELL,CHTR,gain=8.33% qty=136.69598797 reason=target_reached
 2026-08-19T14:58:35+00:00,BUY,DELL,drop=-6.61% notional=$20000.00 news=clear(2)
+2026-08-19T19:43:47+00:00,SELL,AXON,gain=7.32% qty=16.54696032 reason=target_reached
+2026-08-19T19:44:32+00:00,BUY,COHR,drop=-6.40% notional=$20000.00 news=clear(5)
