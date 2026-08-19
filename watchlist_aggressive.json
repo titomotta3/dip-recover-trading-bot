@@ -1,6 +1,16 @@
 {
-  "updated_utc": "2026-08-19T16:05:08+00:00",
+  "updated_utc": "2026-08-19T16:45:23+00:00",
   "drop_threshold_pct": -8.0,
   "high_conviction_pct": -11.0,
-  "stocks": []
+  "stocks": [
+    {
+      "symbol": "KEYS",
+      "name": "Keysight Technologies",
+      "sector": "Information Technology",
+      "pct_change": -6.099703165093475,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    }
+  ]
 }
