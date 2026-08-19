@@ -1,31 +1,13 @@
 {
-  "updated_utc": "2026-08-19T14:59:34+00:00",
+  "updated_utc": "2026-08-19T15:40:42+00:00",
   "drop_threshold_pct": -8.0,
   "high_conviction_pct": -11.0,
   "stocks": [
     {
-      "symbol": "STX",
-      "name": "Seagate Technology",
-      "sector": "Information Technology",
-      "pct_change": -6.493448250639121,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
       "symbol": "KEYS",
       "name": "Keysight Technologies",
       "sector": "Information Technology",
-      "pct_change": -6.469207495188783,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "CRWD",
-      "name": "CrowdStrike",
-      "sector": "Information Technology",
-      "pct_change": -6.448429384563842,
+      "pct_change": -6.25366926892412,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
