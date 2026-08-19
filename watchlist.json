@@ -1,22 +1,22 @@
 {
-  "updated_utc": "2026-08-19T17:42:54+00:00",
+  "updated_utc": "2026-08-19T18:02:09+00:00",
   "drop_threshold_pct": -5.0,
   "high_conviction_pct": -8.0,
   "stocks": [
     {
-      "symbol": "STX",
-      "name": "Seagate Technology",
-      "sector": "Information Technology",
-      "pct_change": -6.672160875402787,
+      "symbol": "STLD",
+      "name": "Steel Dynamics",
+      "sector": "Materials",
+      "pct_change": -6.997316319751803,
       "conviction": "buy_signal",
       "status": "order_failed",
       "news_bad": false
     },
     {
-      "symbol": "TER",
-      "name": "Teradyne",
-      "sector": "Information Technology",
-      "pct_change": -6.487919669529411,
+      "symbol": "NUE",
+      "name": "Nucor",
+      "sector": "Materials",
+      "pct_change": -6.64294745810836,
       "conviction": "buy_signal",
       "status": "order_failed",
       "news_bad": false
@@ -25,25 +25,25 @@
       "symbol": "KEYS",
       "name": "Keysight Technologies",
       "sector": "Information Technology",
-      "pct_change": -6.360704528271628,
+      "pct_change": -6.5278621013563045,
       "conviction": "buy_signal",
       "status": "order_failed",
       "news_bad": false
     },
     {
-      "symbol": "CRWD",
-      "name": "CrowdStrike",
+      "symbol": "STX",
+      "name": "Seagate Technology",
       "sector": "Information Technology",
-      "pct_change": -6.244128444147435,
+      "pct_change": -6.395514272594028,
       "conviction": "buy_signal",
-      "status": "blocked_news",
-      "news_bad": true
+      "status": "order_failed",
+      "news_bad": false
     },
     {
-      "symbol": "LRCX",
-      "name": "Lam Research",
+      "symbol": "TER",
+      "name": "Teradyne",
       "sector": "Information Technology",
-      "pct_change": -5.9816479472899875,
+      "pct_change": -6.198520128851826,
       "conviction": "buy_signal",
       "status": "order_failed",
       "news_bad": false
@@ -52,7 +52,16 @@
       "symbol": "WDC",
       "name": "Western Digital",
       "sector": "Information Technology",
-      "pct_change": -5.873108358867674,
+      "pct_change": -6.110933388509691,
+      "conviction": "buy_signal",
+      "status": "order_failed",
+      "news_bad": false
+    },
+    {
+      "symbol": "LRCX",
+      "name": "Lam Research",
+      "sector": "Information Technology",
+      "pct_change": -5.974025998198465,
       "conviction": "buy_signal",
       "status": "order_failed",
       "news_bad": false
@@ -61,10 +70,19 @@
       "symbol": "COHR",
       "name": "Coherent Corp.",
       "sector": "Information Technology",
-      "pct_change": -5.846352659838596,
+      "pct_change": -5.887184847712869,
       "conviction": "buy_signal",
       "status": "order_failed",
       "news_bad": false
+    },
+    {
+      "symbol": "CRWD",
+      "name": "CrowdStrike",
+      "sector": "Information Technology",
+      "pct_change": -5.189744104257405,
+      "conviction": "buy_signal",
+      "status": "blocked_news",
+      "news_bad": true
     },
     {
       "symbol": "GLW",
@@ -76,37 +94,19 @@
       "news_bad": false
     },
     {
-      "symbol": "LITE",
-      "name": "Lumentum",
-      "sector": "Information Technology",
-      "pct_change": -4.779515905126748,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
       "symbol": "FLEX",
       "name": "Flex Ltd.",
       "sector": "Information Technology",
-      "pct_change": -4.407847235965616,
+      "pct_change": -4.499331444470171,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
     },
     {
-      "symbol": "IRM",
-      "name": "Iron Mountain",
-      "sector": "Real Estate",
-      "pct_change": -4.361728590624885,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "PANW",
-      "name": "Palo Alto Networks",
+      "symbol": "LITE",
+      "name": "Lumentum",
       "sector": "Information Technology",
-      "pct_change": -4.337951128156857,
+      "pct_change": -4.3947744775746065,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
@@ -124,7 +124,7 @@
       "symbol": "GE",
       "name": "GE Aerospace",
       "sector": "Industrials",
-      "pct_change": -4.244310183046077,
+      "pct_change": -4.273640709110419,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
@@ -133,7 +133,7 @@
       "symbol": "HPE",
       "name": "Hewlett Packard Enterprise",
       "sector": "Information Technology",
-      "pct_change": -4.201831945216863,
+      "pct_change": -4.130004118831967,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
