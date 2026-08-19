@@ -294,3 +294,5 @@ timestamp_utc,action,symbol,detail
 2026-08-17T17:38:35+00:00,BUY,ALGN,drop=-5.76% notional=$20000.00 news=clear(1)
 2026-08-18T14:17:39+00:00,SELL,HAL,gain=7.13% qty=305.997246022 reason=target_reached
 2026-08-18T14:18:26+00:00,BUY,AMD,drop=-6.77% notional=$20000.00 news=clear(9)
+2026-08-19T13:46:23+00:00,SELL,BG,gain=7.17% qty=92.387195121 reason=target_reached
+2026-08-19T13:46:23+00:00,SELL,TPL,gain=7.48% qty=28.651624548 reason=target_reached
