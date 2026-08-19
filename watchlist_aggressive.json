@@ -1,22 +1,13 @@
 {
-  "updated_utc": "2026-08-19T17:13:19+00:00",
+  "updated_utc": "2026-08-19T17:43:57+00:00",
   "drop_threshold_pct": -8.0,
   "high_conviction_pct": -11.0,
   "stocks": [
     {
-      "symbol": "KEYS",
-      "name": "Keysight Technologies",
+      "symbol": "STX",
+      "name": "Seagate Technology",
       "sector": "Information Technology",
-      "pct_change": -6.255128027057368,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "CRWD",
-      "name": "CrowdStrike",
-      "sector": "Information Technology",
-      "pct_change": -6.230039218356126,
+      "pct_change": -6.521112910919996,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
@@ -25,7 +16,25 @@
       "symbol": "TER",
       "name": "Teradyne",
       "sector": "Information Technology",
-      "pct_change": -6.047641962518234,
+      "pct_change": -6.339509842218788,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "KEYS",
+      "name": "Keysight Technologies",
+      "sector": "Information Technology",
+      "pct_change": -6.318185755933834,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "CRWD",
+      "name": "CrowdStrike",
+      "sector": "Information Technology",
+      "pct_change": -6.220644012347781,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
