@@ -161,3 +161,4 @@ timestamp_utc,action,symbol,detail
 2026-08-19T13:47:25+00:00,SELL,MRVL,gain=11.34% qty=93.379353814 reason=bad_news:sued
 2026-08-19T14:21:07+00:00,BUY,DELL,drop=-8.12% notional=$20000.00 news=clear(2)
 2026-08-19T19:16:59+00:00,BUY,STX,drop=-8.08% notional=$20000.00 news=clear(5)
+2026-08-19T19:45:33+00:00,BUY,STLD,drop=-8.25% notional=$20000.00 news=none

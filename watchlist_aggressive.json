@@ -1,22 +1,22 @@
 {
-  "updated_utc": "2026-08-19T19:16:59+00:00",
+  "updated_utc": "2026-08-19T19:45:33+00:00",
   "drop_threshold_pct": -8.0,
   "high_conviction_pct": -11.0,
   "stocks": [
     {
-      "symbol": "STX",
-      "name": "Seagate Technology",
-      "sector": "Information Technology",
-      "pct_change": -8.084720050320504,
+      "symbol": "STLD",
+      "name": "Steel Dynamics",
+      "sector": "Materials",
+      "pct_change": -8.246263578740386,
       "conviction": "buy_signal",
       "status": "bought",
       "news_bad": false
     },
     {
-      "symbol": "STLD",
-      "name": "Steel Dynamics",
+      "symbol": "NUE",
+      "name": "Nucor",
       "sector": "Materials",
-      "pct_change": -7.673831454423246,
+      "pct_change": -6.911695975200584,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
@@ -25,34 +25,7 @@
       "symbol": "WDC",
       "name": "Western Digital",
       "sector": "Information Technology",
-      "pct_change": -7.142857582196668,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "TER",
-      "name": "Teradyne",
-      "sector": "Information Technology",
-      "pct_change": -6.485443782069064,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "NUE",
-      "name": "Nucor",
-      "sector": "Materials",
-      "pct_change": -6.463150304875443,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "LRCX",
-      "name": "Lam Research",
-      "sector": "Information Technology",
-      "pct_change": -6.204257254090003,
+      "pct_change": -6.900997658346686,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
@@ -61,7 +34,25 @@
       "symbol": "KEYS",
       "name": "Keysight Technologies",
       "sector": "Information Technology",
-      "pct_change": -6.095308991820931,
+      "pct_change": -6.724338028088344,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "TER",
+      "name": "Teradyne",
+      "sector": "Information Technology",
+      "pct_change": -6.317249500387801,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "LRCX",
+      "name": "Lam Research",
+      "sector": "Information Technology",
+      "pct_change": -6.041115901740326,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
