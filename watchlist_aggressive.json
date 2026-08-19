@@ -1,40 +1,22 @@
 {
-  "updated_utc": "2026-08-19T18:50:58+00:00",
+  "updated_utc": "2026-08-19T19:16:59+00:00",
   "drop_threshold_pct": -8.0,
   "high_conviction_pct": -11.0,
   "stocks": [
     {
-      "symbol": "STLD",
-      "name": "Steel Dynamics",
-      "sector": "Materials",
-      "pct_change": -7.759895399017857,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
       "symbol": "STX",
       "name": "Seagate Technology",
       "sector": "Information Technology",
-      "pct_change": -7.5790092498979975,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
+      "pct_change": -8.084720050320504,
+      "conviction": "buy_signal",
+      "status": "bought",
+      "news_bad": false
     },
     {
-      "symbol": "KEYS",
-      "name": "Keysight Technologies",
-      "sector": "Information Technology",
-      "pct_change": -7.384162075009164,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "NUE",
-      "name": "Nucor",
+      "symbol": "STLD",
+      "name": "Steel Dynamics",
       "sector": "Materials",
-      "pct_change": -7.127446783392542,
+      "pct_change": -7.673831454423246,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
@@ -43,7 +25,7 @@
       "symbol": "WDC",
       "name": "Western Digital",
       "sector": "Information Technology",
-      "pct_change": -6.923171124230394,
+      "pct_change": -7.142857582196668,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
@@ -52,7 +34,16 @@
       "symbol": "TER",
       "name": "Teradyne",
       "sector": "Information Technology",
-      "pct_change": -6.638797835863003,
+      "pct_change": -6.485443782069064,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "NUE",
+      "name": "Nucor",
+      "sector": "Materials",
+      "pct_change": -6.463150304875443,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
@@ -61,7 +52,16 @@
       "symbol": "LRCX",
       "name": "Lam Research",
       "sector": "Information Technology",
-      "pct_change": -6.5320848227077875,
+      "pct_change": -6.204257254090003,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "KEYS",
+      "name": "Keysight Technologies",
+      "sector": "Information Technology",
+      "pct_change": -6.095308991820931,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
