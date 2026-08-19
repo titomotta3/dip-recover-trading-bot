@@ -1,22 +1,13 @@
 {
-  "updated_utc": "2026-08-19T16:04:00+00:00",
+  "updated_utc": "2026-08-19T16:44:31+00:00",
   "drop_threshold_pct": -5.0,
   "high_conviction_pct": -8.0,
   "stocks": [
     {
-      "symbol": "LRCX",
-      "name": "Lam Research",
-      "sector": "Information Technology",
-      "pct_change": -5.800200888147851,
-      "conviction": "buy_signal",
-      "status": "order_failed",
-      "news_bad": false
-    },
-    {
       "symbol": "KEYS",
       "name": "Keysight Technologies",
       "sector": "Information Technology",
-      "pct_change": -5.680350474248534,
+      "pct_change": -6.2639253230388565,
       "conviction": "buy_signal",
       "status": "order_failed",
       "news_bad": false
@@ -25,16 +16,25 @@
       "symbol": "CRWD",
       "name": "CrowdStrike",
       "sector": "Information Technology",
-      "pct_change": -5.6265244366728355,
+      "pct_change": -5.70636577163773,
       "conviction": "buy_signal",
       "status": "blocked_news",
       "news_bad": true
     },
     {
+      "symbol": "LRCX",
+      "name": "Lam Research",
+      "sector": "Information Technology",
+      "pct_change": -5.414431616179862,
+      "conviction": "buy_signal",
+      "status": "order_failed",
+      "news_bad": false
+    },
+    {
       "symbol": "STX",
       "name": "Seagate Technology",
       "sector": "Information Technology",
-      "pct_change": -5.497520480527585,
+      "pct_change": -5.214234629414112,
       "conviction": "buy_signal",
       "status": "order_failed",
       "news_bad": false
@@ -43,7 +43,7 @@
       "symbol": "TER",
       "name": "Teradyne",
       "sector": "Information Technology",
-      "pct_change": -4.745355352125168,
+      "pct_change": -4.955601978445437,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
@@ -52,61 +52,7 @@
       "symbol": "GE",
       "name": "GE Aerospace",
       "sector": "Industrials",
-      "pct_change": -4.5055837429640295,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "IRM",
-      "name": "Iron Mountain",
-      "sector": "Real Estate",
-      "pct_change": -4.4761966139629905,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "HPE",
-      "name": "Hewlett Packard Enterprise",
-      "sector": "Information Technology",
-      "pct_change": -4.183871563681368,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "AFL",
-      "name": "Aflac",
-      "sector": "Financials",
-      "pct_change": -4.119778921173684,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "AMAT",
-      "name": "Applied Materials",
-      "sector": "Information Technology",
-      "pct_change": -4.009104067352868,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "WDC",
-      "name": "Western Digital",
-      "sector": "Information Technology",
-      "pct_change": -3.962432182562233,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "JBL",
-      "name": "Jabil",
-      "sector": "Information Technology",
-      "pct_change": -3.9424742472444776,
+      "pct_change": -4.406942051423369,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
@@ -115,16 +61,43 @@
       "symbol": "COHR",
       "name": "Coherent Corp.",
       "sector": "Information Technology",
-      "pct_change": -3.886855800033024,
+      "pct_change": -4.17386624450832,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
     },
     {
-      "symbol": "LITE",
-      "name": "Lumentum",
+      "symbol": "GLW",
+      "name": "Corning Inc.",
       "sector": "Information Technology",
-      "pct_change": -3.8554445734370746,
+      "pct_change": -4.090052242507687,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "IRM",
+      "name": "Iron Mountain",
+      "sector": "Real Estate",
+      "pct_change": -4.089366369348951,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "AFL",
+      "name": "Aflac",
+      "sector": "Financials",
+      "pct_change": -4.04912570324959,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "WDC",
+      "name": "Western Digital",
+      "sector": "Information Technology",
+      "pct_change": -4.041014207563692,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
@@ -133,7 +106,34 @@
       "symbol": "PANW",
       "name": "Palo Alto Networks",
       "sector": "Information Technology",
-      "pct_change": -3.840814954868832,
+      "pct_change": -3.8996167969839686,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "AMAT",
+      "name": "Applied Materials",
+      "sector": "Information Technology",
+      "pct_change": -3.7422525298206923,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "LITE",
+      "name": "Lumentum",
+      "sector": "Information Technology",
+      "pct_change": -3.656776820129224,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "CAT",
+      "name": "Caterpillar Inc.",
+      "sector": "Industrials",
+      "pct_change": -3.567733439676256,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
