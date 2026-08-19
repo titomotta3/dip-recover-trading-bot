@@ -3,7 +3,7 @@
   "sell_threshold_pct": 11.5,
   "trade_dollars": 20000.0,
   "completed_trades": 37,
-  "last_adjustment": "3 bad_news exit(s) (CIEN, CVNA, MRVL)",
-  "updated_utc": "2026-08-19T13:47:53+00:00",
+  "last_adjustment": "no change this run",
+  "updated_utc": "2026-08-19T14:21:07+00:00",
   "risk_exits": 33
 }

@@ -159,3 +159,4 @@ timestamp_utc,action,symbol,detail
 2026-08-19T13:47:24+00:00,SELL,CIEN,gain=2.21% qty=50.450942301 reason=bad_news:downgrade
 2026-08-19T13:47:24+00:00,SELL,CVNA,gain=-1.74% qty=290.866637579 reason=bad_news:sues
 2026-08-19T13:47:25+00:00,SELL,MRVL,gain=11.34% qty=93.379353814 reason=bad_news:sued
+2026-08-19T14:21:07+00:00,BUY,DELL,drop=-8.12% notional=$20000.00 news=clear(2)
