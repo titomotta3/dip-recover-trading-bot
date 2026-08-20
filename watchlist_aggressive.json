@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-08-20T13:51:31+00:00",
+  "updated_utc": "2026-08-20T14:23:46+00:00",
   "drop_threshold_pct": -8.0,
   "high_conviction_pct": -11.0,
   "stocks": [
@@ -7,19 +7,10 @@
       "symbol": "MRNA",
       "name": "Moderna",
       "sector": "Health Care",
-      "pct_change": -17.3070346883245,
+      "pct_change": -17.82320665919507,
       "conviction": "high",
       "status": "blocked_news",
       "news_bad": true
-    },
-    {
-      "symbol": "WMT",
-      "name": "Walmart",
-      "sector": "Consumer Staples",
-      "pct_change": -8.705165627275719,
-      "conviction": "buy_signal",
-      "status": "bought",
-      "news_bad": false
     }
   ]
 }

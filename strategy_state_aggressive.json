@@ -1,9 +1,9 @@
 {
   "drop_threshold_pct": -8.0,
-  "sell_threshold_pct": 11.5,
+  "sell_threshold_pct": 11.0,
   "trade_dollars": 20000.0,
-  "completed_trades": 37,
-  "last_adjustment": "1 bad_news exit(s) (SMCI)",
-  "updated_utc": "2026-08-20T13:51:31+00:00",
+  "completed_trades": 38,
+  "last_adjustment": "TPL barely cleared target -> lowered sell target to 11.0%",
+  "updated_utc": "2026-08-20T14:23:46+00:00",
   "risk_exits": 34
 }
