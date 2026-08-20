@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-08-20T16:56:30+00:00",
+  "updated_utc": "2026-08-20T17:33:47+00:00",
   "drop_threshold_pct": -5.0,
   "high_conviction_pct": -8.0,
   "stocks": [
@@ -7,25 +7,34 @@
       "symbol": "MRNA",
       "name": "Moderna",
       "sector": "Health Care",
-      "pct_change": -25.381355961865452,
-      "conviction": "high",
-      "status": "blocked_news",
-      "news_bad": true
-    },
-    {
-      "symbol": "WMT",
-      "name": "Walmart",
-      "sector": "Consumer Staples",
-      "pct_change": -8.76640770335206,
+      "pct_change": -24.67599356257276,
       "conviction": "high",
       "status": "order_failed",
       "news_bad": false
     },
     {
+      "symbol": "WMT",
+      "name": "Walmart",
+      "sector": "Consumer Staples",
+      "pct_change": -8.919509556100078,
+      "conviction": "high",
+      "status": "order_failed",
+      "news_bad": false
+    },
+    {
+      "symbol": "ISRG",
+      "name": "Intuitive Surgical",
+      "sector": "Health Care",
+      "pct_change": -4.659056301524597,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
       "symbol": "STLD",
       "name": "Steel Dynamics",
       "sector": "Materials",
-      "pct_change": -4.411059012563913,
+      "pct_change": -4.510626560201476,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
@@ -34,7 +43,7 @@
       "symbol": "GEV",
       "name": "GE Vernova",
       "sector": "Industrials",
-      "pct_change": -4.2938471908320555,
+      "pct_change": -4.271688214236818,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
@@ -43,16 +52,16 @@
       "symbol": "CSGP",
       "name": "CoStar Group",
       "sector": "Real Estate",
-      "pct_change": -4.269192547440845,
+      "pct_change": -4.224723558849085,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
     },
     {
-      "symbol": "AZO",
-      "name": "AutoZone",
-      "sector": "Consumer Discretionary",
-      "pct_change": -4.245191658042357,
+      "symbol": "CRWD",
+      "name": "CrowdStrike",
+      "sector": "Information Technology",
+      "pct_change": -4.215642411425921,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
@@ -67,46 +76,19 @@
       "news_bad": null
     },
     {
-      "symbol": "RDDT",
-      "name": "Reddit",
-      "sector": "Communication Services",
-      "pct_change": -3.7406913193677185,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "CCL",
-      "name": "Carnival Corporation",
-      "sector": "Consumer Discretionary",
-      "pct_change": -3.653054934283658,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "TKO",
-      "name": "TKO Group Holdings",
-      "sector": "Communication Services",
-      "pct_change": -3.649164817918898,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "CRWD",
-      "name": "CrowdStrike",
-      "sector": "Information Technology",
-      "pct_change": -3.645293818143512,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
       "symbol": "BSX",
       "name": "Boston Scientific",
       "sector": "Health Care",
-      "pct_change": -3.6146843185718995,
+      "pct_change": -4.09536112700874,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "AZO",
+      "name": "AutoZone",
+      "sector": "Consumer Discretionary",
+      "pct_change": -3.9279879196451053,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
@@ -115,7 +97,34 @@
       "symbol": "PSKY",
       "name": "Paramount Skydance Corporation",
       "sector": "Communication Services",
-      "pct_change": -3.5377357217415963,
+      "pct_change": -3.8679319465229844,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "F",
+      "name": "Ford Motor Company",
+      "sector": "Consumer Discretionary",
+      "pct_change": -3.7241376679519127,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "LDOS",
+      "name": "Leidos",
+      "sector": "Industrials",
+      "pct_change": -3.704461936563651,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "RDDT",
+      "name": "Reddit",
+      "sector": "Communication Services",
+      "pct_change": -3.5989759885549533,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
@@ -124,16 +133,7 @@
       "symbol": "ECHO",
       "name": "EchoStar",
       "sector": "Communication Services",
-      "pct_change": -3.4882394836166433,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "SYF",
-      "name": "Synchrony Financial",
-      "sector": "Financials",
-      "pct_change": -3.378551053267488,
+      "pct_change": -3.539127992320226,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
