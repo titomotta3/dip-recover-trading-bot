@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-08-20T16:57:39+00:00",
+  "updated_utc": "2026-08-20T17:34:45+00:00",
   "drop_threshold_pct": -8.0,
   "high_conviction_pct": -11.0,
   "stocks": [
@@ -7,10 +7,10 @@
       "symbol": "MRNA",
       "name": "Moderna",
       "sector": "Health Care",
-      "pct_change": -25.736837260355287,
+      "pct_change": -24.429462360021308,
       "conviction": "high",
-      "status": "blocked_news",
-      "news_bad": true
+      "status": "bought",
+      "news_bad": false
     }
   ]
 }
