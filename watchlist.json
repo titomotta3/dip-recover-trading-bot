@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-08-20T14:22:51+00:00",
+  "updated_utc": "2026-08-20T15:03:56+00:00",
   "drop_threshold_pct": -5.0,
   "high_conviction_pct": -8.0,
   "stocks": [
@@ -7,7 +7,7 @@
       "symbol": "MRNA",
       "name": "Moderna",
       "sector": "Health Care",
-      "pct_change": -18.551442365915516,
+      "pct_change": -20.00229608105166,
       "conviction": "high",
       "status": "blocked_news",
       "news_bad": true
@@ -16,7 +16,7 @@
       "symbol": "WMT",
       "name": "Walmart",
       "sector": "Consumer Staples",
-      "pct_change": -9.216975836246364,
+      "pct_change": -9.541121634439206,
       "conviction": "high",
       "status": "order_failed",
       "news_bad": false
@@ -25,16 +25,25 @@
       "symbol": "CSGP",
       "name": "CoStar Group",
       "sector": "Real Estate",
-      "pct_change": -5.321672400399135,
+      "pct_change": -5.796027127892563,
       "conviction": "buy_signal",
       "status": "order_failed",
       "news_bad": false
     },
     {
-      "symbol": "F",
-      "name": "Ford Motor Company",
+      "symbol": "NCLH",
+      "name": "Norwegian Cruise Line Holdings",
       "sector": "Consumer Discretionary",
-      "pct_change": -4.6455185988853716,
+      "pct_change": -4.411761147154696,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "CHTR",
+      "name": "Charter Communications",
+      "sector": "Communication Services",
+      "pct_change": -4.309049171389816,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
@@ -43,7 +52,7 @@
       "symbol": "STLD",
       "name": "Steel Dynamics",
       "sector": "Materials",
-      "pct_change": -4.5452578891296795,
+      "pct_change": -4.289852663940503,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
@@ -52,25 +61,7 @@
       "symbol": "BLDR",
       "name": "Builders FirstSource",
       "sector": "Industrials",
-      "pct_change": -4.328048597611132,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "SYF",
-      "name": "Synchrony Financial",
-      "sector": "Financials",
-      "pct_change": -4.326801778428861,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "NCLH",
-      "name": "Norwegian Cruise Line Holdings",
-      "sector": "Consumer Discretionary",
-      "pct_change": -3.892729129877241,
+      "pct_change": -3.8731978908169014,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
@@ -79,7 +70,7 @@
       "symbol": "RDDT",
       "name": "Reddit",
       "sector": "Communication Services",
-      "pct_change": -3.85604498360417,
+      "pct_change": -3.8428591213830527,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
@@ -88,16 +79,16 @@
       "symbol": "AZO",
       "name": "AutoZone",
       "sector": "Consumer Discretionary",
-      "pct_change": -3.79587589912545,
+      "pct_change": -3.75557578187504,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
     },
     {
-      "symbol": "COF",
-      "name": "Capital One",
-      "sector": "Financials",
-      "pct_change": -3.7466539091859734,
+      "symbol": "F",
+      "name": "Ford Motor Company",
+      "sector": "Consumer Discretionary",
+      "pct_change": -3.689654120083513,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
@@ -106,7 +97,34 @@
       "symbol": "LULU",
       "name": "Lululemon Athletica",
       "sector": "Consumer Discretionary",
-      "pct_change": -3.733779153133992,
+      "pct_change": -3.5998288256352775,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "CRWD",
+      "name": "CrowdStrike",
+      "sector": "Information Technology",
+      "pct_change": -3.43699239535209,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "CCL",
+      "name": "Carnival Corporation",
+      "sector": "Consumer Discretionary",
+      "pct_change": -3.165984277987804,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "BSX",
+      "name": "Boston Scientific",
+      "sector": "Health Care",
+      "pct_change": -3.105168075156213,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
