@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-08-20T13:50:09+00:00",
+  "updated_utc": "2026-08-20T14:22:51+00:00",
   "drop_threshold_pct": -5.0,
   "high_conviction_pct": -8.0,
   "stocks": [
@@ -7,7 +7,7 @@
       "symbol": "MRNA",
       "name": "Moderna",
       "sector": "Health Care",
-      "pct_change": -17.34717235518414,
+      "pct_change": -18.551442365915516,
       "conviction": "high",
       "status": "blocked_news",
       "news_bad": true
@@ -16,16 +16,25 @@
       "symbol": "WMT",
       "name": "Walmart",
       "sector": "Consumer Staples",
-      "pct_change": -8.600176350479558,
+      "pct_change": -9.216975836246364,
       "conviction": "high",
       "status": "order_failed",
       "news_bad": false
     },
     {
-      "symbol": "SYF",
-      "name": "Synchrony Financial",
-      "sector": "Financials",
-      "pct_change": -3.805584406139047,
+      "symbol": "CSGP",
+      "name": "CoStar Group",
+      "sector": "Real Estate",
+      "pct_change": -5.321672400399135,
+      "conviction": "buy_signal",
+      "status": "order_failed",
+      "news_bad": false
+    },
+    {
+      "symbol": "F",
+      "name": "Ford Motor Company",
+      "sector": "Consumer Discretionary",
+      "pct_change": -4.6455185988853716,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
@@ -34,16 +43,70 @@
       "symbol": "STLD",
       "name": "Steel Dynamics",
       "sector": "Materials",
-      "pct_change": -3.4998448756895137,
+      "pct_change": -4.5452578891296795,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
     },
     {
-      "symbol": "F",
-      "name": "Ford Motor Company",
+      "symbol": "BLDR",
+      "name": "Builders FirstSource",
+      "sector": "Industrials",
+      "pct_change": -4.328048597611132,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "SYF",
+      "name": "Synchrony Financial",
+      "sector": "Financials",
+      "pct_change": -4.326801778428861,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "NCLH",
+      "name": "Norwegian Cruise Line Holdings",
       "sector": "Consumer Discretionary",
-      "pct_change": -3.4544846107219827,
+      "pct_change": -3.892729129877241,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "RDDT",
+      "name": "Reddit",
+      "sector": "Communication Services",
+      "pct_change": -3.85604498360417,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "AZO",
+      "name": "AutoZone",
+      "sector": "Consumer Discretionary",
+      "pct_change": -3.79587589912545,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "COF",
+      "name": "Capital One",
+      "sector": "Financials",
+      "pct_change": -3.7466539091859734,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "LULU",
+      "name": "Lululemon Athletica",
+      "sector": "Consumer Discretionary",
+      "pct_change": -3.733779153133992,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
