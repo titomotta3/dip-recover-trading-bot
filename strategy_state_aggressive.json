@@ -1,9 +1,9 @@
 {
   "drop_threshold_pct": -8.0,
-  "sell_threshold_pct": 11.0,
-  "trade_dollars": 20000.0,
-  "completed_trades": 38,
-  "last_adjustment": "TPL barely cleared target -> lowered sell target to 11.0%",
-  "updated_utc": "2026-08-20T14:23:46+00:00",
+  "sell_threshold_pct": 10.5,
+  "trade_dollars": 18000.0,
+  "completed_trades": 39,
+  "last_adjustment": "VLTO barely cleared target -> lowered sell target to 10.5%; capital utilization high (93%) -> trimmed trade size to $18,000",
+  "updated_utc": "2026-08-20T15:05:18+00:00",
   "risk_exits": 34
 }
