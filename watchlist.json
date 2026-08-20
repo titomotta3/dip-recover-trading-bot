@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-08-20T18:00:53+00:00",
+  "updated_utc": "2026-08-20T18:54:22+00:00",
   "drop_threshold_pct": -5.0,
   "high_conviction_pct": -8.0,
   "stocks": [
@@ -7,7 +7,7 @@
       "symbol": "MRNA",
       "name": "Moderna",
       "sector": "Health Care",
-      "pct_change": -24.099671968420484,
+      "pct_change": -22.525237640888722,
       "conviction": "high",
       "status": "order_failed",
       "news_bad": false
@@ -16,7 +16,7 @@
       "symbol": "WMT",
       "name": "Walmart",
       "sector": "Consumer Staples",
-      "pct_change": -9.098863734211392,
+      "pct_change": -9.733158095334723,
       "conviction": "high",
       "status": "order_failed",
       "news_bad": false
@@ -25,7 +25,7 @@
       "symbol": "ISRG",
       "name": "Intuitive Surgical",
       "sector": "Health Care",
-      "pct_change": -5.143062081234061,
+      "pct_change": -6.104797019203315,
       "conviction": "buy_signal",
       "status": "order_failed",
       "news_bad": false
@@ -34,25 +34,34 @@
       "symbol": "CRWD",
       "name": "CrowdStrike",
       "sector": "Information Technology",
-      "pct_change": -4.895109922609494,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
+      "pct_change": -5.542331389741687,
+      "conviction": "buy_signal",
+      "status": "order_failed",
+      "news_bad": false
+    },
+    {
+      "symbol": "CCL",
+      "name": "Carnival Corporation",
+      "sector": "Consumer Discretionary",
+      "pct_change": -5.395652631587222,
+      "conviction": "buy_signal",
+      "status": "order_failed",
+      "news_bad": false
     },
     {
       "symbol": "NCLH",
       "name": "Norwegian Cruise Line Holdings",
       "sector": "Consumer Discretionary",
-      "pct_change": -4.469432593485932,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
+      "pct_change": -5.190309173070878,
+      "conviction": "buy_signal",
+      "status": "blocked_news",
+      "news_bad": true
     },
     {
-      "symbol": "CSGP",
-      "name": "CoStar Group",
-      "sector": "Real Estate",
-      "pct_change": -4.284019313474364,
+      "symbol": "RCL",
+      "name": "Royal Caribbean Group",
+      "sector": "Consumer Discretionary",
+      "pct_change": -4.877563142530779,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
@@ -61,25 +70,7 @@
       "symbol": "STLD",
       "name": "Steel Dynamics",
       "sector": "Materials",
-      "pct_change": -4.220596611334702,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "CCL",
-      "name": "Carnival Corporation",
-      "sector": "Consumer Discretionary",
-      "pct_change": -4.158863200227938,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "GEV",
-      "name": "GE Vernova",
-      "sector": "Industrials",
-      "pct_change": -4.140193076695092,
+      "pct_change": -4.4934859348784375,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
@@ -88,7 +79,7 @@
       "symbol": "AZO",
       "name": "AutoZone",
       "sector": "Consumer Discretionary",
-      "pct_change": -4.017355948901134,
+      "pct_change": -4.33717018908523,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
@@ -97,25 +88,43 @@
       "symbol": "BSX",
       "name": "Boston Scientific",
       "sector": "Health Care",
-      "pct_change": -3.941548362272885,
+      "pct_change": -4.278020661269467,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
     },
     {
-      "symbol": "RCL",
-      "name": "Royal Caribbean Group",
+      "symbol": "BBY",
+      "name": "Best Buy",
       "sector": "Consumer Discretionary",
-      "pct_change": -3.872237593603249,
+      "pct_change": -4.069047517846891,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
     },
     {
-      "symbol": "RDDT",
-      "name": "Reddit",
-      "sector": "Communication Services",
-      "pct_change": -3.8494570814265714,
+      "symbol": "UAL",
+      "name": "United Airlines Holdings",
+      "sector": "Industrials",
+      "pct_change": -3.9471409077622135,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "CSGP",
+      "name": "CoStar Group",
+      "sector": "Real Estate",
+      "pct_change": -3.720726608797418,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "AXON",
+      "name": "Axon Enterprise",
+      "sector": "Industrials",
+      "pct_change": -3.679605681793692,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
@@ -124,16 +133,7 @@
       "symbol": "LDOS",
       "name": "Leidos",
       "sector": "Industrials",
-      "pct_change": -3.810400547651934,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "DECK",
-      "name": "Deckers Brands",
-      "sector": "Consumer Discretionary",
-      "pct_change": -3.6747819973616638,
+      "pct_change": -3.636109735631124,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
