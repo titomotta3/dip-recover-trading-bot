@@ -1,16 +1,6 @@
 {
-  "updated_utc": "2026-08-20T18:55:32+00:00",
+  "updated_utc": "2026-08-20T19:30:51+00:00",
   "drop_threshold_pct": -8.0,
   "high_conviction_pct": -11.0,
-  "stocks": [
-    {
-      "symbol": "ISRG",
-      "name": "Intuitive Surgical",
-      "sector": "Health Care",
-      "pct_change": -6.057024103377336,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    }
-  ]
+  "stocks": []
 }
