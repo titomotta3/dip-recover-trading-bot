@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-08-20T15:46:22+00:00",
+  "updated_utc": "2026-08-20T16:17:09+00:00",
   "drop_threshold_pct": -5.0,
   "high_conviction_pct": -8.0,
   "stocks": [
@@ -7,7 +7,7 @@
       "symbol": "MRNA",
       "name": "Moderna",
       "sector": "Health Care",
-      "pct_change": -19.83679273878368,
+      "pct_change": -19.79338245640071,
       "conviction": "high",
       "status": "blocked_news",
       "news_bad": true
@@ -16,7 +16,7 @@
       "symbol": "WMT",
       "name": "Walmart",
       "sector": "Consumer Staples",
-      "pct_change": -9.80752967153555,
+      "pct_change": -9.138232209927825,
       "conviction": "high",
       "status": "order_failed",
       "news_bad": false
@@ -25,25 +25,7 @@
       "symbol": "NCLH",
       "name": "Norwegian Cruise Line Holdings",
       "sector": "Consumer Discretionary",
-      "pct_change": -5.103807503425858,
-      "conviction": "buy_signal",
-      "status": "blocked_news",
-      "news_bad": true
-    },
-    {
-      "symbol": "RDDT",
-      "name": "Reddit",
-      "sector": "Communication Services",
-      "pct_change": -4.943712662058622,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "CSGP",
-      "name": "CoStar Group",
-      "sector": "Real Estate",
-      "pct_change": -4.921434538810106,
+      "pct_change": -4.682815844941137,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
@@ -52,7 +34,7 @@
       "symbol": "AZO",
       "name": "AutoZone",
       "sector": "Consumer Discretionary",
-      "pct_change": -4.1239659853997575,
+      "pct_change": -4.280945217469478,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
@@ -61,25 +43,34 @@
       "symbol": "CRWD",
       "name": "CrowdStrike",
       "sector": "Information Technology",
-      "pct_change": -4.091652928736924,
+      "pct_change": -4.14620860382878,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
     },
     {
-      "symbol": "CCL",
-      "name": "Carnival Corporation",
-      "sector": "Consumer Discretionary",
-      "pct_change": -4.027728517905816,
+      "symbol": "RDDT",
+      "name": "Reddit",
+      "sector": "Communication Services",
+      "pct_change": -4.034018921058526,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
     },
     {
-      "symbol": "BLDR",
-      "name": "Builders FirstSource",
-      "sector": "Industrials",
-      "pct_change": -3.9696826487490005,
+      "symbol": "CSGP",
+      "name": "CoStar Group",
+      "sector": "Real Estate",
+      "pct_change": -3.9727250838232515,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "PSKY",
+      "name": "Paramount Skydance Corporation",
+      "sector": "Communication Services",
+      "pct_change": -3.9056650591556963,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
@@ -88,16 +79,16 @@
       "symbol": "STLD",
       "name": "Steel Dynamics",
       "sector": "Materials",
-      "pct_change": -3.848318081919771,
+      "pct_change": -3.8829494108479743,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
     },
     {
-      "symbol": "CHTR",
-      "name": "Charter Communications",
-      "sector": "Communication Services",
-      "pct_change": -3.6794127142630395,
+      "symbol": "CCL",
+      "name": "Carnival Corporation",
+      "sector": "Consumer Discretionary",
+      "pct_change": -3.84038815294263,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
@@ -106,7 +97,7 @@
       "symbol": "F",
       "name": "Ford Motor Company",
       "sector": "Consumer Discretionary",
-      "pct_change": -3.5517265056741647,
+      "pct_change": -3.7586212158203125,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
@@ -115,25 +106,34 @@
       "symbol": "SYF",
       "name": "Synchrony Financial",
       "sector": "Financials",
-      "pct_change": -3.5292703982089604,
+      "pct_change": -3.6485886818386404,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
     },
     {
-      "symbol": "ECHO",
-      "name": "EchoStar",
+      "symbol": "GEV",
+      "name": "GE Vernova",
+      "sector": "Industrials",
+      "pct_change": -3.4056585434598725,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "CHTR",
+      "name": "Charter Communications",
       "sector": "Communication Services",
-      "pct_change": -3.4486691175506436,
+      "pct_change": -3.29245374976707,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
     },
     {
-      "symbol": "DECK",
-      "name": "Deckers Brands",
+      "symbol": "RCL",
+      "name": "Royal Caribbean Group",
       "sector": "Consumer Discretionary",
-      "pct_change": -3.298019715115391,
+      "pct_change": -3.2306333291026776,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
