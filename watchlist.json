@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-08-21T15:44:05+00:00",
+  "updated_utc": "2026-08-21T16:14:13+00:00",
   "drop_threshold_pct": -5.0,
   "high_conviction_pct": -8.0,
   "stocks": [
@@ -7,25 +7,25 @@
       "symbol": "MRVL",
       "name": "Marvell Technology",
       "sector": "Information Technology",
-      "pct_change": -6.289987757588955,
+      "pct_change": -6.457906780535254,
       "conviction": "buy_signal",
       "status": "order_failed",
       "news_bad": false
     },
     {
-      "symbol": "EIX",
-      "name": "Edison International",
-      "sector": "Utilities",
-      "pct_change": -3.6431838833187067,
+      "symbol": "PWR",
+      "name": "Quanta Services",
+      "sector": "Industrials",
+      "pct_change": -3.8680998585947104,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
     },
     {
-      "symbol": "SRE",
-      "name": "Sempra",
+      "symbol": "EIX",
+      "name": "Edison International",
       "sector": "Utilities",
-      "pct_change": -3.513389552898083,
+      "pct_change": -3.6900679717093157,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
@@ -34,7 +34,34 @@
       "symbol": "TER",
       "name": "Teradyne",
       "sector": "Information Technology",
-      "pct_change": -3.3563840679681394,
+      "pct_change": -3.5978086602380763,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "SRE",
+      "name": "Sempra",
+      "sector": "Utilities",
+      "pct_change": -3.536274244698212,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "CVNA",
+      "name": "Carvana",
+      "sector": "Consumer Discretionary",
+      "pct_change": -3.0970308191497384,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "Q",
+      "name": "Qnity Electronics",
+      "sector": "Information Technology",
+      "pct_change": -3.003302604336481,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
