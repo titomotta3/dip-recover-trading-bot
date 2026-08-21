@@ -1,6 +1,25 @@
 {
-  "updated_utc": "2026-08-21T13:48:48+00:00",
+  "updated_utc": "2026-08-21T14:21:23+00:00",
   "drop_threshold_pct": -5.0,
   "high_conviction_pct": -8.0,
-  "stocks": []
+  "stocks": [
+    {
+      "symbol": "MRVL",
+      "name": "Marvell Technology",
+      "sector": "Information Technology",
+      "pct_change": -6.075455294105703,
+      "conviction": "buy_signal",
+      "status": "order_failed",
+      "news_bad": false
+    },
+    {
+      "symbol": "TER",
+      "name": "Teradyne",
+      "sector": "Information Technology",
+      "pct_change": -4.442511978637456,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    }
+  ]
 }
