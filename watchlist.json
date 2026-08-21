@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-08-21T17:30:33+00:00",
+  "updated_utc": "2026-08-21T18:00:09+00:00",
   "drop_threshold_pct": -5.0,
   "high_conviction_pct": -8.0,
   "stocks": [
@@ -7,25 +7,7 @@
       "symbol": "SRE",
       "name": "Sempra",
       "sector": "Utilities",
-      "pct_change": -4.2229285053764185,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "EIX",
-      "name": "Edison International",
-      "sector": "Utilities",
-      "pct_change": -3.9110710622986122,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "PWR",
-      "name": "Quanta Services",
-      "sector": "Industrials",
-      "pct_change": -3.3284509137169764,
+      "pct_change": -4.13138100689326,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
@@ -34,7 +16,16 @@
       "symbol": "BG",
       "name": "Bunge Global",
       "sector": "Consumer Staples",
-      "pct_change": -3.165482071773642,
+      "pct_change": -3.9289712988289924,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "EIX",
+      "name": "Edison International",
+      "sector": "Utilities",
+      "pct_change": -3.5963100137790986,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
@@ -43,7 +34,7 @@
       "symbol": "AEP",
       "name": "American Electric Power",
       "sector": "Utilities",
-      "pct_change": -3.023067235178975,
+      "pct_change": -3.389017191933599,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
