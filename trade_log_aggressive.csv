@@ -169,3 +169,4 @@ timestamp_utc,action,symbol,detail
 2026-08-20T17:34:45+00:00,BUY,MRNA,drop=-24.43% notional=$36000.00 news=clear(10) conviction=HIGH
 2026-08-21T13:49:13+00:00,SELL,MRNA,gain=10.93% qty=273.930832445 reason=target_reached
 2026-08-21T15:01:41+00:00,SELL,OMC,gain=10.47% qty=156.621851898 reason=target_reached
+2026-08-21T15:44:30+00:00,SELL,BLDR,gain=0.47% qty=177.581900838 reason=bad_news:downgrade
