@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-08-21T15:45:02+00:00",
+  "updated_utc": "2026-08-21T16:15:19+00:00",
   "drop_threshold_pct": -8.0,
   "high_conviction_pct": -11.0,
   "stocks": [
@@ -7,7 +7,7 @@
       "symbol": "MRVL",
       "name": "Marvell Technology",
       "sector": "Information Technology",
-      "pct_change": -6.214888325612755,
+      "pct_change": -6.774626507376115,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
