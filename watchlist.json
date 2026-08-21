@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-08-21T16:14:13+00:00",
+  "updated_utc": "2026-08-21T16:55:29+00:00",
   "drop_threshold_pct": -5.0,
   "high_conviction_pct": -8.0,
   "stocks": [
@@ -7,34 +7,16 @@
       "symbol": "MRVL",
       "name": "Marvell Technology",
       "sector": "Information Technology",
-      "pct_change": -6.457906780535254,
+      "pct_change": -6.792553350900303,
       "conviction": "buy_signal",
-      "status": "order_failed",
+      "status": "bought",
       "news_bad": false
-    },
-    {
-      "symbol": "PWR",
-      "name": "Quanta Services",
-      "sector": "Industrials",
-      "pct_change": -3.8680998585947104,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
     },
     {
       "symbol": "EIX",
       "name": "Edison International",
       "sector": "Utilities",
-      "pct_change": -3.6900679717093157,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "TER",
-      "name": "Teradyne",
-      "sector": "Information Technology",
-      "pct_change": -3.5978086602380763,
+      "pct_change": -4.48688287847865,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
@@ -43,25 +25,34 @@
       "symbol": "SRE",
       "name": "Sempra",
       "sector": "Utilities",
-      "pct_change": -3.536274244698212,
+      "pct_change": -3.845274337337121,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
     },
     {
-      "symbol": "CVNA",
-      "name": "Carvana",
-      "sector": "Consumer Discretionary",
-      "pct_change": -3.0970308191497384,
+      "symbol": "BG",
+      "name": "Bunge Global",
+      "sector": "Consumer Staples",
+      "pct_change": -3.2898679716157986,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
     },
     {
-      "symbol": "Q",
-      "name": "Qnity Electronics",
+      "symbol": "PWR",
+      "name": "Quanta Services",
+      "sector": "Industrials",
+      "pct_change": -3.2061815891566434,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "TER",
+      "name": "Teradyne",
       "sector": "Information Technology",
-      "pct_change": -3.003302604336481,
+      "pct_change": -3.1136611942643997,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null

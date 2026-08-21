@@ -305,3 +305,5 @@ timestamp_utc,action,symbol,detail
 2026-08-19T19:43:47+00:00,SELL,AXON,gain=7.32% qty=16.54696032 reason=target_reached
 2026-08-19T19:44:32+00:00,BUY,COHR,drop=-6.40% notional=$20000.00 news=clear(5)
 2026-08-21T13:48:07+00:00,SELL,CF,gain=8.32% qty=84.487918215 reason=target_reached
+2026-08-21T16:54:55+00:00,SELL,ARE,gain=7.24% qty=199.084013537 reason=target_reached
+2026-08-21T16:55:29+00:00,BUY,MRVL,drop=-6.79% notional=$20000.00 news=clear(10)
