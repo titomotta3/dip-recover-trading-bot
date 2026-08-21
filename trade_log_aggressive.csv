@@ -167,3 +167,4 @@ timestamp_utc,action,symbol,detail
 2026-08-20T14:23:14+00:00,SELL,TPL,gain=11.66% qty=31.472604503 reason=target_reached
 2026-08-20T15:04:41+00:00,SELL,VLTO,gain=11.22% qty=138.488699313 reason=target_reached
 2026-08-20T17:34:45+00:00,BUY,MRNA,drop=-24.43% notional=$36000.00 news=clear(10) conviction=HIGH
+2026-08-21T13:49:13+00:00,SELL,MRNA,gain=10.93% qty=273.930832445 reason=target_reached
