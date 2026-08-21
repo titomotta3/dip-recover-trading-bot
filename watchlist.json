@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-08-21T15:01:17+00:00",
+  "updated_utc": "2026-08-21T15:44:05+00:00",
   "drop_threshold_pct": -5.0,
   "high_conviction_pct": -8.0,
   "stocks": [
@@ -7,34 +7,16 @@
       "symbol": "MRVL",
       "name": "Marvell Technology",
       "sector": "Information Technology",
-      "pct_change": -6.310504236698529,
+      "pct_change": -6.289987757588955,
       "conviction": "buy_signal",
       "status": "order_failed",
       "news_bad": false
     },
     {
-      "symbol": "TER",
-      "name": "Teradyne",
-      "sector": "Information Technology",
-      "pct_change": -4.215057850385251,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "PWR",
-      "name": "Quanta Services",
-      "sector": "Industrials",
-      "pct_change": -3.4808937020656523,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "Q",
-      "name": "Qnity Electronics",
-      "sector": "Information Technology",
-      "pct_change": -3.1118923354871857,
+      "symbol": "EIX",
+      "name": "Edison International",
+      "sector": "Utilities",
+      "pct_change": -3.6431838833187067,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
@@ -43,7 +25,16 @@
       "symbol": "SRE",
       "name": "Sempra",
       "sector": "Utilities",
-      "pct_change": -3.0899485386932466,
+      "pct_change": -3.513389552898083,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "TER",
+      "name": "Teradyne",
+      "sector": "Information Technology",
+      "pct_change": -3.3563840679681394,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
