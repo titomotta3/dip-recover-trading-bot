@@ -1,7 +1,7 @@
 {
-  "updated_utc": "2026-08-21T16:56:35+00:00",
+  "updated_utc": "2026-08-21T17:31:37+00:00",
   "paper": true,
-  "equity": 556321.52,
+  "equity": 556500.75,
   "cash": 67379.55,
   "buying_power": 67379.55,
   "starting_equity": 500000.0,
@@ -22,275 +22,275 @@
       "name": "Carrier Global",
       "qty": 189.241965973,
       "avg_entry_price": 63.410829,
-      "current_price": 60.18,
+      "current_price": 60.205,
       "cost_basis": 11999.989944,
-      "market_value": 11388.581512,
-      "unrealized_pl": -611.408432,
-      "unrealized_plpc": -5.095000000000001
+      "market_value": 11393.312561,
+      "unrealized_pl": -606.677383,
+      "unrealized_plpc": -5.056
     },
     {
       "symbol": "CB",
       "name": "Chubb Limited",
       "qty": 36.448432716,
       "avg_entry_price": 342.95,
-      "current_price": 342.45,
+      "current_price": 342.21,
       "cost_basis": 12499.99,
-      "market_value": 12481.765784,
-      "unrealized_pl": -18.224216,
-      "unrealized_plpc": -0.146
+      "market_value": 12473.01816,
+      "unrealized_pl": -26.97184,
+      "unrealized_plpc": -0.216
     },
     {
       "symbol": "CCI",
       "name": "Crown Castle",
       "qty": 157.052969731,
       "avg_entry_price": 70.04,
-      "current_price": 75.24,
+      "current_price": 75.07,
       "cost_basis": 10999.99,
-      "market_value": 11816.665443,
-      "unrealized_pl": 816.675443,
-      "unrealized_plpc": 7.424
+      "market_value": 11789.966438,
+      "unrealized_pl": 789.976438,
+      "unrealized_plpc": 7.1819999999999995
     },
     {
       "symbol": "CDW",
       "name": "CDW Corporation",
       "qty": 166.881514071,
       "avg_entry_price": 131.83,
-      "current_price": 139.735,
+      "current_price": 139.105,
       "cost_basis": 21999.99,
-      "market_value": 23319.188369,
-      "unrealized_pl": 1319.198369,
-      "unrealized_plpc": 5.9959999999999996
+      "market_value": 23214.053015,
+      "unrealized_pl": 1214.063015,
+      "unrealized_plpc": 5.518
     },
     {
       "symbol": "CHRW",
       "name": "C.H. Robinson",
       "qty": 154.829956243,
       "avg_entry_price": 148.55,
-      "current_price": 143.285,
+      "current_price": 142.925,
       "cost_basis": 22999.99,
-      "market_value": 22184.81028,
-      "unrealized_pl": -815.17972,
-      "unrealized_plpc": -3.544
+      "market_value": 22129.071496,
+      "unrealized_pl": -870.918504,
+      "unrealized_plpc": -3.787
     },
     {
       "symbol": "COHR",
       "name": "Coherent Corp.",
       "qty": 129.849018016,
       "avg_entry_price": 308.05,
-      "current_price": 285.69,
+      "current_price": 287.975,
       "cost_basis": 39999.99,
-      "market_value": 37096.565957,
-      "unrealized_pl": -2903.424043,
-      "unrealized_plpc": -7.259
+      "market_value": 37393.270963,
+      "unrealized_pl": -2606.719037,
+      "unrealized_plpc": -6.517
     },
     {
       "symbol": "CTVA",
       "name": "Corteva",
       "qty": 289.344445842,
       "avg_entry_price": 79.49,
-      "current_price": 82.05,
+      "current_price": 81.615,
       "cost_basis": 22999.99,
-      "market_value": 23740.711781,
-      "unrealized_pl": 740.721781,
-      "unrealized_plpc": 3.221
+      "market_value": 23614.846947,
+      "unrealized_pl": 614.856947,
+      "unrealized_plpc": 2.673
     },
     {
       "symbol": "DELL",
       "name": "Dell Technologies",
       "qty": 46.383241726,
       "avg_entry_price": 431.19,
-      "current_price": 437.07,
+      "current_price": 438.48,
       "cost_basis": 19999.99,
-      "market_value": 20272.723461,
-      "unrealized_pl": 272.733461,
-      "unrealized_plpc": 1.3639999999999999
+      "market_value": 20338.123832,
+      "unrealized_pl": 338.133832,
+      "unrealized_plpc": 1.691
     },
     {
       "symbol": "GEV",
       "name": "GE Vernova",
       "qty": 24.599267925,
       "avg_entry_price": 1016.29,
-      "current_price": 961.085,
+      "current_price": 965.14,
       "cost_basis": 24999.989999,
-      "market_value": 23641.987414,
-      "unrealized_pl": -1358.002585,
-      "unrealized_plpc": -5.432
+      "market_value": 23741.737445,
+      "unrealized_pl": -1258.252554,
+      "unrealized_plpc": -5.033
     },
     {
       "symbol": "GLW",
       "name": "Corning Inc.",
       "qty": 125.651755984,
       "avg_entry_price": 159.17,
-      "current_price": 149.41,
+      "current_price": 150.205,
       "cost_basis": 19999.99,
-      "market_value": 18773.628862,
-      "unrealized_pl": -1226.361138,
-      "unrealized_plpc": -6.132
+      "market_value": 18873.522008,
+      "unrealized_pl": -1126.467992,
+      "unrealized_plpc": -5.632000000000001
     },
     {
       "symbol": "HAL",
       "name": "Halliburton",
       "qty": 383.207298374,
       "avg_entry_price": 32.619394,
-      "current_price": 35.385,
+      "current_price": 35.305,
       "cost_basis": 12499.989849,
-      "market_value": 13559.790253,
-      "unrealized_pl": 1059.800404,
-      "unrealized_plpc": 8.478
+      "market_value": 13529.133669,
+      "unrealized_pl": 1029.14382,
+      "unrealized_plpc": 8.233
     },
     {
       "symbol": "LHX",
       "name": "L3Harris",
       "qty": 42.669993692,
       "avg_entry_price": 269.51,
-      "current_price": 268.49,
+      "current_price": 267.975,
       "cost_basis": 11499.99,
-      "market_value": 11456.466606,
-      "unrealized_pl": -43.523394,
-      "unrealized_plpc": -0.378
+      "market_value": 11434.49156,
+      "unrealized_pl": -65.49844,
+      "unrealized_plpc": -0.5700000000000001
     },
     {
       "symbol": "LII",
       "name": "Lennox International",
       "qty": 52.426409245,
       "avg_entry_price": 438.71,
-      "current_price": 403.0,
+      "current_price": 404.1,
       "cost_basis": 22999.99,
-      "market_value": 21127.842926,
-      "unrealized_pl": -1872.147074,
-      "unrealized_plpc": -8.14
+      "market_value": 21185.511976,
+      "unrealized_pl": -1814.478024,
+      "unrealized_plpc": -7.889
     },
     {
       "symbol": "LITE",
       "name": "Lumentum",
       "qty": 22.935768348,
       "avg_entry_price": 872.0,
-      "current_price": 865.245,
+      "current_price": 867.795,
       "cost_basis": 19999.989999,
-      "market_value": 19845.058884,
-      "unrealized_pl": -154.931115,
-      "unrealized_plpc": -0.775
+      "market_value": 19903.545094,
+      "unrealized_pl": -96.444905,
+      "unrealized_plpc": -0.482
     },
     {
       "symbol": "MCO",
       "name": "Moody's Corporation",
       "qty": 25.527896908,
       "avg_entry_price": 489.66,
-      "current_price": 504.68,
+      "current_price": 503.475,
       "cost_basis": 12499.99,
-      "market_value": 12883.419012,
-      "unrealized_pl": 383.429012,
-      "unrealized_plpc": 3.0669999999999997
+      "market_value": 12852.657896,
+      "unrealized_pl": 352.667896,
+      "unrealized_plpc": 2.8209999999999997
     },
     {
       "symbol": "MNST",
       "name": "Monster Beverage",
       "qty": 483.941706995,
       "avg_entry_price": 45.46,
-      "current_price": 47.965,
+      "current_price": 48.085,
       "cost_basis": 21999.99,
-      "market_value": 23212.263976,
-      "unrealized_pl": 1212.273976,
-      "unrealized_plpc": 5.510000000000001
+      "market_value": 23270.336981,
+      "unrealized_pl": 1270.346981,
+      "unrealized_plpc": 5.774
     },
     {
       "symbol": "MO",
       "name": "Altria",
       "qty": 169.018077601,
       "avg_entry_price": 68.04,
-      "current_price": 66.065,
+      "current_price": 66.105,
       "cost_basis": 11499.99,
-      "market_value": 11166.179297,
-      "unrealized_pl": -333.810703,
-      "unrealized_plpc": -2.903
+      "market_value": 11172.94002,
+      "unrealized_pl": -327.04998,
+      "unrealized_plpc": -2.844
     },
     {
       "symbol": "MSCI",
       "name": "MSCI",
       "qty": 44.633275012,
       "avg_entry_price": 560.12,
-      "current_price": 567.09,
+      "current_price": 565.56,
       "cost_basis": 24999.99,
-      "market_value": 25311.083927,
-      "unrealized_pl": 311.093927,
-      "unrealized_plpc": 1.244
+      "market_value": 25242.795016,
+      "unrealized_pl": 242.805016,
+      "unrealized_plpc": 0.971
     },
     {
       "symbol": "NRG",
       "name": "NRG Energy",
       "qty": 181.682963085,
       "avg_entry_price": 121.09,
-      "current_price": 114.8,
+      "current_price": 114.77,
       "cost_basis": 21999.99,
-      "market_value": 20857.204162,
-      "unrealized_pl": -1142.785838,
-      "unrealized_plpc": -5.194
+      "market_value": 20851.753673,
+      "unrealized_pl": -1148.236327,
+      "unrealized_plpc": -5.219
     },
     {
       "symbol": "SBAC",
       "name": "SBA Communications",
       "qty": 63.975747353,
       "avg_entry_price": 171.94,
-      "current_price": 182.55,
+      "current_price": 182.1,
       "cost_basis": 10999.99,
-      "market_value": 11678.772679,
-      "unrealized_pl": 678.782679,
-      "unrealized_plpc": 6.171
+      "market_value": 11649.983593,
+      "unrealized_pl": 649.993593,
+      "unrealized_plpc": 5.909
     },
     {
       "symbol": "STLD",
       "name": "Steel Dynamics",
       "qty": 87.385808537,
       "avg_entry_price": 228.87,
-      "current_price": 227.765,
+      "current_price": 225.26,
       "cost_basis": 19999.99,
-      "market_value": 19903.428681,
-      "unrealized_pl": -96.561319,
-      "unrealized_plpc": -0.483
+      "market_value": 19684.527231,
+      "unrealized_pl": -315.462769,
+      "unrealized_plpc": -1.577
     },
     {
       "symbol": "STX",
       "name": "Seagate Technology",
       "qty": 24.064751142,
       "avg_entry_price": 831.090664,
-      "current_price": 848.82,
+      "current_price": 852.41,
       "cost_basis": 19999.990006,
-      "market_value": 20426.642064,
-      "unrealized_pl": 426.652058,
-      "unrealized_plpc": 2.133
+      "market_value": 20513.034521,
+      "unrealized_pl": 513.044515,
+      "unrealized_plpc": 2.565
     },
     {
       "symbol": "TPR",
       "name": "Tapestry, Inc.",
       "qty": 307.573933102,
       "avg_entry_price": 130.05,
-      "current_price": 130.135,
+      "current_price": 130.69,
       "cost_basis": 39999.99,
-      "market_value": 40026.133784,
-      "unrealized_pl": 26.143784,
-      "unrealized_plpc": 0.065
+      "market_value": 40196.837317,
+      "unrealized_pl": 196.847317,
+      "unrealized_plpc": 0.492
     },
     {
       "symbol": "VRSN",
       "name": "Verisign",
       "qty": 46.375268976,
       "avg_entry_price": 269.54,
-      "current_price": 281.695,
+      "current_price": 279.77,
       "cost_basis": 12499.99,
-      "market_value": 13063.681394,
-      "unrealized_pl": 563.691394,
-      "unrealized_plpc": 4.51
+      "market_value": 12974.409001,
+      "unrealized_pl": 474.419001,
+      "unrealized_plpc": 3.795
     },
     {
       "symbol": "WMT",
       "name": "Walmart",
       "qty": 191.710983213,
       "avg_entry_price": 104.323653,
-      "current_price": 102.7973,
+      "current_price": 102.7501,
       "cost_basis": 19999.990089,
-      "market_value": 19707.371455,
-      "unrealized_pl": -292.618634,
-      "unrealized_plpc": -1.463
+      "market_value": 19698.322696,
+      "unrealized_pl": -301.667393,
+      "unrealized_plpc": -1.508
     }
   ],
   "adaptive_target_band_pct": [
