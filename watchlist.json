@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-08-24T13:54:05+00:00",
+  "updated_utc": "2026-08-24T14:39:54+00:00",
   "drop_threshold_pct": -5.0,
   "high_conviction_pct": -8.0,
   "stocks": [
@@ -7,34 +7,16 @@
       "symbol": "SNDK",
       "name": "Sandisk",
       "sector": "Information Technology",
-      "pct_change": -10.783668208096818,
+      "pct_change": -9.089767433287442,
       "conviction": "high",
       "status": "order_failed",
       "news_bad": false
     },
     {
-      "symbol": "LITE",
-      "name": "Lumentum",
-      "sector": "Information Technology",
-      "pct_change": -8.169975627768583,
-      "conviction": "high",
-      "status": "order_failed",
-      "news_bad": false
-    },
-    {
-      "symbol": "CIEN",
-      "name": "Ciena",
-      "sector": "Information Technology",
-      "pct_change": -7.906974090323055,
-      "conviction": "buy_signal",
-      "status": "order_failed",
-      "news_bad": false
-    },
-    {
-      "symbol": "STX",
-      "name": "Seagate Technology",
-      "sector": "Information Technology",
-      "pct_change": -7.7723532284007355,
+      "symbol": "MRNA",
+      "name": "Moderna",
+      "sector": "Health Care",
+      "pct_change": -7.797637321737229,
       "conviction": "buy_signal",
       "status": "order_failed",
       "news_bad": false
@@ -43,16 +25,7 @@
       "symbol": "SMCI",
       "name": "Supermicro",
       "sector": "Information Technology",
-      "pct_change": -7.572511768043472,
-      "conviction": "buy_signal",
-      "status": "order_failed",
-      "news_bad": false
-    },
-    {
-      "symbol": "WDC",
-      "name": "Western Digital",
-      "sector": "Information Technology",
-      "pct_change": -7.407387480380182,
+      "pct_change": -6.739803547197094,
       "conviction": "buy_signal",
       "status": "order_failed",
       "news_bad": false
@@ -61,7 +34,34 @@
       "symbol": "MU",
       "name": "Micron Technology",
       "sector": "Information Technology",
-      "pct_change": -7.044005312213773,
+      "pct_change": -6.7362789907197875,
+      "conviction": "buy_signal",
+      "status": "order_failed",
+      "news_bad": false
+    },
+    {
+      "symbol": "STX",
+      "name": "Seagate Technology",
+      "sector": "Information Technology",
+      "pct_change": -6.588824103860294,
+      "conviction": "buy_signal",
+      "status": "order_failed",
+      "news_bad": false
+    },
+    {
+      "symbol": "WDC",
+      "name": "Western Digital",
+      "sector": "Information Technology",
+      "pct_change": -6.4448057878714815,
+      "conviction": "buy_signal",
+      "status": "order_failed",
+      "news_bad": false
+    },
+    {
+      "symbol": "CIEN",
+      "name": "Ciena",
+      "sector": "Information Technology",
+      "pct_change": -6.081509589569849,
       "conviction": "buy_signal",
       "status": "order_failed",
       "news_bad": false
@@ -70,61 +70,34 @@
       "symbol": "TER",
       "name": "Teradyne",
       "sector": "Information Technology",
-      "pct_change": -6.436631230949865,
+      "pct_change": -5.614255008508601,
       "conviction": "buy_signal",
       "status": "blocked_news",
       "news_bad": true
     },
     {
-      "symbol": "MRNA",
-      "name": "Moderna",
-      "sector": "Health Care",
-      "pct_change": -6.42018285733511,
+      "symbol": "LITE",
+      "name": "Lumentum",
+      "sector": "Information Technology",
+      "pct_change": -5.6020498899415125,
       "conviction": "buy_signal",
       "status": "order_failed",
       "news_bad": false
     },
     {
-      "symbol": "GLW",
-      "name": "Corning Inc.",
-      "sector": "Information Technology",
-      "pct_change": -5.182194059947979,
-      "conviction": "buy_signal",
-      "status": "order_failed",
-      "news_bad": false
+      "symbol": "JBHT",
+      "name": "J.B. Hunt",
+      "sector": "Industrials",
+      "pct_change": -4.4944651784976335,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
     },
     {
       "symbol": "INTC",
       "name": "Intel",
       "sector": "Information Technology",
-      "pct_change": -4.990565961820839,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "FLEX",
-      "name": "Flex Ltd.",
-      "sector": "Information Technology",
-      "pct_change": -4.4680830194194865,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "LRCX",
-      "name": "Lam Research",
-      "sector": "Information Technology",
-      "pct_change": -4.227705062574642,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "VRT",
-      "name": "Vertiv",
-      "sector": "Industrials",
-      "pct_change": -4.063759891271449,
+      "pct_change": -4.25779848725039,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
@@ -133,7 +106,34 @@
       "symbol": "Q",
       "name": "Qnity Electronics",
       "sector": "Information Technology",
-      "pct_change": -3.8446629758899777,
+      "pct_change": -4.158913746643493,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "GLW",
+      "name": "Corning Inc.",
+      "sector": "Information Technology",
+      "pct_change": -4.156696280639525,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "FLEX",
+      "name": "Flex Ltd.",
+      "sector": "Information Technology",
+      "pct_change": -4.074241850915341,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "VRT",
+      "name": "Vertiv",
+      "sector": "Industrials",
+      "pct_change": -3.993130836581202,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
