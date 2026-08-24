@@ -1,22 +1,13 @@
 {
-  "updated_utc": "2026-08-24T14:40:50+00:00",
+  "updated_utc": "2026-08-24T15:24:32+00:00",
   "drop_threshold_pct": -8.0,
   "high_conviction_pct": -11.0,
   "stocks": [
     {
-      "symbol": "MRNA",
-      "name": "Moderna",
-      "sector": "Health Care",
-      "pct_change": -7.200449152791855,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
       "symbol": "MU",
       "name": "Micron Technology",
       "sector": "Information Technology",
-      "pct_change": -6.82395728612443,
+      "pct_change": -7.14071785594244,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
@@ -25,7 +16,7 @@
       "symbol": "SMCI",
       "name": "Supermicro",
       "sector": "Information Technology",
-      "pct_change": -6.691730578720484,
+      "pct_change": -6.874332056680006,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
@@ -34,7 +25,25 @@
       "symbol": "WDC",
       "name": "Western Digital",
       "sector": "Information Technology",
-      "pct_change": -6.55907400432948,
+      "pct_change": -6.78978912555555,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "JBHT",
+      "name": "J.B. Hunt",
+      "sector": "Industrials",
+      "pct_change": -6.178986667990259,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "TER",
+      "name": "Teradyne",
+      "sector": "Information Technology",
+      "pct_change": -6.0733425772450325,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
@@ -43,7 +52,7 @@
       "symbol": "CIEN",
       "name": "Ciena",
       "sector": "Information Technology",
-      "pct_change": -6.188886679388557,
+      "pct_change": -6.053720774999505,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
