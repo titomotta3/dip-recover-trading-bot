@@ -1,22 +1,22 @@
 {
-  "updated_utc": "2026-08-24T19:25:12+00:00",
+  "updated_utc": "2026-08-24T19:56:24+00:00",
   "drop_threshold_pct": -5.0,
   "high_conviction_pct": -8.0,
   "stocks": [
     {
-      "symbol": "SNDK",
-      "name": "Sandisk",
+      "symbol": "STX",
+      "name": "Seagate Technology",
       "sector": "Information Technology",
-      "pct_change": -6.5463503225638195,
+      "pct_change": -6.6529397403492645,
       "conviction": "buy_signal",
       "status": "order_failed",
       "news_bad": false
     },
     {
-      "symbol": "STX",
-      "name": "Seagate Technology",
+      "symbol": "SNDK",
+      "name": "Sandisk",
       "sector": "Information Technology",
-      "pct_change": -6.228235581341911,
+      "pct_change": -6.64628082398228,
       "conviction": "buy_signal",
       "status": "order_failed",
       "news_bad": false
@@ -25,7 +25,7 @@
       "symbol": "CIEN",
       "name": "Ciena",
       "sector": "Information Technology",
-      "pct_change": -5.6191465857655425,
+      "pct_change": -6.0385541273136365,
       "conviction": "buy_signal",
       "status": "order_failed",
       "news_bad": false
@@ -34,16 +34,7 @@
       "symbol": "MU",
       "name": "Micron Technology",
       "sector": "Information Technology",
-      "pct_change": -5.539528340266535,
-      "conviction": "buy_signal",
-      "status": "order_failed",
-      "news_bad": false
-    },
-    {
-      "symbol": "WDC",
-      "name": "Western Digital",
-      "sector": "Information Technology",
-      "pct_change": -5.080096685936102,
+      "pct_change": -5.928960630879679,
       "conviction": "buy_signal",
       "status": "order_failed",
       "news_bad": false
@@ -52,43 +43,34 @@
       "symbol": "SMCI",
       "name": "Supermicro",
       "sector": "Information Technology",
-      "pct_change": -4.967782506540761,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
+      "pct_change": -5.571967425928652,
+      "conviction": "buy_signal",
+      "status": "order_failed",
+      "news_bad": false
     },
     {
       "symbol": "JBHT",
       "name": "J.B. Hunt",
       "sector": "Industrials",
-      "pct_change": -4.929211852142701,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
+      "pct_change": -5.471049793561805,
+      "conviction": "buy_signal",
+      "status": "order_failed",
+      "news_bad": false
+    },
+    {
+      "symbol": "WDC",
+      "name": "Western Digital",
+      "sector": "Information Technology",
+      "pct_change": -5.447936323848732,
+      "conviction": "buy_signal",
+      "status": "order_failed",
+      "news_bad": false
     },
     {
       "symbol": "FDXF",
       "name": "FedEx Freight",
       "sector": "Industrials",
-      "pct_change": -4.8427095838791105,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "HPQ",
-      "name": "HP Inc.",
-      "sector": "Information Technology",
-      "pct_change": -4.341969195323548,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "AKAM",
-      "name": "Akamai Technologies",
-      "sector": "Information Technology",
-      "pct_change": -4.188552867863335,
+      "pct_change": -4.624239560753134,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
@@ -97,25 +79,7 @@
       "symbol": "AXON",
       "name": "Axon Enterprise",
       "sector": "Industrials",
-      "pct_change": -4.066910282258065,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "LYB",
-      "name": "LyondellBasell",
-      "sector": "Materials",
-      "pct_change": -3.893081371623487,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "A",
-      "name": "Agilent Technologies",
-      "sector": "Health Care",
-      "pct_change": -3.7358505920794025,
+      "pct_change": -4.614889797391478,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
@@ -124,16 +88,52 @@
       "symbol": "LITE",
       "name": "Lumentum",
       "sector": "Information Technology",
-      "pct_change": -3.706545347991085,
+      "pct_change": -4.58630902980998,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
     },
     {
-      "symbol": "HWM",
-      "name": "Howmet Aerospace",
-      "sector": "Industrials",
-      "pct_change": -3.6789588437288328,
+      "symbol": "HOOD",
+      "name": "Robinhood Markets",
+      "sector": "Financials",
+      "pct_change": -4.096920759919607,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "HPQ",
+      "name": "HP Inc.",
+      "sector": "Information Technology",
+      "pct_change": -4.022213839275282,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "AKAM",
+      "name": "Akamai Technologies",
+      "sector": "Information Technology",
+      "pct_change": -3.9836951227011452,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "COIN",
+      "name": "Coinbase",
+      "sector": "Financials",
+      "pct_change": -3.833990532825378,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "FLEX",
+      "name": "Flex Ltd.",
+      "sector": "Information Technology",
+      "pct_change": -3.653233267725374,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
