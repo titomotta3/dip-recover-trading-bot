@@ -1,40 +1,139 @@
 {
-  "updated_utc": "2026-08-21T19:44:17+00:00",
+  "updated_utc": "2026-08-24T13:54:05+00:00",
   "drop_threshold_pct": -5.0,
   "high_conviction_pct": -8.0,
   "stocks": [
     {
-      "symbol": "SRE",
-      "name": "Sempra",
-      "sector": "Utilities",
-      "pct_change": -5.275807685117817,
+      "symbol": "SNDK",
+      "name": "Sandisk",
+      "sector": "Information Technology",
+      "pct_change": -10.783668208096818,
+      "conviction": "high",
+      "status": "order_failed",
+      "news_bad": false
+    },
+    {
+      "symbol": "LITE",
+      "name": "Lumentum",
+      "sector": "Information Technology",
+      "pct_change": -8.169975627768583,
+      "conviction": "high",
+      "status": "order_failed",
+      "news_bad": false
+    },
+    {
+      "symbol": "CIEN",
+      "name": "Ciena",
+      "sector": "Information Technology",
+      "pct_change": -7.906974090323055,
       "conviction": "buy_signal",
       "status": "order_failed",
       "news_bad": false
     },
     {
-      "symbol": "EIX",
-      "name": "Edison International",
-      "sector": "Utilities",
-      "pct_change": -4.7013152478745805,
+      "symbol": "STX",
+      "name": "Seagate Technology",
+      "sector": "Information Technology",
+      "pct_change": -7.7723532284007355,
+      "conviction": "buy_signal",
+      "status": "order_failed",
+      "news_bad": false
+    },
+    {
+      "symbol": "SMCI",
+      "name": "Supermicro",
+      "sector": "Information Technology",
+      "pct_change": -7.572511768043472,
+      "conviction": "buy_signal",
+      "status": "order_failed",
+      "news_bad": false
+    },
+    {
+      "symbol": "WDC",
+      "name": "Western Digital",
+      "sector": "Information Technology",
+      "pct_change": -7.407387480380182,
+      "conviction": "buy_signal",
+      "status": "order_failed",
+      "news_bad": false
+    },
+    {
+      "symbol": "MU",
+      "name": "Micron Technology",
+      "sector": "Information Technology",
+      "pct_change": -7.044005312213773,
+      "conviction": "buy_signal",
+      "status": "order_failed",
+      "news_bad": false
+    },
+    {
+      "symbol": "TER",
+      "name": "Teradyne",
+      "sector": "Information Technology",
+      "pct_change": -6.436631230949865,
+      "conviction": "buy_signal",
+      "status": "blocked_news",
+      "news_bad": true
+    },
+    {
+      "symbol": "MRNA",
+      "name": "Moderna",
+      "sector": "Health Care",
+      "pct_change": -6.42018285733511,
+      "conviction": "buy_signal",
+      "status": "order_failed",
+      "news_bad": false
+    },
+    {
+      "symbol": "GLW",
+      "name": "Corning Inc.",
+      "sector": "Information Technology",
+      "pct_change": -5.182194059947979,
+      "conviction": "buy_signal",
+      "status": "order_failed",
+      "news_bad": false
+    },
+    {
+      "symbol": "INTC",
+      "name": "Intel",
+      "sector": "Information Technology",
+      "pct_change": -4.990565961820839,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
     },
     {
-      "symbol": "AEP",
-      "name": "American Electric Power",
-      "sector": "Utilities",
-      "pct_change": -3.6913281641199944,
+      "symbol": "FLEX",
+      "name": "Flex Ltd.",
+      "sector": "Information Technology",
+      "pct_change": -4.4680830194194865,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
     },
     {
-      "symbol": "CNP",
-      "name": "CenterPoint Energy",
-      "sector": "Utilities",
-      "pct_change": -3.395526498907924,
+      "symbol": "LRCX",
+      "name": "Lam Research",
+      "sector": "Information Technology",
+      "pct_change": -4.227705062574642,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "VRT",
+      "name": "Vertiv",
+      "sector": "Industrials",
+      "pct_change": -4.063759891271449,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "Q",
+      "name": "Qnity Electronics",
+      "sector": "Information Technology",
+      "pct_change": -3.8446629758899777,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null

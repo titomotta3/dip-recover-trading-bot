@@ -307,3 +307,4 @@ timestamp_utc,action,symbol,detail
 2026-08-21T13:48:07+00:00,SELL,CF,gain=8.32% qty=84.487918215 reason=target_reached
 2026-08-21T16:54:55+00:00,SELL,ARE,gain=7.24% qty=199.084013537 reason=target_reached
 2026-08-21T16:55:29+00:00,BUY,MRVL,drop=-6.79% notional=$20000.00 news=clear(10)
+2026-08-24T13:53:35+00:00,SELL,MNST,gain=7.75% qty=220.167107001 reason=target_reached
