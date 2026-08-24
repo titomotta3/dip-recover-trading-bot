@@ -170,3 +170,6 @@ timestamp_utc,action,symbol,detail
 2026-08-21T13:49:13+00:00,SELL,MRNA,gain=10.93% qty=273.930832445 reason=target_reached
 2026-08-21T15:01:41+00:00,SELL,OMC,gain=10.47% qty=156.621851898 reason=target_reached
 2026-08-21T15:44:30+00:00,SELL,BLDR,gain=0.47% qty=177.581900838 reason=bad_news:downgrade
+2026-08-24T13:54:34+00:00,SELL,COHR,gain=-13.57% qty=129.849018016 reason=stop_loss
+2026-08-24T13:55:11+00:00,BUY,COHR,drop=-8.25% notional=$18000.00 news=clear(1)
+2026-08-24T13:55:12+00:00,BUY,SNDK,drop=-10.40% notional=$18000.00 news=clear(6)
