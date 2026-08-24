@@ -1,40 +1,13 @@
 {
-  "updated_utc": "2026-08-24T13:55:12+00:00",
+  "updated_utc": "2026-08-24T14:40:50+00:00",
   "drop_threshold_pct": -8.0,
   "high_conviction_pct": -11.0,
   "stocks": [
     {
-      "symbol": "SNDK",
-      "name": "Sandisk",
-      "sector": "Information Technology",
-      "pct_change": -10.401422185565572,
-      "conviction": "buy_signal",
-      "status": "bought",
-      "news_bad": false
-    },
-    {
-      "symbol": "COHR",
-      "name": "Coherent Corp.",
-      "sector": "Information Technology",
-      "pct_change": -8.251583668625806,
-      "conviction": "buy_signal",
-      "status": "bought",
-      "news_bad": false
-    },
-    {
-      "symbol": "SMCI",
-      "name": "Supermicro",
-      "sector": "Information Technology",
-      "pct_change": -7.599360106073984,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "CIEN",
-      "name": "Ciena",
-      "sector": "Information Technology",
-      "pct_change": -7.564618053769815,
+      "symbol": "MRNA",
+      "name": "Moderna",
+      "sector": "Health Care",
+      "pct_change": -7.200449152791855,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
@@ -43,7 +16,16 @@
       "symbol": "MU",
       "name": "Micron Technology",
       "sector": "Information Technology",
-      "pct_change": -7.095723385079185,
+      "pct_change": -6.82395728612443,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "SMCI",
+      "name": "Supermicro",
+      "sector": "Information Technology",
+      "pct_change": -6.691730578720484,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
@@ -52,25 +34,16 @@
       "symbol": "WDC",
       "name": "Western Digital",
       "sector": "Information Technology",
-      "pct_change": -7.040092514545069,
+      "pct_change": -6.55907400432948,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
     },
     {
-      "symbol": "TER",
-      "name": "Teradyne",
+      "symbol": "CIEN",
+      "name": "Ciena",
       "sector": "Information Technology",
-      "pct_change": -6.477882836668007,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "MRNA",
-      "name": "Moderna",
-      "sector": "Health Care",
-      "pct_change": -6.091718850538942,
+      "pct_change": -6.188886679388557,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
