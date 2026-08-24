@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-08-24T15:23:13+00:00",
+  "updated_utc": "2026-08-24T16:03:58+00:00",
   "drop_threshold_pct": -5.0,
   "high_conviction_pct": -8.0,
   "stocks": [
@@ -7,8 +7,8 @@
       "symbol": "SNDK",
       "name": "Sandisk",
       "sector": "Information Technology",
-      "pct_change": -8.634902391089252,
-      "conviction": "high",
+      "pct_change": -6.8523368142789405,
+      "conviction": "buy_signal",
       "status": "order_failed",
       "news_bad": false
     },
@@ -16,7 +16,7 @@
       "symbol": "MU",
       "name": "Micron Technology",
       "sector": "Information Technology",
-      "pct_change": -7.223724352772813,
+      "pct_change": -5.694164873074809,
       "conviction": "buy_signal",
       "status": "order_failed",
       "news_bad": false
@@ -25,16 +25,7 @@
       "symbol": "STX",
       "name": "Seagate Technology",
       "sector": "Information Technology",
-      "pct_change": -7.221765854779412,
-      "conviction": "buy_signal",
-      "status": "order_failed",
-      "news_bad": false
-    },
-    {
-      "symbol": "SMCI",
-      "name": "Supermicro",
-      "sector": "Information Technology",
-      "pct_change": -7.129437363933679,
+      "pct_change": -5.67529296875,
       "conviction": "buy_signal",
       "status": "order_failed",
       "news_bad": false
@@ -43,16 +34,7 @@
       "symbol": "WDC",
       "name": "Western Digital",
       "sector": "Information Technology",
-      "pct_change": -6.86814219660935,
-      "conviction": "buy_signal",
-      "status": "order_failed",
-      "news_bad": false
-    },
-    {
-      "symbol": "JBHT",
-      "name": "J.B. Hunt",
-      "sector": "Industrials",
-      "pct_change": -6.302419713124808,
+      "pct_change": -5.433788134518061,
       "conviction": "buy_signal",
       "status": "order_failed",
       "news_bad": false
@@ -61,16 +43,7 @@
       "symbol": "CIEN",
       "name": "Ciena",
       "sector": "Information Technology",
-      "pct_change": -6.192680268946995,
-      "conviction": "buy_signal",
-      "status": "order_failed",
-      "news_bad": false
-    },
-    {
-      "symbol": "TER",
-      "name": "Teradyne",
-      "sector": "Information Technology",
-      "pct_change": -6.078670605075532,
+      "pct_change": -5.190887335247759,
       "conviction": "buy_signal",
       "status": "order_failed",
       "news_bad": false
@@ -79,34 +52,52 @@
       "symbol": "LITE",
       "name": "Lumentum",
       "sector": "Information Technology",
-      "pct_change": -5.89470821384832,
-      "conviction": "buy_signal",
-      "status": "order_failed",
-      "news_bad": false
-    },
-    {
-      "symbol": "MRNA",
-      "name": "Moderna",
-      "sector": "Health Care",
-      "pct_change": -5.253910110563923,
-      "conviction": "buy_signal",
-      "status": "order_failed",
-      "news_bad": false
-    },
-    {
-      "symbol": "Q",
-      "name": "Qnity Electronics",
-      "sector": "Information Technology",
-      "pct_change": -4.853355560080887,
+      "pct_change": -4.979177372225712,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
     },
     {
-      "symbol": "MPWR",
-      "name": "Monolithic Power Systems",
+      "symbol": "SMCI",
+      "name": "Supermicro",
       "sector": "Information Technology",
-      "pct_change": -4.361536519729358,
+      "pct_change": -4.859026762599538,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "JBHT",
+      "name": "J.B. Hunt",
+      "sector": "Industrials",
+      "pct_change": -4.233074294927092,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "F",
+      "name": "Ford Motor Company",
+      "sector": "Consumer Discretionary",
+      "pct_change": -4.024982164106107,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "AXON",
+      "name": "Axon Enterprise",
+      "sector": "Industrials",
+      "pct_change": -3.4328933162833533,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "HPQ",
+      "name": "HP Inc.",
+      "sector": "Information Technology",
+      "pct_change": -3.3995232334458696,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
@@ -115,25 +106,34 @@
       "symbol": "PWR",
       "name": "Quanta Services",
       "sector": "Industrials",
-      "pct_change": -4.3302462532745984,
+      "pct_change": -3.3511004876683383,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
     },
     {
-      "symbol": "INTC",
-      "name": "Intel",
+      "symbol": "GLW",
+      "name": "Corning Inc.",
       "sector": "Information Technology",
-      "pct_change": -4.26890333488485,
+      "pct_change": -3.2901713803196238,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
     },
     {
-      "symbol": "FLEX",
-      "name": "Flex Ltd.",
+      "symbol": "AKAM",
+      "name": "Akamai Technologies",
       "sector": "Information Technology",
-      "pct_change": -4.219100191463616,
+      "pct_change": -3.278387228053399,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "FANG",
+      "name": "Diamondback Energy",
+      "sector": "Energy",
+      "pct_change": -3.205678076917563,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
