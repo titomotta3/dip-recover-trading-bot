@@ -3,7 +3,7 @@
   "sell_threshold_pct": 10.0,
   "trade_dollars": 18000.0,
   "completed_trades": 41,
-  "last_adjustment": "1 bad_news exit(s) (STLD)",
-  "updated_utc": "2026-08-25T13:54:04+00:00",
+  "last_adjustment": "no change this run",
+  "updated_utc": "2026-08-25T14:41:16+00:00",
   "risk_exits": 37
 }
