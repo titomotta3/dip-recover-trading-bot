@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-08-25T16:10:37+00:00",
+  "updated_utc": "2026-08-25T16:56:19+00:00",
   "drop_threshold_pct": -5.0,
   "high_conviction_pct": -8.0,
   "stocks": [
@@ -7,7 +7,7 @@
       "symbol": "ALB",
       "name": "Albemarle Corporation",
       "sector": "Materials",
-      "pct_change": -5.158637606064008,
+      "pct_change": -5.420110569345543,
       "conviction": "buy_signal",
       "status": "order_failed",
       "news_bad": false
@@ -16,16 +16,7 @@
       "symbol": "LULU",
       "name": "Lululemon Athletica",
       "sector": "Consumer Discretionary",
-      "pct_change": -4.137483207005273,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "DECK",
-      "name": "Deckers Brands",
-      "sector": "Consumer Discretionary",
-      "pct_change": -3.6109953426557553,
+      "pct_change": -4.218928454696509,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
@@ -34,16 +25,25 @@
       "symbol": "TGT",
       "name": "Target Corporation",
       "sector": "Consumer Staples",
-      "pct_change": -3.5287510381572114,
+      "pct_change": -3.4728317839077394,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
     },
     {
-      "symbol": "PRU",
-      "name": "Prudential Financial",
-      "sector": "Financials",
-      "pct_change": -3.501262112215975,
+      "symbol": "DECK",
+      "name": "Deckers Brands",
+      "sector": "Consumer Discretionary",
+      "pct_change": -3.2471822694465455,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "DE",
+      "name": "Deere & Company",
+      "sector": "Industrials",
+      "pct_change": -3.131937898160194,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
@@ -52,7 +52,34 @@
       "symbol": "APA",
       "name": "APA Corporation",
       "sector": "Energy",
-      "pct_change": -3.2821226197878013,
+      "pct_change": -3.1191810548064387,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "INTU",
+      "name": "Intuit",
+      "sector": "Information Technology",
+      "pct_change": -3.0641818666755105,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "PRU",
+      "name": "Prudential Financial",
+      "sector": "Financials",
+      "pct_change": -3.008066248545738,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "GIS",
+      "name": "General Mills",
+      "sector": "Consumer Staples",
+      "pct_change": -3.0058641184636947,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
