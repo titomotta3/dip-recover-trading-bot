@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-08-25T18:02:08+00:00",
+  "updated_utc": "2026-08-25T18:54:04+00:00",
   "drop_threshold_pct": -5.0,
   "high_conviction_pct": -8.0,
   "stocks": [
@@ -7,16 +7,16 @@
       "symbol": "ALB",
       "name": "Albemarle Corporation",
       "sector": "Materials",
-      "pct_change": -5.773442503066907,
+      "pct_change": -6.049040980056176,
       "conviction": "buy_signal",
       "status": "order_failed",
       "news_bad": false
     },
     {
-      "symbol": "CRWD",
-      "name": "CrowdStrike",
-      "sector": "Information Technology",
-      "pct_change": -4.074884262704695,
+      "symbol": "TGT",
+      "name": "Target Corporation",
+      "sector": "Consumer Staples",
+      "pct_change": -4.055565021132287,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
@@ -25,43 +25,7 @@
       "symbol": "LULU",
       "name": "Lululemon Athletica",
       "sector": "Consumer Discretionary",
-      "pct_change": -3.889071162528848,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "TGT",
-      "name": "Target Corporation",
-      "sector": "Consumer Staples",
-      "pct_change": -3.855437680434126,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "PANW",
-      "name": "Palo Alto Networks",
-      "sector": "Information Technology",
-      "pct_change": -3.7446260492102694,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "CASY",
-      "name": "Casey's",
-      "sector": "Consumer Staples",
-      "pct_change": -3.717470418981925,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "LYB",
-      "name": "LyondellBasell",
-      "sector": "Materials",
-      "pct_change": -3.4355797064648823,
+      "pct_change": -3.8605619082061664,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
@@ -70,7 +34,16 @@
       "symbol": "DECK",
       "name": "Deckers Brands",
       "sector": "Consumer Discretionary",
-      "pct_change": -3.279761308000342,
+      "pct_change": -3.6574776433390697,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "CASY",
+      "name": "Casey's",
+      "sector": "Consumer Staples",
+      "pct_change": -3.560018426084556,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
@@ -79,7 +52,7 @@
       "symbol": "EME",
       "name": "Emcor",
       "sector": "Industrials",
-      "pct_change": -3.086683963019192,
+      "pct_change": -3.5445872614390446,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
@@ -88,7 +61,34 @@
       "symbol": "NKE",
       "name": "Nike, Inc.",
       "sector": "Consumer Discretionary",
-      "pct_change": -3.0306763444210123,
+      "pct_change": -3.300616492523006,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "COO",
+      "name": "Cooper Companies (The)",
+      "sector": "Health Care",
+      "pct_change": -3.192619658191061,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "PANW",
+      "name": "Palo Alto Networks",
+      "sector": "Information Technology",
+      "pct_change": -3.1376401936600837,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "INTU",
+      "name": "Intuit",
+      "sector": "Information Technology",
+      "pct_change": -3.0545791256374293,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
@@ -97,7 +97,16 @@
       "symbol": "MKC",
       "name": "McCormick & Company",
       "sector": "Consumer Staples",
-      "pct_change": -3.0249123485074794,
+      "pct_change": -3.0516016535694264,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "CRWD",
+      "name": "CrowdStrike",
+      "sector": "Information Technology",
+      "pct_change": -3.0039841861706775,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
