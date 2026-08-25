@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-08-25T19:28:44+00:00",
+  "updated_utc": "2026-08-25T19:57:55+00:00",
   "drop_threshold_pct": -5.0,
   "high_conviction_pct": -8.0,
   "stocks": [
@@ -7,16 +7,43 @@
       "symbol": "ALB",
       "name": "Albemarle Corporation",
       "sector": "Materials",
-      "pct_change": -6.0773027903065335,
+      "pct_change": -6.0914390868491575,
       "conviction": "buy_signal",
       "status": "order_failed",
       "news_bad": false
     },
     {
+      "symbol": "LYB",
+      "name": "LyondellBasell",
+      "sector": "Materials",
+      "pct_change": -3.772999056622982,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
       "symbol": "TGT",
       "name": "Target Corporation",
       "sector": "Consumer Staples",
-      "pct_change": -4.190944224361053,
+      "pct_change": -3.7642028933049674,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "ERIE",
+      "name": "Erie Indemnity",
+      "sector": "Financials",
+      "pct_change": -3.737346633955848,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "DOW",
+      "name": "Dow Inc.",
+      "sector": "Materials",
+      "pct_change": -3.689566882021935,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
@@ -25,7 +52,7 @@
       "symbol": "LULU",
       "name": "Lululemon Athletica",
       "sector": "Consumer Discretionary",
-      "pct_change": -4.019382316060007,
+      "pct_change": -3.6569456820410338,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
@@ -34,79 +61,7 @@
       "symbol": "EME",
       "name": "Emcor",
       "sector": "Industrials",
-      "pct_change": -3.8416798049045484,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "DECK",
-      "name": "Deckers Brands",
-      "sector": "Consumer Discretionary",
-      "pct_change": -3.6652909783737164,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "NKE",
-      "name": "Nike, Inc.",
-      "sector": "Consumer Discretionary",
-      "pct_change": -3.4110414469900303,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "IT",
-      "name": "Gartner",
-      "sector": "Information Technology",
-      "pct_change": -3.373111933655345,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "CASY",
-      "name": "Casey's",
-      "sector": "Consumer Staples",
-      "pct_change": -3.328806362272342,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "MKC",
-      "name": "McCormick & Company",
-      "sector": "Consumer Staples",
-      "pct_change": -3.2829202769687384,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "APA",
-      "name": "APA Corporation",
-      "sector": "Energy",
-      "pct_change": -3.2239253981590354,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "CRWD",
-      "name": "CrowdStrike",
-      "sector": "Information Technology",
-      "pct_change": -3.1728487651327533,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "PANW",
-      "name": "Palo Alto Networks",
-      "sector": "Information Technology",
-      "pct_change": -3.160443582441947,
+      "pct_change": -3.639694857742368,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
@@ -115,7 +70,16 @@
       "symbol": "COO",
       "name": "Cooper Companies (The)",
       "sector": "Health Care",
-      "pct_change": -3.0870763497032487,
+      "pct_change": -3.562011172734518,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "APA",
+      "name": "APA Corporation",
+      "sector": "Energy",
+      "pct_change": -3.538176187515462,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
@@ -124,7 +88,52 @@
       "symbol": "INTU",
       "name": "Intuit",
       "sector": "Information Technology",
-      "pct_change": -3.0114657882963543,
+      "pct_change": -3.5250886871708285,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "DECK",
+      "name": "Deckers Brands",
+      "sector": "Consumer Discretionary",
+      "pct_change": -3.518685304881636,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "CASY",
+      "name": "Casey's",
+      "sector": "Consumer Staples",
+      "pct_change": -3.4965045957675884,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "IT",
+      "name": "Gartner",
+      "sector": "Information Technology",
+      "pct_change": -3.405167581055263,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "NKE",
+      "name": "Nike, Inc.",
+      "sector": "Consumer Discretionary",
+      "pct_change": -3.2269904949913726,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "PANW",
+      "name": "Palo Alto Networks",
+      "sector": "Information Technology",
+      "pct_change": -3.1347962927708126,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
