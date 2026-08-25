@@ -1,6 +1,16 @@
 {
-  "updated_utc": "2026-08-25T18:03:11+00:00",
+  "updated_utc": "2026-08-25T18:55:30+00:00",
   "drop_threshold_pct": -8.0,
   "high_conviction_pct": -11.0,
-  "stocks": []
+  "stocks": [
+    {
+      "symbol": "ALB",
+      "name": "Albemarle Corporation",
+      "sector": "Materials",
+      "pct_change": -6.0137056301170615,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    }
+  ]
 }
