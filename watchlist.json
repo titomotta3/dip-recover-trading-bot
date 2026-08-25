@@ -1,31 +1,22 @@
 {
-  "updated_utc": "2026-08-25T15:28:04+00:00",
+  "updated_utc": "2026-08-25T16:10:37+00:00",
   "drop_threshold_pct": -5.0,
   "high_conviction_pct": -8.0,
   "stocks": [
     {
-      "symbol": "SWKS",
-      "name": "Skyworks Solutions",
-      "sector": "Information Technology",
-      "pct_change": -5.010473015610019,
-      "conviction": "buy_signal",
-      "status": "bought",
-      "news_bad": false
-    },
-    {
       "symbol": "ALB",
       "name": "Albemarle Corporation",
       "sector": "Materials",
-      "pct_change": -4.572116084981246,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
+      "pct_change": -5.158637606064008,
+      "conviction": "buy_signal",
+      "status": "order_failed",
+      "news_bad": false
     },
     {
       "symbol": "LULU",
       "name": "Lululemon Athletica",
       "sector": "Consumer Discretionary",
-      "pct_change": -4.292227313456393,
+      "pct_change": -4.137483207005273,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
@@ -34,7 +25,7 @@
       "symbol": "DECK",
       "name": "Deckers Brands",
       "sector": "Consumer Discretionary",
-      "pct_change": -3.9639459744753345,
+      "pct_change": -3.6109953426557553,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
@@ -43,7 +34,7 @@
       "symbol": "TGT",
       "name": "Target Corporation",
       "sector": "Consumer Staples",
-      "pct_change": -3.6082199687064143,
+      "pct_change": -3.5287510381572114,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
@@ -52,7 +43,16 @@
       "symbol": "PRU",
       "name": "Prudential Financial",
       "sector": "Financials",
-      "pct_change": -3.3341455930061583,
+      "pct_change": -3.501262112215975,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "APA",
+      "name": "APA Corporation",
+      "sector": "Energy",
+      "pct_change": -3.2821226197878013,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
