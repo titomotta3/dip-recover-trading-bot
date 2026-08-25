@@ -1,31 +1,22 @@
 {
-  "updated_utc": "2026-08-25T14:40:06+00:00",
+  "updated_utc": "2026-08-25T15:28:04+00:00",
   "drop_threshold_pct": -5.0,
   "high_conviction_pct": -8.0,
   "stocks": [
     {
-      "symbol": "ALB",
-      "name": "Albemarle Corporation",
-      "sector": "Materials",
-      "pct_change": -4.755844808695795,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "TGT",
-      "name": "Target Corporation",
-      "sector": "Consumer Staples",
-      "pct_change": -4.261584271690334,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
       "symbol": "SWKS",
       "name": "Skyworks Solutions",
       "sector": "Information Technology",
-      "pct_change": -4.038284360745522,
+      "pct_change": -5.010473015610019,
+      "conviction": "buy_signal",
+      "status": "bought",
+      "news_bad": false
+    },
+    {
+      "symbol": "ALB",
+      "name": "Albemarle Corporation",
+      "sector": "Materials",
+      "pct_change": -4.572116084981246,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
@@ -34,7 +25,7 @@
       "symbol": "LULU",
       "name": "Lululemon Athletica",
       "sector": "Consumer Discretionary",
-      "pct_change": -3.937937068368771,
+      "pct_change": -4.292227313456393,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
@@ -43,7 +34,16 @@
       "symbol": "DECK",
       "name": "Deckers Brands",
       "sector": "Consumer Discretionary",
-      "pct_change": -3.692442939040244,
+      "pct_change": -3.9639459744753345,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "TGT",
+      "name": "Target Corporation",
+      "sector": "Consumer Staples",
+      "pct_change": -3.6082199687064143,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
@@ -52,7 +52,7 @@
       "symbol": "PRU",
       "name": "Prudential Financial",
       "sector": "Financials",
-      "pct_change": -3.6683786314257922,
+      "pct_change": -3.3341455930061583,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null

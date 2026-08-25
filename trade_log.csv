@@ -309,3 +309,4 @@ timestamp_utc,action,symbol,detail
 2026-08-21T16:55:29+00:00,BUY,MRVL,drop=-6.79% notional=$20000.00 news=clear(10)
 2026-08-24T13:53:35+00:00,SELL,MNST,gain=7.75% qty=220.167107001 reason=target_reached
 2026-08-25T14:39:02+00:00,SELL,FSLR,gain=-12.12% qty=42.394395455 reason=stop_loss
+2026-08-25T15:28:04+00:00,BUY,SWKS,drop=-5.01% notional=$20000.00 news=none
