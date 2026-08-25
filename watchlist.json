@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-08-25T13:53:01+00:00",
+  "updated_utc": "2026-08-25T14:40:06+00:00",
   "drop_threshold_pct": -5.0,
   "high_conviction_pct": -8.0,
   "stocks": [
@@ -7,25 +7,16 @@
       "symbol": "ALB",
       "name": "Albemarle Corporation",
       "sector": "Materials",
-      "pct_change": -6.0031061034188165,
-      "conviction": "buy_signal",
-      "status": "order_failed",
-      "news_bad": false
-    },
-    {
-      "symbol": "TGT",
-      "name": "Target Corporation",
-      "sector": "Consumer Staples",
-      "pct_change": -4.791335228025444,
+      "pct_change": -4.755844808695795,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
     },
     {
-      "symbol": "DECK",
-      "name": "Deckers Brands",
-      "sector": "Consumer Discretionary",
-      "pct_change": -3.844483976034687,
+      "symbol": "TGT",
+      "name": "Target Corporation",
+      "sector": "Consumer Staples",
+      "pct_change": -4.261584271690334,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
@@ -34,34 +25,25 @@
       "symbol": "SWKS",
       "name": "Skyworks Solutions",
       "sector": "Information Technology",
-      "pct_change": -3.4549768733267197,
+      "pct_change": -4.038284360745522,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
     },
     {
-      "symbol": "NKE",
-      "name": "Nike, Inc.",
+      "symbol": "LULU",
+      "name": "Lululemon Athletica",
       "sector": "Consumer Discretionary",
-      "pct_change": -3.4358299583013805,
+      "pct_change": -3.937937068368771,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
     },
     {
-      "symbol": "LYB",
-      "name": "LyondellBasell",
-      "sector": "Materials",
-      "pct_change": -3.2515264055463358,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "DOW",
-      "name": "Dow Inc.",
-      "sector": "Materials",
-      "pct_change": -3.2124688668110726,
+      "symbol": "DECK",
+      "name": "Deckers Brands",
+      "sector": "Consumer Discretionary",
+      "pct_change": -3.692442939040244,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
@@ -70,25 +52,7 @@
       "symbol": "PRU",
       "name": "Prudential Financial",
       "sector": "Financials",
-      "pct_change": -3.109965654974232,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "BG",
-      "name": "Bunge Global",
-      "sector": "Consumer Staples",
-      "pct_change": -3.090964320530966,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "CHTR",
-      "name": "Charter Communications",
-      "sector": "Communication Services",
-      "pct_change": -3.0738591365068704,
+      "pct_change": -3.6683786314257922,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
