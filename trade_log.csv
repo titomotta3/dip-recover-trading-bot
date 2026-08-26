@@ -313,3 +313,4 @@ timestamp_utc,action,symbol,detail
 2026-08-25T19:57:14+00:00,SELL,CDW,gain=7.43% qty=75.665783898 reason=target_reached
 2026-08-26T13:56:30+00:00,SELL,GDDY,gain=1.00% qty=211.443657505 reason=bad_news:downgrade
 2026-08-26T13:57:04+00:00,BUY,MRNA,drop=-5.24% notional=$20000.00 news=clear(10)
+2026-08-26T19:12:27+00:00,SELL,DELL,gain=7.07% qty=45.726142027 reason=target_reached
