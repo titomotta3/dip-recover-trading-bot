@@ -1,49 +1,13 @@
 {
-  "updated_utc": "2026-08-26T16:08:11+00:00",
+  "updated_utc": "2026-08-26T16:58:47+00:00",
   "drop_threshold_pct": -5.0,
   "high_conviction_pct": -8.0,
   "stocks": [
     {
-      "symbol": "INTU",
-      "name": "Intuit",
-      "sector": "Information Technology",
-      "pct_change": -5.094274013981945,
-      "conviction": "buy_signal",
-      "status": "blocked_news",
-      "news_bad": true
-    },
-    {
-      "symbol": "BSX",
-      "name": "Boston Scientific",
-      "sector": "Health Care",
-      "pct_change": -4.302046593473853,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "GDDY",
-      "name": "GoDaddy",
-      "sector": "Information Technology",
-      "pct_change": -4.148711646122705,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
       "symbol": "RDDT",
       "name": "Reddit",
       "sector": "Communication Services",
-      "pct_change": -3.7426912559387877,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "LLY",
-      "name": "Lilly (Eli)",
-      "sector": "Health Care",
-      "pct_change": -3.5317727049775565,
+      "pct_change": -4.201290905789726,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
@@ -52,7 +16,61 @@
       "symbol": "COIN",
       "name": "Coinbase",
       "sector": "Financials",
-      "pct_change": -3.2405440920784256,
+      "pct_change": -3.7454635757971935,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "GDDY",
+      "name": "GoDaddy",
+      "sector": "Information Technology",
+      "pct_change": -3.717806443967454,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "INTU",
+      "name": "Intuit",
+      "sector": "Information Technology",
+      "pct_change": -3.5276634177246633,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "BSX",
+      "name": "Boston Scientific",
+      "sector": "Health Care",
+      "pct_change": -3.379465207910944,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "HOOD",
+      "name": "Robinhood Markets",
+      "sector": "Financials",
+      "pct_change": -3.225085183223907,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "CSGP",
+      "name": "CoStar Group",
+      "sector": "Real Estate",
+      "pct_change": -3.1088095552291057,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "LLY",
+      "name": "Lilly (Eli)",
+      "sector": "Health Care",
+      "pct_change": -3.038953634437985,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
@@ -61,7 +79,7 @@
       "symbol": "KHC",
       "name": "Kraft Heinz",
       "sector": "Consumer Staples",
-      "pct_change": -3.1354642405272117,
+      "pct_change": -3.0015807189649815,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
