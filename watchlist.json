@@ -1,85 +1,31 @@
 {
-  "updated_utc": "2026-08-25T19:57:55+00:00",
+  "updated_utc": "2026-08-26T13:57:04+00:00",
   "drop_threshold_pct": -5.0,
   "high_conviction_pct": -8.0,
   "stocks": [
     {
-      "symbol": "ALB",
-      "name": "Albemarle Corporation",
-      "sector": "Materials",
-      "pct_change": -6.0914390868491575,
+      "symbol": "MRNA",
+      "name": "Moderna",
+      "sector": "Health Care",
+      "pct_change": -5.235158562958908,
       "conviction": "buy_signal",
-      "status": "order_failed",
+      "status": "bought",
       "news_bad": false
     },
     {
-      "symbol": "LYB",
-      "name": "LyondellBasell",
-      "sector": "Materials",
-      "pct_change": -3.772999056622982,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "TGT",
-      "name": "Target Corporation",
-      "sector": "Consumer Staples",
-      "pct_change": -3.7642028933049674,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "ERIE",
-      "name": "Erie Indemnity",
-      "sector": "Financials",
-      "pct_change": -3.737346633955848,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "DOW",
-      "name": "Dow Inc.",
-      "sector": "Materials",
-      "pct_change": -3.689566882021935,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "LULU",
-      "name": "Lululemon Athletica",
-      "sector": "Consumer Discretionary",
-      "pct_change": -3.6569456820410338,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "EME",
-      "name": "Emcor",
-      "sector": "Industrials",
-      "pct_change": -3.639694857742368,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "COO",
-      "name": "Cooper Companies (The)",
+      "symbol": "BSX",
+      "name": "Boston Scientific",
       "sector": "Health Care",
-      "pct_change": -3.562011172734518,
+      "pct_change": -4.322099384109253,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
     },
     {
-      "symbol": "APA",
-      "name": "APA Corporation",
-      "sector": "Energy",
-      "pct_change": -3.538176187515462,
+      "symbol": "GDDY",
+      "name": "GoDaddy",
+      "sector": "Information Technology",
+      "pct_change": -4.299028836725683,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
@@ -88,52 +34,16 @@
       "symbol": "INTU",
       "name": "Intuit",
       "sector": "Information Technology",
-      "pct_change": -3.5250886871708285,
+      "pct_change": -3.695516077563108,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
     },
     {
-      "symbol": "DECK",
-      "name": "Deckers Brands",
-      "sector": "Consumer Discretionary",
-      "pct_change": -3.518685304881636,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "CASY",
-      "name": "Casey's",
-      "sector": "Consumer Staples",
-      "pct_change": -3.4965045957675884,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "IT",
-      "name": "Gartner",
-      "sector": "Information Technology",
-      "pct_change": -3.405167581055263,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "NKE",
-      "name": "Nike, Inc.",
-      "sector": "Consumer Discretionary",
-      "pct_change": -3.2269904949913726,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "PANW",
-      "name": "Palo Alto Networks",
-      "sector": "Information Technology",
-      "pct_change": -3.1347962927708126,
+      "symbol": "SCHW",
+      "name": "Charles Schwab Corporation",
+      "sector": "Financials",
+      "pct_change": -3.6786295331852847,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
