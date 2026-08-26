@@ -1,13 +1,22 @@
 {
-  "updated_utc": "2026-08-26T14:50:21+00:00",
+  "updated_utc": "2026-08-26T16:08:11+00:00",
   "drop_threshold_pct": -5.0,
   "high_conviction_pct": -8.0,
   "stocks": [
     {
+      "symbol": "INTU",
+      "name": "Intuit",
+      "sector": "Information Technology",
+      "pct_change": -5.094274013981945,
+      "conviction": "buy_signal",
+      "status": "blocked_news",
+      "news_bad": true
+    },
+    {
       "symbol": "BSX",
       "name": "Boston Scientific",
       "sector": "Health Care",
-      "pct_change": -4.7533070655292455,
+      "pct_change": -4.302046593473853,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
@@ -16,25 +25,43 @@
       "symbol": "GDDY",
       "name": "GoDaddy",
       "sector": "Information Technology",
-      "pct_change": -4.278990112521909,
+      "pct_change": -4.148711646122705,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
     },
     {
-      "symbol": "INTU",
-      "name": "Intuit",
-      "sector": "Information Technology",
-      "pct_change": -3.9472907986503145,
+      "symbol": "RDDT",
+      "name": "Reddit",
+      "sector": "Communication Services",
+      "pct_change": -3.7426912559387877,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
     },
     {
-      "symbol": "SCHW",
-      "name": "Charles Schwab Corporation",
+      "symbol": "LLY",
+      "name": "Lilly (Eli)",
+      "sector": "Health Care",
+      "pct_change": -3.5317727049775565,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "COIN",
+      "name": "Coinbase",
       "sector": "Financials",
-      "pct_change": -3.3757846258623507,
+      "pct_change": -3.2405440920784256,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "KHC",
+      "name": "Kraft Heinz",
+      "sector": "Consumer Staples",
+      "pct_change": -3.1354642405272117,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
