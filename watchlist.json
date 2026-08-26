@@ -1,22 +1,13 @@
 {
-  "updated_utc": "2026-08-26T13:57:04+00:00",
+  "updated_utc": "2026-08-26T14:50:21+00:00",
   "drop_threshold_pct": -5.0,
   "high_conviction_pct": -8.0,
   "stocks": [
     {
-      "symbol": "MRNA",
-      "name": "Moderna",
-      "sector": "Health Care",
-      "pct_change": -5.235158562958908,
-      "conviction": "buy_signal",
-      "status": "bought",
-      "news_bad": false
-    },
-    {
       "symbol": "BSX",
       "name": "Boston Scientific",
       "sector": "Health Care",
-      "pct_change": -4.322099384109253,
+      "pct_change": -4.7533070655292455,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
@@ -25,7 +16,7 @@
       "symbol": "GDDY",
       "name": "GoDaddy",
       "sector": "Information Technology",
-      "pct_change": -4.299028836725683,
+      "pct_change": -4.278990112521909,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
@@ -34,7 +25,7 @@
       "symbol": "INTU",
       "name": "Intuit",
       "sector": "Information Technology",
-      "pct_change": -3.695516077563108,
+      "pct_change": -3.9472907986503145,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
@@ -43,7 +34,7 @@
       "symbol": "SCHW",
       "name": "Charles Schwab Corporation",
       "sector": "Financials",
-      "pct_change": -3.6786295331852847,
+      "pct_change": -3.3757846258623507,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
