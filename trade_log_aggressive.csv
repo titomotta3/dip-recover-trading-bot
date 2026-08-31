@@ -174,3 +174,13 @@ timestamp_utc,action,symbol,detail
 2026-08-24T13:55:11+00:00,BUY,COHR,drop=-8.25% notional=$18000.00 news=clear(1)
 2026-08-24T13:55:12+00:00,BUY,SNDK,drop=-10.40% notional=$18000.00 news=clear(6)
 2026-08-25T13:53:27+00:00,SELL,STLD,gain=-0.15% qty=87.385808537 reason=bad_news:warns
+2026-08-31T19:26:36+00:00,SELL,CDW,gain=15.27% qty=166.881514071 reason=target_reached
+2026-08-31T19:26:36+00:00,SELL,DELL,gain=7.46% qty=46.383241726 reason=bad_news:downgrade
+2026-08-31T19:26:36+00:00,SELL,GEV,gain=-12.21% qty=24.599267925 reason=stop_loss
+2026-08-31T19:26:36+00:00,SELL,HAL,gain=13.11% qty=383.207298374 reason=target_reached
+2026-08-31T19:26:36+00:00,SELL,LII,gain=-12.66% qty=52.426409245 reason=stop_loss
+2026-08-31T19:26:36+00:00,SELL,LITE,gain=3.60% qty=22.935768348 reason=bad_news:downgrade
+2026-08-31T19:26:36+00:00,SELL,SBAC,gain=11.27% qty=63.975747353 reason=target_reached
+2026-08-31T19:26:37+00:00,SELL,WMT,gain=0.40% qty=191.710983213 reason=bad_news:lawsuit
+2026-08-31T19:27:07+00:00,BUY,MRVL,drop=-12.60% notional=$36000.00 news=clear(9) conviction=HIGH
+2026-08-31T19:27:07+00:00,BUY,PYPL,drop=-13.60% notional=$36000.00 news=clear(2) conviction=HIGH

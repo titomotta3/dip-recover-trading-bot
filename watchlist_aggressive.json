@@ -1,13 +1,94 @@
 {
-  "updated_utc": "2026-08-26T19:14:30+00:00",
+  "updated_utc": "2026-08-31T19:27:07+00:00",
   "drop_threshold_pct": -8.0,
   "high_conviction_pct": -11.0,
   "stocks": [
     {
-      "symbol": "MRNA",
-      "name": "Moderna",
-      "sector": "Health Care",
-      "pct_change": -7.838567527994542,
+      "symbol": "EIX",
+      "name": "Edison International",
+      "sector": "Utilities",
+      "pct_change": -26.62188056083505,
+      "conviction": "high",
+      "status": "blocked_news",
+      "news_bad": true
+    },
+    {
+      "symbol": "PCG",
+      "name": "PG&E Corporation",
+      "sector": "Utilities",
+      "pct_change": -24.5403927544132,
+      "conviction": "high",
+      "status": "blocked_news",
+      "news_bad": true
+    },
+    {
+      "symbol": "PYPL",
+      "name": "PayPal",
+      "sector": "Financials",
+      "pct_change": -13.600130867633546,
+      "conviction": "high",
+      "status": "bought",
+      "news_bad": false
+    },
+    {
+      "symbol": "MRVL",
+      "name": "Marvell Technology",
+      "sector": "Information Technology",
+      "pct_change": -12.599171860732408,
+      "conviction": "high",
+      "status": "bought",
+      "news_bad": false
+    },
+    {
+      "symbol": "AON",
+      "name": "Aon plc",
+      "sector": "Financials",
+      "pct_change": -7.615286446706597,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "HWM",
+      "name": "Howmet Aerospace",
+      "sector": "Industrials",
+      "pct_change": -7.433211084385979,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "AXON",
+      "name": "Axon Enterprise",
+      "sector": "Industrials",
+      "pct_change": -6.539599303008887,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "GEV",
+      "name": "GE Vernova",
+      "sector": "Industrials",
+      "pct_change": -6.468153583373364,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "TER",
+      "name": "Teradyne",
+      "sector": "Information Technology",
+      "pct_change": -6.168363263351625,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "TTWO",
+      "name": "Take-Two Interactive",
+      "sector": "Communication Services",
+      "pct_change": -6.050555184163761,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
