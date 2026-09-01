@@ -1,139 +1,139 @@
 {
-  "updated_utc": "2026-09-01T17:13:25+00:00",
+  "updated_utc": "2026-09-01T19:57:44+00:00",
   "drop_threshold_pct": -5.0,
   "high_conviction_pct": -8.0,
   "stocks": [
     {
-      "symbol": "AXON",
-      "name": "Axon Enterprise",
-      "sector": "Industrials",
-      "pct_change": -9.107592454160342,
-      "conviction": "high",
-      "status": "bought",
-      "news_bad": false
-    },
-    {
-      "symbol": "CDNS",
-      "name": "Cadence Design Systems",
+      "symbol": "DELL",
+      "name": "Dell Technologies",
       "sector": "Information Technology",
-      "pct_change": -6.868761171709976,
+      "pct_change": -7.24984032161609,
       "conviction": "buy_signal",
-      "status": "bought",
+      "status": "order_failed",
       "news_bad": false
     },
     {
-      "symbol": "CRWD",
-      "name": "CrowdStrike",
+      "symbol": "COIN",
+      "name": "Coinbase",
+      "sector": "Financials",
+      "pct_change": -6.091851877807692,
+      "conviction": "buy_signal",
+      "status": "blocked_news",
+      "news_bad": true
+    },
+    {
+      "symbol": "SNPS",
+      "name": "Synopsys",
       "sector": "Information Technology",
-      "pct_change": -6.66666402445211,
+      "pct_change": -5.705313310402975,
       "conviction": "buy_signal",
-      "status": "bought",
-      "news_bad": false
-    },
-    {
-      "symbol": "CIEN",
-      "name": "Ciena",
-      "sector": "Information Technology",
-      "pct_change": -6.221265203980678,
-      "conviction": "buy_signal",
-      "status": "bought",
-      "news_bad": false
-    },
-    {
-      "symbol": "ODFL",
-      "name": "Old Dominion",
-      "sector": "Industrials",
-      "pct_change": -6.011204175273391,
-      "conviction": "buy_signal",
-      "status": "bought",
+      "status": "order_failed",
       "news_bad": false
     },
     {
       "symbol": "PANW",
       "name": "Palo Alto Networks",
       "sector": "Information Technology",
-      "pct_change": -5.922069608156634,
+      "pct_change": -5.579254979141703,
       "conviction": "buy_signal",
       "status": "order_failed",
       "news_bad": false
     },
     {
-      "symbol": "IBKR",
-      "name": "Interactive Brokers",
-      "sector": "Financials",
-      "pct_change": -5.8279351583811,
+      "symbol": "ORCL",
+      "name": "Oracle Corporation",
+      "sector": "Information Technology",
+      "pct_change": -5.49892517217301,
       "conviction": "buy_signal",
-      "status": "bought",
+      "status": "blocked_news",
+      "news_bad": true
+    },
+    {
+      "symbol": "BLDR",
+      "name": "Builders FirstSource",
+      "sector": "Industrials",
+      "pct_change": -5.391568898773908,
+      "conviction": "buy_signal",
+      "status": "order_failed",
       "news_bad": false
     },
     {
       "symbol": "LITE",
       "name": "Lumentum",
       "sector": "Information Technology",
-      "pct_change": -5.628250557734122,
+      "pct_change": -5.230337053162157,
       "conviction": "buy_signal",
       "status": "blocked_news",
       "news_bad": true
     },
     {
-      "symbol": "ORCL",
-      "name": "Oracle Corporation",
-      "sector": "Information Technology",
-      "pct_change": -5.445275873839935,
+      "symbol": "SLB",
+      "name": "Schlumberger",
+      "sector": "Energy",
+      "pct_change": -5.016638046915572,
       "conviction": "buy_signal",
       "status": "blocked_news",
       "news_bad": true
     },
     {
-      "symbol": "COIN",
-      "name": "Coinbase",
-      "sector": "Financials",
-      "pct_change": -5.361681652919805,
-      "conviction": "buy_signal",
-      "status": "blocked_news",
-      "news_bad": true
-    },
-    {
-      "symbol": "TER",
-      "name": "Teradyne",
-      "sector": "Information Technology",
-      "pct_change": -5.165359603302002,
-      "conviction": "buy_signal",
-      "status": "order_failed",
-      "news_bad": false
-    },
-    {
-      "symbol": "FTNT",
-      "name": "Fortinet",
-      "sector": "Information Technology",
-      "pct_change": -5.089801275978685,
-      "conviction": "buy_signal",
-      "status": "bought",
-      "news_bad": false
-    },
-    {
-      "symbol": "SNPS",
-      "name": "Synopsys",
-      "sector": "Information Technology",
-      "pct_change": -5.010349207208727,
-      "conviction": "buy_signal",
-      "status": "order_failed",
-      "news_bad": false
-    },
-    {
-      "symbol": "DELL",
-      "name": "Dell Technologies",
-      "sector": "Information Technology",
-      "pct_change": -4.852964717635614,
+      "symbol": "FDXF",
+      "name": "FedEx Freight",
+      "sector": "Industrials",
+      "pct_change": -4.6283850659200425,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
     },
     {
-      "symbol": "CSX",
-      "name": "CSX Corporation",
+      "symbol": "URI",
+      "name": "United Rentals",
       "sector": "Industrials",
-      "pct_change": -4.751529976112638,
+      "pct_change": -4.625723954570087,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "BX",
+      "name": "Blackstone Inc.",
+      "sector": "Financials",
+      "pct_change": -4.615890040423432,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "NCLH",
+      "name": "Norwegian Cruise Line Holdings",
+      "sector": "Consumer Discretionary",
+      "pct_change": -4.522921746233282,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "FCX",
+      "name": "Freeport-McMoRan",
+      "sector": "Materials",
+      "pct_change": -4.350407000105667,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "CHTR",
+      "name": "Charter Communications",
+      "sector": "Communication Services",
+      "pct_change": -4.270539006405008,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "ADSK",
+      "name": "Autodesk",
+      "sector": "Information Technology",
+      "pct_change": -4.223880486019555,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
