@@ -319,3 +319,14 @@ timestamp_utc,action,symbol,detail
 2026-08-31T19:25:45+00:00,SELL,CVS,"gain=-4.36% qty=101.545842217 reason=bad_news:lawsuit,warns"
 2026-08-31T19:25:46+00:00,SELL,LII,gain=-12.43% qty=22.83884892 reason=stop_loss
 2026-08-31T19:25:47+00:00,SELL,SBAC,gain=7.93% qty=56.347495351 reason=target_reached
+2026-09-01T17:12:40+00:00,SELL,AMD,gain=-4.62% qty=41.675328193 reason=bad_news:warns
+2026-09-01T17:12:40+00:00,SELL,CTVA,gain=8.15% qty=123.593993325 reason=target_reached
+2026-09-01T17:12:41+00:00,SELL,MO,gain=1.41% qty=144.216758004 reason=bad_news:sues
+2026-09-01T17:12:41+00:00,SELL,MRVL,gain=-10.94% qty=85.484655496 reason=bad_news:warns
+2026-09-01T17:13:23+00:00,BUY,AXON,drop=-9.11% notional=$20000.00 news=clear(2)
+2026-09-01T17:13:24+00:00,BUY,CDNS,drop=-6.87% notional=$20000.00 news=clear(1)
+2026-09-01T17:13:24+00:00,BUY,CIEN,drop=-6.22% notional=$20000.00 news=clear(4)
+2026-09-01T17:13:24+00:00,BUY,CRWD,drop=-6.67% notional=$20000.00 news=clear(10)
+2026-09-01T17:13:24+00:00,BUY,FTNT,drop=-5.09% notional=$20000.00 news=clear(1)
+2026-09-01T17:13:24+00:00,BUY,IBKR,drop=-5.83% notional=$20000.00 news=clear(3)
+2026-09-01T17:13:25+00:00,BUY,ODFL,drop=-6.01% notional=$20000.00 news=clear(2)

@@ -1,139 +1,139 @@
 {
-  "updated_utc": "2026-08-31T19:26:13+00:00",
+  "updated_utc": "2026-09-01T17:13:25+00:00",
   "drop_threshold_pct": -5.0,
   "high_conviction_pct": -8.0,
   "stocks": [
     {
-      "symbol": "EIX",
-      "name": "Edison International",
-      "sector": "Utilities",
-      "pct_change": -22.645146054471073,
-      "conviction": "high",
-      "status": "blocked_news",
-      "news_bad": true
-    },
-    {
-      "symbol": "PCG",
-      "name": "PG&E Corporation",
-      "sector": "Utilities",
-      "pct_change": -18.16265225323936,
-      "conviction": "high",
-      "status": "blocked_news",
-      "news_bad": true
-    },
-    {
-      "symbol": "AON",
-      "name": "Aon plc",
-      "sector": "Financials",
-      "pct_change": -9.174164611338371,
-      "conviction": "high",
-      "status": "blocked_news",
-      "news_bad": true
-    },
-    {
-      "symbol": "TTWO",
-      "name": "Take-Two Interactive",
-      "sector": "Communication Services",
-      "pct_change": -7.001145235681491,
-      "conviction": "buy_signal",
-      "status": "blocked_news",
-      "news_bad": true
-    },
-    {
-      "symbol": "HWM",
-      "name": "Howmet Aerospace",
-      "sector": "Industrials",
-      "pct_change": -6.447049957913744,
-      "conviction": "buy_signal",
-      "status": "blocked_news",
-      "news_bad": true
-    },
-    {
-      "symbol": "CLX",
-      "name": "Clorox",
-      "sector": "Consumer Staples",
-      "pct_change": -4.915635399914814,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
       "symbol": "AXON",
       "name": "Axon Enterprise",
       "sector": "Industrials",
-      "pct_change": -4.777512710366213,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
+      "pct_change": -9.107592454160342,
+      "conviction": "high",
+      "status": "bought",
+      "news_bad": false
     },
     {
-      "symbol": "WYNN",
-      "name": "Wynn Resorts",
-      "sector": "Consumer Discretionary",
-      "pct_change": -4.4509819421381795,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
+      "symbol": "CDNS",
+      "name": "Cadence Design Systems",
+      "sector": "Information Technology",
+      "pct_change": -6.868761171709976,
+      "conviction": "buy_signal",
+      "status": "bought",
+      "news_bad": false
     },
     {
-      "symbol": "TAP",
-      "name": "Molson Coors Beverage Company",
-      "sector": "Consumer Staples",
-      "pct_change": -4.184757956257033,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
+      "symbol": "CRWD",
+      "name": "CrowdStrike",
+      "sector": "Information Technology",
+      "pct_change": -6.66666402445211,
+      "conviction": "buy_signal",
+      "status": "bought",
+      "news_bad": false
     },
     {
-      "symbol": "WSM",
-      "name": "Williams-Sonoma, Inc.",
-      "sector": "Consumer Discretionary",
-      "pct_change": -3.824063284025854,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
+      "symbol": "CIEN",
+      "name": "Ciena",
+      "sector": "Information Technology",
+      "pct_change": -6.221265203980678,
+      "conviction": "buy_signal",
+      "status": "bought",
+      "news_bad": false
     },
     {
-      "symbol": "ABNB",
-      "name": "Airbnb",
-      "sector": "Consumer Discretionary",
-      "pct_change": -3.790314603490568,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "RDDT",
-      "name": "Reddit",
-      "sector": "Communication Services",
-      "pct_change": -3.771244622523488,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "RCL",
-      "name": "Royal Caribbean Group",
-      "sector": "Consumer Discretionary",
-      "pct_change": -3.7079932767616968,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "UBER",
-      "name": "Uber",
+      "symbol": "ODFL",
+      "name": "Old Dominion",
       "sector": "Industrials",
-      "pct_change": -3.6538914800415636,
+      "pct_change": -6.011204175273391,
+      "conviction": "buy_signal",
+      "status": "bought",
+      "news_bad": false
+    },
+    {
+      "symbol": "PANW",
+      "name": "Palo Alto Networks",
+      "sector": "Information Technology",
+      "pct_change": -5.922069608156634,
+      "conviction": "buy_signal",
+      "status": "order_failed",
+      "news_bad": false
+    },
+    {
+      "symbol": "IBKR",
+      "name": "Interactive Brokers",
+      "sector": "Financials",
+      "pct_change": -5.8279351583811,
+      "conviction": "buy_signal",
+      "status": "bought",
+      "news_bad": false
+    },
+    {
+      "symbol": "LITE",
+      "name": "Lumentum",
+      "sector": "Information Technology",
+      "pct_change": -5.628250557734122,
+      "conviction": "buy_signal",
+      "status": "blocked_news",
+      "news_bad": true
+    },
+    {
+      "symbol": "ORCL",
+      "name": "Oracle Corporation",
+      "sector": "Information Technology",
+      "pct_change": -5.445275873839935,
+      "conviction": "buy_signal",
+      "status": "blocked_news",
+      "news_bad": true
+    },
+    {
+      "symbol": "COIN",
+      "name": "Coinbase",
+      "sector": "Financials",
+      "pct_change": -5.361681652919805,
+      "conviction": "buy_signal",
+      "status": "blocked_news",
+      "news_bad": true
+    },
+    {
+      "symbol": "TER",
+      "name": "Teradyne",
+      "sector": "Information Technology",
+      "pct_change": -5.165359603302002,
+      "conviction": "buy_signal",
+      "status": "order_failed",
+      "news_bad": false
+    },
+    {
+      "symbol": "FTNT",
+      "name": "Fortinet",
+      "sector": "Information Technology",
+      "pct_change": -5.089801275978685,
+      "conviction": "buy_signal",
+      "status": "bought",
+      "news_bad": false
+    },
+    {
+      "symbol": "SNPS",
+      "name": "Synopsys",
+      "sector": "Information Technology",
+      "pct_change": -5.010349207208727,
+      "conviction": "buy_signal",
+      "status": "order_failed",
+      "news_bad": false
+    },
+    {
+      "symbol": "DELL",
+      "name": "Dell Technologies",
+      "sector": "Information Technology",
+      "pct_change": -4.852964717635614,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
     },
     {
-      "symbol": "EXPE",
-      "name": "Expedia Group",
-      "sector": "Consumer Discretionary",
-      "pct_change": -3.45738664522482,
+      "symbol": "CSX",
+      "name": "CSX Corporation",
+      "sector": "Industrials",
+      "pct_change": -4.751529976112638,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
