@@ -1,40 +1,40 @@
 {
-  "updated_utc": "2026-09-01T17:14:19+00:00",
+  "updated_utc": "2026-09-01T19:58:32+00:00",
   "drop_threshold_pct": -8.0,
   "high_conviction_pct": -11.0,
   "stocks": [
     {
-      "symbol": "AXON",
-      "name": "Axon Enterprise",
-      "sector": "Industrials",
-      "pct_change": -9.105836465295681,
-      "conviction": "buy_signal",
-      "status": "bought",
-      "news_bad": false
+      "symbol": "CDNS",
+      "name": "Cadence Design Systems",
+      "sector": "Information Technology",
+      "pct_change": -7.624413089715176,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "DELL",
+      "name": "Dell Technologies",
+      "sector": "Information Technology",
+      "pct_change": -7.2695826197106035,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "IBKR",
+      "name": "Interactive Brokers",
+      "sector": "Financials",
+      "pct_change": -7.241235587059124,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
     },
     {
       "symbol": "CRWD",
       "name": "CrowdStrike",
       "sector": "Information Technology",
-      "pct_change": -6.705630083620806,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "CDNS",
-      "name": "Cadence Design Systems",
-      "sector": "Information Technology",
-      "pct_change": -6.645901237377089,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "CIEN",
-      "name": "Ciena",
-      "sector": "Information Technology",
-      "pct_change": -6.253919332503694,
+      "pct_change": -6.9870127227915315,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
@@ -43,7 +43,16 @@
       "symbol": "ODFL",
       "name": "Old Dominion",
       "sector": "Industrials",
-      "pct_change": -6.0587142860522265,
+      "pct_change": -6.5863237575201765,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "COIN",
+      "name": "Coinbase",
+      "sector": "Financials",
+      "pct_change": -6.102485661020623,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
