@@ -3,7 +3,7 @@
   "sell_threshold_pct": 10.5,
   "trade_dollars": 18000.0,
   "completed_trades": 44,
-  "last_adjustment": "3 bad_news exit(s) (DELL, LITE, WMT); 2 stop_loss exit(s) (GEV, LII); CDW cleared target by 5.3pp -> raised sell target to 10.5%",
-  "updated_utc": "2026-08-31T23:17:58+00:00",
-  "risk_exits": 42
+  "last_adjustment": "4 bad_news exit(s) (MO, MRVL, SNDK, VRSN)",
+  "updated_utc": "2026-09-01T17:14:19+00:00",
+  "risk_exits": 46
 }
