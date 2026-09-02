@@ -330,3 +330,9 @@ timestamp_utc,action,symbol,detail
 2026-09-01T17:13:24+00:00,BUY,FTNT,drop=-5.09% notional=$20000.00 news=clear(1)
 2026-09-01T17:13:24+00:00,BUY,IBKR,drop=-5.83% notional=$20000.00 news=clear(3)
 2026-09-01T17:13:25+00:00,BUY,ODFL,drop=-6.01% notional=$20000.00 news=clear(2)
+2026-09-02T17:03:13+00:00,SELL,DDOG,gain=-13.80% qty=40.909793814 reason=stop_loss
+2026-09-02T17:03:14+00:00,SELL,SWKS,gain=14.27% qty=314.762197041 reason=target_reached
+2026-09-02T17:03:14+00:00,SELL,TTD,gain=7.85% qty=1488.094494047 reason=target_reached
+2026-09-02T17:03:46+00:00,BUY,CBOE,drop=-5.61% notional=$20000.00 news=none
+2026-09-02T17:03:46+00:00,BUY,DDOG,drop=-5.88% notional=$20000.00 news=clear(1)
+2026-09-02T17:03:46+00:00,BUY,PLTR,drop=-6.36% notional=$20000.00 news=clear(7)
