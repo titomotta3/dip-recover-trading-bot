@@ -1,58 +1,40 @@
 {
-  "updated_utc": "2026-09-01T19:58:32+00:00",
+  "updated_utc": "2026-09-02T17:04:44+00:00",
   "drop_threshold_pct": -8.0,
   "high_conviction_pct": -11.0,
   "stocks": [
     {
-      "symbol": "CDNS",
-      "name": "Cadence Design Systems",
+      "symbol": "PANW",
+      "name": "Palo Alto Networks",
       "sector": "Information Technology",
-      "pct_change": -7.624413089715176,
+      "pct_change": -10.834326102099753,
+      "conviction": "buy_signal",
+      "status": "bought",
+      "news_bad": false
+    },
+    {
+      "symbol": "PCG",
+      "name": "PG&E Corporation",
+      "sector": "Utilities",
+      "pct_change": -7.076819413498453,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
     },
     {
-      "symbol": "DELL",
-      "name": "Dell Technologies",
+      "symbol": "PLTR",
+      "name": "Palantir Technologies",
       "sector": "Information Technology",
-      "pct_change": -7.2695826197106035,
+      "pct_change": -6.502888543415759,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
     },
     {
-      "symbol": "IBKR",
-      "name": "Interactive Brokers",
-      "sector": "Financials",
-      "pct_change": -7.241235587059124,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "CRWD",
-      "name": "CrowdStrike",
+      "symbol": "FTNT",
+      "name": "Fortinet",
       "sector": "Information Technology",
-      "pct_change": -6.9870127227915315,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "ODFL",
-      "name": "Old Dominion",
-      "sector": "Industrials",
-      "pct_change": -6.5863237575201765,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "COIN",
-      "name": "Coinbase",
-      "sector": "Financials",
-      "pct_change": -6.102485661020623,
+      "pct_change": -6.033363621502098,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
