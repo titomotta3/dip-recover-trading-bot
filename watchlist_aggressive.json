@@ -1,40 +1,22 @@
 {
-  "updated_utc": "2026-09-02T17:04:44+00:00",
+  "updated_utc": "2026-09-02T19:46:00+00:00",
   "drop_threshold_pct": -8.0,
   "high_conviction_pct": -11.0,
   "stocks": [
     {
-      "symbol": "PANW",
-      "name": "Palo Alto Networks",
+      "symbol": "DDOG",
+      "name": "Datadog",
       "sector": "Information Technology",
-      "pct_change": -10.834326102099753,
-      "conviction": "buy_signal",
-      "status": "bought",
-      "news_bad": false
+      "pct_change": -6.826304069551285,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
     },
     {
-      "symbol": "PCG",
-      "name": "PG&E Corporation",
+      "symbol": "EIX",
+      "name": "Edison International",
       "sector": "Utilities",
-      "pct_change": -7.076819413498453,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "PLTR",
-      "name": "Palantir Technologies",
-      "sector": "Information Technology",
-      "pct_change": -6.502888543415759,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "FTNT",
-      "name": "Fortinet",
-      "sector": "Information Technology",
-      "pct_change": -6.033363621502098,
+      "pct_change": -6.428569435957428,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
