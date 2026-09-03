@@ -1,49 +1,31 @@
 {
-  "updated_utc": "2026-09-03T16:58:22+00:00",
+  "updated_utc": "2026-09-03T19:43:16+00:00",
   "drop_threshold_pct": -5.0,
   "high_conviction_pct": -8.0,
   "stocks": [
     {
-      "symbol": "TSN",
-      "name": "Tyson Foods",
-      "sector": "Consumer Staples",
-      "pct_change": -6.952160854043781,
-      "conviction": "buy_signal",
+      "symbol": "CIEN",
+      "name": "Ciena",
+      "sector": "Information Technology",
+      "pct_change": -11.251978114822645,
+      "conviction": "high",
       "status": "bought",
       "news_bad": false
-    },
-    {
-      "symbol": "MRNA",
-      "name": "Moderna",
-      "sector": "Health Care",
-      "pct_change": -5.012928639334064,
-      "conviction": "buy_signal",
-      "status": "blocked_news",
-      "news_bad": true
     },
     {
       "symbol": "CHTR",
       "name": "Charter Communications",
       "sector": "Communication Services",
-      "pct_change": -4.941181145638743,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
+      "pct_change": -5.0953048004762405,
+      "conviction": "buy_signal",
+      "status": "bought",
+      "news_bad": false
     },
     {
-      "symbol": "GIS",
-      "name": "General Mills",
-      "sector": "Consumer Staples",
-      "pct_change": -4.103008478065585,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "HPE",
-      "name": "Hewlett Packard Enterprise",
-      "sector": "Information Technology",
-      "pct_change": -4.013123205811706,
+      "symbol": "ALB",
+      "name": "Albemarle Corporation",
+      "sector": "Materials",
+      "pct_change": -4.098006731369102,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
@@ -52,7 +34,16 @@
       "symbol": "KHC",
       "name": "Kraft Heinz",
       "sector": "Consumer Staples",
-      "pct_change": -3.293982344169218,
+      "pct_change": -3.2707542372592053,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "GIS",
+      "name": "General Mills",
+      "sector": "Consumer Staples",
+      "pct_change": -3.154269433804195,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null

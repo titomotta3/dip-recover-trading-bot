@@ -340,3 +340,6 @@ timestamp_utc,action,symbol,detail
 2026-09-03T16:57:56+00:00,SELL,PLTR,gain=8.60% qty=118.835353535 reason=target_reached
 2026-09-03T16:57:56+00:00,SELL,TXT,gain=-12.04% qty=111.346063912 reason=stop_loss
 2026-09-03T16:58:22+00:00,BUY,TSN,drop=-6.95% notional=$20000.00 news=clear(1)
+2026-09-03T19:42:49+00:00,SELL,CIEN,gain=-12.43% qty=55.690112215 reason=stop_loss
+2026-09-03T19:43:16+00:00,BUY,CHTR,drop=-5.10% notional=$20000.00 news=clear(1)
+2026-09-03T19:43:16+00:00,BUY,CIEN,drop=-11.25% notional=$20000.00 news=clear(10)
