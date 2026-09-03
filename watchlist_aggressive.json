@@ -1,22 +1,13 @@
 {
-  "updated_utc": "2026-09-03T16:59:51+00:00",
+  "updated_utc": "2026-09-03T19:44:06+00:00",
   "drop_threshold_pct": -8.0,
   "high_conviction_pct": -11.0,
   "stocks": [
     {
-      "symbol": "CIEN",
-      "name": "Ciena",
-      "sector": "Information Technology",
-      "pct_change": -9.306525613921103,
-      "conviction": "buy_signal",
-      "status": "bought",
-      "news_bad": false
-    },
-    {
       "symbol": "TSN",
       "name": "Tyson Foods",
       "sector": "Consumer Staples",
-      "pct_change": -6.97903666353913,
+      "pct_change": -7.561370931488081,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
