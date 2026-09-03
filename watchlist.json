@@ -1,76 +1,58 @@
 {
-  "updated_utc": "2026-09-02T19:45:08+00:00",
+  "updated_utc": "2026-09-03T16:58:22+00:00",
   "drop_threshold_pct": -5.0,
   "high_conviction_pct": -8.0,
   "stocks": [
     {
-      "symbol": "PANW",
-      "name": "Palo Alto Networks",
-      "sector": "Information Technology",
-      "pct_change": -9.762767947482356,
-      "conviction": "high",
-      "status": "order_failed",
+      "symbol": "TSN",
+      "name": "Tyson Foods",
+      "sector": "Consumer Staples",
+      "pct_change": -6.952160854043781,
+      "conviction": "buy_signal",
+      "status": "bought",
       "news_bad": false
     },
     {
-      "symbol": "EIX",
-      "name": "Edison International",
-      "sector": "Utilities",
-      "pct_change": -6.377551103157914,
+      "symbol": "MRNA",
+      "name": "Moderna",
+      "sector": "Health Care",
+      "pct_change": -5.012928639334064,
       "conviction": "buy_signal",
       "status": "blocked_news",
       "news_bad": true
     },
     {
-      "symbol": "PCG",
-      "name": "PG&E Corporation",
-      "sector": "Utilities",
-      "pct_change": -5.4409695625287124,
-      "conviction": "buy_signal",
-      "status": "order_failed",
-      "news_bad": false
-    },
-    {
-      "symbol": "OMC",
-      "name": "Omnicom Group",
+      "symbol": "CHTR",
+      "name": "Charter Communications",
       "sector": "Communication Services",
-      "pct_change": -4.634682348120186,
+      "pct_change": -4.941181145638743,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
     },
     {
-      "symbol": "NOW",
-      "name": "ServiceNow",
+      "symbol": "GIS",
+      "name": "General Mills",
+      "sector": "Consumer Staples",
+      "pct_change": -4.103008478065585,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "HPE",
+      "name": "Hewlett Packard Enterprise",
       "sector": "Information Technology",
-      "pct_change": -4.237223886914536,
+      "pct_change": -4.013123205811706,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
     },
     {
-      "symbol": "TEL",
-      "name": "TE Connectivity",
-      "sector": "Information Technology",
-      "pct_change": -3.3918234018179088,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "LDOS",
-      "name": "Leidos",
-      "sector": "Industrials",
-      "pct_change": -3.362547005361078,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "VRSK",
-      "name": "Verisk Analytics",
-      "sector": "Industrials",
-      "pct_change": -3.0897888830598164,
+      "symbol": "KHC",
+      "name": "Kraft Heinz",
+      "sector": "Consumer Staples",
+      "pct_change": -3.293982344169218,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
