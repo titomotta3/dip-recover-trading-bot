@@ -3,7 +3,7 @@
   "sell_threshold_pct": 10.5,
   "trade_dollars": 18000.0,
   "completed_trades": 45,
-  "last_adjustment": "1 bad_news exit(s) (PYPL)",
-  "updated_utc": "2026-09-02T22:00:53+00:00",
+  "last_adjustment": "no change this run",
+  "updated_utc": "2026-09-03T16:59:52+00:00",
   "risk_exits": 47
 }
