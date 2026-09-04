@@ -1,58 +1,13 @@
 {
-  "updated_utc": "2026-09-04T16:48:30+00:00",
+  "updated_utc": "2026-09-04T19:11:55+00:00",
   "drop_threshold_pct": -8.0,
   "high_conviction_pct": -11.0,
   "stocks": [
     {
-      "symbol": "APH",
-      "name": "Amphenol",
-      "sector": "Information Technology",
-      "pct_change": -47.87133400502159,
-      "conviction": "high",
-      "status": "bought",
-      "news_bad": false
-    },
-    {
-      "symbol": "LULU",
-      "name": "Lululemon Athletica",
-      "sector": "Consumer Discretionary",
-      "pct_change": -17.39344739185535,
-      "conviction": "high",
-      "status": "bought",
-      "news_bad": false
-    },
-    {
-      "symbol": "FICO",
-      "name": "Fair Isaac",
-      "sector": "Information Technology",
-      "pct_change": -16.237839253131725,
-      "conviction": "high",
-      "status": "bought",
-      "news_bad": false
-    },
-    {
-      "symbol": "ADSK",
-      "name": "Autodesk",
-      "sector": "Information Technology",
-      "pct_change": -8.230886956928419,
-      "conviction": "buy_signal",
-      "status": "bought",
-      "news_bad": false
-    },
-    {
-      "symbol": "TSLA",
-      "name": "Tesla, Inc.",
-      "sector": "Consumer Discretionary",
-      "pct_change": -6.536147401598911,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
       "symbol": "EFX",
       "name": "Equifax",
       "sector": "Industrials",
-      "pct_change": -6.414929324102367,
+      "pct_change": -7.060125391758462,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
@@ -61,7 +16,7 @@
       "symbol": "ADBE",
       "name": "Adobe Inc.",
       "sector": "Information Technology",
-      "pct_change": -6.138235711258749,
+      "pct_change": -6.057741927766842,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null

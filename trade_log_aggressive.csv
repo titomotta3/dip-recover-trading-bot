@@ -197,3 +197,4 @@ timestamp_utc,action,symbol,detail
 2026-09-04T16:48:30+00:00,BUY,ADSK,drop=-8.23% notional=$18000.00 news=clear(1)
 2026-09-04T16:48:30+00:00,BUY,FICO,drop=-16.24% notional=$36000.00 news=clear(3) conviction=HIGH
 2026-09-04T16:48:30+00:00,BUY,LULU,drop=-17.39% notional=$36000.00 news=clear(10) conviction=HIGH
+2026-09-04T19:11:31+00:00,SELL,PANW,"gain=3.07% qty=55.729248583 reason=bad_news:bankrupt,bankruptcy"
