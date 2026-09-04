@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-09-04T16:47:34+00:00",
+  "updated_utc": "2026-09-04T19:11:09+00:00",
   "drop_threshold_pct": -5.0,
   "high_conviction_pct": -8.0,
   "stocks": [
@@ -7,7 +7,7 @@
       "symbol": "APH",
       "name": "Amphenol",
       "sector": "Information Technology",
-      "pct_change": -47.877642510879646,
+      "pct_change": -48.05109033212575,
       "conviction": "high",
       "status": "order_failed",
       "news_bad": false
@@ -16,7 +16,7 @@
       "symbol": "LULU",
       "name": "Lululemon Athletica",
       "sector": "Consumer Discretionary",
-      "pct_change": -17.3195343017951,
+      "pct_change": -17.602856327100227,
       "conviction": "high",
       "status": "order_failed",
       "news_bad": false
@@ -25,7 +25,7 @@
       "symbol": "FICO",
       "name": "Fair Isaac",
       "sector": "Information Technology",
-      "pct_change": -16.60202754117676,
+      "pct_change": -16.029603083040822,
       "conviction": "high",
       "status": "order_failed",
       "news_bad": false
@@ -34,16 +34,7 @@
       "symbol": "ADSK",
       "name": "Autodesk",
       "sector": "Information Technology",
-      "pct_change": -8.136155524009817,
-      "conviction": "high",
-      "status": "order_failed",
-      "news_bad": false
-    },
-    {
-      "symbol": "TSLA",
-      "name": "Tesla, Inc.",
-      "sector": "Consumer Discretionary",
-      "pct_change": -6.530803967147365,
+      "pct_change": -7.805661928017858,
       "conviction": "buy_signal",
       "status": "order_failed",
       "news_bad": false
@@ -52,7 +43,7 @@
       "symbol": "EFX",
       "name": "Equifax",
       "sector": "Industrials",
-      "pct_change": -6.523344277312458,
+      "pct_change": -7.05483980974487,
       "conviction": "buy_signal",
       "status": "order_failed",
       "news_bad": false
@@ -61,16 +52,25 @@
       "symbol": "ADBE",
       "name": "Adobe Inc.",
       "sector": "Information Technology",
-      "pct_change": -6.14172801153762,
+      "pct_change": -6.027998636400919,
       "conviction": "buy_signal",
       "status": "blocked_news",
       "news_bad": true
     },
     {
+      "symbol": "TSLA",
+      "name": "Tesla, Inc.",
+      "sector": "Consumer Discretionary",
+      "pct_change": -5.940958535921664,
+      "conviction": "buy_signal",
+      "status": "order_failed",
+      "news_bad": false
+    },
+    {
       "symbol": "PTC",
       "name": "PTC Inc.",
       "sector": "Information Technology",
-      "pct_change": -5.3837964635357345,
+      "pct_change": -5.570362812070345,
       "conviction": "buy_signal",
       "status": "order_failed",
       "news_bad": false
@@ -79,16 +79,16 @@
       "symbol": "SNPS",
       "name": "Synopsys",
       "sector": "Information Technology",
-      "pct_change": -5.156012698174399,
+      "pct_change": -5.558354175148659,
       "conviction": "buy_signal",
       "status": "order_failed",
       "news_bad": false
     },
     {
-      "symbol": "NFLX",
-      "name": "Netflix",
-      "sector": "Communication Services",
-      "pct_change": -4.13692783923397,
+      "symbol": "HPE",
+      "name": "Hewlett Packard Enterprise",
+      "sector": "Information Technology",
+      "pct_change": -4.965279877492438,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
@@ -97,7 +97,25 @@
       "symbol": "PLTR",
       "name": "Palantir Technologies",
       "sector": "Information Technology",
-      "pct_change": -4.081519201263037,
+      "pct_change": -4.727992626158579,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "TTD",
+      "name": "Trade Desk (The)",
+      "sector": "Communication Services",
+      "pct_change": -4.572568105238118,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "NFLX",
+      "name": "Netflix",
+      "sector": "Communication Services",
+      "pct_change": -4.433290185923928,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
@@ -106,25 +124,7 @@
       "symbol": "WDAY",
       "name": "Workday, Inc.",
       "sector": "Information Technology",
-      "pct_change": -4.069204641143763,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "PYPL",
-      "name": "PayPal",
-      "sector": "Financials",
-      "pct_change": -3.8896485013583733,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "HPE",
-      "name": "Hewlett Packard Enterprise",
-      "sector": "Information Technology",
-      "pct_change": -3.7931643622339637,
+      "pct_change": -4.4123356676999705,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
@@ -133,7 +133,7 @@
       "symbol": "IT",
       "name": "Gartner",
       "sector": "Information Technology",
-      "pct_change": -3.78594541138345,
+      "pct_change": -4.271976781285571,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
