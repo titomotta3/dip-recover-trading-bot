@@ -1,22 +1,58 @@
 {
-  "updated_utc": "2026-09-04T19:11:55+00:00",
+  "updated_utc": "2026-09-08T17:09:09+00:00",
   "drop_threshold_pct": -8.0,
   "high_conviction_pct": -11.0,
   "stocks": [
     {
-      "symbol": "EFX",
-      "name": "Equifax",
+      "symbol": "AMGN",
+      "name": "Amgen",
+      "sector": "Health Care",
+      "pct_change": -9.87466944758669,
+      "conviction": "buy_signal",
+      "status": "blocked_news",
+      "news_bad": true
+    },
+    {
+      "symbol": "HWM",
+      "name": "Howmet Aerospace",
       "sector": "Industrials",
-      "pct_change": -7.060125391758462,
+      "pct_change": -7.667678661788782,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
     },
     {
-      "symbol": "ADBE",
-      "name": "Adobe Inc.",
+      "symbol": "SYK",
+      "name": "Stryker Corporation",
+      "sector": "Health Care",
+      "pct_change": -6.9854577143338075,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "GDDY",
+      "name": "GoDaddy",
       "sector": "Information Technology",
-      "pct_change": -6.057741927766842,
+      "pct_change": -6.97364029440984,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "EXPE",
+      "name": "Expedia Group",
+      "sector": "Consumer Discretionary",
+      "pct_change": -6.576300342764696,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "IT",
+      "name": "Gartner",
+      "sector": "Information Technology",
+      "pct_change": -6.254695728267501,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
