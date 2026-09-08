@@ -1,23 +1,32 @@
 {
-  "updated_utc": "2026-09-08T17:07:56+00:00",
+  "updated_utc": "2026-09-08T19:54:48+00:00",
   "drop_threshold_pct": -5.0,
   "high_conviction_pct": -8.0,
   "stocks": [
     {
+      "symbol": "HWM",
+      "name": "Howmet Aerospace",
+      "sector": "Industrials",
+      "pct_change": -11.117747101818685,
+      "conviction": "high",
+      "status": "order_failed",
+      "news_bad": false
+    },
+    {
       "symbol": "AMGN",
       "name": "Amgen",
       "sector": "Health Care",
-      "pct_change": -9.759168482391441,
+      "pct_change": -10.321799453108374,
       "conviction": "high",
       "status": "blocked_news",
       "news_bad": true
     },
     {
-      "symbol": "HWM",
-      "name": "Howmet Aerospace",
-      "sector": "Industrials",
-      "pct_change": -7.524972165523998,
-      "conviction": "buy_signal",
+      "symbol": "SYK",
+      "name": "Stryker Corporation",
+      "sector": "Health Care",
+      "pct_change": -8.883974612210414,
+      "conviction": "high",
       "status": "order_failed",
       "news_bad": false
     },
@@ -25,16 +34,7 @@
       "symbol": "GDDY",
       "name": "GoDaddy",
       "sector": "Information Technology",
-      "pct_change": -7.077285896486638,
-      "conviction": "buy_signal",
-      "status": "order_failed",
-      "news_bad": false
-    },
-    {
-      "symbol": "SYK",
-      "name": "Stryker Corporation",
-      "sector": "Health Care",
-      "pct_change": -7.010193533370302,
+      "pct_change": -7.82746076031576,
       "conviction": "buy_signal",
       "status": "order_failed",
       "news_bad": false
@@ -43,7 +43,7 @@
       "symbol": "EXPE",
       "name": "Expedia Group",
       "sector": "Consumer Discretionary",
-      "pct_change": -6.618241020665716,
+      "pct_change": -7.425312366407525,
       "conviction": "buy_signal",
       "status": "order_failed",
       "news_bad": false
@@ -52,43 +52,7 @@
       "symbol": "IT",
       "name": "Gartner",
       "sector": "Information Technology",
-      "pct_change": -6.1849581013554555,
-      "conviction": "buy_signal",
-      "status": "order_failed",
-      "news_bad": false
-    },
-    {
-      "symbol": "BKNG",
-      "name": "Booking Holdings",
-      "sector": "Consumer Discretionary",
-      "pct_change": -5.851310441017622,
-      "conviction": "buy_signal",
-      "status": "bought",
-      "news_bad": false
-    },
-    {
-      "symbol": "INTU",
-      "name": "Intuit",
-      "sector": "Information Technology",
-      "pct_change": -5.568086484630131,
-      "conviction": "buy_signal",
-      "status": "order_failed",
-      "news_bad": false
-    },
-    {
-      "symbol": "PTC",
-      "name": "PTC Inc.",
-      "sector": "Information Technology",
-      "pct_change": -5.467314196765228,
-      "conviction": "buy_signal",
-      "status": "order_failed",
-      "news_bad": false
-    },
-    {
-      "symbol": "FIS",
-      "name": "Fidelity National Information Services",
-      "sector": "Financials",
-      "pct_change": -5.383148963884861,
+      "pct_change": -7.035192373126425,
       "conviction": "buy_signal",
       "status": "order_failed",
       "news_bad": false
@@ -97,25 +61,43 @@
       "symbol": "BSX",
       "name": "Boston Scientific",
       "sector": "Health Care",
-      "pct_change": -5.3556435135022324,
+      "pct_change": -5.690371233096123,
       "conviction": "buy_signal",
-      "status": "bought",
+      "status": "blocked_news",
+      "news_bad": true
+    },
+    {
+      "symbol": "FIS",
+      "name": "Fidelity National Information Services",
+      "sector": "Financials",
+      "pct_change": -5.597997743782745,
+      "conviction": "buy_signal",
+      "status": "order_failed",
+      "news_bad": false
+    },
+    {
+      "symbol": "VRSK",
+      "name": "Verisk Analytics",
+      "sector": "Industrials",
+      "pct_change": -5.371654065442049,
+      "conviction": "buy_signal",
+      "status": "order_failed",
       "news_bad": false
     },
     {
       "symbol": "DASH",
       "name": "DoorDash",
       "sector": "Consumer Discretionary",
-      "pct_change": -5.3464281367088935,
+      "pct_change": -5.294474888434561,
       "conviction": "buy_signal",
       "status": "order_failed",
       "news_bad": false
     },
     {
-      "symbol": "DLTR",
-      "name": "Dollar Tree",
-      "sector": "Consumer Staples",
-      "pct_change": -5.265559477522893,
+      "symbol": "CDW",
+      "name": "CDW Corporation",
+      "sector": "Information Technology",
+      "pct_change": -5.2664450046743685,
       "conviction": "buy_signal",
       "status": "bought",
       "news_bad": false
@@ -124,16 +106,34 @@
       "symbol": "NOW",
       "name": "ServiceNow",
       "sector": "Information Technology",
-      "pct_change": -5.030150854188687,
-      "conviction": "buy_signal",
-      "status": "order_failed",
-      "news_bad": false
+      "pct_change": -4.9907886642509975,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "PTC",
+      "name": "PTC Inc.",
+      "sector": "Information Technology",
+      "pct_change": -4.878743918855532,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
     },
     {
       "symbol": "WDAY",
       "name": "Workday, Inc.",
       "sector": "Information Technology",
-      "pct_change": -4.877668992516966,
+      "pct_change": -4.826598535315186,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "HPQ",
+      "name": "HP Inc.",
+      "sector": "Information Technology",
+      "pct_change": -4.626226277935295,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
