@@ -343,3 +343,9 @@ timestamp_utc,action,symbol,detail
 2026-09-03T19:42:49+00:00,SELL,CIEN,gain=-12.43% qty=55.690112215 reason=stop_loss
 2026-09-03T19:43:16+00:00,BUY,CHTR,drop=-5.10% notional=$20000.00 news=clear(1)
 2026-09-03T19:43:16+00:00,BUY,CIEN,drop=-11.25% notional=$20000.00 news=clear(10)
+2026-09-08T17:07:09+00:00,SELL,CIEN,gain=9.75% qty=63.604376033 reason=target_reached
+2026-09-08T17:07:10+00:00,SELL,COHR,gain=7.35% qty=69.698518905 reason=target_reached
+2026-09-08T17:07:10+00:00,SELL,ESS,gain=-0.93% qty=35.559312993 reason=bad_news:downgrade
+2026-09-08T17:07:54+00:00,BUY,BKNG,drop=-5.85% notional=$20000.00 news=none
+2026-09-08T17:07:54+00:00,BUY,BSX,drop=-5.36% notional=$20000.00 news=clear(1)
+2026-09-08T17:07:54+00:00,BUY,DLTR,drop=-5.27% notional=$20000.00 news=clear(1)
