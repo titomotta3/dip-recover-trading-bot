@@ -201,3 +201,5 @@ timestamp_utc,action,symbol,detail
 2026-09-08T17:08:24+00:00,SELL,COHR,gain=15.28% qty=67.430643529 reason=target_reached
 2026-09-08T19:56:07+00:00,BUY,HWM,drop=-10.88% notional=$18000.00 news=none
 2026-09-08T19:56:07+00:00,BUY,SYK,drop=-8.83% notional=$18000.00 news=clear(1)
+2026-09-09T17:05:37+00:00,BUY,CASY,drop=-15.45% notional=$36000.00 news=clear(10) conviction=HIGH
+2026-09-09T17:05:37+00:00,BUY,VRT,drop=-8.35% notional=$18000.00 news=clear(2)

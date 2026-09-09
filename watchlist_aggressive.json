@@ -1,67 +1,40 @@
 {
-  "updated_utc": "2026-09-08T19:56:07+00:00",
+  "updated_utc": "2026-09-09T17:05:37+00:00",
   "drop_threshold_pct": -8.0,
   "high_conviction_pct": -11.0,
   "stocks": [
     {
-      "symbol": "HWM",
-      "name": "Howmet Aerospace",
+      "symbol": "CASY",
+      "name": "Casey's",
+      "sector": "Consumer Staples",
+      "pct_change": -15.454878302475555,
+      "conviction": "high",
+      "status": "bought",
+      "news_bad": false
+    },
+    {
+      "symbol": "VRT",
+      "name": "Vertiv",
       "sector": "Industrials",
-      "pct_change": -10.882476774588357,
+      "pct_change": -8.345077926701775,
       "conviction": "buy_signal",
       "status": "bought",
       "news_bad": false
     },
     {
-      "symbol": "AMGN",
-      "name": "Amgen",
-      "sector": "Health Care",
-      "pct_change": -10.30350551850741,
-      "conviction": "buy_signal",
-      "status": "blocked_news",
-      "news_bad": true
-    },
-    {
-      "symbol": "SYK",
-      "name": "Stryker Corporation",
-      "sector": "Health Care",
-      "pct_change": -8.827898701736963,
-      "conviction": "buy_signal",
-      "status": "bought",
-      "news_bad": false
-    },
-    {
-      "symbol": "GDDY",
-      "name": "GoDaddy",
-      "sector": "Information Technology",
-      "pct_change": -7.847198835084582,
+      "symbol": "CHTR",
+      "name": "Charter Communications",
+      "sector": "Communication Services",
+      "pct_change": -7.581997142353691,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
     },
     {
-      "symbol": "EXPE",
-      "name": "Expedia Group",
-      "sector": "Consumer Discretionary",
-      "pct_change": -7.695274762125397,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "IT",
-      "name": "Gartner",
-      "sector": "Information Technology",
-      "pct_change": -7.201482235608244,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "BKNG",
-      "name": "Booking Holdings",
-      "sector": "Consumer Discretionary",
-      "pct_change": -6.808416814335132,
+      "symbol": "CMCSA",
+      "name": "Comcast",
+      "sector": "Communication Services",
+      "pct_change": -7.349029515948528,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
