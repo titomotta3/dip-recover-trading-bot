@@ -1,139 +1,139 @@
 {
-  "updated_utc": "2026-09-08T19:54:48+00:00",
+  "updated_utc": "2026-09-09T17:04:39+00:00",
   "drop_threshold_pct": -5.0,
   "high_conviction_pct": -8.0,
   "stocks": [
     {
-      "symbol": "HWM",
-      "name": "Howmet Aerospace",
+      "symbol": "CASY",
+      "name": "Casey's",
+      "sector": "Consumer Staples",
+      "pct_change": -15.31513209902226,
+      "conviction": "high",
+      "status": "order_failed",
+      "news_bad": false
+    },
+    {
+      "symbol": "VRT",
+      "name": "Vertiv",
       "sector": "Industrials",
-      "pct_change": -11.117747101818685,
+      "pct_change": -8.260837948536173,
       "conviction": "high",
       "status": "order_failed",
       "news_bad": false
     },
     {
-      "symbol": "AMGN",
-      "name": "Amgen",
-      "sector": "Health Care",
-      "pct_change": -10.321799453108374,
-      "conviction": "high",
-      "status": "blocked_news",
-      "news_bad": true
-    },
-    {
-      "symbol": "SYK",
-      "name": "Stryker Corporation",
-      "sector": "Health Care",
-      "pct_change": -8.883974612210414,
-      "conviction": "high",
-      "status": "order_failed",
-      "news_bad": false
-    },
-    {
-      "symbol": "GDDY",
-      "name": "GoDaddy",
-      "sector": "Information Technology",
-      "pct_change": -7.82746076031576,
+      "symbol": "CMCSA",
+      "name": "Comcast",
+      "sector": "Communication Services",
+      "pct_change": -7.311049155482091,
       "conviction": "buy_signal",
       "status": "order_failed",
       "news_bad": false
     },
     {
-      "symbol": "EXPE",
-      "name": "Expedia Group",
+      "symbol": "KMB",
+      "name": "Kimberly-Clark",
+      "sector": "Consumer Staples",
+      "pct_change": -4.663366401949235,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "PSKY",
+      "name": "Paramount Skydance Corporation",
+      "sector": "Communication Services",
+      "pct_change": -4.583332192750645,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "FSLR",
+      "name": "First Solar",
+      "sector": "Information Technology",
+      "pct_change": -4.075030453179953,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "OMC",
+      "name": "Omnicom Group",
+      "sector": "Communication Services",
+      "pct_change": -4.03056422256768,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "KVUE",
+      "name": "Kenvue",
+      "sector": "Consumer Staples",
+      "pct_change": -3.7792263071820855,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "KLAC",
+      "name": "KLA Corporation",
+      "sector": "Information Technology",
+      "pct_change": -3.661762263410242,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "TSCO",
+      "name": "Tractor Supply",
       "sector": "Consumer Discretionary",
-      "pct_change": -7.425312366407525,
-      "conviction": "buy_signal",
-      "status": "order_failed",
-      "news_bad": false
+      "pct_change": -3.6129257376072066,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
     },
     {
-      "symbol": "IT",
-      "name": "Gartner",
-      "sector": "Information Technology",
-      "pct_change": -7.035192373126425,
-      "conviction": "buy_signal",
-      "status": "order_failed",
-      "news_bad": false
+      "symbol": "YUM",
+      "name": "Yum! Brands",
+      "sector": "Consumer Discretionary",
+      "pct_change": -3.5917298605358265,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
     },
     {
-      "symbol": "BSX",
-      "name": "Boston Scientific",
-      "sector": "Health Care",
-      "pct_change": -5.690371233096123,
-      "conviction": "buy_signal",
-      "status": "blocked_news",
-      "news_bad": true
-    },
-    {
-      "symbol": "FIS",
-      "name": "Fidelity National Information Services",
+      "symbol": "FISV",
+      "name": "Fiserv",
       "sector": "Financials",
-      "pct_change": -5.597997743782745,
-      "conviction": "buy_signal",
-      "status": "order_failed",
-      "news_bad": false
+      "pct_change": -3.539125472786943,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
     },
     {
-      "symbol": "VRSK",
-      "name": "Verisk Analytics",
-      "sector": "Industrials",
-      "pct_change": -5.371654065442049,
-      "conviction": "buy_signal",
-      "status": "order_failed",
-      "news_bad": false
-    },
-    {
-      "symbol": "DASH",
-      "name": "DoorDash",
+      "symbol": "LULU",
+      "name": "Lululemon Athletica",
       "sector": "Consumer Discretionary",
-      "pct_change": -5.294474888434561,
-      "conviction": "buy_signal",
-      "status": "order_failed",
-      "news_bad": false
-    },
-    {
-      "symbol": "CDW",
-      "name": "CDW Corporation",
-      "sector": "Information Technology",
-      "pct_change": -5.2664450046743685,
-      "conviction": "buy_signal",
-      "status": "bought",
-      "news_bad": false
-    },
-    {
-      "symbol": "NOW",
-      "name": "ServiceNow",
-      "sector": "Information Technology",
-      "pct_change": -4.9907886642509975,
+      "pct_change": -3.5032516790730273,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
     },
     {
-      "symbol": "PTC",
-      "name": "PTC Inc.",
-      "sector": "Information Technology",
-      "pct_change": -4.878743918855532,
+      "symbol": "RVTY",
+      "name": "Revvity",
+      "sector": "Health Care",
+      "pct_change": -3.3758269229730145,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
     },
     {
-      "symbol": "WDAY",
-      "name": "Workday, Inc.",
-      "sector": "Information Technology",
-      "pct_change": -4.826598535315186,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "HPQ",
-      "name": "HP Inc.",
-      "sector": "Information Technology",
-      "pct_change": -4.626226277935295,
+      "symbol": "DPZ",
+      "name": "Domino's",
+      "sector": "Consumer Discretionary",
+      "pct_change": -3.363047808991499,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
