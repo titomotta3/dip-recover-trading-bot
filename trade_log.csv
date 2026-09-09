@@ -351,3 +351,5 @@ timestamp_utc,action,symbol,detail
 2026-09-08T17:07:54+00:00,BUY,DLTR,drop=-5.27% notional=$20000.00 news=clear(1)
 2026-09-08T19:54:01+00:00,SELL,BSX,gain=-0.41% qty=442.086427939 reason=bad_news:cyberattack
 2026-09-08T19:54:46+00:00,BUY,CDW,drop=-5.27% notional=$20000.00 news=clear(1)
+2026-09-09T19:44:29+00:00,SELL,TPR,gain=-12.18% qty=153.72782475 reason=stop_loss
+2026-09-09T19:44:59+00:00,BUY,CASY,drop=-15.14% notional=$20000.00 news=clear(10)

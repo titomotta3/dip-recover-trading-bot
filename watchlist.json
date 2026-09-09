@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-09-09T17:04:39+00:00",
+  "updated_utc": "2026-09-09T19:45:00+00:00",
   "drop_threshold_pct": -5.0,
   "high_conviction_pct": -8.0,
   "stocks": [
@@ -7,17 +7,26 @@
       "symbol": "CASY",
       "name": "Casey's",
       "sector": "Consumer Staples",
-      "pct_change": -15.31513209902226,
+      "pct_change": -15.13926357395465,
       "conviction": "high",
-      "status": "order_failed",
+      "status": "bought",
       "news_bad": false
     },
     {
       "symbol": "VRT",
       "name": "Vertiv",
       "sector": "Industrials",
-      "pct_change": -8.260837948536173,
+      "pct_change": -9.765153253695704,
       "conviction": "high",
+      "status": "order_failed",
+      "news_bad": false
+    },
+    {
+      "symbol": "COO",
+      "name": "Cooper Companies (The)",
+      "sector": "Health Care",
+      "pct_change": -7.925840574626725,
+      "conviction": "buy_signal",
       "status": "order_failed",
       "news_bad": false
     },
@@ -25,25 +34,16 @@
       "symbol": "CMCSA",
       "name": "Comcast",
       "sector": "Communication Services",
-      "pct_change": -7.311049155482091,
+      "pct_change": -6.779338596978102,
       "conviction": "buy_signal",
       "status": "order_failed",
       "news_bad": false
     },
     {
-      "symbol": "KMB",
-      "name": "Kimberly-Clark",
-      "sector": "Consumer Staples",
-      "pct_change": -4.663366401949235,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
       "symbol": "PSKY",
       "name": "Paramount Skydance Corporation",
       "sector": "Communication Services",
-      "pct_change": -4.583332192750645,
+      "pct_change": -4.81481896833457,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
@@ -52,25 +52,34 @@
       "symbol": "FSLR",
       "name": "First Solar",
       "sector": "Information Technology",
-      "pct_change": -4.075030453179953,
+      "pct_change": -4.429077291544549,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
     },
     {
-      "symbol": "OMC",
-      "name": "Omnicom Group",
-      "sector": "Communication Services",
-      "pct_change": -4.03056422256768,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "KVUE",
-      "name": "Kenvue",
+      "symbol": "KMB",
+      "name": "Kimberly-Clark",
       "sector": "Consumer Staples",
-      "pct_change": -3.7792263071820855,
+      "pct_change": -4.337903384870228,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "IP",
+      "name": "International Paper",
+      "sector": "Materials",
+      "pct_change": -4.138125696830373,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "NCLH",
+      "name": "Norwegian Cruise Line Holdings",
+      "sector": "Consumer Discretionary",
+      "pct_change": -3.996105984879398,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
@@ -79,25 +88,7 @@
       "symbol": "KLAC",
       "name": "KLA Corporation",
       "sector": "Information Technology",
-      "pct_change": -3.661762263410242,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "TSCO",
-      "name": "Tractor Supply",
-      "sector": "Consumer Discretionary",
-      "pct_change": -3.6129257376072066,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "YUM",
-      "name": "Yum! Brands",
-      "sector": "Consumer Discretionary",
-      "pct_change": -3.5917298605358265,
+      "pct_change": -3.6564655305013094,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
@@ -106,25 +97,7 @@
       "symbol": "FISV",
       "name": "Fiserv",
       "sector": "Financials",
-      "pct_change": -3.539125472786943,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "LULU",
-      "name": "Lululemon Athletica",
-      "sector": "Consumer Discretionary",
-      "pct_change": -3.5032516790730273,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "RVTY",
-      "name": "Revvity",
-      "sector": "Health Care",
-      "pct_change": -3.3758269229730145,
+      "pct_change": -3.578450005865303,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
@@ -133,7 +106,34 @@
       "symbol": "DPZ",
       "name": "Domino's",
       "sector": "Consumer Discretionary",
-      "pct_change": -3.363047808991499,
+      "pct_change": -3.518087767720299,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "KVUE",
+      "name": "Kenvue",
+      "sector": "Consumer Staples",
+      "pct_change": -3.4855838042759464,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "TSCO",
+      "name": "Tractor Supply",
+      "sector": "Consumer Discretionary",
+      "pct_change": -3.4712447068239305,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "AON",
+      "name": "Aon plc",
+      "sector": "Financials",
+      "pct_change": -3.4548286414696374,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
