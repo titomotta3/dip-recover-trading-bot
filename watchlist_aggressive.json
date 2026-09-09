@@ -1,31 +1,22 @@
 {
-  "updated_utc": "2026-09-09T17:05:37+00:00",
+  "updated_utc": "2026-09-09T19:46:04+00:00",
   "drop_threshold_pct": -8.0,
   "high_conviction_pct": -11.0,
   "stocks": [
     {
-      "symbol": "CASY",
-      "name": "Casey's",
-      "sector": "Consumer Staples",
-      "pct_change": -15.454878302475555,
-      "conviction": "high",
-      "status": "bought",
-      "news_bad": false
-    },
-    {
-      "symbol": "VRT",
-      "name": "Vertiv",
-      "sector": "Industrials",
-      "pct_change": -8.345077926701775,
+      "symbol": "CHTR",
+      "name": "Charter Communications",
+      "sector": "Communication Services",
+      "pct_change": -8.247566776045398,
       "conviction": "buy_signal",
       "status": "bought",
       "news_bad": false
     },
     {
-      "symbol": "CHTR",
-      "name": "Charter Communications",
-      "sector": "Communication Services",
-      "pct_change": -7.581997142353691,
+      "symbol": "COO",
+      "name": "Cooper Companies (The)",
+      "sector": "Health Care",
+      "pct_change": -7.815040219722948,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
@@ -34,7 +25,7 @@
       "symbol": "CMCSA",
       "name": "Comcast",
       "sector": "Communication Services",
-      "pct_change": -7.349029515948528,
+      "pct_change": -6.760352038751413,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null

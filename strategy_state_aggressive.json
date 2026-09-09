@@ -3,7 +3,7 @@
   "sell_threshold_pct": 11.0,
   "trade_dollars": 18000.0,
   "completed_trades": 46,
-  "last_adjustment": "no change this run",
-  "updated_utc": "2026-09-09T17:05:37+00:00",
-  "risk_exits": 48
+  "last_adjustment": "1 stop_loss exit(s) (TPR)",
+  "updated_utc": "2026-09-09T19:46:04+00:00",
+  "risk_exits": 49
 }
