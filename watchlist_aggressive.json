@@ -1,31 +1,31 @@
 {
-  "updated_utc": "2026-09-09T19:46:04+00:00",
+  "updated_utc": "2026-09-10T16:56:40+00:00",
   "drop_threshold_pct": -8.0,
   "high_conviction_pct": -11.0,
   "stocks": [
     {
-      "symbol": "CHTR",
-      "name": "Charter Communications",
-      "sector": "Communication Services",
-      "pct_change": -8.247566776045398,
-      "conviction": "buy_signal",
-      "status": "bought",
-      "news_bad": false
-    },
-    {
       "symbol": "COO",
       "name": "Cooper Companies (The)",
       "sector": "Health Care",
-      "pct_change": -7.815040219722948,
+      "pct_change": -14.6428790123804,
+      "conviction": "high",
+      "status": "blocked_news",
+      "news_bad": true
+    },
+    {
+      "symbol": "FCX",
+      "name": "Freeport-McMoRan",
+      "sector": "Materials",
+      "pct_change": -7.149421930519968,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
     },
     {
-      "symbol": "CMCSA",
-      "name": "Comcast",
-      "sector": "Communication Services",
-      "pct_change": -6.760352038751413,
+      "symbol": "BKR",
+      "name": "Baker Hughes",
+      "sector": "Energy",
+      "pct_change": -6.968883722703395,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
