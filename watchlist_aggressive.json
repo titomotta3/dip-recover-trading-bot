@@ -1,34 +1,6 @@
 {
-  "updated_utc": "2026-09-10T19:30:52+00:00",
+  "updated_utc": "2026-09-11T19:32:45+00:00",
   "drop_threshold_pct": -8.0,
   "high_conviction_pct": -11.0,
-  "stocks": [
-    {
-      "symbol": "COO",
-      "name": "Cooper Companies (The)",
-      "sector": "Health Care",
-      "pct_change": -12.885948903848416,
-      "conviction": "high",
-      "status": "blocked_news",
-      "news_bad": true
-    },
-    {
-      "symbol": "BKR",
-      "name": "Baker Hughes",
-      "sector": "Energy",
-      "pct_change": -6.819610613154447,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "FCX",
-      "name": "Freeport-McMoRan",
-      "sector": "Materials",
-      "pct_change": -6.204910335352058,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    }
-  ]
+  "stocks": []
 }
