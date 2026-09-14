@@ -1,43 +1,142 @@
 {
-  "updated_utc": "2026-09-11T19:31:43+00:00",
+  "updated_utc": "2026-09-14T18:26:18+00:00",
   "drop_threshold_pct": -5.0,
   "high_conviction_pct": -8.0,
   "stocks": [
     {
-      "symbol": "STX",
-      "name": "Seagate Technology",
+      "symbol": "GLW",
+      "name": "Corning Inc.",
       "sector": "Information Technology",
-      "pct_change": -3.5844785136903186,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
+      "pct_change": -12.409852556443308,
+      "conviction": "high",
+      "status": "order_failed",
+      "news_bad": false
     },
     {
-      "symbol": "SNDK",
-      "name": "Sandisk",
+      "symbol": "TER",
+      "name": "Teradyne",
       "sector": "Information Technology",
-      "pct_change": -3.542144329275333,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
+      "pct_change": -12.036497004460058,
+      "conviction": "high",
+      "status": "order_failed",
+      "news_bad": false
     },
     {
-      "symbol": "ALB",
-      "name": "Albemarle Corporation",
-      "sector": "Materials",
-      "pct_change": -3.4395192263115457,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
+      "symbol": "COHR",
+      "name": "Coherent Corp.",
+      "sector": "Information Technology",
+      "pct_change": -10.962273609075185,
+      "conviction": "high",
+      "status": "order_failed",
+      "news_bad": false
     },
     {
-      "symbol": "UNH",
-      "name": "UnitedHealth Group",
-      "sector": "Health Care",
-      "pct_change": -3.0647970366478954,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
+      "symbol": "SWKS",
+      "name": "Skyworks Solutions",
+      "sector": "Information Technology",
+      "pct_change": -9.37747161947222,
+      "conviction": "high",
+      "status": "order_failed",
+      "news_bad": false
+    },
+    {
+      "symbol": "HPE",
+      "name": "Hewlett Packard Enterprise",
+      "sector": "Information Technology",
+      "pct_change": -8.735865606661276,
+      "conviction": "high",
+      "status": "blocked_news",
+      "news_bad": true
+    },
+    {
+      "symbol": "LITE",
+      "name": "Lumentum",
+      "sector": "Information Technology",
+      "pct_change": -8.578473393615942,
+      "conviction": "high",
+      "status": "order_failed",
+      "news_bad": false
+    },
+    {
+      "symbol": "GEV",
+      "name": "GE Vernova",
+      "sector": "Industrials",
+      "pct_change": -8.414565192663668,
+      "conviction": "high",
+      "status": "order_failed",
+      "news_bad": false
+    },
+    {
+      "symbol": "ETN",
+      "name": "Eaton Corporation",
+      "sector": "Industrials",
+      "pct_change": -7.7744099733946,
+      "conviction": "buy_signal",
+      "status": "order_failed",
+      "news_bad": false
+    },
+    {
+      "symbol": "LRCX",
+      "name": "Lam Research",
+      "sector": "Information Technology",
+      "pct_change": -7.380460624884812,
+      "conviction": "buy_signal",
+      "status": "order_failed",
+      "news_bad": false
+    },
+    {
+      "symbol": "Q",
+      "name": "Qnity Electronics",
+      "sector": "Information Technology",
+      "pct_change": -7.199365794515419,
+      "conviction": "buy_signal",
+      "status": "order_failed",
+      "news_bad": false
+    },
+    {
+      "symbol": "VRT",
+      "name": "Vertiv",
+      "sector": "Industrials",
+      "pct_change": -6.943900651309183,
+      "conviction": "buy_signal",
+      "status": "order_failed",
+      "news_bad": false
+    },
+    {
+      "symbol": "CEG",
+      "name": "Constellation Energy",
+      "sector": "Utilities",
+      "pct_change": -6.942928538602941,
+      "conviction": "buy_signal",
+      "status": "order_failed",
+      "news_bad": false
+    },
+    {
+      "symbol": "CIEN",
+      "name": "Ciena",
+      "sector": "Information Technology",
+      "pct_change": -6.851865772599609,
+      "conviction": "buy_signal",
+      "status": "order_failed",
+      "news_bad": false
+    },
+    {
+      "symbol": "SMCI",
+      "name": "Supermicro",
+      "sector": "Information Technology",
+      "pct_change": -6.396505546912502,
+      "conviction": "buy_signal",
+      "status": "order_failed",
+      "news_bad": false
+    },
+    {
+      "symbol": "AMAT",
+      "name": "Applied Materials",
+      "sector": "Information Technology",
+      "pct_change": -6.288196277322021,
+      "conviction": "buy_signal",
+      "status": "bought",
+      "news_bad": false
     }
   ]
 }

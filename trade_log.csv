@@ -357,3 +357,8 @@ timestamp_utc,action,symbol,detail
 2026-09-10T16:55:27+00:00,SELL,DDOG,gain=7.70% qty=94.912632877 reason=target_reached
 2026-09-10T16:55:52+00:00,BUY,BKR,drop=-6.95% notional=$20000.00 news=clear(2)
 2026-09-10T16:55:52+00:00,BUY,FCX,drop=-7.10% notional=$20000.00 news=clear(5)
+2026-09-14T18:25:24+00:00,SELL,CHTR,"gain=-4.48% qty=132.625928381 reason=bad_news:downgrade,downgraded"
+2026-09-14T18:25:24+00:00,SELL,CMI,gain=-12.80% qty=16.185142024 reason=stop_loss
+2026-09-14T18:25:25+00:00,SELL,CRWD,gain=10.05% qty=92.712729464 reason=target_reached
+2026-09-14T18:26:12+00:00,BUY,APH,drop=-5.84% notional=$20000.00 news=none
+2026-09-14T18:26:12+00:00,BUY,AMAT,drop=-6.29% notional=$20000.00 news=clear(1)
