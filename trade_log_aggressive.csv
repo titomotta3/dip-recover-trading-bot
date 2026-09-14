@@ -205,3 +205,10 @@ timestamp_utc,action,symbol,detail
 2026-09-09T17:05:37+00:00,BUY,VRT,drop=-8.35% notional=$18000.00 news=clear(2)
 2026-09-09T19:45:33+00:00,SELL,TPR,gain=-12.20% qty=307.573933102 reason=stop_loss
 2026-09-09T19:46:04+00:00,BUY,CHTR,drop=-8.25% notional=$18000.00 news=none
+2026-09-14T18:26:41+00:00,SELL,CCI,"gain=6.29% qty=157.052969731 reason=bad_news:downgrade,downgraded"
+2026-09-14T18:26:41+00:00,SELL,CHTR,"gain=7.86% qty=134.539128484 reason=bad_news:downgrade,downgraded"
+2026-09-14T18:27:15+00:00,BUY,COHR,drop=-11.09% notional=$36000.00 news=clear(2) conviction=HIGH
+2026-09-14T18:27:15+00:00,BUY,GEV,drop=-8.57% notional=$18000.00 news=clear(4)
+2026-09-14T18:27:15+00:00,BUY,LITE,drop=-8.61% notional=$18000.00 news=none
+2026-09-14T18:27:15+00:00,BUY,SWKS,drop=-9.33% notional=$18000.00 news=clear(4)
+2026-09-14T18:27:15+00:00,BUY,TER,drop=-12.00% notional=$36000.00 news=clear(1) conviction=HIGH
