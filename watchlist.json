@@ -1,142 +1,142 @@
 {
-  "updated_utc": "2026-09-14T18:26:18+00:00",
+  "updated_utc": "2026-09-15T17:32:54+00:00",
   "drop_threshold_pct": -5.0,
   "high_conviction_pct": -8.0,
   "stocks": [
     {
-      "symbol": "GLW",
-      "name": "Corning Inc.",
-      "sector": "Information Technology",
-      "pct_change": -12.409852556443308,
-      "conviction": "high",
-      "status": "order_failed",
-      "news_bad": false
-    },
-    {
-      "symbol": "TER",
-      "name": "Teradyne",
-      "sector": "Information Technology",
-      "pct_change": -12.036497004460058,
-      "conviction": "high",
-      "status": "order_failed",
-      "news_bad": false
-    },
-    {
-      "symbol": "COHR",
-      "name": "Coherent Corp.",
-      "sector": "Information Technology",
-      "pct_change": -10.962273609075185,
-      "conviction": "high",
-      "status": "order_failed",
-      "news_bad": false
-    },
-    {
-      "symbol": "SWKS",
-      "name": "Skyworks Solutions",
-      "sector": "Information Technology",
-      "pct_change": -9.37747161947222,
-      "conviction": "high",
-      "status": "order_failed",
-      "news_bad": false
-    },
-    {
-      "symbol": "HPE",
-      "name": "Hewlett Packard Enterprise",
-      "sector": "Information Technology",
-      "pct_change": -8.735865606661276,
-      "conviction": "high",
-      "status": "blocked_news",
-      "news_bad": true
-    },
-    {
-      "symbol": "LITE",
-      "name": "Lumentum",
-      "sector": "Information Technology",
-      "pct_change": -8.578473393615942,
-      "conviction": "high",
-      "status": "order_failed",
-      "news_bad": false
-    },
-    {
-      "symbol": "GEV",
-      "name": "GE Vernova",
+      "symbol": "AXON",
+      "name": "Axon Enterprise",
       "sector": "Industrials",
-      "pct_change": -8.414565192663668,
+      "pct_change": -11.000037479257223,
       "conviction": "high",
-      "status": "order_failed",
+      "status": "bought",
       "news_bad": false
     },
     {
-      "symbol": "ETN",
-      "name": "Eaton Corporation",
-      "sector": "Industrials",
-      "pct_change": -7.7744099733946,
+      "symbol": "CMG",
+      "name": "Chipotle Mexican Grill",
+      "sector": "Consumer Discretionary",
+      "pct_change": -6.589516309144808,
       "conviction": "buy_signal",
-      "status": "order_failed",
+      "status": "bought",
       "news_bad": false
     },
     {
-      "symbol": "LRCX",
-      "name": "Lam Research",
+      "symbol": "COIN",
+      "name": "Coinbase",
+      "sector": "Financials",
+      "pct_change": -6.132144383135647,
+      "conviction": "buy_signal",
+      "status": "bought",
+      "news_bad": false
+    },
+    {
+      "symbol": "STX",
+      "name": "Seagate Technology",
       "sector": "Information Technology",
-      "pct_change": -7.380460624884812,
+      "pct_change": -5.405621447461008,
       "conviction": "buy_signal",
-      "status": "order_failed",
+      "status": "bought",
       "news_bad": false
+    },
+    {
+      "symbol": "SYY",
+      "name": "Sysco",
+      "sector": "Consumer Staples",
+      "pct_change": -4.716306437906601,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "SNPS",
+      "name": "Synopsys",
+      "sector": "Information Technology",
+      "pct_change": -4.654852849472801,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
     },
     {
       "symbol": "Q",
       "name": "Qnity Electronics",
       "sector": "Information Technology",
-      "pct_change": -7.199365794515419,
-      "conviction": "buy_signal",
-      "status": "order_failed",
-      "news_bad": false
+      "pct_change": -4.5124974529094946,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
     },
     {
-      "symbol": "VRT",
-      "name": "Vertiv",
+      "symbol": "CVNA",
+      "name": "Carvana",
+      "sector": "Consumer Discretionary",
+      "pct_change": -4.317772074780766,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "DPZ",
+      "name": "Domino's",
+      "sector": "Consumer Discretionary",
+      "pct_change": -3.7495705416806677,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "ROL",
+      "name": "Rollins, Inc.",
       "sector": "Industrials",
-      "pct_change": -6.943900651309183,
-      "conviction": "buy_signal",
-      "status": "order_failed",
-      "news_bad": false
+      "pct_change": -3.6675217594925833,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
     },
     {
-      "symbol": "CEG",
-      "name": "Constellation Energy",
-      "sector": "Utilities",
-      "pct_change": -6.942928538602941,
-      "conviction": "buy_signal",
-      "status": "order_failed",
-      "news_bad": false
-    },
-    {
-      "symbol": "CIEN",
-      "name": "Ciena",
+      "symbol": "WDC",
+      "name": "Western Digital",
       "sector": "Information Technology",
-      "pct_change": -6.851865772599609,
-      "conviction": "buy_signal",
-      "status": "order_failed",
-      "news_bad": false
+      "pct_change": -3.65039381785665,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
     },
     {
-      "symbol": "SMCI",
-      "name": "Supermicro",
-      "sector": "Information Technology",
-      "pct_change": -6.396505546912502,
-      "conviction": "buy_signal",
-      "status": "order_failed",
-      "news_bad": false
+      "symbol": "DRI",
+      "name": "Darden Restaurants",
+      "sector": "Consumer Discretionary",
+      "pct_change": -3.522904309377331,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
     },
     {
-      "symbol": "AMAT",
-      "name": "Applied Materials",
-      "sector": "Information Technology",
-      "pct_change": -6.288196277322021,
-      "conviction": "buy_signal",
-      "status": "bought",
-      "news_bad": false
+      "symbol": "ALGN",
+      "name": "Align Technology",
+      "sector": "Health Care",
+      "pct_change": -3.4640542821946485,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "TTWO",
+      "name": "Take-Two Interactive",
+      "sector": "Communication Services",
+      "pct_change": -3.4565527362935473,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "TSCO",
+      "name": "Tractor Supply",
+      "sector": "Consumer Discretionary",
+      "pct_change": -3.38457107830424,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
     }
   ]
 }

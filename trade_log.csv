@@ -362,3 +362,13 @@ timestamp_utc,action,symbol,detail
 2026-09-14T18:25:25+00:00,SELL,CRWD,gain=10.05% qty=92.712729464 reason=target_reached
 2026-09-14T18:26:12+00:00,BUY,APH,drop=-5.84% notional=$20000.00 news=none
 2026-09-14T18:26:12+00:00,BUY,AMAT,drop=-6.29% notional=$20000.00 news=clear(1)
+2026-09-15T17:32:12+00:00,SELL,AXON,gain=-15.37% qty=38.805545315 reason=stop_loss
+2026-09-15T17:32:13+00:00,SELL,CARR,gain=-12.48% qty=157.428144183 reason=stop_loss
+2026-09-15T17:32:13+00:00,SELL,CDNS,gain=-13.18% qty=63.329185269 reason=stop_loss
+2026-09-15T17:32:14+00:00,SELL,MCHP,gain=-12.47% qty=123.946331184 reason=stop_loss
+2026-09-15T17:32:14+00:00,SELL,NRG,gain=-12.44% qty=82.331549481 reason=stop_loss
+2026-09-15T17:32:14+00:00,SELL,WST,gain=9.05% qty=29.688537244 reason=target_reached
+2026-09-15T17:32:54+00:00,BUY,AXON,drop=-11.00% notional=$20000.00 news=clear(1)
+2026-09-15T17:32:54+00:00,BUY,CMG,drop=-6.59% notional=$20000.00 news=clear(2)
+2026-09-15T17:32:54+00:00,BUY,COIN,drop=-6.13% notional=$20000.00 news=clear(9)
+2026-09-15T17:32:54+00:00,BUY,STX,drop=-5.41% notional=$20000.00 news=clear(3)
