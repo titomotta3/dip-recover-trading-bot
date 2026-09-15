@@ -1,9 +1,9 @@
 {
   "drop_threshold_pct": -8.0,
-  "sell_threshold_pct": 11.0,
+  "sell_threshold_pct": 10.5,
   "trade_dollars": 18000.0,
-  "completed_trades": 46,
-  "last_adjustment": "2 bad_news exit(s) (CCI, CHTR)",
-  "updated_utc": "2026-09-14T21:57:56+00:00",
-  "risk_exits": 51
+  "completed_trades": 47,
+  "last_adjustment": "3 stop_loss exit(s) (AXON, CARR, NRG); SWKS barely cleared target -> lowered sell target to 10.5%",
+  "updated_utc": "2026-09-15T17:34:03+00:00",
+  "risk_exits": 54
 }
