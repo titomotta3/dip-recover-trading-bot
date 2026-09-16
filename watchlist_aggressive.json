@@ -1,31 +1,22 @@
 {
-  "updated_utc": "2026-09-15T17:34:03+00:00",
+  "updated_utc": "2026-09-16T17:33:25+00:00",
   "drop_threshold_pct": -8.0,
   "high_conviction_pct": -11.0,
   "stocks": [
     {
-      "symbol": "AXON",
-      "name": "Axon Enterprise",
+      "symbol": "JBHT",
+      "name": "J.B. Hunt",
       "sector": "Industrials",
-      "pct_change": -11.130237430471931,
+      "pct_change": -13.070822913991279,
       "conviction": "high",
-      "status": "bought",
-      "news_bad": false
+      "status": "blocked_news",
+      "news_bad": true
     },
     {
-      "symbol": "CMG",
-      "name": "Chipotle Mexican Grill",
-      "sector": "Consumer Discretionary",
-      "pct_change": -6.467730317892135,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "COIN",
-      "name": "Coinbase",
-      "sector": "Financials",
-      "pct_change": -6.095585455715757,
+      "symbol": "FANG",
+      "name": "Diamondback Energy",
+      "sector": "Energy",
+      "pct_change": -7.667186281588968,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
