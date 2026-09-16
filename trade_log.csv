@@ -372,3 +372,6 @@ timestamp_utc,action,symbol,detail
 2026-09-15T17:32:54+00:00,BUY,CMG,drop=-6.59% notional=$20000.00 news=clear(2)
 2026-09-15T17:32:54+00:00,BUY,COIN,drop=-6.13% notional=$20000.00 news=clear(9)
 2026-09-15T17:32:54+00:00,BUY,STX,drop=-5.41% notional=$20000.00 news=clear(3)
+2026-09-16T17:32:15+00:00,SELL,CHRW,gain=3.13% qty=67.376296995 reason=bad_news:profit warning
+2026-09-16T17:32:15+00:00,SELL,ODFL,gain=-6.55% qty=106.416888368 reason=bad_news:profit warning
+2026-09-16T17:32:39+00:00,BUY,FANG,drop=-7.63% notional=$20000.00 news=clear(4)

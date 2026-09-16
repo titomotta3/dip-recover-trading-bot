@@ -1,139 +1,121 @@
 {
-  "updated_utc": "2026-09-15T17:32:54+00:00",
+  "updated_utc": "2026-09-16T17:32:39+00:00",
   "drop_threshold_pct": -5.0,
   "high_conviction_pct": -8.0,
   "stocks": [
     {
-      "symbol": "AXON",
-      "name": "Axon Enterprise",
+      "symbol": "JBHT",
+      "name": "J.B. Hunt",
       "sector": "Industrials",
-      "pct_change": -11.000037479257223,
+      "pct_change": -13.070822913991279,
       "conviction": "high",
-      "status": "bought",
-      "news_bad": false
+      "status": "blocked_news",
+      "news_bad": true
     },
     {
-      "symbol": "CMG",
-      "name": "Chipotle Mexican Grill",
-      "sector": "Consumer Discretionary",
-      "pct_change": -6.589516309144808,
+      "symbol": "FANG",
+      "name": "Diamondback Energy",
+      "sector": "Energy",
+      "pct_change": -7.6253982772637325,
       "conviction": "buy_signal",
       "status": "bought",
       "news_bad": false
     },
     {
-      "symbol": "COIN",
-      "name": "Coinbase",
+      "symbol": "OXY",
+      "name": "Occidental Petroleum",
+      "sector": "Energy",
+      "pct_change": -4.911837073992695,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "EOG",
+      "name": "EOG Resources",
+      "sector": "Energy",
+      "pct_change": -4.884876738188309,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "FSLR",
+      "name": "First Solar",
+      "sector": "Information Technology",
+      "pct_change": -4.843334599745983,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "COP",
+      "name": "ConocoPhillips",
+      "sector": "Energy",
+      "pct_change": -4.744368283761178,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "HOOD",
+      "name": "Robinhood Markets",
       "sector": "Financials",
-      "pct_change": -6.132144383135647,
-      "conviction": "buy_signal",
-      "status": "bought",
-      "news_bad": false
-    },
-    {
-      "symbol": "STX",
-      "name": "Seagate Technology",
-      "sector": "Information Technology",
-      "pct_change": -5.405621447461008,
-      "conviction": "buy_signal",
-      "status": "bought",
-      "news_bad": false
-    },
-    {
-      "symbol": "SYY",
-      "name": "Sysco",
-      "sector": "Consumer Staples",
-      "pct_change": -4.716306437906601,
+      "pct_change": -4.481663272984786,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
     },
     {
-      "symbol": "SNPS",
-      "name": "Synopsys",
-      "sector": "Information Technology",
-      "pct_change": -4.654852849472801,
+      "symbol": "APA",
+      "name": "APA Corporation",
+      "sector": "Energy",
+      "pct_change": -4.31343213568253,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
     },
     {
-      "symbol": "Q",
-      "name": "Qnity Electronics",
-      "sector": "Information Technology",
-      "pct_change": -4.5124974529094946,
+      "symbol": "TPL",
+      "name": "Texas Pacific Land Corporation",
+      "sector": "Energy",
+      "pct_change": -4.170815003187828,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
     },
     {
-      "symbol": "CVNA",
-      "name": "Carvana",
-      "sector": "Consumer Discretionary",
-      "pct_change": -4.317772074780766,
+      "symbol": "DVN",
+      "name": "Devon Energy",
+      "sector": "Energy",
+      "pct_change": -4.022993118533111,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
     },
     {
-      "symbol": "DPZ",
-      "name": "Domino's",
-      "sector": "Consumer Discretionary",
-      "pct_change": -3.7495705416806677,
+      "symbol": "EXE",
+      "name": "Expand Energy",
+      "sector": "Energy",
+      "pct_change": -3.415584999168078,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
     },
     {
-      "symbol": "ROL",
-      "name": "Rollins, Inc.",
+      "symbol": "EQT",
+      "name": "EQT Corporation",
+      "sector": "Energy",
+      "pct_change": -3.0779336491134814,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "FDXF",
+      "name": "FedEx Freight",
       "sector": "Industrials",
-      "pct_change": -3.6675217594925833,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "WDC",
-      "name": "Western Digital",
-      "sector": "Information Technology",
-      "pct_change": -3.65039381785665,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "DRI",
-      "name": "Darden Restaurants",
-      "sector": "Consumer Discretionary",
-      "pct_change": -3.522904309377331,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "ALGN",
-      "name": "Align Technology",
-      "sector": "Health Care",
-      "pct_change": -3.4640542821946485,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "TTWO",
-      "name": "Take-Two Interactive",
-      "sector": "Communication Services",
-      "pct_change": -3.4565527362935473,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "TSCO",
-      "name": "Tractor Supply",
-      "sector": "Consumer Discretionary",
-      "pct_change": -3.38457107830424,
+      "pct_change": -3.0762554783306926,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
