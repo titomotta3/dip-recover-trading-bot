@@ -375,3 +375,4 @@ timestamp_utc,action,symbol,detail
 2026-09-16T17:32:15+00:00,SELL,CHRW,gain=3.13% qty=67.376296995 reason=bad_news:profit warning
 2026-09-16T17:32:15+00:00,SELL,ODFL,gain=-6.55% qty=106.416888368 reason=bad_news:profit warning
 2026-09-16T17:32:39+00:00,BUY,FANG,drop=-7.63% notional=$20000.00 news=clear(4)
+2026-09-17T17:31:45+00:00,SELL,UPS,gain=-5.48% qty=94.070897978 reason=bad_news:profit warning

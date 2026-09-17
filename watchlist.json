@@ -1,121 +1,58 @@
 {
-  "updated_utc": "2026-09-16T17:32:39+00:00",
+  "updated_utc": "2026-09-17T17:32:12+00:00",
   "drop_threshold_pct": -5.0,
   "high_conviction_pct": -8.0,
   "stocks": [
     {
-      "symbol": "JBHT",
-      "name": "J.B. Hunt",
+      "symbol": "TMUS",
+      "name": "T-Mobile US",
+      "sector": "Communication Services",
+      "pct_change": -4.260973260759,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "CPRT",
+      "name": "Copart",
       "sector": "Industrials",
-      "pct_change": -13.070822913991279,
-      "conviction": "high",
-      "status": "blocked_news",
-      "news_bad": true
-    },
-    {
-      "symbol": "FANG",
-      "name": "Diamondback Energy",
-      "sector": "Energy",
-      "pct_change": -7.6253982772637325,
-      "conviction": "buy_signal",
-      "status": "bought",
-      "news_bad": false
-    },
-    {
-      "symbol": "OXY",
-      "name": "Occidental Petroleum",
-      "sector": "Energy",
-      "pct_change": -4.911837073992695,
+      "pct_change": -3.877351416797392,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
     },
     {
-      "symbol": "EOG",
-      "name": "EOG Resources",
-      "sector": "Energy",
-      "pct_change": -4.884876738188309,
+      "symbol": "PSKY",
+      "name": "Paramount Skydance Corporation",
+      "sector": "Communication Services",
+      "pct_change": -3.5009006400661167,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
     },
     {
-      "symbol": "FSLR",
-      "name": "First Solar",
-      "sector": "Information Technology",
-      "pct_change": -4.843334599745983,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "COP",
-      "name": "ConocoPhillips",
-      "sector": "Energy",
-      "pct_change": -4.744368283761178,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "HOOD",
-      "name": "Robinhood Markets",
-      "sector": "Financials",
-      "pct_change": -4.481663272984786,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "APA",
-      "name": "APA Corporation",
-      "sector": "Energy",
-      "pct_change": -4.31343213568253,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "TPL",
-      "name": "Texas Pacific Land Corporation",
-      "sector": "Energy",
-      "pct_change": -4.170815003187828,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "DVN",
-      "name": "Devon Energy",
-      "sector": "Energy",
-      "pct_change": -4.022993118533111,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "EXE",
-      "name": "Expand Energy",
-      "sector": "Energy",
-      "pct_change": -3.415584999168078,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "EQT",
-      "name": "EQT Corporation",
-      "sector": "Energy",
-      "pct_change": -3.0779336491134814,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "FDXF",
-      "name": "FedEx Freight",
+      "symbol": "BLDR",
+      "name": "Builders FirstSource",
       "sector": "Industrials",
-      "pct_change": -3.0762554783306926,
+      "pct_change": -3.285838808100588,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "RDDT",
+      "name": "Reddit",
+      "sector": "Communication Services",
+      "pct_change": -3.239220043541766,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "APP",
+      "name": "AppLovin",
+      "sector": "Communication Services",
+      "pct_change": -3.230643027879064,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
