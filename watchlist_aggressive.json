@@ -1,25 +1,6 @@
 {
-  "updated_utc": "2026-09-16T17:33:25+00:00",
+  "updated_utc": "2026-09-17T17:33:05+00:00",
   "drop_threshold_pct": -8.0,
   "high_conviction_pct": -11.0,
-  "stocks": [
-    {
-      "symbol": "JBHT",
-      "name": "J.B. Hunt",
-      "sector": "Industrials",
-      "pct_change": -13.070822913991279,
-      "conviction": "high",
-      "status": "blocked_news",
-      "news_bad": true
-    },
-    {
-      "symbol": "FANG",
-      "name": "Diamondback Energy",
-      "sector": "Energy",
-      "pct_change": -7.667186281588968,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    }
-  ]
+  "stocks": []
 }
