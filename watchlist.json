@@ -1,22 +1,13 @@
 {
-  "updated_utc": "2026-09-18T16:59:10+00:00",
+  "updated_utc": "2026-09-18T19:32:18+00:00",
   "drop_threshold_pct": -5.0,
   "high_conviction_pct": -8.0,
   "stocks": [
     {
-      "symbol": "QCOM",
-      "name": "Qualcomm",
-      "sector": "Information Technology",
-      "pct_change": -6.283457689508437,
-      "conviction": "buy_signal",
-      "status": "bought",
-      "news_bad": false
-    },
-    {
       "symbol": "NUE",
       "name": "Nucor",
       "sector": "Materials",
-      "pct_change": -6.2294690627694775,
+      "pct_change": -6.389083791315669,
       "conviction": "buy_signal",
       "status": "blocked_news",
       "news_bad": true
@@ -25,16 +16,43 @@
       "symbol": "GM",
       "name": "General Motors",
       "sector": "Consumer Discretionary",
-      "pct_change": -5.1200704772123595,
+      "pct_change": -5.125839645140682,
       "conviction": "buy_signal",
       "status": "blocked_news",
       "news_bad": true
     },
     {
+      "symbol": "ACN",
+      "name": "Accenture",
+      "sector": "Information Technology",
+      "pct_change": -4.952960284567726,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
       "symbol": "NFLX",
       "name": "Netflix",
       "sector": "Communication Services",
-      "pct_change": -4.5987187560530645,
+      "pct_change": -4.468195422727836,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "CF",
+      "name": "CF Industries",
+      "sector": "Materials",
+      "pct_change": -4.423857027594439,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "ARE",
+      "name": "Alexandria Real Estate Equities",
+      "sector": "Real Estate",
+      "pct_change": -4.1799778769225915,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
@@ -43,70 +61,7 @@
       "symbol": "STLD",
       "name": "Steel Dynamics",
       "sector": "Materials",
-      "pct_change": -4.477974045817288,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "SMCI",
-      "name": "Supermicro",
-      "sector": "Information Technology",
-      "pct_change": -4.213127664261249,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "FSLR",
-      "name": "First Solar",
-      "sector": "Information Technology",
-      "pct_change": -4.061442642777312,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "LYB",
-      "name": "LyondellBasell",
-      "sector": "Materials",
-      "pct_change": -3.8910505836575875,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "PANW",
-      "name": "Palo Alto Networks",
-      "sector": "Information Technology",
-      "pct_change": -3.8500513345602423,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "ALB",
-      "name": "Albemarle Corporation",
-      "sector": "Materials",
-      "pct_change": -3.824425388237032,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "LEN",
-      "name": "Lennar",
-      "sector": "Consumer Discretionary",
-      "pct_change": -3.782935389077119,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "ACN",
-      "name": "Accenture",
-      "sector": "Information Technology",
-      "pct_change": -3.7626720563041234,
+      "pct_change": -4.177705215004324,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
@@ -115,7 +70,43 @@
       "symbol": "F",
       "name": "Ford Motor Company",
       "sector": "Consumer Discretionary",
-      "pct_change": -3.747239442120832,
+      "pct_change": -4.004409184731765,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "LEN",
+      "name": "Lennar",
+      "sector": "Consumer Discretionary",
+      "pct_change": -3.889584181708636,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "SMCI",
+      "name": "Supermicro",
+      "sector": "Information Technology",
+      "pct_change": -3.878559320671878,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "ADM",
+      "name": "Archer Daniels Midland",
+      "sector": "Consumer Staples",
+      "pct_change": -3.7802183449834112,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "SWKS",
+      "name": "Skyworks Solutions",
+      "sector": "Information Technology",
+      "pct_change": -3.6793699316470745,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
@@ -124,16 +115,25 @@
       "symbol": "GEN",
       "name": "Gen Digital",
       "sector": "Information Technology",
-      "pct_change": -3.5749750295793734,
+      "pct_change": -3.6742758578018204,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
     },
     {
-      "symbol": "DOW",
-      "name": "Dow Inc.",
+      "symbol": "FISV",
+      "name": "Fiserv",
+      "sector": "Financials",
+      "pct_change": -3.56997636667335,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "LYB",
+      "name": "LyondellBasell",
       "sector": "Materials",
-      "pct_change": -3.475753226468773,
+      "pct_change": -3.556419995972155,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
