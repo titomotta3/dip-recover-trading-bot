@@ -1,6 +1,25 @@
 {
-  "updated_utc": "2026-09-17T17:33:05+00:00",
+  "updated_utc": "2026-09-18T17:00:09+00:00",
   "drop_threshold_pct": -8.0,
   "high_conviction_pct": -11.0,
-  "stocks": []
+  "stocks": [
+    {
+      "symbol": "NUE",
+      "name": "Nucor",
+      "sector": "Materials",
+      "pct_change": -6.285361553976999,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "QCOM",
+      "name": "Qualcomm",
+      "sector": "Information Technology",
+      "pct_change": -6.18409888852853,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    }
+  ]
 }
