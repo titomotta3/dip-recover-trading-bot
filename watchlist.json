@@ -1,58 +1,139 @@
 {
-  "updated_utc": "2026-09-17T17:32:12+00:00",
+  "updated_utc": "2026-09-18T16:59:10+00:00",
   "drop_threshold_pct": -5.0,
   "high_conviction_pct": -8.0,
   "stocks": [
     {
-      "symbol": "TMUS",
-      "name": "T-Mobile US",
+      "symbol": "QCOM",
+      "name": "Qualcomm",
+      "sector": "Information Technology",
+      "pct_change": -6.283457689508437,
+      "conviction": "buy_signal",
+      "status": "bought",
+      "news_bad": false
+    },
+    {
+      "symbol": "NUE",
+      "name": "Nucor",
+      "sector": "Materials",
+      "pct_change": -6.2294690627694775,
+      "conviction": "buy_signal",
+      "status": "blocked_news",
+      "news_bad": true
+    },
+    {
+      "symbol": "GM",
+      "name": "General Motors",
+      "sector": "Consumer Discretionary",
+      "pct_change": -5.1200704772123595,
+      "conviction": "buy_signal",
+      "status": "blocked_news",
+      "news_bad": true
+    },
+    {
+      "symbol": "NFLX",
+      "name": "Netflix",
       "sector": "Communication Services",
-      "pct_change": -4.260973260759,
+      "pct_change": -4.5987187560530645,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
     },
     {
-      "symbol": "CPRT",
-      "name": "Copart",
-      "sector": "Industrials",
-      "pct_change": -3.877351416797392,
+      "symbol": "STLD",
+      "name": "Steel Dynamics",
+      "sector": "Materials",
+      "pct_change": -4.477974045817288,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
     },
     {
-      "symbol": "PSKY",
-      "name": "Paramount Skydance Corporation",
-      "sector": "Communication Services",
-      "pct_change": -3.5009006400661167,
+      "symbol": "SMCI",
+      "name": "Supermicro",
+      "sector": "Information Technology",
+      "pct_change": -4.213127664261249,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
     },
     {
-      "symbol": "BLDR",
-      "name": "Builders FirstSource",
-      "sector": "Industrials",
-      "pct_change": -3.285838808100588,
+      "symbol": "FSLR",
+      "name": "First Solar",
+      "sector": "Information Technology",
+      "pct_change": -4.061442642777312,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
     },
     {
-      "symbol": "RDDT",
-      "name": "Reddit",
-      "sector": "Communication Services",
-      "pct_change": -3.239220043541766,
+      "symbol": "LYB",
+      "name": "LyondellBasell",
+      "sector": "Materials",
+      "pct_change": -3.8910505836575875,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
     },
     {
-      "symbol": "APP",
-      "name": "AppLovin",
-      "sector": "Communication Services",
-      "pct_change": -3.230643027879064,
+      "symbol": "PANW",
+      "name": "Palo Alto Networks",
+      "sector": "Information Technology",
+      "pct_change": -3.8500513345602423,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "ALB",
+      "name": "Albemarle Corporation",
+      "sector": "Materials",
+      "pct_change": -3.824425388237032,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "LEN",
+      "name": "Lennar",
+      "sector": "Consumer Discretionary",
+      "pct_change": -3.782935389077119,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "ACN",
+      "name": "Accenture",
+      "sector": "Information Technology",
+      "pct_change": -3.7626720563041234,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "F",
+      "name": "Ford Motor Company",
+      "sector": "Consumer Discretionary",
+      "pct_change": -3.747239442120832,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "GEN",
+      "name": "Gen Digital",
+      "sector": "Information Technology",
+      "pct_change": -3.5749750295793734,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "DOW",
+      "name": "Dow Inc.",
+      "sector": "Materials",
+      "pct_change": -3.475753226468773,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null

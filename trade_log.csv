@@ -376,3 +376,6 @@ timestamp_utc,action,symbol,detail
 2026-09-16T17:32:15+00:00,SELL,ODFL,gain=-6.55% qty=106.416888368 reason=bad_news:profit warning
 2026-09-16T17:32:39+00:00,BUY,FANG,drop=-7.63% notional=$20000.00 news=clear(4)
 2026-09-17T17:31:45+00:00,SELL,UPS,gain=-5.48% qty=94.070897978 reason=bad_news:profit warning
+2026-09-18T16:58:37+00:00,SELL,COIN,gain=8.07% qty=111.290356685 reason=target_reached
+2026-09-18T16:58:38+00:00,SELL,STX,gain=9.93% qty=26.228807113 reason=target_reached
+2026-09-18T16:59:10+00:00,BUY,QCOM,drop=-6.28% notional=$20000.00 news=clear(3)
