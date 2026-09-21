@@ -1,139 +1,40 @@
 {
-  "updated_utc": "2026-09-18T19:32:18+00:00",
+  "updated_utc": "2026-09-21T18:32:43+00:00",
   "drop_threshold_pct": -5.0,
   "high_conviction_pct": -8.0,
   "stocks": [
     {
-      "symbol": "NUE",
-      "name": "Nucor",
-      "sector": "Materials",
-      "pct_change": -6.389083791315669,
-      "conviction": "buy_signal",
-      "status": "blocked_news",
-      "news_bad": true
-    },
-    {
-      "symbol": "GM",
-      "name": "General Motors",
-      "sector": "Consumer Discretionary",
-      "pct_change": -5.125839645140682,
-      "conviction": "buy_signal",
-      "status": "blocked_news",
-      "news_bad": true
-    },
-    {
-      "symbol": "ACN",
-      "name": "Accenture",
+      "symbol": "HPQ",
+      "name": "HP Inc.",
       "sector": "Information Technology",
-      "pct_change": -4.952960284567726,
+      "pct_change": -4.22965629800946,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
     },
     {
-      "symbol": "NFLX",
-      "name": "Netflix",
-      "sector": "Communication Services",
-      "pct_change": -4.468195422727836,
+      "symbol": "UPS",
+      "name": "United Parcel Service",
+      "sector": "Industrials",
+      "pct_change": -4.138904275356917,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
     },
     {
-      "symbol": "CF",
-      "name": "CF Industries",
-      "sector": "Materials",
-      "pct_change": -4.423857027594439,
+      "symbol": "UNP",
+      "name": "Union Pacific Corporation",
+      "sector": "Industrials",
+      "pct_change": -3.178582180626663,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
     },
     {
-      "symbol": "ARE",
-      "name": "Alexandria Real Estate Equities",
-      "sector": "Real Estate",
-      "pct_change": -4.1799778769225915,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "STLD",
-      "name": "Steel Dynamics",
-      "sector": "Materials",
-      "pct_change": -4.177705215004324,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "F",
-      "name": "Ford Motor Company",
-      "sector": "Consumer Discretionary",
-      "pct_change": -4.004409184731765,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "LEN",
-      "name": "Lennar",
-      "sector": "Consumer Discretionary",
-      "pct_change": -3.889584181708636,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "SMCI",
-      "name": "Supermicro",
-      "sector": "Information Technology",
-      "pct_change": -3.878559320671878,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "ADM",
-      "name": "Archer Daniels Midland",
-      "sector": "Consumer Staples",
-      "pct_change": -3.7802183449834112,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "SWKS",
-      "name": "Skyworks Solutions",
-      "sector": "Information Technology",
-      "pct_change": -3.6793699316470745,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "GEN",
-      "name": "Gen Digital",
-      "sector": "Information Technology",
-      "pct_change": -3.6742758578018204,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "FISV",
-      "name": "Fiserv",
-      "sector": "Financials",
-      "pct_change": -3.56997636667335,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "LYB",
-      "name": "LyondellBasell",
-      "sector": "Materials",
-      "pct_change": -3.556419995972155,
+      "symbol": "FDX",
+      "name": "FedEx",
+      "sector": "Industrials",
+      "pct_change": -3.072612138910913,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
