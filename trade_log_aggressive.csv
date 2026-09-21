@@ -219,3 +219,6 @@ timestamp_utc,action,symbol,detail
 2026-09-15T17:34:03+00:00,BUY,AXON,drop=-11.13% notional=$36000.00 news=clear(1) conviction=HIGH
 2026-09-16T17:33:06+00:00,SELL,CHRW,gain=3.04% qty=154.829956243 reason=bad_news:profit warning
 2026-09-18T16:59:37+00:00,SELL,COHR,gain=13.65% qty=132.567351598 reason=target_reached
+2026-09-21T18:33:11+00:00,SELL,CIEN,gain=11.79% qty=56.02237784 reason=target_reached
+2026-09-21T18:33:11+00:00,SELL,LITE,gain=13.01% qty=21.229908239 reason=target_reached
+2026-09-21T18:33:12+00:00,SELL,TER,gain=14.02% qty=107.732792674 reason=target_reached
