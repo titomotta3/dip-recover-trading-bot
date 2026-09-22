@@ -382,3 +382,7 @@ timestamp_utc,action,symbol,detail
 2026-09-21T18:32:18+00:00,SELL,AMAT,gain=8.48% qty=46.744238769 reason=target_reached
 2026-09-21T18:32:18+00:00,SELL,FTNT,gain=7.61% qty=123.304500616 reason=target_reached
 2026-09-21T18:32:18+00:00,SELL,QCOM,gain=9.14% qty=113.037976829 reason=target_reached
+2026-09-22T17:33:44+00:00,BUY,ALL,drop=-5.54% notional=$20000.00 news=none
+2026-09-22T17:33:44+00:00,BUY,SCHW,drop=-5.39% notional=$20000.00 news=clear(1)
+2026-09-22T17:33:44+00:00,BUY,CSCO,drop=-5.93% notional=$20000.00 news=clear(1)
+2026-09-22T17:33:44+00:00,BUY,GEN,drop=-6.98% notional=$20000.00 news=none
