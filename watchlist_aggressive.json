@@ -1,6 +1,16 @@
 {
-  "updated_utc": "2026-09-21T18:33:56+00:00",
+  "updated_utc": "2026-09-22T17:34:35+00:00",
   "drop_threshold_pct": -8.0,
   "high_conviction_pct": -11.0,
-  "stocks": []
+  "stocks": [
+    {
+      "symbol": "GEN",
+      "name": "Gen Digital",
+      "sector": "Information Technology",
+      "pct_change": -7.04974384929132,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    }
+  ]
 }
