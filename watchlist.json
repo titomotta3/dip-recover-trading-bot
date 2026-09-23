@@ -1,139 +1,139 @@
 {
-  "updated_utc": "2026-09-22T17:33:44+00:00",
+  "updated_utc": "2026-09-23T17:46:04+00:00",
   "drop_threshold_pct": -5.0,
   "high_conviction_pct": -8.0,
   "stocks": [
     {
-      "symbol": "GEN",
-      "name": "Gen Digital",
-      "sector": "Information Technology",
-      "pct_change": -6.981131643372258,
-      "conviction": "buy_signal",
-      "status": "bought",
-      "news_bad": false
-    },
-    {
-      "symbol": "CSCO",
-      "name": "Cisco",
-      "sector": "Information Technology",
-      "pct_change": -5.93037920746977,
-      "conviction": "buy_signal",
-      "status": "bought",
-      "news_bad": false
-    },
-    {
-      "symbol": "ALL",
-      "name": "Allstate",
-      "sector": "Financials",
-      "pct_change": -5.542290488363555,
-      "conviction": "buy_signal",
-      "status": "bought",
-      "news_bad": false
-    },
-    {
-      "symbol": "SCHW",
-      "name": "Charles Schwab Corporation",
-      "sector": "Financials",
-      "pct_change": -5.3892165558151115,
-      "conviction": "buy_signal",
-      "status": "bought",
-      "news_bad": false
-    },
-    {
-      "symbol": "INTU",
-      "name": "Intuit",
-      "sector": "Information Technology",
-      "pct_change": -4.60673746894757,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "DGX",
-      "name": "Quest Diagnostics",
-      "sector": "Health Care",
-      "pct_change": -4.34702877335988,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "P",
-      "name": "Everpure",
-      "sector": "Information Technology",
-      "pct_change": -4.258317623914224,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "EXPE",
-      "name": "Expedia Group",
+      "symbol": "RCL",
+      "name": "Royal Caribbean Group",
       "sector": "Consumer Discretionary",
-      "pct_change": -4.227448163716355,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "ADBE",
-      "name": "Adobe Inc.",
-      "sector": "Information Technology",
-      "pct_change": -4.2221078397408895,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "AMP",
-      "name": "Ameriprise Financial",
-      "sector": "Financials",
-      "pct_change": -4.059956915821792,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "DELL",
-      "name": "Dell Technologies",
-      "sector": "Information Technology",
-      "pct_change": -3.7284374221226475,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
+      "pct_change": -9.248752956028348,
+      "conviction": "high",
+      "status": "order_failed",
+      "news_bad": false
     },
     {
       "symbol": "GDDY",
       "name": "GoDaddy",
       "sector": "Information Technology",
-      "pct_change": -3.665167949725951,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
+      "pct_change": -8.895676236943936,
+      "conviction": "high",
+      "status": "order_failed",
+      "news_bad": false
     },
     {
-      "symbol": "RJF",
-      "name": "Raymond James Financial",
-      "sector": "Financials",
-      "pct_change": -3.6352108445197864,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
+      "symbol": "ABNB",
+      "name": "Airbnb",
+      "sector": "Consumer Discretionary",
+      "pct_change": -8.738912821315772,
+      "conviction": "high",
+      "status": "bought",
+      "news_bad": false
+    },
+    {
+      "symbol": "PAYX",
+      "name": "Paychex",
+      "sector": "Industrials",
+      "pct_change": -8.034088619717776,
+      "conviction": "high",
+      "status": "order_failed",
+      "news_bad": false
+    },
+    {
+      "symbol": "BKNG",
+      "name": "Booking Holdings",
+      "sector": "Consumer Discretionary",
+      "pct_change": -7.091144460761815,
+      "conviction": "buy_signal",
+      "status": "order_failed",
+      "news_bad": false
+    },
+    {
+      "symbol": "TPL",
+      "name": "Texas Pacific Land Corporation",
+      "sector": "Energy",
+      "pct_change": -6.9956308610932645,
+      "conviction": "buy_signal",
+      "status": "order_failed",
+      "news_bad": false
+    },
+    {
+      "symbol": "EXPE",
+      "name": "Expedia Group",
+      "sector": "Consumer Discretionary",
+      "pct_change": -6.857159549861905,
+      "conviction": "buy_signal",
+      "status": "order_failed",
+      "news_bad": false
     },
     {
       "symbol": "COHR",
       "name": "Coherent Corp.",
       "sector": "Information Technology",
-      "pct_change": -3.5954211102259612,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
+      "pct_change": -6.164461770306239,
+      "conviction": "buy_signal",
+      "status": "order_failed",
+      "news_bad": false
     },
     {
-      "symbol": "WFC",
-      "name": "Wells Fargo",
+      "symbol": "APP",
+      "name": "AppLovin",
+      "sector": "Communication Services",
+      "pct_change": -5.925735725751642,
+      "conviction": "buy_signal",
+      "status": "bought",
+      "news_bad": false
+    },
+    {
+      "symbol": "VLO",
+      "name": "Valero Energy",
+      "sector": "Energy",
+      "pct_change": -5.887812298459393,
+      "conviction": "buy_signal",
+      "status": "blocked_news",
+      "news_bad": true
+    },
+    {
+      "symbol": "INTU",
+      "name": "Intuit",
+      "sector": "Information Technology",
+      "pct_change": -5.395897647501295,
+      "conviction": "buy_signal",
+      "status": "order_failed",
+      "news_bad": false
+    },
+    {
+      "symbol": "AMP",
+      "name": "Ameriprise Financial",
       "sector": "Financials",
-      "pct_change": -3.3914924052966375,
+      "pct_change": -5.194870002356095,
+      "conviction": "buy_signal",
+      "status": "bought",
+      "news_bad": false
+    },
+    {
+      "symbol": "RDDT",
+      "name": "Reddit",
+      "sector": "Communication Services",
+      "pct_change": -5.140797973262079,
+      "conviction": "buy_signal",
+      "status": "order_failed",
+      "news_bad": false
+    },
+    {
+      "symbol": "SYF",
+      "name": "Synchrony Financial",
+      "sector": "Financials",
+      "pct_change": -5.086669921875,
+      "conviction": "buy_signal",
+      "status": "order_failed",
+      "news_bad": false
+    },
+    {
+      "symbol": "CBRE",
+      "name": "CBRE Group",
+      "sector": "Real Estate",
+      "pct_change": -4.873968758533857,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null

@@ -386,3 +386,8 @@ timestamp_utc,action,symbol,detail
 2026-09-22T17:33:44+00:00,BUY,SCHW,drop=-5.39% notional=$20000.00 news=clear(1)
 2026-09-22T17:33:44+00:00,BUY,CSCO,drop=-5.93% notional=$20000.00 news=clear(1)
 2026-09-22T17:33:44+00:00,BUY,GEN,drop=-6.98% notional=$20000.00 news=none
+2026-09-23T17:45:35+00:00,SELL,BKNG,gain=-14.01% qty=109.908171676 reason=stop_loss
+2026-09-23T17:45:36+00:00,SELL,STZ,gain=-12.02% qty=151.629946929 reason=stop_loss
+2026-09-23T17:46:02+00:00,BUY,ABNB,drop=-8.74% notional=$20000.00 news=clear(1)
+2026-09-23T17:46:02+00:00,BUY,AMP,drop=-5.19% notional=$20000.00 news=none
+2026-09-23T17:46:02+00:00,BUY,APP,drop=-5.93% notional=$20000.00 news=clear(5)
