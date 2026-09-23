@@ -222,3 +222,8 @@ timestamp_utc,action,symbol,detail
 2026-09-21T18:33:11+00:00,SELL,CIEN,gain=11.79% qty=56.02237784 reason=target_reached
 2026-09-21T18:33:11+00:00,SELL,LITE,gain=13.01% qty=21.229908239 reason=target_reached
 2026-09-21T18:33:12+00:00,SELL,TER,gain=14.02% qty=107.732792674 reason=target_reached
+2026-09-23T17:47:19+00:00,BUY,ABNB,drop=-8.68% notional=$16000.00 news=clear(1)
+2026-09-23T17:47:20+00:00,BUY,GEN,drop=-8.77% notional=$16000.00 news=clear(2)
+2026-09-23T17:47:20+00:00,BUY,GDDY,drop=-8.99% notional=$16000.00 news=none
+2026-09-23T17:47:20+00:00,BUY,PAYX,drop=-8.06% notional=$16000.00 news=clear(8)
+2026-09-23T17:47:20+00:00,BUY,RCL,drop=-9.36% notional=$16000.00 news=clear(2)
