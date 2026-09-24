@@ -1,139 +1,139 @@
 {
-  "updated_utc": "2026-09-23T17:46:04+00:00",
+  "updated_utc": "2026-09-24T17:47:33+00:00",
   "drop_threshold_pct": -5.0,
   "high_conviction_pct": -8.0,
   "stocks": [
     {
-      "symbol": "RCL",
-      "name": "Royal Caribbean Group",
+      "symbol": "MGM",
+      "name": "MGM Resorts",
       "sector": "Consumer Discretionary",
-      "pct_change": -9.248752956028348,
+      "pct_change": -11.072126504840181,
       "conviction": "high",
-      "status": "order_failed",
-      "news_bad": false
+      "status": "blocked_news",
+      "news_bad": true
     },
     {
-      "symbol": "GDDY",
-      "name": "GoDaddy",
+      "symbol": "GEN",
+      "name": "Gen Digital",
       "sector": "Information Technology",
-      "pct_change": -8.895676236943936,
+      "pct_change": -9.4738800852875,
       "conviction": "high",
       "status": "order_failed",
       "news_bad": false
     },
     {
-      "symbol": "ABNB",
-      "name": "Airbnb",
-      "sector": "Consumer Discretionary",
-      "pct_change": -8.738912821315772,
-      "conviction": "high",
-      "status": "bought",
+      "symbol": "FSLR",
+      "name": "First Solar",
+      "sector": "Information Technology",
+      "pct_change": -7.808514558444174,
+      "conviction": "buy_signal",
+      "status": "order_failed",
       "news_bad": false
     },
     {
-      "symbol": "PAYX",
-      "name": "Paychex",
+      "symbol": "ROL",
+      "name": "Rollins, Inc.",
       "sector": "Industrials",
-      "pct_change": -8.034088619717776,
-      "conviction": "high",
-      "status": "order_failed",
-      "news_bad": false
-    },
-    {
-      "symbol": "BKNG",
-      "name": "Booking Holdings",
-      "sector": "Consumer Discretionary",
-      "pct_change": -7.091144460761815,
-      "conviction": "buy_signal",
-      "status": "order_failed",
-      "news_bad": false
-    },
-    {
-      "symbol": "TPL",
-      "name": "Texas Pacific Land Corporation",
-      "sector": "Energy",
-      "pct_change": -6.9956308610932645,
-      "conviction": "buy_signal",
-      "status": "order_failed",
-      "news_bad": false
-    },
-    {
-      "symbol": "EXPE",
-      "name": "Expedia Group",
-      "sector": "Consumer Discretionary",
-      "pct_change": -6.857159549861905,
-      "conviction": "buy_signal",
-      "status": "order_failed",
-      "news_bad": false
-    },
-    {
-      "symbol": "COHR",
-      "name": "Coherent Corp.",
-      "sector": "Information Technology",
-      "pct_change": -6.164461770306239,
-      "conviction": "buy_signal",
-      "status": "order_failed",
-      "news_bad": false
-    },
-    {
-      "symbol": "APP",
-      "name": "AppLovin",
-      "sector": "Communication Services",
-      "pct_change": -5.925735725751642,
-      "conviction": "buy_signal",
-      "status": "bought",
-      "news_bad": false
-    },
-    {
-      "symbol": "VLO",
-      "name": "Valero Energy",
-      "sector": "Energy",
-      "pct_change": -5.887812298459393,
+      "pct_change": -6.771316248954011,
       "conviction": "buy_signal",
       "status": "blocked_news",
       "news_bad": true
     },
     {
-      "symbol": "INTU",
-      "name": "Intuit",
-      "sector": "Information Technology",
-      "pct_change": -5.395897647501295,
+      "symbol": "XYL",
+      "name": "Xylem Inc.",
+      "sector": "Industrials",
+      "pct_change": -5.38475562130618,
       "conviction": "buy_signal",
       "status": "order_failed",
       "news_bad": false
     },
     {
-      "symbol": "AMP",
-      "name": "Ameriprise Financial",
-      "sector": "Financials",
-      "pct_change": -5.194870002356095,
+      "symbol": "AKAM",
+      "name": "Akamai Technologies",
+      "sector": "Information Technology",
+      "pct_change": -5.015199526312779,
       "conviction": "buy_signal",
       "status": "bought",
       "news_bad": false
     },
     {
-      "symbol": "RDDT",
-      "name": "Reddit",
+      "symbol": "TKO",
+      "name": "TKO Group Holdings",
       "sector": "Communication Services",
-      "pct_change": -5.140797973262079,
-      "conviction": "buy_signal",
-      "status": "order_failed",
-      "news_bad": false
+      "pct_change": -4.093508260106668,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
     },
     {
-      "symbol": "SYF",
-      "name": "Synchrony Financial",
-      "sector": "Financials",
-      "pct_change": -5.086669921875,
-      "conviction": "buy_signal",
-      "status": "order_failed",
-      "news_bad": false
+      "symbol": "ALB",
+      "name": "Albemarle Corporation",
+      "sector": "Materials",
+      "pct_change": -4.075879763917072,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
     },
     {
-      "symbol": "CBRE",
-      "name": "CBRE Group",
-      "sector": "Real Estate",
-      "pct_change": -4.873968758533857,
+      "symbol": "ORCL",
+      "name": "Oracle Corporation",
+      "sector": "Information Technology",
+      "pct_change": -4.057132217367238,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "DVA",
+      "name": "DaVita",
+      "sector": "Health Care",
+      "pct_change": -3.8467828941925366,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "BALL",
+      "name": "Ball Corporation",
+      "sector": "Materials",
+      "pct_change": -3.706222911401353,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "UPS",
+      "name": "United Parcel Service",
+      "sector": "Industrials",
+      "pct_change": -3.704969990809215,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "PNR",
+      "name": "Pentair",
+      "sector": "Industrials",
+      "pct_change": -3.647057718820702,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "EFX",
+      "name": "Equifax",
+      "sector": "Industrials",
+      "pct_change": -3.6215553275491668,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "FDX",
+      "name": "FedEx",
+      "sector": "Industrials",
+      "pct_change": -3.5917671426082762,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null

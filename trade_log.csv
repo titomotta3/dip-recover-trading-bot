@@ -391,3 +391,5 @@ timestamp_utc,action,symbol,detail
 2026-09-23T17:46:02+00:00,BUY,ABNB,drop=-8.74% notional=$20000.00 news=clear(1)
 2026-09-23T17:46:02+00:00,BUY,AMP,drop=-5.19% notional=$20000.00 news=none
 2026-09-23T17:46:02+00:00,BUY,APP,drop=-5.93% notional=$20000.00 news=clear(5)
+2026-09-24T17:47:04+00:00,SELL,GEN,gain=-12.40% qty=737.190932546 reason=stop_loss
+2026-09-24T17:47:33+00:00,BUY,AKAM,drop=-5.02% notional=$20000.00 news=clear(1)
