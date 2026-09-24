@@ -1,94 +1,31 @@
 {
-  "updated_utc": "2026-09-23T17:47:20+00:00",
+  "updated_utc": "2026-09-24T17:49:00+00:00",
   "drop_threshold_pct": -8.0,
   "high_conviction_pct": -11.0,
   "stocks": [
     {
-      "symbol": "RCL",
-      "name": "Royal Caribbean Group",
+      "symbol": "MGM",
+      "name": "MGM Resorts",
       "sector": "Consumer Discretionary",
-      "pct_change": -9.362634435876624,
-      "conviction": "buy_signal",
-      "status": "bought",
-      "news_bad": false
+      "pct_change": -11.254949784068977,
+      "conviction": "high",
+      "status": "blocked_news",
+      "news_bad": true
     },
     {
-      "symbol": "GDDY",
-      "name": "GoDaddy",
+      "symbol": "FSLR",
+      "name": "First Solar",
       "sector": "Information Technology",
-      "pct_change": -8.991121953585287,
-      "conviction": "buy_signal",
-      "status": "bought",
-      "news_bad": false
+      "pct_change": -7.766840426785077,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
     },
     {
-      "symbol": "GEN",
-      "name": "Gen Digital",
-      "sector": "Information Technology",
-      "pct_change": -8.765009737947308,
-      "conviction": "buy_signal",
-      "status": "bought",
-      "news_bad": false
-    },
-    {
-      "symbol": "ABNB",
-      "name": "Airbnb",
-      "sector": "Consumer Discretionary",
-      "pct_change": -8.678971496866755,
-      "conviction": "buy_signal",
-      "status": "bought",
-      "news_bad": false
-    },
-    {
-      "symbol": "PAYX",
-      "name": "Paychex",
+      "symbol": "ROL",
+      "name": "Rollins, Inc.",
       "sector": "Industrials",
-      "pct_change": -8.06017224613258,
-      "conviction": "buy_signal",
-      "status": "bought",
-      "news_bad": false
-    },
-    {
-      "symbol": "BKNG",
-      "name": "Booking Holdings",
-      "sector": "Consumer Discretionary",
-      "pct_change": -7.06148163634844,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "TPL",
-      "name": "Texas Pacific Land Corporation",
-      "sector": "Energy",
-      "pct_change": -6.900217666550021,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "EXPE",
-      "name": "Expedia Group",
-      "sector": "Consumer Discretionary",
-      "pct_change": -6.672123241413903,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "COHR",
-      "name": "Coherent Corp.",
-      "sector": "Information Technology",
-      "pct_change": -6.215783165728053,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "SCHW",
-      "name": "Charles Schwab Corporation",
-      "sector": "Financials",
-      "pct_change": -6.081586982630778,
+      "pct_change": -7.125276459867191,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
