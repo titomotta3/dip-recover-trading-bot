@@ -1,34 +1,6 @@
 {
-  "updated_utc": "2026-09-24T17:49:00+00:00",
+  "updated_utc": "2026-09-25T17:50:14+00:00",
   "drop_threshold_pct": -8.0,
   "high_conviction_pct": -11.0,
-  "stocks": [
-    {
-      "symbol": "MGM",
-      "name": "MGM Resorts",
-      "sector": "Consumer Discretionary",
-      "pct_change": -11.254949784068977,
-      "conviction": "high",
-      "status": "blocked_news",
-      "news_bad": true
-    },
-    {
-      "symbol": "FSLR",
-      "name": "First Solar",
-      "sector": "Information Technology",
-      "pct_change": -7.766840426785077,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "ROL",
-      "name": "Rollins, Inc.",
-      "sector": "Industrials",
-      "pct_change": -7.125276459867191,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    }
-  ]
+  "stocks": []
 }

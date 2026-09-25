@@ -227,3 +227,4 @@ timestamp_utc,action,symbol,detail
 2026-09-23T17:47:20+00:00,BUY,GDDY,drop=-8.99% notional=$16000.00 news=none
 2026-09-23T17:47:20+00:00,BUY,PAYX,drop=-8.06% notional=$16000.00 news=clear(8)
 2026-09-23T17:47:20+00:00,BUY,RCL,drop=-9.36% notional=$16000.00 news=clear(2)
+2026-09-25T17:49:44+00:00,SELL,GEN,gain=-15.94% qty=601.503383458 reason=stop_loss
