@@ -1,139 +1,103 @@
 {
-  "updated_utc": "2026-09-24T17:47:33+00:00",
+  "updated_utc": "2026-09-25T17:49:09+00:00",
   "drop_threshold_pct": -5.0,
   "high_conviction_pct": -8.0,
   "stocks": [
     {
-      "symbol": "MGM",
-      "name": "MGM Resorts",
-      "sector": "Consumer Discretionary",
-      "pct_change": -11.072126504840181,
-      "conviction": "high",
-      "status": "blocked_news",
-      "news_bad": true
+      "symbol": "LYB",
+      "name": "LyondellBasell",
+      "sector": "Materials",
+      "pct_change": -3.7387836300932835,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "META",
+      "name": "Meta Platforms",
+      "sector": "Communication Services",
+      "pct_change": -3.6092287030608627,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "GDDY",
+      "name": "GoDaddy",
+      "sector": "Information Technology",
+      "pct_change": -3.571072871049985,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "DVN",
+      "name": "Devon Energy",
+      "sector": "Energy",
+      "pct_change": -3.5071576668157705,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "CHTR",
+      "name": "Charter Communications",
+      "sector": "Communication Services",
+      "pct_change": -3.3857960473052304,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "MOS",
+      "name": "Mosaic Company (The)",
+      "sector": "Materials",
+      "pct_change": -3.355846595068767,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "CF",
+      "name": "CF Industries",
+      "sector": "Materials",
+      "pct_change": -3.254815330522061,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
     },
     {
       "symbol": "GEN",
       "name": "Gen Digital",
       "sector": "Information Technology",
-      "pct_change": -9.4738800852875,
-      "conviction": "high",
-      "status": "order_failed",
-      "news_bad": false
+      "pct_change": -3.1859584745311498,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
     },
     {
-      "symbol": "FSLR",
-      "name": "First Solar",
+      "symbol": "MGM",
+      "name": "MGM Resorts",
+      "sector": "Consumer Discretionary",
+      "pct_change": -3.13149405811905,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "PANW",
+      "name": "Palo Alto Networks",
       "sector": "Information Technology",
-      "pct_change": -7.808514558444174,
-      "conviction": "buy_signal",
-      "status": "order_failed",
-      "news_bad": false
-    },
-    {
-      "symbol": "ROL",
-      "name": "Rollins, Inc.",
-      "sector": "Industrials",
-      "pct_change": -6.771316248954011,
-      "conviction": "buy_signal",
-      "status": "blocked_news",
-      "news_bad": true
-    },
-    {
-      "symbol": "XYL",
-      "name": "Xylem Inc.",
-      "sector": "Industrials",
-      "pct_change": -5.38475562130618,
-      "conviction": "buy_signal",
-      "status": "order_failed",
-      "news_bad": false
-    },
-    {
-      "symbol": "AKAM",
-      "name": "Akamai Technologies",
-      "sector": "Information Technology",
-      "pct_change": -5.015199526312779,
-      "conviction": "buy_signal",
-      "status": "bought",
-      "news_bad": false
-    },
-    {
-      "symbol": "TKO",
-      "name": "TKO Group Holdings",
-      "sector": "Communication Services",
-      "pct_change": -4.093508260106668,
+      "pct_change": -3.0711442580864103,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
     },
     {
-      "symbol": "ALB",
-      "name": "Albemarle Corporation",
-      "sector": "Materials",
-      "pct_change": -4.075879763917072,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "ORCL",
-      "name": "Oracle Corporation",
-      "sector": "Information Technology",
-      "pct_change": -4.057132217367238,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "DVA",
-      "name": "DaVita",
-      "sector": "Health Care",
-      "pct_change": -3.8467828941925366,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "BALL",
-      "name": "Ball Corporation",
-      "sector": "Materials",
-      "pct_change": -3.706222911401353,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "UPS",
-      "name": "United Parcel Service",
-      "sector": "Industrials",
-      "pct_change": -3.704969990809215,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "PNR",
-      "name": "Pentair",
-      "sector": "Industrials",
-      "pct_change": -3.647057718820702,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "EFX",
-      "name": "Equifax",
-      "sector": "Industrials",
-      "pct_change": -3.6215553275491668,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "FDX",
-      "name": "FedEx",
-      "sector": "Industrials",
-      "pct_change": -3.5917671426082762,
+      "symbol": "OKE",
+      "name": "Oneok",
+      "sector": "Energy",
+      "pct_change": -3.026981933530218,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
