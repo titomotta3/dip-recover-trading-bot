@@ -393,3 +393,5 @@ timestamp_utc,action,symbol,detail
 2026-09-23T17:46:02+00:00,BUY,APP,drop=-5.93% notional=$20000.00 news=clear(5)
 2026-09-24T17:47:04+00:00,SELL,GEN,gain=-12.40% qty=737.190932546 reason=stop_loss
 2026-09-24T17:47:33+00:00,BUY,AKAM,drop=-5.02% notional=$20000.00 news=clear(1)
+2026-09-29T18:29:46+00:00,SELL,CSCO,gain=2.10% qty=190.712215123 reason=bad_news:warns
+2026-09-29T18:29:47+00:00,SELL,SCHW,gain=-2.39% qty=197.72605042 reason=bad_news:investigation
