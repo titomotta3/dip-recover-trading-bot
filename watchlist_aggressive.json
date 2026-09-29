@@ -1,6 +1,16 @@
 {
-  "updated_utc": "2026-09-25T17:50:14+00:00",
+  "updated_utc": "2026-09-29T18:31:38+00:00",
   "drop_threshold_pct": -8.0,
   "high_conviction_pct": -11.0,
-  "stocks": []
+  "stocks": [
+    {
+      "symbol": "FICO",
+      "name": "Fair Isaac",
+      "sector": "Information Technology",
+      "pct_change": -26.754990258502094,
+      "conviction": "high",
+      "status": "blocked_news",
+      "news_bad": true
+    }
+  ]
 }

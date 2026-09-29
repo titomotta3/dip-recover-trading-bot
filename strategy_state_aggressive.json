@@ -1,9 +1,9 @@
 {
   "drop_threshold_pct": -8.0,
-  "sell_threshold_pct": 11.5,
+  "sell_threshold_pct": 12.0,
   "trade_dollars": 16000.0,
-  "completed_trades": 51,
-  "last_adjustment": "1 stop_loss exit(s) (GEN)",
-  "updated_utc": "2026-09-29T00:20:42+00:00",
-  "risk_exits": 56
+  "completed_trades": 52,
+  "last_adjustment": "2 stop_loss exit(s) (FICO, LHX); RCL cleared target by 3.2pp -> raised sell target to 12.0%",
+  "updated_utc": "2026-09-29T18:31:38+00:00",
+  "risk_exits": 58
 }
