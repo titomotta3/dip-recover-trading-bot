@@ -1,121 +1,112 @@
 {
-  "updated_utc": "2026-09-29T18:30:20+00:00",
+  "updated_utc": "2026-09-30T18:18:52+00:00",
   "drop_threshold_pct": -5.0,
   "high_conviction_pct": -8.0,
   "stocks": [
     {
-      "symbol": "FICO",
-      "name": "Fair Isaac",
+      "symbol": "JBL",
+      "name": "Jabil",
       "sector": "Information Technology",
-      "pct_change": -27.114128605192573,
+      "pct_change": -10.180652310847055,
       "conviction": "high",
+      "status": "bought",
+      "news_bad": false
+    },
+    {
+      "symbol": "MRNA",
+      "name": "Moderna",
+      "sector": "Health Care",
+      "pct_change": -5.7308577987551335,
+      "conviction": "buy_signal",
       "status": "blocked_news",
       "news_bad": true
     },
     {
-      "symbol": "EFX",
-      "name": "Equifax",
-      "sector": "Industrials",
-      "pct_change": -4.373027886803189,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "URI",
-      "name": "United Rentals",
-      "sector": "Industrials",
-      "pct_change": -4.177527449506788,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "FDS",
-      "name": "FactSet",
-      "sector": "Financials",
-      "pct_change": -3.6164018036233223,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "MLM",
-      "name": "Martin Marietta Materials",
-      "sector": "Materials",
-      "pct_change": -3.5403550316757384,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "PSKY",
-      "name": "Paramount Skydance Corporation",
-      "sector": "Communication Services",
-      "pct_change": -3.5019422765412536,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "STLD",
-      "name": "Steel Dynamics",
-      "sector": "Materials",
-      "pct_change": -3.481055728854384,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "NUE",
-      "name": "Nucor",
-      "sector": "Materials",
-      "pct_change": -3.4439028098352003,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "ADSK",
-      "name": "Autodesk",
+      "symbol": "FICO",
+      "name": "Fair Isaac",
       "sector": "Information Technology",
-      "pct_change": -3.38819643310068,
+      "pct_change": -4.533347321030087,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
     },
     {
-      "symbol": "LULU",
-      "name": "Lululemon Athletica",
+      "symbol": "NOC",
+      "name": "Northrop Grumman",
+      "sector": "Industrials",
+      "pct_change": -4.42232444272957,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "GM",
+      "name": "General Motors",
       "sector": "Consumer Discretionary",
-      "pct_change": -3.3356564882241986,
+      "pct_change": -4.3743062247590965,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
     },
     {
-      "symbol": "TYL",
-      "name": "Tyler Technologies",
-      "sector": "Information Technology",
-      "pct_change": -3.231282505926308,
+      "symbol": "CEG",
+      "name": "Constellation Energy",
+      "sector": "Utilities",
+      "pct_change": -4.021462193231021,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
     },
     {
-      "symbol": "FIS",
-      "name": "Fidelity National Information Services",
+      "symbol": "BE",
+      "name": "Bloom Energy",
+      "sector": "Industrials",
+      "pct_change": -3.5158764753218885,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "HOOD",
+      "name": "Robinhood Markets",
       "sector": "Financials",
-      "pct_change": -3.1769166684919248,
+      "pct_change": -3.3815180381151992,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
     },
     {
-      "symbol": "IP",
-      "name": "International Paper",
-      "sector": "Materials",
-      "pct_change": -3.0294081744025734,
+      "symbol": "FLEX",
+      "name": "Flex Ltd.",
+      "sector": "Information Technology",
+      "pct_change": -3.3471010513054824,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "GIS",
+      "name": "General Mills",
+      "sector": "Consumer Staples",
+      "pct_change": -3.345654211563428,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "GLW",
+      "name": "Corning Inc.",
+      "sector": "Information Technology",
+      "pct_change": -3.2196514658522237,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "MKC",
+      "name": "McCormick & Company",
+      "sector": "Consumer Staples",
+      "pct_change": -3.1198390260857503,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
