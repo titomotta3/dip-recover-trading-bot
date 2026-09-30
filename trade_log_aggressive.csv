@@ -231,3 +231,4 @@ timestamp_utc,action,symbol,detail
 2026-09-29T18:30:55+00:00,SELL,FICO,gain=-34.39% qty=38.391389662 reason=stop_loss
 2026-09-29T18:30:55+00:00,SELL,LHX,gain=-12.74% qty=42.669993692 reason=stop_loss
 2026-09-29T18:30:56+00:00,SELL,RCL,gain=14.65% qty=70.500066093 reason=target_reached
+2026-09-30T18:19:53+00:00,BUY,JBL,drop=-10.23% notional=$16000.00 news=clear(10)

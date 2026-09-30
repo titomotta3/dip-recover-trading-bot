@@ -1,16 +1,16 @@
 {
-  "updated_utc": "2026-09-29T18:31:38+00:00",
+  "updated_utc": "2026-09-30T18:19:53+00:00",
   "drop_threshold_pct": -8.0,
   "high_conviction_pct": -11.0,
   "stocks": [
     {
-      "symbol": "FICO",
-      "name": "Fair Isaac",
+      "symbol": "JBL",
+      "name": "Jabil",
       "sector": "Information Technology",
-      "pct_change": -26.754990258502094,
-      "conviction": "high",
-      "status": "blocked_news",
-      "news_bad": true
+      "pct_change": -10.22769593718226,
+      "conviction": "buy_signal",
+      "status": "bought",
+      "news_bad": false
     }
   ]
 }
