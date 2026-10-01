@@ -1,13 +1,22 @@
 {
-  "updated_utc": "2026-09-30T18:19:53+00:00",
+  "updated_utc": "2026-10-01T18:45:03+00:00",
   "drop_threshold_pct": -8.0,
   "high_conviction_pct": -11.0,
   "stocks": [
     {
-      "symbol": "JBL",
-      "name": "Jabil",
-      "sector": "Information Technology",
-      "pct_change": -10.22769593718226,
+      "symbol": "CTVA",
+      "name": "Corteva",
+      "sector": "Materials",
+      "pct_change": -84.30779113950729,
+      "conviction": "high",
+      "status": "bought",
+      "news_bad": false
+    },
+    {
+      "symbol": "PSKY",
+      "name": "Paramount Skydance Corporation",
+      "sector": "Communication Services",
+      "pct_change": -8.760888089595534,
       "conviction": "buy_signal",
       "status": "bought",
       "news_bad": false

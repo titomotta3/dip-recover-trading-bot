@@ -232,3 +232,6 @@ timestamp_utc,action,symbol,detail
 2026-09-29T18:30:55+00:00,SELL,LHX,gain=-12.74% qty=42.669993692 reason=stop_loss
 2026-09-29T18:30:56+00:00,SELL,RCL,gain=14.65% qty=70.500066093 reason=target_reached
 2026-09-30T18:19:53+00:00,BUY,JBL,drop=-10.23% notional=$16000.00 news=clear(10)
+2026-10-01T18:44:38+00:00,SELL,GEV,gain=13.11% qty=20.572357593 reason=target_reached
+2026-10-01T18:45:03+00:00,BUY,CTVA,drop=-84.31% notional=$32000.00 news=clear(8) conviction=HIGH
+2026-10-01T18:45:03+00:00,BUY,PSKY,drop=-8.76% notional=$16000.00 news=clear(10)
