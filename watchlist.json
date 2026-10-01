@@ -1,112 +1,85 @@
 {
-  "updated_utc": "2026-09-30T18:18:52+00:00",
+  "updated_utc": "2026-10-01T18:44:13+00:00",
   "drop_threshold_pct": -5.0,
   "high_conviction_pct": -8.0,
   "stocks": [
     {
-      "symbol": "JBL",
-      "name": "Jabil",
-      "sector": "Information Technology",
-      "pct_change": -10.180652310847055,
+      "symbol": "CTVA",
+      "name": "Corteva",
+      "sector": "Materials",
+      "pct_change": -84.31410147890381,
       "conviction": "high",
       "status": "bought",
       "news_bad": false
     },
     {
-      "symbol": "MRNA",
-      "name": "Moderna",
-      "sector": "Health Care",
-      "pct_change": -5.7308577987551335,
-      "conviction": "buy_signal",
-      "status": "blocked_news",
-      "news_bad": true
-    },
-    {
-      "symbol": "FICO",
-      "name": "Fair Isaac",
-      "sector": "Information Technology",
-      "pct_change": -4.533347321030087,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "NOC",
-      "name": "Northrop Grumman",
-      "sector": "Industrials",
-      "pct_change": -4.42232444272957,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "GM",
-      "name": "General Motors",
-      "sector": "Consumer Discretionary",
-      "pct_change": -4.3743062247590965,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "CEG",
-      "name": "Constellation Energy",
-      "sector": "Utilities",
-      "pct_change": -4.021462193231021,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "BE",
-      "name": "Bloom Energy",
-      "sector": "Industrials",
-      "pct_change": -3.5158764753218885,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "HOOD",
-      "name": "Robinhood Markets",
-      "sector": "Financials",
-      "pct_change": -3.3815180381151992,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "FLEX",
-      "name": "Flex Ltd.",
-      "sector": "Information Technology",
-      "pct_change": -3.3471010513054824,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "GIS",
-      "name": "General Mills",
-      "sector": "Consumer Staples",
-      "pct_change": -3.345654211563428,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "GLW",
-      "name": "Corning Inc.",
-      "sector": "Information Technology",
-      "pct_change": -3.2196514658522237,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
+      "symbol": "PSKY",
+      "name": "Paramount Skydance Corporation",
+      "sector": "Communication Services",
+      "pct_change": -8.594387446580852,
+      "conviction": "high",
+      "status": "bought",
+      "news_bad": false
     },
     {
       "symbol": "MKC",
       "name": "McCormick & Company",
       "sector": "Consumer Staples",
-      "pct_change": -3.1198390260857503,
+      "pct_change": -3.8685386306322482,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "DHR",
+      "name": "Danaher Corporation",
+      "sector": "Health Care",
+      "pct_change": -3.565790587431345,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "FOX",
+      "name": "Fox Corporation (Class B)",
+      "sector": "Communication Services",
+      "pct_change": -3.3303730469071575,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "WYNN",
+      "name": "Wynn Resorts",
+      "sector": "Consumer Discretionary",
+      "pct_change": -3.279621486749318,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "DIS",
+      "name": "Walt Disney Company (The)",
+      "sector": "Communication Services",
+      "pct_change": -3.1506198828418848,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "TKO",
+      "name": "TKO Group Holdings",
+      "sector": "Communication Services",
+      "pct_change": -3.1493454393863884,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "LVS",
+      "name": "Las Vegas Sands",
+      "sector": "Consumer Discretionary",
+      "pct_change": -3.1208681891488466,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
