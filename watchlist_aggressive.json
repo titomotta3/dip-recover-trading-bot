@@ -1,25 +1,25 @@
 {
-  "updated_utc": "2026-10-01T18:45:03+00:00",
+  "updated_utc": "2026-10-02T18:16:30+00:00",
   "drop_threshold_pct": -8.0,
   "high_conviction_pct": -11.0,
   "stocks": [
     {
-      "symbol": "CTVA",
-      "name": "Corteva",
-      "sector": "Materials",
-      "pct_change": -84.30779113950729,
-      "conviction": "high",
+      "symbol": "WDC",
+      "name": "Western Digital",
+      "sector": "Information Technology",
+      "pct_change": -9.376079934731862,
+      "conviction": "buy_signal",
       "status": "bought",
       "news_bad": false
     },
     {
-      "symbol": "PSKY",
-      "name": "Paramount Skydance Corporation",
-      "sector": "Communication Services",
-      "pct_change": -8.760888089595534,
-      "conviction": "buy_signal",
-      "status": "bought",
-      "news_bad": false
+      "symbol": "ACN",
+      "name": "Accenture",
+      "sector": "Information Technology",
+      "pct_change": -6.257655897852507,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
     }
   ]
 }
