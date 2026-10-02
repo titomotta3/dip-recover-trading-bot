@@ -399,3 +399,7 @@ timestamp_utc,action,symbol,detail
 2026-09-30T18:18:52+00:00,BUY,JBL,drop=-10.18% notional=$20000.00 news=clear(10)
 2026-10-01T18:44:13+00:00,BUY,CTVA,drop=-84.31% notional=$20000.00 news=clear(8)
 2026-10-01T18:44:13+00:00,BUY,PSKY,drop=-8.59% notional=$20000.00 news=clear(10)
+2026-10-02T18:15:17+00:00,SELL,APP,gain=-12.73% qty=64.337611786 reason=stop_loss
+2026-10-02T18:15:18+00:00,SELL,CTVA,gain=-1.31% qty=1640.688269073 reason=bad_news:misses expectations
+2026-10-02T18:15:41+00:00,BUY,STX,drop=-10.79% notional=$20000.00 news=clear(9)
+2026-10-02T18:15:41+00:00,BUY,WDC,drop=-9.53% notional=$20000.00 news=clear(6)
