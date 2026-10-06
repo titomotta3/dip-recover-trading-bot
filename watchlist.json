@@ -1,103 +1,67 @@
 {
-  "updated_utc": "2026-10-02T18:15:41+00:00",
+  "updated_utc": "2026-10-06T18:50:22+00:00",
   "drop_threshold_pct": -5.0,
   "high_conviction_pct": -8.0,
   "stocks": [
     {
-      "symbol": "STX",
-      "name": "Seagate Technology",
-      "sector": "Information Technology",
-      "pct_change": -10.794534985595027,
-      "conviction": "high",
-      "status": "bought",
-      "news_bad": false
-    },
-    {
-      "symbol": "WDC",
-      "name": "Western Digital",
-      "sector": "Information Technology",
-      "pct_change": -9.527414293674688,
-      "conviction": "high",
-      "status": "bought",
-      "news_bad": false
-    },
-    {
-      "symbol": "ACN",
-      "name": "Accenture",
-      "sector": "Information Technology",
-      "pct_change": -6.156385839067718,
+      "symbol": "MRNA",
+      "name": "Moderna",
+      "sector": "Health Care",
+      "pct_change": -6.183259695029972,
       "conviction": "buy_signal",
-      "status": "blocked_news",
-      "news_bad": true
+      "status": "order_failed",
+      "news_bad": false
     },
     {
-      "symbol": "NKE",
-      "name": "Nike, Inc.",
-      "sector": "Consumer Discretionary",
-      "pct_change": -4.395453532214168,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
+      "symbol": "ILMN",
+      "name": "Illumina, Inc.",
+      "sector": "Health Care",
+      "pct_change": -6.135717547030571,
+      "conviction": "buy_signal",
+      "status": "bought",
+      "news_bad": false
     },
     {
-      "symbol": "CTVA",
-      "name": "Corteva",
-      "sector": "Materials",
-      "pct_change": -4.2561643627755945,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "COIN",
-      "name": "Coinbase",
-      "sector": "Financials",
-      "pct_change": -3.571237121139022,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "SNDK",
-      "name": "Sandisk",
+      "symbol": "KLAC",
+      "name": "KLA Corporation",
       "sector": "Information Technology",
-      "pct_change": -3.5534630962782856,
+      "pct_change": -4.256711469548592,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
     },
     {
-      "symbol": "APP",
-      "name": "AppLovin",
-      "sector": "Communication Services",
-      "pct_change": -3.519247087698089,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "IT",
-      "name": "Gartner",
+      "symbol": "LRCX",
+      "name": "Lam Research",
       "sector": "Information Technology",
-      "pct_change": -3.355809708657645,
+      "pct_change": -3.8447031172586357,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
     },
     {
-      "symbol": "CTSH",
-      "name": "Cognizant",
+      "symbol": "DXCM",
+      "name": "Dexcom",
+      "sector": "Health Care",
+      "pct_change": -3.774451923709217,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "CPRT",
+      "name": "Copart",
+      "sector": "Industrials",
+      "pct_change": -3.255695850112885,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "TER",
+      "name": "Teradyne",
       "sector": "Information Technology",
-      "pct_change": -3.161956641404741,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "FDS",
-      "name": "FactSet",
-      "sector": "Financials",
-      "pct_change": -3.1591043105188197,
+      "pct_change": -3.026789330127041,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null

@@ -403,3 +403,6 @@ timestamp_utc,action,symbol,detail
 2026-10-02T18:15:18+00:00,SELL,CTVA,gain=-1.31% qty=1640.688269073 reason=bad_news:misses expectations
 2026-10-02T18:15:41+00:00,BUY,STX,drop=-10.79% notional=$20000.00 news=clear(9)
 2026-10-02T18:15:41+00:00,BUY,WDC,drop=-9.53% notional=$20000.00 news=clear(6)
+2026-10-06T18:49:36+00:00,SELL,FIX,gain=10.51% qty=12.181003715 reason=target_reached
+2026-10-06T18:49:37+00:00,SELL,VST,gain=7.51% qty=67.249428379 reason=target_reached
+2026-10-06T18:50:22+00:00,BUY,ILMN,drop=-6.14% notional=$20000.00 news=clear(1)
