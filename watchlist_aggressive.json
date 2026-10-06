@@ -1,22 +1,22 @@
 {
-  "updated_utc": "2026-10-02T18:16:30+00:00",
+  "updated_utc": "2026-10-06T18:51:24+00:00",
   "drop_threshold_pct": -8.0,
   "high_conviction_pct": -11.0,
   "stocks": [
     {
-      "symbol": "WDC",
-      "name": "Western Digital",
-      "sector": "Information Technology",
-      "pct_change": -9.376079934731862,
-      "conviction": "buy_signal",
-      "status": "bought",
-      "news_bad": false
+      "symbol": "MRNA",
+      "name": "Moderna",
+      "sector": "Health Care",
+      "pct_change": -6.215247510225401,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
     },
     {
-      "symbol": "ACN",
-      "name": "Accenture",
-      "sector": "Information Technology",
-      "pct_change": -6.257655897852507,
+      "symbol": "ILMN",
+      "name": "Illumina, Inc.",
+      "sector": "Health Care",
+      "pct_change": -6.021654605734175,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
