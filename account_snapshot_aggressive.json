@@ -1,7 +1,7 @@
 {
-  "updated_utc": "2026-10-07T19:17:10+00:00",
+  "updated_utc": "2026-10-07T23:37:22+00:00",
   "paper": true,
-  "equity": 555608.99,
+  "equity": 555376.86,
   "cash": 197934.69,
   "buying_power": 197934.69,
   "starting_equity": 500000.0,
@@ -19,190 +19,190 @@
   "positions": [
     {
       "symbol": "ABNB",
-      "name": "Airbnb",
+      "name": "",
       "qty": 105.014373851,
       "avg_entry_price": 152.36,
-      "current_price": 160.47,
+      "current_price": 160.86,
       "cost_basis": 15999.99,
-      "market_value": 16851.656572,
-      "unrealized_pl": 851.666572,
-      "unrealized_plpc": 5.323
+      "market_value": 16892.612178,
+      "unrealized_pl": 892.622178,
+      "unrealized_plpc": 5.579
     },
     {
       "symbol": "ADSK",
-      "name": "Autodesk",
+      "name": "",
       "qty": 82.534687514,
       "avg_entry_price": 218.09,
-      "current_price": 235.815,
+      "current_price": 235.05,
       "cost_basis": 17999.99,
-      "market_value": 19462.917336,
-      "unrealized_pl": 1462.927336,
-      "unrealized_plpc": 8.126999999999999
+      "market_value": 19399.7783,
+      "unrealized_pl": 1399.7883,
+      "unrealized_plpc": 7.777000000000001
     },
     {
       "symbol": "APH",
-      "name": "Amphenol",
+      "name": "",
       "qty": 435.413522012,
       "avg_entry_price": 82.68,
-      "current_price": 87.585,
+      "current_price": 87.55,
       "cost_basis": 35999.99,
-      "market_value": 38135.693325,
-      "unrealized_pl": 2135.703325,
-      "unrealized_plpc": 5.933
+      "market_value": 38120.453852,
+      "unrealized_pl": 2120.463852,
+      "unrealized_plpc": 5.89
     },
     {
       "symbol": "AXON",
-      "name": "Axon Enterprise",
+      "name": "",
       "qty": 82.451536805,
       "avg_entry_price": 436.62,
-      "current_price": 408.33,
+      "current_price": 407.155,
       "cost_basis": 35999.99,
-      "market_value": 33667.436024,
-      "unrealized_pl": -2332.553976,
-      "unrealized_plpc": -6.479
+      "market_value": 33570.555468,
+      "unrealized_pl": -2429.434532,
+      "unrealized_plpc": -6.748
     },
     {
       "symbol": "CASY",
-      "name": "Casey's",
+      "name": "",
       "qty": 58.027063185,
       "avg_entry_price": 620.4,
-      "current_price": 636.585,
+      "current_price": 633.31,
       "cost_basis": 35999.99,
-      "market_value": 36939.158018,
-      "unrealized_pl": 939.168018,
-      "unrealized_plpc": 2.609
+      "market_value": 36749.119386,
+      "unrealized_pl": 749.129386,
+      "unrealized_plpc": 2.081
     },
     {
       "symbol": "GDDY",
-      "name": "GoDaddy",
+      "name": "",
       "qty": 167.732361882,
       "avg_entry_price": 95.39,
-      "current_price": 97.62,
+      "current_price": 97.21,
       "cost_basis": 15999.99,
-      "market_value": 16374.033167,
-      "unrealized_pl": 374.043167,
-      "unrealized_plpc": 2.338
+      "market_value": 16305.262899,
+      "unrealized_pl": 305.272899,
+      "unrealized_plpc": 1.908
     },
     {
       "symbol": "GLW",
-      "name": "Corning Inc.",
+      "name": "",
       "qty": 125.651755984,
       "avg_entry_price": 159.17,
-      "current_price": 163.64,
+      "current_price": 163.6,
       "cost_basis": 19999.99,
-      "market_value": 20561.653349,
-      "unrealized_pl": 561.663349,
-      "unrealized_plpc": 2.8080000000000003
+      "market_value": 20556.627279,
+      "unrealized_pl": 556.637279,
+      "unrealized_plpc": 2.783
     },
     {
       "symbol": "HWM",
-      "name": "Howmet Aerospace",
+      "name": "",
       "qty": 77.898429047,
       "avg_entry_price": 231.07,
-      "current_price": 222.095,
+      "current_price": 222.51,
       "cost_basis": 17999.99,
-      "market_value": 17300.851599,
-      "unrealized_pl": -699.138401,
-      "unrealized_plpc": -3.884
+      "market_value": 17333.179447,
+      "unrealized_pl": -666.810553,
+      "unrealized_plpc": -3.705
     },
     {
       "symbol": "JBL",
-      "name": "Jabil",
+      "name": "",
       "qty": 55.902973341,
       "avg_entry_price": 286.21,
-      "current_price": 300.78,
+      "current_price": 299.47,
       "cost_basis": 15999.99,
-      "market_value": 16814.496322,
-      "unrealized_pl": 814.506322,
-      "unrealized_plpc": 5.090999999999999
+      "market_value": 16741.263426,
+      "unrealized_pl": 741.273426,
+      "unrealized_plpc": 4.633
     },
     {
       "symbol": "MCO",
-      "name": "Moody's Corporation",
+      "name": "",
       "qty": 25.527896908,
       "avg_entry_price": 489.66,
-      "current_price": 449.81,
+      "current_price": 449.63,
       "cost_basis": 12499.99,
-      "market_value": 11482.703308,
-      "unrealized_pl": -1017.286692,
-      "unrealized_plpc": -8.138
+      "market_value": 11478.108287,
+      "unrealized_pl": -1021.881713,
+      "unrealized_plpc": -8.175
     },
     {
       "symbol": "MNST",
-      "name": "Monster Beverage",
+      "name": "",
       "qty": 483.941706995,
       "avg_entry_price": 45.46,
-      "current_price": 42.765,
+      "current_price": 42.5825,
       "cost_basis": 21999.99,
-      "market_value": 20695.7671,
-      "unrealized_pl": -1304.2229,
-      "unrealized_plpc": -5.928
+      "market_value": 20607.447738,
+      "unrealized_pl": -1392.542262,
+      "unrealized_plpc": -6.329999999999999
     },
     {
       "symbol": "MSCI",
-      "name": "MSCI",
+      "name": "",
       "qty": 44.633275012,
       "avg_entry_price": 560.12,
-      "current_price": 556.62,
+      "current_price": 555.38,
       "cost_basis": 24999.99,
-      "market_value": 24843.773537,
-      "unrealized_pl": -156.216463,
-      "unrealized_plpc": -0.625
+      "market_value": 24788.428276,
+      "unrealized_pl": -211.561724,
+      "unrealized_plpc": -0.8460000000000001
     },
     {
       "symbol": "PAYX",
-      "name": "Paychex",
+      "name": "",
       "qty": 151.2000567,
       "avg_entry_price": 105.82,
-      "current_price": 102.07,
+      "current_price": 101.55,
       "cost_basis": 15999.99,
-      "market_value": 15432.989787,
-      "unrealized_pl": -567.000213,
-      "unrealized_plpc": -3.544
+      "market_value": 15354.365758,
+      "unrealized_pl": -645.624242,
+      "unrealized_plpc": -4.035
     },
     {
       "symbol": "STX",
-      "name": "Seagate Technology",
+      "name": "",
       "qty": 24.064751142,
       "avg_entry_price": 831.090664,
-      "current_price": 798.62,
+      "current_price": 807.0,
       "cost_basis": 19999.990006,
-      "market_value": 19218.591557,
-      "unrealized_pl": -781.398449,
-      "unrealized_plpc": -3.907
+      "market_value": 19420.254172,
+      "unrealized_pl": -579.735834,
+      "unrealized_plpc": -2.899
     },
     {
       "symbol": "SYK",
-      "name": "Stryker Corporation",
+      "name": "",
       "qty": 65.134607034,
       "avg_entry_price": 276.350635,
-      "current_price": 277.06,
+      "current_price": 275.4,
       "cost_basis": 17999.990014,
-      "market_value": 18046.194225,
-      "unrealized_pl": 46.204211,
-      "unrealized_plpc": 0.257
+      "market_value": 17938.070777,
+      "unrealized_pl": -61.919237,
+      "unrealized_plpc": -0.344
     },
     {
       "symbol": "VRT",
-      "name": "Vertiv",
+      "name": "",
       "qty": 67.468758199,
       "avg_entry_price": 266.79,
-      "current_price": 244.27,
+      "current_price": 246.87,
       "cost_basis": 17999.99,
-      "market_value": 16480.593565,
-      "unrealized_pl": -1519.396435,
-      "unrealized_plpc": -8.441
+      "market_value": 16656.012337,
+      "unrealized_pl": -1343.977663,
+      "unrealized_plpc": -7.467
     },
     {
       "symbol": "WDC",
-      "name": "Western Digital",
+      "name": "",
       "qty": 38.158812306,
       "avg_entry_price": 419.3,
-      "current_price": 402.68,
+      "current_price": 406.9999,
       "cost_basis": 15999.99,
-      "market_value": 15365.790539,
-      "unrealized_pl": -634.199461,
-      "unrealized_plpc": -3.964
+      "market_value": 15530.632793,
+      "unrealized_pl": -469.357207,
+      "unrealized_plpc": -2.933
     }
   ],
   "adaptive_target_band_pct": [
