@@ -1,22 +1,13 @@
 {
-  "updated_utc": "2026-10-06T18:51:24+00:00",
+  "updated_utc": "2026-10-07T19:17:10+00:00",
   "drop_threshold_pct": -8.0,
   "high_conviction_pct": -11.0,
   "stocks": [
     {
-      "symbol": "MRNA",
-      "name": "Moderna",
-      "sector": "Health Care",
-      "pct_change": -6.215247510225401,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "ILMN",
-      "name": "Illumina, Inc.",
-      "sector": "Health Care",
-      "pct_change": -6.021654605734175,
+      "symbol": "CAT",
+      "name": "Caterpillar Inc.",
+      "sector": "Industrials",
+      "pct_change": -6.053114808285043,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
