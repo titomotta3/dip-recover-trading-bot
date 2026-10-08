@@ -240,3 +240,4 @@ timestamp_utc,action,symbol,detail
 2026-10-06T18:50:44+00:00,SELL,LULU,"gain=-6.49% qty=358.173216595 reason=bad_news:downgrade,downgraded"
 2026-10-07T19:16:25+00:00,SELL,CB,gain=-1.74% qty=36.448432716 reason=bad_news:downgrade
 2026-10-07T19:16:26+00:00,SELL,SKYD,gain=-7.26% qty=1696.711558854 reason=bad_news:plummets
+2026-10-08T19:12:19+00:00,BUY,COHR,drop=-9.09% notional=$16000.00 news=clear(1)

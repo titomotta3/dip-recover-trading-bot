@@ -1,13 +1,58 @@
 {
-  "updated_utc": "2026-10-07T19:17:10+00:00",
+  "updated_utc": "2026-10-08T19:12:19+00:00",
   "drop_threshold_pct": -8.0,
   "high_conviction_pct": -11.0,
   "stocks": [
     {
-      "symbol": "CAT",
-      "name": "Caterpillar Inc.",
+      "symbol": "COHR",
+      "name": "Coherent Corp.",
+      "sector": "Information Technology",
+      "pct_change": -9.092534413002735,
+      "conviction": "buy_signal",
+      "status": "bought",
+      "news_bad": false
+    },
+    {
+      "symbol": "BE",
+      "name": "Bloom Energy",
       "sector": "Industrials",
-      "pct_change": -6.053114808285043,
+      "pct_change": -7.820384534673735,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "PSKY",
+      "name": "Paramount Skydance Corporation",
+      "sector": "Communication Services",
+      "pct_change": -6.715628620997907,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "INTC",
+      "name": "Intel",
+      "sector": "Information Technology",
+      "pct_change": -6.32965228994801,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "LITE",
+      "name": "Lumentum",
+      "sector": "Information Technology",
+      "pct_change": -6.030673865907996,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "SMCI",
+      "name": "Supermicro",
+      "sector": "Information Technology",
+      "pct_change": -6.0080040737640585,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
