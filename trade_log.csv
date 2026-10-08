@@ -410,3 +410,5 @@ timestamp_utc,action,symbol,detail
 2026-10-07T19:15:34+00:00,SELL,SW,gain=-13.27% qty=209.995590088 reason=stop_loss
 2026-10-07T19:16:01+00:00,BUY,ALLE,drop=-5.40% notional=$20000.00 news=clear(1)
 2026-10-07T19:16:01+00:00,BUY,CAT,drop=-6.13% notional=$20000.00 news=clear(7)
+2026-10-08T19:10:55+00:00,SELL,ABNB,gain=7.78% qty=131.319697964 reason=target_reached
+2026-10-08T19:11:31+00:00,BUY,BE,drop=-7.87% notional=$20000.00 news=clear(10)
