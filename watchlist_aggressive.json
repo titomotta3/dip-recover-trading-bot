@@ -1,58 +1,40 @@
 {
-  "updated_utc": "2026-10-08T19:12:19+00:00",
+  "updated_utc": "2026-10-09T18:43:07+00:00",
   "drop_threshold_pct": -8.0,
   "high_conviction_pct": -11.0,
   "stocks": [
     {
-      "symbol": "COHR",
-      "name": "Coherent Corp.",
-      "sector": "Information Technology",
-      "pct_change": -9.092534413002735,
-      "conviction": "buy_signal",
-      "status": "bought",
-      "news_bad": false
-    },
-    {
-      "symbol": "BE",
-      "name": "Bloom Energy",
-      "sector": "Industrials",
-      "pct_change": -7.820384534673735,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "PSKY",
-      "name": "Paramount Skydance Corporation",
+      "symbol": "TMUS",
+      "name": "T-Mobile US",
       "sector": "Communication Services",
-      "pct_change": -6.715628620997907,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
+      "pct_change": -12.667093139628388,
+      "conviction": "high",
+      "status": "blocked_news",
+      "news_bad": true
     },
     {
-      "symbol": "INTC",
-      "name": "Intel",
-      "sector": "Information Technology",
-      "pct_change": -6.32965228994801,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
+      "symbol": "T",
+      "name": "AT&T",
+      "sector": "Communication Services",
+      "pct_change": -11.037397453171986,
+      "conviction": "high",
+      "status": "blocked_news",
+      "news_bad": true
     },
     {
-      "symbol": "LITE",
-      "name": "Lumentum",
-      "sector": "Information Technology",
-      "pct_change": -6.030673865907996,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
+      "symbol": "VZ",
+      "name": "Verizon",
+      "sector": "Communication Services",
+      "pct_change": -10.776697079447924,
+      "conviction": "buy_signal",
+      "status": "blocked_news",
+      "news_bad": true
     },
     {
-      "symbol": "SMCI",
-      "name": "Supermicro",
+      "symbol": "HPQ",
+      "name": "HP Inc.",
       "sector": "Information Technology",
-      "pct_change": -6.0080040737640585,
+      "pct_change": -6.7971581680092,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
