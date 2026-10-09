@@ -412,3 +412,5 @@ timestamp_utc,action,symbol,detail
 2026-10-07T19:16:01+00:00,BUY,CAT,drop=-6.13% notional=$20000.00 news=clear(7)
 2026-10-08T19:10:55+00:00,SELL,ABNB,gain=7.78% qty=131.319697964 reason=target_reached
 2026-10-08T19:11:31+00:00,BUY,BE,drop=-7.87% notional=$20000.00 news=clear(10)
+2026-10-09T18:41:43+00:00,SELL,CMG,gain=-9.17% qty=577.86737937 reason=bad_news:warns
+2026-10-09T18:42:08+00:00,BUY,HPQ,drop=-6.78% notional=$20000.00 news=none

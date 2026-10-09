@@ -1,139 +1,112 @@
 {
-  "updated_utc": "2026-10-08T19:11:32+00:00",
+  "updated_utc": "2026-10-09T18:42:08+00:00",
   "drop_threshold_pct": -5.0,
   "high_conviction_pct": -8.0,
   "stocks": [
     {
-      "symbol": "COHR",
-      "name": "Coherent Corp.",
-      "sector": "Information Technology",
-      "pct_change": -9.002630882337112,
+      "symbol": "TMUS",
+      "name": "T-Mobile US",
+      "sector": "Communication Services",
+      "pct_change": -12.602881703098573,
       "conviction": "high",
-      "status": "order_failed",
-      "news_bad": false
+      "status": "blocked_news",
+      "news_bad": true
     },
     {
-      "symbol": "BE",
-      "name": "Bloom Energy",
-      "sector": "Industrials",
-      "pct_change": -7.865015273455994,
+      "symbol": "T",
+      "name": "AT&T",
+      "sector": "Communication Services",
+      "pct_change": -10.973466380929949,
+      "conviction": "high",
+      "status": "blocked_news",
+      "news_bad": true
+    },
+    {
+      "symbol": "VZ",
+      "name": "Verizon",
+      "sector": "Communication Services",
+      "pct_change": -10.757282039219533,
+      "conviction": "high",
+      "status": "blocked_news",
+      "news_bad": true
+    },
+    {
+      "symbol": "HPQ",
+      "name": "HP Inc.",
+      "sector": "Information Technology",
+      "pct_change": -6.777737783296259,
       "conviction": "buy_signal",
       "status": "bought",
       "news_bad": false
     },
     {
-      "symbol": "GLW",
-      "name": "Corning Inc.",
+      "symbol": "SWKS",
+      "name": "Skyworks Solutions",
       "sector": "Information Technology",
-      "pct_change": -7.27105367055896,
-      "conviction": "buy_signal",
-      "status": "order_failed",
-      "news_bad": false
+      "pct_change": -4.916410180437306,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
     },
     {
-      "symbol": "PSKY",
-      "name": "Paramount Skydance Corporation",
+      "symbol": "MOS",
+      "name": "Mosaic Company (The)",
+      "sector": "Materials",
+      "pct_change": -4.840344378425711,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "CHTR",
+      "name": "Charter Communications",
       "sector": "Communication Services",
-      "pct_change": -6.715628620997907,
-      "conviction": "buy_signal",
-      "status": "blocked_news",
-      "news_bad": true
-    },
-    {
-      "symbol": "INTC",
-      "name": "Intel",
-      "sector": "Information Technology",
-      "pct_change": -6.17044129018508,
-      "conviction": "buy_signal",
-      "status": "blocked_news",
-      "news_bad": true
-    },
-    {
-      "symbol": "SMCI",
-      "name": "Supermicro",
-      "sector": "Information Technology",
-      "pct_change": -6.041389042175664,
-      "conviction": "buy_signal",
-      "status": "order_failed",
-      "news_bad": false
-    },
-    {
-      "symbol": "LITE",
-      "name": "Lumentum",
-      "sector": "Information Technology",
-      "pct_change": -6.036518809015934,
-      "conviction": "buy_signal",
-      "status": "order_failed",
-      "news_bad": false
-    },
-    {
-      "symbol": "VST",
-      "name": "Vistra Corp.",
-      "sector": "Utilities",
-      "pct_change": -5.890119513146519,
-      "conviction": "buy_signal",
-      "status": "order_failed",
-      "news_bad": false
-    },
-    {
-      "symbol": "ORCL",
-      "name": "Oracle Corporation",
-      "sector": "Information Technology",
-      "pct_change": -5.699640361942395,
-      "conviction": "buy_signal",
-      "status": "blocked_news",
-      "news_bad": true
-    },
-    {
-      "symbol": "SNDK",
-      "name": "Sandisk",
-      "sector": "Information Technology",
-      "pct_change": -5.378690096618619,
-      "conviction": "buy_signal",
-      "status": "order_failed",
-      "news_bad": false
-    },
-    {
-      "symbol": "CEG",
-      "name": "Constellation Energy",
-      "sector": "Utilities",
-      "pct_change": -5.348974963239657,
-      "conviction": "buy_signal",
-      "status": "order_failed",
-      "news_bad": false
-    },
-    {
-      "symbol": "AVGO",
-      "name": "Broadcom",
-      "sector": "Information Technology",
-      "pct_change": -4.8803483369375265,
+      "pct_change": -4.782525033972964,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
     },
     {
-      "symbol": "AMD",
-      "name": "Advanced Micro Devices",
+      "symbol": "FICO",
+      "name": "Fair Isaac",
       "sector": "Information Technology",
-      "pct_change": -4.8787679187886335,
+      "pct_change": -4.3474273357402975,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
     },
     {
-      "symbol": "MU",
-      "name": "Micron Technology",
-      "sector": "Information Technology",
-      "pct_change": -4.86764346852022,
+      "symbol": "CMG",
+      "name": "Chipotle Mexican Grill",
+      "sector": "Consumer Discretionary",
+      "pct_change": -3.840272510390614,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
     },
     {
-      "symbol": "MPWR",
-      "name": "Monolithic Power Systems",
+      "symbol": "BG",
+      "name": "Bunge Global",
+      "sector": "Consumer Staples",
+      "pct_change": -3.8119093136566375,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "DE",
+      "name": "Deere & Company",
+      "sector": "Industrials",
+      "pct_change": -3.3773695922818368,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "ON",
+      "name": "ON Semiconductor",
       "sector": "Information Technology",
-      "pct_change": -4.7896834242624395,
+      "pct_change": -3.2363772896348992,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
