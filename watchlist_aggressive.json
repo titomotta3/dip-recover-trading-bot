@@ -1,40 +1,13 @@
 {
-  "updated_utc": "2026-10-09T18:43:07+00:00",
+  "updated_utc": "2026-10-13T19:48:18+00:00",
   "drop_threshold_pct": -8.0,
   "high_conviction_pct": -11.0,
   "stocks": [
     {
-      "symbol": "TMUS",
-      "name": "T-Mobile US",
-      "sector": "Communication Services",
-      "pct_change": -12.667093139628388,
-      "conviction": "high",
-      "status": "blocked_news",
-      "news_bad": true
-    },
-    {
-      "symbol": "T",
-      "name": "AT&T",
-      "sector": "Communication Services",
-      "pct_change": -11.037397453171986,
-      "conviction": "high",
-      "status": "blocked_news",
-      "news_bad": true
-    },
-    {
-      "symbol": "VZ",
-      "name": "Verizon",
-      "sector": "Communication Services",
-      "pct_change": -10.776697079447924,
-      "conviction": "buy_signal",
-      "status": "blocked_news",
-      "news_bad": true
-    },
-    {
-      "symbol": "HPQ",
-      "name": "HP Inc.",
+      "symbol": "AMAT",
+      "name": "Applied Materials",
       "sector": "Information Technology",
-      "pct_change": -6.7971581680092,
+      "pct_change": -7.063390480672252,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null

@@ -1,9 +1,9 @@
 {
-  "updated_utc": "2026-10-13T02:43:29+00:00",
+  "updated_utc": "2026-10-13T19:48:18+00:00",
   "paper": true,
-  "equity": 552546.77,
-  "cash": 181934.12,
-  "buying_power": 181934.12,
+  "equity": 553653.39,
+  "cash": 231449.24,
+  "buying_power": 231449.24,
   "starting_equity": 500000.0,
   "drop_threshold_pct": -8.0,
   "sell_threshold_pct": 12.0,
@@ -19,201 +19,168 @@
   "positions": [
     {
       "symbol": "ABNB",
-      "name": "",
+      "name": "Airbnb",
       "qty": 105.014373851,
       "avg_entry_price": 152.36,
-      "current_price": 163.0467,
+      "current_price": 165.51,
       "cost_basis": 15999.99,
-      "market_value": 17122.247109,
-      "unrealized_pl": 1122.257109,
-      "unrealized_plpc": 7.013999999999999
+      "market_value": 17380.929016,
+      "unrealized_pl": 1380.939016,
+      "unrealized_plpc": 8.631
     },
     {
       "symbol": "ADSK",
-      "name": "",
+      "name": "Autodesk",
       "qty": 82.534687514,
       "avg_entry_price": 218.09,
-      "current_price": 233.47,
+      "current_price": 230.525,
       "cost_basis": 17999.99,
-      "market_value": 19269.373494,
-      "unrealized_pl": 1269.383494,
-      "unrealized_plpc": 7.052
+      "market_value": 19026.308839,
+      "unrealized_pl": 1026.318839,
+      "unrealized_plpc": 5.702
     },
     {
       "symbol": "APH",
-      "name": "",
+      "name": "Amphenol",
       "qty": 435.413522012,
       "avg_entry_price": 82.68,
-      "current_price": 85.92,
+      "current_price": 85.89,
       "cost_basis": 35999.99,
-      "market_value": 37410.729811,
-      "unrealized_pl": 1410.739811,
-      "unrealized_plpc": 3.9190000000000005
+      "market_value": 37397.667406,
+      "unrealized_pl": 1397.677406,
+      "unrealized_plpc": 3.882
     },
     {
       "symbol": "AXON",
-      "name": "",
+      "name": "Axon Enterprise",
       "qty": 82.451536805,
       "avg_entry_price": 436.62,
-      "current_price": 415.0,
+      "current_price": 413.11,
       "cost_basis": 35999.99,
-      "market_value": 34217.387774,
-      "unrealized_pl": -1782.602226,
-      "unrealized_plpc": -4.952
+      "market_value": 34061.55437,
+      "unrealized_pl": -1938.43563,
+      "unrealized_plpc": -5.385
     },
     {
       "symbol": "CASY",
-      "name": "",
+      "name": "Casey's",
       "qty": 58.027063185,
       "avg_entry_price": 620.4,
-      "current_price": 645.72,
+      "current_price": 642.765,
       "cost_basis": 35999.99,
-      "market_value": 37469.23524,
-      "unrealized_pl": 1469.24524,
-      "unrealized_plpc": 4.0809999999999995
+      "market_value": 37297.765268,
+      "unrealized_pl": 1297.775268,
+      "unrealized_plpc": 3.605
     },
     {
       "symbol": "COHR",
-      "name": "",
+      "name": "Coherent Corp.",
       "qty": 52.647132374,
       "avg_entry_price": 303.91,
-      "current_price": 281.0,
+      "current_price": 287.53,
       "cost_basis": 15999.99,
-      "market_value": 14793.844197,
-      "unrealized_pl": -1206.145803,
-      "unrealized_plpc": -7.538
-    },
-    {
-      "symbol": "GDDY",
-      "name": "",
-      "qty": 167.732361882,
-      "avg_entry_price": 95.39,
-      "current_price": 102.32,
-      "cost_basis": 15999.99,
-      "market_value": 17162.375268,
-      "unrealized_pl": 1162.385268,
-      "unrealized_plpc": 7.265000000000001
+      "market_value": 15137.629971,
+      "unrealized_pl": -862.360029,
+      "unrealized_plpc": -5.390000000000001
     },
     {
       "symbol": "GLW",
-      "name": "",
+      "name": "Corning Inc.",
       "qty": 125.651755984,
       "avg_entry_price": 159.17,
-      "current_price": 143.67,
+      "current_price": 148.32,
       "cost_basis": 19999.99,
-      "market_value": 18052.387782,
-      "unrealized_pl": -1947.602218,
-      "unrealized_plpc": -9.738
+      "market_value": 18636.668448,
+      "unrealized_pl": -1363.321552,
+      "unrealized_plpc": -6.816999999999999
     },
     {
       "symbol": "HWM",
-      "name": "",
+      "name": "Howmet Aerospace",
       "qty": 77.898429047,
       "avg_entry_price": 231.07,
-      "current_price": 220.94,
+      "current_price": 217.35,
       "cost_basis": 17999.99,
-      "market_value": 17210.878914,
-      "unrealized_pl": -789.111086,
-      "unrealized_plpc": -4.3839999999999995
+      "market_value": 16931.223553,
+      "unrealized_pl": -1068.766447,
+      "unrealized_plpc": -5.938000000000001
     },
     {
       "symbol": "JBL",
-      "name": "",
+      "name": "Jabil",
       "qty": 55.902973341,
       "avg_entry_price": 286.21,
-      "current_price": 310.0,
+      "current_price": 318.63,
       "cost_basis": 15999.99,
-      "market_value": 17329.921736,
-      "unrealized_pl": 1329.931736,
-      "unrealized_plpc": 8.312
+      "market_value": 17812.364396,
+      "unrealized_pl": 1812.374396,
+      "unrealized_plpc": 11.327
     },
     {
       "symbol": "MCO",
-      "name": "",
+      "name": "Moody's Corporation",
       "qty": 25.527896908,
       "avg_entry_price": 489.66,
-      "current_price": 467.66,
+      "current_price": 465.19,
       "cost_basis": 12499.99,
-      "market_value": 11938.376268,
-      "unrealized_pl": -561.613732,
-      "unrealized_plpc": -4.492999999999999
+      "market_value": 11875.322363,
+      "unrealized_pl": -624.667637,
+      "unrealized_plpc": -4.997
     },
     {
       "symbol": "MNST",
-      "name": "",
+      "name": "Monster Beverage",
       "qty": 483.941706995,
       "avg_entry_price": 45.46,
-      "current_price": 43.83,
+      "current_price": 43.31,
       "cost_basis": 21999.99,
-      "market_value": 21211.165018,
-      "unrealized_pl": -788.824982,
-      "unrealized_plpc": -3.5860000000000003
+      "market_value": 20959.51533,
+      "unrealized_pl": -1040.47467,
+      "unrealized_plpc": -4.729
     },
     {
       "symbol": "MSCI",
-      "name": "",
+      "name": "MSCI",
       "qty": 44.633275012,
       "avg_entry_price": 560.12,
-      "current_price": 568.01,
+      "current_price": 563.43,
       "cost_basis": 24999.99,
-      "market_value": 25352.14654,
-      "unrealized_pl": 352.15654,
-      "unrealized_plpc": 1.409
+      "market_value": 25147.72614,
+      "unrealized_pl": 147.73614,
+      "unrealized_plpc": 0.5910000000000001
     },
     {
       "symbol": "PAYX",
-      "name": "",
+      "name": "Paychex",
       "qty": 151.2000567,
       "avg_entry_price": 105.82,
-      "current_price": 105.16,
+      "current_price": 106.2,
       "cost_basis": 15999.99,
-      "market_value": 15900.197963,
-      "unrealized_pl": -99.792037,
-      "unrealized_plpc": -0.624
-    },
-    {
-      "symbol": "STX",
-      "name": "",
-      "qty": 24.064751142,
-      "avg_entry_price": 831.090664,
-      "current_price": 733.68,
-      "cost_basis": 19999.990006,
-      "market_value": 17655.826618,
-      "unrealized_pl": -2344.163388,
-      "unrealized_plpc": -11.721
+      "market_value": 16057.446022,
+      "unrealized_pl": 57.456022,
+      "unrealized_plpc": 0.359
     },
     {
       "symbol": "SYK",
-      "name": "",
+      "name": "Stryker Corporation",
       "qty": 65.134607034,
       "avg_entry_price": 276.350635,
-      "current_price": 282.6,
+      "current_price": 282.505,
       "cost_basis": 17999.990014,
-      "market_value": 18407.039948,
-      "unrealized_pl": 407.049934,
-      "unrealized_plpc": 2.261
+      "market_value": 18400.85216,
+      "unrealized_pl": 400.862146,
+      "unrealized_plpc": 2.2270000000000003
     },
     {
       "symbol": "VRT",
-      "name": "",
+      "name": "Vertiv",
       "qty": 67.468758199,
       "avg_entry_price": 266.79,
-      "current_price": 235.2,
+      "current_price": 238.35,
       "cost_basis": 17999.99,
-      "market_value": 15868.651928,
-      "unrealized_pl": -2131.338072,
-      "unrealized_plpc": -11.841
-    },
-    {
-      "symbol": "WDC",
-      "name": "",
-      "qty": 38.158812306,
-      "avg_entry_price": 419.3,
-      "current_price": 373.2,
-      "cost_basis": 15999.99,
-      "market_value": 14240.868753,
-      "unrealized_pl": -1759.121247,
-      "unrealized_plpc": -10.995000000000001
+      "market_value": 16081.178517,
+      "unrealized_pl": -1918.811483,
+      "unrealized_plpc": -10.66
     }
   ],
   "adaptive_target_band_pct": [
@@ -221,6 +188,6 @@
     15.0
   ],
   "completed_trades": 53,
-  "last_adjustment": "no change this run",
+  "last_adjustment": "3 bad_news exit(s) (GDDY, STX, WDC)",
   "conviction_trade_dollars_max": 100000.0
 }

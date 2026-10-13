@@ -3,7 +3,7 @@
   "sell_threshold_pct": 12.0,
   "trade_dollars": 16000.0,
   "completed_trades": 53,
-  "last_adjustment": "no change this run",
-  "updated_utc": "2026-10-13T02:43:29+00:00",
-  "risk_exits": 62
+  "last_adjustment": "3 bad_news exit(s) (GDDY, STX, WDC)",
+  "updated_utc": "2026-10-13T19:48:18+00:00",
+  "risk_exits": 65
 }
