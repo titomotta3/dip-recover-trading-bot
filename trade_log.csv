@@ -414,3 +414,8 @@ timestamp_utc,action,symbol,detail
 2026-10-08T19:11:31+00:00,BUY,BE,drop=-7.87% notional=$20000.00 news=clear(10)
 2026-10-09T18:41:43+00:00,SELL,CMG,gain=-9.17% qty=577.86737937 reason=bad_news:warns
 2026-10-09T18:42:08+00:00,BUY,HPQ,drop=-6.78% notional=$20000.00 news=none
+2026-10-13T19:46:48+00:00,SELL,CAT,gain=-4.79% qty=24.668644161 reason=bad_news:plunges
+2026-10-13T19:46:49+00:00,SELL,JBL,gain=11.10% qty=69.825053241 reason=target_reached
+2026-10-13T19:46:49+00:00,SELL,MAR,gain=7.14% qty=28.865831481 reason=target_reached
+2026-10-13T19:46:49+00:00,SELL,STX,gain=-12.51% qty=23.718119293 reason=stop_loss
+2026-10-13T19:46:49+00:00,SELL,WDC,gain=-10.01% qty=47.763451388 reason=bad_news:sued
