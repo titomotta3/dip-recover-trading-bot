@@ -244,3 +244,13 @@ timestamp_utc,action,symbol,detail
 2026-10-13T19:47:56+00:00,SELL,GDDY,gain=8.54% qty=167.732361882 reason=bad_news:downgrade
 2026-10-13T19:47:57+00:00,SELL,STX,gain=-11.16% qty=24.064751142 reason=bad_news:sued
 2026-10-13T19:47:57+00:00,SELL,WDC,gain=-10.08% qty=38.158812306 reason=bad_news:sued
+2026-10-14T17:51:29+00:00,SELL,COHR,gain=-13.43% qty=52.647132374 reason=stop_loss
+2026-10-14T17:51:29+00:00,SELL,GLW,gain=-12.16% qty=125.651755984 reason=stop_loss
+2026-10-14T17:51:29+00:00,SELL,VRT,gain=-17.07% qty=67.468758199 reason=stop_loss
+2026-10-14T17:52:06+00:00,BUY,AKAM,drop=-9.37% notional=$16000.00 news=clear(1)
+2026-10-14T17:52:06+00:00,BUY,BE,drop=-9.44% notional=$16000.00 news=clear(2)
+2026-10-14T17:52:06+00:00,BUY,CIEN,drop=-9.38% notional=$16000.00 news=clear(1)
+2026-10-14T17:52:06+00:00,BUY,COHR,drop=-9.26% notional=$16000.00 news=clear(1)
+2026-10-14T17:52:06+00:00,BUY,P,drop=-9.20% notional=$16000.00 news=clear(1)
+2026-10-14T17:52:07+00:00,BUY,LITE,drop=-8.41% notional=$16000.00 news=clear(5)
+2026-10-14T17:52:07+00:00,BUY,HOOD,drop=-8.70% notional=$16000.00 news=clear(8)
