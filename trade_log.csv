@@ -419,3 +419,9 @@ timestamp_utc,action,symbol,detail
 2026-10-13T19:46:49+00:00,SELL,MAR,gain=7.14% qty=28.865831481 reason=target_reached
 2026-10-13T19:46:49+00:00,SELL,STX,gain=-12.51% qty=23.718119293 reason=stop_loss
 2026-10-13T19:46:49+00:00,SELL,WDC,gain=-10.01% qty=47.763451388 reason=bad_news:sued
+2026-10-14T17:50:13+00:00,SELL,AKAM,gain=-19.41% qty=177.634813499 reason=stop_loss
+2026-10-14T17:50:58+00:00,BUY,AKAM,drop=-9.27% notional=$20000.00 news=clear(1)
+2026-10-14T17:50:59+00:00,BUY,ARE,drop=-5.26% notional=$20000.00 news=none
+2026-10-14T17:50:59+00:00,BUY,CVNA,drop=-6.18% notional=$20000.00 news=clear(2)
+2026-10-14T17:50:59+00:00,BUY,CIEN,drop=-9.33% notional=$20000.00 news=clear(1)
+2026-10-14T17:50:59+00:00,BUY,COHR,drop=-9.33% notional=$20000.00 news=clear(1)
