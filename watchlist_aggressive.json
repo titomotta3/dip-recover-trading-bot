@@ -1,139 +1,22 @@
 {
-  "updated_utc": "2026-10-14T17:52:07+00:00",
+  "updated_utc": "2026-10-15T17:40:57+00:00",
   "drop_threshold_pct": -8.0,
   "high_conviction_pct": -11.0,
   "stocks": [
     {
-      "symbol": "SKYD",
-      "name": "Skydance Corporation",
-      "sector": "Communication Services",
-      "pct_change": -26.86084277234242,
-      "conviction": "high",
-      "status": "blocked_news",
-      "news_bad": true
-    },
-    {
       "symbol": "DELL",
       "name": "Dell Technologies",
       "sector": "Information Technology",
-      "pct_change": -11.773904753294152,
-      "conviction": "high",
-      "status": "blocked_news",
-      "news_bad": true
-    },
-    {
-      "symbol": "FLEX",
-      "name": "Flex Ltd.",
-      "sector": "Information Technology",
-      "pct_change": -9.90259379466263,
+      "pct_change": -8.556295568633459,
       "conviction": "buy_signal",
       "status": "blocked_news",
       "news_bad": true
     },
     {
-      "symbol": "BE",
-      "name": "Bloom Energy",
+      "symbol": "VRT",
+      "name": "Vertiv",
       "sector": "Industrials",
-      "pct_change": -9.443316308977577,
-      "conviction": "buy_signal",
-      "status": "bought",
-      "news_bad": false
-    },
-    {
-      "symbol": "CIEN",
-      "name": "Ciena",
-      "sector": "Information Technology",
-      "pct_change": -9.384361204352915,
-      "conviction": "buy_signal",
-      "status": "bought",
-      "news_bad": false
-    },
-    {
-      "symbol": "AKAM",
-      "name": "Akamai Technologies",
-      "sector": "Information Technology",
-      "pct_change": -9.36655717178735,
-      "conviction": "buy_signal",
-      "status": "bought",
-      "news_bad": false
-    },
-    {
-      "symbol": "COHR",
-      "name": "Coherent Corp.",
-      "sector": "Information Technology",
-      "pct_change": -9.25926101326396,
-      "conviction": "buy_signal",
-      "status": "bought",
-      "news_bad": false
-    },
-    {
-      "symbol": "P",
-      "name": "Everpure",
-      "sector": "Information Technology",
-      "pct_change": -9.196023091251583,
-      "conviction": "buy_signal",
-      "status": "bought",
-      "news_bad": false
-    },
-    {
-      "symbol": "HOOD",
-      "name": "Robinhood Markets",
-      "sector": "Financials",
-      "pct_change": -8.69525268987594,
-      "conviction": "buy_signal",
-      "status": "bought",
-      "news_bad": false
-    },
-    {
-      "symbol": "ORCL",
-      "name": "Oracle Corporation",
-      "sector": "Information Technology",
-      "pct_change": -8.694132132378522,
-      "conviction": "buy_signal",
-      "status": "blocked_news",
-      "news_bad": true
-    },
-    {
-      "symbol": "LITE",
-      "name": "Lumentum",
-      "sector": "Information Technology",
-      "pct_change": -8.412533634541997,
-      "conviction": "buy_signal",
-      "status": "bought",
-      "news_bad": false
-    },
-    {
-      "symbol": "HPE",
-      "name": "Hewlett Packard Enterprise",
-      "sector": "Information Technology",
-      "pct_change": -7.847693507885076,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "SMCI",
-      "name": "Supermicro",
-      "sector": "Information Technology",
-      "pct_change": -7.844890326720476,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "GNRC",
-      "name": "Generac",
-      "sector": "Industrials",
-      "pct_change": -7.618179784272089,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "GEV",
-      "name": "GE Vernova",
-      "sector": "Industrials",
-      "pct_change": -7.383172633071555,
+      "pct_change": -6.377061704931876,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
