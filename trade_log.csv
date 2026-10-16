@@ -431,3 +431,5 @@ timestamp_utc,action,symbol,detail
 2026-10-15T17:39:56+00:00,BUY,FIX,drop=-5.13% notional=$20000.00 news=clear(1)
 2026-10-16T17:12:29+00:00,SELL,CBOE,gain=7.50% qty=68.801781967 reason=target_reached
 2026-10-16T17:13:05+00:00,BUY,CRWD,drop=-7.40% notional=$20000.00 news=clear(8)
+2026-10-16T19:58:31+00:00,SELL,ALL,gain=7.78% qty=87.183914559 reason=target_reached
+2026-10-16T19:59:06+00:00,BUY,AMD,drop=-5.84% notional=$20000.00 news=clear(9)
