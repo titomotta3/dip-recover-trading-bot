@@ -1,22 +1,103 @@
 {
-  "updated_utc": "2026-10-15T17:40:57+00:00",
+  "updated_utc": "2026-10-16T17:13:58+00:00",
   "drop_threshold_pct": -8.0,
   "high_conviction_pct": -11.0,
   "stocks": [
     {
-      "symbol": "DELL",
-      "name": "Dell Technologies",
+      "symbol": "TWLO",
+      "name": "Twilio",
       "sector": "Information Technology",
-      "pct_change": -8.556295568633459,
-      "conviction": "buy_signal",
-      "status": "blocked_news",
-      "news_bad": true
+      "pct_change": -11.088144791288894,
+      "conviction": "high",
+      "status": "bought",
+      "news_bad": false
     },
     {
-      "symbol": "VRT",
-      "name": "Vertiv",
-      "sector": "Industrials",
-      "pct_change": -6.377061704931876,
+      "symbol": "MRNA",
+      "name": "Moderna",
+      "sector": "Health Care",
+      "pct_change": -9.54756948458972,
+      "conviction": "buy_signal",
+      "status": "bought",
+      "news_bad": false
+    },
+    {
+      "symbol": "SMCI",
+      "name": "Supermicro",
+      "sector": "Information Technology",
+      "pct_change": -9.204900336821787,
+      "conviction": "buy_signal",
+      "status": "bought",
+      "news_bad": false
+    },
+    {
+      "symbol": "FTNT",
+      "name": "Fortinet",
+      "sector": "Information Technology",
+      "pct_change": -8.006707794069515,
+      "conviction": "buy_signal",
+      "status": "bought",
+      "news_bad": false
+    },
+    {
+      "symbol": "PANW",
+      "name": "Palo Alto Networks",
+      "sector": "Information Technology",
+      "pct_change": -7.995808458694535,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "CRWD",
+      "name": "CrowdStrike",
+      "sector": "Information Technology",
+      "pct_change": -7.570435496570408,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "DDOG",
+      "name": "Datadog",
+      "sector": "Information Technology",
+      "pct_change": -7.402819423048709,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "PLTR",
+      "name": "Palantir Technologies",
+      "sector": "Information Technology",
+      "pct_change": -7.369074262585723,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "FLEX",
+      "name": "Flex Ltd.",
+      "sector": "Information Technology",
+      "pct_change": -6.619285932047113,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "HPE",
+      "name": "Hewlett Packard Enterprise",
+      "sector": "Information Technology",
+      "pct_change": -6.225484324379259,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "P",
+      "name": "Everpure",
+      "sector": "Information Technology",
+      "pct_change": -6.094450993548529,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
