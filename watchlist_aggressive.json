@@ -1,40 +1,13 @@
 {
-  "updated_utc": "2026-10-16T17:13:58+00:00",
+  "updated_utc": "2026-10-16T20:00:22+00:00",
   "drop_threshold_pct": -8.0,
   "high_conviction_pct": -11.0,
   "stocks": [
     {
-      "symbol": "TWLO",
-      "name": "Twilio",
+      "symbol": "FLEX",
+      "name": "Flex Ltd.",
       "sector": "Information Technology",
-      "pct_change": -11.088144791288894,
-      "conviction": "high",
-      "status": "bought",
-      "news_bad": false
-    },
-    {
-      "symbol": "MRNA",
-      "name": "Moderna",
-      "sector": "Health Care",
-      "pct_change": -9.54756948458972,
-      "conviction": "buy_signal",
-      "status": "bought",
-      "news_bad": false
-    },
-    {
-      "symbol": "SMCI",
-      "name": "Supermicro",
-      "sector": "Information Technology",
-      "pct_change": -9.204900336821787,
-      "conviction": "buy_signal",
-      "status": "bought",
-      "news_bad": false
-    },
-    {
-      "symbol": "FTNT",
-      "name": "Fortinet",
-      "sector": "Information Technology",
-      "pct_change": -8.006707794069515,
+      "pct_change": -8.162437477692734,
       "conviction": "buy_signal",
       "status": "bought",
       "news_bad": false
@@ -43,25 +16,16 @@
       "symbol": "PANW",
       "name": "Palo Alto Networks",
       "sector": "Information Technology",
-      "pct_change": -7.995808458694535,
+      "pct_change": -7.583651769095658,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
     },
     {
-      "symbol": "CRWD",
-      "name": "CrowdStrike",
+      "symbol": "STX",
+      "name": "Seagate Technology",
       "sector": "Information Technology",
-      "pct_change": -7.570435496570408,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "DDOG",
-      "name": "Datadog",
-      "sector": "Information Technology",
-      "pct_change": -7.402819423048709,
+      "pct_change": -7.498442115203338,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
@@ -70,25 +34,16 @@
       "symbol": "PLTR",
       "name": "Palantir Technologies",
       "sector": "Information Technology",
-      "pct_change": -7.369074262585723,
+      "pct_change": -7.216958214814525,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
     },
     {
-      "symbol": "FLEX",
-      "name": "Flex Ltd.",
+      "symbol": "DDOG",
+      "name": "Datadog",
       "sector": "Information Technology",
-      "pct_change": -6.619285932047113,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "HPE",
-      "name": "Hewlett Packard Enterprise",
-      "sector": "Information Technology",
-      "pct_change": -6.225484324379259,
+      "pct_change": -7.192485970510563,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
@@ -97,7 +52,34 @@
       "symbol": "P",
       "name": "Everpure",
       "sector": "Information Technology",
-      "pct_change": -6.094450993548529,
+      "pct_change": -7.068960350252136,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "CRWD",
+      "name": "CrowdStrike",
+      "sector": "Information Technology",
+      "pct_change": -7.053195192954391,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "WDC",
+      "name": "Western Digital",
+      "sector": "Information Technology",
+      "pct_change": -6.859310245395737,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "SNDK",
+      "name": "Sandisk",
+      "sector": "Information Technology",
+      "pct_change": -6.848856866880842,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
