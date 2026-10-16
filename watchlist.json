@@ -1,76 +1,76 @@
 {
-  "updated_utc": "2026-10-15T17:39:57+00:00",
+  "updated_utc": "2026-10-16T17:13:07+00:00",
   "drop_threshold_pct": -5.0,
   "high_conviction_pct": -8.0,
   "stocks": [
     {
-      "symbol": "DELL",
-      "name": "Dell Technologies",
+      "symbol": "TWLO",
+      "name": "Twilio",
       "sector": "Information Technology",
-      "pct_change": -8.585825995788234,
+      "pct_change": -11.10094788671348,
       "conviction": "high",
+      "status": "order_failed",
+      "news_bad": false
+    },
+    {
+      "symbol": "MRNA",
+      "name": "Moderna",
+      "sector": "Health Care",
+      "pct_change": -9.378432421049155,
+      "conviction": "high",
+      "status": "order_failed",
+      "news_bad": false
+    },
+    {
+      "symbol": "SMCI",
+      "name": "Supermicro",
+      "sector": "Information Technology",
+      "pct_change": -9.07665845566401,
+      "conviction": "high",
+      "status": "order_failed",
+      "news_bad": false
+    },
+    {
+      "symbol": "PANW",
+      "name": "Palo Alto Networks",
+      "sector": "Information Technology",
+      "pct_change": -7.929345132661672,
+      "conviction": "buy_signal",
       "status": "blocked_news",
       "news_bad": true
     },
     {
-      "symbol": "P",
-      "name": "Everpure",
+      "symbol": "FTNT",
+      "name": "Fortinet",
       "sector": "Information Technology",
-      "pct_change": -7.3927530622454825,
+      "pct_change": -7.8665259032010155,
       "conviction": "buy_signal",
       "status": "order_failed",
       "news_bad": false
     },
     {
-      "symbol": "VRT",
-      "name": "Vertiv",
-      "sector": "Industrials",
-      "pct_change": -6.229007010496948,
-      "conviction": "buy_signal",
-      "status": "order_failed",
-      "news_bad": false
-    },
-    {
-      "symbol": "HPE",
-      "name": "Hewlett Packard Enterprise",
+      "symbol": "CRWD",
+      "name": "CrowdStrike",
       "sector": "Information Technology",
-      "pct_change": -6.0766899815932245,
-      "conviction": "buy_signal",
-      "status": "blocked_news",
-      "news_bad": true
-    },
-    {
-      "symbol": "ANET",
-      "name": "Arista Networks",
-      "sector": "Information Technology",
-      "pct_change": -5.935163029410766,
+      "pct_change": -7.3966598744458185,
       "conviction": "buy_signal",
       "status": "bought",
       "news_bad": false
     },
     {
-      "symbol": "KEYS",
-      "name": "Keysight Technologies",
+      "symbol": "PLTR",
+      "name": "Palantir Technologies",
       "sector": "Information Technology",
-      "pct_change": -5.904309189271111,
+      "pct_change": -7.3316693008689215,
       "conviction": "buy_signal",
-      "status": "order_failed",
-      "news_bad": false
+      "status": "blocked_news",
+      "news_bad": true
     },
     {
-      "symbol": "TER",
-      "name": "Teradyne",
+      "symbol": "DDOG",
+      "name": "Datadog",
       "sector": "Information Technology",
-      "pct_change": -5.686624277368309,
-      "conviction": "buy_signal",
-      "status": "order_failed",
-      "news_bad": false
-    },
-    {
-      "symbol": "STX",
-      "name": "Seagate Technology",
-      "sector": "Information Technology",
-      "pct_change": -5.3984303167688275,
+      "pct_change": -7.325823430164319,
       "conviction": "buy_signal",
       "status": "order_failed",
       "news_bad": false
@@ -79,61 +79,61 @@
       "symbol": "FLEX",
       "name": "Flex Ltd.",
       "sector": "Information Technology",
-      "pct_change": -5.161933616283645,
-      "conviction": "buy_signal",
-      "status": "blocked_news",
-      "news_bad": true
-    },
-    {
-      "symbol": "FIX",
-      "name": "Comfort Systems USA",
-      "sector": "Industrials",
-      "pct_change": -5.129798677582218,
-      "conviction": "buy_signal",
-      "status": "bought",
-      "news_bad": false
-    },
-    {
-      "symbol": "LITE",
-      "name": "Lumentum",
-      "sector": "Information Technology",
-      "pct_change": -5.029957840643994,
+      "pct_change": -6.568529158074239,
       "conviction": "buy_signal",
       "status": "order_failed",
       "news_bad": false
     },
     {
-      "symbol": "WDC",
-      "name": "Western Digital",
+      "symbol": "HPE",
+      "name": "Hewlett Packard Enterprise",
       "sector": "Information Technology",
-      "pct_change": -4.892887158134611,
+      "pct_change": -6.140205054125693,
+      "conviction": "buy_signal",
+      "status": "blocked_news",
+      "news_bad": true
+    },
+    {
+      "symbol": "P",
+      "name": "Everpure",
+      "sector": "Information Technology",
+      "pct_change": -6.011991761626135,
+      "conviction": "buy_signal",
+      "status": "order_failed",
+      "news_bad": false
+    },
+    {
+      "symbol": "STX",
+      "name": "Seagate Technology",
+      "sector": "Information Technology",
+      "pct_change": -5.764248847721874,
+      "conviction": "buy_signal",
+      "status": "order_failed",
+      "news_bad": false
+    },
+    {
+      "symbol": "NOW",
+      "name": "ServiceNow",
+      "sector": "Information Technology",
+      "pct_change": -5.4183231169872625,
+      "conviction": "buy_signal",
+      "status": "order_failed",
+      "news_bad": false
+    },
+    {
+      "symbol": "SNDK",
+      "name": "Sandisk",
+      "sector": "Information Technology",
+      "pct_change": -4.970495202927034,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
     },
     {
-      "symbol": "JCI",
-      "name": "Johnson Controls",
-      "sector": "Industrials",
-      "pct_change": -4.8707707510118805,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "LRCX",
-      "name": "Lam Research",
-      "sector": "Information Technology",
-      "pct_change": -4.43155801631497,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "SMCI",
-      "name": "Supermicro",
-      "sector": "Information Technology",
-      "pct_change": -4.3532648606878475,
+      "symbol": "SKYD",
+      "name": "Skydance Corporation",
+      "sector": "Communication Services",
+      "pct_change": -4.889807271096497,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
