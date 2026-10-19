@@ -433,3 +433,5 @@ timestamp_utc,action,symbol,detail
 2026-10-16T17:13:05+00:00,BUY,CRWD,drop=-7.40% notional=$20000.00 news=clear(8)
 2026-10-16T19:58:31+00:00,SELL,ALL,gain=7.78% qty=87.183914559 reason=target_reached
 2026-10-16T19:59:06+00:00,BUY,AMD,drop=-5.84% notional=$20000.00 news=clear(9)
+2026-10-19T19:07:05+00:00,SELL,AMP,"gain=-5.21% qty=39.339857196 reason=bad_news:downgrade,downgraded"
+2026-10-19T19:07:07+00:00,SELL,MSCI,gain=1.20% qty=18.023520718 reason=max_hold_time(held 90.2d)
