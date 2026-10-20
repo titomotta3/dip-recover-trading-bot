@@ -1,9 +1,9 @@
 {
   "drop_threshold_pct": -8.0,
-  "sell_threshold_pct": 12.0,
+  "sell_threshold_pct": 11.5,
   "trade_dollars": 16000.0,
-  "completed_trades": 54,
-  "last_adjustment": "1 max_hold_time exit(s) (MCO)",
-  "updated_utc": "2026-10-19T22:54:00+00:00",
+  "completed_trades": 56,
+  "last_adjustment": "ADSK barely cleared target -> lowered sell target to 11.5%",
+  "updated_utc": "2026-10-20T17:50:50+00:00",
   "risk_exits": 71
 }

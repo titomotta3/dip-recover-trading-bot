@@ -263,3 +263,6 @@ timestamp_utc,action,symbol,detail
 2026-10-16T17:13:58+00:00,BUY,TWLO,drop=-11.09% notional=$32000.00 news=clear(4) conviction=HIGH
 2026-10-16T20:00:22+00:00,BUY,FLEX,drop=-8.16% notional=$16000.00 news=clear(1)
 2026-10-19T19:08:17+00:00,SELL,MCO,gain=-1.77% qty=25.527896908 reason=max_hold_time(held 90.0d)
+2026-10-20T17:50:19+00:00,SELL,ADSK,gain=12.16% qty=82.534687514 reason=target_reached
+2026-10-20T17:50:19+00:00,SELL,MRNA,gain=12.78% qty=74.766308411 reason=target_reached
+2026-10-20T17:50:50+00:00,BUY,GM,drop=-8.44% notional=$16000.00 news=clear(10)
