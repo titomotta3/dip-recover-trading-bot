@@ -1,76 +1,49 @@
 {
-  "updated_utc": "2026-10-19T19:07:51+00:00",
+  "updated_utc": "2026-10-20T17:49:53+00:00",
   "drop_threshold_pct": -5.0,
   "high_conviction_pct": -8.0,
   "stocks": [
     {
-      "symbol": "MOS",
-      "name": "Mosaic Company (The)",
-      "sector": "Materials",
-      "pct_change": -4.330502376584812,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
+      "symbol": "GM",
+      "name": "General Motors",
+      "sector": "Consumer Discretionary",
+      "pct_change": -8.338370424022848,
+      "conviction": "high",
+      "status": "bought",
+      "news_bad": false
     },
     {
-      "symbol": "NRG",
-      "name": "NRG Energy",
-      "sector": "Utilities",
-      "pct_change": -4.028915956795934,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "ES",
-      "name": "Eversource Energy",
-      "sector": "Utilities",
-      "pct_change": -4.001489130024173,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "AMP",
-      "name": "Ameriprise Financial",
-      "sector": "Financials",
-      "pct_change": -3.792930427354573,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "FDXF",
-      "name": "FedEx Freight",
+      "symbol": "HWM",
+      "name": "Howmet Aerospace",
       "sector": "Industrials",
-      "pct_change": -3.4448391266570484,
+      "pct_change": -5.844657856518422,
+      "conviction": "buy_signal",
+      "status": "order_failed",
+      "news_bad": false
+    },
+    {
+      "symbol": "DVA",
+      "name": "DaVita",
+      "sector": "Health Care",
+      "pct_change": -5.2513408150902405,
+      "conviction": "buy_signal",
+      "status": "bought",
+      "news_bad": false
+    },
+    {
+      "symbol": "PWR",
+      "name": "Quanta Services",
+      "sector": "Industrials",
+      "pct_change": -3.910835628283338,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
     },
     {
-      "symbol": "DOC",
-      "name": "Healthpeak Properties",
-      "sector": "Real Estate",
-      "pct_change": -3.2929400161953803,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "FLEX",
-      "name": "Flex Ltd.",
-      "sector": "Information Technology",
-      "pct_change": -3.205838553204991,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "CEG",
-      "name": "Constellation Energy",
-      "sector": "Utilities",
-      "pct_change": -3.0769820738323657,
+      "symbol": "GE",
+      "name": "GE Aerospace",
+      "sector": "Industrials",
+      "pct_change": -3.8548932683779245,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
