@@ -1,9 +1,9 @@
 {
   "drop_threshold_pct": -8.0,
-  "sell_threshold_pct": 11.5,
+  "sell_threshold_pct": 11.0,
   "trade_dollars": 16000.0,
-  "completed_trades": 56,
-  "last_adjustment": "ADSK barely cleared target -> lowered sell target to 11.5%",
-  "updated_utc": "2026-10-20T23:41:10+00:00",
-  "risk_exits": 71
+  "completed_trades": 57,
+  "last_adjustment": "1 bad_news exit(s) (FTNT); SMCI barely cleared target -> lowered sell target to 11.0%",
+  "updated_utc": "2026-10-21T17:57:19+00:00",
+  "risk_exits": 72
 }

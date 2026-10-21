@@ -266,3 +266,5 @@ timestamp_utc,action,symbol,detail
 2026-10-20T17:50:19+00:00,SELL,ADSK,gain=12.16% qty=82.534687514 reason=target_reached
 2026-10-20T17:50:19+00:00,SELL,MRNA,gain=12.78% qty=74.766308411 reason=target_reached
 2026-10-20T17:50:50+00:00,BUY,GM,drop=-8.44% notional=$16000.00 news=clear(10)
+2026-10-21T17:56:58+00:00,SELL,FTNT,"gain=4.13% qty=95.499522502 reason=bad_news:downgrade,downgraded"
+2026-10-21T17:56:59+00:00,SELL,SMCI,gain=11.61% qty=502.039221838 reason=target_reached
