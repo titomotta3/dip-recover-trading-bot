@@ -1,49 +1,85 @@
 {
-  "updated_utc": "2026-10-20T17:49:53+00:00",
+  "updated_utc": "2026-10-21T17:56:35+00:00",
   "drop_threshold_pct": -5.0,
   "high_conviction_pct": -8.0,
   "stocks": [
     {
-      "symbol": "GM",
-      "name": "General Motors",
-      "sector": "Consumer Discretionary",
-      "pct_change": -8.338370424022848,
-      "conviction": "high",
+      "symbol": "T",
+      "name": "AT&T",
+      "sector": "Communication Services",
+      "pct_change": -6.084539848071782,
+      "conviction": "buy_signal",
       "status": "bought",
       "news_bad": false
     },
     {
-      "symbol": "HWM",
-      "name": "Howmet Aerospace",
-      "sector": "Industrials",
-      "pct_change": -5.844657856518422,
-      "conviction": "buy_signal",
-      "status": "order_failed",
-      "news_bad": false
-    },
-    {
-      "symbol": "DVA",
-      "name": "DaVita",
+      "symbol": "DXCM",
+      "name": "Dexcom",
       "sector": "Health Care",
-      "pct_change": -5.2513408150902405,
+      "pct_change": -5.528339143769065,
       "conviction": "buy_signal",
       "status": "bought",
       "news_bad": false
     },
     {
-      "symbol": "PWR",
-      "name": "Quanta Services",
-      "sector": "Industrials",
-      "pct_change": -3.910835628283338,
+      "symbol": "CMG",
+      "name": "Chipotle Mexican Grill",
+      "sector": "Consumer Discretionary",
+      "pct_change": -5.000334831357893,
+      "conviction": "buy_signal",
+      "status": "blocked_news",
+      "news_bad": true
+    },
+    {
+      "symbol": "NFLX",
+      "name": "Netflix",
+      "sector": "Communication Services",
+      "pct_change": -4.41840668836529,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
     },
     {
-      "symbol": "GE",
-      "name": "GE Aerospace",
-      "sector": "Industrials",
-      "pct_change": -3.8548932683779245,
+      "symbol": "EXPE",
+      "name": "Expedia Group",
+      "sector": "Consumer Discretionary",
+      "pct_change": -4.078007131997146,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "ABT",
+      "name": "Abbott Laboratories",
+      "sector": "Health Care",
+      "pct_change": -3.7188849898341756,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "BKNG",
+      "name": "Booking Holdings",
+      "sector": "Consumer Discretionary",
+      "pct_change": -3.404100715828229,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "CHTR",
+      "name": "Charter Communications",
+      "sector": "Communication Services",
+      "pct_change": -3.2900074137496347,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "CLX",
+      "name": "Clorox",
+      "sector": "Consumer Staples",
+      "pct_change": -3.0417337055931273,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null

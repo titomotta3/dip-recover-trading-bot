@@ -438,3 +438,8 @@ timestamp_utc,action,symbol,detail
 2026-10-20T17:49:28+00:00,SELL,CDW,gain=8.16% qty=138.446559601 reason=target_reached
 2026-10-20T17:49:52+00:00,BUY,DVA,drop=-5.25% notional=$20000.00 news=clear(2)
 2026-10-20T17:49:52+00:00,BUY,GM,drop=-8.34% notional=$20000.00 news=clear(10)
+2026-10-21T17:56:09+00:00,SELL,DVA,gain=-1.83% qty=111.594632295 reason=bad_news:sued
+2026-10-21T17:56:10+00:00,SELL,FANG,gain=2.57% qty=102.354094165 reason=bad_news:lawsuit
+2026-10-21T17:56:11+00:00,SELL,TSN,gain=7.68% qty=385.059491721 reason=target_reached
+2026-10-21T17:56:35+00:00,BUY,T,drop=-6.08% notional=$20000.00 news=clear(10)
+2026-10-21T17:56:35+00:00,BUY,DXCM,drop=-5.53% notional=$20000.00 news=clear(1)
