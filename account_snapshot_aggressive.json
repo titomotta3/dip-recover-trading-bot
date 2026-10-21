@@ -1,7 +1,7 @@
 {
-  "updated_utc": "2026-10-21T17:57:19+00:00",
+  "updated_utc": "2026-10-21T21:27:06+00:00",
   "paper": true,
-  "equity": 556013.97,
+  "equity": 556345.77,
   "cash": 186727.79,
   "buying_power": 186727.79,
   "starting_equity": 500000.0,
@@ -19,190 +19,190 @@
   "positions": [
     {
       "symbol": "AKAM",
-      "name": "Akamai Technologies",
+      "name": "",
       "qty": 176.644623537,
       "avg_entry_price": 90.577283,
-      "current_price": 90.43,
+      "current_price": 90.31,
       "cost_basis": 15999.990057,
-      "market_value": 15973.973306,
-      "unrealized_pl": -26.016751,
-      "unrealized_plpc": -0.163
+      "market_value": 15952.775952,
+      "unrealized_pl": -47.214105,
+      "unrealized_plpc": -0.295
     },
     {
       "symbol": "APH",
-      "name": "Amphenol",
+      "name": "",
       "qty": 435.413522012,
       "avg_entry_price": 82.68,
-      "current_price": 79.835,
+      "current_price": 79.3003,
       "cost_basis": 35999.99,
-      "market_value": 34761.23853,
-      "unrealized_pl": -1238.75147,
-      "unrealized_plpc": -3.4410000000000003
+      "market_value": 34528.42292,
+      "unrealized_pl": -1471.56708,
+      "unrealized_plpc": -4.088
     },
     {
       "symbol": "AXON",
-      "name": "Axon Enterprise",
+      "name": "",
       "qty": 82.451536805,
       "avg_entry_price": 436.62,
-      "current_price": 395.695,
+      "current_price": 401.0,
       "cost_basis": 35999.99,
-      "market_value": 32625.660856,
-      "unrealized_pl": -3374.329144,
-      "unrealized_plpc": -9.373
+      "market_value": 33063.066259,
+      "unrealized_pl": -2936.923741,
+      "unrealized_plpc": -8.158
     },
     {
       "symbol": "BE",
-      "name": "Bloom Energy",
+      "name": "",
       "qty": 67.010051514,
       "avg_entry_price": 238.77,
-      "current_price": 240.365,
+      "current_price": 242.33,
       "cost_basis": 15999.99,
-      "market_value": 16106.871032,
-      "unrealized_pl": 106.881032,
-      "unrealized_plpc": 0.668
+      "market_value": 16238.545783,
+      "unrealized_pl": 238.555783,
+      "unrealized_plpc": 1.4909999999999999
     },
     {
       "symbol": "CASY",
-      "name": "Casey's",
+      "name": "",
       "qty": 58.027063185,
       "avg_entry_price": 620.4,
-      "current_price": 691.41,
+      "current_price": 695.19,
       "cost_basis": 35999.99,
-      "market_value": 40120.491757,
-      "unrealized_pl": 4120.501757,
-      "unrealized_plpc": 11.446000000000002
+      "market_value": 40339.834056,
+      "unrealized_pl": 4339.844056,
+      "unrealized_plpc": 12.055
     },
     {
       "symbol": "CIEN",
-      "name": "Ciena",
+      "name": "",
       "qty": 44.072250991,
       "avg_entry_price": 363.04,
-      "current_price": 360.7,
+      "current_price": 362.6007,
       "cost_basis": 15999.99,
-      "market_value": 15896.860932,
-      "unrealized_pl": -103.129068,
-      "unrealized_plpc": -0.645
+      "market_value": 15980.62906,
+      "unrealized_pl": -19.36094,
+      "unrealized_plpc": -0.121
     },
     {
       "symbol": "COHR",
-      "name": "Coherent Corp.",
+      "name": "",
       "qty": 60.809415251,
       "avg_entry_price": 263.116985,
-      "current_price": 237.225,
+      "current_price": 237.9,
       "cost_basis": 15999.99,
-      "market_value": 14425.513533,
-      "unrealized_pl": -1574.476467,
-      "unrealized_plpc": -9.84
+      "market_value": 14466.559888,
+      "unrealized_pl": -1533.430112,
+      "unrealized_plpc": -9.584
     },
     {
       "symbol": "FLEX",
-      "name": "Flex Ltd.",
+      "name": "",
       "qty": 172.952297974,
       "avg_entry_price": 92.511,
-      "current_price": 86.98,
+      "current_price": 86.3,
       "cost_basis": 15999.990038,
-      "market_value": 15043.390878,
-      "unrealized_pl": -956.59916,
-      "unrealized_plpc": -5.979
+      "market_value": 14925.783315,
+      "unrealized_pl": -1074.206723,
+      "unrealized_plpc": -6.714
     },
     {
       "symbol": "GM",
-      "name": "General Motors",
+      "name": "",
       "qty": 211.165236901,
       "avg_entry_price": 75.77,
-      "current_price": 76.23,
+      "current_price": 76.05,
       "cost_basis": 15999.99,
-      "market_value": 16097.126009,
-      "unrealized_pl": 97.136009,
-      "unrealized_plpc": 0.607
+      "market_value": 16059.116266,
+      "unrealized_pl": 59.126266,
+      "unrealized_plpc": 0.37
     },
     {
       "symbol": "HWM",
-      "name": "Howmet Aerospace",
+      "name": "",
       "qty": 77.898429047,
       "avg_entry_price": 231.07,
-      "current_price": 206.33,
+      "current_price": 208.15,
       "cost_basis": 17999.99,
-      "market_value": 16072.782865,
-      "unrealized_pl": -1927.207135,
-      "unrealized_plpc": -10.707
+      "market_value": 16214.558006,
+      "unrealized_pl": -1785.431994,
+      "unrealized_plpc": -9.919
     },
     {
       "symbol": "JBL",
-      "name": "Jabil",
+      "name": "",
       "qty": 55.902973341,
       "avg_entry_price": 286.21,
-      "current_price": 282.57,
+      "current_price": 279.9831,
       "cost_basis": 15999.99,
-      "market_value": 15796.503177,
-      "unrealized_pl": -203.486823,
-      "unrealized_plpc": -1.272
+      "market_value": 15651.887775,
+      "unrealized_pl": -348.102225,
+      "unrealized_plpc": -2.176
     },
     {
       "symbol": "LITE",
-      "name": "Lumentum",
+      "name": "",
       "qty": 17.669784649,
       "avg_entry_price": 905.5,
-      "current_price": 854.15,
+      "current_price": 855.0,
       "cost_basis": 15999.99,
-      "market_value": 15092.646558,
-      "unrealized_pl": -907.343442,
-      "unrealized_plpc": -5.671
+      "market_value": 15107.665875,
+      "unrealized_pl": -892.324125,
+      "unrealized_plpc": -5.577
     },
     {
       "symbol": "MNST",
-      "name": "Monster Beverage",
+      "name": "",
       "qty": 483.941706995,
       "avg_entry_price": 45.46,
-      "current_price": 46.805,
+      "current_price": 46.32,
       "cost_basis": 21999.99,
-      "market_value": 22650.891596,
-      "unrealized_pl": 650.901596,
-      "unrealized_plpc": 2.959
+      "market_value": 22416.179868,
+      "unrealized_pl": 416.189868,
+      "unrealized_plpc": 1.892
     },
     {
       "symbol": "MSCI",
-      "name": "MSCI",
+      "name": "",
       "qty": 44.633275012,
       "avg_entry_price": 560.12,
-      "current_price": 601.975,
+      "current_price": 604.46,
       "cost_basis": 24999.99,
-      "market_value": 26868.115725,
-      "unrealized_pl": 1868.125725,
-      "unrealized_plpc": 7.473000000000001
+      "market_value": 26979.029414,
+      "unrealized_pl": 1979.039414,
+      "unrealized_plpc": 7.9159999999999995
     },
     {
       "symbol": "PAYX",
-      "name": "Paychex",
+      "name": "",
       "qty": 151.2000567,
       "avg_entry_price": 105.82,
-      "current_price": 112.71,
+      "current_price": 112.5,
       "cost_basis": 15999.99,
-      "market_value": 17041.758391,
-      "unrealized_pl": 1041.768391,
-      "unrealized_plpc": 6.511
+      "market_value": 17010.006379,
+      "unrealized_pl": 1010.016379,
+      "unrealized_plpc": 6.313000000000001
     },
     {
       "symbol": "SYK",
-      "name": "Stryker Corporation",
+      "name": "",
       "qty": 65.134607034,
       "avg_entry_price": 276.350635,
-      "current_price": 297.34,
+      "current_price": 297.6,
       "cost_basis": 17999.990014,
-      "market_value": 19367.124055,
-      "unrealized_pl": 1367.134041,
-      "unrealized_plpc": 7.595000000000001
+      "market_value": 19384.059053,
+      "unrealized_pl": 1384.069039,
+      "unrealized_plpc": 7.689
     },
     {
       "symbol": "TWLO",
-      "name": "Twilio",
+      "name": "",
       "qty": 131.443787225,
       "avg_entry_price": 243.45,
-      "current_price": 268.9,
+      "current_price": 268.5548,
       "cost_basis": 31999.99,
-      "market_value": 35345.234385,
-      "unrealized_pl": 3345.244385,
-      "unrealized_plpc": 10.453999999999999
+      "market_value": 35299.859989,
+      "unrealized_pl": 3299.869989,
+      "unrealized_plpc": 10.312000000000001
     }
   ],
   "adaptive_target_band_pct": [
