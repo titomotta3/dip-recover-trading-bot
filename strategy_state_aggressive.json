@@ -4,6 +4,6 @@
   "trade_dollars": 16000.0,
   "completed_trades": 60,
   "last_adjustment": "1 bad_news exit(s) (APH); 4 stop_loss exit(s) (COHR, FLEX, HWM, LITE); CASY cleared target by 3.0pp -> raised sell target to 11.5%; MSCI barely cleared target -> lowered sell target to 11.0%; PAYX barely cleared target -> lowered sell target to 10.5%",
-  "updated_utc": "2026-10-22T21:08:54+00:00",
+  "updated_utc": "2026-10-22T23:59:27+00:00",
   "risk_exits": 77
 }
