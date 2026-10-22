@@ -1,9 +1,9 @@
 {
   "drop_threshold_pct": -8.0,
-  "sell_threshold_pct": 11.0,
+  "sell_threshold_pct": 10.5,
   "trade_dollars": 16000.0,
-  "completed_trades": 57,
-  "last_adjustment": "1 bad_news exit(s) (FTNT); SMCI barely cleared target -> lowered sell target to 11.0%",
-  "updated_utc": "2026-10-22T00:09:07+00:00",
-  "risk_exits": 72
+  "completed_trades": 60,
+  "last_adjustment": "1 bad_news exit(s) (APH); 4 stop_loss exit(s) (COHR, FLEX, HWM, LITE); CASY cleared target by 3.0pp -> raised sell target to 11.5%; MSCI barely cleared target -> lowered sell target to 11.0%; PAYX barely cleared target -> lowered sell target to 10.5%",
+  "updated_utc": "2026-10-22T17:54:45+00:00",
+  "risk_exits": 77
 }
