@@ -1,88 +1,142 @@
 {
-  "updated_utc": "2026-10-21T17:56:35+00:00",
+  "updated_utc": "2026-10-22T17:53:42+00:00",
   "drop_threshold_pct": -5.0,
   "high_conviction_pct": -8.0,
   "stocks": [
     {
-      "symbol": "T",
-      "name": "AT&T",
-      "sector": "Communication Services",
-      "pct_change": -6.084539848071782,
-      "conviction": "buy_signal",
-      "status": "bought",
-      "news_bad": false
-    },
-    {
-      "symbol": "DXCM",
-      "name": "Dexcom",
+      "symbol": "MRNA",
+      "name": "Moderna",
       "sector": "Health Care",
-      "pct_change": -5.528339143769065,
-      "conviction": "buy_signal",
+      "pct_change": -24.86473118434425,
+      "conviction": "high",
+      "status": "order_failed",
+      "news_bad": false
+    },
+    {
+      "symbol": "COHR",
+      "name": "Coherent Corp.",
+      "sector": "Information Technology",
+      "pct_change": -12.966823038259841,
+      "conviction": "high",
       "status": "bought",
       "news_bad": false
     },
     {
-      "symbol": "CMG",
-      "name": "Chipotle Mexican Grill",
-      "sector": "Consumer Discretionary",
-      "pct_change": -5.000334831357893,
-      "conviction": "buy_signal",
+      "symbol": "BE",
+      "name": "Bloom Energy",
+      "sector": "Industrials",
+      "pct_change": -10.774324856313548,
+      "conviction": "high",
+      "status": "bought",
+      "news_bad": false
+    },
+    {
+      "symbol": "GEV",
+      "name": "GE Vernova",
+      "sector": "Industrials",
+      "pct_change": -10.76658936856311,
+      "conviction": "high",
+      "status": "order_failed",
+      "news_bad": false
+    },
+    {
+      "symbol": "LRCX",
+      "name": "Lam Research",
+      "sector": "Information Technology",
+      "pct_change": -10.71278045433409,
+      "conviction": "high",
+      "status": "order_failed",
+      "news_bad": false
+    },
+    {
+      "symbol": "LITE",
+      "name": "Lumentum",
+      "sector": "Information Technology",
+      "pct_change": -10.60714518123251,
+      "conviction": "high",
+      "status": "order_failed",
+      "news_bad": false
+    },
+    {
+      "symbol": "FLEX",
+      "name": "Flex Ltd.",
+      "sector": "Information Technology",
+      "pct_change": -10.249271116394928,
+      "conviction": "high",
+      "status": "order_failed",
+      "news_bad": false
+    },
+    {
+      "symbol": "VST",
+      "name": "Vistra Corp.",
+      "sector": "Utilities",
+      "pct_change": -10.186370463346705,
+      "conviction": "high",
+      "status": "order_failed",
+      "news_bad": false
+    },
+    {
+      "symbol": "TER",
+      "name": "Teradyne",
+      "sector": "Information Technology",
+      "pct_change": -9.217344097031575,
+      "conviction": "high",
+      "status": "order_failed",
+      "news_bad": false
+    },
+    {
+      "symbol": "MRVL",
+      "name": "Marvell Technology",
+      "sector": "Information Technology",
+      "pct_change": -8.959794561185433,
+      "conviction": "high",
+      "status": "order_failed",
+      "news_bad": false
+    },
+    {
+      "symbol": "KLAC",
+      "name": "KLA Corporation",
+      "sector": "Information Technology",
+      "pct_change": -8.743800970781326,
+      "conviction": "high",
+      "status": "order_failed",
+      "news_bad": false
+    },
+    {
+      "symbol": "SNDK",
+      "name": "Sandisk",
+      "sector": "Information Technology",
+      "pct_change": -8.69236619004253,
+      "conviction": "high",
+      "status": "order_failed",
+      "news_bad": false
+    },
+    {
+      "symbol": "FIX",
+      "name": "Comfort Systems USA",
+      "sector": "Industrials",
+      "pct_change": -8.66357109778692,
+      "conviction": "high",
+      "status": "bought",
+      "news_bad": false
+    },
+    {
+      "symbol": "STX",
+      "name": "Seagate Technology",
+      "sector": "Information Technology",
+      "pct_change": -8.26098898163454,
+      "conviction": "high",
+      "status": "order_failed",
+      "news_bad": false
+    },
+    {
+      "symbol": "APH",
+      "name": "Amphenol",
+      "sector": "Information Technology",
+      "pct_change": -8.055552398047878,
+      "conviction": "high",
       "status": "blocked_news",
       "news_bad": true
-    },
-    {
-      "symbol": "NFLX",
-      "name": "Netflix",
-      "sector": "Communication Services",
-      "pct_change": -4.41840668836529,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "EXPE",
-      "name": "Expedia Group",
-      "sector": "Consumer Discretionary",
-      "pct_change": -4.078007131997146,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "ABT",
-      "name": "Abbott Laboratories",
-      "sector": "Health Care",
-      "pct_change": -3.7188849898341756,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "BKNG",
-      "name": "Booking Holdings",
-      "sector": "Consumer Discretionary",
-      "pct_change": -3.404100715828229,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "CHTR",
-      "name": "Charter Communications",
-      "sector": "Communication Services",
-      "pct_change": -3.2900074137496347,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "CLX",
-      "name": "Clorox",
-      "sector": "Consumer Staples",
-      "pct_change": -3.0417337055931273,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
     }
   ]
 }

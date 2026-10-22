@@ -443,3 +443,15 @@ timestamp_utc,action,symbol,detail
 2026-10-21T17:56:11+00:00,SELL,TSN,gain=7.68% qty=385.059491721 reason=target_reached
 2026-10-21T17:56:35+00:00,BUY,T,drop=-6.08% notional=$20000.00 news=clear(10)
 2026-10-21T17:56:35+00:00,BUY,DXCM,drop=-5.53% notional=$20000.00 news=clear(1)
+2026-10-22T17:52:51+00:00,SELL,ALLE,gain=18.45% qty=136.137703355 reason=target_reached
+2026-10-22T17:52:51+00:00,SELL,COHR,gain=-21.49% qty=75.999354005 reason=stop_loss
+2026-10-22T17:52:52+00:00,SELL,EG,gain=8.81% qty=26.710801859 reason=target_reached
+2026-10-22T17:52:52+00:00,SELL,FIX,gain=-12.05% qty=13.747020331 reason=stop_loss
+2026-10-22T17:52:52+00:00,SELL,GWW,gain=4.75% qty=7.785183224 reason=bad_news:lawsuit
+2026-10-22T17:52:52+00:00,SELL,HPQ,gain=8.22% qty=661.201652892 reason=target_reached
+2026-10-22T17:53:34+00:00,BUY,AME,drop=-5.26% notional=$20000.00 news=none
+2026-10-22T17:53:35+00:00,BUY,AMAT,drop=-6.91% notional=$20000.00 news=clear(2)
+2026-10-22T17:53:35+00:00,BUY,BE,drop=-10.77% notional=$20000.00 news=clear(9)
+2026-10-22T17:53:35+00:00,BUY,CAT,drop=-5.31% notional=$20000.00 news=clear(8)
+2026-10-22T17:53:35+00:00,BUY,COHR,drop=-12.97% notional=$20000.00 news=clear(3)
+2026-10-22T17:53:35+00:00,BUY,FIX,drop=-8.66% notional=$20000.00 news=clear(6)
