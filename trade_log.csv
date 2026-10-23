@@ -455,3 +455,9 @@ timestamp_utc,action,symbol,detail
 2026-10-22T17:53:35+00:00,BUY,CAT,drop=-5.31% notional=$20000.00 news=clear(8)
 2026-10-22T17:53:35+00:00,BUY,COHR,drop=-12.97% notional=$20000.00 news=clear(3)
 2026-10-22T17:53:35+00:00,BUY,FIX,drop=-8.66% notional=$20000.00 news=clear(6)
+2026-10-23T17:45:47+00:00,SELL,AMAT,gain=-0.27% qty=52.532018281 reason=bad_news:warns
+2026-10-23T17:45:47+00:00,SELL,CAT,gain=-2.12% qty=28.522925312 reason=bad_news:warns
+2026-10-23T17:45:47+00:00,SELL,CRWD,gain=11.47% qty=88.331242546 reason=target_reached
+2026-10-23T17:45:48+00:00,SELL,T,gain=-3.21% qty=909.503865393 reason=bad_news:sued
+2026-10-23T17:46:29+00:00,BUY,CBRE,drop=-5.12% notional=$20000.00 news=clear(8)
+2026-10-23T17:46:29+00:00,BUY,DG,drop=-5.85% notional=$20000.00 news=clear(1)
