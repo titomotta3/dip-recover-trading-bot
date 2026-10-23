@@ -290,3 +290,7 @@ timestamp_utc,action,symbol,detail
 2026-10-22T17:54:44+00:00,BUY,STX,drop=-8.28% notional=$16000.00 news=clear(4)
 2026-10-22T17:54:44+00:00,BUY,TER,drop=-9.32% notional=$16000.00 news=clear(4)
 2026-10-22T17:54:45+00:00,BUY,VST,drop=-10.10% notional=$16000.00 news=clear(5)
+2026-10-23T17:46:57+00:00,SELL,BE,gain=-20.50% qty=67.010051514 reason=stop_loss
+2026-10-23T17:46:58+00:00,SELL,STX,"gain=0.90% qty=25.050084544 reason=bad_news:plunges,warns"
+2026-10-23T17:46:58+00:00,SELL,SYK,gain=11.34% qty=65.134607034 reason=target_reached
+2026-10-23T17:47:16+00:00,BUY,BE,drop=-12.78% notional=$32000.00 news=clear(10) conviction=HIGH
