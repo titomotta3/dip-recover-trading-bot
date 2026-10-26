@@ -461,3 +461,8 @@ timestamp_utc,action,symbol,detail
 2026-10-23T17:45:48+00:00,SELL,T,gain=-3.21% qty=909.503865393 reason=bad_news:sued
 2026-10-23T17:46:29+00:00,BUY,CBRE,drop=-5.12% notional=$20000.00 news=clear(8)
 2026-10-23T17:46:29+00:00,BUY,DG,drop=-5.85% notional=$20000.00 news=clear(1)
+2026-10-26T19:04:05+00:00,SELL,AKAM,gain=8.34% qty=220.458443562 reason=target_reached
+2026-10-26T19:04:06+00:00,SELL,COHR,gain=7.92% qty=96.758538945 reason=target_reached
+2026-10-26T19:04:06+00:00,SELL,DG,"gain=-4.36% qty=152.660025952 reason=bad_news:lawsuit,sued"
+2026-10-26T19:04:07+00:00,SELL,XYZ,"gain=-6.83% qty=125.596458176 reason=bad_news:downgrade,downgraded"
+2026-10-26T19:04:46+00:00,BUY,CHTR,drop=-5.05% notional=$20000.00 news=none

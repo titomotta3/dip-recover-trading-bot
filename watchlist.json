@@ -1,32 +1,14 @@
 {
-  "updated_utc": "2026-10-23T17:46:30+00:00",
+  "updated_utc": "2026-10-26T19:04:47+00:00",
   "drop_threshold_pct": -5.0,
   "high_conviction_pct": -8.0,
   "stocks": [
     {
-      "symbol": "GL",
-      "name": "Globe Life",
-      "sector": "Financials",
-      "pct_change": -7.855834391448773,
-      "conviction": "buy_signal",
-      "status": "blocked_news",
-      "news_bad": true
-    },
-    {
-      "symbol": "T",
-      "name": "AT&T",
-      "sector": "Communication Services",
-      "pct_change": -6.398416615439173,
-      "conviction": "buy_signal",
-      "status": "blocked_news",
-      "news_bad": true
-    },
-    {
-      "symbol": "TMUS",
-      "name": "T-Mobile US",
-      "sector": "Communication Services",
-      "pct_change": -6.014225201055383,
-      "conviction": "buy_signal",
+      "symbol": "FICO",
+      "name": "Fair Isaac",
+      "sector": "Information Technology",
+      "pct_change": -14.33811504817436,
+      "conviction": "high",
       "status": "blocked_news",
       "news_bad": true
     },
@@ -34,106 +16,124 @@
       "symbol": "DG",
       "name": "Dollar General",
       "sector": "Consumer Staples",
-      "pct_change": -5.846098259317804,
-      "conviction": "buy_signal",
-      "status": "bought",
-      "news_bad": false
-    },
-    {
-      "symbol": "DECK",
-      "name": "Deckers Brands",
-      "sector": "Consumer Discretionary",
-      "pct_change": -5.734051899207538,
+      "pct_change": -5.569371658510399,
       "conviction": "buy_signal",
       "status": "blocked_news",
       "news_bad": true
     },
     {
-      "symbol": "CBRE",
-      "name": "CBRE Group",
-      "sector": "Real Estate",
-      "pct_change": -5.116583119645574,
+      "symbol": "SKYD",
+      "name": "Skydance",
+      "sector": "Communication Services",
+      "pct_change": -5.40540640057844,
+      "conviction": "buy_signal",
+      "status": "blocked_news",
+      "news_bad": true
+    },
+    {
+      "symbol": "CHTR",
+      "name": "Charter Communications",
+      "sector": "Communication Services",
+      "pct_change": -5.045578976280106,
       "conviction": "buy_signal",
       "status": "bought",
       "news_bad": false
     },
     {
-      "symbol": "MET",
-      "name": "MetLife",
+      "symbol": "OMC",
+      "name": "Omnicom Group",
+      "sector": "Communication Services",
+      "pct_change": -4.753265953882395,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "RDDT",
+      "name": "Reddit",
+      "sector": "Communication Services",
+      "pct_change": -4.506065857885615,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "PYPL",
+      "name": "PayPal",
       "sector": "Financials",
-      "pct_change": -4.8566175476664055,
+      "pct_change": -4.384426481812852,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
     },
     {
-      "symbol": "MGM",
-      "name": "MGM Resorts",
+      "symbol": "NVR",
+      "name": "NVR, Inc.",
       "sector": "Consumer Discretionary",
-      "pct_change": -4.711862337791314,
+      "pct_change": -3.9022807559983503,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
     },
     {
-      "symbol": "ACN",
-      "name": "Accenture",
+      "symbol": "NFLX",
+      "name": "Netflix",
+      "sector": "Communication Services",
+      "pct_change": -3.8952144056875313,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "GDDY",
+      "name": "GoDaddy",
       "sector": "Information Technology",
-      "pct_change": -4.39823376885617,
+      "pct_change": -3.781363024230007,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
     },
     {
-      "symbol": "LULU",
-      "name": "Lululemon Athletica",
-      "sector": "Consumer Discretionary",
-      "pct_change": -4.180279239072355,
+      "symbol": "VZ",
+      "name": "Verizon",
+      "sector": "Communication Services",
+      "pct_change": -3.6986078234094117,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
     },
     {
-      "symbol": "NCLH",
-      "name": "Norwegian Cruise Line Holdings",
-      "sector": "Consumer Discretionary",
-      "pct_change": -4.150575969579631,
+      "symbol": "TGT",
+      "name": "Target Corporation",
+      "sector": "Consumer Staples",
+      "pct_change": -3.381116438768713,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
     },
     {
-      "symbol": "HWM",
-      "name": "Howmet Aerospace",
-      "sector": "Industrials",
-      "pct_change": -4.076770602582855,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "GPC",
-      "name": "Genuine Parts Company",
-      "sector": "Consumer Discretionary",
-      "pct_change": -4.047823908544087,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "CCL",
-      "name": "Carnival Corporation",
-      "sector": "Consumer Discretionary",
-      "pct_change": -3.8958652442691672,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "AXP",
-      "name": "American Express",
+      "symbol": "FISV",
+      "name": "Fiserv",
       "sector": "Financials",
-      "pct_change": -3.856446790013975,
+      "pct_change": -3.3493821965494814,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "ADBE",
+      "name": "Adobe Inc.",
+      "sector": "Information Technology",
+      "pct_change": -3.307181358991141,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "DASH",
+      "name": "DoorDash",
+      "sector": "Consumer Discretionary",
+      "pct_change": -3.14974300450295,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
