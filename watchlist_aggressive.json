@@ -1,34 +1,16 @@
 {
-  "updated_utc": "2026-10-23T17:47:17+00:00",
+  "updated_utc": "2026-10-26T19:05:56+00:00",
   "drop_threshold_pct": -8.0,
   "high_conviction_pct": -11.0,
   "stocks": [
     {
-      "symbol": "BE",
-      "name": "Bloom Energy",
-      "sector": "Industrials",
-      "pct_change": -12.779538634822929,
+      "symbol": "FICO",
+      "name": "Fair Isaac",
+      "sector": "Information Technology",
+      "pct_change": -13.892263677325692,
       "conviction": "high",
-      "status": "bought",
-      "news_bad": false
-    },
-    {
-      "symbol": "GL",
-      "name": "Globe Life",
-      "sector": "Financials",
-      "pct_change": -8.035449751461414,
-      "conviction": "buy_signal",
       "status": "blocked_news",
       "news_bad": true
-    },
-    {
-      "symbol": "T",
-      "name": "AT&T",
-      "sector": "Communication Services",
-      "pct_change": -6.266487473189966,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
     }
   ]
 }

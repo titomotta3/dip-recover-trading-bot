@@ -294,3 +294,5 @@ timestamp_utc,action,symbol,detail
 2026-10-23T17:46:58+00:00,SELL,STX,"gain=0.90% qty=25.050084544 reason=bad_news:plunges,warns"
 2026-10-23T17:46:58+00:00,SELL,SYK,gain=11.34% qty=65.134607034 reason=target_reached
 2026-10-23T17:47:16+00:00,BUY,BE,drop=-12.78% notional=$32000.00 news=clear(10) conviction=HIGH
+2026-10-26T19:05:23+00:00,SELL,MPWR,"gain=-0.78% qty=13.551618995 reason=bad_news:fraud,lawsuit"
+2026-10-26T19:05:23+00:00,SELL,MRNA,gain=5.78% qty=172.135502958 reason=bad_news:investigation
