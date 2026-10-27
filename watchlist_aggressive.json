@@ -1,16 +1,70 @@
 {
-  "updated_utc": "2026-10-26T19:05:56+00:00",
+  "updated_utc": "2026-10-27T18:37:04+00:00",
   "drop_threshold_pct": -8.0,
   "high_conviction_pct": -11.0,
   "stocks": [
     {
-      "symbol": "FICO",
-      "name": "Fair Isaac",
-      "sector": "Information Technology",
-      "pct_change": -13.892263677325692,
+      "symbol": "XYL",
+      "name": "Xylem Inc.",
+      "sector": "Industrials",
+      "pct_change": -12.906505447538644,
       "conviction": "high",
       "status": "blocked_news",
       "news_bad": true
+    },
+    {
+      "symbol": "BA",
+      "name": "Boeing",
+      "sector": "Industrials",
+      "pct_change": -10.095053238435133,
+      "conviction": "buy_signal",
+      "status": "bought",
+      "news_bad": false
+    },
+    {
+      "symbol": "VLO",
+      "name": "Valero Energy",
+      "sector": "Energy",
+      "pct_change": -8.316154264651955,
+      "conviction": "buy_signal",
+      "status": "blocked_news",
+      "news_bad": true
+    },
+    {
+      "symbol": "MPC",
+      "name": "Marathon Petroleum",
+      "sector": "Energy",
+      "pct_change": -6.6239625489205896,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "PSX",
+      "name": "Phillips 66",
+      "sector": "Energy",
+      "pct_change": -6.332009056066025,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "UHS",
+      "name": "Universal Health Services",
+      "sector": "Health Care",
+      "pct_change": -6.211298931178188,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "WELL",
+      "name": "Welltower",
+      "sector": "Real Estate",
+      "pct_change": -6.159348026526359,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
     }
   ]
 }
