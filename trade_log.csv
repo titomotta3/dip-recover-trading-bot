@@ -466,3 +466,11 @@ timestamp_utc,action,symbol,detail
 2026-10-26T19:04:06+00:00,SELL,DG,"gain=-4.36% qty=152.660025952 reason=bad_news:lawsuit,sued"
 2026-10-26T19:04:07+00:00,SELL,XYZ,"gain=-6.83% qty=125.596458176 reason=bad_news:downgrade,downgraded"
 2026-10-26T19:04:46+00:00,BUY,CHTR,drop=-5.05% notional=$20000.00 news=none
+2026-10-27T18:35:36+00:00,SELL,FTV,gain=1.76% qty=166.167996011 reason=max_hold_time(held 90.1d)
+2026-10-27T18:35:36+00:00,SELL,PPG,gain=-0.63% qty=88.983715963 reason=max_hold_time(held 90.1d)
+2026-10-27T18:36:08+00:00,BUY,BA,drop=-10.10% notional=$20000.00 news=clear(10)
+2026-10-27T18:36:08+00:00,BUY,CTAS,drop=-5.04% notional=$20000.00 news=clear(2)
+2026-10-27T18:36:08+00:00,BUY,HCA,drop=-5.14% notional=$20000.00 news=clear(8)
+2026-10-27T18:36:08+00:00,BUY,HUBB,drop=-5.16% notional=$20000.00 news=clear(5)
+2026-10-27T18:36:08+00:00,BUY,PAYX,drop=-5.37% notional=$20000.00 news=clear(1)
+2026-10-27T18:36:08+00:00,BUY,UHS,drop=-6.21% notional=$20000.00 news=none
