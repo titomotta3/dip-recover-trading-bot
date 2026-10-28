@@ -474,3 +474,13 @@ timestamp_utc,action,symbol,detail
 2026-10-27T18:36:08+00:00,BUY,HUBB,drop=-5.16% notional=$20000.00 news=clear(5)
 2026-10-27T18:36:08+00:00,BUY,PAYX,drop=-5.37% notional=$20000.00 news=clear(1)
 2026-10-27T18:36:08+00:00,BUY,UHS,drop=-6.21% notional=$20000.00 news=none
+2026-10-28T18:41:33+00:00,SELL,AJG,gain=1.86% qty=39.122060952 reason=max_hold_time(held 90.1d)
+2026-10-28T18:41:33+00:00,SELL,AMD,gain=8.98% qty=37.796662698 reason=target_reached
+2026-10-28T18:41:34+00:00,SELL,BA,gain=-1.08% qty=118.147388941 reason=bad_news:sues
+2026-10-28T18:41:34+00:00,SELL,BE,gain=8.32% qty=93.945182958 reason=target_reached
+2026-10-28T18:41:34+00:00,SELL,GM,gain=7.74% qty=263.643422093 reason=target_reached
+2026-10-28T18:41:58+00:00,BUY,CHRW,drop=-11.46% notional=$20000.00 news=clear(5)
+2026-10-28T18:41:58+00:00,BUY,GRMN,drop=-5.47% notional=$20000.00 news=clear(7)
+2026-10-28T18:41:58+00:00,BUY,LII,drop=-10.75% notional=$20000.00 news=clear(4)
+2026-10-28T18:41:58+00:00,BUY,ODFL,drop=-6.67% notional=$20000.00 news=clear(5)
+2026-10-28T18:41:58+00:00,BUY,SW,drop=-7.05% notional=$20000.00 news=clear(5)

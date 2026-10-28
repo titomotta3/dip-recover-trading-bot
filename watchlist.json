@@ -1,139 +1,139 @@
 {
-  "updated_utc": "2026-10-27T18:36:09+00:00",
+  "updated_utc": "2026-10-28T18:41:58+00:00",
   "drop_threshold_pct": -5.0,
   "high_conviction_pct": -8.0,
   "stocks": [
     {
+      "symbol": "FFIV",
+      "name": "F5, Inc.",
+      "sector": "Information Technology",
+      "pct_change": -19.209313282720498,
+      "conviction": "high",
+      "status": "blocked_news",
+      "news_bad": true
+    },
+    {
+      "symbol": "CSGP",
+      "name": "CoStar Group",
+      "sector": "Real Estate",
+      "pct_change": -13.886279351928065,
+      "conviction": "high",
+      "status": "blocked_news",
+      "news_bad": true
+    },
+    {
+      "symbol": "CHRW",
+      "name": "C.H. Robinson",
+      "sector": "Industrials",
+      "pct_change": -11.456227709298542,
+      "conviction": "high",
+      "status": "bought",
+      "news_bad": false
+    },
+    {
+      "symbol": "LII",
+      "name": "Lennox International",
+      "sector": "Industrials",
+      "pct_change": -10.751243465235223,
+      "conviction": "high",
+      "status": "bought",
+      "news_bad": false
+    },
+    {
+      "symbol": "SW",
+      "name": "Smurfit Westrock",
+      "sector": "Materials",
+      "pct_change": -7.052186025941016,
+      "conviction": "buy_signal",
+      "status": "bought",
+      "news_bad": false
+    },
+    {
+      "symbol": "ODFL",
+      "name": "Old Dominion",
+      "sector": "Industrials",
+      "pct_change": -6.667380260969921,
+      "conviction": "buy_signal",
+      "status": "bought",
+      "news_bad": false
+    },
+    {
+      "symbol": "GRMN",
+      "name": "Garmin",
+      "sector": "Consumer Discretionary",
+      "pct_change": -5.467618554105524,
+      "conviction": "buy_signal",
+      "status": "bought",
+      "news_bad": false
+    },
+    {
       "symbol": "XYL",
       "name": "Xylem Inc.",
       "sector": "Industrials",
-      "pct_change": -12.888024042461273,
-      "conviction": "high",
-      "status": "blocked_news",
-      "news_bad": true
-    },
-    {
-      "symbol": "BA",
-      "name": "Boeing",
-      "sector": "Industrials",
-      "pct_change": -10.095053238435133,
-      "conviction": "high",
-      "status": "bought",
-      "news_bad": false
-    },
-    {
-      "symbol": "VLO",
-      "name": "Valero Energy",
-      "sector": "Energy",
-      "pct_change": -8.269286656990896,
-      "conviction": "high",
-      "status": "blocked_news",
-      "news_bad": true
-    },
-    {
-      "symbol": "MPC",
-      "name": "Marathon Petroleum",
-      "sector": "Energy",
-      "pct_change": -6.578280853527302,
-      "conviction": "buy_signal",
-      "status": "blocked_news",
-      "news_bad": true
-    },
-    {
-      "symbol": "PSX",
-      "name": "Phillips 66",
-      "sector": "Energy",
-      "pct_change": -6.315559041132116,
-      "conviction": "buy_signal",
-      "status": "blocked_news",
-      "news_bad": true
-    },
-    {
-      "symbol": "UHS",
-      "name": "Universal Health Services",
-      "sector": "Health Care",
-      "pct_change": -6.211298931178188,
-      "conviction": "buy_signal",
-      "status": "bought",
-      "news_bad": false
-    },
-    {
-      "symbol": "WELL",
-      "name": "Welltower",
-      "sector": "Real Estate",
-      "pct_change": -6.047131463716824,
-      "conviction": "buy_signal",
-      "status": "order_failed",
-      "news_bad": false
-    },
-    {
-      "symbol": "PAYX",
-      "name": "Paychex",
-      "sector": "Industrials",
-      "pct_change": -5.367328650190603,
-      "conviction": "buy_signal",
-      "status": "bought",
-      "news_bad": false
-    },
-    {
-      "symbol": "HUBB",
-      "name": "Hubbell Incorporated",
-      "sector": "Industrials",
-      "pct_change": -5.163256755734285,
-      "conviction": "buy_signal",
-      "status": "bought",
-      "news_bad": false
-    },
-    {
-      "symbol": "HCA",
-      "name": "HCA Healthcare",
-      "sector": "Health Care",
-      "pct_change": -5.13691783355766,
-      "conviction": "buy_signal",
-      "status": "bought",
-      "news_bad": false
-    },
-    {
-      "symbol": "CTAS",
-      "name": "Cintas",
-      "sector": "Industrials",
-      "pct_change": -5.039169156781175,
-      "conviction": "buy_signal",
-      "status": "bought",
-      "news_bad": false
-    },
-    {
-      "symbol": "BRO",
-      "name": "Brown & Brown",
-      "sector": "Financials",
-      "pct_change": -4.895896549362761,
+      "pct_change": -4.6737065892301475,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
     },
     {
-      "symbol": "ACN",
-      "name": "Accenture",
+      "symbol": "WM",
+      "name": "Waste Management",
+      "sector": "Industrials",
+      "pct_change": -4.12620153016259,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "CASY",
+      "name": "Casey's",
+      "sector": "Consumer Staples",
+      "pct_change": -3.9546064464306108,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "JBHT",
+      "name": "J.B. Hunt",
+      "sector": "Industrials",
+      "pct_change": -3.8801466343663193,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "MKC",
+      "name": "McCormick & Company",
+      "sector": "Consumer Staples",
+      "pct_change": -3.854250282225736,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "ESS",
+      "name": "Essex Property Trust",
+      "sector": "Real Estate",
+      "pct_change": -3.7656925136168797,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "ON",
+      "name": "ON Semiconductor",
       "sector": "Information Technology",
-      "pct_change": -4.584796202306253,
+      "pct_change": -3.5273949287751827,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
     },
     {
-      "symbol": "VRSK",
-      "name": "Verisk Analytics",
-      "sector": "Industrials",
-      "pct_change": -4.516030633618894,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "VTR",
-      "name": "Ventas",
-      "sector": "Real Estate",
-      "pct_change": -4.512697068696145,
+      "symbol": "CNC",
+      "name": "Centene Corporation",
+      "sector": "Health Care",
+      "pct_change": -3.3983395656896875,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
