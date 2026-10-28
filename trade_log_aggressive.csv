@@ -301,3 +301,9 @@ timestamp_utc,action,symbol,detail
 2026-10-27T18:36:32+00:00,SELL,FLEX,"gain=7.62% qty=207.039208074 reason=bad_news:downgrade,downgraded"
 2026-10-27T18:36:33+00:00,SELL,LITE,gain=13.86% qty=21.007286907 reason=target_reached
 2026-10-27T18:37:04+00:00,BUY,BA,drop=-10.10% notional=$16000.00 news=clear(10)
+2026-10-28T18:42:25+00:00,SELL,BA,gain=-0.95% qty=94.525908419 reason=bad_news:sues
+2026-10-28T18:42:25+00:00,SELL,MRVL,gain=13.39% qty=71.793906488 reason=target_reached
+2026-10-28T18:42:25+00:00,SELL,SNDK,gain=11.76% qty=12.725572849 reason=target_reached
+2026-10-28T18:42:26+00:00,SELL,TER,gain=0.70% qty=51.075751771 reason=bad_news:sues
+2026-10-28T18:42:58+00:00,BUY,CHRW,drop=-11.25% notional=$32000.00 news=clear(5) conviction=HIGH
+2026-10-28T18:42:59+00:00,BUY,LII,drop=-10.39% notional=$16000.00 news=clear(4)

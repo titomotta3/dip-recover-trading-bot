@@ -1,67 +1,58 @@
 {
-  "updated_utc": "2026-10-27T18:37:04+00:00",
+  "updated_utc": "2026-10-28T18:42:59+00:00",
   "drop_threshold_pct": -8.0,
   "high_conviction_pct": -11.0,
   "stocks": [
     {
-      "symbol": "XYL",
-      "name": "Xylem Inc.",
-      "sector": "Industrials",
-      "pct_change": -12.906505447538644,
+      "symbol": "FFIV",
+      "name": "F5, Inc.",
+      "sector": "Information Technology",
+      "pct_change": -18.884970995810075,
       "conviction": "high",
       "status": "blocked_news",
       "news_bad": true
     },
     {
-      "symbol": "BA",
-      "name": "Boeing",
+      "symbol": "CSGP",
+      "name": "CoStar Group",
+      "sector": "Real Estate",
+      "pct_change": -13.948761260120538,
+      "conviction": "high",
+      "status": "blocked_news",
+      "news_bad": true
+    },
+    {
+      "symbol": "CHRW",
+      "name": "C.H. Robinson",
       "sector": "Industrials",
-      "pct_change": -10.095053238435133,
+      "pct_change": -11.25426314148497,
+      "conviction": "high",
+      "status": "bought",
+      "news_bad": false
+    },
+    {
+      "symbol": "LII",
+      "name": "Lennox International",
+      "sector": "Industrials",
+      "pct_change": -10.391742199828172,
       "conviction": "buy_signal",
       "status": "bought",
       "news_bad": false
     },
     {
-      "symbol": "VLO",
-      "name": "Valero Energy",
-      "sector": "Energy",
-      "pct_change": -8.316154264651955,
-      "conviction": "buy_signal",
-      "status": "blocked_news",
-      "news_bad": true
-    },
-    {
-      "symbol": "MPC",
-      "name": "Marathon Petroleum",
-      "sector": "Energy",
-      "pct_change": -6.6239625489205896,
+      "symbol": "SW",
+      "name": "Smurfit Westrock",
+      "sector": "Materials",
+      "pct_change": -6.723085446168023,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
     },
     {
-      "symbol": "PSX",
-      "name": "Phillips 66",
-      "sector": "Energy",
-      "pct_change": -6.332009056066025,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "UHS",
-      "name": "Universal Health Services",
-      "sector": "Health Care",
-      "pct_change": -6.211298931178188,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "WELL",
-      "name": "Welltower",
-      "sector": "Real Estate",
-      "pct_change": -6.159348026526359,
+      "symbol": "ODFL",
+      "name": "Old Dominion",
+      "sector": "Industrials",
+      "pct_change": -6.613909639054539,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
