@@ -4,6 +4,6 @@
   "trade_dollars": 18000.0,
   "completed_trades": 66,
   "last_adjustment": "2 bad_news exit(s) (BA, TER); capital utilization low (42%) -> raised trade size to $18,000",
-  "updated_utc": "2026-10-28T18:42:59+00:00",
+  "updated_utc": "2026-10-28T22:53:17+00:00",
   "risk_exits": 84
 }
