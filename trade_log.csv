@@ -484,3 +484,12 @@ timestamp_utc,action,symbol,detail
 2026-10-28T18:41:58+00:00,BUY,LII,drop=-10.75% notional=$20000.00 news=clear(4)
 2026-10-28T18:41:58+00:00,BUY,ODFL,drop=-6.67% notional=$20000.00 news=clear(5)
 2026-10-28T18:41:58+00:00,BUY,SW,drop=-7.05% notional=$20000.00 news=clear(5)
+2026-10-29T18:49:55+00:00,SELL,CVNA,gain=20.54% qty=352.795731169 reason=target_reached
+2026-10-29T18:49:55+00:00,SELL,HCA,gain=7.63% qty=45.28778135 reason=target_reached
+2026-10-29T18:49:55+00:00,SELL,HST,gain=8.96% qty=423.548919949 reason=target_reached
+2026-10-29T18:49:56+00:00,SELL,LII,"gain=3.14% qty=60.110573455 reason=bad_news:downgrade,downgraded"
+2026-10-29T18:49:56+00:00,SELL,LIN,gain=4.60% qty=20.848949211 reason=max_hold_time(held 90.1d)
+2026-10-29T18:50:22+00:00,BUY,BAX,drop=-6.07% notional=$20000.00 news=clear(5)
+2026-10-29T18:50:23+00:00,BUY,CAT,drop=-9.93% notional=$20000.00 news=clear(10)
+2026-10-29T18:50:23+00:00,BUY,CTSH,drop=-6.16% notional=$20000.00 news=clear(10)
+2026-10-29T18:50:23+00:00,BUY,DDOG,drop=-5.41% notional=$20000.00 news=clear(6)

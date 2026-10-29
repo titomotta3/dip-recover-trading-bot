@@ -1,142 +1,142 @@
 {
-  "updated_utc": "2026-10-28T18:41:58+00:00",
+  "updated_utc": "2026-10-29T18:50:25+00:00",
   "drop_threshold_pct": -5.0,
   "high_conviction_pct": -8.0,
   "stocks": [
     {
-      "symbol": "FFIV",
-      "name": "F5, Inc.",
+      "symbol": "NOW",
+      "name": "ServiceNow",
       "sector": "Information Technology",
-      "pct_change": -19.209313282720498,
+      "pct_change": -27.409578490322104,
+      "conviction": "high",
+      "status": "order_failed",
+      "news_bad": false
+    },
+    {
+      "symbol": "FTNT",
+      "name": "Fortinet",
+      "sector": "Information Technology",
+      "pct_change": -22.055953509078797,
+      "conviction": "high",
+      "status": "order_failed",
+      "news_bad": false
+    },
+    {
+      "symbol": "MRVL",
+      "name": "Marvell Technology",
+      "sector": "Information Technology",
+      "pct_change": -13.653884936903859,
+      "conviction": "high",
+      "status": "order_failed",
+      "news_bad": false
+    },
+    {
+      "symbol": "GOOGL",
+      "name": "Alphabet Inc. (Class A)",
+      "sector": "Communication Services",
+      "pct_change": -12.852043153125361,
       "conviction": "high",
       "status": "blocked_news",
       "news_bad": true
     },
     {
-      "symbol": "CSGP",
-      "name": "CoStar Group",
-      "sector": "Real Estate",
-      "pct_change": -13.886279351928065,
+      "symbol": "GOOG",
+      "name": "Alphabet Inc. (Class C)",
+      "sector": "Communication Services",
+      "pct_change": -12.647183857852504,
       "conviction": "high",
       "status": "blocked_news",
       "news_bad": true
     },
     {
-      "symbol": "CHRW",
-      "name": "C.H. Robinson",
+      "symbol": "HONA",
+      "name": "Honeywell Aerospace",
       "sector": "Industrials",
-      "pct_change": -11.456227709298542,
+      "pct_change": -9.94182128728224,
+      "conviction": "high",
+      "status": "order_failed",
+      "news_bad": false
+    },
+    {
+      "symbol": "CAT",
+      "name": "Caterpillar Inc.",
+      "sector": "Industrials",
+      "pct_change": -9.925985740268366,
       "conviction": "high",
       "status": "bought",
       "news_bad": false
     },
     {
-      "symbol": "LII",
-      "name": "Lennox International",
-      "sector": "Industrials",
-      "pct_change": -10.751243465235223,
-      "conviction": "high",
-      "status": "bought",
-      "news_bad": false
-    },
-    {
-      "symbol": "SW",
-      "name": "Smurfit Westrock",
-      "sector": "Materials",
-      "pct_change": -7.052186025941016,
-      "conviction": "buy_signal",
-      "status": "bought",
-      "news_bad": false
-    },
-    {
-      "symbol": "ODFL",
-      "name": "Old Dominion",
-      "sector": "Industrials",
-      "pct_change": -6.667380260969921,
-      "conviction": "buy_signal",
-      "status": "bought",
-      "news_bad": false
-    },
-    {
-      "symbol": "GRMN",
-      "name": "Garmin",
-      "sector": "Consumer Discretionary",
-      "pct_change": -5.467618554105524,
-      "conviction": "buy_signal",
-      "status": "bought",
-      "news_bad": false
-    },
-    {
-      "symbol": "XYL",
-      "name": "Xylem Inc.",
-      "sector": "Industrials",
-      "pct_change": -4.6737065892301475,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "WM",
-      "name": "Waste Management",
-      "sector": "Industrials",
-      "pct_change": -4.12620153016259,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "CASY",
-      "name": "Casey's",
-      "sector": "Consumer Staples",
-      "pct_change": -3.9546064464306108,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "JBHT",
-      "name": "J.B. Hunt",
-      "sector": "Industrials",
-      "pct_change": -3.8801466343663193,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "MKC",
-      "name": "McCormick & Company",
-      "sector": "Consumer Staples",
-      "pct_change": -3.854250282225736,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "ESS",
-      "name": "Essex Property Trust",
-      "sector": "Real Estate",
-      "pct_change": -3.7656925136168797,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "ON",
-      "name": "ON Semiconductor",
+      "symbol": "TER",
+      "name": "Teradyne",
       "sector": "Information Technology",
-      "pct_change": -3.5273949287751827,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
+      "pct_change": -6.247598460208677,
+      "conviction": "buy_signal",
+      "status": "blocked_news",
+      "news_bad": true
     },
     {
-      "symbol": "CNC",
-      "name": "Centene Corporation",
+      "symbol": "CTSH",
+      "name": "Cognizant",
+      "sector": "Information Technology",
+      "pct_change": -6.163351589767598,
+      "conviction": "buy_signal",
+      "status": "bought",
+      "news_bad": false
+    },
+    {
+      "symbol": "BAX",
+      "name": "Baxter International",
       "sector": "Health Care",
-      "pct_change": -3.3983395656896875,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
+      "pct_change": -6.068335524362072,
+      "conviction": "buy_signal",
+      "status": "bought",
+      "news_bad": false
+    },
+    {
+      "symbol": "TWLO",
+      "name": "Twilio",
+      "sector": "Information Technology",
+      "pct_change": -5.534538334903386,
+      "conviction": "buy_signal",
+      "status": "order_failed",
+      "news_bad": false
+    },
+    {
+      "symbol": "SNDK",
+      "name": "Sandisk",
+      "sector": "Information Technology",
+      "pct_change": -5.447877610082,
+      "conviction": "buy_signal",
+      "status": "order_failed",
+      "news_bad": false
+    },
+    {
+      "symbol": "MU",
+      "name": "Micron Technology",
+      "sector": "Information Technology",
+      "pct_change": -5.431187318582379,
+      "conviction": "buy_signal",
+      "status": "order_failed",
+      "news_bad": false
+    },
+    {
+      "symbol": "DDOG",
+      "name": "Datadog",
+      "sector": "Information Technology",
+      "pct_change": -5.414636664785329,
+      "conviction": "buy_signal",
+      "status": "bought",
+      "news_bad": false
+    },
+    {
+      "symbol": "PANW",
+      "name": "Palo Alto Networks",
+      "sector": "Information Technology",
+      "pct_change": -5.119262162936594,
+      "conviction": "buy_signal",
+      "status": "blocked_news",
+      "news_bad": true
     }
   ]
 }
