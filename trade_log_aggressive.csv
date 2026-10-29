@@ -307,3 +307,12 @@ timestamp_utc,action,symbol,detail
 2026-10-28T18:42:26+00:00,SELL,TER,gain=0.70% qty=51.075751771 reason=bad_news:sues
 2026-10-28T18:42:58+00:00,BUY,CHRW,drop=-11.25% notional=$32000.00 news=clear(5) conviction=HIGH
 2026-10-28T18:42:59+00:00,BUY,LII,drop=-10.39% notional=$16000.00 news=clear(4)
+2026-10-29T18:50:51+00:00,SELL,AKAM,gain=8.64% qty=176.644623537 reason=bad_news:fraud
+2026-10-29T18:50:51+00:00,SELL,GM,gain=12.26% qty=211.165236901 reason=target_reached
+2026-10-29T18:50:51+00:00,SELL,KLAC,gain=11.62% qty=107.28923015 reason=target_reached
+2026-10-29T18:50:52+00:00,SELL,LII,"gain=2.83% qty=47.931428057 reason=bad_news:downgrade,downgraded"
+2026-10-29T18:51:35+00:00,BUY,CAT,drop=-9.82% notional=$18000.00 news=clear(10)
+2026-10-29T18:51:35+00:00,BUY,FTNT,drop=-21.92% notional=$36000.00 news=clear(10) conviction=HIGH
+2026-10-29T18:51:35+00:00,BUY,HONA,drop=-9.88% notional=$18000.00 news=clear(10)
+2026-10-29T18:51:36+00:00,BUY,MRVL,drop=-13.60% notional=$36000.00 news=clear(10) conviction=HIGH
+2026-10-29T18:51:36+00:00,BUY,NOW,drop=-27.30% notional=$36000.00 news=clear(10) conviction=HIGH
