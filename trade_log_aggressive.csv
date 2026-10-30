@@ -316,3 +316,22 @@ timestamp_utc,action,symbol,detail
 2026-10-29T18:51:35+00:00,BUY,HONA,drop=-9.88% notional=$18000.00 news=clear(10)
 2026-10-29T18:51:36+00:00,BUY,MRVL,drop=-13.60% notional=$36000.00 news=clear(10) conviction=HIGH
 2026-10-29T18:51:36+00:00,BUY,NOW,drop=-27.30% notional=$36000.00 news=clear(10) conviction=HIGH
+2026-10-30T18:28:06+00:00,SELL,CHRW,gain=-3.35% qty=250.940950439 reason=bad_news:sues
+2026-10-30T18:28:06+00:00,SELL,CIEN,gain=-12.98% qty=44.072250991 reason=stop_loss
+2026-10-30T18:28:06+00:00,SELL,HONA,"gain=-4.73% qty=112.704213887 reason=bad_news:downgrade,downgraded"
+2026-10-30T18:28:06+00:00,SELL,MRVL,gain=-12.13% qty=165.540028509 reason=stop_loss
+2026-10-30T18:28:06+00:00,SELL,NOW,gain=-5.13% qty=329.513501144 reason=bad_news:investigation
+2026-10-30T18:28:06+00:00,SELL,TWLO,gain=-16.88% qty=131.443787225 reason=stop_loss
+2026-10-30T18:28:36+00:00,BUY,AMD,drop=-12.41% notional=$36000.00 news=clear(10) conviction=HIGH
+2026-10-30T18:28:36+00:00,BUY,AMAT,drop=-8.85% notional=$18000.00 news=clear(2)
+2026-10-30T18:28:36+00:00,BUY,APP,drop=-10.62% notional=$18000.00 news=clear(6)
+2026-10-30T18:28:36+00:00,BUY,ANET,drop=-8.94% notional=$18000.00 news=clear(2)
+2026-10-30T18:28:36+00:00,BUY,CDW,drop=-10.91% notional=$18000.00 news=none
+2026-10-30T18:28:36+00:00,BUY,CIEN,drop=-9.42% notional=$18000.00 news=clear(1)
+2026-10-30T18:28:37+00:00,BUY,COHR,drop=-13.01% notional=$36000.00 news=clear(8) conviction=HIGH
+2026-10-30T18:28:37+00:00,BUY,COIN,drop=-14.00% notional=$36000.00 news=clear(10) conviction=HIGH
+2026-10-30T18:28:37+00:00,BUY,DDOG,drop=-12.52% notional=$36000.00 news=clear(4) conviction=HIGH
+2026-10-30T18:28:37+00:00,BUY,P,drop=-10.05% notional=$18000.00 news=clear(2)
+2026-10-30T18:28:37+00:00,BUY,ILMN,drop=-19.75% notional=$36000.00 news=clear(9) conviction=HIGH
+2026-10-30T18:28:37+00:00,BUY,RMD,drop=-8.74% notional=$18000.00 news=clear(10)
+2026-10-30T18:28:37+00:00,BUY,HOOD,drop=-9.73% notional=$18000.00 news=clear(10)

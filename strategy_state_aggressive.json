@@ -3,7 +3,7 @@
   "sell_threshold_pct": 11.0,
   "trade_dollars": 18000.0,
   "completed_trades": 68,
-  "last_adjustment": "2 bad_news exit(s) (AKAM, LII)",
-  "updated_utc": "2026-10-29T23:02:27+00:00",
-  "risk_exits": 86
+  "last_adjustment": "3 bad_news exit(s) (CHRW, HONA, NOW); 3 stop_loss exit(s) (CIEN, MRVL, TWLO)",
+  "updated_utc": "2026-10-30T18:28:37+00:00",
+  "risk_exits": 92
 }

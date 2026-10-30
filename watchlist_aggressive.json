@@ -1,22 +1,85 @@
 {
-  "updated_utc": "2026-10-29T18:51:36+00:00",
+  "updated_utc": "2026-10-30T18:28:37+00:00",
   "drop_threshold_pct": -8.0,
   "high_conviction_pct": -11.0,
   "stocks": [
     {
-      "symbol": "NOW",
-      "name": "ServiceNow",
+      "symbol": "INTC",
+      "name": "Intel",
       "sector": "Information Technology",
-      "pct_change": -27.296014196680122,
+      "pct_change": -30.623438457998848,
+      "conviction": "high",
+      "status": "blocked_sector_cap",
+      "news_bad": false
+    },
+    {
+      "symbol": "RDDT",
+      "name": "Reddit",
+      "sector": "Communication Services",
+      "pct_change": -30.347145676452936,
+      "conviction": "high",
+      "status": "blocked_news",
+      "news_bad": true
+    },
+    {
+      "symbol": "ILMN",
+      "name": "Illumina, Inc.",
+      "sector": "Health Care",
+      "pct_change": -19.752809298487083,
       "conviction": "high",
       "status": "bought",
       "news_bad": false
     },
     {
-      "symbol": "FTNT",
-      "name": "Fortinet",
+      "symbol": "TWLO",
+      "name": "Twilio",
       "sector": "Information Technology",
-      "pct_change": -21.91521642577771,
+      "pct_change": -16.274328433489405,
+      "conviction": "high",
+      "status": "blocked_sector_cap",
+      "news_bad": false
+    },
+    {
+      "symbol": "SNDK",
+      "name": "Sandisk",
+      "sector": "Information Technology",
+      "pct_change": -15.275744623831084,
+      "conviction": "high",
+      "status": "blocked_sector_cap",
+      "news_bad": false
+    },
+    {
+      "symbol": "COIN",
+      "name": "Coinbase",
+      "sector": "Financials",
+      "pct_change": -14.001495188431178,
+      "conviction": "high",
+      "status": "bought",
+      "news_bad": false
+    },
+    {
+      "symbol": "COHR",
+      "name": "Coherent Corp.",
+      "sector": "Information Technology",
+      "pct_change": -13.011131158560316,
+      "conviction": "high",
+      "status": "bought",
+      "news_bad": false
+    },
+    {
+      "symbol": "DELL",
+      "name": "Dell Technologies",
+      "sector": "Information Technology",
+      "pct_change": -12.667454865740885,
+      "conviction": "high",
+      "status": "blocked_news",
+      "news_bad": true
+    },
+    {
+      "symbol": "DDOG",
+      "name": "Datadog",
+      "sector": "Information Technology",
+      "pct_change": -12.515042684316292,
       "conviction": "high",
       "status": "bought",
       "news_bad": false
@@ -25,73 +88,55 @@
       "symbol": "MRVL",
       "name": "Marvell Technology",
       "sector": "Information Technology",
-      "pct_change": -13.598252354728624,
+      "pct_change": -12.43473223040115,
+      "conviction": "high",
+      "status": "blocked_sector_cap",
+      "news_bad": false
+    },
+    {
+      "symbol": "AMD",
+      "name": "Advanced Micro Devices",
+      "sector": "Information Technology",
+      "pct_change": -12.410399532338925,
       "conviction": "high",
       "status": "bought",
       "news_bad": false
     },
     {
-      "symbol": "GOOGL",
-      "name": "Alphabet Inc. (Class A)",
-      "sector": "Communication Services",
-      "pct_change": -12.844350119988773,
+      "symbol": "QCOM",
+      "name": "Qualcomm",
+      "sector": "Information Technology",
+      "pct_change": -12.324041665603657,
+      "conviction": "high",
+      "status": "blocked_sector_cap",
+      "news_bad": false
+    },
+    {
+      "symbol": "BE",
+      "name": "Bloom Energy",
+      "sector": "Industrials",
+      "pct_change": -11.767882727387358,
       "conviction": "high",
       "status": "blocked_news",
       "news_bad": true
     },
     {
-      "symbol": "GOOG",
-      "name": "Alphabet Inc. (Class C)",
-      "sector": "Communication Services",
-      "pct_change": -12.673587738436048,
+      "symbol": "HPQ",
+      "name": "HP Inc.",
+      "sector": "Information Technology",
+      "pct_change": -11.639962087925356,
       "conviction": "high",
       "status": "blocked_news",
       "news_bad": true
     },
     {
-      "symbol": "HONA",
-      "name": "Honeywell Aerospace",
-      "sector": "Industrials",
-      "pct_change": -9.882503099939854,
+      "symbol": "CDW",
+      "name": "CDW Corporation",
+      "sector": "Information Technology",
+      "pct_change": -10.91404304622702,
       "conviction": "buy_signal",
       "status": "bought",
       "news_bad": false
-    },
-    {
-      "symbol": "CAT",
-      "name": "Caterpillar Inc.",
-      "sector": "Industrials",
-      "pct_change": -9.82365872468711,
-      "conviction": "buy_signal",
-      "status": "bought",
-      "news_bad": false
-    },
-    {
-      "symbol": "TER",
-      "name": "Teradyne",
-      "sector": "Information Technology",
-      "pct_change": -6.234835713244653,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "CTSH",
-      "name": "Cognizant",
-      "sector": "Information Technology",
-      "pct_change": -6.170887858708581,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "BAX",
-      "name": "Baxter International",
-      "sector": "Health Care",
-      "pct_change": -6.1468919206027515,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
     }
   ]
 }
