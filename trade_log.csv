@@ -493,3 +493,15 @@ timestamp_utc,action,symbol,detail
 2026-10-29T18:50:23+00:00,BUY,CAT,drop=-9.93% notional=$20000.00 news=clear(10)
 2026-10-29T18:50:23+00:00,BUY,CTSH,drop=-6.16% notional=$20000.00 news=clear(10)
 2026-10-29T18:50:23+00:00,BUY,DDOG,drop=-5.41% notional=$20000.00 news=clear(6)
+2026-10-30T18:26:47+00:00,SELL,CHRW,gain=-3.01% qty=157.232625786 reason=bad_news:sues
+2026-10-30T18:26:47+00:00,SELL,CHTR,gain=7.28% qty=193.685744722 reason=target_reached
+2026-10-30T18:26:47+00:00,SELL,CIEN,gain=-12.89% qty=55.103981264 reason=stop_loss
+2026-10-30T18:26:48+00:00,SELL,FCX,gain=-12.85% qty=282.405958768 reason=stop_loss
+2026-10-30T18:26:48+00:00,SELL,IBKR,gain=-17.51% qty=218.435889034 reason=stop_loss
+2026-10-30T18:26:48+00:00,SELL,ILMN,gain=-15.81% qty=72.337926793 reason=stop_loss
+2026-10-30T18:27:30+00:00,BUY,AMD,drop=-12.47% notional=$20000.00 news=clear(10)
+2026-10-30T18:27:30+00:00,BUY,APH,drop=-5.10% notional=$20000.00 news=clear(10)
+2026-10-30T18:27:31+00:00,BUY,ADI,drop=-6.05% notional=$20000.00 news=clear(3)
+2026-10-30T18:27:31+00:00,BUY,AMAT,drop=-8.90% notional=$20000.00 news=clear(2)
+2026-10-30T18:27:31+00:00,BUY,APP,drop=-10.68% notional=$20000.00 news=clear(6)
+2026-10-30T18:27:31+00:00,BUY,BBY,drop=-5.71% notional=$20000.00 news=clear(1)

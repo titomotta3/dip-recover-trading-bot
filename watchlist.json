@@ -1,104 +1,41 @@
 {
-  "updated_utc": "2026-10-29T18:50:25+00:00",
+  "updated_utc": "2026-10-30T18:27:39+00:00",
   "drop_threshold_pct": -5.0,
   "high_conviction_pct": -8.0,
   "stocks": [
     {
-      "symbol": "NOW",
-      "name": "ServiceNow",
+      "symbol": "INTC",
+      "name": "Intel",
       "sector": "Information Technology",
-      "pct_change": -27.409578490322104,
+      "pct_change": -30.65070109304936,
       "conviction": "high",
       "status": "order_failed",
       "news_bad": false
     },
     {
-      "symbol": "FTNT",
-      "name": "Fortinet",
-      "sector": "Information Technology",
-      "pct_change": -22.055953509078797,
-      "conviction": "high",
-      "status": "order_failed",
-      "news_bad": false
-    },
-    {
-      "symbol": "MRVL",
-      "name": "Marvell Technology",
-      "sector": "Information Technology",
-      "pct_change": -13.653884936903859,
-      "conviction": "high",
-      "status": "order_failed",
-      "news_bad": false
-    },
-    {
-      "symbol": "GOOGL",
-      "name": "Alphabet Inc. (Class A)",
+      "symbol": "RDDT",
+      "name": "Reddit",
       "sector": "Communication Services",
-      "pct_change": -12.852043153125361,
+      "pct_change": -30.370375297905472,
       "conviction": "high",
       "status": "blocked_news",
       "news_bad": true
     },
     {
-      "symbol": "GOOG",
-      "name": "Alphabet Inc. (Class C)",
-      "sector": "Communication Services",
-      "pct_change": -12.647183857852504,
-      "conviction": "high",
-      "status": "blocked_news",
-      "news_bad": true
-    },
-    {
-      "symbol": "HONA",
-      "name": "Honeywell Aerospace",
-      "sector": "Industrials",
-      "pct_change": -9.94182128728224,
-      "conviction": "high",
-      "status": "order_failed",
-      "news_bad": false
-    },
-    {
-      "symbol": "CAT",
-      "name": "Caterpillar Inc.",
-      "sector": "Industrials",
-      "pct_change": -9.925985740268366,
-      "conviction": "high",
-      "status": "bought",
-      "news_bad": false
-    },
-    {
-      "symbol": "TER",
-      "name": "Teradyne",
-      "sector": "Information Technology",
-      "pct_change": -6.247598460208677,
-      "conviction": "buy_signal",
-      "status": "blocked_news",
-      "news_bad": true
-    },
-    {
-      "symbol": "CTSH",
-      "name": "Cognizant",
-      "sector": "Information Technology",
-      "pct_change": -6.163351589767598,
-      "conviction": "buy_signal",
-      "status": "bought",
-      "news_bad": false
-    },
-    {
-      "symbol": "BAX",
-      "name": "Baxter International",
+      "symbol": "ILMN",
+      "name": "Illumina, Inc.",
       "sector": "Health Care",
-      "pct_change": -6.068335524362072,
-      "conviction": "buy_signal",
-      "status": "bought",
+      "pct_change": -19.752809298487083,
+      "conviction": "high",
+      "status": "order_failed",
       "news_bad": false
     },
     {
       "symbol": "TWLO",
       "name": "Twilio",
       "sector": "Information Technology",
-      "pct_change": -5.534538334903386,
-      "conviction": "buy_signal",
+      "pct_change": -16.31252271629413,
+      "conviction": "high",
       "status": "order_failed",
       "news_bad": false
     },
@@ -106,37 +43,100 @@
       "symbol": "SNDK",
       "name": "Sandisk",
       "sector": "Information Technology",
-      "pct_change": -5.447877610082,
-      "conviction": "buy_signal",
+      "pct_change": -15.140040584557127,
+      "conviction": "high",
       "status": "order_failed",
       "news_bad": false
     },
     {
-      "symbol": "MU",
-      "name": "Micron Technology",
-      "sector": "Information Technology",
-      "pct_change": -5.431187318582379,
-      "conviction": "buy_signal",
+      "symbol": "COIN",
+      "name": "Coinbase",
+      "sector": "Financials",
+      "pct_change": -13.984677169092166,
+      "conviction": "high",
       "status": "order_failed",
       "news_bad": false
     },
     {
-      "symbol": "DDOG",
-      "name": "Datadog",
+      "symbol": "COHR",
+      "name": "Coherent Corp.",
       "sector": "Information Technology",
-      "pct_change": -5.414636664785329,
-      "conviction": "buy_signal",
+      "pct_change": -13.036423106239688,
+      "conviction": "high",
+      "status": "order_failed",
+      "news_bad": false
+    },
+    {
+      "symbol": "DELL",
+      "name": "Dell Technologies",
+      "sector": "Information Technology",
+      "pct_change": -12.700051188870503,
+      "conviction": "high",
+      "status": "blocked_news",
+      "news_bad": true
+    },
+    {
+      "symbol": "MRVL",
+      "name": "Marvell Technology",
+      "sector": "Information Technology",
+      "pct_change": -12.498852131471306,
+      "conviction": "high",
+      "status": "order_failed",
+      "news_bad": false
+    },
+    {
+      "symbol": "AMD",
+      "name": "Advanced Micro Devices",
+      "sector": "Information Technology",
+      "pct_change": -12.469611458773898,
+      "conviction": "high",
       "status": "bought",
       "news_bad": false
     },
     {
-      "symbol": "PANW",
-      "name": "Palo Alto Networks",
+      "symbol": "QCOM",
+      "name": "Qualcomm",
       "sector": "Information Technology",
-      "pct_change": -5.119262162936594,
-      "conviction": "buy_signal",
+      "pct_change": -12.291682268910536,
+      "conviction": "high",
+      "status": "order_failed",
+      "news_bad": false
+    },
+    {
+      "symbol": "BE",
+      "name": "Bloom Energy",
+      "sector": "Industrials",
+      "pct_change": -11.792620772833288,
+      "conviction": "high",
       "status": "blocked_news",
       "news_bad": true
+    },
+    {
+      "symbol": "HPQ",
+      "name": "HP Inc.",
+      "sector": "Information Technology",
+      "pct_change": -11.57964361043899,
+      "conviction": "high",
+      "status": "blocked_news",
+      "news_bad": true
+    },
+    {
+      "symbol": "CDW",
+      "name": "CDW Corporation",
+      "sector": "Information Technology",
+      "pct_change": -10.738493076324335,
+      "conviction": "high",
+      "status": "order_failed",
+      "news_bad": false
+    },
+    {
+      "symbol": "APP",
+      "name": "AppLovin",
+      "sector": "Communication Services",
+      "pct_change": -10.682205717756881,
+      "conviction": "high",
+      "status": "bought",
+      "news_bad": false
     }
   ]
 }
