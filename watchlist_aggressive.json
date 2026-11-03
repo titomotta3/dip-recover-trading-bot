@@ -1,142 +1,43 @@
 {
-  "updated_utc": "2026-10-30T18:28:37+00:00",
+  "updated_utc": "2026-11-03T20:01:52+00:00",
   "drop_threshold_pct": -8.0,
   "high_conviction_pct": -11.0,
   "stocks": [
     {
-      "symbol": "INTC",
-      "name": "Intel",
+      "symbol": "IT",
+      "name": "Gartner",
       "sector": "Information Technology",
-      "pct_change": -30.623438457998848,
+      "pct_change": -13.665729255787342,
       "conviction": "high",
-      "status": "blocked_sector_cap",
+      "status": "bought",
       "news_bad": false
     },
     {
-      "symbol": "RDDT",
-      "name": "Reddit",
-      "sector": "Communication Services",
-      "pct_change": -30.347145676452936,
-      "conviction": "high",
+      "symbol": "ZBRA",
+      "name": "Zebra Technologies",
+      "sector": "Information Technology",
+      "pct_change": -8.928916091492058,
+      "conviction": "buy_signal",
       "status": "blocked_news",
       "news_bad": true
     },
     {
-      "symbol": "ILMN",
-      "name": "Illumina, Inc.",
-      "sector": "Health Care",
-      "pct_change": -19.752809298487083,
-      "conviction": "high",
-      "status": "bought",
-      "news_bad": false
-    },
-    {
-      "symbol": "TWLO",
-      "name": "Twilio",
-      "sector": "Information Technology",
-      "pct_change": -16.274328433489405,
-      "conviction": "high",
-      "status": "blocked_sector_cap",
-      "news_bad": false
-    },
-    {
-      "symbol": "SNDK",
-      "name": "Sandisk",
-      "sector": "Information Technology",
-      "pct_change": -15.275744623831084,
-      "conviction": "high",
-      "status": "blocked_sector_cap",
-      "news_bad": false
-    },
-    {
-      "symbol": "COIN",
-      "name": "Coinbase",
-      "sector": "Financials",
-      "pct_change": -14.001495188431178,
-      "conviction": "high",
-      "status": "bought",
-      "news_bad": false
-    },
-    {
-      "symbol": "COHR",
-      "name": "Coherent Corp.",
-      "sector": "Information Technology",
-      "pct_change": -13.011131158560316,
-      "conviction": "high",
-      "status": "bought",
-      "news_bad": false
-    },
-    {
-      "symbol": "DELL",
-      "name": "Dell Technologies",
-      "sector": "Information Technology",
-      "pct_change": -12.667454865740885,
-      "conviction": "high",
-      "status": "blocked_news",
-      "news_bad": true
-    },
-    {
-      "symbol": "DDOG",
-      "name": "Datadog",
-      "sector": "Information Technology",
-      "pct_change": -12.515042684316292,
-      "conviction": "high",
-      "status": "bought",
-      "news_bad": false
-    },
-    {
-      "symbol": "MRVL",
-      "name": "Marvell Technology",
-      "sector": "Information Technology",
-      "pct_change": -12.43473223040115,
-      "conviction": "high",
-      "status": "blocked_sector_cap",
-      "news_bad": false
-    },
-    {
-      "symbol": "AMD",
-      "name": "Advanced Micro Devices",
-      "sector": "Information Technology",
-      "pct_change": -12.410399532338925,
-      "conviction": "high",
-      "status": "bought",
-      "news_bad": false
-    },
-    {
-      "symbol": "QCOM",
-      "name": "Qualcomm",
-      "sector": "Information Technology",
-      "pct_change": -12.324041665603657,
-      "conviction": "high",
-      "status": "blocked_sector_cap",
-      "news_bad": false
-    },
-    {
-      "symbol": "BE",
-      "name": "Bloom Energy",
-      "sector": "Industrials",
-      "pct_change": -11.767882727387358,
-      "conviction": "high",
-      "status": "blocked_news",
-      "news_bad": true
-    },
-    {
-      "symbol": "HPQ",
-      "name": "HP Inc.",
-      "sector": "Information Technology",
-      "pct_change": -11.639962087925356,
-      "conviction": "high",
-      "status": "blocked_news",
-      "news_bad": true
-    },
-    {
-      "symbol": "CDW",
-      "name": "CDW Corporation",
-      "sector": "Information Technology",
-      "pct_change": -10.91404304622702,
+      "symbol": "SYY",
+      "name": "Sysco",
+      "sector": "Consumer Staples",
+      "pct_change": -8.17225407359183,
       "conviction": "buy_signal",
       "status": "bought",
       "news_bad": false
+    },
+    {
+      "symbol": "ADM",
+      "name": "Archer Daniels Midland",
+      "sector": "Consumer Staples",
+      "pct_change": -7.549153813816384,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
     }
   ]
 }

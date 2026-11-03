@@ -335,3 +335,11 @@ timestamp_utc,action,symbol,detail
 2026-10-30T18:28:37+00:00,BUY,ILMN,drop=-19.75% notional=$36000.00 news=clear(9) conviction=HIGH
 2026-10-30T18:28:37+00:00,BUY,RMD,drop=-8.74% notional=$18000.00 news=clear(10)
 2026-10-30T18:28:37+00:00,BUY,HOOD,drop=-9.73% notional=$18000.00 news=clear(10)
+2026-11-03T20:01:11+00:00,SELL,COHR,gain=0.29% qty=175.498415638 reason=bad_news:downgrade
+2026-11-03T20:01:11+00:00,SELL,COIN,"gain=5.19% qty=260.71835168 reason=bad_news:downgrade,downgraded"
+2026-11-03T20:01:12+00:00,SELL,FTNT,gain=-6.46% qty=264.705808823 reason=bad_news:investigation
+2026-11-03T20:01:12+00:00,SELL,HOOD,"gain=3.10% qty=217.838436403 reason=bad_news:downgrade,downgraded"
+2026-11-03T20:01:12+00:00,SELL,MNST,gain=4.83% qty=483.941706995 reason=bad_news:sued
+2026-11-03T20:01:12+00:00,SELL,RMD,"gain=-2.96% qty=77.955781723 reason=bad_news:downgrade,downgraded"
+2026-11-03T20:01:52+00:00,BUY,IT,drop=-13.67% notional=$36000.00 news=clear(10) conviction=HIGH
+2026-11-03T20:01:52+00:00,BUY,SYY,drop=-8.17% notional=$18000.00 news=clear(10)
