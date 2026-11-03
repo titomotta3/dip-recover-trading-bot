@@ -1,142 +1,142 @@
 {
-  "updated_utc": "2026-10-30T18:27:39+00:00",
+  "updated_utc": "2026-11-03T20:00:03+00:00",
   "drop_threshold_pct": -5.0,
   "high_conviction_pct": -8.0,
   "stocks": [
     {
-      "symbol": "INTC",
-      "name": "Intel",
+      "symbol": "IT",
+      "name": "Gartner",
       "sector": "Information Technology",
-      "pct_change": -30.65070109304936,
-      "conviction": "high",
-      "status": "order_failed",
-      "news_bad": false
-    },
-    {
-      "symbol": "RDDT",
-      "name": "Reddit",
-      "sector": "Communication Services",
-      "pct_change": -30.370375297905472,
-      "conviction": "high",
-      "status": "blocked_news",
-      "news_bad": true
-    },
-    {
-      "symbol": "ILMN",
-      "name": "Illumina, Inc.",
-      "sector": "Health Care",
-      "pct_change": -19.752809298487083,
-      "conviction": "high",
-      "status": "order_failed",
-      "news_bad": false
-    },
-    {
-      "symbol": "TWLO",
-      "name": "Twilio",
-      "sector": "Information Technology",
-      "pct_change": -16.31252271629413,
-      "conviction": "high",
-      "status": "order_failed",
-      "news_bad": false
-    },
-    {
-      "symbol": "SNDK",
-      "name": "Sandisk",
-      "sector": "Information Technology",
-      "pct_change": -15.140040584557127,
-      "conviction": "high",
-      "status": "order_failed",
-      "news_bad": false
-    },
-    {
-      "symbol": "COIN",
-      "name": "Coinbase",
-      "sector": "Financials",
-      "pct_change": -13.984677169092166,
-      "conviction": "high",
-      "status": "order_failed",
-      "news_bad": false
-    },
-    {
-      "symbol": "COHR",
-      "name": "Coherent Corp.",
-      "sector": "Information Technology",
-      "pct_change": -13.036423106239688,
-      "conviction": "high",
-      "status": "order_failed",
-      "news_bad": false
-    },
-    {
-      "symbol": "DELL",
-      "name": "Dell Technologies",
-      "sector": "Information Technology",
-      "pct_change": -12.700051188870503,
-      "conviction": "high",
-      "status": "blocked_news",
-      "news_bad": true
-    },
-    {
-      "symbol": "MRVL",
-      "name": "Marvell Technology",
-      "sector": "Information Technology",
-      "pct_change": -12.498852131471306,
-      "conviction": "high",
-      "status": "order_failed",
-      "news_bad": false
-    },
-    {
-      "symbol": "AMD",
-      "name": "Advanced Micro Devices",
-      "sector": "Information Technology",
-      "pct_change": -12.469611458773898,
+      "pct_change": -13.589221273136676,
       "conviction": "high",
       "status": "bought",
       "news_bad": false
     },
     {
-      "symbol": "QCOM",
-      "name": "Qualcomm",
+      "symbol": "ZBRA",
+      "name": "Zebra Technologies",
       "sector": "Information Technology",
-      "pct_change": -12.291682268910536,
+      "pct_change": -9.115834459232207,
       "conviction": "high",
-      "status": "order_failed",
+      "status": "blocked_news",
+      "news_bad": true
+    },
+    {
+      "symbol": "SYY",
+      "name": "Sysco",
+      "sector": "Consumer Staples",
+      "pct_change": -8.34352810504185,
+      "conviction": "high",
+      "status": "bought",
       "news_bad": false
     },
     {
-      "symbol": "BE",
-      "name": "Bloom Energy",
+      "symbol": "ADM",
+      "name": "Archer Daniels Midland",
+      "sector": "Consumer Staples",
+      "pct_change": -7.5293578651388415,
+      "conviction": "buy_signal",
+      "status": "blocked_news",
+      "news_bad": true
+    },
+    {
+      "symbol": "BALL",
+      "name": "Ball Corporation",
+      "sector": "Materials",
+      "pct_change": -5.714704579239506,
+      "conviction": "buy_signal",
+      "status": "bought",
+      "news_bad": false
+    },
+    {
+      "symbol": "LDOS",
+      "name": "Leidos",
       "sector": "Industrials",
-      "pct_change": -11.792620772833288,
-      "conviction": "high",
-      "status": "blocked_news",
-      "news_bad": true
-    },
-    {
-      "symbol": "HPQ",
-      "name": "HP Inc.",
-      "sector": "Information Technology",
-      "pct_change": -11.57964361043899,
-      "conviction": "high",
-      "status": "blocked_news",
-      "news_bad": true
-    },
-    {
-      "symbol": "CDW",
-      "name": "CDW Corporation",
-      "sector": "Information Technology",
-      "pct_change": -10.738493076324335,
-      "conviction": "high",
-      "status": "order_failed",
-      "news_bad": false
-    },
-    {
-      "symbol": "APP",
-      "name": "AppLovin",
-      "sector": "Communication Services",
-      "pct_change": -10.682205717756881,
-      "conviction": "high",
+      "pct_change": -5.712403163954711,
+      "conviction": "buy_signal",
       "status": "bought",
       "news_bad": false
+    },
+    {
+      "symbol": "LEN",
+      "name": "Lennar",
+      "sector": "Consumer Discretionary",
+      "pct_change": -4.998896495465741,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "APTV",
+      "name": "Aptiv",
+      "sector": "Consumer Discretionary",
+      "pct_change": -4.9513874053236195,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "DHI",
+      "name": "D. R. Horton",
+      "sector": "Consumer Discretionary",
+      "pct_change": -4.789771332672149,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "APO",
+      "name": "Apollo Global Management",
+      "sector": "Financials",
+      "pct_change": -4.729617921630547,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "DASH",
+      "name": "DoorDash",
+      "sector": "Consumer Discretionary",
+      "pct_change": -4.398379696009161,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "IP",
+      "name": "International Paper",
+      "sector": "Materials",
+      "pct_change": -4.107535734676973,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "KDP",
+      "name": "Keurig Dr Pepper",
+      "sector": "Consumer Staples",
+      "pct_change": -4.087455406271479,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "HSIC",
+      "name": "Henry Schein",
+      "sector": "Health Care",
+      "pct_change": -4.06661160561052,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "EXPE",
+      "name": "Expedia Group",
+      "sector": "Consumer Discretionary",
+      "pct_change": -4.0653530808067195,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
     }
   ]
 }

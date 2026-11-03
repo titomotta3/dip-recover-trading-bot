@@ -505,3 +505,15 @@ timestamp_utc,action,symbol,detail
 2026-10-30T18:27:31+00:00,BUY,AMAT,drop=-8.90% notional=$20000.00 news=clear(2)
 2026-10-30T18:27:31+00:00,BUY,APP,drop=-10.68% notional=$20000.00 news=clear(6)
 2026-10-30T18:27:31+00:00,BUY,BBY,drop=-5.71% notional=$20000.00 news=clear(1)
+2026-11-03T19:59:20+00:00,SELL,APH,gain=7.37% qty=256.837699024 reason=target_reached
+2026-11-03T19:59:20+00:00,SELL,APP,gain=7.56% qty=87.750043875 reason=target_reached
+2026-11-03T19:59:20+00:00,SELL,CBRE,gain=9.46% qty=160.359124438 reason=target_reached
+2026-11-03T19:59:21+00:00,SELL,CTSH,gain=1.96% qty=320.924101412 reason=bad_news:lawsuit
+2026-11-03T19:59:21+00:00,SELL,DDOG,gain=-16.94% qty=75.898409927 reason=stop_loss
+2026-11-03T19:59:21+00:00,SELL,DLTR,gain=7.49% qty=160.500682128 reason=target_reached
+2026-11-03T19:59:21+00:00,SELL,ROK,gain=-0.17% qty=22.282610633 reason=max_hold_time(held 91.2d)
+2026-11-03T19:59:21+00:00,SELL,SW,gain=8.03% qty=505.177822682 reason=target_reached
+2026-11-03T20:00:02+00:00,BUY,BALL,drop=-5.71% notional=$20000.00 news=clear(10)
+2026-11-03T20:00:02+00:00,BUY,IT,drop=-13.59% notional=$20000.00 news=clear(10)
+2026-11-03T20:00:03+00:00,BUY,LDOS,drop=-5.71% notional=$20000.00 news=clear(10)
+2026-11-03T20:00:03+00:00,BUY,SYY,drop=-8.34% notional=$20000.00 news=clear(10)
