@@ -1,9 +1,9 @@
 {
   "drop_threshold_pct": -8.0,
-  "sell_threshold_pct": 11.0,
+  "sell_threshold_pct": 12.0,
   "trade_dollars": 18000.0,
-  "completed_trades": 68,
-  "last_adjustment": "6 bad_news exit(s) (COHR, COIN, FTNT, HOOD, MNST, RMD)",
-  "updated_utc": "2026-11-04T00:32:44+00:00",
-  "risk_exits": 98
+  "completed_trades": 70,
+  "last_adjustment": "4 stop_loss exit(s) (CIEN, DDOG, FIX, VST); 1 bad_news exit(s) (IT); APP cleared target by 8.4pp -> raised sell target to 11.5%; CDW cleared target by 4.3pp -> raised sell target to 12.0%",
+  "updated_utc": "2026-11-04T20:20:34+00:00",
+  "risk_exits": 103
 }

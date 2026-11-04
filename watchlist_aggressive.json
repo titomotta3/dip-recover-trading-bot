@@ -1,43 +1,142 @@
 {
-  "updated_utc": "2026-11-03T20:01:52+00:00",
+  "updated_utc": "2026-11-04T20:20:34+00:00",
   "drop_threshold_pct": -8.0,
   "high_conviction_pct": -11.0,
   "stocks": [
     {
-      "symbol": "IT",
-      "name": "Gartner",
-      "sector": "Information Technology",
-      "pct_change": -13.665729255787342,
+      "symbol": "FIS",
+      "name": "Fidelity National Information Services",
+      "sector": "Financials",
+      "pct_change": -23.40344066306656,
       "conviction": "high",
       "status": "bought",
       "news_bad": false
     },
     {
-      "symbol": "ZBRA",
-      "name": "Zebra Technologies",
+      "symbol": "TRMB",
+      "name": "Trimble Inc.",
       "sector": "Information Technology",
-      "pct_change": -8.928916091492058,
-      "conviction": "buy_signal",
+      "pct_change": -16.849565923386972,
+      "conviction": "high",
+      "status": "order_failed",
+      "news_bad": false
+    },
+    {
+      "symbol": "FIX",
+      "name": "Comfort Systems USA",
+      "sector": "Industrials",
+      "pct_change": -15.484035815701022,
+      "conviction": "high",
+      "status": "bought",
+      "news_bad": false
+    },
+    {
+      "symbol": "DDOG",
+      "name": "Datadog",
+      "sector": "Information Technology",
+      "pct_change": -14.107563943230275,
+      "conviction": "high",
       "status": "blocked_news",
       "news_bad": true
     },
     {
-      "symbol": "SYY",
-      "name": "Sysco",
-      "sector": "Consumer Staples",
-      "pct_change": -8.17225407359183,
+      "symbol": "TPL",
+      "name": "Texas Pacific Land Corporation",
+      "sector": "Energy",
+      "pct_change": -13.97289597844503,
+      "conviction": "high",
+      "status": "order_failed",
+      "news_bad": false
+    },
+    {
+      "symbol": "VST",
+      "name": "Vistra Corp.",
+      "sector": "Utilities",
+      "pct_change": -13.808291712987405,
+      "conviction": "high",
+      "status": "blocked_news",
+      "news_bad": true
+    },
+    {
+      "symbol": "VRT",
+      "name": "Vertiv",
+      "sector": "Industrials",
+      "pct_change": -13.060985364572995,
+      "conviction": "high",
+      "status": "order_failed",
+      "news_bad": false
+    },
+    {
+      "symbol": "FLEX",
+      "name": "Flex Ltd.",
+      "sector": "Information Technology",
+      "pct_change": -12.077184533407092,
+      "conviction": "high",
+      "status": "bought",
+      "news_bad": false
+    },
+    {
+      "symbol": "NRG",
+      "name": "NRG Energy",
+      "sector": "Utilities",
+      "pct_change": -11.952009793777297,
+      "conviction": "high",
+      "status": "bought",
+      "news_bad": false
+    },
+    {
+      "symbol": "PWR",
+      "name": "Quanta Services",
+      "sector": "Industrials",
+      "pct_change": -11.559361845390983,
+      "conviction": "high",
+      "status": "blocked_news",
+      "news_bad": true
+    },
+    {
+      "symbol": "CVS",
+      "name": "CVS Health",
+      "sector": "Health Care",
+      "pct_change": -11.421072118098783,
+      "conviction": "high",
+      "status": "bought",
+      "news_bad": false
+    },
+    {
+      "symbol": "GNRC",
+      "name": "Generac",
+      "sector": "Industrials",
+      "pct_change": -9.88388650575624,
       "conviction": "buy_signal",
       "status": "bought",
       "news_bad": false
     },
     {
-      "symbol": "ADM",
-      "name": "Archer Daniels Midland",
-      "sector": "Consumer Staples",
-      "pct_change": -7.549153813816384,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
+      "symbol": "ETN",
+      "name": "Eaton Corporation",
+      "sector": "Industrials",
+      "pct_change": -9.85065631099912,
+      "conviction": "buy_signal",
+      "status": "bought",
+      "news_bad": false
+    },
+    {
+      "symbol": "CIEN",
+      "name": "Ciena",
+      "sector": "Information Technology",
+      "pct_change": -9.727397104104629,
+      "conviction": "buy_signal",
+      "status": "bought",
+      "news_bad": false
+    },
+    {
+      "symbol": "EME",
+      "name": "Emcor",
+      "sector": "Industrials",
+      "pct_change": -9.572674526702093,
+      "conviction": "buy_signal",
+      "status": "bought",
+      "news_bad": false
     }
   ]
 }
