@@ -1,139 +1,139 @@
 {
-  "updated_utc": "2026-11-04T20:19:41+00:00",
+  "updated_utc": "2026-11-05T20:30:32+00:00",
   "drop_threshold_pct": -5.0,
   "high_conviction_pct": -8.0,
   "stocks": [
     {
-      "symbol": "FIS",
-      "name": "Fidelity National Information Services",
-      "sector": "Financials",
-      "pct_change": -23.33932263933208,
-      "conviction": "high",
-      "status": "order_failed",
-      "news_bad": false
-    },
-    {
-      "symbol": "TRMB",
-      "name": "Trimble Inc.",
+      "symbol": "SNDK",
+      "name": "Sandisk",
       "sector": "Information Technology",
-      "pct_change": -16.849565923386972,
-      "conviction": "high",
-      "status": "order_failed",
-      "news_bad": false
-    },
-    {
-      "symbol": "FIX",
-      "name": "Comfort Systems USA",
-      "sector": "Industrials",
-      "pct_change": -15.35019949590536,
-      "conviction": "high",
-      "status": "bought",
-      "news_bad": false
-    },
-    {
-      "symbol": "DDOG",
-      "name": "Datadog",
-      "sector": "Information Technology",
-      "pct_change": -14.225471507436446,
+      "pct_change": -19.13196760653588,
       "conviction": "high",
       "status": "blocked_news",
       "news_bad": true
     },
     {
-      "symbol": "TPL",
-      "name": "Texas Pacific Land Corporation",
-      "sector": "Energy",
-      "pct_change": -13.813248599868222,
-      "conviction": "high",
-      "status": "order_failed",
-      "news_bad": false
-    },
-    {
-      "symbol": "VST",
-      "name": "Vistra Corp.",
-      "sector": "Utilities",
-      "pct_change": -13.690087744324822,
-      "conviction": "high",
-      "status": "blocked_news",
-      "news_bad": true
-    },
-    {
-      "symbol": "VRT",
-      "name": "Vertiv",
-      "sector": "Industrials",
-      "pct_change": -13.05038691767548,
-      "conviction": "high",
-      "status": "order_failed",
-      "news_bad": false
-    },
-    {
-      "symbol": "FLEX",
-      "name": "Flex Ltd.",
+      "symbol": "LITE",
+      "name": "Lumentum",
       "sector": "Information Technology",
-      "pct_change": -11.940972559899192,
-      "conviction": "high",
-      "status": "order_failed",
-      "news_bad": false
-    },
-    {
-      "symbol": "NRG",
-      "name": "NRG Energy",
-      "sector": "Utilities",
-      "pct_change": -11.723460847360515,
-      "conviction": "high",
-      "status": "order_failed",
-      "news_bad": false
-    },
-    {
-      "symbol": "CVS",
-      "name": "CVS Health",
-      "sector": "Health Care",
-      "pct_change": -11.377312229766206,
-      "conviction": "high",
-      "status": "bought",
-      "news_bad": false
-    },
-    {
-      "symbol": "PWR",
-      "name": "Quanta Services",
-      "sector": "Industrials",
-      "pct_change": -11.324966407439117,
+      "pct_change": -16.000004674411645,
       "conviction": "high",
       "status": "blocked_news",
       "news_bad": true
     },
     {
-      "symbol": "ETN",
-      "name": "Eaton Corporation",
+      "symbol": "P",
+      "name": "Everpure",
+      "sector": "Information Technology",
+      "pct_change": -15.58557635514249,
+      "conviction": "high",
+      "status": "order_failed",
+      "news_bad": false
+    },
+    {
+      "symbol": "BE",
+      "name": "Bloom Energy",
       "sector": "Industrials",
-      "pct_change": -9.839164499323969,
+      "pct_change": -15.471552179806409,
       "conviction": "high",
       "status": "bought",
       "news_bad": false
     },
     {
-      "symbol": "GNRC",
-      "name": "Generac",
-      "sector": "Industrials",
-      "pct_change": -9.78354655148303,
+      "symbol": "WDC",
+      "name": "Western Digital",
+      "sector": "Information Technology",
+      "pct_change": -15.46335539197462,
+      "conviction": "high",
+      "status": "blocked_news",
+      "news_bad": true
+    },
+    {
+      "symbol": "STX",
+      "name": "Seagate Technology",
+      "sector": "Information Technology",
+      "pct_change": -15.28291568928716,
       "conviction": "high",
       "status": "order_failed",
       "news_bad": false
+    },
+    {
+      "symbol": "AMD",
+      "name": "Advanced Micro Devices",
+      "sector": "Information Technology",
+      "pct_change": -15.246120790495057,
+      "conviction": "high",
+      "status": "bought",
+      "news_bad": false
+    },
+    {
+      "symbol": "MU",
+      "name": "Micron Technology",
+      "sector": "Information Technology",
+      "pct_change": -14.912033480880568,
+      "conviction": "high",
+      "status": "order_failed",
+      "news_bad": false
+    },
+    {
+      "symbol": "LRCX",
+      "name": "Lam Research",
+      "sector": "Information Technology",
+      "pct_change": -14.388288129608542,
+      "conviction": "high",
+      "status": "order_failed",
+      "news_bad": false
+    },
+    {
+      "symbol": "ROK",
+      "name": "Rockwell Automation",
+      "sector": "Industrials",
+      "pct_change": -14.321439719052378,
+      "conviction": "high",
+      "status": "blocked_news",
+      "news_bad": true
     },
     {
       "symbol": "CIEN",
       "name": "Ciena",
       "sector": "Information Technology",
-      "pct_change": -9.570781960091411,
+      "pct_change": -14.101522740214959,
       "conviction": "high",
-      "status": "bought",
+      "status": "order_failed",
       "news_bad": false
     },
     {
-      "symbol": "MPC",
-      "name": "Marathon Petroleum",
-      "sector": "Energy",
-      "pct_change": -9.522864153357151,
+      "symbol": "EXPE",
+      "name": "Expedia Group",
+      "sector": "Consumer Discretionary",
+      "pct_change": -14.100293736998534,
+      "conviction": "high",
+      "status": "order_failed",
+      "news_bad": false
+    },
+    {
+      "symbol": "VRT",
+      "name": "Vertiv",
+      "sector": "Industrials",
+      "pct_change": -14.079300419236244,
+      "conviction": "high",
+      "status": "order_failed",
+      "news_bad": false
+    },
+    {
+      "symbol": "MRVL",
+      "name": "Marvell Technology",
+      "sector": "Information Technology",
+      "pct_change": -13.854817876616366,
+      "conviction": "high",
+      "status": "blocked_news",
+      "news_bad": true
+    },
+    {
+      "symbol": "DELL",
+      "name": "Dell Technologies",
+      "sector": "Information Technology",
+      "pct_change": -13.42652193682543,
       "conviction": "high",
       "status": "order_failed",
       "news_bad": false
