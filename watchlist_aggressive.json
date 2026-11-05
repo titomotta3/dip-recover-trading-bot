@@ -1,58 +1,103 @@
 {
-  "updated_utc": "2026-11-04T20:20:34+00:00",
+  "updated_utc": "2026-11-05T20:31:33+00:00",
   "drop_threshold_pct": -8.0,
   "high_conviction_pct": -11.0,
   "stocks": [
     {
-      "symbol": "FIS",
-      "name": "Fidelity National Information Services",
-      "sector": "Financials",
-      "pct_change": -23.40344066306656,
-      "conviction": "high",
-      "status": "bought",
-      "news_bad": false
-    },
-    {
-      "symbol": "TRMB",
-      "name": "Trimble Inc.",
+      "symbol": "SNDK",
+      "name": "Sandisk",
       "sector": "Information Technology",
-      "pct_change": -16.849565923386972,
-      "conviction": "high",
-      "status": "order_failed",
-      "news_bad": false
-    },
-    {
-      "symbol": "FIX",
-      "name": "Comfort Systems USA",
-      "sector": "Industrials",
-      "pct_change": -15.484035815701022,
-      "conviction": "high",
-      "status": "bought",
-      "news_bad": false
-    },
-    {
-      "symbol": "DDOG",
-      "name": "Datadog",
-      "sector": "Information Technology",
-      "pct_change": -14.107563943230275,
+      "pct_change": -19.88997669085441,
       "conviction": "high",
       "status": "blocked_news",
       "news_bad": true
     },
     {
-      "symbol": "TPL",
-      "name": "Texas Pacific Land Corporation",
-      "sector": "Energy",
-      "pct_change": -13.97289597844503,
+      "symbol": "LITE",
+      "name": "Lumentum",
+      "sector": "Information Technology",
+      "pct_change": -16.938967375722978,
+      "conviction": "high",
+      "status": "blocked_news",
+      "news_bad": true
+    },
+    {
+      "symbol": "WDC",
+      "name": "Western Digital",
+      "sector": "Information Technology",
+      "pct_change": -16.077872365970453,
+      "conviction": "high",
+      "status": "blocked_news",
+      "news_bad": true
+    },
+    {
+      "symbol": "P",
+      "name": "Everpure",
+      "sector": "Information Technology",
+      "pct_change": -16.019503728246377,
       "conviction": "high",
       "status": "order_failed",
       "news_bad": false
     },
     {
-      "symbol": "VST",
-      "name": "Vistra Corp.",
-      "sector": "Utilities",
-      "pct_change": -13.808291712987405,
+      "symbol": "AMD",
+      "name": "Advanced Micro Devices",
+      "sector": "Information Technology",
+      "pct_change": -16.013337126958383,
+      "conviction": "high",
+      "status": "bought",
+      "news_bad": false
+    },
+    {
+      "symbol": "BE",
+      "name": "Bloom Energy",
+      "sector": "Industrials",
+      "pct_change": -15.9338310663168,
+      "conviction": "high",
+      "status": "bought",
+      "news_bad": false
+    },
+    {
+      "symbol": "MU",
+      "name": "Micron Technology",
+      "sector": "Information Technology",
+      "pct_change": -15.621893479861306,
+      "conviction": "high",
+      "status": "order_failed",
+      "news_bad": false
+    },
+    {
+      "symbol": "STX",
+      "name": "Seagate Technology",
+      "sector": "Information Technology",
+      "pct_change": -15.583599242281391,
+      "conviction": "high",
+      "status": "order_failed",
+      "news_bad": false
+    },
+    {
+      "symbol": "LRCX",
+      "name": "Lam Research",
+      "sector": "Information Technology",
+      "pct_change": -14.6547432694701,
+      "conviction": "high",
+      "status": "order_failed",
+      "news_bad": false
+    },
+    {
+      "symbol": "CIEN",
+      "name": "Ciena",
+      "sector": "Information Technology",
+      "pct_change": -14.632307112846888,
+      "conviction": "high",
+      "status": "bought",
+      "news_bad": false
+    },
+    {
+      "symbol": "MRVL",
+      "name": "Marvell Technology",
+      "sector": "Information Technology",
+      "pct_change": -14.599500241247371,
       "conviction": "high",
       "status": "blocked_news",
       "news_bad": true
@@ -61,81 +106,36 @@
       "symbol": "VRT",
       "name": "Vertiv",
       "sector": "Industrials",
-      "pct_change": -13.060985364572995,
+      "pct_change": -14.463631858985185,
       "conviction": "high",
       "status": "order_failed",
       "news_bad": false
     },
     {
-      "symbol": "FLEX",
-      "name": "Flex Ltd.",
-      "sector": "Information Technology",
-      "pct_change": -12.077184533407092,
-      "conviction": "high",
-      "status": "bought",
-      "news_bad": false
-    },
-    {
-      "symbol": "NRG",
-      "name": "NRG Energy",
-      "sector": "Utilities",
-      "pct_change": -11.952009793777297,
-      "conviction": "high",
-      "status": "bought",
-      "news_bad": false
-    },
-    {
-      "symbol": "PWR",
-      "name": "Quanta Services",
+      "symbol": "ROK",
+      "name": "Rockwell Automation",
       "sector": "Industrials",
-      "pct_change": -11.559361845390983,
+      "pct_change": -14.371002938454705,
       "conviction": "high",
       "status": "blocked_news",
       "news_bad": true
     },
     {
-      "symbol": "CVS",
-      "name": "CVS Health",
-      "sector": "Health Care",
-      "pct_change": -11.421072118098783,
+      "symbol": "EXPE",
+      "name": "Expedia Group",
+      "sector": "Consumer Discretionary",
+      "pct_change": -14.269663008189934,
       "conviction": "high",
-      "status": "bought",
+      "status": "order_failed",
       "news_bad": false
     },
     {
-      "symbol": "GNRC",
-      "name": "Generac",
-      "sector": "Industrials",
-      "pct_change": -9.88388650575624,
-      "conviction": "buy_signal",
-      "status": "bought",
-      "news_bad": false
-    },
-    {
-      "symbol": "ETN",
-      "name": "Eaton Corporation",
-      "sector": "Industrials",
-      "pct_change": -9.85065631099912,
-      "conviction": "buy_signal",
-      "status": "bought",
-      "news_bad": false
-    },
-    {
-      "symbol": "CIEN",
-      "name": "Ciena",
+      "symbol": "DELL",
+      "name": "Dell Technologies",
       "sector": "Information Technology",
-      "pct_change": -9.727397104104629,
-      "conviction": "buy_signal",
-      "status": "bought",
-      "news_bad": false
-    },
-    {
-      "symbol": "EME",
-      "name": "Emcor",
-      "sector": "Industrials",
-      "pct_change": -9.572674526702093,
-      "conviction": "buy_signal",
-      "status": "bought",
+      "pct_change": -13.921977738460182,
+      "conviction": "high",
+      "status": "order_failed",
       "news_bad": false
     }
   ]

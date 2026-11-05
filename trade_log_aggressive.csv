@@ -361,3 +361,22 @@ timestamp_utc,action,symbol,detail
 2026-11-04T20:20:32+00:00,BUY,GNRC,drop=-9.88% notional=$18000.00 news=none
 2026-11-04T20:20:33+00:00,BUY,MPC,drop=-9.50% notional=$18000.00 news=clear(10)
 2026-11-04T20:20:33+00:00,BUY,NRG,drop=-11.95% notional=$36000.00 news=none conviction=HIGH
+2026-11-05T20:30:51+00:00,SELL,AMAT,gain=-15.74% qty=46.771459757 reason=stop_loss
+2026-11-05T20:30:51+00:00,SELL,AMD,gain=-17.09% qty=72.659730351 reason=stop_loss
+2026-11-05T20:30:51+00:00,SELL,AXON,gain=-13.98% qty=82.451536805 reason=stop_loss
+2026-11-05T20:30:51+00:00,SELL,CAT,gain=-13.80% qty=27.982448776 reason=stop_loss
+2026-11-05T20:30:51+00:00,SELL,CIEN,gain=-14.19% qty=66.427980957 reason=stop_loss
+2026-11-05T20:30:51+00:00,SELL,DELL,gain=-13.24% qty=48.721044796 reason=stop_loss
+2026-11-05T20:30:52+00:00,SELL,FIS,"gain=-2.67% qty=1202.404475617 reason=bad_news:downgrade,sued"
+2026-11-05T20:30:52+00:00,SELL,FLEX,gain=-13.93% qty=464.815881213 reason=stop_loss
+2026-11-05T20:30:52+00:00,SELL,JBL,gain=-16.64% qty=55.902973341 reason=stop_loss
+2026-11-05T20:30:52+00:00,SELL,LRCX,gain=-18.84% qty=68.728479381 reason=stop_loss
+2026-11-05T20:30:53+00:00,SELL,P,gain=-23.92% qty=145.85519812 reason=stop_loss
+2026-11-05T20:31:22+00:00,BUY,AMD,drop=-16.01% notional=$36000.00 news=clear(10) conviction=HIGH
+2026-11-05T20:31:22+00:00,BUY,APH,drop=-9.42% notional=$18000.00 news=clear(2)
+2026-11-05T20:31:22+00:00,BUY,ADI,drop=-8.98% notional=$18000.00 news=clear(1)
+2026-11-05T20:31:23+00:00,BUY,AMAT,drop=-12.27% notional=$36000.00 news=clear(4) conviction=HIGH
+2026-11-05T20:31:23+00:00,BUY,AXON,drop=-11.52% notional=$36000.00 news=clear(1) conviction=HIGH
+2026-11-05T20:31:23+00:00,BUY,BE,drop=-15.93% notional=$36000.00 news=clear(10) conviction=HIGH
+2026-11-05T20:31:24+00:00,BUY,CVNA,drop=-8.83% notional=$18000.00 news=clear(2)
+2026-11-05T20:31:24+00:00,BUY,CIEN,drop=-14.63% notional=$36000.00 news=clear(1) conviction=HIGH
