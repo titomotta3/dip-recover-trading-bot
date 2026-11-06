@@ -556,3 +556,9 @@ timestamp_utc,action,symbol,detail
 2026-11-05T20:30:23+00:00,BUY,ANET,drop=-10.30% notional=$20000.00 news=clear(10)
 2026-11-05T20:30:24+00:00,BUY,AXON,drop=-10.46% notional=$20000.00 news=clear(1)
 2026-11-05T20:30:24+00:00,BUY,BE,drop=-15.47% notional=$20000.00 news=clear(10)
+2026-11-06T19:52:58+00:00,SELL,AMD,gain=8.33% qty=48.588448267 reason=target_reached
+2026-11-06T19:52:58+00:00,SELL,APO,gain=0.59% qty=171.909833247 reason=bad_news:default
+2026-11-06T19:52:58+00:00,SELL,AXON,gain=-15.93% qty=53.098742121 reason=stop_loss
+2026-11-06T19:53:28+00:00,BUY,AXON,drop=-17.23% notional=$20000.00 news=clear(10)
+2026-11-06T19:53:28+00:00,BUY,DXCM,drop=-5.55% notional=$20000.00 news=clear(1)
+2026-11-06T19:53:28+00:00,BUY,PODD,drop=-7.00% notional=$20000.00 news=clear(10)

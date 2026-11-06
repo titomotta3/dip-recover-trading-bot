@@ -1,142 +1,142 @@
 {
-  "updated_utc": "2026-11-05T20:30:32+00:00",
+  "updated_utc": "2026-11-06T19:53:28+00:00",
   "drop_threshold_pct": -5.0,
   "high_conviction_pct": -8.0,
   "stocks": [
     {
-      "symbol": "SNDK",
-      "name": "Sandisk",
-      "sector": "Information Technology",
-      "pct_change": -19.13196760653588,
-      "conviction": "high",
-      "status": "blocked_news",
-      "news_bad": true
-    },
-    {
-      "symbol": "LITE",
-      "name": "Lumentum",
-      "sector": "Information Technology",
-      "pct_change": -16.000004674411645,
-      "conviction": "high",
-      "status": "blocked_news",
-      "news_bad": true
-    },
-    {
-      "symbol": "P",
-      "name": "Everpure",
-      "sector": "Information Technology",
-      "pct_change": -15.58557635514249,
-      "conviction": "high",
-      "status": "order_failed",
-      "news_bad": false
-    },
-    {
-      "symbol": "BE",
-      "name": "Bloom Energy",
+      "symbol": "AXON",
+      "name": "Axon Enterprise",
       "sector": "Industrials",
-      "pct_change": -15.471552179806409,
+      "pct_change": -17.226054557988903,
       "conviction": "high",
       "status": "bought",
       "news_bad": false
     },
     {
-      "symbol": "WDC",
-      "name": "Western Digital",
+      "symbol": "MCHP",
+      "name": "Microchip Technology",
       "sector": "Information Technology",
-      "pct_change": -15.46335539197462,
-      "conviction": "high",
-      "status": "blocked_news",
-      "news_bad": true
-    },
-    {
-      "symbol": "STX",
-      "name": "Seagate Technology",
-      "sector": "Information Technology",
-      "pct_change": -15.28291568928716,
+      "pct_change": -10.736776000147765,
       "conviction": "high",
       "status": "order_failed",
       "news_bad": false
     },
     {
-      "symbol": "AMD",
-      "name": "Advanced Micro Devices",
-      "sector": "Information Technology",
-      "pct_change": -15.246120790495057,
-      "conviction": "high",
+      "symbol": "PODD",
+      "name": "Insulet Corporation",
+      "sector": "Health Care",
+      "pct_change": -7.004226172557636,
+      "conviction": "buy_signal",
       "status": "bought",
       "news_bad": false
     },
     {
-      "symbol": "MU",
-      "name": "Micron Technology",
-      "sector": "Information Technology",
-      "pct_change": -14.912033480880568,
-      "conviction": "high",
-      "status": "order_failed",
-      "news_bad": false
-    },
-    {
-      "symbol": "LRCX",
-      "name": "Lam Research",
-      "sector": "Information Technology",
-      "pct_change": -14.388288129608542,
-      "conviction": "high",
-      "status": "order_failed",
-      "news_bad": false
-    },
-    {
-      "symbol": "ROK",
-      "name": "Rockwell Automation",
-      "sector": "Industrials",
-      "pct_change": -14.321439719052378,
-      "conviction": "high",
+      "symbol": "CNC",
+      "name": "Centene Corporation",
+      "sector": "Health Care",
+      "pct_change": -6.377235869367317,
+      "conviction": "buy_signal",
       "status": "blocked_news",
       "news_bad": true
     },
     {
-      "symbol": "CIEN",
-      "name": "Ciena",
+      "symbol": "IT",
+      "name": "Gartner",
       "sector": "Information Technology",
-      "pct_change": -14.101522740214959,
-      "conviction": "high",
-      "status": "order_failed",
+      "pct_change": -5.71515469562696,
+      "conviction": "buy_signal",
+      "status": "blocked_news",
+      "news_bad": true
+    },
+    {
+      "symbol": "DXCM",
+      "name": "Dexcom",
+      "sector": "Health Care",
+      "pct_change": -5.5470016686929515,
+      "conviction": "buy_signal",
+      "status": "bought",
       "news_bad": false
+    },
+    {
+      "symbol": "CHTR",
+      "name": "Charter Communications",
+      "sector": "Communication Services",
+      "pct_change": -4.552680223380136,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "FDS",
+      "name": "FactSet",
+      "sector": "Financials",
+      "pct_change": -4.214763724282865,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
     },
     {
       "symbol": "EXPE",
       "name": "Expedia Group",
       "sector": "Consumer Discretionary",
-      "pct_change": -14.100293736998534,
-      "conviction": "high",
-      "status": "order_failed",
-      "news_bad": false
+      "pct_change": -4.1672821963068225,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
     },
     {
-      "symbol": "VRT",
-      "name": "Vertiv",
-      "sector": "Industrials",
-      "pct_change": -14.079300419236244,
-      "conviction": "high",
-      "status": "order_failed",
-      "news_bad": false
+      "symbol": "CSGP",
+      "name": "CoStar Group",
+      "sector": "Real Estate",
+      "pct_change": -4.071757968462391,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
     },
     {
-      "symbol": "MRVL",
-      "name": "Marvell Technology",
+      "symbol": "DLTR",
+      "name": "Dollar Tree",
+      "sector": "Consumer Staples",
+      "pct_change": -4.019862310282836,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "JKHY",
+      "name": "Jack Henry & Associates",
+      "sector": "Financials",
+      "pct_change": -3.933205677326121,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "GDDY",
+      "name": "GoDaddy",
       "sector": "Information Technology",
-      "pct_change": -13.854817876616366,
-      "conviction": "high",
-      "status": "blocked_news",
-      "news_bad": true
+      "pct_change": -3.8961040610773288,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
     },
     {
-      "symbol": "DELL",
-      "name": "Dell Technologies",
+      "symbol": "INTU",
+      "name": "Intuit",
       "sector": "Information Technology",
-      "pct_change": -13.42652193682543,
-      "conviction": "high",
-      "status": "order_failed",
-      "news_bad": false
+      "pct_change": -3.879208734336671,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "MKC",
+      "name": "McCormick & Company",
+      "sector": "Consumer Staples",
+      "pct_change": -3.835401380286368,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
     }
   ]
 }
