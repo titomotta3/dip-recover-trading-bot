@@ -380,3 +380,9 @@ timestamp_utc,action,symbol,detail
 2026-11-05T20:31:23+00:00,BUY,BE,drop=-15.93% notional=$36000.00 news=clear(10) conviction=HIGH
 2026-11-05T20:31:24+00:00,BUY,CVNA,drop=-8.83% notional=$18000.00 news=clear(2)
 2026-11-05T20:31:24+00:00,BUY,CIEN,drop=-14.63% notional=$36000.00 news=clear(1) conviction=HIGH
+2026-11-06T19:53:56+00:00,SELL,AMD,gain=8.64% qty=87.720241574 reason=bad_news:warns
+2026-11-06T19:53:56+00:00,SELL,AXON,gain=-15.65% qty=95.877573304 reason=stop_loss
+2026-11-06T19:53:57+00:00,SELL,GEV,gain=-6.68% qty=19.388052105 reason=bad_news:default
+2026-11-06T19:53:57+00:00,SELL,MPC,"gain=-3.72% qty=46.575387481 reason=bad_news:bankrupt,bankruptcy,chapter 11"
+2026-11-06T19:54:28+00:00,BUY,AXON,drop=-17.19% notional=$36000.00 news=clear(10) conviction=HIGH
+2026-11-06T19:54:29+00:00,BUY,MCHP,drop=-10.76% notional=$18000.00 news=clear(10)
