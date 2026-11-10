@@ -562,3 +562,17 @@ timestamp_utc,action,symbol,detail
 2026-11-06T19:53:28+00:00,BUY,AXON,drop=-17.23% notional=$20000.00 news=clear(10)
 2026-11-06T19:53:28+00:00,BUY,DXCM,drop=-5.55% notional=$20000.00 news=clear(1)
 2026-11-06T19:53:28+00:00,BUY,PODD,drop=-7.00% notional=$20000.00 news=clear(10)
+2026-11-10T20:19:03+00:00,SELL,AMAT,gain=14.06% qty=61.52893401 reason=target_reached
+2026-11-10T20:19:03+00:00,SELL,ANET,gain=16.40% qty=125.351927295 reason=target_reached
+2026-11-10T20:19:03+00:00,SELL,AXON,gain=-5.46% qty=63.167172004 reason=bad_news:investigation
+2026-11-10T20:19:03+00:00,SELL,BBY,gain=9.80% qty=211.215439856 reason=target_reached
+2026-11-10T20:19:03+00:00,SELL,BE,gain=9.23% qty=118.245736617 reason=target_reached
+2026-11-10T20:19:03+00:00,SELL,CEG,gain=7.86% qty=80.879469341 reason=target_reached
+2026-11-10T20:19:03+00:00,SELL,CVS,gain=8.79% qty=246.852505554 reason=target_reached
+2026-11-10T20:19:04+00:00,SELL,DVN,gain=-1.31% qty=451.900813375 reason=bad_news:sued
+2026-11-10T20:19:04+00:00,SELL,SYY,gain=4.07% qty=266.986917634 reason=bad_news:investigation
+2026-11-10T20:19:42+00:00,BUY,CVNA,drop=-5.19% notional=$20000.00 news=none
+2026-11-10T20:19:42+00:00,BUY,GEV,drop=-5.26% notional=$20000.00 news=clear(10)
+2026-11-10T20:19:42+00:00,BUY,LEN,drop=-5.18% notional=$20000.00 news=clear(2)
+2026-11-10T20:19:42+00:00,BUY,MRNA,drop=-6.08% notional=$20000.00 news=clear(6)
+2026-11-10T20:19:43+00:00,BUY,SKYD,drop=-7.30% notional=$20000.00 news=clear(10)
