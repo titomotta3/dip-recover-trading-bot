@@ -1,40 +1,31 @@
 {
-  "updated_utc": "2026-11-06T19:54:29+00:00",
+  "updated_utc": "2026-11-10T20:20:38+00:00",
   "drop_threshold_pct": -8.0,
   "high_conviction_pct": -11.0,
   "stocks": [
     {
-      "symbol": "AXON",
-      "name": "Axon Enterprise",
-      "sector": "Industrials",
-      "pct_change": -17.193379944647802,
-      "conviction": "high",
-      "status": "bought",
-      "news_bad": false
-    },
-    {
-      "symbol": "MCHP",
-      "name": "Microchip Technology",
-      "sector": "Information Technology",
-      "pct_change": -10.763299470271773,
-      "conviction": "buy_signal",
-      "status": "bought",
-      "news_bad": false
-    },
-    {
-      "symbol": "PODD",
-      "name": "Insulet Corporation",
-      "sector": "Health Care",
-      "pct_change": -6.936972950149929,
+      "symbol": "SKYD",
+      "name": "Skydance",
+      "sector": "Communication Services",
+      "pct_change": -7.183908203473764,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
     },
     {
-      "symbol": "CNC",
-      "name": "Centene Corporation",
+      "symbol": "MRNA",
+      "name": "Moderna",
       "sector": "Health Care",
-      "pct_change": -6.39745885712346,
+      "pct_change": -6.470259769255343,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "FSLR",
+      "name": "First Solar",
+      "sector": "Information Technology",
+      "pct_change": -6.236624868314206,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
