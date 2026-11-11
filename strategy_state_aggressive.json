@@ -1,9 +1,9 @@
 {
   "drop_threshold_pct": -8.0,
-  "sell_threshold_pct": 12.5,
-  "trade_dollars": 18000.0,
-  "completed_trades": 73,
-  "last_adjustment": "2 bad_news exit(s) (AXON, SYY); CIEN cleared target by 5.3pp -> raised sell target to 12.5%",
-  "updated_utc": "2026-11-11T00:43:38+00:00",
+  "sell_threshold_pct": 13.5,
+  "trade_dollars": 20000.0,
+  "completed_trades": 75,
+  "last_adjustment": "ANET cleared target by 5.3pp -> raised sell target to 13.0%; BE cleared target by 13.1pp -> raised sell target to 13.5%; capital utilization low (45%) -> raised trade size to $20,000",
+  "updated_utc": "2026-11-11T20:03:57+00:00",
   "risk_exits": 120
 }

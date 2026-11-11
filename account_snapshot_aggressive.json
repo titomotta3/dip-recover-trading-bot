@@ -1,13 +1,13 @@
 {
-  "updated_utc": "2026-11-11T00:43:38+00:00",
+  "updated_utc": "2026-11-11T20:03:57+00:00",
   "paper": true,
-  "equity": 533753.55,
-  "cash": 233446.24,
-  "buying_power": 233446.24,
+  "equity": 545252.62,
+  "cash": 300010.67,
+  "buying_power": 300010.67,
   "starting_equity": 500000.0,
   "drop_threshold_pct": -8.0,
-  "sell_threshold_pct": 12.5,
-  "trade_dollars": 18000.0,
+  "sell_threshold_pct": 13.5,
+  "trade_dollars": 20000.0,
   "adaptive": true,
   "stop_loss_pct": -12.0,
   "max_hold_days": 90.0,
@@ -19,142 +19,120 @@
   "positions": [
     {
       "symbol": "ADI",
-      "name": "",
+      "name": "Analog Devices",
       "qty": 48.677596366,
       "avg_entry_price": 369.779762,
-      "current_price": 393.3,
+      "current_price": 408.89,
       "cost_basis": 17999.989999,
-      "market_value": 19144.898651,
-      "unrealized_pl": 1144.908652,
-      "unrealized_plpc": 6.361
-    },
-    {
-      "symbol": "ANET",
-      "name": "",
-      "qty": 107.52039902,
-      "avg_entry_price": 167.41,
-      "current_price": 187.0,
-      "cost_basis": 17999.99,
-      "market_value": 20106.314617,
-      "unrealized_pl": 2106.324617,
-      "unrealized_plpc": 11.702
+      "market_value": 19903.782378,
+      "unrealized_pl": 1903.792379,
+      "unrealized_plpc": 10.577
     },
     {
       "symbol": "APH",
-      "name": "",
+      "name": "Amphenol",
       "qty": 251.109638722,
       "avg_entry_price": 71.681796,
-      "current_price": 79.9948,
+      "current_price": 80.655,
       "cost_basis": 17999.989897,
-      "market_value": 20087.465328,
-      "unrealized_pl": 2087.475431,
-      "unrealized_plpc": 11.597
-    },
-    {
-      "symbol": "BE",
-      "name": "",
-      "qty": 213.320632851,
-      "avg_entry_price": 168.76,
-      "current_price": 188.696,
-      "cost_basis": 35999.99,
-      "market_value": 40252.750136,
-      "unrealized_pl": 4252.760136,
-      "unrealized_plpc": 11.813
+      "market_value": 20253.247911,
+      "unrealized_pl": 2253.258014,
+      "unrealized_plpc": 12.518
     },
     {
       "symbol": "CVNA",
-      "name": "",
+      "name": "Carvana",
       "qty": 254.416819787,
       "avg_entry_price": 70.75,
-      "current_price": 73.2,
+      "current_price": 74.2,
       "cost_basis": 17999.99,
-      "market_value": 18623.311208,
-      "unrealized_pl": 623.321208,
-      "unrealized_plpc": 3.463
+      "market_value": 18877.728028,
+      "unrealized_pl": 877.738028,
+      "unrealized_plpc": 4.8759999999999994
     },
     {
       "symbol": "CVS",
-      "name": "",
+      "name": "CVS Health",
       "qty": 444.554087428,
       "avg_entry_price": 80.98,
-      "current_price": 89.0,
+      "current_price": 89.095,
       "cost_basis": 35999.99,
-      "market_value": 39565.313781,
-      "unrealized_pl": 3565.323781,
-      "unrealized_plpc": 9.904
+      "market_value": 39607.546419,
+      "unrealized_pl": 3607.556419,
+      "unrealized_plpc": 10.020999999999999
     },
     {
       "symbol": "EME",
-      "name": "",
+      "name": "Emcor",
       "qty": 28.117076447,
       "avg_entry_price": 640.18,
-      "current_price": 645.39,
+      "current_price": 666.485,
       "cost_basis": 17999.99,
-      "market_value": 18146.479968,
-      "unrealized_pl": 146.489968,
-      "unrealized_plpc": 0.814
+      "market_value": 18739.609696,
+      "unrealized_pl": 739.619696,
+      "unrealized_plpc": 4.109
     },
     {
       "symbol": "ETN",
-      "name": "",
+      "name": "Eaton Corporation",
       "qty": 50.952053437,
       "avg_entry_price": 353.273103,
-      "current_price": 357.84,
+      "current_price": 363.165,
       "cost_basis": 17999.990022,
-      "market_value": 18232.682802,
-      "unrealized_pl": 232.69278,
-      "unrealized_plpc": 1.2930000000000001
+      "market_value": 18504.002486,
+      "unrealized_pl": 504.012464,
+      "unrealized_plpc": 2.8000000000000003
     },
     {
       "symbol": "FIX",
-      "name": "",
+      "name": "Comfort Systems USA",
       "qty": 33.121103669,
       "avg_entry_price": 1086.92,
-      "current_price": 1114.84,
+      "current_price": 1157.77,
       "cost_basis": 35999.99,
-      "market_value": 36924.731214,
-      "unrealized_pl": 924.741214,
-      "unrealized_plpc": 2.569
+      "market_value": 38346.620195,
+      "unrealized_pl": 2346.630195,
+      "unrealized_plpc": 6.518
     },
     {
       "symbol": "GNRC",
-      "name": "",
+      "name": "Generac",
       "qty": 95.374291315,
       "avg_entry_price": 188.73,
-      "current_price": 182.89,
+      "current_price": 191.98,
       "cost_basis": 17999.99,
-      "market_value": 17443.004139,
-      "unrealized_pl": -556.985861,
-      "unrealized_plpc": -3.094
+      "market_value": 18309.956447,
+      "unrealized_pl": 309.966447,
+      "unrealized_plpc": 1.722
     },
     {
       "symbol": "ILMN",
-      "name": "",
+      "name": "Illumina, Inc.",
       "qty": 154.347410392,
       "avg_entry_price": 233.24,
-      "current_price": 212.9107,
+      "current_price": 215.18,
       "cost_basis": 35999.99,
-      "market_value": 32862.21519,
-      "unrealized_pl": -3137.77481,
-      "unrealized_plpc": -8.716
+      "market_value": 33212.475768,
+      "unrealized_pl": -2787.514232,
+      "unrealized_plpc": -7.743
     },
     {
       "symbol": "MCHP",
-      "name": "",
+      "name": "Microchip Technology",
       "qty": 311.691948051,
       "avg_entry_price": 57.749294,
-      "current_price": 60.695,
+      "current_price": 62.52,
       "cost_basis": 17999.989945,
-      "market_value": 18918.142787,
-      "unrealized_pl": 918.152842,
-      "unrealized_plpc": 5.101
+      "market_value": 19486.980592,
+      "unrealized_pl": 1486.990647,
+      "unrealized_plpc": 8.261000000000001
     }
   ],
   "adaptive_target_band_pct": [
     10.0,
     15.0
   ],
-  "completed_trades": 73,
-  "last_adjustment": "2 bad_news exit(s) (AXON, SYY); CIEN cleared target by 5.3pp -> raised sell target to 12.5%",
+  "completed_trades": 75,
+  "last_adjustment": "ANET cleared target by 5.3pp -> raised sell target to 13.0%; BE cleared target by 13.1pp -> raised sell target to 13.5%; capital utilization low (45%) -> raised trade size to $20,000",
   "conviction_trade_dollars_max": 100000.0
 }

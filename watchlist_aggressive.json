@@ -1,34 +1,6 @@
 {
-  "updated_utc": "2026-11-10T20:20:38+00:00",
+  "updated_utc": "2026-11-11T20:03:57+00:00",
   "drop_threshold_pct": -8.0,
   "high_conviction_pct": -11.0,
-  "stocks": [
-    {
-      "symbol": "SKYD",
-      "name": "Skydance",
-      "sector": "Communication Services",
-      "pct_change": -7.183908203473764,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "MRNA",
-      "name": "Moderna",
-      "sector": "Health Care",
-      "pct_change": -6.470259769255343,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "FSLR",
-      "name": "First Solar",
-      "sector": "Information Technology",
-      "pct_change": -6.236624868314206,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    }
-  ]
+  "stocks": []
 }

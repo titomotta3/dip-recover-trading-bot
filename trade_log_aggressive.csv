@@ -391,3 +391,5 @@ timestamp_utc,action,symbol,detail
 2026-11-10T20:20:09+00:00,SELL,CIEN,gain=17.33% qty=154.745486588 reason=target_reached
 2026-11-10T20:20:09+00:00,SELL,NRG,gain=14.56% qty=424.728527607 reason=target_reached
 2026-11-10T20:20:09+00:00,SELL,SYY,gain=3.85% qty=239.776075662 reason=bad_news:investigation
+2026-11-11T20:03:25+00:00,SELL,ANET,gain=17.77% qty=107.52039902 reason=target_reached
+2026-11-11T20:03:25+00:00,SELL,BE,gain=26.10% qty=213.320632851 reason=target_reached
