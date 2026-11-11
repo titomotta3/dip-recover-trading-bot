@@ -576,3 +576,5 @@ timestamp_utc,action,symbol,detail
 2026-11-10T20:19:42+00:00,BUY,LEN,drop=-5.18% notional=$20000.00 news=clear(2)
 2026-11-10T20:19:42+00:00,BUY,MRNA,drop=-6.08% notional=$20000.00 news=clear(6)
 2026-11-10T20:19:43+00:00,BUY,SKYD,drop=-7.30% notional=$20000.00 news=clear(10)
+2026-11-11T20:02:15+00:00,SELL,COP,"gain=0.97% qty=147.012569832 reason=bad_news:downgrade,downgraded"
+2026-11-11T20:02:16+00:00,SELL,GLW,gain=2.97% qty=170.18371341 reason=bad_news:sued
