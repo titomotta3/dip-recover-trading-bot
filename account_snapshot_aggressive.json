@@ -1,7 +1,7 @@
 {
-  "updated_utc": "2026-11-11T20:03:57+00:00",
+  "updated_utc": "2026-11-12T01:53:11+00:00",
   "paper": true,
-  "equity": 545252.62,
+  "equity": 542393.13,
   "cash": 300010.67,
   "buying_power": 300010.67,
   "starting_equity": 500000.0,
@@ -19,113 +19,113 @@
   "positions": [
     {
       "symbol": "ADI",
-      "name": "Analog Devices",
+      "name": "",
       "qty": 48.677596366,
       "avg_entry_price": 369.779762,
-      "current_price": 408.89,
+      "current_price": 403.98,
       "cost_basis": 17999.989999,
-      "market_value": 19903.782378,
-      "unrealized_pl": 1903.792379,
-      "unrealized_plpc": 10.577
+      "market_value": 19664.77538,
+      "unrealized_pl": 1664.785381,
+      "unrealized_plpc": 9.249
     },
     {
       "symbol": "APH",
-      "name": "Amphenol",
+      "name": "",
       "qty": 251.109638722,
       "avg_entry_price": 71.681796,
-      "current_price": 80.655,
+      "current_price": 77.61,
       "cost_basis": 17999.989897,
-      "market_value": 20253.247911,
-      "unrealized_pl": 2253.258014,
-      "unrealized_plpc": 12.518
+      "market_value": 19488.619061,
+      "unrealized_pl": 1488.629164,
+      "unrealized_plpc": 8.27
     },
     {
       "symbol": "CVNA",
-      "name": "Carvana",
+      "name": "",
       "qty": 254.416819787,
       "avg_entry_price": 70.75,
-      "current_price": 74.2,
+      "current_price": 73.87,
       "cost_basis": 17999.99,
-      "market_value": 18877.728028,
-      "unrealized_pl": 877.738028,
-      "unrealized_plpc": 4.8759999999999994
+      "market_value": 18793.770478,
+      "unrealized_pl": 793.780478,
+      "unrealized_plpc": 4.41
     },
     {
       "symbol": "CVS",
-      "name": "CVS Health",
+      "name": "",
       "qty": 444.554087428,
       "avg_entry_price": 80.98,
-      "current_price": 89.095,
+      "current_price": 89.52,
       "cost_basis": 35999.99,
-      "market_value": 39607.546419,
-      "unrealized_pl": 3607.556419,
-      "unrealized_plpc": 10.020999999999999
+      "market_value": 39796.481907,
+      "unrealized_pl": 3796.491907,
+      "unrealized_plpc": 10.546
     },
     {
       "symbol": "EME",
-      "name": "Emcor",
+      "name": "",
       "qty": 28.117076447,
       "avg_entry_price": 640.18,
-      "current_price": 666.485,
+      "current_price": 666.74,
       "cost_basis": 17999.99,
-      "market_value": 18739.609696,
-      "unrealized_pl": 739.619696,
-      "unrealized_plpc": 4.109
+      "market_value": 18746.77955,
+      "unrealized_pl": 746.78955,
+      "unrealized_plpc": 4.149
     },
     {
       "symbol": "ETN",
-      "name": "Eaton Corporation",
+      "name": "",
       "qty": 50.952053437,
       "avg_entry_price": 353.273103,
-      "current_price": 363.165,
+      "current_price": 357.51,
       "cost_basis": 17999.990022,
-      "market_value": 18504.002486,
-      "unrealized_pl": 504.012464,
-      "unrealized_plpc": 2.8000000000000003
+      "market_value": 18215.868624,
+      "unrealized_pl": 215.878602,
+      "unrealized_plpc": 1.199
     },
     {
       "symbol": "FIX",
-      "name": "Comfort Systems USA",
+      "name": "",
       "qty": 33.121103669,
       "avg_entry_price": 1086.92,
-      "current_price": 1157.77,
+      "current_price": 1143.0,
       "cost_basis": 35999.99,
-      "market_value": 38346.620195,
-      "unrealized_pl": 2346.630195,
-      "unrealized_plpc": 6.518
+      "market_value": 37857.421494,
+      "unrealized_pl": 1857.431494,
+      "unrealized_plpc": 5.16
     },
     {
       "symbol": "GNRC",
-      "name": "Generac",
+      "name": "",
       "qty": 95.374291315,
       "avg_entry_price": 188.73,
-      "current_price": 191.98,
+      "current_price": 189.5425,
       "cost_basis": 17999.99,
-      "market_value": 18309.956447,
-      "unrealized_pl": 309.966447,
-      "unrealized_plpc": 1.722
+      "market_value": 18077.481612,
+      "unrealized_pl": 77.491612,
+      "unrealized_plpc": 0.43099999999999994
     },
     {
       "symbol": "ILMN",
-      "name": "Illumina, Inc.",
+      "name": "",
       "qty": 154.347410392,
       "avg_entry_price": 233.24,
-      "current_price": 215.18,
+      "current_price": 212.93,
       "cost_basis": 35999.99,
-      "market_value": 33212.475768,
-      "unrealized_pl": -2787.514232,
-      "unrealized_plpc": -7.743
+      "market_value": 32865.194095,
+      "unrealized_pl": -3134.795905,
+      "unrealized_plpc": -8.708
     },
     {
       "symbol": "MCHP",
-      "name": "Microchip Technology",
+      "name": "",
       "qty": 311.691948051,
       "avg_entry_price": 57.749294,
-      "current_price": 62.52,
+      "current_price": 60.56,
       "cost_basis": 17999.989945,
-      "market_value": 19486.980592,
-      "unrealized_pl": 1486.990647,
-      "unrealized_plpc": 8.261000000000001
+      "market_value": 18876.064374,
+      "unrealized_pl": 876.074429,
+      "unrealized_plpc": 4.867
     }
   ],
   "adaptive_target_band_pct": [
