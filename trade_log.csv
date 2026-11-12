@@ -578,3 +578,10 @@ timestamp_utc,action,symbol,detail
 2026-11-10T20:19:43+00:00,BUY,SKYD,drop=-7.30% notional=$20000.00 news=clear(10)
 2026-11-11T20:02:15+00:00,SELL,COP,"gain=0.97% qty=147.012569832 reason=bad_news:downgrade,downgraded"
 2026-11-11T20:02:16+00:00,SELL,GLW,gain=2.97% qty=170.18371341 reason=bad_news:sued
+2026-11-12T20:40:49+00:00,SELL,APA,gain=8.14% qty=452.488461538 reason=target_reached
+2026-11-12T20:40:51+00:00,SELL,LEN,gain=-3.48% qty=230.25546857 reason=bad_news:warns
+2026-11-12T20:41:14+00:00,BUY,DAL,drop=-5.12% notional=$20000.00 news=clear(5)
+2026-11-12T20:41:15+00:00,BUY,FIS,drop=-5.99% notional=$20000.00 news=clear(5)
+2026-11-12T20:41:15+00:00,BUY,GPN,drop=-11.38% notional=$20000.00 news=clear(9)
+2026-11-12T20:41:15+00:00,BUY,KDP,drop=-6.98% notional=$20000.00 news=clear(10)
+2026-11-12T20:41:16+00:00,BUY,RDDT,drop=-5.61% notional=$20000.00 news=clear(3)
