@@ -1,6 +1,43 @@
 {
-  "updated_utc": "2026-11-11T20:03:57+00:00",
+  "updated_utc": "2026-11-12T20:42:15+00:00",
   "drop_threshold_pct": -8.0,
   "high_conviction_pct": -11.0,
-  "stocks": []
+  "stocks": [
+    {
+      "symbol": "GPN",
+      "name": "Global Payments",
+      "sector": "Financials",
+      "pct_change": -11.633246803939944,
+      "conviction": "high",
+      "status": "bought",
+      "news_bad": false
+    },
+    {
+      "symbol": "SMCI",
+      "name": "Supermicro",
+      "sector": "Information Technology",
+      "pct_change": -10.565232074746504,
+      "conviction": "buy_signal",
+      "status": "blocked_news",
+      "news_bad": true
+    },
+    {
+      "symbol": "KDP",
+      "name": "Keurig Dr Pepper",
+      "sector": "Consumer Staples",
+      "pct_change": -6.784316916870916,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    },
+    {
+      "symbol": "MRNA",
+      "name": "Moderna",
+      "sector": "Health Care",
+      "pct_change": -6.48598846936474,
+      "conviction": "watching",
+      "status": "watching",
+      "news_bad": null
+    }
+  ]
 }
