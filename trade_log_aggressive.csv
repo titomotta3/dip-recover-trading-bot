@@ -394,3 +394,5 @@ timestamp_utc,action,symbol,detail
 2026-11-11T20:03:25+00:00,SELL,ANET,gain=17.77% qty=107.52039902 reason=target_reached
 2026-11-11T20:03:25+00:00,SELL,BE,gain=26.10% qty=213.320632851 reason=target_reached
 2026-11-12T20:42:15+00:00,BUY,GPN,drop=-11.63% notional=$40000.00 news=clear(9) conviction=HIGH
+2026-11-13T20:23:29+00:00,SELL,CVS,"gain=9.83% qty=444.554087428 reason=bad_news:downgrade,downgraded,investigation"
+2026-11-13T20:23:29+00:00,SELL,GPN,gain=3.67% qty=452.079452983 reason=bad_news:scandal
