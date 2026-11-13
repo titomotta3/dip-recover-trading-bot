@@ -585,3 +585,8 @@ timestamp_utc,action,symbol,detail
 2026-11-12T20:41:15+00:00,BUY,GPN,drop=-11.38% notional=$20000.00 news=clear(9)
 2026-11-12T20:41:15+00:00,BUY,KDP,drop=-6.98% notional=$20000.00 news=clear(10)
 2026-11-12T20:41:16+00:00,BUY,RDDT,drop=-5.61% notional=$20000.00 news=clear(3)
+2026-11-13T20:22:36+00:00,SELL,APTV,"gain=-3.77% qty=496.770740188 reason=bad_news:downgrade,downgraded"
+2026-11-13T20:22:37+00:00,SELL,DAL,gain=0.19% qty=230.84014312 reason=bad_news:warns
+2026-11-13T20:22:37+00:00,SELL,GPN,gain=3.28% qty=225.098368036 reason=bad_news:scandal
+2026-11-13T20:23:06+00:00,BUY,TER,drop=-5.09% notional=$20000.00 news=clear(2)
+2026-11-13T20:23:07+00:00,BUY,WDC,drop=-5.13% notional=$20000.00 news=clear(6)

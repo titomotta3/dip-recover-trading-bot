@@ -1,139 +1,139 @@
 {
-  "updated_utc": "2026-11-12T20:41:16+00:00",
+  "updated_utc": "2026-11-13T20:23:07+00:00",
   "drop_threshold_pct": -5.0,
   "high_conviction_pct": -8.0,
   "stocks": [
     {
-      "symbol": "GPN",
-      "name": "Global Payments",
-      "sector": "Financials",
-      "pct_change": -11.383820492828574,
-      "conviction": "high",
-      "status": "bought",
-      "news_bad": false
-    },
-    {
-      "symbol": "SMCI",
-      "name": "Supermicro",
+      "symbol": "AMD",
+      "name": "Advanced Micro Devices",
       "sector": "Information Technology",
-      "pct_change": -10.581666738121724,
+      "pct_change": -8.91166482699145,
       "conviction": "high",
       "status": "blocked_news",
       "news_bad": true
     },
     {
-      "symbol": "KDP",
-      "name": "Keurig Dr Pepper",
-      "sector": "Consumer Staples",
-      "pct_change": -6.980387369791667,
-      "conviction": "buy_signal",
-      "status": "bought",
-      "news_bad": false
-    },
-    {
-      "symbol": "FIS",
-      "name": "Fidelity National Information Services",
-      "sector": "Financials",
-      "pct_change": -5.9913919920397705,
-      "conviction": "buy_signal",
-      "status": "bought",
-      "news_bad": false
-    },
-    {
-      "symbol": "UAL",
-      "name": "United Airlines Holdings",
-      "sector": "Industrials",
-      "pct_change": -5.867195686134051,
-      "conviction": "buy_signal",
-      "status": "blocked_news",
-      "news_bad": true
-    },
-    {
-      "symbol": "RDDT",
-      "name": "Reddit",
-      "sector": "Communication Services",
-      "pct_change": -5.612341566955985,
-      "conviction": "buy_signal",
-      "status": "bought",
-      "news_bad": false
-    },
-    {
-      "symbol": "NVDA",
-      "name": "Nvidia",
+      "symbol": "DELL",
+      "name": "Dell Technologies",
       "sector": "Information Technology",
-      "pct_change": -5.461290516091028,
+      "pct_change": -7.600296616673925,
       "conviction": "buy_signal",
       "status": "blocked_news",
       "news_bad": true
-    },
-    {
-      "symbol": "DAL",
-      "name": "Delta Air Lines",
-      "sector": "Industrials",
-      "pct_change": -5.124510265470682,
-      "conviction": "buy_signal",
-      "status": "bought",
-      "news_bad": false
     },
     {
       "symbol": "SNDK",
       "name": "Sandisk",
       "sector": "Information Technology",
-      "pct_change": -4.750995928263574,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
+      "pct_change": -6.183199869525686,
+      "conviction": "buy_signal",
+      "status": "blocked_news",
+      "news_bad": true
     },
     {
-      "symbol": "AMAT",
-      "name": "Applied Materials",
+      "symbol": "CSCO",
+      "name": "Cisco",
       "sector": "Information Technology",
-      "pct_change": -4.7142352518515205,
+      "pct_change": -6.087637441845594,
+      "conviction": "buy_signal",
+      "status": "blocked_news",
+      "news_bad": true
+    },
+    {
+      "symbol": "COHR",
+      "name": "Coherent Corp.",
+      "sector": "Information Technology",
+      "pct_change": -6.064717699583717,
+      "conviction": "buy_signal",
+      "status": "blocked_news",
+      "news_bad": true
+    },
+    {
+      "symbol": "BE",
+      "name": "Bloom Energy",
+      "sector": "Industrials",
+      "pct_change": -5.160203311489076,
+      "conviction": "buy_signal",
+      "status": "blocked_news",
+      "news_bad": true
+    },
+    {
+      "symbol": "AVGO",
+      "name": "Broadcom",
+      "sector": "Information Technology",
+      "pct_change": -5.148748491123635,
+      "conviction": "buy_signal",
+      "status": "blocked_news",
+      "news_bad": true
+    },
+    {
+      "symbol": "WDC",
+      "name": "Western Digital",
+      "sector": "Information Technology",
+      "pct_change": -5.134790304782564,
+      "conviction": "buy_signal",
+      "status": "bought",
+      "news_bad": false
+    },
+    {
+      "symbol": "TER",
+      "name": "Teradyne",
+      "sector": "Information Technology",
+      "pct_change": -5.090048550429502,
+      "conviction": "buy_signal",
+      "status": "bought",
+      "news_bad": false
+    },
+    {
+      "symbol": "LITE",
+      "name": "Lumentum",
+      "sector": "Information Technology",
+      "pct_change": -5.026818728377784,
+      "conviction": "buy_signal",
+      "status": "blocked_news",
+      "news_bad": true
+    },
+    {
+      "symbol": "MRVL",
+      "name": "Marvell Technology",
+      "sector": "Information Technology",
+      "pct_change": -4.791723788540738,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
     },
     {
-      "symbol": "DVA",
-      "name": "DaVita",
-      "sector": "Health Care",
-      "pct_change": -4.4959128065395095,
+      "symbol": "GLW",
+      "name": "Corning Inc.",
+      "sector": "Information Technology",
+      "pct_change": -4.739328807367939,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
     },
     {
-      "symbol": "NEM",
-      "name": "Newmont",
-      "sector": "Materials",
-      "pct_change": -4.489744398863995,
+      "symbol": "ANET",
+      "name": "Arista Networks",
+      "sector": "Information Technology",
+      "pct_change": -4.675024649778196,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
     },
     {
-      "symbol": "MOS",
-      "name": "Mosaic Company (The)",
-      "sector": "Materials",
-      "pct_change": -4.407891203491854,
+      "symbol": "CIEN",
+      "name": "Ciena",
+      "sector": "Information Technology",
+      "pct_change": -4.648317572993474,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
     },
     {
-      "symbol": "WSM",
-      "name": "Williams-Sonoma, Inc.",
-      "sector": "Consumer Discretionary",
-      "pct_change": -4.391619164280145,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "CCL",
-      "name": "Carnival Corporation",
-      "sector": "Consumer Discretionary",
-      "pct_change": -4.155800540572936,
+      "symbol": "HPE",
+      "name": "Hewlett Packard Enterprise",
+      "sector": "Information Technology",
+      "pct_change": -3.9872408414753724,
       "conviction": "watching",
       "status": "watching",
       "news_bad": null
