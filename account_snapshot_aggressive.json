@@ -1,7 +1,7 @@
 {
-  "updated_utc": "2026-11-17T21:33:26+00:00",
+  "updated_utc": "2026-11-18T03:07:08+00:00",
   "paper": true,
-  "equity": 537974.64,
+  "equity": 538073.38,
   "cash": 341014.39,
   "buying_power": 341014.39,
   "starting_equity": 500000.0,
@@ -22,33 +22,33 @@
       "name": "",
       "qty": 48.677596366,
       "avg_entry_price": 369.779762,
-      "current_price": 386.16,
+      "current_price": 386.93,
       "cost_basis": 17999.989999,
-      "market_value": 18797.340613,
-      "unrealized_pl": 797.350614,
-      "unrealized_plpc": 4.43
+      "market_value": 18834.822362,
+      "unrealized_pl": 834.832363,
+      "unrealized_plpc": 4.638
     },
     {
       "symbol": "APH",
       "name": "",
       "qty": 251.109638722,
       "avg_entry_price": 71.681796,
-      "current_price": 77.55,
+      "current_price": 78.45,
       "cost_basis": 17999.989897,
-      "market_value": 19473.552483,
-      "unrealized_pl": 1473.562586,
-      "unrealized_plpc": 8.186
+      "market_value": 19699.551158,
+      "unrealized_pl": 1699.561261,
+      "unrealized_plpc": 9.442
     },
     {
       "symbol": "CVNA",
       "name": "",
       "qty": 254.416819787,
       "avg_entry_price": 70.75,
-      "current_price": 71.41,
+      "current_price": 71.27,
       "cost_basis": 17999.99,
-      "market_value": 18167.905101,
-      "unrealized_pl": 167.915101,
-      "unrealized_plpc": 0.9329999999999999
+      "market_value": 18132.286746,
+      "unrealized_pl": 132.296746,
+      "unrealized_plpc": 0.735
     },
     {
       "symbol": "EME",
@@ -66,33 +66,33 @@
       "name": "",
       "qty": 50.952053437,
       "avg_entry_price": 353.273103,
-      "current_price": 341.3783,
+      "current_price": 339.64,
       "cost_basis": 17999.990022,
-      "market_value": 17393.925384,
-      "unrealized_pl": -606.064638,
-      "unrealized_plpc": -3.367
+      "market_value": 17305.355429,
+      "unrealized_pl": -694.634593,
+      "unrealized_plpc": -3.859
     },
     {
       "symbol": "FIX",
       "name": "",
       "qty": 33.121103669,
       "avg_entry_price": 1086.92,
-      "current_price": 1118.7,
+      "current_price": 1117.96,
       "cost_basis": 35999.99,
-      "market_value": 37052.578675,
-      "unrealized_pl": 1052.588675,
-      "unrealized_plpc": 2.924
+      "market_value": 37028.069058,
+      "unrealized_pl": 1028.079058,
+      "unrealized_plpc": 2.856
     },
     {
       "symbol": "GNRC",
       "name": "",
       "qty": 95.374291315,
       "avg_entry_price": 188.73,
-      "current_price": 188.41,
+      "current_price": 187.0,
       "cost_basis": 17999.99,
-      "market_value": 17969.470227,
-      "unrealized_pl": -30.519773,
-      "unrealized_plpc": -0.16999999999999998
+      "market_value": 17834.992476,
+      "unrealized_pl": -164.997524,
+      "unrealized_plpc": -0.9169999999999999
     },
     {
       "symbol": "ILMN",
@@ -110,11 +110,11 @@
       "name": "",
       "qty": 311.691948051,
       "avg_entry_price": 57.749294,
-      "current_price": 59.43,
+      "current_price": 59.81,
       "cost_basis": 17999.989945,
-      "market_value": 18523.852473,
-      "unrealized_pl": 523.862528,
-      "unrealized_plpc": 2.91
+      "market_value": 18642.295413,
+      "unrealized_pl": 642.305468,
+      "unrealized_plpc": 3.5680000000000005
     }
   ],
   "adaptive_target_band_pct": [
