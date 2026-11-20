@@ -3,7 +3,7 @@
   "sell_threshold_pct": 13.5,
   "trade_dollars": 20000.0,
   "completed_trades": 75,
-  "last_adjustment": "2 bad_news exit(s) (CVS, GPN)",
-  "updated_utc": "2026-11-20T02:23:22+00:00",
-  "risk_exits": 122
+  "last_adjustment": "2 stop_loss exit(s) (ETN, ILMN)",
+  "updated_utc": "2026-11-20T20:59:16+00:00",
+  "risk_exits": 124
 }
