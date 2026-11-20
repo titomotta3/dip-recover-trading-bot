@@ -1,41 +1,59 @@
 {
-  "updated_utc": "2026-11-13T20:23:07+00:00",
+  "updated_utc": "2026-11-20T20:58:05+00:00",
   "drop_threshold_pct": -5.0,
   "high_conviction_pct": -8.0,
   "stocks": [
     {
-      "symbol": "AMD",
-      "name": "Advanced Micro Devices",
+      "symbol": "SNDK",
+      "name": "Sandisk",
       "sector": "Information Technology",
-      "pct_change": -8.91166482699145,
+      "pct_change": -16.367389689797754,
+      "conviction": "high",
+      "status": "order_failed",
+      "news_bad": false
+    },
+    {
+      "symbol": "BE",
+      "name": "Bloom Energy",
+      "sector": "Industrials",
+      "pct_change": -16.037122488837284,
       "conviction": "high",
       "status": "blocked_news",
       "news_bad": true
     },
     {
-      "symbol": "DELL",
-      "name": "Dell Technologies",
+      "symbol": "MU",
+      "name": "Micron Technology",
       "sector": "Information Technology",
-      "pct_change": -7.600296616673925,
-      "conviction": "buy_signal",
+      "pct_change": -14.710909994360941,
+      "conviction": "high",
+      "status": "order_failed",
+      "news_bad": false
+    },
+    {
+      "symbol": "LITE",
+      "name": "Lumentum",
+      "sector": "Information Technology",
+      "pct_change": -14.402505594841546,
+      "conviction": "high",
+      "status": "order_failed",
+      "news_bad": false
+    },
+    {
+      "symbol": "NVDA",
+      "name": "Nvidia",
+      "sector": "Information Technology",
+      "pct_change": -14.344427609858737,
+      "conviction": "high",
       "status": "blocked_news",
       "news_bad": true
     },
     {
-      "symbol": "SNDK",
-      "name": "Sandisk",
+      "symbol": "AMD",
+      "name": "Advanced Micro Devices",
       "sector": "Information Technology",
-      "pct_change": -6.183199869525686,
-      "conviction": "buy_signal",
-      "status": "blocked_news",
-      "news_bad": true
-    },
-    {
-      "symbol": "CSCO",
-      "name": "Cisco",
-      "sector": "Information Technology",
-      "pct_change": -6.087637441845594,
-      "conviction": "buy_signal",
+      "pct_change": -14.10290273514705,
+      "conviction": "high",
       "status": "blocked_news",
       "news_bad": true
     },
@@ -43,100 +61,82 @@
       "symbol": "COHR",
       "name": "Coherent Corp.",
       "sector": "Information Technology",
-      "pct_change": -6.064717699583717,
-      "conviction": "buy_signal",
-      "status": "blocked_news",
-      "news_bad": true
+      "pct_change": -13.895039069144307,
+      "conviction": "high",
+      "status": "order_failed",
+      "news_bad": false
     },
     {
-      "symbol": "BE",
-      "name": "Bloom Energy",
-      "sector": "Industrials",
-      "pct_change": -5.160203311489076,
-      "conviction": "buy_signal",
-      "status": "blocked_news",
-      "news_bad": true
+      "symbol": "INTU",
+      "name": "Intuit",
+      "sector": "Information Technology",
+      "pct_change": -13.015281922404709,
+      "conviction": "high",
+      "status": "order_failed",
+      "news_bad": false
+    },
+    {
+      "symbol": "P",
+      "name": "Everpure",
+      "sector": "Information Technology",
+      "pct_change": -12.853078254591232,
+      "conviction": "high",
+      "status": "order_failed",
+      "news_bad": false
     },
     {
       "symbol": "AVGO",
       "name": "Broadcom",
       "sector": "Information Technology",
-      "pct_change": -5.148748491123635,
-      "conviction": "buy_signal",
-      "status": "blocked_news",
-      "news_bad": true
+      "pct_change": -12.811475842076966,
+      "conviction": "high",
+      "status": "bought",
+      "news_bad": false
     },
     {
       "symbol": "WDC",
       "name": "Western Digital",
       "sector": "Information Technology",
-      "pct_change": -5.134790304782564,
-      "conviction": "buy_signal",
-      "status": "bought",
+      "pct_change": -12.500844482820211,
+      "conviction": "high",
+      "status": "order_failed",
       "news_bad": false
-    },
-    {
-      "symbol": "TER",
-      "name": "Teradyne",
-      "sector": "Information Technology",
-      "pct_change": -5.090048550429502,
-      "conviction": "buy_signal",
-      "status": "bought",
-      "news_bad": false
-    },
-    {
-      "symbol": "LITE",
-      "name": "Lumentum",
-      "sector": "Information Technology",
-      "pct_change": -5.026818728377784,
-      "conviction": "buy_signal",
-      "status": "blocked_news",
-      "news_bad": true
-    },
-    {
-      "symbol": "MRVL",
-      "name": "Marvell Technology",
-      "sector": "Information Technology",
-      "pct_change": -4.791723788540738,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
-    },
-    {
-      "symbol": "GLW",
-      "name": "Corning Inc.",
-      "sector": "Information Technology",
-      "pct_change": -4.739328807367939,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
     },
     {
       "symbol": "ANET",
       "name": "Arista Networks",
       "sector": "Information Technology",
-      "pct_change": -4.675024649778196,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
+      "pct_change": -12.405712045984819,
+      "conviction": "high",
+      "status": "bought",
+      "news_bad": false
     },
     {
-      "symbol": "CIEN",
-      "name": "Ciena",
+      "symbol": "MRVL",
+      "name": "Marvell Technology",
       "sector": "Information Technology",
-      "pct_change": -4.648317572993474,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
+      "pct_change": -12.396187451582795,
+      "conviction": "high",
+      "status": "order_failed",
+      "news_bad": false
     },
     {
-      "symbol": "HPE",
-      "name": "Hewlett Packard Enterprise",
+      "symbol": "MPWR",
+      "name": "Monolithic Power Systems",
       "sector": "Information Technology",
-      "pct_change": -3.9872408414753724,
-      "conviction": "watching",
-      "status": "watching",
-      "news_bad": null
+      "pct_change": -12.3001294782202,
+      "conviction": "high",
+      "status": "order_failed",
+      "news_bad": false
+    },
+    {
+      "symbol": "STX",
+      "name": "Seagate Technology",
+      "sector": "Information Technology",
+      "pct_change": -12.072655000542,
+      "conviction": "high",
+      "status": "blocked_news",
+      "news_bad": true
     }
   ]
 }
