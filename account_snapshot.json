@@ -1,7 +1,7 @@
 {
-  "updated_utc": "2026-11-19T21:13:27+00:00",
+  "updated_utc": "2026-11-20T02:22:53+00:00",
   "paper": true,
-  "equity": 508887.86,
+  "equity": 507082.5,
   "cash": 94465.25,
   "buying_power": 94465.25,
   "starting_equity": 500000.0,
@@ -22,11 +22,11 @@
       "name": "",
       "qty": 49.09057215,
       "avg_entry_price": 407.41,
-      "current_price": 377.19,
+      "current_price": 376.03,
       "cost_basis": 19999.99,
-      "market_value": 18516.472909,
-      "unrealized_pl": -1483.517091,
-      "unrealized_plpc": -7.417999999999999
+      "market_value": 18459.527846,
+      "unrealized_pl": -1540.462154,
+      "unrealized_plpc": -7.702000000000001
     },
     {
       "symbol": "AME",
@@ -44,22 +44,22 @@
       "name": "",
       "qty": 252.644256287,
       "avg_entry_price": 79.162655,
-      "current_price": 75.61,
+      "current_price": 75.09,
       "cost_basis": 19999.990098,
-      "market_value": 19102.432218,
-      "unrealized_pl": -897.55788,
-      "unrealized_plpc": -4.488
+      "market_value": 18971.057205,
+      "unrealized_pl": -1028.932893,
+      "unrealized_plpc": -5.1450000000000005
     },
     {
       "symbol": "BKR",
       "name": "",
       "qty": 400.721097976,
       "avg_entry_price": 49.91,
-      "current_price": 46.67,
+      "current_price": 46.8001,
       "cost_basis": 19999.99,
-      "market_value": 18701.653643,
-      "unrealized_pl": -1298.336357,
-      "unrealized_plpc": -6.492000000000001
+      "market_value": 18753.787457,
+      "unrealized_pl": -1246.202543,
+      "unrealized_plpc": -6.231
     },
     {
       "symbol": "CRL",
@@ -77,11 +77,11 @@
       "name": "",
       "qty": 276.548534292,
       "avg_entry_price": 72.32,
-      "current_price": 68.41,
+      "current_price": 67.91,
       "cost_basis": 19999.99,
-      "market_value": 18918.685231,
-      "unrealized_pl": -1081.304769,
-      "unrealized_plpc": -5.407
+      "market_value": 18780.410964,
+      "unrealized_pl": -1219.579036,
+      "unrealized_plpc": -6.098
     },
     {
       "symbol": "DXCM",
@@ -99,44 +99,44 @@
       "name": "",
       "qty": 56.666666666,
       "avg_entry_price": 352.941,
-      "current_price": 330.57,
+      "current_price": 328.3129,
       "cost_basis": 19999.99,
-      "market_value": 18732.3,
-      "unrealized_pl": -1267.69,
-      "unrealized_plpc": -6.338000000000001
+      "market_value": 18604.397666,
+      "unrealized_pl": -1395.592334,
+      "unrealized_plpc": -6.978
     },
     {
       "symbol": "FIS",
       "name": "",
       "qty": 703.977120732,
       "avg_entry_price": 28.41,
-      "current_price": 25.86,
+      "current_price": 26.0,
       "cost_basis": 19999.99,
-      "market_value": 18204.848342,
-      "unrealized_pl": -1795.141658,
-      "unrealized_plpc": -8.976
+      "market_value": 18303.405139,
+      "unrealized_pl": -1696.584861,
+      "unrealized_plpc": -8.483
     },
     {
       "symbol": "FIX",
       "name": "",
       "qty": 18.38234375,
       "avg_entry_price": 1088.0,
-      "current_price": 1114.02,
+      "current_price": 1098.0,
       "cost_basis": 19999.99,
-      "market_value": 20478.298584,
-      "unrealized_pl": 478.308584,
-      "unrealized_plpc": 2.392
+      "market_value": 20183.813438,
+      "unrealized_pl": 183.823438,
+      "unrealized_plpc": 0.919
     },
     {
       "symbol": "GEV",
       "name": "",
       "qty": 25.43913049,
       "avg_entry_price": 786.19,
-      "current_price": 754.0,
+      "current_price": 746.73,
       "cost_basis": 19999.99,
-      "market_value": 19181.104389,
-      "unrealized_pl": -818.885611,
-      "unrealized_plpc": -4.093999999999999
+      "market_value": 18996.161911,
+      "unrealized_pl": -1003.828089,
+      "unrealized_plpc": -5.019
     },
     {
       "symbol": "GRMN",
@@ -165,11 +165,11 @@
       "name": "",
       "qty": 562.113265879,
       "avg_entry_price": 35.58,
-      "current_price": 34.41,
+      "current_price": 34.6,
       "cost_basis": 19999.99,
-      "market_value": 19342.317479,
-      "unrealized_pl": -657.672521,
-      "unrealized_plpc": -3.288
+      "market_value": 19449.118999,
+      "unrealized_pl": -550.871001,
+      "unrealized_plpc": -2.754
     },
     {
       "symbol": "LDOS",
@@ -187,11 +187,11 @@
       "name": "",
       "qty": 79.192199564,
       "avg_entry_price": 252.55,
-      "current_price": 199.25,
+      "current_price": 198.3,
       "cost_basis": 19999.99,
-      "market_value": 15779.045763,
-      "unrealized_pl": -4220.944237,
-      "unrealized_plpc": -21.105
+      "market_value": 15703.813174,
+      "unrealized_pl": -4296.176826,
+      "unrealized_plpc": -21.481
     },
     {
       "symbol": "ODFL",
@@ -220,44 +220,44 @@
       "name": "",
       "qty": 200.501152882,
       "avg_entry_price": 99.75,
-      "current_price": 89.88,
+      "current_price": 89.51,
       "cost_basis": 19999.99,
-      "market_value": 18021.043621,
-      "unrealized_pl": -1978.946379,
-      "unrealized_plpc": -9.895
+      "market_value": 17946.858194,
+      "unrealized_pl": -2053.131806,
+      "unrealized_plpc": -10.266
     },
     {
       "symbol": "SKYD",
       "name": "",
       "qty": 2478.313506815,
       "avg_entry_price": 8.07,
-      "current_price": 6.43,
+      "current_price": 6.3569,
       "cost_basis": 19999.99,
-      "market_value": 15935.555849,
-      "unrealized_pl": -4064.434151,
-      "unrealized_plpc": -20.322000000000003
+      "market_value": 15754.391131,
+      "unrealized_pl": -4245.598869,
+      "unrealized_plpc": -21.227999999999998
     },
     {
       "symbol": "TER",
       "name": "",
       "qty": 79.840279441,
       "avg_entry_price": 250.5,
-      "current_price": 227.43,
+      "current_price": 223.46,
       "cost_basis": 19999.99,
-      "market_value": 18158.074753,
-      "unrealized_pl": -1841.915247,
-      "unrealized_plpc": -9.21
+      "market_value": 17841.108844,
+      "unrealized_pl": -2158.881156,
+      "unrealized_plpc": -10.793999999999999
     },
     {
       "symbol": "WDC",
       "name": "",
       "qty": 67.704647777,
       "avg_entry_price": 295.400547,
-      "current_price": 295.96,
+      "current_price": 288.85,
       "cost_basis": 19999.989988,
-      "market_value": 20037.867556,
-      "unrealized_pl": 37.877568,
-      "unrealized_plpc": 0.189
+      "market_value": 19556.48751,
+      "unrealized_pl": -443.502478,
+      "unrealized_plpc": -2.218
     }
   ]
 }
