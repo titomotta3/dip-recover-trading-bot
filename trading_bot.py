@@ -776,11 +776,15 @@ def check_buys(client: TradingClient, news_client: NewsClient, tickers: list, na
     # state.
     try:
         current_positions = client.get_all_positions()
-        equity = float(client.get_account().equity)
+        account = client.get_account()
+        equity = float(account.equity)
+        buying_power = float(account.buying_power)
     except Exception as exc:  # noqa: BLE001
         log(f"Could not fetch account state for concentration checks: {exc}")
         current_positions = []
         equity = 0.0
+        buying_power = None  # unknown -- let Alpaca decide, as before
+    cash_skipped = 0
     open_count = len(current_positions)
     held_symbols = {p.symbol for p in current_positions}
     sector_totals = sector_exposure(current_positions, sectors)
@@ -797,6 +801,15 @@ def check_buys(client: TradingClient, news_client: NewsClient, tickers: list, na
         if open_count >= MAX_OPEN_POSITIONS:
             log(f"Skip {symbol}: at max open positions ({MAX_OPEN_POSITIONS}).")
             status_by_symbol[symbol] = "blocked_position_cap"
+            continue
+
+        # Cash check: don't send an order Alpaca will reject for lack of
+        # buying power. Once cash runs out, the rest of the candidates are
+        # skipped quietly (one summary line at the end) instead of each
+        # producing a failed order.
+        if buying_power is not None and buying_power < TRADE_DOLLARS:
+            cash_skipped += 1
+            status_by_symbol[symbol] = "blocked_cash"
             continue
 
         headlines = fetch_recent_headlines(news_client, symbol)
@@ -820,6 +833,11 @@ def check_buys(client: TradingClient, news_client: NewsClient, tickers: list, na
         notional = TRADE_DOLLARS
         if is_high_conviction:
             notional = min(TRADE_DOLLARS * CONVICTION_MULTIPLIER, CONVICTION_TRADE_DOLLARS_MAX)
+            # Not enough cash for the larger size: fall back to a normal-size
+            # trade rather than skipping the dip entirely.
+            if buying_power is not None and notional > buying_power:
+                notional = TRADE_DOLLARS
+                is_high_conviction = False
 
         # Sector concentration cap: skip if this buy would push the
         # symbol's GICS sector over MAX_SECTOR_EXPOSURE_PCT of equity.
@@ -853,9 +871,18 @@ def check_buys(client: TradingClient, news_client: NewsClient, tickers: list, na
             open_count += 1
             sector_totals[sector] = sector_totals.get(sector, 0.0) + notional
             status_by_symbol[symbol] = "bought"
+            if buying_power is not None:
+                buying_power -= notional
         except Exception as exc:  # noqa: BLE001
             log(f"BUY order failed for {symbol}: {exc}")
             status_by_symbol[symbol] = "order_failed"
+            # Alpaca's "insufficient buying power" error: stop trying.
+            if "40310000" in str(exc) or "insufficient buying power" in str(exc).lower():
+                buying_power = 0.0
+
+    if cash_skipped:
+        log(f"Skipped {cash_skipped} candidate(s): not enough buying power left "
+            f"for a ${TRADE_DOLLARS:,.0f} trade.")
 
     watchlist = build_watchlist(changes, dropped, held_symbols, sectors, names, news_by_symbol, status_by_symbol)
     return events, watchlist
