@@ -409,3 +409,6 @@ timestamp_utc,action,symbol,detail
 2026-11-20T20:59:15+00:00,BUY,HOOD,drop=-9.66% notional=$20000.00 news=clear(4)
 2026-11-20T20:59:16+00:00,BUY,URI,drop=-8.12% notional=$20000.00 news=none
 2026-11-20T20:59:16+00:00,BUY,VRT,drop=-10.78% notional=$20000.00 news=none
+2026-11-24T19:02:38+00:00,SELL,ADI,gain=-15.18% qty=48.677596366 reason=stop_loss
+2026-11-24T19:02:39+00:00,SELL,VRT,"gain=4.35% qty=120.734495656 reason=bad_news:downgrade,downgraded"
+2026-11-24T19:03:01+00:00,BUY,AMD,drop=-8.81% notional=$20000.00 news=clear(3)

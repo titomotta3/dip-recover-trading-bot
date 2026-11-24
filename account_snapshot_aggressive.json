@@ -1,9 +1,9 @@
 {
-  "updated_utc": "2026-11-24T00:38:18+00:00",
+  "updated_utc": "2026-11-24T19:03:02+00:00",
   "paper": true,
-  "equity": 566663.53,
-  "cash": 86596.65,
-  "buying_power": 86596.65,
+  "equity": 541040.71,
+  "cash": 102731.17,
+  "buying_power": 102731.17,
   "starting_equity": 500000.0,
   "drop_threshold_pct": -8.0,
   "sell_threshold_pct": 13.5,
@@ -18,202 +18,191 @@
   "regime_blocked_buys": false,
   "positions": [
     {
-      "symbol": "ADI",
-      "name": "",
-      "qty": 48.677596366,
-      "avg_entry_price": 369.779762,
-      "current_price": 378.0,
-      "cost_basis": 17999.989999,
-      "market_value": 18400.131426,
-      "unrealized_pl": 400.141427,
-      "unrealized_plpc": 2.223
-    },
-    {
       "symbol": "AMAT",
-      "name": "",
+      "name": "Applied Materials",
       "qty": 66.252558709,
       "avg_entry_price": 301.874982,
-      "current_price": 344.25,
+      "current_price": 324.055,
       "cost_basis": 19999.989968,
-      "market_value": 22807.443336,
-      "unrealized_pl": 2807.453368,
-      "unrealized_plpc": 14.036999999999999
+      "market_value": 21469.472912,
+      "unrealized_pl": 1469.482944,
+      "unrealized_plpc": 7.3469999999999995
+    },
+    {
+      "symbol": "AMD",
+      "name": "Advanced Micro Devices",
+      "qty": 48.339512737,
+      "avg_entry_price": 413.74,
+      "current_price": 413.6213,
+      "cost_basis": 19999.99,
+      "market_value": 19994.2521,
+      "unrealized_pl": -5.7379,
+      "unrealized_plpc": -0.029
     },
     {
       "symbol": "ANET",
-      "name": "",
+      "name": "Arista Networks",
       "qty": 240.39261483,
       "avg_entry_price": 166.394421,
-      "current_price": 178.2,
+      "current_price": 167.575,
       "cost_basis": 39999.989957,
-      "market_value": 42837.963963,
-      "unrealized_pl": 2837.974006,
-      "unrealized_plpc": 7.095
+      "market_value": 40283.79243,
+      "unrealized_pl": 283.802473,
+      "unrealized_plpc": 0.7100000000000001
     },
     {
       "symbol": "APH",
-      "name": "",
+      "name": "Amphenol",
       "qty": 251.109638722,
       "avg_entry_price": 71.681796,
-      "current_price": 77.5,
+      "current_price": 73.15,
       "cost_basis": 17999.989897,
-      "market_value": 19460.997001,
-      "unrealized_pl": 1461.007104,
-      "unrealized_plpc": 8.117
+      "market_value": 18368.670073,
+      "unrealized_pl": 368.680176,
+      "unrealized_plpc": 2.048
     },
     {
       "symbol": "APP",
-      "name": "",
+      "name": "AppLovin",
       "qty": 57.560553732,
       "avg_entry_price": 347.46,
-      "current_price": 373.7215,
+      "current_price": 386.34,
       "cost_basis": 19999.99,
-      "market_value": 21511.616482,
-      "unrealized_pl": 1511.626482,
-      "unrealized_plpc": 7.558
+      "market_value": 22237.944329,
+      "unrealized_pl": 2237.954329,
+      "unrealized_plpc": 11.19
     },
     {
       "symbol": "AVGO",
-      "name": "",
+      "name": "Broadcom",
       "qty": 132.712021223,
       "avg_entry_price": 301.404422,
-      "current_price": 311.1,
+      "current_price": 303.86,
       "cost_basis": 39999.990049,
-      "market_value": 41286.709802,
-      "unrealized_pl": 1286.719753,
-      "unrealized_plpc": 3.2169999999999996
+      "market_value": 40325.874769,
+      "unrealized_pl": 325.88472,
+      "unrealized_plpc": 0.815
     },
     {
       "symbol": "CIEN",
-      "name": "",
+      "name": "Ciena",
       "qty": 171.450820726,
       "avg_entry_price": 233.302995,
-      "current_price": 264.73,
+      "current_price": 241.91,
       "cost_basis": 39999.989971,
-      "market_value": 45388.175771,
-      "unrealized_pl": 5388.1858,
-      "unrealized_plpc": 13.469999999999999
+      "market_value": 41475.668042,
+      "unrealized_pl": 1475.678071,
+      "unrealized_plpc": 3.689
     },
     {
       "symbol": "COHR",
-      "name": "",
+      "name": "Coherent Corp.",
       "qty": 215.016394323,
       "avg_entry_price": 186.03228,
-      "current_price": 217.41,
+      "current_price": 196.605,
       "cost_basis": 39999.990073,
-      "market_value": 46746.71429,
-      "unrealized_pl": 6746.724217,
-      "unrealized_plpc": 16.866999999999997
+      "market_value": 42273.298206,
+      "unrealized_pl": 2273.308133,
+      "unrealized_plpc": 5.683
     },
     {
       "symbol": "CVNA",
-      "name": "",
+      "name": "Carvana",
       "qty": 254.416819787,
       "avg_entry_price": 70.75,
-      "current_price": 68.07,
+      "current_price": 65.33,
       "cost_basis": 17999.99,
-      "market_value": 17318.152923,
-      "unrealized_pl": -681.837077,
-      "unrealized_plpc": -3.788
+      "market_value": 16621.050837,
+      "unrealized_pl": -1378.939163,
+      "unrealized_plpc": -7.661
     },
     {
       "symbol": "ECHO",
-      "name": "",
+      "name": "EchoStar",
       "qty": 237.910431783,
       "avg_entry_price": 84.065208,
-      "current_price": 88.75,
+      "current_price": 85.4,
       "cost_basis": 19999.989933,
-      "market_value": 21114.550821,
-      "unrealized_pl": 1114.560888,
-      "unrealized_plpc": 5.573
+      "market_value": 20317.550874,
+      "unrealized_pl": 317.560941,
+      "unrealized_plpc": 1.5879999999999999
     },
     {
       "symbol": "EME",
-      "name": "",
+      "name": "Emcor",
       "qty": 28.117076447,
       "avg_entry_price": 640.18,
-      "current_price": 649.49,
+      "current_price": 632.0,
       "cost_basis": 17999.99,
-      "market_value": 18261.759982,
-      "unrealized_pl": 261.769982,
-      "unrealized_plpc": 1.4540000000000002
+      "market_value": 17769.992315,
+      "unrealized_pl": -229.997685,
+      "unrealized_plpc": -1.278
     },
     {
       "symbol": "FIX",
-      "name": "",
+      "name": "Comfort Systems USA",
       "qty": 33.121103669,
       "avg_entry_price": 1086.92,
-      "current_price": 1171.9,
+      "current_price": 1097.688,
       "cost_basis": 35999.99,
-      "market_value": 38814.62139,
-      "unrealized_pl": 2814.63139,
-      "unrealized_plpc": 7.818
+      "market_value": 36356.638044,
+      "unrealized_pl": 356.648044,
+      "unrealized_plpc": 0.991
     },
     {
       "symbol": "FSLR",
-      "name": "",
+      "name": "First Solar",
       "qty": 146.091964937,
       "avg_entry_price": 136.9,
-      "current_price": 146.95,
+      "current_price": 148.79,
       "cost_basis": 19999.99,
-      "market_value": 21468.214247,
-      "unrealized_pl": 1468.224247,
-      "unrealized_plpc": 7.341
+      "market_value": 21737.023463,
+      "unrealized_pl": 1737.033463,
+      "unrealized_plpc": 8.685
     },
     {
       "symbol": "GNRC",
-      "name": "",
+      "name": "Generac",
       "qty": 95.374291315,
       "avg_entry_price": 188.73,
-      "current_price": 204.8,
+      "current_price": 198.91,
       "cost_basis": 17999.99,
-      "market_value": 19532.654861,
-      "unrealized_pl": 1532.664861,
-      "unrealized_plpc": 8.515
+      "market_value": 18970.900285,
+      "unrealized_pl": 970.910285,
+      "unrealized_plpc": 5.394
     },
     {
       "symbol": "HOOD",
-      "name": "",
+      "name": "Robinhood Markets",
       "qty": 323.834034974,
       "avg_entry_price": 61.76,
-      "current_price": 67.9276,
+      "current_price": 65.075,
       "cost_basis": 19999.99,
-      "market_value": 21997.268794,
-      "unrealized_pl": 1997.278794,
-      "unrealized_plpc": 9.986
+      "market_value": 21073.499826,
+      "unrealized_pl": 1073.509826,
+      "unrealized_plpc": 5.367999999999999
     },
     {
       "symbol": "MCHP",
-      "name": "",
+      "name": "Microchip Technology",
       "qty": 311.691948051,
       "avg_entry_price": 57.749294,
-      "current_price": 61.0,
+      "current_price": 57.095,
       "cost_basis": 17999.989945,
-      "market_value": 19013.208831,
-      "unrealized_pl": 1013.218886,
-      "unrealized_plpc": 5.629
+      "market_value": 17796.051774,
+      "unrealized_pl": -203.938171,
+      "unrealized_plpc": -1.133
     },
     {
       "symbol": "URI",
-      "name": "",
+      "name": "United Rentals",
       "qty": 20.571352163,
       "avg_entry_price": 972.225347,
-      "current_price": 1040.7,
+      "current_price": 1032.4,
       "cost_basis": 19999.989995,
-      "market_value": 21408.606196,
-      "unrealized_pl": 1408.616201,
-      "unrealized_plpc": 7.043000000000001
-    },
-    {
-      "symbol": "VRT",
-      "name": "",
-      "qty": 120.734495656,
-      "avg_entry_price": 165.652657,
-      "current_price": 188.0,
-      "cost_basis": 19999.989997,
-      "market_value": 22698.085183,
-      "unrealized_pl": 2698.095186,
-      "unrealized_plpc": 13.489999999999998
+      "market_value": 21237.863973,
+      "unrealized_pl": 1237.873978,
+      "unrealized_plpc": 6.189
     }
   ],
   "adaptive_target_band_pct": [
@@ -221,6 +210,6 @@
     15.0
   ],
   "completed_trades": 75,
-  "last_adjustment": "2 stop_loss exit(s) (ETN, ILMN)",
+  "last_adjustment": "1 stop_loss exit(s) (ADI); 1 bad_news exit(s) (VRT)",
   "conviction_trade_dollars_max": 100000.0
 }

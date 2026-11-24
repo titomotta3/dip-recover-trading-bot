@@ -3,7 +3,7 @@
   "sell_threshold_pct": 13.5,
   "trade_dollars": 20000.0,
   "completed_trades": 75,
-  "last_adjustment": "2 stop_loss exit(s) (ETN, ILMN)",
-  "updated_utc": "2026-11-24T00:38:18+00:00",
-  "risk_exits": 124
+  "last_adjustment": "1 stop_loss exit(s) (ADI); 1 bad_news exit(s) (VRT)",
+  "updated_utc": "2026-11-24T19:03:02+00:00",
+  "risk_exits": 126
 }
