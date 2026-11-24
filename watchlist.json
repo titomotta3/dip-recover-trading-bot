@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-11-20T20:58:05+00:00",
+  "updated_utc": "2026-11-24T19:02:13+00:00",
   "drop_threshold_pct": -5.0,
   "high_conviction_pct": -8.0,
   "stocks": [
@@ -7,115 +7,52 @@
       "symbol": "SNDK",
       "name": "Sandisk",
       "sector": "Information Technology",
-      "pct_change": -16.367389689797754,
+      "pct_change": -17.813438646111578,
       "conviction": "high",
       "status": "order_failed",
       "news_bad": false
     },
     {
-      "symbol": "BE",
-      "name": "Bloom Energy",
-      "sector": "Industrials",
-      "pct_change": -16.037122488837284,
+      "symbol": "HPE",
+      "name": "Hewlett Packard Enterprise",
+      "sector": "Information Technology",
+      "pct_change": -16.285087052073955,
       "conviction": "high",
-      "status": "blocked_news",
-      "news_bad": true
+      "status": "order_failed",
+      "news_bad": false
+    },
+    {
+      "symbol": "DELL",
+      "name": "Dell Technologies",
+      "sector": "Information Technology",
+      "pct_change": -11.4926367721185,
+      "conviction": "high",
+      "status": "order_failed",
+      "news_bad": false
     },
     {
       "symbol": "MU",
       "name": "Micron Technology",
       "sector": "Information Technology",
-      "pct_change": -14.710909994360941,
+      "pct_change": -11.078143713685181,
       "conviction": "high",
-      "status": "order_failed",
-      "news_bad": false
+      "status": "blocked_news",
+      "news_bad": true
     },
     {
       "symbol": "LITE",
       "name": "Lumentum",
       "sector": "Information Technology",
-      "pct_change": -14.402505594841546,
+      "pct_change": -10.427461357743509,
       "conviction": "high",
       "status": "order_failed",
       "news_bad": false
     },
     {
-      "symbol": "NVDA",
-      "name": "Nvidia",
+      "symbol": "TXN",
+      "name": "Texas Instruments",
       "sector": "Information Technology",
-      "pct_change": -14.344427609858737,
-      "conviction": "high",
-      "status": "blocked_news",
-      "news_bad": true
-    },
-    {
-      "symbol": "AMD",
-      "name": "Advanced Micro Devices",
-      "sector": "Information Technology",
-      "pct_change": -14.10290273514705,
-      "conviction": "high",
-      "status": "blocked_news",
-      "news_bad": true
-    },
-    {
-      "symbol": "COHR",
-      "name": "Coherent Corp.",
-      "sector": "Information Technology",
-      "pct_change": -13.895039069144307,
-      "conviction": "high",
-      "status": "order_failed",
-      "news_bad": false
-    },
-    {
-      "symbol": "INTU",
-      "name": "Intuit",
-      "sector": "Information Technology",
-      "pct_change": -13.015281922404709,
-      "conviction": "high",
-      "status": "order_failed",
-      "news_bad": false
-    },
-    {
-      "symbol": "P",
-      "name": "Everpure",
-      "sector": "Information Technology",
-      "pct_change": -12.853078254591232,
-      "conviction": "high",
-      "status": "order_failed",
-      "news_bad": false
-    },
-    {
-      "symbol": "AVGO",
-      "name": "Broadcom",
-      "sector": "Information Technology",
-      "pct_change": -12.811475842076966,
-      "conviction": "high",
-      "status": "bought",
-      "news_bad": false
-    },
-    {
-      "symbol": "WDC",
-      "name": "Western Digital",
-      "sector": "Information Technology",
-      "pct_change": -12.500844482820211,
-      "conviction": "high",
-      "status": "order_failed",
-      "news_bad": false
-    },
-    {
-      "symbol": "ANET",
-      "name": "Arista Networks",
-      "sector": "Information Technology",
-      "pct_change": -12.405712045984819,
-      "conviction": "high",
-      "status": "bought",
-      "news_bad": false
-    },
-    {
-      "symbol": "MRVL",
-      "name": "Marvell Technology",
-      "sector": "Information Technology",
-      "pct_change": -12.396187451582795,
+      "pct_change": -9.545318587415217,
       "conviction": "high",
       "status": "order_failed",
       "news_bad": false
@@ -124,19 +61,82 @@
       "symbol": "MPWR",
       "name": "Monolithic Power Systems",
       "sector": "Information Technology",
-      "pct_change": -12.3001294782202,
+      "pct_change": -8.95882684818404,
       "conviction": "high",
       "status": "order_failed",
       "news_bad": false
     },
     {
-      "symbol": "STX",
-      "name": "Seagate Technology",
+      "symbol": "COHR",
+      "name": "Coherent Corp.",
       "sector": "Information Technology",
-      "pct_change": -12.072655000542,
+      "pct_change": -8.790140139616401,
       "conviction": "high",
-      "status": "blocked_news",
-      "news_bad": true
+      "status": "bought",
+      "news_bad": false
+    },
+    {
+      "symbol": "AMD",
+      "name": "Advanced Micro Devices",
+      "sector": "Information Technology",
+      "pct_change": -8.764829503403902,
+      "conviction": "high",
+      "status": "bought",
+      "news_bad": false
+    },
+    {
+      "symbol": "MRVL",
+      "name": "Marvell Technology",
+      "sector": "Information Technology",
+      "pct_change": -8.61544890662041,
+      "conviction": "high",
+      "status": "order_failed",
+      "news_bad": false
+    },
+    {
+      "symbol": "P",
+      "name": "Everpure",
+      "sector": "Information Technology",
+      "pct_change": -8.43481248616365,
+      "conviction": "high",
+      "status": "order_failed",
+      "news_bad": false
+    },
+    {
+      "symbol": "FLEX",
+      "name": "Flex Ltd.",
+      "sector": "Information Technology",
+      "pct_change": -8.432513395293013,
+      "conviction": "high",
+      "status": "order_failed",
+      "news_bad": false
+    },
+    {
+      "symbol": "KLAC",
+      "name": "KLA Corporation",
+      "sector": "Information Technology",
+      "pct_change": -7.977380376225124,
+      "conviction": "buy_signal",
+      "status": "order_failed",
+      "news_bad": false
+    },
+    {
+      "symbol": "TER",
+      "name": "Teradyne",
+      "sector": "Information Technology",
+      "pct_change": -7.7940976302448535,
+      "conviction": "buy_signal",
+      "status": "order_failed",
+      "news_bad": false
+    },
+    {
+      "symbol": "BE",
+      "name": "Bloom Energy",
+      "sector": "Industrials",
+      "pct_change": -7.689558813627519,
+      "conviction": "buy_signal",
+      "status": "bought",
+      "news_bad": false
     }
   ]
 }

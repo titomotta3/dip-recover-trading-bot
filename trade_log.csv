@@ -613,3 +613,13 @@ timestamp_utc,action,symbol,detail
 2026-11-20T20:57:50+00:00,BUY,CDNS,drop=-7.91% notional=$20000.00 news=clear(3)
 2026-11-20T20:57:51+00:00,BUY,CAT,drop=-5.41% notional=$20000.00 news=clear(2)
 2026-11-20T20:57:51+00:00,BUY,CIEN,drop=-11.67% notional=$20000.00 news=clear(1)
+2026-11-24T19:01:36+00:00,SELL,AMAT,gain=7.47% qty=66.309775582 reason=target_reached
+2026-11-24T19:01:36+00:00,SELL,APP,gain=11.02% qty=57.65014989 reason=target_reached
+2026-11-24T19:01:36+00:00,SELL,APTV,gain=7.41% qty=568.18153409 reason=target_reached
+2026-11-24T19:01:36+00:00,SELL,AXON,gain=11.39% qty=68.745651426 reason=target_reached
+2026-11-24T19:01:36+00:00,SELL,XYZ,gain=7.15% qty=287.89391104 reason=target_reached
+2026-11-24T19:02:09+00:00,BUY,AMD,drop=-8.76% notional=$20000.00 news=clear(3)
+2026-11-24T19:02:09+00:00,BUY,AMAT,drop=-6.50% notional=$20000.00 news=clear(1)
+2026-11-24T19:02:09+00:00,BUY,BE,drop=-7.69% notional=$20000.00 news=clear(1)
+2026-11-24T19:02:09+00:00,BUY,CDW,drop=-5.43% notional=$20000.00 news=none
+2026-11-24T19:02:09+00:00,BUY,COHR,drop=-8.79% notional=$20000.00 news=clear(1)
